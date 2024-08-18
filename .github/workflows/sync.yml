@@ -1,0 +1,23 @@
+name: Scoop Buckets Sync
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 0 12 * *'
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    # runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@main
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - name: Sync buckets
+        run: |
+          cp -f .github/package.json .
+          npm i --no-package-lock --no-audit --no-fund
+          node .github/sync.mjs
+        env:
+          SYNC: 1
