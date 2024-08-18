@@ -1,16 +1,18 @@
 <p align="center"><img src="https://gcore.jsdelivr.net/gh/cmontage/scoopbucket@main/bin/scoop.png" alt="Scoop Logo" ></p>
 
-<h1 align="center">Scoop Bucket All In One</h1>
+<h1 align="center">Third Bucket All In One</h1>
 
-将 Scoop 官方的 Bucket 以及少部分第三方库整合成一个 Bucket，每日同步，便于使用。
+将 Scoop 第三方库整合成一个 Bucket，每日同步，便于使用。
 
 ## 介绍
 
-同时包含了 Scoop 官方的十个应用库：main、extras、versions、nirsoft、sysinternals、php、nerd-fonts、nonportable、java、games（可使用命令 `scoop bucket known` 查看）。
+包含了我觉得自己用得到的 Scoop 第三方库：
 
-外加一些自己用的到的第三方库：
-
-scoopcn/scoopcn
+    ivaquero/scoopet
+    scoopcn/scoopcn
+    kkzzhizhou/scoop-apps
+    anderlli0053/DEV-tools
+    akirco/aki-apps
 
 本应用库每天自动更新一次。
 
@@ -52,10 +54,10 @@ scoop bucket add main https://mirror.ghproxy.com/github.com/ScoopInstaller/Main
 1. 添加本仓库，运行命令
 
     ```powershell
-    scoop bucket add mybucket https://mirror.ghproxy.com/github.com/cmontage/scoopbucket
+    scoop bucket add third https://mirror.ghproxy.com/github.com/cmontage/scoopbucket-third
 
     # 如果需要移除本仓库
-    scoop bucket rm mybucket
+    scoop bucket rm third
     ```
 
 2. 下载几个基本的应用，注意使用代理最好不要用aria2
@@ -87,7 +89,7 @@ scoop-search APPNAME
 安装应用：
 
 ```powershell
-scoop install mybucket/APPNAME
+scoop install third/APPNAME
 ```
 
 ## 查看帮助
