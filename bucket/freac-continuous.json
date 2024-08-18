@@ -1,0 +1,47 @@
+{
+  "version": "9024897816",
+  "description": "Audio converter and CD ripper with support for various popular formats and encoders",
+  "homepage": "https://www.freac.org",
+  "license": "GPL-2.0-only",
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/enzo1982/freac/releases/download/continuous/freac-continuous-windows-x64.zip",
+      "hash": "c1ca6c2cca99d3d2cd7c367ee27e3e5ae6e243248f920f1b0e280d612b600bf4",
+      "extract_dir": "freac-continuous-windows-x64"
+    },
+    "32bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/enzo1982/freac/releases/download/continuous/freac-continuous-windows.zip",
+      "hash": "645bbad13a9a132283989f2fc0f86613d4f86a516c5e3210d7758afad9db7ec2",
+      "extract_dir": "freac-continuous-windows"
+    }
+  },
+  "pre_install": "if (!(Test-Path \"$persist_dir\\freac.xml\")) { New-Item \"$dir\\freac.xml\" | Out-Null }",
+  "bin": [
+    "freaccmd.exe",
+    [
+      "freaccmd.exe",
+      "freac"
+    ]
+  ],
+  "shortcuts": [
+    [
+      "freac.exe",
+      "freac - free audio converter"
+    ]
+  ],
+  "persist": "freac.xml",
+  "checkver": {
+    "url": "https://api.github.com/repositories/100884109/actions/workflows/continuous-build-windows.yml/runs?branch=master&status=success",
+    "jsonpath": "$.workflow_runs[0].id"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/enzo1982/freac/releases/download/continuous/freac-continuous-windows-x64.zip"
+      },
+      "32bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/enzo1982/freac/releases/download/continuous/freac-continuous-windows.zip"
+      }
+    }
+  }
+}

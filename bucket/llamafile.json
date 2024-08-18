@@ -1,0 +1,15 @@
+{
+  "version": "0.8.12",
+  "description": "Distribute and run LLMs with a single file",
+  "homepage": "https://llamafile.ai/",
+  "license": "Apache-2.0",
+  "url": "https://mirror.ghproxy.com/https://github.com/Mozilla-Ocho/llamafile/releases/download/0.8.12/llamafile-0.8.12#/llamafile.exe",
+  "hash": "5840a518c87e847c380c24ba884014360082b795f12c649e7241cd019d324c7b",
+  "bin": "llamafile.exe",
+  "checkver": {
+    "github": "https://github.com/Mozilla-Ocho/llamafile"
+  },
+  "autoupdate": {
+    "url": "https://mirror.ghproxy.com/https://github.com/Mozilla-Ocho/llamafile/releases/download/$version/llamafile-$version#/llamafile.exe"
+  }
+}

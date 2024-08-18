@@ -1,0 +1,21 @@
+{
+  "version": "2.12",
+  "license": "freeware",
+  "url": "https://www.the-sz.com/products/homedale/Homedale.zip",
+  "homepage": "https://www.the-sz.com/products/homedale/",
+  "hash": "2eab87b5740c7e1259b2ab09c4f7f4176ff8a39dc8658805a0d2184b4c22132f",
+  "bin": "Homedale.exe",
+  "checkver": {
+    "url": "https://www.the-sz.com/products/homedale/",
+    "regex": "Version ([\\d.]+)"
+  },
+  "autoupdate": {
+    "url": "https://www.the-sz.com/products/homedale/Homedale.zip"
+  },
+  "shortcuts": [
+    [
+      "Homedale.exe",
+      "Homedale"
+    ]
+  ]
+}

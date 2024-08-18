@@ -1,0 +1,31 @@
+{
+  "version": "1.9.0",
+  "description": "Diff tool for YAML files, and sometimes JSON",
+  "homepage": "https://github.com/homeport/dyff",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/homeport/dyff/releases/download/v1.9.0/dyff_1.9.0_windows_amd64.tar.gz",
+      "hash": "bb5e48ca8e235efe5770965540d4a108f2f1a7ed72aaaa74ac5dd25c411d923a"
+    },
+    "arm64": {
+      "url": "https://mirror.ghproxy.com/https://github.com/homeport/dyff/releases/download/v1.9.0/dyff_1.9.0_windows_arm64.tar.gz",
+      "hash": "84db02ba1d30c092e593f2b2dbc91f6390921e6e091b2f9e754077945822e84d"
+    }
+  },
+  "bin": "dyff.exe",
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/homeport/dyff/releases/download/v$version/dyff_$version_windows_amd64.tar.gz"
+      },
+      "arm64": {
+        "url": "https://mirror.ghproxy.com/https://github.com/homeport/dyff/releases/download/v$version/dyff_$version_windows_arm64.tar.gz"
+      }
+    },
+    "hash": {
+      "url": "$baseurl/checksums.txt"
+    }
+  }
+}

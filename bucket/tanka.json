@@ -1,0 +1,23 @@
+{
+  "version": "0.28.0",
+  "description": "Flexible, reusable and concise configuration utility for Kubernetes",
+  "homepage": "https://tanka.dev/",
+  "license": "Apache-2.0",
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/grafana/tanka/releases/download/v0.28.0/tk-windows-amd64.exe#/tk.exe",
+      "hash": "801044cf855ce310c3dac6d5e99581b6429bad68fcbee429ce9e9e82817393ff"
+    }
+  },
+  "bin": "tk.exe",
+  "checkver": {
+    "github": "https://github.com/grafana/tanka"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/grafana/tanka/releases/download/v$version/tk-windows-amd64.exe#/tk.exe"
+      }
+    }
+  }
+}

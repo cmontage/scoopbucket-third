@@ -1,0 +1,41 @@
+{
+  "version": "3.4.1",
+  "description": "Git extension for versioning large files.",
+  "homepage": "https://git-lfs.github.com/",
+  "license": "MIT",
+  "suggest": {
+    "Git": [
+      "git",
+      "git-with-openssh"
+    ]
+  },
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/git-lfs/git-lfs/releases/download/v3.4.1/git-lfs-windows-amd64-v3.4.1.zip",
+      "hash": "a6f9fda2792bc441c0ec5df8c1d64274bddfac09fb702e78d839cb1cf0a13d8f"
+    },
+    "32bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/git-lfs/git-lfs/releases/download/v3.4.1/git-lfs-windows-386-v3.4.1.zip",
+      "hash": "b518b470071bd1465ee6468ba43701fc2b04495501b4bc533c593c426b6d14a7"
+    }
+  },
+  "extract_dir": "git-lfs-3.4.1",
+  "bin": "git-lfs.exe",
+  "checkver": {
+    "github": "https://github.com/git-lfs/git-lfs"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/git-lfs/git-lfs/releases/download/v$version/git-lfs-windows-amd64-v$version.zip"
+      },
+      "32bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/git-lfs/git-lfs/releases/download/v$version/git-lfs-windows-386-v$version.zip"
+      }
+    },
+    "hash": {
+      "url": "$baseurl/sha256sums.asc"
+    },
+    "extract_dir": "git-lfs-$version"
+  }
+}

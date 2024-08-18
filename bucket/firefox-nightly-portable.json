@@ -1,0 +1,53 @@
+{
+  "version": "131.0a1.20240816093002",
+  "description": "Nightly builds of Firefox: the popular open source web browser.",
+  "homepage": "https://www.mozilla.org/en-US/firefox/nightly/",
+  "license": "MPL-2.0",
+  "architecture": {
+    "64bit": {
+      "url": "https://archive.mozilla.org/pub/firefox/nightly/2024/08/2024-08-16-09-30-02-mozilla-central/firefox-131.0a1.en-US.win64.installer.exe#/dl.7z",
+      "hash": "sha512:7f658a49a1e089613c366cb51d4a01b9b769a47ad77887a74301bbaffc13cdb15de229c454247bcfe846a7fa6809ee7486af57b5ecb3611cb1ac6af3d812875f"
+    },
+    "32bit": {
+      "url": "https://archive.mozilla.org/pub/firefox/nightly/2024/08/2024-08-16-09-30-02-mozilla-central/firefox-131.0a1.en-US.win32.installer.exe#/dl.7z",
+      "hash": "sha512:17d37d79f667ce51801fa62bea233b02aeb87b3c54462063cfc86c66ea94fd343de60e82e766adaed5448de25e05d48d9d02649437c91b43bea1931a50affce7"
+    }
+  },
+  "extract_dir": "core",
+  "bin": [
+    [
+      "firefox.exe",
+      "firefox-nightly",
+      "-profile \"$dir\\profile\""
+    ]
+  ],
+  "shortcuts": [
+    [
+      "firefox.exe",
+      "Firefox Nightly",
+      "-profile \"$dir\\profile\""
+    ]
+  ],
+  "persist": "profile",
+  "checkver": {
+    "url": "https://aus5.mozilla.org/update/6/Firefox/60.0/_/WINNT_x86_64-msvc-x64/en-US/nightly/_/_/_/_/update.xml",
+    "regex": "appVersion=\"([\\w.]+)\".*?buildID=\"((?<yyyy>\\d{4})(?<mm>\\d{2})(?<dd>\\d{2})(?<hr>\\d{2})(?<mi>\\d{2})(?<se>\\d{2}))",
+    "replace": "${1}.${2}"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://archive.mozilla.org/pub/firefox/nightly/$matchYyyy/$matchMm/$matchYyyy-$matchMm-$matchDd-$matchHr-$matchMi-$matchSe-mozilla-central/firefox-$majorVersion.$minorVersion.en-US.win64.installer.exe#/dl.7z",
+        "hash": {
+          "url": "$baseurl/firefox-$majorVersion.$minorVersion.en-US.win64.checksums"
+        }
+      },
+      "32bit": {
+        "url": "https://archive.mozilla.org/pub/firefox/nightly/$matchYyyy/$matchMm/$matchYyyy-$matchMm-$matchDd-$matchHr-$matchMi-$matchSe-mozilla-central/firefox-$majorVersion.$minorVersion.en-US.win32.installer.exe#/dl.7z",
+        "hash": {
+          "url": "$baseurl/firefox-$majorVersion.$minorVersion.en-US.win32.checksums"
+        }
+      }
+    }
+  }
+}

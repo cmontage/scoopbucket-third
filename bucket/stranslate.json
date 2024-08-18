@@ -1,0 +1,32 @@
+{
+  "version": "1.1.8.810",
+  "description": "A ready-to-use, ready-to-go translation and OCR tool developed by WPF",
+  "homepage": "https://stranslate.zggsong.com",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/ZGGSONG/STranslate/releases/download/1.1.8.810/STranslate_1.1.8.810_win-x64_7z.7z",
+      "hash": "ba0aa0cb58b5659386f4f6497b589471d331245a7c43dc5c88c0475ad2faf75e"
+    }
+  },
+  "shortcuts": [
+    [
+      "STranslate.exe",
+      "STranslate"
+    ]
+  ],
+  "post_install": "Remove-Item \"$dir\\Updater*\" -Force -Recurse",
+  "checkver": {
+    "github": "https://github.com/ZGGSONG/STranslate"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/ZGGSONG/STranslate/releases/download/$version/STranslate_$version_win-x64_7z.7z"
+      }
+    },
+    "hash": {
+      "url": "$url.sha256"
+    }
+  }
+}

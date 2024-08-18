@@ -1,0 +1,27 @@
+{
+  "version": "3.1.4",
+  "description": "Get data in and out of Redis with RIOT",
+  "homepage": "https://github.com/redis-developer/riot",
+  "license": "Apache-2.0",
+  "url": "https://mirror.ghproxy.com/https://github.com/redis-developer/riot/releases/download/v3.1.4/riot-3.1.4.zip",
+  "hash": "sha256:4a499684c8e7888cb6cd224d87fd37fe609ed32e0416c818b517b4cfa12699aa",
+  "extract_dir": "riot-3.1.4",
+  "env_add_path": "bin",
+  "suggest": {
+    "JDK": [
+      "java/oraclejdk",
+      "java/openjdk"
+    ]
+  },
+  "checkver": {
+    "url": "https://github.com/redis-developer/riot/releases/latest",
+    "re": "v([\\d.]+).zip"
+  },
+  "autoupdate": {
+    "url": "https://mirror.ghproxy.com/https://github.com/redis-developer/riot/releases/download/v$version/riot-$version.zip",
+    "extract_dir": "riot-$version",
+    "hash": {
+      "url": "$url.sha256"
+    }
+  }
+}

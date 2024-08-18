@@ -1,0 +1,29 @@
+{
+  "architecture": {
+    "64bit": {
+      "hash": "42f50b439e38500c8a0d799a9018633e4de18800142ae0416161c4bbda0a2e2c",
+      "url": "https://www.lunaverus.com/download/windowsManual"
+    }
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://www.lunaverus.com/download/windowsManual"
+      }
+    }
+  },
+  "checkver": {
+    "re": "see what's new in ([\\d.]+)",
+    "url": "https://www.lunaverus.com/download"
+  },
+  "description": "Audio to Sheet Music With Machine Learning",
+  "homepage": "https://www.lunaverus.com/",
+  "license": "Proprietary",
+  "shortcuts": [
+    [
+      "AnthemScore.exe",
+      "AnthemScore"
+    ]
+  ],
+  "version": "5.0.1"
+}

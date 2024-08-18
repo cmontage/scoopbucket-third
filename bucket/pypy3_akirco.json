@@ -1,0 +1,32 @@
+{
+  "version": "7.3.16",
+  "description": "A fast, compliant alternative implementation of the Python language.",
+  "homepage": "https://www.pypy.org",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://downloads.python.org/pypy/pypy3.10-v7.3.16-win64.zip",
+      "hash": "95ff7c3f23098307de9bea5ea75f47c6c4d615c07bee2e841aecef10e751286b",
+      "extract_dir": "pypy3.10-v7.3.16-win64"
+    }
+  },
+  "bin": [
+    "pypy.exe",
+    "pypyw.exe"
+  ],
+  "checkver": {
+    "url": "https://www.pypy.org/download.html",
+    "regex": "pypy(?<py>3[\\d.]+)-v([\\d.]+)"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://downloads.python.org/pypy/pypy$matchPy-v$version-win64.zip",
+        "extract_dir": "pypy$matchPy-v$version-win64"
+      }
+    },
+    "hash": {
+      "url": "https://www.pypy.org/checksums.html"
+    }
+  }
+}

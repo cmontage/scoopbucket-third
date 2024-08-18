@@ -1,0 +1,39 @@
+{
+  "version": "139",
+  "description": "Multi-system emulator focused on accuracy and preservation",
+  "homepage": "https://ares-emulator.github.io/",
+  "license": "ISC",
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/ares-emulator/ares/releases/download/v139/ares-windows.zip",
+      "hash": "d5d99dcf8c1129b972c01ef0d18d3803755056a9f3c7bca132bd6b32da424b11"
+    }
+  },
+  "extract_dir": "ares-v139",
+  "pre_install": "if (!(Test-Path \"$persist_dir\\settings.bml\")) { New-Item -ItemType File \"$dir\\settings.bml\" | Out-Null }",
+  "bin": "ares.exe",
+  "shortcuts": [
+    [
+      "ares.exe",
+      "ares"
+    ]
+  ],
+  "persist": [
+    "settings.bml",
+    "Systems",
+    "Saves",
+    "Screenshots",
+    "Debugging"
+  ],
+  "checkver": {
+    "github": "https://github.com/ares-emulator/ares/"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/ares-emulator/ares/releases/download/v$version/ares-windows.zip"
+      }
+    },
+    "extract_dir": "ares-v$version"
+  }
+}

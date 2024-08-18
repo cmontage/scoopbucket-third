@@ -1,0 +1,33 @@
+{
+  "version": "2.12.19",
+  "description": "A modern multi-paradigm programming language designed to express common programming patterns in a concise, elegant, and type-safe way.",
+  "homepage": "https://www.scala-lang.org/",
+  "license": "BSD-3-Clause",
+  "suggest": {
+    "JDK": [
+      "java/oraclejdk",
+      "java/openjdk"
+    ]
+  },
+  "url": "https://downloads.lightbend.com/scala/2.12.19/scala-2.12.19.zip",
+  "hash": "40eb49919f510baedfbb408ca29915de025784f46368ce3facb8600eeac4b777",
+  "extract_dir": "scala-2.12.19",
+  "bin": [
+    "bin\\fsc.bat",
+    "bin\\scala.bat",
+    "bin\\scalac.bat",
+    "bin\\scaladoc.bat",
+    "bin\\scalap.bat"
+  ],
+  "env_set": {
+    "SCALA_HOME": "$dir"
+  },
+  "checkver": {
+    "url": " https://docs.scala-lang.org/api/all.html",
+    "regex": "Scala (2\\.12\\.[\\d.]+)"
+  },
+  "autoupdate": {
+    "url": "https://downloads.lightbend.com/scala/$version/scala-$version.zip",
+    "extract_dir": "scala-$version"
+  }
+}

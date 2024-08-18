@@ -1,0 +1,76 @@
+{
+  "version": "2.929",
+  "description": "A large collection of GNU and Open Source tools which provide functionality similar to a Linux distribution on Windows",
+  "homepage": "https://cygwin.com/",
+  "license": {
+    "identifier": "GPL-3.0-or-later,X11,Public Domain",
+    "url": "https://cygwin.com/faq.html#faq.what.free"
+  },
+  "notes": "To start a Cygwin shell, type \"cygwin\".",
+  "architecture": {
+    "64bit": {
+      "url": "https://cygwin.com/setup-x86_64.exe#/cygwin-setup.exe",
+      "hash": "0acdba4df3f78d232ce05cb90bf96b5235fa10158e54b7a56f9b8825cace40fb"
+    },
+    "32bit": {
+      "url": "https://cygwin.com/setup-x86.exe#/cygwin-setup.exe",
+      "hash": "d47d7e4676a52776ea0d760bf1ed46f72a0b908c7b25ad5b7580d20e086d68ee"
+    }
+  },
+  "pre_install": "persist_data @{persist = @('packages', 'root')} $original_dir $persist_dir",
+  "installer": {
+    "args": [
+      "--no-admin",
+      "--no-shortcuts",
+      "--quiet-mode",
+      "--local-package-dir",
+      "$dir\\packages",
+      "--root",
+      "$dir\\root",
+      "--site",
+      "https://mirrors.kernel.org/sourceware/cygwin/"
+    ],
+    "keep": true
+  },
+  "bin": [
+    [
+      "root\\bin\\bash.exe",
+      "cygwin",
+      "--login -i"
+    ]
+  ],
+  "shortcuts": [
+    [
+      "root\\Cygwin.bat",
+      "Cygwin",
+      "",
+      "root\\Cygwin-Terminal.ico"
+    ],
+    [
+      "cygwin-setup.exe",
+      "Cygwin Setup",
+      "--no-admin --no-shortcuts --root \"$persist_dir\\root\" --local-package-dir \"$persist_dir\\packages\""
+    ],
+    [
+      "root\\bin\\mintty.exe",
+      "Cygwin Terminal",
+      "-i \"$dir\\root\\Cygwin-Terminal.ico\" -",
+      "root\\Cygwin-Terminal.ico"
+    ]
+  ],
+  "pre_uninstall": "unlink_persist_data @{persist = @('packages', 'root')} $dir",
+  "checkver": {
+    "url": "https://cygwin.com/git/?p=cygwin-apps/setup.git;a=tags",
+    "regex": ">release_([\\d.]+)<"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://cygwin.com/setup-x86_64.exe#/cygwin-setup.exe"
+      },
+      "32bit": {
+        "url": "https://cygwin.com/setup-x86.exe#/cygwin-setup.exe"
+      }
+    }
+  }
+}

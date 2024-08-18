@@ -1,0 +1,32 @@
+{
+  "homepage": "https://www.tradingview.com/chart",
+  "description": "TradingView Desktop",
+  "version": "2.8.1",
+  "license": "Proprietary",
+  "architecture": {
+    "64bit": {
+      "url": "https://tvd-packages.tradingview.com/stable/2.8.1/win32/x64/TradingView.msix",
+      "hash": "0bcd43ecab3b0339fb3b2a4d1587edcab3fba7dc1b7d1f6ff3ff1065bcd24138"
+    }
+  },
+  "installer": {
+    "script": "Expand-7zipArchive -Path \"$dir\\$fname\" -DestinationPath \"$dir\" -Removal"
+  },
+  "shortcuts": [
+    [
+      "TradingView.exe",
+      "TradingView"
+    ]
+  ],
+  "checkver": {
+    "script": "return (Invoke-WebRequest -Useb 'https://tvd-packages.tradingview.com/stable/latest/win32/TradingView.appinstaller').ToString()",
+    "regex": "stable/([\\d.]+)/win32/x64"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://tvd-packages.tradingview.com/stable/$version/win32/x64/TradingView.msix"
+      }
+    }
+  }
+}

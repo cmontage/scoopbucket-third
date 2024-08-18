@@ -1,0 +1,37 @@
+{
+  "version": "2023.07.23.1690080508",
+  "description": "yt-dlp fork with some more features",
+  "homepage": "https://github.com/ytdl-patched/ytdl-patched",
+  "license": "Unlicense",
+  "suggest": {
+    "ffmpeg": [
+      "scoop-alts/ffmpeg-shared-nightly",
+      "ffmpeg-yt-dlp",
+      "ffmpeg"
+    ]
+  },
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/ytdl-patched/ytdl-patched/releases/download/2023.07.23.1690080508/ytdl-patched-red.exe#/ytdl-patched.exe",
+      "hash": "bdffd1fe3c4664aa6e79a0a91c0059ddaa5021ee18f418f68c5e617c93dba800"
+    }
+  },
+  "bin": "ytdl-patched.exe",
+  "pre_install": [
+    "if (-not (Test-Path \"$persist_dir\\ytdl-patched.conf\")) { New-Item \"$dir\\ytdl-patched.conf\" -ItemType file | Out-Null }",
+    "New-ItemProperty -Path \"HKCU:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\AppCompatFlags\\Layers\" -Name \"$scoopdir\\shims\\ytdl-patched.exe\" -Value \"~ RUNASINVOKER\" -Type 'String' -Force | Out-Null"
+  ],
+  "post_uninstall": "Remove-ItemProperty \"HKCU:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\AppCompatFlags\\Layers\" -Name \"$scoopdir\\shims\\ytdl-patched.exe\" -ErrorAction 'SilentlyContinue' -Force",
+  "persist": [
+    "ytdl-patched.conf",
+    "ytdlp_plugins"
+  ],
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/ytdl-patched/ytdl-patched/releases/download/$version/ytdl-patched-red.exe#/ytdl-patched.exe"
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": "2.5.4",
+  "description": "Plays internet radio streams and manages your favorite stations.",
+  "homepage": "https://www.ophthalmostar.de/freeware/#netradio",
+  "license": "Freeware",
+  "suggest": {
+    ".NET Desktop Runtime": "extras/windowsdesktop-runtime-lts"
+  },
+  "url": "https://www.ophthalmostar.de/NetRadio.zip",
+  "hash": "d66cdc31b89f8f0fd4a6d96f30a72af76bddba2fa02cd45ec08282fe08256a9e",
+  "pre_install": [
+    "if (!(Test-Path \"$persist_dir\\NetRadio.xml\")) {",
+    "    Add-Content \"$dir\\NetRadio.xml\" '<NetRadio></NetRadio>' -Encoding Ascii",
+    "}"
+  ],
+  "shortcuts": [
+    [
+      "NetRadio.exe",
+      "NetRadio"
+    ]
+  ],
+  "persist": "NetRadio.xml",
+  "checkver": {
+    "regex": "sdm_download_title\">NetRadio[\\s\\S]*sdm_download_version_value\">([\\d.]+)[\\s\\S]*title=\"NetRadio\""
+  },
+  "autoupdate": {
+    "url": "https://www.ophthalmostar.de/NetRadio.zip"
+  }
+}

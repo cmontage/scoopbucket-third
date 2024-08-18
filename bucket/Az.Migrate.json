@@ -1,0 +1,27 @@
+{
+  "checkver": {
+    "url": "https://www.powershellgallery.com/api/v2/Packages()?$filter=Id%20eq%20'Az.Migrate'%20and%20IsLatestVersion%20eq%20true",
+    "replace": "${ver}",
+    "regex": "(?i)<d:Version>(?<ver>[^<]+)<.d:Version>"
+  },
+  "hash": "sha512:f9cf21a7cf9d96776ff9a621411d43de1cef93c4c7843c02787d869cc9c88a0b1c85af6dfb959248f188b674dae85bf9d91918b5d81cecc249106d1cbcfbf5c8",
+  "description": "Microsoft Azure PowerShell: Migrate cmdlets",
+  "psmodule": {
+    "name": "Az.Migrate"
+  },
+  "homepage": "https://www.powershellgallery.com/packages/Az.Migrate",
+  "autoupdate": {
+    "url": "https://www.powershellgallery.com/api/v2/Package/Az.Migrate/$version#/mod.nupkg",
+    "hash": {
+      "url": "https://www.powershellgallery.com/api/v2/Packages()?$filter=Id eq 'Az.Migrate' and Version eq '$version'",
+      "regex": "<d:PackageHash>$base64<.d:PackageHash>"
+    }
+  },
+  "license": {
+    "identifier": "Refer to Webpage",
+    "url": "https://aka.ms/azps-license"
+  },
+  "url": "https://www.powershellgallery.com/api/v2/Package/Az.Migrate/2.4.0#/mod.nupkg",
+  "depends": "Az.Accounts",
+  "version": "2.4.0"
+}

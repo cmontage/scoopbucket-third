@@ -1,0 +1,57 @@
+{
+  "version": "128.0.6613.36",
+  "description": "Google Chrome Beta. Fast, secure, and free web browser, built for the modern web.",
+  "homepage": "https://www.google.com/chrome/beta",
+  "license": {
+    "identifier": "Freeware",
+    "url": "https://www.google.com/chrome/privacy/eula_text.html"
+  },
+  "changelog": "https://chromereleases.googleblog.com/",
+  "architecture": {
+    "64bit": {
+      "url": "https://dl.google.com/release2/chrome/ackg4ybmbmk73pp6ienzylbjaeka_128.0.6613.36/128.0.6613.36_chrome_installer.exe#/dl.7z",
+      "hash": "b89e186bad6ebd1d31885533477ae24e89fb9cc6d9c7d56267c881decbc4f43d"
+    },
+    "32bit": {
+      "url": "https://dl.google.com/release2/chrome/kqqp5zsfgvbbejkbzwfocqaf2u_128.0.6613.36/128.0.6613.36_chrome_installer.exe#/dl.7z",
+      "hash": "e5fb31aef8887017b370f18b476cc466834057c896418f6a5d18b41e587cb22c"
+    }
+  },
+  "installer": {
+    "script": "Expand-7zipArchive \"$dir\\chrome.7z\" -ExtractDir 'Chrome-bin' -Removal"
+  },
+  "bin": [
+    [
+      "chrome.exe",
+      "chrome-beta"
+    ]
+  ],
+  "shortcuts": [
+    [
+      "chrome.exe",
+      "Google Chrome Beta"
+    ]
+  ],
+  "checkver": {
+    "url": "https://scoopinstaller.github.io/UpdateTracker/googlechrome/chrome.min.xml",
+    "regex": "(?sm)<beta32><version>(?<version>[\\d.]+)</version>.+release2/chrome/(?<32>[\\w-]+)_.+<beta64>.+release2/chrome/(?<64>[\\w-]+)_.+</beta64>"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://dl.google.com/release2/chrome/$match64_$version/$version_chrome_installer.exe#/dl.7z",
+        "hash": {
+          "url": "https://scoopinstaller.github.io/UpdateTracker/googlechrome/chrome.min.xml",
+          "xpath": "/chromechecker/beta64[version='$version']/sha256"
+        }
+      },
+      "32bit": {
+        "url": "https://dl.google.com/release2/chrome/$match32_$version/$version_chrome_installer.exe#/dl.7z",
+        "hash": {
+          "url": "https://scoopinstaller.github.io/UpdateTracker/googlechrome/chrome.min.xml",
+          "xpath": "/chromechecker/beta32[version='$version']/sha256"
+        }
+      }
+    }
+  }
+}

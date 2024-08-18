@@ -1,0 +1,49 @@
+{
+  "version": "1.12.3",
+  "description": "截屏 离线OCR 搜索翻译 以图搜图 贴图 录屏 滚动截屏 Screenshot OCR search translate search for picture paste the picture on the screen screen recorder",
+  "homepage": "https://esearch-app.netlify.app/",
+  "license": {
+    "identifier": "GPL-3.0 license",
+    "url": "https://github.com/xushengfeng/eSearch#GPL-3.0-1-ov-file"
+  },
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/xushengfeng/eSearch/releases/download/1.12.3/eSearch-1.12.3-win32-x64.zip",
+      "hash": "288b76d110a2f1c552f3d1b1b5dee9dbadacf133cbe5aef2be3a80fb425f1e93"
+    },
+    "arm64": {
+      "url": "https://mirror.ghproxy.com/https://github.com/xushengfeng/eSearch/releases/download/1.12.3/eSearch-1.12.3-win32-arm64.zip",
+      "hash": "41badec2dd497dd43d7999460f0485c60ca90841003454e65fae00bde7629987"
+    }
+  },
+  "installer": {
+    "script": [
+      "ensure \"$persist_dir\" | Out-Null",
+      "New-Item \"$env:APPDATA\\eSearch\" -ItemType Junction -Target \"$persist_dir\" | Out-Null"
+    ]
+  },
+  "uninstaller": {
+    "script": "Remove-Item \"$env:APPDATA\\eSearch\" -Recurse -Force -ErrorAction 'SilentlyContinue'"
+  },
+  "shortcuts": [
+    [
+      "eSearch.exe",
+      "eSearch"
+    ]
+  ],
+  "checkver": {
+    "url": "https://api.github.com/repos/xushengfeng/eSearch/releases/latest",
+    "jsonpath": "$.assets[*].browser_download_url",
+    "regex": "eSearch-([\\d.]+)-win32-x64.zip"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/xushengfeng/eSearch/releases/download/$version/eSearch-$version-win32-x64.zip"
+      },
+      "arm64": {
+        "url": "https://mirror.ghproxy.com/https://github.com/xushengfeng/eSearch/releases/download/$version/eSearch-$version-win32-arm64.zip"
+      }
+    }
+  }
+}

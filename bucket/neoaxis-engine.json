@@ -1,0 +1,33 @@
+{
+  "version": "2024.2.1",
+  "homepage": "https://www.neoaxis.com/",
+  "description": "A versatile real-time platform for making 3D, 2D games and apps.",
+  "license": {
+    "identifier": "Freeware",
+    "url": "https://www.neoaxis.com/LICENSE.txt"
+  },
+  "architecture": {
+    "64bit": {
+      "url": "https://www.neoaxis.com/downloads/NeoAxisLauncher-2024.2.1.exe",
+      "hash": "2b334f5fba0b6e6e0d4f4a1a87d255a51e9316b6275dfa674457d35128405828"
+    }
+  },
+  "innosetup": true,
+  "shortcuts": [
+    [
+      "NeoAxis.Launcher.exe",
+      "NeoAxis Launcher"
+    ]
+  ],
+  "checkver": {
+    "url": "https://www.neoaxis.com/neoaxis/downloads",
+    "regex": "NeoAxisLauncher-([\\d.]+)\\.exe"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://www.neoaxis.com/downloads/NeoAxisLauncher-$version.exe"
+      }
+    }
+  }
+}

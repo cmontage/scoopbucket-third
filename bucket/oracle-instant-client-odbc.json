@@ -1,0 +1,51 @@
+{
+  "version": "21.13.0.0.0",
+  "description": "Additional libraries for enabling ODBC applications with Oracle Instant Client.",
+  "homepage": "https://www.oracle.com/database/technologies/instant-client.html",
+  "license": {
+    "identifier": "Freeware",
+    "url": "https://www.oracle.com/downloads/licenses/instant-client-lic.html"
+  },
+  "depends": "oracle-instant-client",
+  "architecture": {
+    "64bit": {
+      "url": "https://download.oracle.com/otn_software/nt/instantclient/2113000/instantclient-odbc-windows.x64-21.13.0.0.0dbru.zip",
+      "hash": "11c33dfc606b29681dc8b9cb045e2fc736015e6bb91cae1c5bee571fe231c572"
+    },
+    "32bit": {
+      "url": "https://download.oracle.com/otn_software/nt/instantclient/2113000/instantclient-odbc-nt-21.13.0.0.0dbru.zip",
+      "hash": "33ea5d6a6b2aa9994a47ced97aafb217c81d5aeebfbf9f73e24fe1573f09440e"
+    }
+  },
+  "extract_dir": "instantclient_21_13",
+  "pre_install": [
+    "$instantclient = versiondir 'oracle-instant-client' 'current'",
+    "Copy-Item -Path \"$dir\\*\" -Destination \"$instantclient\" -Force -Recurse | Out-Null"
+  ],
+  "uninstaller": {
+    "script": [
+      "$instantclient = versiondir 'oracle-instant-client' 'current'",
+      "Get-ChildItem -Path \"$dir\" -Exclude *.json | ForEach-Object { Remove-Item -LiteralPath \"$instantclient\\$($_.Name)\" -Recurse -Force -ErrorAction SilentlyContinue }"
+    ]
+  },
+  "checkver": {
+    "url": "https://www.oracle.com/database/technologies/instant-client/microsoft-windows-32-downloads.html",
+    "regex": "Version ([\\d.]+)",
+    "useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://download.oracle.com/otn_software/nt/instantclient/$cleanVersion/instantclient-odbc-windows.x64-$versiondbru.zip"
+      },
+      "32bit": {
+        "url": "https://download.oracle.com/otn_software/nt/instantclient/$cleanVersion/instantclient-odbc-nt-$versiondbru.zip"
+      }
+    },
+    "extract_dir": "instantclient_$majorVersion_$minorVersion"
+  },
+  "notes": [
+    "Use 'odbc_install.exe' in Oracle Instant Client's dir to install ODBC.",
+    "Use 'odbc_uninstall.exe' in above dir to uninstall it."
+  ]
+}

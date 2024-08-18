@@ -1,0 +1,50 @@
+{
+  "version": "0.12.2-preview.2",
+  "description": "Game Launcher for miHoYo/hoyoverse.",
+  "homepage": "https://github.com/Scighost/Starward",
+  "license": {
+    "identifier": "MIT",
+    "url": "https://github.com/Scighost/Starward/blob/main/LICENSE"
+  },
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/Scighost/Starward/releases/download/0.12.2-preview.2/Starward_Portable_0.12.2-preview.2_x64.7z",
+      "hash": "3674d074f61dc8515733ef93f0919b9991dfa2d8ef5cc31f73caddd6473f2002"
+    },
+    "arm64": {
+      "url": "https://mirror.ghproxy.com/https://github.com/Scighost/Starward/releases/download/0.12.2-preview.2/Starward_Portable_0.12.2-preview.2_arm64.7z",
+      "hash": "8f383128856db7f607e2415d3018245a33774fc49fc68ce708f722973b9c3a3f"
+    }
+  },
+  "checkver": {
+    "script": [
+      "$rel_info = Invoke-RestMethod -Uri 'https://api.github.com/repos/Scighost/Starward/releases'",
+      "$latest = $rel_info | Sort-Object {$_.published_at} | Select-Object -last 1",
+      "Write-Output $latest.tag_name"
+    ],
+    "regex": "(?<version>[\\d.]+(?:-[\\w\\-\\d\\.]+)?)"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/Scighost/Starward/releases/download/$version/Starward_Portable_$version_x64.7z"
+      },
+      "arm64": {
+        "url": "https://mirror.ghproxy.com/https://github.com/Scighost/Starward/releases/download/$version/Starward_Portable_$version_arm64.7z"
+      }
+    }
+  },
+  "extract_dir": "Starward",
+  "shortcuts": [
+    [
+      "Starward.exe",
+      "Starward"
+    ]
+  ],
+  "pre_install": "If (-not (Test-Path $dir\\config.ini)) {\"UserDataFolder=$dir\\data\" | Out-File $dir\\config.ini}",
+  "persist": [
+    "data",
+    "config.ini"
+  ],
+  "notes": "Setup wizard would be skipped because of preset value of user data by pre-install scripts."
+}

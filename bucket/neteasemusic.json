@@ -1,0 +1,56 @@
+{
+  "homepage": "https://music.163.com/",
+  "description": "The official NetEase Cloud Music client.",
+  "version": "3.0.2.203023",
+  "license": {
+    "identifier": "EULA",
+    "url": "https://music.163.com/html/web2/service.html"
+  },
+  "architecture": {
+    "64bit": {
+      "url": "https://d1.music.126.net/dmusic/NeteaseCloudMusic_Music_official_3.0.2.203023_64.exe#/dl.7z",
+      "hash": "cacdfa6d8c8f892eb4df4d9e342b4cbce0714454583c5dd62646a68d7aa955e1"
+    },
+    "32bit": {
+      "url": "https://d1.music.126.net/dmusic/NeteaseCloudMusic_Music_official_3.0.2.203023_32.exe#/dl.7z",
+      "hash": "6c30fd4a9044f307545bd053a7ca7feaeaef47017d8bcd3cc2f21a12b27289c2"
+    }
+  },
+  "installer": {
+    "script": [
+      "Get-ChildItem \"$dir\\redist_packages\" | Move-Item -Destination \"$dir\" -Force",
+      "Import-Module $(Join-Path $(Find-BucketDirectory -Root -Name dorado) scripts/DoradoUtils.psm1)",
+      "Mount-ExternalRuntimeData -Source \"$persist_dir\\appdata\" -Target \"$env:LOCALAPPDATA\\Netease\\CloudMusic\"",
+      "Remove-Module -Name DoradoUtils"
+    ]
+  },
+  "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\",\"$dir\\redist_packages\" -Force -Recurse",
+  "uninstaller": {
+    "script": [
+      "Import-Module $(Join-Path $(Find-BucketDirectory -Root -Name dorado) scripts/DoradoUtils.psm1)",
+      "Dismount-ExternalRuntimeData -Target \"$env:LOCALAPPDATA\\Netease\\CloudMusic\"",
+      "Remove-Module -Name DoradoUtils"
+    ]
+  },
+  "bin": "cloudmusic.exe",
+  "shortcuts": [
+    [
+      "cloudmusic.exe",
+      "网易云音乐"
+    ]
+  ],
+  "checkver": {
+    "url": "https://music.163.com/api/appcustomconfig/get?key=web-pc-beta-download-links",
+    "regex": "(?<version>[\\d.]+)_32.exe"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://d1.music.126.net/dmusic/NeteaseCloudMusic_Music_official_$version_64.exe#/dl.7z"
+      },
+      "32bit": {
+        "url": "https://d1.music.126.net/dmusic/NeteaseCloudMusic_Music_official_$version_32.exe#/dl.7z"
+      }
+    }
+  }
+}

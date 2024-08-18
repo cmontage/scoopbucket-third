@@ -1,0 +1,32 @@
+{
+  "version": "1.29.1",
+  "description": "Retrieve and show weather information for a given geographic location in a small dialog and in the system tray",
+  "homepage": "https://github.com/FelixdelasPozas/TrayWeather",
+  "license": "GPL-3.0",
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/FelixdelasPozas/TrayWeather/releases/download/1.29.1/TrayWeather_v1.29.1_Portable.7z",
+      "hash": "638ad77e8f4540abe36b79ad7524dddc250a6621a9285bf8b3ab80721429b24c"
+    }
+  },
+  "pre_install": [
+    "if (!(Test-Path \"$persist_dir\\TrayWeather.ini\")) {",
+    "    Set-Content \"$dir\\TrayWeather.ini\" @('[General]', 'Update%20checks%20frequency=0') -Encoding Ascii",
+    "}"
+  ],
+  "shortcuts": [
+    [
+      "TrayWeather.exe",
+      "TrayWeather"
+    ]
+  ],
+  "persist": "TrayWeather.ini",
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/FelixdelasPozas/TrayWeather/releases/download/$version/TrayWeather_v$version_Portable.7z"
+      }
+    }
+  }
+}

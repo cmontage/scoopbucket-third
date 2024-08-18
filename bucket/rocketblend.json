@@ -1,0 +1,22 @@
+{
+  "version": "0.8.0",
+  "architecture": {
+    "32bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/rocketblend/rocketblend/releases/download/v0.8.0/rocketblend_Windows_i386.zip",
+      "bin": [
+        "rocketblend_Windows_i386/rocketblend.exe"
+      ],
+      "hash": "4db4cbe14e66822693cc11d4c9090b2ee791bc90cbd286f8501ee5cd9e8c8072"
+    },
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/rocketblend/rocketblend/releases/download/v0.8.0/rocketblend_Windows_x86_64.zip",
+      "bin": [
+        "rocketblend_Windows_x86_64/rocketblend.exe"
+      ],
+      "hash": "e46f1660fca635e691bb4ff00e9b9941a56212e475e13483ddde1ddaaa8e7f57"
+    }
+  },
+  "homepage": "https://docs.rocketblend.io/",
+  "license": "GPL-3.0",
+  "description": "Build and addon management for Blender projects."
+}

@@ -1,0 +1,22 @@
+{
+  "version": "0.14.3",
+  "architecture": {
+    "32bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/charmbracelet/gum/releases/download/v0.14.3/gum_0.14.3_Windows_i386.zip",
+      "bin": [
+        "gum_0.14.3_Windows_i386/gum.exe"
+      ],
+      "hash": "8719d1daa19d344ebfd69b2c552ab2110ee7220f8dc550712cc22f49c14f206c"
+    },
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/charmbracelet/gum/releases/download/v0.14.3/gum_0.14.3_Windows_x86_64.zip",
+      "bin": [
+        "gum_0.14.3_Windows_x86_64/gum.exe"
+      ],
+      "hash": "447b4db5aa8867e8abde941d51a59c3a77e78abab76043f90cb676ab7b4f4bfd"
+    }
+  },
+  "homepage": "https://charm.sh/",
+  "license": "MIT",
+  "description": "A tool for glamorous shell scripts"
+}

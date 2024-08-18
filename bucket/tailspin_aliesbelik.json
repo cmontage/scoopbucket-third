@@ -1,0 +1,22 @@
+{
+  "version": "3.0.2",
+  "description": "A log file highlighter",
+  "homepage": "https://github.com/bensadeh/tailspin",
+  "license": "MIT",
+  "depends": "main/less",
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/bensadeh/tailspin/releases/download/3.0.2/tailspin-x86_64-pc-windows-msvc.zip",
+      "hash": "c502571387e1dc03f26669755c97afb2b42f6a823aa95f19c39145af5f23d512"
+    }
+  },
+  "bin": "tspin.exe",
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/bensadeh/tailspin/releases/download/$version/tailspin-x86_64-pc-windows-msvc.zip"
+      }
+    }
+  }
+}

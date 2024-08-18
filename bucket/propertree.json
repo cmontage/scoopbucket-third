@@ -1,0 +1,28 @@
+{
+  "version": "0.2024.08.17",
+  "description": "Cross platform GUI plist editor written in python.",
+  "homepage": "https://github.com/corpnewt/ProperTree",
+  "license": "BSD-3-Clause",
+  "depends": "python",
+  "url": "https://mirror.ghproxy.com/https://github.com/corpnewt/ProperTree/archive/51c1d7c98fd05f528157c6aed1049454ebaff869.zip",
+  "hash": "6468be88840bcd09006f5e38ffaa411eeece357bc34e9959856cdb8f77c3e2b3",
+  "extract_dir": "ProperTree-51c1d7c98fd05f528157c6aed1049454ebaff869",
+  "bin": "ProperTree.bat",
+  "shortcuts": [
+    [
+      "ProperTree.bat",
+      "ProperTree"
+    ]
+  ],
+  "pre_install": "if (!(Test-Path \"$persist_dir\\Scripts\\settings.json\")) { Set-Content \"$dir\\Scripts\\settings.json\" '{}' -Encoding Ascii }",
+  "persist": "Scripts\\settings.json",
+  "checkver": {
+    "url": "https://github.com/corpnewt/ProperTree/commits/master.atom",
+    "regex": "(?s)>(\\d+)-(\\d+)-(\\d+)T.*?/(?<sha>[0-9a-f]{40})",
+    "replace": "0.${1}.${2}.${3}"
+  },
+  "autoupdate": {
+    "url": "https://mirror.ghproxy.com/https://github.com/corpnewt/ProperTree/archive/$matchSha.zip",
+    "extract_dir": "ProperTree-$matchSha"
+  }
+}

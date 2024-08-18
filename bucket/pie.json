@@ -1,0 +1,30 @@
+{
+  "version": "7.63",
+  "description": "Picture Information Extractor (PIE) is the ultimate tool for digital cameras reveals everything",
+  "homepage": "https://www.picmeta.com/products/picture-information-extractor.htm",
+  "license": "freeware",
+  "url": "https://www.picmeta.com/download/PIEFreeSetup.exe",
+  "hash": "d825ae510807fdd8cec9be57f4d0402c1cc3e86c5358c5ec2c7e3a1f3cfeac4f",
+  "innosetup": true,
+  "pre_install": [
+    "if(!(Test-Path \"$dir/exiftool.cfg\")) { Add-Content \"$dir/exiftool.cfg\" $null }",
+    "if(!(Test-Path \"$dir/IssSurvey.ini\")) { Add-Content \"$dir/IssSurvey.ini\" $null }"
+  ],
+  "persist": [
+    "exiftool.cfg",
+    "IssSurvey.ini"
+  ],
+  "shortcuts": [
+    [
+      "PIE.exe",
+      "PIE"
+    ]
+  ],
+  "checkver": {
+    "url": "https://www.picmeta.com/download.htm",
+    "regex": ">PIE<.+?>([\\d.]+)"
+  },
+  "autoupdate": {
+    "url": "https://www.picmeta.com/download/PIEFreeSetup.exe"
+  }
+}

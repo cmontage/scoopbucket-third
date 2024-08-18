@@ -1,0 +1,61 @@
+{
+  "homepage": "https://rpcs3.net/",
+  "version": "0.0.32-16792",
+  "description": "Playstation 3 Emulator",
+  "license": {
+    "identifier": "GPL-2.0",
+    "url": "https://github.com/RPCS3/rpcs3/blob/master/LICENSE"
+  },
+  "url": "https://mirror.ghproxy.com/https://github.com/RPCS3/rpcs3-binaries-win/releases/download/build-f2ef0966eb8b97e8997ad5c39d446dfbe732ef1f/rpcs3-v0.0.32-16792-f2ef0966_win64.7z",
+  "hash": "cf6705b0da190bf95d6e8213cf8aeee00fd4b04648ce897977b28a781779f380",
+  "bin": "rpcs3.exe",
+  "shortcuts": [
+    [
+      "rpcs3.exe",
+      "PS3"
+    ]
+  ],
+  "persist": [
+    "dev_flash",
+    "dev_flash2",
+    "dev_flash3",
+    "dev_hdd0",
+    "dev_hdd1",
+    "cache",
+    "config",
+    "patches",
+    "captures",
+    "recordings",
+    "savestates",
+    "config.yml",
+    "games.yml"
+  ],
+  "installer": {
+    "script": [
+      "function create($path, $type, $content) {",
+      "   if (-not (Test-Path \"$path\")) {",
+      "       New-Item \"$path\" -ItemType $type -Value $content | Out-Null",
+      "       Write-Output \"Creating $path...\"",
+      "   }",
+      "}",
+      "$conf = \"$persist_dir\\config.yml\"",
+      "$games = \"$persist_dir\\games.yml\"",
+      "create $conf File",
+      "create $games File"
+    ]
+  },
+  "checkver": {
+    "url": "https://update.rpcs3.net/?api=v2&c=0",
+    "jsonpath": {
+      "version": "$.latest_build.version",
+      "download": "$.latest_build.windows.download",
+      "hash": "$.latest_build.windows.checksum"
+    }
+  },
+  "autoupdate": {
+    "url": "$matchDownload",
+    "hash": {
+      "url": "$url.sha256"
+    }
+  }
+}

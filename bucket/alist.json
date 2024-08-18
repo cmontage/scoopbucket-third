@@ -1,0 +1,50 @@
+{
+  "version": "3.36.0",
+  "description": "A file list program that supports multiple storage, powered by Gin and Solidjs.",
+  "homepage": "https://alist.nn.ci",
+  "license": "AGPL-3.0-or-later",
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/alist-org/alist/releases/download/v3.36.0/alist-windows-amd64.zip",
+      "hash": "md5:1f031c1cbcc2f9cec196b49276e4a677"
+    },
+    "32bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/alist-org/alist/releases/download/v3.36.0/alist-windows-386.zip",
+      "hash": "md5:56fa57303692cb062d606590fa4e7df2"
+    },
+    "arm64": {
+      "url": "https://mirror.ghproxy.com/https://github.com/alist-org/alist/releases/download/v3.36.0/alist-windows-arm64.zip",
+      "hash": "md5:717e9e0b3497918da49dc67d952e3479"
+    }
+  },
+  "bin": [
+    [
+      "alist.exe",
+      "alist",
+      "--force-bin-dir"
+    ]
+  ],
+  "persist": [
+    "data",
+    "log"
+  ],
+  "checkver": {
+    "github": "https://github.com/alist-org/alist"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/alist-org/alist/releases/download/v$version/alist-windows-amd64.zip"
+      },
+      "32bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/alist-org/alist/releases/download/v$version/alist-windows-386.zip"
+      },
+      "arm64": {
+        "url": "https://mirror.ghproxy.com/https://github.com/alist-org/alist/releases/download/v$version/alist-windows-arm64.zip"
+      }
+    },
+    "hash": {
+      "url": "$baseurl/md5.txt"
+    }
+  }
+}

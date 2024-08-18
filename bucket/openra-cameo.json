@@ -1,0 +1,36 @@
+{
+  "version": "playtest-20240813",
+  "description": "OpenRA mod bringing together many factions from different universes",
+  "homepage": "https://www.moddb.com/mods/cameo",
+  "license": "GPL-3.0-or-later",
+  "architecture": {
+    "32bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/Zeruel87/Cameo-mod/releases/download/playtest-20240813/CameoMod-playtest-20240813-x86-winportable.zip",
+      "hash": "28934d322267fa063130a65c055d6b8c6137e70def5dc0117e1c80b7e763f22a"
+    },
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/Zeruel87/Cameo-mod/releases/download/playtest-20240813/CameoMod-playtest-20240813-x64-winportable.zip",
+      "hash": "e62b088812ddcf5868ca4eb8c5f80f101298d135040fa0fbc7716d799590ed94"
+    }
+  },
+  "shortcuts": [
+    [
+      "CameoMod.exe",
+      "OpenRA - Cameo"
+    ]
+  ],
+  "checkver": {
+    "github": "https://github.com/Zeruel87/Cameo-mod",
+    "regex": "/releases/tag/(?<prefix>v?)(?<version>[\\w-\\d.]+)"
+  },
+  "autoupdate": {
+    "architecture": {
+      "32bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/Zeruel87/Cameo-mod/releases/download/$matchPrefix$version/CameoMod-$version-x86-winportable.zip"
+      },
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/Zeruel87/Cameo-mod/releases/download/$matchPrefix$version/CameoMod-$version-x64-winportable.zip"
+      }
+    }
+  }
+}

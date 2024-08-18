@@ -1,0 +1,42 @@
+{
+  "version": "1.9.1",
+  "description": "Lightweight SQLite editor for Windows.",
+  "homepage": "https://github.com/little-brother/sqlite-gui",
+  "license": {
+    "identifier": "GPL-2.0 license",
+    "url": "https://github.com/little-brother/sqlite-gui/blob/master/LICENSE"
+  },
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/little-brother/sqlite-gui/releases/download/1.9.1/sqlite-gui-1.9.1-x64.zip",
+      "hash": "b80b8f8bbc1b6465e4dd28c5f05208a77607bb20ad8d3f9575e2748269c74996"
+    },
+    "32bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/little-brother/sqlite-gui/releases/download/1.9.1/sqlite-gui-1.9.1-x32.zip",
+      "hash": "33064e0c63ef47580657660833179047bd63d55dd7ef5384a94dfb069e482813"
+    }
+  },
+  "pre_install": "if(!(Test-Path \"$dir/prefs.sqlite\")) { Add-Content \"$dir/prefs.sqlite\" $null }",
+  "shortcuts": [
+    [
+      "sqlite-gui.exe",
+      "sqlite-gui"
+    ]
+  ],
+  "persist": "prefs.sqlite",
+  "checkver": {
+    "url": "https://github.com/little-brother/sqlite-gui/tags",
+    "regex": "toggle-commit-(?<tag>((?<major>([\\d]+))[\\.|,](?<minor>([\\d]+))[\\.|,](?<patch>([\\d]+))))",
+    "replace": "${major}.${minor}.${patch}"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/little-brother/sqlite-gui/releases/download/$matchTag/sqlite-gui-$version-x64.zip"
+      },
+      "32bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/little-brother/sqlite-gui/releases/download/$matchTag/sqlite-gui-$version-x32.zip"
+      }
+    }
+  }
+}

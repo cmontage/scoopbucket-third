@@ -1,0 +1,27 @@
+{
+  "version": "2.2.0.1",
+  "description": "扩展ASF的功能, 增加几条实用命令",
+  "homepage": "https://github.com/chr233/ASFEnhance",
+  "license": "AGPL-3.0-only",
+  "depends": "lemon/archisteamfarm",
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/chr233/ASFEnhance/releases/download/2.2.0.1/ASFEnhance-zh-Hans.zip",
+      "hash": "cbdfd46c7bc772e66f41afec7edc3557f03c798c4100c1cf2355c5dad257097c"
+    }
+  },
+  "installer": {
+    "script": "if (installed 'archisteamfarm' $global) {Copy-Item \"$dir\\ASFEnhance.dll\" \"$(appdir archisteamfarm $global)\\current\\plugins\"} else { error 'Please install `archisteamfarm` first, then reinstall `asfenhance-cn`.'}"
+  },
+  "uninstaller": {
+    "script": "if (installed 'archisteamfarm' $global) {Remove-Item \"$(appdir archisteamfarm $global)\\current\\plugins\\ASFEnhance.dll\"}"
+  },
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/chr233/ASFEnhance/releases/download/$version/ASFEnhance-zh-Hans.zip"
+      }
+    }
+  }
+}

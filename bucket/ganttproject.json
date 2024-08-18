@@ -1,0 +1,31 @@
+{
+  "version": "3.3.3309",
+  "license": "GPL-3.0",
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/bardsoftware/ganttproject/releases/download/ganttproject-3.3.3309/ganttproject-3.3.3309.zip",
+      "hash": "f0b20048709bf035c3307f6af5e5d4f137841220301fc8358003da753552aae4"
+    }
+  },
+  "homepage": "https://github.com/bardsoftware/ganttproject",
+  "description": "Free project scheduling and management app for Windows, OSX and Linux.",
+  "bin": "ganttproject.exe",
+  "shortcuts": [
+    [
+      "ganttproject.exe",
+      "ganttproject"
+    ]
+  ],
+  "checkver": {
+    "github": "https://github.com/bardsoftware/ganttproject",
+    "regex": "/ganttproject-(?<version>[\\d\\w.]+)/ganttproject-(?<long>[\\d.\\w.-]+)\\.zip"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/bardsoftware/ganttproject/releases/download/ganttproject-$matchVersion/ganttproject-$matchLong.zip",
+        "extract_dir": "ganttproject-$matchLong"
+      }
+    }
+  }
+}

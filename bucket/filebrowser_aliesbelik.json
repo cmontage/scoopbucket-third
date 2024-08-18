@@ -1,0 +1,40 @@
+{
+  "version": "2.30.0",
+  "description": "Web File Browser",
+  "homepage": "https://filebrowser.org/",
+  "license": "Apache-2.0",
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/filebrowser/filebrowser/releases/download/v2.30.0/windows-amd64-filebrowser.zip",
+      "hash": "1235dff78cee3704f26b0cbfde61bb9aa3ea3dc182088917ddad109fa977c7ce"
+    },
+    "32bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/filebrowser/filebrowser/releases/download/v2.30.0/windows-386-filebrowser.zip",
+      "hash": "4809ce0a5acc336d61d0dcc464c02effa77744061cafb221438eac5dc19f87ca"
+    },
+    "arm64": {
+      "url": "https://mirror.ghproxy.com/https://github.com/filebrowser/filebrowser/releases/download/v2.30.0/windows-arm64-filebrowser.zip",
+      "hash": "8e81b6ee6e55d6950bcd3cb1e0b05c75cc897701d80c0c479be77bce0326c085"
+    }
+  },
+  "bin": "filebrowser.exe",
+  "checkver": {
+    "github": "https://github.com/filebrowser/filebrowser"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/filebrowser/filebrowser/releases/download/v$version/windows-amd64-filebrowser.zip"
+      },
+      "32bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/filebrowser/filebrowser/releases/download/v$version/windows-386-filebrowser.zip"
+      },
+      "arm64": {
+        "url": "https://mirror.ghproxy.com/https://github.com/filebrowser/filebrowser/releases/download/v$version/windows-arm64-filebrowser.zip"
+      }
+    },
+    "hash": {
+      "url": "$baseurl/filebrowser_$version_checksums.txt"
+    }
+  }
+}

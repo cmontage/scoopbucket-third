@@ -1,0 +1,43 @@
+{
+  "version": "4.5.2",
+  "description": "Real-time strategy game set in a futuristic universe",
+  "homepage": "https://wz2100.net/",
+  "license": "GPL-2.0-or-later",
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/Warzone2100/warzone2100/releases/download/4.5.2/warzone2100_win_x64_portable.exe#/dl.7z",
+      "hash": "93cbbbc2474486c76dff0c97823c852000ef7b8547ce9b9ccb6f814503d5dc8b"
+    },
+    "32bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/Warzone2100/warzone2100/releases/download/4.5.2/warzone2100_win_x86_portable.exe#/dl.7z",
+      "hash": "5fc679263f562b9aca81d1ee23ffab20e62bdbcf9558d1545ad4ab3a0e8f90cb"
+    },
+    "arm64": {
+      "url": "https://mirror.ghproxy.com/https://github.com/Warzone2100/warzone2100/releases/download/4.5.2/warzone2100_win_arm64_portable.exe#/dl.7z",
+      "hash": "b1cdd6399e0a99516814798df4aba08690f774e8b89a64a2b3d534108a919768"
+    }
+  },
+  "bin": "bin\\warzone2100.exe",
+  "shortcuts": [
+    [
+      "bin\\warzone2100.exe",
+      "Warzone 2100"
+    ]
+  ],
+  "checkver": {
+    "github": "https://github.com/Warzone2100/warzone2100"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/Warzone2100/warzone2100/releases/download/$version/warzone2100_win_x64_portable.exe#/dl.7z"
+      },
+      "32bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/Warzone2100/warzone2100/releases/download/$version/warzone2100_win_x86_portable.exe#/dl.7z"
+      },
+      "arm64": {
+        "url": "https://mirror.ghproxy.com/https://github.com/Warzone2100/warzone2100/releases/download/$version/warzone2100_win_arm64_portable.exe#/dl.7z"
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "version": "129.0.2766.0",
+  "description": "Microsoft Edge Dev. The chromium based Microsoft Edge browser (Dev Channel)",
+  "homepage": "https://www.microsoftedgeinsider.com/en-us/welcome?channel=dev",
+  "license": "Freeware",
+  "changelog": "",
+  "architecture": {
+    "64bit": {
+      "url": [
+        "https://dorado-api.deno.dev/edge?arch=64&channel=dev&version=129.0.2766.0&dl#/dl.7z",
+        "https://github.com/ACooper81/SharedFiles/raw/master/Icons/msedgedev.ico"
+      ],
+      "hash": [
+        "1ec94fd547e936bf293067d432a9585a37ea5743b716adcf1960383ebaa4d610",
+        "221ae96d9f961f615fcdd941000a83b55bb3d93435d13b3b51c1d2574f78c1f5"
+      ]
+    },
+    "32bit": {
+      "url": [
+        "https://dorado-api.deno.dev/edge?arch=86&channel=dev&version=129.0.2766.0&dl#/dl.7z",
+        "https://github.com/ACooper81/SharedFiles/raw/master/Icons/msedgedev.ico"
+      ],
+      "hash": [
+        "e0928f292c80e8fa83b4faade770493ae6f58b63d9110a5c473212a7d18e5547",
+        "221ae96d9f961f615fcdd941000a83b55bb3d93435d13b3b51c1d2574f78c1f5"
+      ]
+    }
+  },
+  "installer": {
+    "script": "Expand-7zipArchive -Path \"$dir\\MSEDGE.7z\" -ExtractDir \"Chrome-bin\\$version\" -Removal"
+  },
+  "shortcuts": [
+    [
+      "msedge.exe",
+      "Microsoft Edge Dev",
+      "--user-data-dir=\"$dir\\User Data\"",
+      "msedgedev.ico"
+    ]
+  ],
+  "persist": "User Data",
+  "checkver": {
+    "script": "Write-Output $([System.Text.Encoding]::Unicode.GetString((Invoke-WebRequest -URI https://msedgedriver.azureedge.net/LATEST_DEV).Content))",
+    "regex": "([\\d.]+)"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://dorado-api.deno.dev/edge?arch=64&channel=dev&version=$version&dl#/dl.7z"
+      },
+      "32bit": {
+        "url": "https://dorado-api.deno.dev/edge?arch=86&channel=dev&version=$version&dl#/dl.7z"
+      }
+    }
+  }
+}

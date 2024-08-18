@@ -1,0 +1,28 @@
+{
+  "version": "1.0.92.0",
+  "description": "Application runtime environment customization utility.",
+  "homepage": "https://github.com/M2Team/NanaRun/",
+  "license": "MIT",
+  "url": "https://mirror.ghproxy.com/https://github.com/M2Team/NanaRun/releases/download/1.0.92.0/NanaRun_1.0_Preview3_1.0.92.0.zip",
+  "hash": "E46DE8521FFB015D67A3B9570F458D5D9F9ECB8DD83911CD75C9A3C70E91A622",
+  "architecture": {
+    "64bit": {
+      "extract_dir": "x64"
+    },
+    "32bit": {
+      "extract_dir": "Win32"
+    }
+  },
+  "bin": [
+    [
+      "MinSudo.exe"
+    ]
+  ],
+  "checkver": {
+    "url": "https://github.com/M2Team/NanaRun/releases/",
+    "regex": "releases/download/([\\d.]+)/NanaRun_(?<major>[\\d.]+)_(?<preview>\\w+)_"
+  },
+  "autoupdate": {
+    "url": "https://mirror.ghproxy.com/https://github.com/M2Team/NanaRun/releases/download/$version/NanaRun_$matchMajor_$matchPreview_$version.zip"
+  }
+}

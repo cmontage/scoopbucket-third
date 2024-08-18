@@ -1,0 +1,27 @@
+{
+  "version": "11.1.6.721",
+  "description": "Clean registry junks, repair Windows errors, and keep your PC at peak performance.",
+  "homepage": "https://www.wisecleaner.com/wise-registry-cleaner.html",
+  "license": "Freeware",
+  "url": "http://downloads.wisecleaner.com/soft/WRCFree_11.1.6.721.zip",
+  "hash": "848b51a943f5529384917e440df0f68e7239412e6b7dbeb82d6179ce7eb2a306",
+  "extract_dir": "WRCFree_11.1.6.721",
+  "shortcuts": [
+    [
+      "WiseRegCleaner.exe",
+      "Wise Registry Cleaner"
+    ]
+  ],
+  "persist": [
+    "Backup",
+    "config.ini"
+  ],
+  "checkver": {
+    "url": "https://www.wisecleaner.com/download.html",
+    "regex": "WRCFree.+?([\\d.]+)?\\.zip"
+  },
+  "autoupdate": {
+    "url": "http://downloads.wisecleaner.com/soft/WRCFree_$version.zip",
+    "extract_dir": "WRCFree_$version"
+  }
+}

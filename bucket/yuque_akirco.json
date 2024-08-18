@@ -1,0 +1,39 @@
+{
+  "version": "3.4.3.1210",
+  "description": "Professional note and document repositories",
+  "homepage": "https://www.yuque.com/",
+  "license": {
+    "identifier": "EULA",
+    "url": "https://www.yuque.com/terms"
+  },
+  "notes": "Your Yuque data are not persisted by Scoop and still storaged in '%APPDATA%\\yuque-desktop'.",
+  "architecture": {
+    "64bit": {
+      "url": "https://app.nlark.com/yuque-desktop/3.4.3.1210/BJ1ca406c642bc4670b6779a2e868c9d55/Yuque-3.4.3.1210.exe#/dl.7z",
+      "hash": "164f0387cf67d0fbfac14ac40c72e90f305ce8d141ad0e30cdb1c41ac13863a2",
+      "installer": {
+        "script": [
+          "Expand-7zipArchive \"$dir\\`$PLUGINSDIR/app-64.7z\" \"$dir\" -Removal",
+          "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse"
+        ]
+      }
+    }
+  },
+  "shortcuts": [
+    [
+      "语雀.exe",
+      "语雀"
+    ]
+  ],
+  "checkver": {
+    "url": "https://www.yuque.com/download",
+    "regex": "yuque-desktop%2F(?<version>[\\d.]+)%2F(?<release>\\w+)%2FYuque-[\\d.]+\\.exe"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://app.nlark.com/yuque-desktop/$matchVersion/$matchRelease/Yuque-$matchVersion.exe#/dl.7z"
+      }
+    }
+  }
+}

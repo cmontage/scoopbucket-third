@@ -1,0 +1,40 @@
+{
+  "version": "0.33.2",
+  "description": "Feature-rich terminal-based text viewer",
+  "homepage": "https://noborus.github.io/ov",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/noborus/ov/releases/download/v0.33.2/ov_0.33.2_windows_amd64.zip",
+      "hash": "bd0fd91589ed4a02e920552a631ef7bceac65c892645eaefdbd2a26745755101"
+    },
+    "32bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/noborus/ov/releases/download/v0.33.2/ov_0.33.2_windows_386.zip",
+      "hash": "3217051808fb3bdbc4bc57b04e36e8593bd1a5c85f45b72f874bb7dd4431d5b1"
+    },
+    "arm64": {
+      "url": "https://mirror.ghproxy.com/https://github.com/noborus/ov/releases/download/v0.33.2/ov_0.33.2_windows_arm64.zip",
+      "hash": "ae42be9222c5d15b11627e564c4bc416866f5f54353a3b188ce42ae313610119"
+    }
+  },
+  "bin": "ov.exe",
+  "checkver": {
+    "github": "https://github.com/noborus/ov"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/noborus/ov/releases/download/v$version/ov_$version_windows_amd64.zip"
+      },
+      "32bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/noborus/ov/releases/download/v$version/ov_$version_windows_386.zip"
+      },
+      "arm64": {
+        "url": "https://mirror.ghproxy.com/https://github.com/noborus/ov/releases/download/v$version/ov_$version_windows_arm64.zip"
+      }
+    },
+    "hash": {
+      "url": "$baseurl/ov_$version_checksums.txt"
+    }
+  }
+}

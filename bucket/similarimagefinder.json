@@ -1,0 +1,37 @@
+{
+  "homepage": "https://kurtzimmermann.com",
+  "version": "1.010",
+  "license": "freeware",
+  "architecture": {
+    "64bit": {
+      "url": "https://kurtzimmermann.com/files/ImageFinderX64.zip",
+      "hash": "90ddf059213041878a00ef85572dcad01edfcbf691c218ab49a7986ea6c95a7a"
+    },
+    "32bit": {
+      "url": "https://kurtzimmermann.com/files/ImageFinderX32.zip",
+      "hash": "76a7f5f659e6a1b8020163d7053cbd2a464051b5b41723f37c11521a145324ba"
+    }
+  },
+  "bin": "ImageFinder.exe",
+  "persist": "settings.ini",
+  "shortcuts": [
+    [
+      "ImageFinder.exe",
+      "ImageFinder"
+    ]
+  ],
+  "checkver": {
+    "url": "https://kurtzimmermann.com/index_e.html",
+    "regex": "ImageFinder</h4>[\\w\\W]*Version ([\\d.]+) &nbsp;"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://kurtzimmermann.com/files/ImageFinderX64.zip"
+      },
+      "32bit": {
+        "url": "https://kurtzimmermann.com/files/ImageFinderX32.zip"
+      }
+    }
+  }
+}

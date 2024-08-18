@@ -1,0 +1,40 @@
+{
+  "version": "0.5.2",
+  "descirption": "An open source alternative to ChatGPT that runs 100% offline on your computer",
+  "homepage": "https://jan.ai/",
+  "license": "AGPL-3.0",
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/janhq/jan/releases/download/v0.5.2/jan-win-x64-0.5.2.exe",
+      "hash": "sha512:71a5081718dcdb7548db886bd1717800152cd746993341b5b405b0f3ad424c93ad531634cfa3174bc025ab32d64f737e92666d8f281814a85d44e631d6442b5d"
+    }
+  },
+  "installer": {
+    "script": [
+      "$file = (Get-ChildItem \"$dir\" 'jan-*.exe' | Select-Object -First 1).FullName",
+      "Expand-7ZipArchive \"$file\" \"$dir\\\" -Removal",
+      "Expand-7ZipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\" -Removal",
+      "Remove-Item \"$dir\\`$PLUGINSDIR\",\"$dir\\`$R0\"  -Force -Recurse"
+    ]
+  },
+  "shortcuts": [
+    [
+      "Jan.exe",
+      "Jan"
+    ]
+  ],
+  "checkver": {
+    "github": "https://github.com/janhq/jan"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/janhq/jan/releases/download/v$version/jan-win-x64-$version.exe",
+        "hash": {
+          "url": "https://mirror.ghproxy.com/https://github.com/janhq/jan/releases/download/v$version/latest.yml",
+          "regex": "sha512: $base64"
+        }
+      }
+    }
+  }
+}

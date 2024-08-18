@@ -1,0 +1,43 @@
+{
+  "homepage": "https://gcc-mcf.lhmouse.com/",
+  "description": "MinGW-w64 GCC build with the MCF thread model (Snapshot version)",
+  "version": "14.2.0-20240801-msvcrt",
+  "license": "GPL-2.0-only,LGPL-3.0-only,BSD-2-Clause,Apache-2.0,ZPL-2.1",
+  "architecture": {
+    "64bit": {
+      "url": "https://gcc-mcf.lhmouse.com/mingw-w64-gcc-mcf_20240801_14.2.0_x64-msvcrt_0082373da60fe60504d51f2cb25461342653dd28.7z",
+      "hash": "sha1:0082373da60fe60504d51f2cb25461342653dd28",
+      "extract_dir": "mingw64"
+    },
+    "32bit": {
+      "url": "https://gcc-mcf.lhmouse.com/mingw-w64-gcc-mcf_20240801_14.2.0_x86-msvcrt_3fcd2d6216b7f037ad9a400944e5375adda6ef1f.7z",
+      "hash": "sha1:3fcd2d6216b7f037ad9a400944e5375adda6ef1f",
+      "extract_dir": "mingw32"
+    }
+  },
+  "env_add_path": "bin",
+  "checkver": {
+    "regex": "(?sm)mingw-w64-gcc-mcf_(?<version>(?<date>[\\d]{8})_(?<gccVersion>[\\d.]+))_x86-msvcrt_(?<hash86>[0-9a-f]{40}).*?_x64-msvcrt_(?<hash64>[0-9a-f]{40})",
+    "replace": "${gccVersion}-${date}-msvcrt"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://gcc-mcf.lhmouse.com/mingw-w64-gcc-mcf_$matchDate_$matchGccversion_x64-msvcrt_$matchHash64.7z",
+        "hash": {
+          "url": "https://gcc-mcf.lhmouse.com/",
+          "mode": "extract",
+          "regex": "$matchDate_$matchGccversion_x64-msvcrt_$sha1"
+        }
+      },
+      "32bit": {
+        "url": "https://gcc-mcf.lhmouse.com/mingw-w64-gcc-mcf_$matchDate_$matchGccversion_x86-msvcrt_$matchHash86.7z",
+        "hash": {
+          "url": "https://gcc-mcf.lhmouse.com/",
+          "mode": "extract",
+          "regex": "$matchDate_$matchGccversion_x86-msvcrt_$sha1"
+        }
+      }
+    }
+  }
+}

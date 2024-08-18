@@ -1,0 +1,27 @@
+{
+  "checkver": {
+    "url": "https://www.powershellgallery.com/api/v2/Packages()?$filter=Id%20eq%20'Az.Support'%20and%20IsLatestVersion%20eq%20true",
+    "replace": "${ver}",
+    "regex": "(?i)<d:Version>(?<ver>[^<]+)<.d:Version>"
+  },
+  "hash": "sha512:109fc3f9f281b4f07b3ca8b65cfff3e2b75d847b8fbea32e7042bc20259778edaeafa95ac5b4eb4d73e3392872ddd4d56a6dfe7dbe878d6484b4179f8fba204d",
+  "description": "Microsoft Azure PowerShell - Azure Support cmdlets for Azure Resource Manager in Windows PowerShell and PowerShell Core.",
+  "psmodule": {
+    "name": "Az.Support"
+  },
+  "homepage": "https://www.powershellgallery.com/packages/Az.Support",
+  "autoupdate": {
+    "url": "https://www.powershellgallery.com/api/v2/Package/Az.Support/$version#/mod.nupkg",
+    "hash": {
+      "url": "https://www.powershellgallery.com/api/v2/Packages()?$filter=Id eq 'Az.Support' and Version eq '$version'",
+      "regex": "<d:PackageHash>$base64<.d:PackageHash>"
+    }
+  },
+  "license": {
+    "identifier": "Refer to Webpage",
+    "url": "https://aka.ms/azps-license"
+  },
+  "url": "https://www.powershellgallery.com/api/v2/Package/Az.Support/2.0.0#/mod.nupkg",
+  "depends": "Az.Accounts",
+  "version": "2.0.0"
+}

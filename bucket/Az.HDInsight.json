@@ -1,0 +1,27 @@
+{
+  "checkver": {
+    "url": "https://www.powershellgallery.com/api/v2/Packages()?$filter=Id%20eq%20'Az.HDInsight'%20and%20IsLatestVersion%20eq%20true",
+    "replace": "${ver}",
+    "regex": "(?i)<d:Version>(?<ver>[^<]+)<.d:Version>"
+  },
+  "hash": "sha512:8f81034c0468211ebf2645cced3c494d433604b570092c76498554b7f44c74db0bab02ca756667e9a2d3ecf26fb6f203fa27cb06676d9184e04be1caeeec6f92",
+  "description": "Microsoft Azure PowerShell - HDInsight service cmdlets for Azure Resource Manager in Windows PowerShell and PowerShell Core.  For more information on HDInsight, please visit the following: https://docs.microsoft.com/azure/hdinsight/",
+  "psmodule": {
+    "name": "Az.HDInsight"
+  },
+  "homepage": "https://www.powershellgallery.com/packages/Az.HDInsight",
+  "autoupdate": {
+    "url": "https://www.powershellgallery.com/api/v2/Package/Az.HDInsight/$version#/mod.nupkg",
+    "hash": {
+      "url": "https://www.powershellgallery.com/api/v2/Packages()?$filter=Id eq 'Az.HDInsight' and Version eq '$version'",
+      "regex": "<d:PackageHash>$base64<.d:PackageHash>"
+    }
+  },
+  "license": {
+    "identifier": "Refer to Webpage",
+    "url": "https://aka.ms/azps-license"
+  },
+  "url": "https://www.powershellgallery.com/api/v2/Package/Az.HDInsight/6.1.0#/mod.nupkg",
+  "depends": "Az.Accounts",
+  "version": "6.1.0"
+}

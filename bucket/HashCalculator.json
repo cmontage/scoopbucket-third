@@ -1,0 +1,21 @@
+{
+  "version": "5.26.0",
+  "description": "文件哈希值批量计算器。(Scoop bucket for Cybersecurity by whoopscs)",
+  "homepage": "https://github.com/hrpzcf/HashCalculator",
+  "license": "GPL-3.0-or-later",
+  "notes": [
+    "命令行运行别名：hashc"
+  ],
+  "url": "https://mirror.ghproxy.com/https://github.com/hrpzcf/HashCalculator/releases/download/5.26.0/HashCalculator-5.26.0.zip",
+  "hash": "89098e00a83a099eef48d765a82dea8cf86cf218417ae3e476215f100925deff",
+  "bin": [
+    [
+      "HashCalculator.exe",
+      "hashc"
+    ]
+  ],
+  "checkver": "github",
+  "autoupdate": {
+    "url": "https://mirror.ghproxy.com/https://github.com/hrpzcf/HashCalculator/releases/download/$version/HashCalculator-$version.zip"
+  }
+}

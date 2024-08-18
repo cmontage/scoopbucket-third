@@ -1,0 +1,61 @@
+{
+  "version": "1.27.2",
+  "description": "Open Source Continuous File Synchronization.",
+  "homepage": "https://syncthing.net/",
+  "license": "MPL-2.0",
+  "notes": "To start syncthing automatically, use a method described at https://docs.syncthing.net/users/autostart.html#windows",
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/syncthing/syncthing/releases/download/v1.27.2/syncthing-windows-amd64-v1.27.2.zip",
+      "hash": "b54eb32ea5a9888867195e1f20d649ad9866c0644483434f3f839330c1070d1b",
+      "extract_dir": "syncthing-windows-amd64-v1.27.2"
+    },
+    "32bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/syncthing/syncthing/releases/download/v1.27.2/syncthing-windows-386-v1.27.2.zip",
+      "hash": "2b4f978d17a3f1658ab99e7669262c300eb52f3f7dff35915dbed0e4dc09cfa4",
+      "extract_dir": "syncthing-windows-386-v1.27.2"
+    },
+    "arm64": {
+      "url": "https://mirror.ghproxy.com/https://github.com/syncthing/syncthing/releases/download/v1.27.2/syncthing-windows-arm64-v1.27.2.zip",
+      "hash": "fbdad60b4161d6fa6f02613cf1c19ce2603821feb0de7c5c209917fba17378f3",
+      "extract_dir": "syncthing-windows-arm64-v1.27.2"
+    }
+  },
+  "pre_install": [
+    "if (!(Test-Path \"$persist_dir\\config\") -and (Test-Path \"$env:LOCALAPPDATA\\Syncthing\")) {",
+    "    info \"Copying old '$env:LOCALAPPDATA\\Syncthing' to '$persist_dir\\config'\"",
+    "    ensure \"$dir\\config\" | Out-Null",
+    "    Copy-Item \"$env:LOCALAPPDATA\\Syncthing\\*\" \"$dir\\config\" -Exclude 'LOCK' -Recurse -Force",
+    "}"
+  ],
+  "bin": [
+    [
+      "syncthing.exe",
+      "syncthing",
+      "-home \"$dir\\config\""
+    ]
+  ],
+  "persist": "config",
+  "checkver": {
+    "github": "https://github.com/syncthing/syncthing"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/syncthing/syncthing/releases/download/v$version/syncthing-windows-amd64-v$version.zip",
+        "extract_dir": "syncthing-windows-amd64-v$version"
+      },
+      "32bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/syncthing/syncthing/releases/download/v$version/syncthing-windows-386-v$version.zip",
+        "extract_dir": "syncthing-windows-386-v$version"
+      },
+      "arm64": {
+        "url": "https://mirror.ghproxy.com/https://github.com/syncthing/syncthing/releases/download/v$version/syncthing-windows-arm64-v$version.zip",
+        "extract_dir": "syncthing-windows-arm64-v$version"
+      }
+    },
+    "hash": {
+      "url": "$baseurl/sha256sum.txt.asc"
+    }
+  }
+}

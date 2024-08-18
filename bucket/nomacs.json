@@ -1,0 +1,39 @@
+{
+  "version": "3.19.0",
+  "description": "Image viewer to view all common image formats including RAW and psd images",
+  "homepage": "https://nomacs.org",
+  "license": "GPL-3.0-only",
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/nomacs/nomacs/releases/download/3.19.0/nomacs-portable-win.zip",
+      "hash": "ef2b46cdd526703dedf9c67b9f3fb06b765e3158ac86f643cba6287457e6a641"
+    }
+  },
+  "extract_dir": "nomacs-3.19.0",
+  "pre_install": [
+    "ensure \"$persist_dir\" | Out-Null",
+    "Copy-Item \"$persist_dir\\settings.ini\" \"$dir\" -ErrorAction SilentlyContinue -Force"
+  ],
+  "uninstaller": {
+    "script": "Copy-Item \"$dir\\settings.ini\" \"$persist_dir\" -ErrorAction SilentlyContinue -Force"
+  },
+  "bin": "nomacs.exe",
+  "shortcuts": [
+    [
+      "nomacs.exe",
+      "nomacs"
+    ]
+  ],
+  "checkver": {
+    "url": "https://github.com/nomacs/nomacs/tags",
+    "regex": "releases/tag/(.+?)\""
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/nomacs/nomacs/releases/download/$version/nomacs-portable-win.zip"
+      }
+    },
+    "extract_dir": "nomacs-$version"
+  }
+}

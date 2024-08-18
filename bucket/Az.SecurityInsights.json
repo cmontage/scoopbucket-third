@@ -1,0 +1,27 @@
+{
+  "checkver": {
+    "url": "https://www.powershellgallery.com/api/v2/Packages()?$filter=Id%20eq%20'Az.SecurityInsights'%20and%20IsLatestVersion%20eq%20true",
+    "replace": "${ver}",
+    "regex": "(?i)<d:Version>(?<ver>[^<]+)<.d:Version>"
+  },
+  "hash": "sha512:7422abe48bff5c512c571e2c2d994e79a27a0c6386a869f3f650e3e59bbc775be6c449ebcdf193add019ed8589b339dd90ca89de8af48f3f945b0b92a2d687d1",
+  "description": "Microsoft Azure PowerShell: SecurityInsights cmdlets",
+  "psmodule": {
+    "name": "Az.SecurityInsights"
+  },
+  "homepage": "https://www.powershellgallery.com/packages/Az.SecurityInsights",
+  "autoupdate": {
+    "url": "https://www.powershellgallery.com/api/v2/Package/Az.SecurityInsights/$version#/mod.nupkg",
+    "hash": {
+      "url": "https://www.powershellgallery.com/api/v2/Packages()?$filter=Id eq 'Az.SecurityInsights' and Version eq '$version'",
+      "regex": "<d:PackageHash>$base64<.d:PackageHash>"
+    }
+  },
+  "license": {
+    "identifier": "Refer to Webpage",
+    "url": "https://aka.ms/azps-license"
+  },
+  "url": "https://www.powershellgallery.com/api/v2/Package/Az.SecurityInsights/3.1.2#/mod.nupkg",
+  "depends": "Az.Accounts",
+  "version": "3.1.2"
+}

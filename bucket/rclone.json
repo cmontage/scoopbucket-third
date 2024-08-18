@@ -1,0 +1,37 @@
+{
+  "version": "1.67.0",
+  "description": "Sync files and directories to and from mulitple cloud / FTP / HTTP hosters.",
+  "homepage": "https://rclone.org",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/rclone/rclone/releases/download/v1.67.0/rclone-v1.67.0-windows-amd64.zip",
+      "hash": "117b99441024607d6043e274c7fcbed64d07ad87347d17dd0a717bdc1c59716b",
+      "extract_dir": "rclone-v1.67.0-windows-amd64"
+    },
+    "32bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/rclone/rclone/releases/download/v1.67.0/rclone-v1.67.0-windows-386.zip",
+      "hash": "458413bdd7a85cb8a19a7f955e25ac633fe1513f956b6bc09efd5ca51d44aa8a",
+      "extract_dir": "rclone-v1.67.0-windows-386"
+    }
+  },
+  "bin": "rclone.exe",
+  "checkver": {
+    "github": "https://github.com/rclone/rclone"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/rclone/rclone/releases/download/v$version/rclone-v$version-windows-amd64.zip",
+        "extract_dir": "rclone-v$version-windows-amd64"
+      },
+      "32bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/rclone/rclone/releases/download/v$version/rclone-v$version-windows-386.zip",
+        "extract_dir": "rclone-v$version-windows-386"
+      }
+    },
+    "hash": {
+      "url": "$baseurl/SHA256SUMS"
+    }
+  }
+}

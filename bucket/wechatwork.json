@@ -1,0 +1,22 @@
+{
+  "homepage": "https://work.weixin.qq.com/",
+  "description": "企业微信",
+  "version": "4.1.28.6005",
+  "license": "Freeware",
+  "url": "https://dldir1.qq.com/wework/work_weixin/WeCom_4.1.28.6005.exe#/wechat.7z",
+  "hash": "fe454acaf5455b49414167a6c3000f8ebd9070fb708c9dabdbeee7cd2b6c68c8",
+  "post_install": "Start-Process -Wait \"$dir\\$version\\wxdriveinstaller.exe\" -Verb RunAs",
+  "shortcuts": [
+    [
+      "WXWork.exe",
+      "企业微信"
+    ]
+  ],
+  "checkver": {
+    "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kkzzhizhou/scoop-zapps/master/versions/WechatWork.latest",
+    "regex": "WeCom_([\\d.]+).exe"
+  },
+  "autoupdate": {
+    "url": "https://dldir1.qq.com/wework/work_weixin/WeCom_$version.exe#/wechat.7z"
+  }
+}

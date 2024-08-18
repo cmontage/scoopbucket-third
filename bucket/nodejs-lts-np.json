@@ -1,0 +1,52 @@
+{
+  "version": "20.16.0",
+  "description": "JavaScript runtime environment.",
+  "homepage": "https://nodejs.org",
+  "license": "MIT",
+  "notes": "npm global prefix set to: $env:APPDATA\\npm",
+  "architecture": {
+    "64bit": {
+      "url": "https://registry.npmmirror.com/-/binary/node/v20.16.0/node-v20.16.0-win-x64.7z",
+      "hash": "1b3961054a484476872715d9ca04bc491d797fde6336db514b6e6fcbb71fae9d",
+      "extract_dir": "node-v20.16.0-win-x64"
+    },
+    "32bit": {
+      "url": "https://registry.npmmirror.com/-/binary/node/v20.16.0/node-v20.16.0-win-x86.7z",
+      "hash": "76f1806fde0b09ed4044f29ea140fb2bea9bce745b9892ec4aeb6537344db6f1",
+      "extract_dir": "node-v20.16.0-win-x86"
+    }
+  },
+  "installer": {
+    "script": [
+      "add_first_in_path \"$env:APPDATA\\npm\" $global",
+      "& \"$dir\\npm.cmd\" config set prefix \"$env:APPDATA\\npm\""
+    ]
+  },
+  "uninstaller": {
+    "script": "remove_from_path \"$env:APPDATA\\npm\" $global"
+  },
+  "bin": [
+    "node.exe",
+    "npm.cmd"
+  ],
+  "checkver": {
+    "url": "https://registry.npmmirror.com/-/binary/node/index.json",
+    "jsonpath": "$..[?(@.lts != false)].version",
+    "regex": "v([\\d\\.]+).*"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://registry.npmmirror.com/-/binary/node/v$version/node-v$version-win-x64.7z",
+        "extract_dir": "node-v$version-win-x64"
+      },
+      "32bit": {
+        "url": "https://registry.npmmirror.com/-/binary/node/v$version/node-v$version-win-x86.7z",
+        "extract_dir": "node-v$version-win-x86"
+      }
+    },
+    "hash": {
+      "url": "$baseurl/SHASUMS256.txt.asc"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": "1.0.21",
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/shotah/forgecli/releases/download/v1.0.21/forgecli_1.0.21_windows_amd64.zip",
+      "bin": [
+        "forgecli.exe"
+      ],
+      "hash": "99adf17595869435c3487fdce6a8ce77ef2a57b9c29dfc7edfbbe0e3b41dca61"
+    }
+  },
+  "license": "MIT",
+  "description": "Software to easily install minecraft mod clients and mods"
+}

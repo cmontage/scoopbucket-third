@@ -1,0 +1,35 @@
+{
+  "version": "2.8.5",
+  "description": "跨平台剪贴板同步方案 / Cross-Platform Cipboard Syncing Solution",
+  "homepage": "https://github.com/Jeric-X/SyncClipboard",
+  "license": {
+    "identifier": "MIT license",
+    "url": "https://github.com/Jeric-X/SyncClipboard#MIT-1-ov-file"
+  },
+  "url": "https://mirror.ghproxy.com/https://github.com/Jeric-X/SyncClipboard/releases/download/v2.8.5/SyncClipboard.zip",
+  "hash": "06ae7bed6e814b54f8297a05d60d105ae5c0b633e7107ae3539d461ee9303b3c",
+  "installer": {
+    "script": [
+      "ensure \"$persist_dir\" | Out-Null",
+      "New-Item \"$env:APPDATA\\SyncClipboard\" -ItemType Junction -Target \"$persist_dir\" | Out-Null"
+    ]
+  },
+  "uninstaller": {
+    "script": "Remove-Item \"$env:APPDATA\\SyncClipboard\" -Recurse -Force -ErrorAction 'SilentlyContinue'"
+  },
+  "bin": "SyncClipboard.exe",
+  "shortcuts": [
+    [
+      "SyncClipboard.exe",
+      "SyncClipboard"
+    ]
+  ],
+  "checkver": {
+    "url": "https://api.github.com/repos/Jeric-X/SyncClipboard/releases/latest",
+    "jsonpath": "$.assets[*].browser_download_url",
+    "regex": "/releases/download/v([\\d.]+)/SyncClipboard\\.zip"
+  },
+  "autoupdate": {
+    "url": "https://mirror.ghproxy.com/https://github.com/Jeric-X/SyncClipboard/releases/download/v$version/SyncClipboard.zip"
+  }
+}

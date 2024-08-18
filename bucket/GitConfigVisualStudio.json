@@ -1,0 +1,11 @@
+{
+  "$schema": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/lukesampson/scoop/master/schema.json",
+  "version": "1.01.000",
+  "url": [
+    "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MarkMichaelis/ScoopBucket/master/bucket/Utils.ps1",
+    "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MarkMichaelis/ScoopBucket/master/bucket/GitConfigVisualStudio.ps1"
+  ],
+  "installer": {
+    "script": "& \"$dir\\GitConfigVisualStudio.ps1\""
+  }
+}

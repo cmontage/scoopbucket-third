@@ -1,0 +1,45 @@
+{
+  "version": "0.9.14",
+  "description": "Scheme Scripting Engine",
+  "homepage": "https://practical-scheme.net/gauche/",
+  "license": "BSD-3-Clause",
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/shirok/Gauche/releases/download/release0_9_14/Gauche-mingw-0.9.14-64bit.msi",
+      "hash": "901ecd918be7ff03fa630aa76a74567ae3161aaa6a00d30abb41011c9b062471"
+    },
+    "32bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/shirok/Gauche/releases/download/release0_9_14/Gauche-mingw-0.9.14-32bit.msi",
+      "hash": "affac7f2c26b926ca0a9c20a336266936e2c16804eed2a1c667ab00885c7760a"
+    }
+  },
+  "extract_dir": "Gauche",
+  "bin": [
+    "bin\\gauche-cesconv.exe",
+    "bin\\gauche-config.exe",
+    "bin\\gauche-install.exe",
+    "bin\\gauche-package.exe",
+    "bin\\gosh.exe",
+    "bin\\gosh-noconsole.exe"
+  ],
+  "shortcuts": [
+    [
+      "bin\\gosh.exe",
+      "Gosh"
+    ]
+  ],
+  "checkver": {
+    "github": "https://github.com/shirok/Gauche",
+    "regex": "mingw-([\\d.\\-p]+)-\\d+bit\\.msi"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/shirok/Gauche/releases/download/release$underscoreVersion/Gauche-mingw-$version-64bit.msi"
+      },
+      "32bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/shirok/Gauche/releases/download/release$underscoreVersion/Gauche-mingw-$version-32bit.msi"
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": "0.10.0",
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/Infisical/infisical/releases/download/infisical-cli/v0.10.0/infisical_0.10.0_windows_amd64.zip",
+      "bin": [
+        "infisical.exe"
+      ],
+      "hash": "c93fa3611cb7f38d2e72f96e0054fb6dc65d49b45091961226cd327ebe57743c"
+    }
+  },
+  "homepage": "https://infisical.com",
+  "license": "MIT",
+  "description": "The official Infisical CLI"
+}

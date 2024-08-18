@@ -1,0 +1,35 @@
+{
+  "version": "8.25",
+  "description": "Open-source GUI client for git users.",
+  "homepage": "https://github.com/sourcegit-scm/sourcegit",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/sourcegit-scm/sourcegit/releases/download/v8.25/sourcegit_8.25.win-x64.zip",
+      "hash": "3951451578a0f0df5b1cb71a1b0cde6a25c0d0812394952a365a93bfb906aaa2"
+    },
+    "arm64": {
+      "url": "https://mirror.ghproxy.com/https://github.com/sourcegit-scm/sourcegit/releases/download/v8.25/sourcegit_8.25.win-arm64.zip",
+      "hash": "22449b066a7dbafb202b81edff3edaf386dd410aba26d1b1bfbeaf7645bc6406"
+    }
+  },
+  "extract_dir": "SourceGit",
+  "bin": "SourceGit.exe",
+  "shortcuts": [
+    [
+      "SourceGit.exe",
+      "SourceGit"
+    ]
+  ],
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/sourcegit-scm/sourcegit/releases/download/v$version/sourcegit_$version.win-x64.zip"
+      },
+      "arm64": {
+        "url": "https://mirror.ghproxy.com/https://github.com/sourcegit-scm/sourcegit/releases/download/v$version/sourcegit_$version.win-arm64.zip"
+      }
+    }
+  }
+}

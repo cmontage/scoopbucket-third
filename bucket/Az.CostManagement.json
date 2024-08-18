@@ -1,0 +1,26 @@
+{
+  "url": "https://www.powershellgallery.com/api/v2/Package/Az.CostManagement/0.3.2#/mod.nupkg",
+  "psmodule": {
+    "name": "Az.CostManagement"
+  },
+  "checkver": {
+    "replace": "${ver}",
+    "url": "https://www.powershellgallery.com/api/v2/Packages()?$filter=Id%20eq%20'Az.CostManagement'%20and%20IsLatestVersion%20eq%20true",
+    "regex": "(?i)<d:Version>(?<ver>[^<]+)<.d:Version>"
+  },
+  "homepage": "https://www.powershellgallery.com/packages/Az.CostManagement",
+  "version": "0.3.2",
+  "hash": "sha512:04211870b6a09458eedb00be2a9403c2f9ccd4c9cd66327b4c2377cfaa906a7e6756f9e0a1ff11c5c1a4d076833377ca21fe8e625104719ad0c7896669cf3bd2",
+  "description": "Microsoft Azure PowerShell: Cost cmdlets",
+  "autoupdate": {
+    "url": "https://www.powershellgallery.com/api/v2/Package/Az.CostManagement/$version#/mod.nupkg",
+    "hash": {
+      "url": "https://www.powershellgallery.com/api/v2/Packages()?$filter=Id eq 'Az.CostManagement' and Version eq '$version'",
+      "regex": "<d:PackageHash>$base64<.d:PackageHash>"
+    }
+  },
+  "license": {
+    "url": "https://aka.ms/azps-license",
+    "identifier": "Refer to Webpage"
+  }
+}

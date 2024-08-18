@@ -1,0 +1,29 @@
+{
+  "version": "24.8.0",
+  "description": "The uncompromising Python code formatter",
+  "homepage": "https://black.readthedocs.io/en/stable",
+  "license": "MIT",
+  "url": "https://files.pythonhosted.org/packages/04/b0/46fb0d4e00372f4a86a6f8efa3cb193c9f64863615e39010b1477e010578/black-24.8.0.tar.gz",
+  "hash": "2500945420b6784c38b9ee885af039f5e7471ef284ab03fa35ecdde4688cd83f",
+  "extract_dir": "black-24.8.0",
+  "bin": [
+    "venv\\scripts\\black.exe",
+    "venv\\scripts\\blackd.exe"
+  ],
+  "pre_install": [
+    "$bpath = if ($app.LocalPath) { $app.LocalPath.Directory.Parent.FullName } else { \"$bucketsdir\\$bucket\" }",
+    "& (Join-Path \"$bpath\" \"scripts\\Install-WithVirtualEnv.ps1\") \"[d]\""
+  ],
+  "checkver": {
+    "url": "https://pypi.org/project/black/",
+    "regex": "(?sm)https:\\/\\/files\\.pythonhosted\\.org\\/(?<path>[\\w\\-\\/\\.]+\\.tar\\.gz).+?(?<version>[\\d\\.]+[b\\d]*)\\.tar\\.gz"
+  },
+  "autoupdate": {
+    "url": "https://files.pythonhosted.org/$matchPath",
+    "hash": {
+      "url": "https://pypi.org/project/black/",
+      "regex": "(?sm)Hashes for $basename.*?$sha256"
+    },
+    "extract_dir": "black-$version"
+  }
+}

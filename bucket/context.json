@@ -1,0 +1,57 @@
+{
+  "version": "2024-08-16",
+  "description": "CONTEXT LMTX is a self contained installation of the CONTEXT macro package. It is the follow up on MKII and MKIV and uses the LUAMETATEX engine.",
+  "homepage": "https://www.pragma-ade.nl/",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "http://lmtx.pragma-ade.nl/install-lmtx/context-win64.zip",
+      "hash": "5db2e713a51423a4b6a27dc9d213b84b8dfc900ae2e69725135dcc08e24b5183"
+    },
+    "32bit": {
+      "url": "http://lmtx.pragma-ade.nl/install-lmtx/context-mswin.zip",
+      "hash": "f433b3ebd301992992750c836c85e959304f9b1442c0e3c64ed77324863ca1c2"
+    },
+    "arm64": {
+      "url": "http://lmtx.pragma-ade.nl/install-lmtx/context-windows-arm64.zip",
+      "hash": "0de01f8aee55200f12e2973ddaf203ef05d4df7579a4efd045837be0916fa970"
+    }
+  },
+  "pre_install": [
+    "$Env:SELFAUTOLOC = \"$dir/bin\"",
+    "$parent = Split-Path $dir -parent",
+    "$Env:SELFAUTODIR = \"$dir\"",
+    "$Env:SELFAUTOPARENT = \"$parent\"",
+    "$curr_dir = pwd",
+    "cd $dir",
+    "cmd.exe /c install.bat",
+    "cmd.exe /c setpath.bat",
+    "cd $curr_dir"
+  ],
+  "bin": [
+    "bin/mtxrun.exe",
+    "tex/texmf-win64/bin/context.exe",
+    "tex/texmf-win64/bin/luatex.exe"
+  ],
+  "post_install": [
+    "context.exe --luatex --generate",
+    "context.exe --make"
+  ],
+  "checkver": {
+    "url": "https://www.pragma-ade.nl/download-1.htm",
+    "regex": "\"more-room\">([\\d-]+)"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "http://lmtx.pragma-ade.nl/install-lmtx/context-win64.zip"
+      },
+      "32bit": {
+        "url": "http://lmtx.pragma-ade.nl/install-lmtx/context-mswin.zip"
+      },
+      "arm64": {
+        "url": "http://lmtx.pragma-ade.nl/install-lmtx/context-windows-arm64.zip"
+      }
+    }
+  }
+}

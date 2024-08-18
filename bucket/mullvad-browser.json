@@ -1,0 +1,38 @@
+{
+  "version": "13.5.2",
+  "homepage": "https://mullvad.net/en/browser",
+  "description": "A privacy-focused web browser developed in a collaboration between Mullvad VPN and the Tor Project.",
+  "license": "MPL-2.0",
+  "architecture": {
+    "64bit": {
+      "url": "https://cdn.mullvad.net/browser/13.5.2/mullvad-browser-windows-x86_64-13.5.2.exe#/dl.7z",
+      "hash": "3c39ec448b31c74a87328fb58a4c803256e8a17df032452342582e45860fabb8"
+    }
+  },
+  "pre_install": "Remove-Item \"$dir\\`$*\", \"$dir\\Browser\\update*\" -Recurse -ErrorAction SilentlyContinue",
+  "shortcuts": [
+    [
+      "Browser\\mullvadbrowser.exe",
+      "Mullvad Browser"
+    ]
+  ],
+  "persist": [
+    "Data",
+    "UpdateInfo"
+  ],
+  "checkver": {
+    "url": "https://cdn.mullvad.net/browser/update_responses/update_1/release/downloads.json",
+    "jsonpath": "$.version"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://cdn.mullvad.net/browser/$version/mullvad-browser-windows-x86_64-$version.exe#/dl.7z"
+      }
+    },
+    "hash": {
+      "url": "$baseurl/sha256sums-signed-build.txt",
+      "regex": "$sha256\\s+$basename"
+    }
+  }
+}

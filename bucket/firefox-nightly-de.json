@@ -1,0 +1,53 @@
+{
+  "version": "131.0a1.20240816093002",
+  "description": "Nightly builds of Firefox: the popular open source web browser.",
+  "homepage": "https://www.mozilla.org/de-DE/firefox/nightly/",
+  "license": "MPL-2.0",
+  "architecture": {
+    "64bit": {
+      "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central-l10n/firefox-131.0a1.de.win64.zip",
+      "hash": "sha512:e8f257d31a195de8321eb47f45373845c56cbbf6551b4e5a768e8b9bc396654b590d2cc2d790e31bd4ade8350c45cf41788ccbcac8138f65cadab6ec557e0fc7"
+    },
+    "32bit": {
+      "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central-l10n/firefox-131.0a1.de.win32.zip",
+      "hash": "sha512:6859c90cfe0e3a8c0a92413912f01d0a85e0f452a25c6b85e9e32caad12c24c9fb0f5c48bb701a271c465938babcf1da58ad8013a9e3988a6e5cff921dc33a17"
+    }
+  },
+  "extract_dir": "firefox",
+  "bin": [
+    [
+      "firefox.exe",
+      "firefox-nightly-de",
+      "-profile \"$dir\\profile\""
+    ]
+  ],
+  "shortcuts": [
+    [
+      "firefox.exe",
+      "Firefox Nightly (de)",
+      "-profile \"$dir\\profile\""
+    ]
+  ],
+  "persist": "profile",
+  "checkver": {
+    "url": "https://aus5.mozilla.org/update/6/Firefox/60.0/_/WINNT_x86_64-msvc-x64/en-US/nightly/_/_/_/_/update.xml",
+    "regex": "appVersion=\"([\\w.]+)\".*?buildID=\"((?<yyyy>\\d{4})(?<mm>\\d{2})(?<dd>\\d{2})(?<hr>\\d{2})(?<mi>\\d{2})(?<se>\\d{2}))",
+    "replace": "${1}.${2}"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central-l10n/firefox-$majorVersion.$minorVersion.de.win64.zip",
+        "hash": {
+          "url": "$baseurl/firefox-$majorVersion.$minorVersion.de.win64.checksums"
+        }
+      },
+      "32bit": {
+        "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central-l10n/firefox-$majorVersion.$minorVersion.de.win32.zip",
+        "hash": {
+          "url": "$baseurl/firefox-$majorVersion.$minorVersion.de.win32.checksums"
+        }
+      }
+    }
+  }
+}

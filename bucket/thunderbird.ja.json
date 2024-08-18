@@ -1,0 +1,51 @@
+{
+  "version": "115.14.0",
+  "description": "A free email application that’s easy to set up and customize.",
+  "homepage": "https://www.thunderbird.net/ja/",
+  "license": "MPL-2.0",
+  "architecture": {
+    "64bit": {
+      "url": "https://archive.mozilla.org/pub/thunderbird/releases/115.14.0/win64/ja/Thunderbird%20Setup%20115.14.0.exe#/dl.7z",
+      "hash": "sha512:589e910bce3e5797b85650527205a58ae14bf660f9a645d1ae9fc09d1a04dea4f5c478b897e0880d0f354cb408e4c567be7c0cd3cc77173fa8b4c66091188eb1"
+    },
+    "32bit": {
+      "url": "https://archive.mozilla.org/pub/thunderbird/releases/115.14.0/win32/ja/Thunderbird%20Setup%20115.14.0.exe#/dl.7z",
+      "hash": "sha512:ce6a7f19b16de2f8537025e1fa4d576538c322def536bfdeaf83bacb2d90d7b26917a8c28e67b70acd480c10103e47a88ef778d7006107a23170657ff7fc8784"
+    }
+  },
+  "extract_dir": "core",
+  "bin": "thunderbird.exe",
+  "shortcuts": [
+    [
+      "thunderbird.exe",
+      "Mozilla Thunderbird"
+    ],
+    [
+      "thunderbird.exe",
+      "Thunderbird Profile Manager",
+      "-P"
+    ]
+  ],
+  "checkver": {
+    "url": "https://product-details.mozilla.org/1.0/thunderbird_versions.json",
+    "jsonpath": "$.LATEST_THUNDERBIRD_VERSION"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://archive.mozilla.org/pub/thunderbird/releases/$version/win64/ja/Thunderbird%20Setup%20$version.exe#/dl.7z",
+        "hash": {
+          "url": "https://archive.mozilla.org/pub/thunderbird/releases/$version/SHA512SUMS",
+          "regex": "$sha512\\s+win64/ja/$basename"
+        }
+      },
+      "32bit": {
+        "url": "https://archive.mozilla.org/pub/thunderbird/releases/$version/win32/ja/Thunderbird%20Setup%20$version.exe#/dl.7z",
+        "hash": {
+          "url": "https://archive.mozilla.org/pub/thunderbird/releases/$version/SHA512SUMS",
+          "regex": "$sha512\\s+win32/ja/$basename"
+        }
+      }
+    }
+  }
+}

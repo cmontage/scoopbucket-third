@@ -1,0 +1,58 @@
+{
+  "version": "20240817",
+  "description": "Open source home theater/media center software and entertainment hub for digital media",
+  "homepage": "https://kodi.tv/",
+  "license": "GPL-2.0-or-later",
+  "suggest": {
+    "vcredist": "extras/vcredist2022"
+  },
+  "architecture": {
+    "64bit": {
+      "url": "https://mirrors.kodi.tv/nightlies/windows/win64/master/KodiSetup-20240817-ba574de5-master-x64.exe#/dl.7z",
+      "hash": "c222875ac31d93866eb9d0041d4832d0f06fa76b63f138d7aea55769b9b38f03"
+    },
+    "32bit": {
+      "url": "https://mirrors.kodi.tv/nightlies/windows/win32/master/KodiSetup-20240817-e37849c3--x86.exe#/dl.7z",
+      "hash": "c8b1014b8c01d6f9f5f2de02f61ee9450ab25a3c4a0ad38be0e8dbffd2864043"
+    }
+  },
+  "post_install": "'$PLUGINSDIR', '$TEMP', 'AppxManifest.xml', 'Uninstall.exe' | ForEach-Object { Remove-Item \"$dir\\$_\" -Recurse -Force }",
+  "shortcuts": [
+    [
+      "kodi.exe",
+      "Kodi Dev",
+      "-p"
+    ]
+  ],
+  "persist": "portable_data",
+  "checkver": {
+    "script": [
+      "$builds = 'win32', 'win64'",
+      "$script_ver = ''",
+      "$urls =  @()",
+      "foreach ($build in $builds) {",
+      "   $base_url = 'https://mirrors.kodi.tv/nightlies/windows/'+ $build + '/master/'",
+      "   $dl_page = Invoke-WebRequest $base_url -UseBasicParsing",
+      "   $full_version = $dl_page.links | Where-Object href -match '\\.exe$' | Select-Object -first 1 -expand href",
+      "   $script_ver = $full_version -split '-' | Select-Object -Skip 1 | Select-Object -First 1",
+      "   $urls += $full_version",
+      "}",
+      "Write-Output ('version:\"' + $script_ver + '\"') ('urls:\"' + $urls + '\"')"
+    ],
+    "regex": "version:\"(?<version>\\d+)\"\\surls:\"(?<win32bit>.+)\\s(?<win64bit>.+)\""
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://mirrors.kodi.tv/nightlies/windows/win64/master/$matchWin64bit#/dl.7z"
+      },
+      "32bit": {
+        "url": "https://mirrors.kodi.tv/nightlies/windows/win32/master/$matchWin32bit#/dl.7z"
+      }
+    },
+    "hash": {
+      "url": "$url?mirrorlist",
+      "regex": "$sha256"
+    }
+  }
+}

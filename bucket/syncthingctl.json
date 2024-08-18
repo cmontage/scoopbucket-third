@@ -1,0 +1,32 @@
+{
+  "version": "1.6.0",
+  "description": "Command line app to control Syncthing",
+  "homepage": "https://github.com/Martchus/syncthingtray",
+  "license": {
+    "identifier": "GPL-2.0-only,...",
+    "url": "https://github.com/Martchus/syncthingtray/blob/master/LICENSES-windows-distribution.md"
+  },
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/Martchus/syncthingtray/releases/download/v1.6.0/syncthingctl-1.6.0-x86_64-w64-mingw32.exe.zip",
+      "hash": "da75a82cdea4c546047af84ff44bd2d9d5a6e425d8adbbf42b8449c39462fca8"
+    },
+    "32bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/Martchus/syncthingtray/releases/download/v1.6.0/syncthingctl-qt5-1.6.0-i686-w64-mingw32.exe.zip",
+      "hash": "fde2084fa36f7af9f0d6d09209dad56c7074cf7e2a1c3a22bce4c07931b0a520"
+    }
+  },
+  "pre_install": "Move-Item \"$dir\\syncthingctl-*.exe\" \"$dir\\syncthingctl.exe\"",
+  "bin": "syncthingctl.exe",
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/Martchus/syncthingtray/releases/download/v$version/syncthingctl-$version-x86_64-w64-mingw32.exe.zip"
+      },
+      "32bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/Martchus/syncthingtray/releases/download/v$version/syncthingctl-qt5-$version-i686-w64-mingw32.exe.zip"
+      }
+    }
+  }
+}

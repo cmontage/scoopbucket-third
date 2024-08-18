@@ -1,0 +1,23 @@
+{
+  "autoupdate": {
+    "url": "https://andrew-pozenel.xyz/storage/foe.version"
+  },
+  "bin": "Forge of Empires.exe",
+  "description": "FoE - Forge Of Empires, app made with Nativefier with ElectronJS and NODE.js",
+  "hash": "7ed622b05f34f9170fa63f7daf5de8fdbd28a4fab4156e07f7581caa1bcf535d",
+  "homepage": "https://en0.forgeofempires.com/page/",
+  "license": "Free",
+  "notes": [
+    "Forge Of Empires, built upon ElectronJS"
+  ],
+  "shortcuts": [
+    [
+      "Forge of Empires.exe",
+      "Forge Of Empires",
+      "",
+      "favicon.ico"
+    ]
+  ],
+  "url": "https://andrew-pozenel.xyz/storage/foe.7z",
+  "version": "1.1.2"
+}

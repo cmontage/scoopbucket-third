@@ -1,0 +1,48 @@
+{
+  "version": "8.1.1",
+  "description": "Office suite that combines text, spreadsheet and presentation editors allowing to create, view and edit documents.",
+  "homepage": "https://www.onlyoffice.com/apps.aspx",
+  "license": "AGPL-3.0-only",
+  "notes": [
+    "'x2t.exe' is added to your PATH. You can verify by running the following in your terminal,",
+    "x2t"
+  ],
+  "suggest": {
+    "Microsoft Visual C++ Redistibutable 2015": "extras/vcredist2022"
+  },
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v8.1.1/DesktopEditors_x64.exe#/setup.exe",
+      "hash": "e762e9ac7de0c60377ff4ad5e8d2d15126d03abf725e3e6682d3cc2c9cded7af"
+    },
+    "32bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v8.1.1/DesktopEditors_x86.exe#/setup.exe",
+      "hash": "9ae0658d8f7d97c0fe9a1b6d09245f5d24b0c4710bdd44e759ced894f88b265e"
+    }
+  },
+  "post_install": [
+    "if (!(is_admin)) { error \"$app requires admin rights to $cmd\"; break }",
+    "Start-Process \"$dir\\setup.exe\" -Wait -Verb 'RunAs' -Args @('/VERYSILENT', \"/DIR=$dir\\ONLYOFFICE\", '/ALLUSERS', '/SUPPRESSMSGBOXES')",
+    "Remove-Item \"$dir\\setup.exe\""
+  ],
+  "env_add_path": "ONLYOFFICE\\converter",
+  "pre_uninstall": [
+    "if (!(is_admin)) { error \"$app requires admin rights to $cmd\"; break }",
+    "Start-Process \"$dir\\ONLYOFFICE\\unins000.exe\" -Wait -Verb 'RunAs' -Args @('/VERYSILENT', '/FORCECLOSEAPPLICATIONS', '/SUPPRESSMSGBOXES')"
+  ],
+  "checkver": {
+    "github": "https://api.github.com/repos/ONLYOFFICE/DesktopEditors",
+    "jsonpath": "$.assets[*].browser_download_url",
+    "regex": "v([\\d.]+)/DesktopEditors_(?:x64|x86)\\.exe"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v$version/DesktopEditors_x64.exe#/setup.exe"
+      },
+      "32bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v$version/DesktopEditors_x86.exe#/setup.exe"
+      }
+    }
+  }
+}

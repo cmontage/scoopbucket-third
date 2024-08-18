@@ -1,0 +1,56 @@
+{
+  "version": "2024.7.1",
+  "description": "Password management solutions for individuals, teams, and business organizations",
+  "homepage": "https://bitwarden.com",
+  "license": "GPL-3.0-or-later",
+  "architecture": {
+    "32bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/bitwarden/clients/releases/download/desktop-v2024.7.1/bitwarden-2024.7.1-ia32.nsis.7z",
+      "hash": "3c97060fb74804a7eed41ea4ae08b98199744e6238ad0169a5bd1a190d267dc7"
+    },
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/bitwarden/clients/releases/download/desktop-v2024.7.1/bitwarden-2024.7.1-x64.nsis.7z",
+      "hash": "57fde4a7efb675263250b60178ea226606d3bbfdb4d19f19c46eaaa36d7c3e8d"
+    },
+    "arm64": {
+      "url": "https://mirror.ghproxy.com/https://github.com/bitwarden/clients/releases/download/desktop-v2024.7.1/bitwarden-2024.7.1-arm64.nsis.7z",
+      "hash": "e06ea0e00b97456e91e41d9b3f70d4672f682dc0fca0338a21f1bbccd9a29531"
+    }
+  },
+  "pre_install": [
+    "# copy config from portable data folder to Appdata folder",
+    "if (Test-Path \"$persist_dir\\bitwarden-appdata\") {",
+    "   Copy-Item \"$persist_dir\\bitwarden-appdata\\*\" \"$env:Appdata\\Bitwarden\" -Recurse -ErrorAction 'SilentlyContinue'",
+    "   Remove-Item $persist_dir -Recurse",
+    "}",
+    "Remove-Item \"$dir\\resources\\app-update.yml\""
+  ],
+  "shortcuts": [
+    [
+      "Bitwarden.exe",
+      "Bitwarden"
+    ]
+  ],
+  "checkver": {
+    "url": "https://api.github.com/repos/bitwarden/clients/releases",
+    "jsonpath": "$[*].tag_name",
+    "regex": "desktop-v([\\d.]+)"
+  },
+  "autoupdate": {
+    "architecture": {
+      "32bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/bitwarden/clients/releases/download/desktop-v$version/bitwarden-$version-ia32.nsis.7z"
+      },
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/bitwarden/clients/releases/download/desktop-v$version/bitwarden-$version-x64.nsis.7z"
+      },
+      "arm64": {
+        "url": "https://mirror.ghproxy.com/https://github.com/bitwarden/clients/releases/download/desktop-v$version/bitwarden-$version-arm64.nsis.7z"
+      }
+    },
+    "hash": {
+      "url": "$baseurl/sha256-checksums.txt",
+      "regex": "$sha256\\s+$basename"
+    }
+  }
+}

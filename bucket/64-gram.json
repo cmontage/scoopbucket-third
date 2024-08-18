@@ -1,0 +1,25 @@
+{
+  "autoupdate": {
+    "url": "https://mirror.ghproxy.com/https://github.com/TDesktop-x64/tdesktop/releases/download/v$version/64Gram_$version_x64.zip"
+  },
+  "bin": "Telegram.exe",
+  "checkver": {
+    "github": "https://github.com/TDesktop-x64/tdesktop"
+  },
+  "description": "Unofficial Telegram Desktop (Windows 64bit/x64)",
+  "hash": "7061f0a4742db30caa029b538624a833b8b7936daa604b16b3aefeb9214d5d74",
+  "homepage": "https://64gr.am",
+  "license": {
+    "identifier": "GPL-3.0-with-OpenSSL-exception",
+    "url": "https://github.com/TDesktop-x64/tdesktop/blob/dev/LICENSE"
+  },
+  "persist": "tdata",
+  "shortcuts": [
+    [
+      "Telegram.exe",
+      "64Gram"
+    ]
+  ],
+  "url": "https://mirror.ghproxy.com/https://github.com/TDesktop-x64/tdesktop/releases/download/v1.1.32/64Gram_1.1.32_x64.zip",
+  "version": "1.1.32"
+}

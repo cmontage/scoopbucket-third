@@ -1,0 +1,25 @@
+{
+  "version": "1.14.2",
+  "description": "Command line interface for MongoDB Atlas",
+  "homepage": "https://www.mongodb.com/docs/atlas/cli/stable/",
+  "license": "Apache-2.0",
+  "architecture": {
+    "64bit": {
+      "url": "https://fastdl.mongodb.org/mongocli/mongodb-atlas-cli_1.14.2_windows_x86_64.zip",
+      "hash": "9ba60a9b48cc16a9ccc7fa0def668cc1071c97cf7d8f80d95eff9427b5850535"
+    }
+  },
+  "extract_dir": "bin",
+  "bin": "atlas.exe",
+  "checkver": {
+    "url": "https://www.mongodb.com/try/download/atlascli",
+    "regex": "mongodb-atlas-cli_([\\d.]+)_windows_x86_64"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://fastdl.mongodb.org/mongocli/mongodb-atlas-cli_$version_windows_x86_64.zip"
+      }
+    }
+  }
+}

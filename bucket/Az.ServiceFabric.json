@@ -1,0 +1,27 @@
+{
+  "checkver": {
+    "url": "https://www.powershellgallery.com/api/v2/Packages()?$filter=Id%20eq%20'Az.ServiceFabric'%20and%20IsLatestVersion%20eq%20true",
+    "replace": "${ver}",
+    "regex": "(?i)<d:Version>(?<ver>[^<]+)<.d:Version>"
+  },
+  "hash": "sha512:8d45559edbac4d6d311521c1d82e8d7d0018cd9817a0b984c8bb16f7a61bd0544661c466bc528e61e4923d0abc779c54f0ad4df4f408466da1b26760e17470ca",
+  "description": "Microsoft Azure PowerShell - Service Fabric cmdlets for Azure Resource Manager in Windows PowerShell and PowerShell Core.  For more information on Service Fabric, please visit the following: https://learn.microsoft.com/azure/service-fabric/",
+  "psmodule": {
+    "name": "Az.ServiceFabric"
+  },
+  "homepage": "https://www.powershellgallery.com/packages/Az.ServiceFabric",
+  "autoupdate": {
+    "url": "https://www.powershellgallery.com/api/v2/Package/Az.ServiceFabric/$version#/mod.nupkg",
+    "hash": {
+      "url": "https://www.powershellgallery.com/api/v2/Packages()?$filter=Id eq 'Az.ServiceFabric' and Version eq '$version'",
+      "regex": "<d:PackageHash>$base64<.d:PackageHash>"
+    }
+  },
+  "license": {
+    "identifier": "Refer to Webpage",
+    "url": "https://aka.ms/azps-license"
+  },
+  "url": "https://www.powershellgallery.com/api/v2/Package/Az.ServiceFabric/3.3.3#/mod.nupkg",
+  "depends": "Az.Accounts",
+  "version": "3.3.3"
+}

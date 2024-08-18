@@ -1,0 +1,45 @@
+{
+  "version": "1.22.1",
+  "description": "Git with a cup of tea, painless self-hosted git service. (beta channel)",
+  "homepage": "https://gitea.io/",
+  "license": "MIT",
+  "notes": "Run 'gitea web -c \"$persist_dir\\custom\\conf\\app.ini\"' to start the webserver",
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/go-gitea/gitea/releases/download/v1.22.1/gitea-1.22.1-windows-4.0-amd64.exe#/gitea.exe",
+      "hash": "a40d11c591a8f8fa486259f5fdeb2cba926009db9a61d61bdef43e0335209abd"
+    },
+    "32bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/go-gitea/gitea/releases/download/v1.22.1/gitea-1.22.1-windows-4.0-386.exe#/gitea.exe",
+      "hash": "864da9932896bdfa0b5ba9593d2d782768fa4c7f60676c247c3cccbb6e3e473c"
+    }
+  },
+  "post_install": [
+    "echo 'Creating $persist_dir\\custom\\conf.app.ini'",
+    "if(!(test-path \"$persist_dir\\custom\\conf\")) { mkdir \"$persist_dir\\custom\\conf\" > $null }",
+    "if(!(test-path \"$persist_dir\\custom\\conf\\app.ini\")) {",
+    "    $gitea = \"[database]`nPATH = $persist_dir/data/gitea.db\"",
+    "    $gitea += \"`n[repository]`nROOT = $persist_dir/repositories\"",
+    "    $gitea += \"`n[log]`nROOT_PATH = $persist_dir/log\"",
+    "    echo $gitea | % {$_.replace(\"\\\",\"/\") } | out-file -encoding oem \"$persist_dir\\custom\\conf\\app.ini\"",
+    "}"
+  ],
+  "bin": "gitea.exe",
+  "checkver": {
+    "url": "https://github.com/go-gitea/gitea/releases",
+    "regex": ">v([\\d.]+(-\\w+)?)<"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/go-gitea/gitea/releases/download/v$version/gitea-$version-windows-4.0-amd64.exe#/gitea.exe"
+      },
+      "32bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/go-gitea/gitea/releases/download/v$version/gitea-$version-windows-4.0-386.exe#/gitea.exe"
+      }
+    },
+    "hash": {
+      "url": "$url.sha256"
+    }
+  }
+}

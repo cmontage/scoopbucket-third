@@ -1,0 +1,34 @@
+{
+  "version": "5.2.0.21fi",
+  "homepage": "https://fileviewerplus.com/",
+  "description": "A universal file opener for Windows that allows you to view, edit, save, and convert files.",
+  "license": {
+    "identifier": "Shareware",
+    "url": "https://fileviewerplus.com/eula"
+  },
+  "url": "https://objects.liquidweb.services/fvp/fvp_setup_5.2.0.21fi.exe",
+  "hash": "b9acc01291f8d96d040f8658dd9c7c5f71b5afad96f701b555b3c4576eaf7c29",
+  "innosetup": true,
+  "shortcuts": [
+    [
+      "fvp5.exe",
+      "File Viewer Plus"
+    ]
+  ],
+  "checkver": {
+    "script": [
+      "$ua = [Microsoft.PowerShell.Commands.PSUserAgent]::Chrome",
+      "(Invoke-WebRequest 'https://fileinfo.com/dl_fvp' -UserAgent $ua).BaseResponse.RequestMessage.RequestUri.AbsoluteUri"
+    ],
+    "regex": "fvp_setup_([\\w.]+)\\.exe"
+  },
+  "autoupdate": {
+    "url": "https://objects.liquidweb.services/fvp/fvp_setup_$version.exe",
+    "shortcuts": [
+      [
+        "fvp$majorVersion.exe",
+        "File Viewer Plus"
+      ]
+    ]
+  }
+}

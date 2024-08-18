@@ -1,0 +1,39 @@
+{
+  "version": "0.9.1.0",
+  "description": "A simple video player based on FFmpeg libraries",
+  "homepage": "https://www.geeks3d.com/yaffplayer/",
+  "license": "Freeware",
+  "architecture": {
+    "64bit": {
+      "url": "https://www.geeks3d.com/dl/get/618#/dl.zip",
+      "hash": "md5:3e5d63cb0d4752609288841d8a4fc6a2"
+    }
+  },
+  "extract_dir": "YAFFplayer",
+  "shortcuts": [
+    [
+      "YAFFplayer.exe",
+      "YAFFplayer"
+    ]
+  ],
+  "persist": [
+    "_geexlab_log.txt",
+    "_scene_init_log.txt",
+    "imgui.ini"
+  ],
+  "checkver": {
+    "url": "https://www.geeks3d.com/dl/show/618",
+    "regex": "(?sm)>YAFFplayer<.*?>([\\d.]+)<"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://www.geeks3d.com/dl/get/618#/dl.zip",
+        "hash": {
+          "url": "https://www.geeks3d.com/dl/show/618",
+          "regex": "MD5.*?$md5"
+        }
+      }
+    }
+  }
+}

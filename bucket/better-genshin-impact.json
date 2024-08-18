@@ -1,0 +1,43 @@
+{
+  "version": "0.32.1",
+  "description": "BetterGI is a project that aims to make Genshin Impact better using computer vision technology.",
+  "homepage": "https://github.com/babalae/better-genshin-impact",
+  "license": {
+    "identifier": "GPL-3.0",
+    "url": "https://github.com/babalae/better-genshin-impact/blob/main/LICENSE"
+  },
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/babalae/better-genshin-impact/releases/download/0.32/BetterGI_v0.32.1.7z",
+      "hash": "30176b7c7f522661b3c4cba38900f0fae7c04c8bd13b7d3ba2c5f27d0cd580e5"
+    }
+  },
+  "checkver": {
+    "script": [
+      "$rel_info = Invoke-RestMethod -Uri 'https://api.github.com/repos/babalae/better-genshin-impact/releases'",
+      "$main = $rel_info | Where-Object { $_.target_commitish -eq 'main'} | Select-Object -first 1",
+      "$asset = ($main.assets | Where-Object { $_.name -match '^BetterGI_v((?:\\d+\\.?)+)\\.7z'} | Select-Object -first 1)",
+      "$stable_version = $asset.name.TrimStart('BetterGI_v').TrimEnd('.7z')",
+      "Write-Output $stable_version $asset.browser_download_url"
+    ],
+    "regex": "(?<version>[\\d.]+)\\s(?<dlurl>.+)"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "$matchDlurl"
+      }
+    }
+  },
+  "extract_dir": "BetterGI",
+  "shortcuts": [
+    [
+      "BetterGI.exe",
+      "BetterGI"
+    ]
+  ],
+  "suggest": {
+    ".Net Desktop Runtime": "extras/windowsdesktop-runtime"
+  },
+  "persist": "User"
+}

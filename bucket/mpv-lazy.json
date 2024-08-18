@@ -1,0 +1,34 @@
+{
+  "version": "20240406",
+  "description": "🔄 mpv player 播放器折腾记录 windows conf ； 中文注释配置 快速帮助入门 ； mpv-lazy 懒人包 win10 x64 config",
+  "homepage": "https://hooke007.github.io/index2#mpv-lazy",
+  "license": {
+    "identifier": "GPL-2.0-only",
+    "url": "https://github.com/hooke007/MPV_lazy/blob/main/LICENSE.MD"
+  },
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/hooke007/MPV_lazy/releases/download/20240406/mpv-lazy-20240406.exe#/dl.7z",
+      "hash": "18bacffcf5cc9a3822a87fc6080f62e53ded067b0aa997ebf6a39821087bd8d0"
+    }
+  },
+  "extract_dir": "mpv-lazy",
+  "shortcuts": [
+    [
+      "mpv.exe",
+      "mpv-lazy"
+    ]
+  ],
+  "persist": "portable_config",
+  "checkver": {
+    "url": "https://github.com/hooke007/MPV_lazy/releases.atom",
+    "regex": "/releases/tag/([\\d]+)"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/hooke007/MPV_lazy/releases/download/$version/mpv-lazy-$version.exe#/dl.7z"
+      }
+    }
+  }
+}

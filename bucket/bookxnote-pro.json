@@ -1,0 +1,39 @@
+{
+  "homepage": "http://www.bookxnote.com/",
+  "license": "Proprietary",
+  "version": "2.0.0.1124",
+  "architecture": {
+    "64bit": {
+      "url": "http://www.bookxnote.com/setup/bookxnotepro-windows-x64-2.0.0.1124-20240619.zip",
+      "hash": "68269d71e812455cba35c2eb24eb631dd716a621094dd80115e89a21566ac33d"
+    },
+    "32bit": {
+      "url": "http://www.bookxnote.com/setup/bookxnotepro-windows-x86-2.0.0.1124-20240619.zip",
+      "hash": "49af48ceb410aaf0f2a3444b2c895d8ded636de759609fb8d3643b0adf61ef4d"
+    }
+  },
+  "installer": {
+    "script": [
+      "$exefile = (Get-ChildItem \"$dir\" '*.exe' | Select-Object -First 1).FullName",
+      "Expand-7ZipArchive \"$exefile\" \"$dir\" -Removal"
+    ]
+  },
+  "bin": "BookxNotePro.exe",
+  "shortcuts": [
+    [
+      "BookxNotePro.exe",
+      "BookxNote Pro"
+    ]
+  ],
+  "checkver": "bookxnotepro-windows-x64-([\\d.]+)-(?<date>\\d{6,8}).zip",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "http://www.bookxnote.com/setup/bookxnotepro-windows-x64-$version-$matchDate.zip"
+      },
+      "32bit": {
+        "url": "http://www.bookxnote.com/setup/bookxnotepro-windows-x86-$version-$matchDate.zip"
+      }
+    }
+  }
+}

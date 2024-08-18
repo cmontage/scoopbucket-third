@@ -1,0 +1,57 @@
+{
+  "version": "2024.2-242.20224.401",
+  "description": "Cross-Platform IDE for .NET by JetBrains.",
+  "homepage": "https://www.jetbrains.com/rider/",
+  "license": {
+    "identifier": "Proprietary",
+    "url": "https://www.jetbrains.com/store/license.html"
+  },
+  "architecture": {
+    "64bit": {
+      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2024.2.win.zip",
+      "hash": "b17e1afc8870dd46e31f1221bd7576ddb4ed272cb33ee51bee75e0a5772cc6fa"
+    },
+    "arm64": {
+      "url": "https://download.jetbrains.com/rider/JetBrains.Rider-2024.2-aarch64.win.zip",
+      "hash": "2143d39b8976a57c95ad22c0e0d90b679f062e977609ed1bc50edee94cf3953e"
+    }
+  },
+  "extract_to": "IDE",
+  "installer": {
+    "script": "& \"$bucketsdir\\$bucket\\scripts\\jetbrains\\portable.ps1\" \"$dir\" \"$persist_dir\""
+  },
+  "bin": [
+    [
+      "IDE\\bin\\rider64.exe",
+      "rider"
+    ]
+  ],
+  "shortcuts": [
+    [
+      "IDE\\bin\\rider64.exe",
+      "JetBrains\\Rider"
+    ]
+  ],
+  "persist": [
+    "IDE\\bin\\idea.properties",
+    "profile"
+  ],
+  "checkver": {
+    "url": "https://data.services.jetbrains.com/products/releases?code=RD&latest=true&platform=zip&type=release",
+    "regex": "version\":\"(?<ver>[\\d.]+)\".*\"build\":\"(?<build>[\\d.]+)\"",
+    "replace": "${ver}-${build}"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://download.jetbrains.com/rider/JetBrains.Rider-$matchHead.win.zip"
+      },
+      "arm64": {
+        "url": "https://download.jetbrains.com/rider/JetBrains.Rider-$matchHead-aarch64.win.zip"
+      }
+    },
+    "hash": {
+      "url": "$url.sha256"
+    }
+  }
+}

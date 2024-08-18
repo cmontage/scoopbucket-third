@@ -1,0 +1,58 @@
+{
+  "version": "20.16.0",
+  "description": "An asynchronous event driven JavaScript runtime designed to build scalable network applications.",
+  "homepage": "https://nodejs.org",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://registry.npmmirror.com/-/binary/node/v20.16.0/node-v20.16.0-win-x64.7z",
+      "hash": "1b3961054a484476872715d9ca04bc491d797fde6336db514b6e6fcbb71fae9d",
+      "extract_dir": "node-v20.16.0-win-x64"
+    },
+    "32bit": {
+      "url": "https://registry.npmmirror.com/-/binary/node/v20.16.0/node-v20.16.0-win-x86.7z",
+      "hash": "76f1806fde0b09ed4044f29ea140fb2bea9bce745b9892ec4aeb6537344db6f1",
+      "extract_dir": "node-v20.16.0-win-x86"
+    },
+    "arm64": {
+      "url": "https://registry.npmmirror.com/-/binary/node/v20.16.0/node-v20.16.0-win-arm64.7z",
+      "hash": "52e5666a379acd8533d9ccab66c2321a6ffc83766248419bfbd41ba8bc071244",
+      "extract_dir": "node-v20.16.0-win-arm64"
+    }
+  },
+  "persist": [
+    "bin",
+    "cache"
+  ],
+  "env_add_path": [
+    "bin",
+    "."
+  ],
+  "post_install": [
+    "# Set npm prefix to install modules inside bin and npm cache so they persist",
+    "Set-Content -Value \"prefix=$persist_dir\\bin`ncache=$persist_dir\\cache\" -Path \"$dir\\node_modules\\npm\\npmrc\""
+  ],
+  "checkver": {
+    "url": "https://registry.npmmirror.com/-/binary/node/latest-v20.x/",
+    "regex": "node-v([\\d.]+)-win-x64\\.7z"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://registry.npmmirror.com/-/binary/node/v$version/node-v$version-win-x64.7z",
+        "extract_dir": "node-v$version-win-x64"
+      },
+      "32bit": {
+        "url": "https://registry.npmmirror.com/-/binary/node/v$version/node-v$version-win-x86.7z",
+        "extract_dir": "node-v$version-win-x86"
+      },
+      "arm64": {
+        "url": "https://registry.npmmirror.com/-/binary/node/v$version/node-v$version-win-arm64.7z",
+        "extract_dir": "node-v$version-win-arm64"
+      }
+    },
+    "hash": {
+      "url": "$baseurl/SHASUMS256.txt.asc"
+    }
+  }
+}

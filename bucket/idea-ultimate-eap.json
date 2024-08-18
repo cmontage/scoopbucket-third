@@ -1,0 +1,55 @@
+{
+  "version": "2024.2.1-242.21829.15",
+  "description": "Cross-Platform IDE for Java by JetBrains. (Early Access Program)",
+  "homepage": "https://www.jetbrains.com/idea/",
+  "license": {
+    "identifier": "Proprietary",
+    "url": "https://www.jetbrains.com/store/license.html"
+  },
+  "url": "https://download.jetbrains.com/idea/ideaIU-242.21829.15.win.zip",
+  "hash": "593d650e3ad05377583bb1c29a1dab31debf07e503408b4c5d111591d37a41d8",
+  "extract_to": "IDE",
+  "installer": {
+    "script": "& \"$bucketsdir\\$bucket\\scripts\\jetbrains\\portable.ps1\" $dir $persist_dir"
+  },
+  "architecture": {
+    "64bit": {
+      "bin": [
+        [
+          "IDE\\bin\\idea64.exe",
+          "idea"
+        ]
+      ],
+      "shortcuts": [
+        [
+          "IDE\\bin\\idea64.exe",
+          "JetBrains\\IDEA Ultimate (Early Access Program)"
+        ]
+      ]
+    },
+    "32bit": {
+      "bin": "IDE\\bin\\idea.exe",
+      "shortcuts": [
+        [
+          "IDE\\bin\\idea.exe",
+          "JetBrains\\IDEA Ultimate (Early Access Program)"
+        ]
+      ]
+    }
+  },
+  "persist": [
+    "IDE\\bin\\idea.properties",
+    "profile"
+  ],
+  "checkver": {
+    "url": "https://data.services.jetbrains.com/products/releases?code=IIU&latest=true&platform=zip&type=eap",
+    "regex": "version\":\"(?<ver>[\\d.]+)\".*\"build\":\"(?<build>[\\d.]+)\"",
+    "replace": "${ver}-${build}"
+  },
+  "autoupdate": {
+    "url": "https://download.jetbrains.com/idea/ideaIU-$preReleaseVersion.win.zip",
+    "hash": {
+      "url": "$url.sha256"
+    }
+  }
+}

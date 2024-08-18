@@ -1,0 +1,22 @@
+{
+  "version": "4.14.4",
+  "description": "Patches a given font with programming and development related glyphs",
+  "homepage": "https://github.com/ryanoasis/nerd-fonts",
+  "license": "MIT",
+  "notes": "Usage: 'nerd-font-patcher [<args>] <path_to_font>'",
+  "suggest": {
+    "fontforge": "extras/fontforge",
+    "python": "python"
+  },
+  "url": "https://github.com/ryanoasis/nerd-fonts/raw/master/FontPatcher.zip",
+  "hash": "38aad94e0280480dad0cc10686e9ebf86c6137da65ae338fc4ff6813e7832cd6",
+  "pre_install": "Copy-Item \"$bucketsdir\\$bucket\\scripts\\$app\\$app.ps1\" \"$dir\"",
+  "bin": "nerd-font-patcher.ps1",
+  "checkver": {
+    "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/ryanoasis/nerd-fonts/master/font-patcher",
+    "regex": "script_version = \"([\\d.]+)\""
+  },
+  "autoupdate": {
+    "url": "https://github.com/ryanoasis/nerd-fonts/raw/master/FontPatcher.zip"
+  }
+}

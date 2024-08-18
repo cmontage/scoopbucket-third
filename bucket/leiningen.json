@@ -1,0 +1,16 @@
+{
+  "version": "2.11.1",
+  "description": "Simplify Clojure project automation and configuration.",
+  "homepage": "https://leiningen.org/",
+  "license": "EPL-1.0",
+  "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/technomancy/leiningen/2.11.1/bin/lein.bat",
+  "hash": "0d3c96ec8a28ef7a0cca673c1e790741fe4fa3c19aab65a32cf95e754b30fc40",
+  "bin": "lein.bat",
+  "post_install": "lein self-install",
+  "checkver": {
+    "github": "https://github.com/technomancy/leiningen"
+  },
+  "autoupdate": {
+    "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/technomancy/leiningen/$version/bin/lein.bat"
+  }
+}

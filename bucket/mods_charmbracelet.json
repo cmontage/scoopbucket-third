@@ -1,0 +1,22 @@
+{
+  "version": "1.5.0",
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/charmbracelet/mods/releases/download/v1.5.0/mods_1.5.0_Windows_x86_64.zip",
+      "bin": [
+        "mods_1.5.0_Windows_x86_64/mods.exe"
+      ],
+      "hash": "ba82903c4bdac47b1ad7876fb9605b7f485dd716f334b8d2c581f7f0437a3bfc"
+    },
+    "arm64": {
+      "url": "https://mirror.ghproxy.com/https://github.com/charmbracelet/mods/releases/download/v1.5.0/mods_1.5.0_Windows_arm64.zip",
+      "bin": [
+        "mods_1.5.0_Windows_arm64/mods.exe"
+      ],
+      "hash": "6e4c080b70f2fd582c4403ce7edf2c57e66607fbb88c92eb1fad44027f9503ef"
+    }
+  },
+  "homepage": "https://charm.sh/",
+  "license": "MIT",
+  "description": "AI on the command line"
+}

@@ -1,0 +1,52 @@
+{
+  "version": "9.9.12",
+  "description": "An instant messaging tool that gives you the best way to keep in touch with your friends and family, Build with Electron",
+  "homepage": "https://im.qq.com",
+  "license": {
+    "identifier": "Proprietary",
+    "url": "https://ti.qq.com/agreement/index.html"
+  },
+  "architecture": {
+    "64bit": {
+      "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_9.9.12_240708_x64_01.exe#/dl.7z",
+      "hash": "75e666fa154939bd459d5e2bf2548504a791f3d7a58765ff9ee73e881bd0da10"
+    },
+    "32bit": {
+      "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_9.9.12_240708_x86_01.exe#/dl.7z",
+      "hash": "4d82d77be5049296c44950c67f07e1c42b63c8982c2e53346ca8214a58f39d97"
+    }
+  },
+  "installer": {
+    "script": [
+      "$configpath = \"$env:PUBLIC\\Documents\\Tencent\\QQ\"",
+      "if (!(Test-Path \"$configpath\")) {",
+      "    New-Item -Path \"$configpath\" -Type Directory -Force | Out-Null",
+      "}",
+      "Set-Content -NoNewline -Path \"$configpath\\UserDataInfo.ini\" -Value \"[UserDataSet]`nUserDataSavePathType=2`nUserDataSavePath=$persist_dir\\QQ Files\""
+    ]
+  },
+  "shortcuts": [
+    [
+      "Files\\QQ.exe",
+      "QQ-NT"
+    ]
+  ],
+  "persist": "QQ Files",
+  "uninstaller": {
+    "script": "Remove-Item -Path \"$env:PUBLIC\\Documents\\Tencent\" -Recurse -Force | Out-Null"
+  },
+  "checkver": {
+    "url": "https://qq-web.cdn-go.cn/im.qq.com_new/f2ff7664/rainbow/windowsDownloadUrl.js",
+    "regex": "QQNT/Windows/QQ_([\\d.]+)_([\\d.]+)_x86_([\\d.]+).exe.*QQNT/Windows/QQ_([\\d.]+)_([\\d.]+)_x64_([\\d.]+).exe"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_$match1_$match2_x64_$match3.exe#/dl.7z"
+      },
+      "32bit": {
+        "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_$match1_$match2_x86_$match3.exe#/dl.7z"
+      }
+    }
+  }
+}

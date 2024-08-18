@@ -1,0 +1,70 @@
+{
+  "homepage": "https://www.swift.org/",
+  "description": "The Swift Programming Language",
+  "license": "Apache-2.0",
+  "version": "5.10.1",
+  "architecture": {
+    "64bit": {
+      "url": "https://download.swift.org/swift-5.10.1-release/windows10/swift-5.10.1-RELEASE/swift-5.10.1-RELEASE-windows10.exe",
+      "hash": "3027762138acfa1bbe3050ff6613bbe754332e84c9efa5c23984646009297286"
+    }
+  },
+  "depends": "main/wixtoolset",
+  "suggest": {
+    "python39": "versions/python39",
+    "vcredist": "extras/vcredist2022"
+  },
+  "installer": {
+    "script": [
+      "wix.exe burn extract \"$dir\\$fname\" -o \"$dir\\extracted\" -oba \"$dir\\extracted\"",
+      "$productVersion = ([xml](Get-Content -Raw \"$dir\\extracted\\manifest.xml\" -Encoding utf8)).BurnManifest.Registration.Version",
+      "Get-ChildItem \"$dir\\extracted\\WixAttachedContainer\\*.msi\" | ForEach-Object {",
+      "    if ($_.Name -match 'rtl.msi') {",
+      "        Expand-MsiArchive $_ \"$dir\\Runtimes\\usr\\bin\"",
+      "    } else {",
+      "        Expand-MsiArchive $_ \"$dir\"",
+      "    }",
+      "}",
+      "if (Test-Path \"$dir\\LocalApp\\Programs\\Swift\\Tools\") {",
+      "    Get-ChildItem \"$dir\\LocalApp\\Programs\\Swift\\Tools\\$productVersion\" | ForEach-Object {",
+      "        Move-Item -Path $_ -Destination \"$dir\\LocalApp\\Programs\\Swift\\Toolchains\\$($productVersion)+Asserts\\usr\\bin\" -Force",
+      "    }",
+      "    Remove-Item \"$dir\\LocalApp\\Programs\\Swift\\Tools\" -Recurse | Out-Null",
+      "}",
+      "Move-Item -Path \"$dir\\LocalApp\\Programs\\Swift\\Platforms\\$productVersion\\Windows.platform\" -Destination \"$dir\\LocalApp\\Programs\\Swift\\Platforms\"",
+      "Move-Item -Path \"$dir\\LocalApp\\Programs\\Swift\\Toolchains\\$($productVersion)+Asserts\\usr\" -Destination \"$dir\\LocalApp\\Programs\\Swift\\Toolchains\"",
+      "Move-Item -Path \"$dir\\LocalApp\\Programs\\Swift\\Redistributables\\$productVersion\\*\" -Destination \"$dir\\LocalApp\\Programs\\Swift\\Redistributables\"",
+      "Get-ChildItem \"$dir\\LocalApp\\Programs\\Swift\" | ForEach-Object {",
+      "    Move-Item -Path $_ -Destination \"$dir\\\" -Force",
+      "}",
+      "Remove-Item \"$dir\\Platforms\\$productVersion\" | Out-Null",
+      "Remove-Item \"$dir\\Toolchains\\$($productVersion)+Asserts\" | Out-Null",
+      "Remove-Item \"$dir\\Redistributables\\$productVersion\" | Out-Null",
+      "@(\"$fname\", 'extracted', 'LocalApp', 'SourceDir') | ForEach-Object {",
+      "    Remove-Item \"$dir\\$_\" -Recurse -ErrorAction SilentlyContinue | Out-Null",
+      "}"
+    ]
+  },
+  "env_add_path": [
+    "Toolchains\\usr\\bin",
+    "Runtimes\\usr\\bin"
+  ],
+  "env_set": {
+    "SDKROOT": "$dir\\Platforms\\Windows.platform\\Developer\\SDKs\\Windows.sdk"
+  },
+  "checkver": {
+    "url": "https://dorado-api.deno.dev/swift-tmp",
+    "regex": "swift-(5.10([\\d.]+)?)-RELEASE-windows10.exe"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://download.swift.org/swift-$version-release/windows10/swift-$version-RELEASE/swift-$version-RELEASE-windows10.exe"
+      }
+    }
+  },
+  "notes": [
+    "Swift Toolchain does not bundle Python39 which is a requirement for LLDB to work.",
+    "Please install Python39 from versions/python39 if you want to use the LLDB debugger."
+  ]
+}

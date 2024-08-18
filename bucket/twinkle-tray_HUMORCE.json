@@ -1,0 +1,26 @@
+{
+  "version": "1.15.5",
+  "description": "Easily manage the brightness of your monitors in Windows from the system tray",
+  "homepage": "https://twinkletray.com/",
+  "license": "MIT",
+  "url": "https://mirror.ghproxy.com/https://github.com/xanderfrangos/twinkle-tray/releases/download/v1.15.5/Twinkle.Tray.v1.15.5.exe",
+  "hash": "bdbe08de1624a0c484e1f626183f6ea56778e6dbfc4ae44a74e0422b0e114cad",
+  "installer": {
+    "script": [
+      "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+      "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninst*\" -Force -Recurse"
+    ]
+  },
+  "shortcuts": [
+    [
+      "Twinkle Tray.exe",
+      "Twinkle Tray"
+    ]
+  ],
+  "checkver": {
+    "github": "https://github.com/xanderfrangos/twinkle-tray"
+  },
+  "autoupdate": {
+    "url": "https://mirror.ghproxy.com/https://github.com/xanderfrangos/twinkle-tray/releases/download/v$version/Twinkle.Tray.v$version.exe"
+  }
+}

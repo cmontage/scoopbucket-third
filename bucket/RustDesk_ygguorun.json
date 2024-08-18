@@ -1,0 +1,51 @@
+{
+  "version": "1.2.7",
+  "description": "Yet another remote desktop software",
+  "homepage": "https://rustdesk.com",
+  "license": "GNU General Public License v3.0",
+  "url": "https://mirror.ghproxy.com/https://github.com/rustdesk/rustdesk/releases/download/1.2.7/rustdesk-1.2.7-x86_64.exe",
+  "hash": "d86b4dac7fd5ed52de72186246a8c61a14a7d118004eb6a7b60aec95646f7a01",
+  "installer": {
+    "script": [
+      "Move-Item $dir\\rust* $dir\\RustDesk.exe",
+      "# handle runtime cache",
+      "if (!(Test-Path $persist_dir)) {",
+      "    New-Item $persist_dir -Type Directory -Force | Out-Null",
+      "}",
+      "$runtimeCache = \"$env:APPDATA\\RustDesk\"",
+      "$runtimeCachePersist = \"$persist_dir\\appdata\"",
+      "if (Test-Path $runtimeCachePersist) {",
+      "    Remove-Item $runtimeCache -Force -Recurse -ErrorAction SilentlyContinue",
+      "    New-Item -Type Junction -Path $runtimeCache -Target $runtimeCachePersist | Out-Null",
+      "} else {",
+      "    if (Test-Path $runtimeCache) {",
+      "        Move-Item $runtimeCache $runtimeCachePersist -Force",
+      "        New-Item -Type Junction -Path $runtimeCache -Target $runtimeCachePersist | Out-Null",
+      "    }",
+      "}"
+    ]
+  },
+  "uninstaller": {
+    "script": [
+      "$runtimeCache = \"$env:APPDATA\\RustDesk\"",
+      "$runtimeCachePersist = \"$persist_dir\\appdata\"",
+      "if (!(Test-Path $runtimeCachePersist)) {",
+      "    Move-Item $runtimeCache $runtimeCachePersist -Force",
+      "} else {",
+      "    Remove-Item $runtimeCache -Force -Recurse -ErrorAction SilentlyContinue",
+      "}"
+    ]
+  },
+  "shortcuts": [
+    [
+      "RustDesk.exe",
+      "RustDesk"
+    ]
+  ],
+  "checkver": {
+    "github": "https://github.com/rustdesk/rustdesk"
+  },
+  "autoupdate": {
+    "url": "https://mirror.ghproxy.com/https://github.com/rustdesk/rustdesk/releases/download/$version/rustdesk-$version-x86_64.exe"
+  }
+}

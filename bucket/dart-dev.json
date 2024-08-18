@@ -1,0 +1,35 @@
+{
+  "version": "3.6.0-149.0.dev",
+  "description": "The libraries and command-line tools that you need to develop Dart web, command-line, and server apps",
+  "homepage": "https://www.dartlang.org/",
+  "license": "BSD-3-Clause",
+  "architecture": {
+    "64bit": {
+      "url": "https://storage.googleapis.com/dart-archive/channels/dev/release/3.6.0-149.0.dev/sdk/dartsdk-windows-x64-release.zip",
+      "hash": "8a8ae66d0130d0537f13b7e9f60db33d3d233da68df72eea37a38a3a9183d2ab"
+    },
+    "32bit": {
+      "url": "https://storage.googleapis.com/dart-archive/channels/dev/release/3.6.0-149.0.dev/sdk/dartsdk-windows-ia32-release.zip",
+      "hash": "1221f4f2a6637e109e7ed81a4c13270755a847a50738abf48b29c24b14c56b07"
+    }
+  },
+  "extract_dir": "dart-sdk",
+  "env_add_path": "bin",
+  "checkver": {
+    "url": "https://storage.googleapis.com/dart-archive/channels/dev/release/latest/VERSION",
+    "regex": "\"version\":\\s*\"(.*)\","
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://storage.googleapis.com/dart-archive/channels/dev/release/$version/sdk/dartsdk-windows-x64-release.zip"
+      },
+      "32bit": {
+        "url": "https://storage.googleapis.com/dart-archive/channels/dev/release/$version/sdk/dartsdk-windows-ia32-release.zip"
+      }
+    },
+    "hash": {
+      "url": "$url.sha256sum"
+    }
+  }
+}

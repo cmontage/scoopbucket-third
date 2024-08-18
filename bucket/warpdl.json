@@ -1,0 +1,14 @@
+{
+  "version": "0.0.48",
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/warpdl/warp-releases/releases/download/0.0.48/warp_0.0.48_windows_amd64.zip",
+      "bin": [
+        "warpdl.exe"
+      ],
+      "hash": "89b0162a2d6a314de70d494e8b4a25ccabeb96d290a7793e9233550d7fc38efb"
+    }
+  },
+  "homepage": "https://warpdl.org",
+  "description": "The official Warp CLI download manager"
+}

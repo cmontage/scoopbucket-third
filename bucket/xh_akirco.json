@@ -1,0 +1,27 @@
+{
+  "version": "0.22.2",
+  "description": "Friendly and fast tool for sending HTTP requests",
+  "homepage": "https://github.com/ducaale/xh/",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/ducaale/xh/releases/download/v0.22.2/xh-v0.22.2-x86_64-pc-windows-msvc.zip",
+      "hash": "677ac0932b4ad8db51df5101650a6a50683e23228a0b510684aa1aaa7e1ae686",
+      "extract_dir": "xh-v0.22.2-x86_64-pc-windows-msvc"
+    }
+  },
+  "bin": [
+    "xh.exe",
+    "xhs.exe"
+  ],
+  "pre_install": "Copy-Item \"$dir\\xh.exe\" \"$dir\\xhs.exe\"",
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/ducaale/xh/releases/download/v$version/xh-v$version-x86_64-pc-windows-msvc.zip",
+        "extract_dir": "xh-v$version-x86_64-pc-windows-msvc"
+      }
+    }
+  }
+}

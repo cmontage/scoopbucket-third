@@ -1,0 +1,55 @@
+{
+  "version": "8.06-5500",
+  "description": "Comprehensive Hardware Analysis, Monitoring and Reporting for Windows and DOS",
+  "homepage": "https://www.hwinfo.com",
+  "license": "Freeware",
+  "url": "https://www.fosshub.com/HWiNFO.html/hwi_806.zip",
+  "hash": "3b39950dac6f7381acf848cfcdc2320b93e7797242a906563e8e6f0d5dfca40e",
+  "pre_install": [
+    "foreach ($conf in 'HWiNFO64.INI', 'HWiNFO32.INI') {",
+    "    if (!(Test-Path \"$persist_dir\\$conf\")) { Set-Content \"$dir\\$conf\" '[Settings]', 'AutoUpdate=0' -Encoding ASCII }",
+    "}"
+  ],
+  "architecture": {
+    "64bit": {
+      "bin": [
+        [
+          "HWiNFO64.exe",
+          "HWiNFO"
+        ]
+      ],
+      "shortcuts": [
+        [
+          "HWiNFO64.exe",
+          "HWiNFO"
+        ]
+      ]
+    },
+    "32bit": {
+      "bin": [
+        [
+          "HWiNFO32.exe",
+          "HWiNFO"
+        ]
+      ],
+      "shortcuts": [
+        [
+          "HWiNFO32.exe",
+          "HWiNFO"
+        ]
+      ]
+    }
+  },
+  "persist": [
+    "HWiNFO64.INI",
+    "HWiNFO32.INI",
+    "HWiNFO64_KEY.txt"
+  ],
+  "checkver": {
+    "url": "https://www.hwinfo.com/ver.txt",
+    "regex": "([\\d-.]+)"
+  },
+  "autoupdate": {
+    "url": "https://www.fosshub.com/HWiNFO.html/hwi_$majorVersion$minorVersion.zip"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": "0.9.3",
+  "description": "A lightweight tool for simplifying the cluster management of K3s, it can help you run K3s everywhere.",
+  "homepage": "https://github.com/cnrancher/autok3s",
+  "license": "Apache-2.0",
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/cnrancher/autok3s/releases/download/v0.9.3/autok3s_windows_amd64.exe#/autok3s.exe",
+      "hash": "850cd26c83c8b98a7a32b032abf23d8da8bc84ab34ef4149192480add29ca6c8"
+    },
+    "32bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/cnrancher/autok3s/releases/download/v0.9.3/autok3s_windows_386.exe#/autok3s.exe",
+      "hash": "78480f63a9043d03953e2274aa1bbe61fce53eb901f4164f212b454fbcfe4a5e"
+    }
+  },
+  "bin": "autok3s.exe",
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/cnrancher/autok3s/releases/download/v$version/autok3s_windows_amd64.exe#/autok3s.exe"
+      },
+      "32bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/cnrancher/autok3s/releases/download/v$version/autok3s_windows_386.exe#/autok3s.exe"
+      }
+    },
+    "hash": {
+      "url": "$baseurl/sha256sum.txt"
+    }
+  }
+}

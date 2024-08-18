@@ -1,0 +1,27 @@
+{
+  "version": "7.5.1",
+  "description": "Scan documents to PDF and more, as simply as possible",
+  "homepage": "https://www.naps2.com/",
+  "license": "GPL-2.0-only",
+  "url": "https://mirror.ghproxy.com/https://github.com/cyanfish/naps2/releases/download/v7.5.1/naps2-7.5.1-win.zip",
+  "hash": "a7f188613326a8687817e88acfda468d9d2f12b7469e6cb547af6322b771f257",
+  "bin": [
+    [
+      "App\\NAPS2.Console.exe",
+      "NAPS2"
+    ]
+  ],
+  "shortcuts": [
+    [
+      "App\\NAPS2.exe",
+      "NAPS2"
+    ]
+  ],
+  "persist": "Data",
+  "checkver": {
+    "github": "https://github.com/cyanfish/naps2"
+  },
+  "autoupdate": {
+    "url": "https://mirror.ghproxy.com/https://github.com/cyanfish/naps2/releases/download/v$version/naps2-$version-win.zip"
+  }
+}

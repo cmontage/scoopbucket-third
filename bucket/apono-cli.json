@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/apono-io/apono-cli/releases/download/v0.2.0/apono-cli_0.2.0_windows_amd64.zip",
+      "bin": [
+        "apono.exe"
+      ],
+      "hash": "7182c6a6330d3a6385f84988a2622d7e2f70b1d5ccd6bd3e5255918488833a76"
+    }
+  },
+  "homepage": "https://www.apono.io",
+  "license": "Apache-2.0",
+  "description": "View, request and receive permissions to services, DBs and applications."
+}

@@ -1,0 +1,63 @@
+{
+  "version": "11.73.1",
+  "description": "A quad window file manager based on Windows File Explorer",
+  "homepage": "https://www.softwareok.com/?seite=Freeware/Q-Dir",
+  "license": {
+    "identifier": "Freeware",
+    "url": "https://www.softwareok.com/?seite=Freeware/Q-Dir/Eula"
+  },
+  "architecture": {
+    "64bit": {
+      "url": "https://www.softwareok.com/Download/Q-Dir_Portable_x64.zip",
+      "hash": "537a1436ef1adc20d59b507e9aa86bb535c3c0ba430e5c505cfbb4b44ccc6e90",
+      "bin": [
+        [
+          "Q-Dir_x64.exe",
+          "Q-Dir"
+        ]
+      ],
+      "shortcuts": [
+        [
+          "Q-Dir_x64.exe",
+          "Q-Dir"
+        ]
+      ]
+    },
+    "32bit": {
+      "url": "https://www.softwareok.com/Download/Q-Dir_Portable.zip",
+      "hash": "acf0e887c1114a4f9757d37d04597a550eb913cd399e0233f1ad5451b0683095",
+      "bin": "Q-Dir.exe",
+      "shortcuts": [
+        [
+          "Q-Dir.exe",
+          "Q-Dir"
+        ]
+      ]
+    }
+  },
+  "extract_dir": "Q-Dir",
+  "pre_install": "if (!(Test-Path \"$persist_dir\\start.qdr\")) { New-Item \"$dir\\start.qdr\" | Out-Null }",
+  "persist": [
+    "Favoriten",
+    "start.qdr",
+    "Q-Dir.ini"
+  ],
+  "checkver": {
+    "url": "https://www.softwareok.com/?seite=Microsoft/Q-Dir/History",
+    "regex": "version ([\\d.]+)"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://www.softwareok.com/Download/Q-Dir_Portable_x64.zip"
+      },
+      "32bit": {
+        "url": "https://www.softwareok.com/Download/Q-Dir_Portable.zip"
+      }
+    },
+    "hash": {
+      "url": "https://www.softwareok.com/?Download=Q-Dir",
+      "regex": "$basename.*?$sha256<"
+    }
+  }
+}

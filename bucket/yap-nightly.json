@@ -1,0 +1,30 @@
+{
+  "version": "4.8.1-nightly-81",
+  "description": "Ultra-fast Genshin Impact Auto Pickup.",
+  "homepage": "https://github.com/Alex-Beng/Yap",
+  "license": {
+    "identifier": "GPL-3.0",
+    "url": "https://github.com/Alex-Beng/Yap/blob/master/LICENSE"
+  },
+  "url": "https://mirror.ghproxy.com/https://github.com/Alex-Beng/Yap/releases/download/nightly-81/yap.zip",
+  "hash": "dc3f923ee295ec02d8a2b8b275b9e313f01d5b2a13e69b53cdd9328e370bfcfe",
+  "bin": "yap.exe",
+  "checkver": {
+    "script": [
+      "$rel_info = Invoke-RestMethod -Uri 'https://api.github.com/repos/Alex-Beng/Yap/releases'",
+      "$latest = $rel_info | Sort-Object {$_.published_at} | Select-Object -last 1",
+      "if ($latest.prerelease) {",
+      "$stable_version = ($rel_info | Where-Object { -not $_.prerelease } | Select-Object -first 1).tag_name.TrimStart('v').Split('.')",
+      "$stable_version[-1] = [int]$stable_version[-1] + 1",
+      "$next_version = $stable_version -join '.'",
+      "Write-Output (\"{0}-{1} {1}/yap\" -f $next_version, ($latest.tag_name))",
+      "} else {",
+      "Write-Output (\"{0} {1}/yap_{1}\" -f ($latest.tag_name.TrimStart('v')), ($latest.tag_name))",
+      "}"
+    ],
+    "regex": "(?<version>[\\d.]+(?:-[\\w\\-\\d]+)?)\\s(?<filename>.+)"
+  },
+  "autoupdate": {
+    "url": "https://mirror.ghproxy.com/https://github.com/Alex-Beng/Yap/releases/download/$matchFilename.zip"
+  }
+}

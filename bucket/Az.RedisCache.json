@@ -1,0 +1,27 @@
+{
+  "checkver": {
+    "url": "https://www.powershellgallery.com/api/v2/Packages()?$filter=Id%20eq%20'Az.RedisCache'%20and%20IsLatestVersion%20eq%20true",
+    "replace": "${ver}",
+    "regex": "(?i)<d:Version>(?<ver>[^<]+)<.d:Version>"
+  },
+  "hash": "sha512:9440460fc7938aba36874bd6c848659d3adb788d110e625a26b9ec46394035ed0e10630a6f8f88bf608f2613de0b82f80d3419c47dafc1e04dc017e750c31a88",
+  "description": "Microsoft Azure PowerShell - Redis Cache service cmdlets for Azure Resource Manager in Windows PowerShell and PowerShell Core.  For more information on Redis Cache, please visit the following: RedisCache: https://docs.microsoft.com/azure/azure-cache-for-redis/",
+  "psmodule": {
+    "name": "Az.RedisCache"
+  },
+  "homepage": "https://www.powershellgallery.com/packages/Az.RedisCache",
+  "autoupdate": {
+    "url": "https://www.powershellgallery.com/api/v2/Package/Az.RedisCache/$version#/mod.nupkg",
+    "hash": {
+      "url": "https://www.powershellgallery.com/api/v2/Packages()?$filter=Id eq 'Az.RedisCache' and Version eq '$version'",
+      "regex": "<d:PackageHash>$base64<.d:PackageHash>"
+    }
+  },
+  "license": {
+    "identifier": "Refer to Webpage",
+    "url": "https://aka.ms/azps-license"
+  },
+  "url": "https://www.powershellgallery.com/api/v2/Package/Az.RedisCache/1.10.0#/mod.nupkg",
+  "depends": "Az.Accounts",
+  "version": "1.10.0"
+}

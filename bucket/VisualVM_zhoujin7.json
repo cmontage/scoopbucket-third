@@ -1,0 +1,26 @@
+{
+  "homepage": "https://visualvm.github.io/",
+  "license": "https://visualvm.github.io/gplv2+ce.html",
+  "version": "2.1.9",
+  "url": "https://mirror.ghproxy.com/https://github.com/oracle/visualvm/releases/download/2.1.9/visualvm_219.zip",
+  "hash": "5c7ab5fb916b63a39233ee68d8bd8f453811785db5bbf2fc05d9d26bddc30b71",
+  "extract_dir": "visualvm_219",
+  "shortcuts": [
+    [
+      "bin\\visualvm.exe",
+      "VisualVM",
+      "--jdkhome \"%JAVA_HOME%\""
+    ]
+  ],
+  "notes": [
+    "Execute it after installation:",
+    "iex (new-object net.webclient).downloadstring('https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhoujin7/tomato/master/scripts/gen-visualvm-vbs.ps1')"
+  ],
+  "checkver": {
+    "github": "https://github.com/oracle/visualvm"
+  },
+  "autoupdate": {
+    "url": "https://mirror.ghproxy.com/https://github.com/oracle/visualvm/releases/download/$version/visualvm_$cleanVersion.zip",
+    "extract_dir": "visualvm_$cleanVersion"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "version": "20.37.0",
+  "description": "The official QQ Music client.",
+  "homepage": "https://y.qq.com/",
+  "license": "Freeware",
+  "notes": "We don't persist your QQMusic data, they are still storaged in '%LOCALAPPDATA%\\Tencent\\QQMusic'.",
+  "url": "https://dldir1.qq.com/music/clntupate/QQMusic_YQQWinPCDL.exe#/dl.7z",
+  "hash": "2ec67719eca25f2fa64d8767cf3d39b7e7ed4c892952fea7b139cfa8f051cf06",
+  "shortcuts": [
+    [
+      "QQMusic.exe",
+      "QQ Music"
+    ]
+  ],
+  "checkver": {
+    "url": "https://y.qq.com/download/download.html",
+    "regex": "Windows PC <span class=\"product_list__version\">最新版:([\\d.]+)"
+  },
+  "autoupdate": {
+    "url": "https://dldir1.qq.com/music/clntupate/QQMusic_YQQWinPCDL.exe#/dl.7z"
+  }
+}

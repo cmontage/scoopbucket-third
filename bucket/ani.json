@@ -1,0 +1,46 @@
+{
+  "version": "3.7.0-beta04",
+  "description": "One-stop online barrage drama tracking platform",
+  "homepage": "https://github.com/open-ani/ani",
+  "license": "GPL-3.0-only",
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/open-ani/ani/releases/download/v3.7.0-beta04/ani-3.7.0-beta04-windows-x86_64.zip",
+      "hash": "036ac54e8810bc926c095ab425ceb10c55ef9fbffb8158d824e7c75c661efab8",
+      "extract_dir": "Ani"
+    }
+  },
+  "bin": "Ani.exe",
+  "shortcuts": [
+    [
+      "Ani.exe",
+      "Ani"
+    ]
+  ],
+  "installer": {
+    "script": [
+      "Import-Module $(Join-Path $(Find-BucketDirectory -Root -Name muggle) scripts/DoradoUtils.psm1)",
+      "Mount-ExternalRuntimeData -Source \"$persist_dir\\data\" -Target \"$env:APPDATA\\Him188\"",
+      "Remove-Module -Name DoradoUtils"
+    ]
+  },
+  "uninstaller": {
+    "script": [
+      "Import-Module $(Join-Path $(Find-BucketDirectory -Root -Name muggle) scripts/DoradoUtils.psm1)",
+      "Dismount-ExternalRuntimeData -Target \"$env:APPDATA\\Him188\"",
+      "Remove-Module -Name DoradoUtils"
+    ]
+  },
+  "checkver": {
+    "url": "https://api.github.com/repos/open-ani/ani/releases",
+    "jsonpath": "$..tag_name",
+    "regex": "v([-\\d.\\w]+)"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/open-ani/ani/releases/download/v$version/ani-$version-windows-x86_64.zip"
+      }
+    }
+  }
+}

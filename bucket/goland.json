@@ -1,0 +1,60 @@
+{
+  "version": "2024.2-242.20224.306",
+  "description": "Cross-Platform IDE for Go by JetBrains.",
+  "homepage": "https://www.jetbrains.com/goland/",
+  "license": {
+    "identifier": "Proprietary",
+    "url": "https://www.jetbrains.com/store/license.html"
+  },
+  "url": "https://download.jetbrains.com/go/goland-2024.2.exe#/dl.7z",
+  "hash": "c045fe2cd0cdfb8331b4c6e21dd61317106410e2d02088cb4f03662e9bc3ae1e",
+  "extract_to": "IDE",
+  "installer": {
+    "script": [
+      "& \"$bucketsdir\\$bucket\\scripts\\jetbrains\\portable.ps1\" $dir $persist_dir",
+      "Remove-Item \"$dir\\IDE\\`$*\" -Force -Recurse"
+    ]
+  },
+  "architecture": {
+    "64bit": {
+      "bin": [
+        [
+          "IDE\\bin\\goland64.exe",
+          "goland"
+        ]
+      ],
+      "shortcuts": [
+        [
+          "IDE\\bin\\goland64.exe",
+          "JetBrains\\GoLand"
+        ]
+      ]
+    },
+    "32bit": {
+      "bin": "IDE\\bin\\goland.exe",
+      "shortcuts": [
+        [
+          "IDE\\bin\\goland.exe",
+          "JetBrains\\GoLand"
+        ]
+      ]
+    }
+  },
+  "persist": [
+    "IDE\\bin\\idea.properties",
+    "IDE\\bin\\goland.exe.vmoptions",
+    "IDE\\bin\\goland64.exe.vmoptions",
+    "profile"
+  ],
+  "checkver": {
+    "url": "https://data.services.jetbrains.com/products/releases?code=GO&latest=true&platform=zip&type=release",
+    "regex": "version\":\"(?<ver>[\\d.]+)\".*\"build\":\"(?<build>[\\d.]+)\"",
+    "replace": "${ver}-${build}"
+  },
+  "autoupdate": {
+    "url": "https://download.jetbrains.com/go/goland-$matchHead.exe#/dl.7z",
+    "hash": {
+      "url": "$url.sha256"
+    }
+  }
+}

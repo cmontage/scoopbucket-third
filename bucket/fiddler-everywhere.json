@@ -1,0 +1,41 @@
+{
+  "version": "5.15.1",
+  "description": "The free web debugging proxy for any browser, system or platform.",
+  "homepage": "https://www.telerik.com/fiddler",
+  "license": {
+    "identifier": "Proprietary",
+    "url": "https://www.telerik.com/purchase/license-agreement/fiddler"
+  },
+  "architecture": {
+    "64bit": {
+      "url": "https://downloads.getfiddler.com/win/Fiddler%20Everywhere%205.15.1.exe#/dl.7z",
+      "hash": "sha512:100c1584d54e23d5e99c7d1fb15f3ab85aa2e334045e1e09e1b987d16c6fe124b0688bee59c5b40d66ddb0d0691ff9d786e76ec6ca96133e25fc4c893e7eb015",
+      "pre_install": [
+        "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+        "Remove-Item \"$dir\\$*\" -Recurse",
+        "Remove-Item \"$dir\\Uninst*\" -Recurse"
+      ]
+    }
+  },
+  "shortcuts": [
+    [
+      "Fiddler Everywhere.exe",
+      "Fiddler Everywhere"
+    ]
+  ],
+  "checkver": {
+    "url": "https://downloads.getfiddler.com/win/latest.yml",
+    "regex": "version:\\s+([\\d.]+)"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://downloads.getfiddler.com/win/Fiddler%20Everywhere%20$version.exe#/dl.7z",
+        "hash": {
+          "url": "$baseurl/latest.yml",
+          "regex": "sha512:\\s+$base64"
+        }
+      }
+    }
+  }
+}

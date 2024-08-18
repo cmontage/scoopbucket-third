@@ -1,0 +1,25 @@
+{
+  "version": "3.8.1",
+  "description": "CUDA on AMD GPUs.",
+  "homepage": "https://github.com/lshqqytiger/ZLUDA",
+  "license": {
+    "identifier": "Apache-2.0",
+    "url": "https://github.com/lshqqytiger/ZLUDA/blob/master/LICENSE"
+  },
+  "url": "https://mirror.ghproxy.com/https://github.com/lshqqytiger/ZLUDA/releases/download/rel.86cdab3b14b556e95eafe370b8e8a1a80e8d093b/ZLUDA-windows-amd64.zip",
+  "hash": "a2b2fbc1873b74a9966fd17cf620dd13610480e33b2771b40c27b9876919b51e",
+  "extract_dir": "zluda",
+  "bin": "zluda.exe",
+  "env_add_path": ".",
+  "checkver": {
+    "script": [
+      "$rel_info = Invoke-RestMethod -Uri 'https://api.github.com/repos/lshqqytiger/ZLUDA/releases'",
+      "$main = $rel_info | Sort-Object {$_.published_at} | Select-Object -last 1",
+      "Write-Output $main.name $main.tag_name"
+    ],
+    "regex": "(?<version>[\\d.]+)\\s(?<tag>.+)"
+  },
+  "autoupdate": {
+    "url": "https://mirror.ghproxy.com/https://github.com/lshqqytiger/ZLUDA/releases/download/$matchTag/ZLUDA-windows-amd64.zip"
+  }
+}

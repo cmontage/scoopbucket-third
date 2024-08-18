@@ -1,0 +1,32 @@
+{
+  "homepage": "https://github.com/JabRef/jabref",
+  "version": "2023-09-02.00-24",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://builds.jabref.org/main/JabRef-5.10-portable_windows.zip",
+      "hash": "cf1ffabbd635d735b54685a1ceb6e753185643bfe6e9741134f427bd7c54a4ed",
+      "extract_dir": "Jabref"
+    }
+  },
+  "bin": "",
+  "shortcuts": [
+    [
+      "JabRef.exe",
+      "JabRef"
+    ]
+  ],
+  "checkver": {
+    "url": "https://builds.jabref.org/main/",
+    "regex": ">JabRef-(?<file>[\\d]+)-portable_windows.zip</a></td><td class=\"fb-d\">(?<date>[\\d-]+) (?<hour>[\\d]+):(?<minu>[\\d]+)</td>",
+    "replace": "${file}-${date}.${hour}-${minu}"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://builds.jabref.org/main/JabRef-$matchFile-portable_windows.zip",
+        "extract_dir": "Jabref"
+      }
+    }
+  }
+}

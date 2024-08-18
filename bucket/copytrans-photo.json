@@ -1,0 +1,28 @@
+{
+  "version": "4.806",
+  "homepage": "https://www.copytrans.net/copytransphoto/",
+  "description": "A simple solution to transfer and manage pictures and videos between iOS devices and Windows.",
+  "license": {
+    "identifier": "Shareware",
+    "url": "https://www.copytrans.net/support/terms-and-conditions/"
+  },
+  "url": "https://www.copytrans.net/bin/CopyTransPhotov4.806.zip",
+  "hash": "e0492f9b195e999e711df5ae8deecbbb1049387d115bc6161053404cd9a350e6",
+  "bin": "CopyTransPhoto.exe",
+  "shortcuts": [
+    [
+      "CopyTransPhoto.exe",
+      "CopyTrans\\CopyTrans Photo"
+    ]
+  ],
+  "checkver": {
+    "script": [
+      "$redirUrl = [System.Net.HttpWebRequest]::Create('https://www.copytrans.net/download-zip?program=CTP').GetResponse().ResponseUri.AbsoluteUri",
+      "return $redirUrl"
+    ],
+    "regex": "CopyTransPhotov([\\d.]+)\\.zip"
+  },
+  "autoupdate": {
+    "url": "https://www.copytrans.net/bin/CopyTransPhotov$version.zip"
+  }
+}

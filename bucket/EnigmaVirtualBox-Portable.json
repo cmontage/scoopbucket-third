@@ -1,0 +1,28 @@
+{
+  "version": "10.90",
+  "description": "Enigma Virtual Box. Enables application files and registry to be consolidated in a single executable file",
+  "homepage": "https://www.enigmaprotector.com/en/aboutvb.html",
+  "license": "Freeware",
+  "changelog": "https://www.enigmaprotector.com/en/downloads/changelogenigmavb.html",
+  "url": "https://www.enigmaprotector.com/assets/files/enigmavb.exe#/dl.7z",
+  "hash": "fa22d105ed03c8defc1439f40ed46d1cf1239eff838ab7538b19c10d470d47ba",
+  "innosetup": true,
+  "bin": "enigmavbconsole.exe",
+  "shortcuts": [
+    [
+      "enigmavb.exe",
+      "Enigma Virtual Box"
+    ]
+  ],
+  "checkver": {
+    "url": "https://www.enigmaprotector.com/en/downloads.html",
+    "regex": "Version ([\\d.]+) FREEWARE"
+  },
+  "autoupdate": {
+    "url": "https://www.enigmaprotector.com/assets/files/enigmavb.exe#/dl.7z",
+    "hash": {
+      "url": "$url.sha256",
+      "regex": "$sha256"
+    }
+  }
+}

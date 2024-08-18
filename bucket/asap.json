@@ -1,0 +1,25 @@
+{
+  "version": "6.0.3",
+  "description": "ASAP is a player of Atari 8-bit chiptunes for modern computers and mobile devices",
+  "homepage": "http://asap.sourceforge.net",
+  "license": "GPL-2.0",
+  "url": "https://downloads.sourceforge.net/project/asap/asap/6.0.3/asap-6.0.3-win32.msi",
+  "hash": "sha1:94f871222af202f50a6c37983da929d30300dc62",
+  "bin": [
+    "ASAP\\asapconv.exe",
+    "ASAP\\wasap.exe"
+  ],
+  "shortcuts": [
+    [
+      "ASAP\\wasap.exe",
+      "WASAP"
+    ]
+  ],
+  "checkver": {
+    "url": "https://sourceforge.net/projects/asap/rss",
+    "regex": "asap-([\\d.]+)-"
+  },
+  "autoupdate": {
+    "url": "https://downloads.sourceforge.net/project/asap/asap/$version/asap-$version-win32.msi"
+  }
+}

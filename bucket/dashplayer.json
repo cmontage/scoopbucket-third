@@ -1,0 +1,26 @@
+{
+  "version": "4.2.4",
+  "description": "A vedio player just for learning English",
+  "homepage": "https://github.com/solidSpoon/DashPlayer",
+  "license": "MIT",
+  "url": "https://mirror.ghproxy.com/https://github.com/solidSpoon/DashPlayer/releases/download/v4.2.4/DashPlayer-4.2.4.setup.exe",
+  "hash": "d3ebf7bc0ed631b076de56ed3f8c283c0b9e5133acf2effc650e14e8ac424fc3",
+  "installer": {
+    "script": [
+      "Expand-7zipArchive -Path \"$dir\\$fname\" -Removal",
+      "Expand-7zipArchive \"$dir\\dashplayer-$version-full.nupkg\" -ExtractDir 'lib\\net45' -Removal | Out-Null"
+    ]
+  },
+  "bin": "dash-player.exe",
+  "shortcuts": [
+    [
+      "dash-player.exe",
+      "DashPlayer"
+    ]
+  ],
+  "checkver": "github",
+  "autoupdate": {
+    "url": "https://mirror.ghproxy.com/https://github.com/solidSpoon/DashPlayer/releases/download/v$version/DashPlayer-$version.setup.exe"
+  },
+  "notes": "See homepage for how to use it."
+}

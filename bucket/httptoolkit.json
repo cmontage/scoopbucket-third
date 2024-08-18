@@ -1,0 +1,28 @@
+{
+  "version": "1.18.1",
+  "description": "HTTP(S) debugging proxy, analyzer and client",
+  "homepage": "https://httptoolkit.tech",
+  "license": "AGPL-3.0-or-later",
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/httptoolkit/httptoolkit-desktop/releases/download/v1.18.1/HttpToolkit-win-x64-1.18.1.zip",
+      "hash": "bda95162e00ffa3350fe7beb5a0376a0c07cf93fd3311d7aad988ea42e89ed97"
+    }
+  },
+  "shortcuts": [
+    [
+      "HTTP Toolkit.exe",
+      "HTTP Toolkit"
+    ]
+  ],
+  "checkver": {
+    "github": "https://github.com/httptoolkit/httptoolkit-desktop"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/httptoolkit/httptoolkit-desktop/releases/download/v$version/HttpToolkit-win-x64-$version.zip"
+      }
+    }
+  }
+}

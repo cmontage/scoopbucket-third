@@ -1,0 +1,26 @@
+{
+  "license": {
+    "url": "https://aka.ms/azps-license",
+    "identifier": "Refer to Webpage"
+  },
+  "url": "https://www.powershellgallery.com/api/v2/Package/Az.CosmosDB/1.14.4#/mod.nupkg",
+  "autoupdate": {
+    "url": "https://www.powershellgallery.com/api/v2/Package/Az.CosmosDB/$version#/mod.nupkg",
+    "hash": {
+      "url": "https://www.powershellgallery.com/api/v2/Packages()?$filter=Id eq 'Az.CosmosDB' and Version eq '$version'",
+      "regex": "<d:PackageHash>$base64<.d:PackageHash>"
+    }
+  },
+  "psmodule": {
+    "name": "Az.CosmosDB"
+  },
+  "hash": "sha512:c65db0e7a513c67499fe1b68ffd9e02bcc5139a9e15e1108abda35c7226f88b84afae70d9b78bcc30fa80d643af3d1b237fd0dc906d45a575d154b8df371ec4f",
+  "description": "Microsoft Azure PowerShell - CosmosDB service cmdlets for Azure Resource Manager in Windows PowerShell and PowerShell Core.  For more information on CosmosDB, please visit the following: https://docs.microsoft.com/azure/cosmos-db/",
+  "homepage": "https://www.powershellgallery.com/packages/Az.CosmosDB",
+  "checkver": {
+    "regex": "(?i)<d:Version>(?<ver>[^<]+)<.d:Version>",
+    "url": "https://www.powershellgallery.com/api/v2/Packages()?$filter=Id%20eq%20'Az.CosmosDB'%20and%20IsLatestVersion%20eq%20true",
+    "replace": "${ver}"
+  },
+  "version": "1.14.4"
+}

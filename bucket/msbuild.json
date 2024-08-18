@@ -1,0 +1,17 @@
+{
+  "homepage": "https://github.com/vidarkongsli/vidars-scoop-bucket/tree/master/msbuild",
+  "version": "0.2014.01.28",
+  "url": [
+    "https://mirror.ghproxy.com/https://raw.githubusercontent.com/vidarkongsli/vidars-scoop-bucket/master/msbuild/setenvforvs.ps1",
+    "https://mirror.ghproxy.com/https://raw.githubusercontent.com/vidarkongsli/vidars-scoop-bucket/master/msbuild/installer.ps1"
+  ],
+  "hash": [
+    "90c5d24de34e7f9df5e13822f96a052ba7b5e85151da76dbf085fefa151c63f0",
+    "e9d87b994a9ad40d1f07b23d2f73abcf801089b5f88ec8b2dd092cde041891b8"
+  ],
+  "installer": {
+    "file": "installer.ps1"
+  },
+  "bin": "setenvforvs.ps1",
+  "post_install": "& setenvforvs.ps1;write-host 'MsBuild is ready for business'"
+}

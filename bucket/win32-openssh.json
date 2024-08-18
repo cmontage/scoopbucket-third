@@ -1,0 +1,53 @@
+{
+  "version": "9.5.0.0p1-Beta",
+  "description": "A suite of secure networking utilities based on the Secure Shell protocol. (Microsoft port)",
+  "homepage": "https://github.com/PowerShell/Win32-OpenSSH",
+  "license": {
+    "identifier": "BSD-3-Clause",
+    "url": "https://github.com/PowerShell/openssh-portable/blob/latestw_all/LICENCE"
+  },
+  "notes": [
+    "This is a pre-release (non-production ready)",
+    "Run 'sudo $dir\\install-sshd.ps1' to install sshd and ssh-agent as a service.",
+    "Run 'sudo $dir\\uninstall-sshd.ps1' to uninstall the services."
+  ],
+  "architecture": {
+    "64bit": {
+      "hash": "bd48fe985d400402c278c485db20e6a82bc4c7f7d8e0ef5a81128f523096530c",
+      "url": "https://mirror.ghproxy.com/https://github.com/PowerShell/Win32-OpenSSH/releases/download/v9.5.0.0p1-Beta/OpenSSH-Win64.zip",
+      "extract_dir": "OpenSSH-Win64"
+    },
+    "32bit": {
+      "hash": "9245c9ff62d6d11708cb3125097f8cd5627e995c225d0469cf2c3c6be4014952",
+      "url": "https://mirror.ghproxy.com/https://github.com/PowerShell/Win32-OpenSSH/releases/download/v9.5.0.0p1-Beta/OpenSSH-Win32.zip",
+      "extract_dir": "OpenSSH-Win32"
+    }
+  },
+  "bin": [
+    "scp.exe",
+    "sftp.exe",
+    "sftp-server.exe",
+    "ssh-add.exe",
+    "ssh-agent.exe",
+    "ssh-keygen.exe",
+    "ssh-keyscan.exe",
+    "ssh-shellhost.exe",
+    "ssh.exe",
+    "sshd.exe"
+  ],
+  "checkver": {
+    "url": "https://api.github.com/repos/PowerShell/Win32-OpenSSH/releases",
+    "jsonpath": "$..browser_download_url",
+    "regex": "v([\\w.-]+)/"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/PowerShell/Win32-OpenSSH/releases/download/v$version/OpenSSH-Win64.zip"
+      },
+      "32bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/PowerShell/Win32-OpenSSH/releases/download/v$version/OpenSSH-Win32.zip"
+      }
+    }
+  }
+}

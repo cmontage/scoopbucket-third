@@ -1,0 +1,30 @@
+{
+  "version": "2.13.14",
+  "description": "A modern multi-paradigm programming language designed to express common programming patterns in a concise, elegant, and type-safe way.",
+  "homepage": "https://www.scala-lang.org/",
+  "license": "BSD-3-Clause",
+  "suggest": {
+    "JDK": "java/openjdk"
+  },
+  "url": "https://downloads.typesafe.com/scala/2.13.14/scala-2.13.14.zip",
+  "hash": "85c2d6d0fb581905fc95d294f9e1b607b70926a9d0a5bfa89a0769691f0cc203",
+  "extract_dir": "scala-2.13.14",
+  "bin": [
+    "bin\\fsc.bat",
+    "bin\\scala.bat",
+    "bin\\scalac.bat",
+    "bin\\scaladoc.bat",
+    "bin\\scalap.bat"
+  ],
+  "env_set": {
+    "SCALA_HOME": "$dir"
+  },
+  "checkver": {
+    "url": "https://www.scala-lang.org/download/all.html",
+    "regex": "/download/(2[\\d.]+)\\.html"
+  },
+  "autoupdate": {
+    "url": "https://downloads.typesafe.com/scala/$version/scala-$version.zip",
+    "extract_dir": "scala-$version"
+  }
+}

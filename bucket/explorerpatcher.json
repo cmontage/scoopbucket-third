@@ -1,0 +1,27 @@
+{
+  "version": "22621.3880.66.4_3c50ea3",
+  "description": "This project aims to enhance the working environment on Windows.",
+  "homepage": "https://github.com/valinet/ExplorerPatcher",
+  "license": {
+    "identifier": "GPL-2.0-only",
+    "url": "https://github.com/valinet/ExplorerPatcher/raw/master/LICENSE"
+  },
+  "notes": "Wiki: <https://github.com/valinet/ExplorerPatcher/wiki>",
+  "depends": "sudo",
+  "url": "https://mirror.ghproxy.com/https://github.com/valinet/ExplorerPatcher/releases/download/22621.3880.66.4_3c50ea3/ep_setup.exe",
+  "hash": "a1a736c78531e03325a2beb70a4d802ba81adaae63f530c00fb8f8c96ce375ae",
+  "installer": {
+    "script": "Start-Process \"$dir\\ep_setup.exe\" -WorkingDirectory \"$dir\" -Wait"
+  },
+  "uninstaller": {
+    "file": "ep_setup.exe",
+    "args": "/uninstall"
+  },
+  "checkver": {
+    "url": "https://api.github.com/repos/valinet/ExplorerPatcher/releases",
+    "regex": "/releases/tag/([\\w.-]+)"
+  },
+  "autoupdate": {
+    "url": "https://mirror.ghproxy.com/https://github.com/valinet/ExplorerPatcher/releases/download/$version/ep_setup.exe"
+  }
+}

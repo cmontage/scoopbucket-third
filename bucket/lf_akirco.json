@@ -1,0 +1,57 @@
+{
+  "version": "r32",
+  "description": "A terminal file manager written in Go",
+  "homepage": "https://godoc.org/github.com/gokcehan/lf",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/gokcehan/lf/releases/download/r32/lf-windows-amd64.zip",
+      "hash": "1b046a62a40d89e62238b8bf2b3fbda53bacb91fc64e960a8bd3f8be904e1231"
+    },
+    "32bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/gokcehan/lf/releases/download/r32/lf-windows-386.zip",
+      "hash": "11badac976fb9322cc0fdbebd8dc8ddeaaa19cd717ceb2430d010fe9531be495"
+    }
+  },
+  "bin": "lf.exe",
+  "installer": {
+    "script": [
+      "if (!(Test-Path \"$persist_dir\\Cache\")) {",
+      "    New-Item \"$persist_dir\\Cache\" -Type Directory -Force | Out-Null",
+      "}",
+      "$runtimeCache = \"$env:LOCALAPPDATA\\lf\"",
+      "$runtimeCachePersist = \"$persist_dir\\Cache\"",
+      "if (Test-Path $runtimeCachePersist) {",
+      "    Remove-Item $runtimeCache -Force -Recurse -ErrorAction SilentlyContinue",
+      "    New-Item -Type Junction -Path $runtimeCache -Target $runtimeCachePersist | Out-Null",
+      "} else {",
+      "    if (Test-Path $runtimeCache) {",
+      "        Move-Item $runtimeCache $runtimeCachePersist -Force",
+      "        New-Item -Type Junction -Path $runtimeCache -Target $runtimeCachePersist | Out-Null",
+      "    }",
+      "}"
+    ]
+  },
+  "uninstaller": {
+    "script": [
+      "$runtimeCache = \"$env:LOCALAPPDATA\\lf\"",
+      "$runtimeCachePersist = \"$persist_dir",
+      "Remove-Item $runtimeCache -Force -Recurse -ErrorAction SilentlyContinue",
+      "Remove-Item $runtimeCachePersist -Force -Recurse -ErrorAction SilentlyContinue"
+    ]
+  },
+  "checkver": {
+    "github": "https://github.com/gokcehan/lf/",
+    "regex": "tag/(r[\\d]+)"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/gokcehan/lf/releases/download/$version/lf-windows-amd64.zip"
+      },
+      "32bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/gokcehan/lf/releases/download/$version/lf-windows-386.zip"
+      }
+    }
+  }
+}

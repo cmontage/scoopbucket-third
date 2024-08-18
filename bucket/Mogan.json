@@ -1,0 +1,22 @@
+{
+  "homepage": "https://mogan.app/",
+  "description": "A user-friendly distribution of GNU TeXmacs.",
+  "license": "GPL-3.0-or-later",
+  "version": "1.2.1",
+  "url": "https://mirror.ghproxy.com/https://github.com/XmacsLabs/mogan/releases/download/v1.2.1/Mogan-v1.2.1-64bit-installer.exe",
+  "hash": "f066662bd525f9cb467f72436c1c116701afca1d0195b62904d21c3be5489170",
+  "innosetup": true,
+  "bin": "bin\\Mogan.exe",
+  "shortcuts": [
+    [
+      "bin\\Mogan.exe",
+      "Mogan"
+    ]
+  ],
+  "checkver": {
+    "github": "https://github.com/XmacsLabs/mogan"
+  },
+  "autoupdate": {
+    "url": "https://mirror.ghproxy.com/https://github.com/XmacsLabs/mogan/releases/download/v$version/Mogan-v$version-64bit-installer.exe"
+  }
+}

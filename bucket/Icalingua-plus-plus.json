@@ -1,0 +1,41 @@
+{
+  "version": "2.12.12",
+  "description": "A client for QQ and more.",
+  "homepage": "https://github.com/Icalingua-plus-plus/Icalingua-plus-plus",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/Icalingua-plus-plus/Icalingua-plus-plus/releases/download/v2.12.12/Icalingua++-2.12.12_x64.exe#/dl.7z",
+      "hash": "ccfc402e8a15af1cf94fca33a3a00910b3b8adbc4c83b00f4fa3b49dab97b5ae",
+      "pre_install": [
+        "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+        "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Force -Recurse"
+      ]
+    },
+    "arm64": {
+      "url": "https://mirror.ghproxy.com/https://github.com/Icalingua-plus-plus/Icalingua-plus-plus/releases/download/v2.12.12/Icalingua++-2.12.12_arm64.exe#/dl.7z",
+      "hash": "8cd3d030c4a71957c9a3f856466f258561aef47211504d2b7bea983e5b28ee57",
+      "pre_install": [
+        "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-arm64.7z\" \"$dir\"",
+        "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Force -Recurse"
+      ]
+    }
+  },
+  "shortcuts": [
+    [
+      "Icalingua++.exe",
+      "Icalingua++"
+    ]
+  ],
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/Icalingua-plus-plus/Icalingua-plus-plus/releases/download/v$version/Icalingua++-$version_x64.exe#/dl.7z"
+      },
+      "arm64": {
+        "url": "https://mirror.ghproxy.com/https://github.com/Icalingua-plus-plus/Icalingua-plus-plus/releases/download/v$version/Icalingua++-$version_arm64.exe#/dl.7z"
+      }
+    }
+  }
+}

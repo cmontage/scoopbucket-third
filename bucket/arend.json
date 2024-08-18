@@ -1,0 +1,24 @@
+{
+  "version": "1.10",
+  "description": "A theorem prover and a programming language based on Homotopy Type Theory.",
+  "homepage": "https://arend-lang.github.io/",
+  "license": "Apache-2.0",
+  "url": "https://mirror.ghproxy.com/https://github.com/JetBrains/Arend/releases/download/v1.10/Arend.jar",
+  "hash": "268cb5e4998edfb0df1b3a173b497836924f1a393dddcd3c4a678d8b994f26ee",
+  "bin": "Arend.jar",
+  "suggest": {
+    "JDK": [
+      "java/oraclejdk",
+      "java/openjdk",
+      "java/adoptopenjdk-hotspot",
+      "java/zulu"
+    ]
+  },
+  "notes": "You need to have JRE 11 installed on your computer to use Arend.",
+  "checkver": {
+    "github": "https://github.com/JetBrains/Arend"
+  },
+  "autoupdate": {
+    "url": "https://mirror.ghproxy.com/https://github.com/JetBrains/Arend/releases/download/v$version/Arend.jar"
+  }
+}

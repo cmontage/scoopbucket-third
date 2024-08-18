@@ -1,0 +1,22 @@
+{
+  "version": "1.9.3",
+  "architecture": {
+    "32bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/ddddddO/gtree/releases/download/v1.9.3/gtree_Windows_i386.zip",
+      "bin": [
+        "gtree.exe"
+      ],
+      "hash": "a58a85046b1499d14b5908eb1e7f3fc2b5972a302ab1435fc9daccf9773f7ad2"
+    },
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/ddddddO/gtree/releases/download/v1.9.3/gtree_Windows_x86_64.zip",
+      "bin": [
+        "gtree.exe"
+      ],
+      "hash": "8bd8e81e82f9c733d3da03010a21d83de64448b21640a8aa386dcca10e40e50b"
+    }
+  },
+  "homepage": "https://github.com/ddddddO/gtree",
+  "license": "BSD-2-Clause",
+  "description": "This CLI uses Markdown to generate directory trees and directories itself, and also verifies directories."
+}

@@ -1,0 +1,59 @@
+{
+  "version": "130.0b5",
+  "description": "Developer builds of Firefox: the popular open source web browser.",
+  "homepage": "https://www.mozilla.org/fa-IR/firefox/developer/",
+  "license": "MPL-2.0",
+  "architecture": {
+    "64bit": {
+      "url": "https://archive.mozilla.org/pub/devedition/releases/130.0b5/win64/fa-IR/Firefox%20Setup%20130.0b5.exe#/dl.7z",
+      "hash": "sha512:71eff5e66c88646e8d041ee34e4245ee9dfa14e5c0ff9f09f06fd89032fe8768dc882cbfeecc5629cd6d1df47a6495cb2558729b578eea560fd07324f4659c42"
+    },
+    "32bit": {
+      "url": "https://archive.mozilla.org/pub/devedition/releases/130.0b5/win32/fa-IR/Firefox%20Setup%20130.0b5.exe#/dl.7z",
+      "hash": "sha512:71eff5e66c88646e8d041ee34e4245ee9dfa14e5c0ff9f09f06fd89032fe8768dc882cbfeecc5629cd6d1df47a6495cb2558729b578eea560fd07324f4659c42"
+    }
+  },
+  "extract_dir": "core",
+  "bin": [
+    [
+      "firefox.exe",
+      "firefox-dev-fa",
+      "-profile \"$dir\\profile\""
+    ],
+    [
+      "firefox.exe",
+      "firefox-developer-fa",
+      "-profile \"$dir\\profile\""
+    ]
+  ],
+  "shortcuts": [
+    [
+      "firefox.exe",
+      "Firefox Developer (fa)",
+      "-profile \"$dir\\profile\""
+    ]
+  ],
+  "persist": "profile",
+  "checkver": {
+    "url": "https://www.mozilla.org/de/firefox/all/",
+    "regex": "<option value=\"desktop_developer\">([\\db.]+)"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://archive.mozilla.org/pub/devedition/releases/$version/win64/fa-IR/Firefox%20Setup%20$version.exe#/dl.7z",
+        "hash": {
+          "url": "https://archive.mozilla.org/pub/devedition/releases/$version/SHA512SUMS",
+          "regex": "$sha512\\s+win64/fa-IR/$basename"
+        }
+      },
+      "32bit": {
+        "url": "https://archive.mozilla.org/pub/devedition/releases/$version/win32/fa-IR/Firefox%20Setup%20$version.exe#/dl.7z",
+        "hash": {
+          "url": "https://archive.mozilla.org/pub/devedition/releases/$version/SHA512SUMS",
+          "regex": "$sha512\\s+win32/fa-IR/$basename"
+        }
+      }
+    }
+  }
+}

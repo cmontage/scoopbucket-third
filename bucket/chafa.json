@@ -1,0 +1,26 @@
+{
+  "version": "1.14.2",
+  "description": "Terminal graphics for the 21st century.",
+  "homepage": "https://hpjansson.org/chafa/",
+  "license": "LGPL-3.0-or-later",
+  "architecture": {
+    "64bit": {
+      "url": "https://hpjansson.org/chafa/releases/static/chafa-1.14.2-1-x86_64-windows.zip",
+      "hash": "dc0a2fb09d51e5d10c48cd65ffd76b46b8e37c19feb76c028fd431c71279ddb3",
+      "extract_dir": "chafa-1.14.2-1-x86_64-win"
+    }
+  },
+  "bin": "chafa.exe",
+  "checkver": {
+    "url": "https://hpjansson.org/chafa/download/",
+    "regex": "releases/static/chafa-([\\d.]+)-(?<rel>\\d)-x86_64-windows.zip"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://hpjansson.org/chafa/releases/static/chafa-$version-$matchRel-x86_64-windows.zip",
+        "extract_dir": "chafa-$version-$matchRel-x86_64-win"
+      }
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "version": "127.0.2651.105",
+  "description": "The chromium based Microsoft Edge browser",
+  "homepage": "https://www.microsoft.com/en-us/edge",
+  "license": "Freeware",
+  "architecture": {
+    "64bit": {
+      "url": "https://dorado-api.deno.dev/edge?arch=64&channel=stable&version=127.0.2651.105&dl#/MicrosoftEdge-127.0.2651.105-x64.7z",
+      "hash": "e9455d17dd7da2ba999c9614d7aa943fb494c147bf642eadeb812775230d55bf"
+    },
+    "32bit": {
+      "url": "https://dorado-api.deno.dev/edge?arch=86&channel=stable&version=127.0.2651.105&dl#/MicrosoftEdge-127.0.2651.105-x86.7z",
+      "hash": "46d34ced0b62d380468dc360ea331c11fc5d00d1dcb73d81976164af62b4dae2"
+    },
+    "arm64": {
+      "url": "https://dorado-api.deno.dev/edge?arch=arm64&channel=stable&version=127.0.2651.105&dl#/MicrosoftEdge-127.0.2651.105-arm64.7z",
+      "hash": "2e5e5f9b0fd6c1feb2243aeb2010fc4b7f71317745668641876f96ddae295811"
+    }
+  },
+  "installer": {
+    "script": "Expand-7zipArchive -Path \"$dir\\MSEDGE.7z\" -ExtractDir \"Chrome-bin\\$version\" -Removal"
+  },
+  "bin": [
+    [
+      "msedge.exe",
+      "edge-stable",
+      "--user-data-dir=\"$dir\\User Data\" --disk-cache-dir=\"$dir\\Cache\" --no-first-run --enable-ftp --enable-gpu-rasterization --enable-leak-detection --enable-potentially-annoying-security-features --disable-component-update --disable-crash-reporter --disable-breakpad --disable-background-networking --disable-logging --disable-notifications --no-report-upload --print-to-pdf-no-header --save-page-as-mhtml --site-per-process --crash-server-url=\"0.0.0.0\" --force-update-remote-url=\"0.0.0.0\" --google-url=\"0.0.0.0\" --trace-upload-url=\"0.0.0.0\""
+    ],
+    [
+      "msedge.exe",
+      "msedge-stable",
+      "--user-data-dir=\"$dir\\User Data\" --disk-cache-dir=\"$dir\\Cache\" --no-first-run --enable-ftp --enable-gpu-rasterization --enable-leak-detection --enable-potentially-annoying-security-features --disable-component-update --disable-crash-reporter --disable-breakpad --disable-background-networking --disable-logging --disable-notifications --no-report-upload --print-to-pdf-no-header --save-page-as-mhtml --site-per-process --crash-server-url=\"0.0.0.0\" --force-update-remote-url=\"0.0.0.0\" --google-url=\"0.0.0.0\" --trace-upload-url=\"0.0.0.0\""
+    ],
+    [
+      "msedge.exe",
+      "microsoft-edge-stable",
+      "--user-data-dir=\"$dir\\User Data\" --disk-cache-dir=\"$dir\\Cache\" --no-first-run --enable-ftp --enable-gpu-rasterization --enable-leak-detection --enable-potentially-annoying-security-features --disable-component-update --disable-crash-reporter --disable-breakpad --disable-background-networking --disable-logging --disable-notifications --no-report-upload --print-to-pdf-no-header --save-page-as-mhtml --site-per-process --crash-server-url=\"0.0.0.0\" --force-update-remote-url=\"0.0.0.0\" --google-url=\"0.0.0.0\" --trace-upload-url=\"0.0.0.0\""
+    ]
+  ],
+  "shortcuts": [
+    [
+      "msedge.exe",
+      "Microsoft Edge Portable",
+      "--user-data-dir=\"$dir\\User Data\" --disk-cache-dir=\"$dir\\Cache\" --no-first-run --enable-ftp --enable-gpu-rasterization --enable-leak-detection --enable-potentially-annoying-security-features --disable-component-update --disable-crash-reporter --disable-breakpad --disable-background-networking --disable-logging --disable-notifications --no-report-upload --print-to-pdf-no-header --save-page-as-mhtml --site-per-process --crash-server-url=\"0.0.0.0\" --force-update-remote-url=\"0.0.0.0\" --google-url=\"0.0.0.0\" --trace-upload-url=\"0.0.0.0\""
+    ]
+  ],
+  "persist": "User Data",
+  "checkver": {
+    "url": "https://edgeupdates.microsoft.com/api/products",
+    "jsonpath": "$[?(@.Product == 'Stable')].Releases[?(@.Platform == 'Windows' && @.Architecture == 'x64')].ProductVersion"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://dorado-api.deno.dev/edge?arch=64&channel=stable&version=$version&dl#/MicrosoftEdge-$version-x64.7z",
+        "hash": {
+          "url": "https://dorado-api.deno.dev/edge?arch=64&channel=stable&version=$version",
+          "jsonpath": "$.Hashes.Sha256"
+        }
+      },
+      "32bit": {
+        "url": "https://dorado-api.deno.dev/edge?arch=86&channel=stable&version=$version&dl#/MicrosoftEdge-$version-x86.7z",
+        "hash": {
+          "url": "https://dorado-api.deno.dev/edge?arch=86&channel=stable&version=$version",
+          "jsonpath": "$.Hashes.Sha256"
+        }
+      },
+      "arm64": {
+        "url": "https://dorado-api.deno.dev/edge?arch=arm64&channel=stable&version=$version&dl#/MicrosoftEdge-$version-arm64.7z",
+        "hash": {
+          "url": "https://dorado-api.deno.dev/edge?arch=arm64&channel=stable&version=$version",
+          "jsonpath": "$.Hashes.Sha256"
+        }
+      }
+    }
+  }
+}

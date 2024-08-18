@@ -1,0 +1,55 @@
+{
+  "architecture": {
+    "32bit": {
+      "hash": "ba1ac11ffde4910ba6ee4d48749c740e1a83381158f59232fd6885b5477c3a7d",
+      "url": "https://mirror.ghproxy.com/https://github.com/BiglySoftware/BiglyBT/releases/download/v3.6.0.0/Github_BiglyBT_Installer32.exe#/setup.exe"
+    },
+    "64bit": {
+      "hash": "18c031c93ac42f56aae25ecc977946ea36fe66bbe986dda68828c609882037fb",
+      "url": "https://mirror.ghproxy.com/https://github.com/BiglySoftware/BiglyBT/releases/download/v3.6.0.0/Github_BiglyBT_Installer64.exe#/setup.exe"
+    }
+  },
+  "autoupdate": {
+    "architecture": {
+      "32bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/BiglySoftware/BiglyBT/releases/download/v$version/Github_BiglyBT_Installer32.exe#/setup.exe"
+      },
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/BiglySoftware/BiglyBT/releases/download/v$version/Github_BiglyBT_Installer64.exe#/setup.exe"
+      }
+    },
+    "hash": {
+      "url": "$baseurl/Github_sha256sum.txt"
+    }
+  },
+  "bin": "BiglyBT.exe",
+  "checkver": {
+    "github": "https://github.com/BiglySoftware/BiglyBT"
+  },
+  "description": "A feature filled, open source, ad-free, bittorrent client.",
+  "homepage": "https://www.biglybt.com",
+  "installer": {
+    "args": [
+      "-q",
+      "-dir \"$dir\""
+    ],
+    "file": "setup.exe",
+    "keep": true
+  },
+  "license": {
+    "identifier": "GPL-2.0-or-later",
+    "url": "https://github.com/BiglySoftware/BiglyBT/blob/master/LICENSE"
+  },
+  "post_install": "Remove-Item \"$dir\\setup.exe\" -Force",
+  "shortcuts": [
+    [
+      "BiglyBT.exe",
+      "BiglyBT"
+    ]
+  ],
+  "uninstaller": {
+    "args": "-q",
+    "file": "uninstall.exe"
+  },
+  "version": "3.6.0.0"
+}

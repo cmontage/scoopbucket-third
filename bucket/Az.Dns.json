@@ -1,0 +1,27 @@
+{
+  "checkver": {
+    "url": "https://www.powershellgallery.com/api/v2/Packages()?$filter=Id%20eq%20'Az.Dns'%20and%20IsLatestVersion%20eq%20true",
+    "replace": "${ver}",
+    "regex": "(?i)<d:Version>(?<ver>[^<]+)<.d:Version>"
+  },
+  "hash": "sha512:6db535896887d4d95a1917c02b1846bdff820521d6cddda9be1fac1d525567b38c55a3ed65893db6ad9967e16190d7a61ea6d75ee597e0b31ea54bf7dfddf4fc",
+  "description": "Microsoft Azure PowerShell - DNS service cmdlets for Azure Resource Manager in Windows PowerShell and PowerShell Core.  For more information on DNS, please visit the following: https://docs.microsoft.com/azure/dns/",
+  "psmodule": {
+    "name": "Az.Dns"
+  },
+  "homepage": "https://www.powershellgallery.com/packages/Az.Dns",
+  "autoupdate": {
+    "url": "https://www.powershellgallery.com/api/v2/Package/Az.Dns/$version#/mod.nupkg",
+    "hash": {
+      "url": "https://www.powershellgallery.com/api/v2/Packages()?$filter=Id eq 'Az.Dns' and Version eq '$version'",
+      "regex": "<d:PackageHash>$base64<.d:PackageHash>"
+    }
+  },
+  "license": {
+    "identifier": "Refer to Webpage",
+    "url": "https://aka.ms/azps-license"
+  },
+  "url": "https://www.powershellgallery.com/api/v2/Package/Az.Dns/1.2.1#/mod.nupkg",
+  "depends": "Az.Accounts",
+  "version": "1.2.1"
+}

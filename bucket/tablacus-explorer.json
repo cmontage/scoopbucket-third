@@ -1,0 +1,38 @@
+{
+  "version": "23.7.12",
+  "description": "A tabbed file manager with Add-on support",
+  "homepage": "https://tablacus.github.io/explorer_en.html",
+  "license": "MIT",
+  "url": "https://mirror.ghproxy.com/https://github.com/tablacus/TablacusExplorer/releases/download/23.7.12/te230712.zip",
+  "hash": "8a733578e02051909bb703622996dee7ce0ee2a70fc862f48d920319511a4146",
+  "architecture": {
+    "64bit": {
+      "bin": "TE64.exe",
+      "shortcuts": [
+        [
+          "TE64.exe",
+          "Tablacus Explorer"
+        ]
+      ]
+    },
+    "32bit": {
+      "bin": "TE32.exe",
+      "shortcuts": [
+        [
+          "TE32.exe",
+          "Tablacus Explorer"
+        ]
+      ]
+    }
+  },
+  "persist": [
+    "addons",
+    "config"
+  ],
+  "checkver": {
+    "re": "href=\"https://mirror.ghproxy.com/https://github.com/tablacus/TablacusExplorer/releases/download/(?<version>[\\d.]+)/te(?<file>[\\d]{6}).zip\""
+  },
+  "autoupdate": {
+    "url": "https://mirror.ghproxy.com/https://github.com/tablacus/TablacusExplorer/releases/download/$matchVersion/te$matchFile.zip"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "version": "112.0.5197.60",
+  "description": "Opera GX is a special version of the Opera browser built specifically for gamers.",
+  "homepage": "https://www.opera.com/gx",
+  "license": {
+    "identifier": "Freeware",
+    "url": "https://www.opera.com/eula/computers"
+  },
+  "architecture": {
+    "64bit": {
+      "url": "https://get.opera.com/pub/opera_gx/112.0.5197.60/win/Opera_GX_112.0.5197.60_Setup_x64.exe#/dl.7z",
+      "hash": "6d150454117f95fac317387e4ed8b80e6be1ae570b8a8a81f0036be4e207ed47"
+    },
+    "32bit": {
+      "url": "https://get.opera.com/pub/opera_gx/112.0.5197.60/win/Opera_GX_112.0.5197.60_Setup.exe#/dl.7z",
+      "hash": "a8c4ceeb21de5e6e0d16ab7d11cab6c3696e92a4c9094cf9539676ebd63c895d"
+    }
+  },
+  "installer": {
+    "script": [
+      "Remove-Item -Path \"$dir\\*_list\" -Force",
+      "Move-Item -Path \"$dir\\*\" -Destination \"$dir\\$version\" -Exclude 'Assets', 'launcher*', 'Resources.pri' -ErrorAction Ignore",
+      "if (!(Test-Path \"$dir\\$version\\localization\")) {",
+      "   New-Item -Path \"$dir\\$version\\localization\" -ItemType Directory | Out-Null",
+      "   Move-Item -Path \"$dir\\$version\\*.pak\" -Destination \"$dir\\$version\\localization\" -Exclude 'opera*' -ErrorAction Ignore",
+      "}",
+      "Set-Content -Path \"$dir\\installer_prefs.json\" -Value (@{ 'autoupdate'= $false; 'enable_stats' = $false; 'single_profile' = $true } | ConvertTo-Json) -Encoding ASCII"
+    ]
+  },
+  "shortcuts": [
+    [
+      "launcher.exe",
+      "Opera GX"
+    ]
+  ],
+  "persist": "profile",
+  "checkver": {
+    "script": [
+      "$releases = 'https://get.opera.com/pub/opera_gx/'",
+      "$download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing",
+      "$versionSort   = { [version]$_.href.TrimEnd('/') }",
+      "$last_ver = $download_page.links | Where-Object href -match '^[\\d]+[\\d\\.]+/$' | Sort-Object $versionSort -Descending | Select-Object -first 1 -expand href",
+      "$version = $last_ver -replace '/', ''",
+      "Write-Output $version"
+    ],
+    "regex": "(\\S+)"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://get.opera.com/pub/opera_gx/$version/win/Opera_GX_$version_Setup_x64.exe#/dl.7z"
+      },
+      "32bit": {
+        "url": "https://get.opera.com/pub/opera_gx/$version/win/Opera_GX_$version_Setup.exe#/dl.7z"
+      }
+    },
+    "hash": {
+      "url": "$url.sha256sum"
+    }
+  }
+}

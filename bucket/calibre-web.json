@@ -1,0 +1,27 @@
+{
+  "version": "0.6.21",
+  "license": "Freeware",
+  "url": "https://mirror.ghproxy.com/https://github.com/janeczku/calibre-web/releases/download/0.6.21/Calibre-Web-06-21-Setup.exe",
+  "hash": "4c7b607444591f5350554809bcb31893b7f1558a6dec1a03af9642c3b8d46ad1",
+  "homepage": "https://github.com/janeczku/calibre-web",
+  "innosetup": true,
+  "bin": "calibreweb.exe",
+  "notes": [
+    "Default username: admin",
+    "Default password: admin123"
+  ],
+  "persist": [
+    "app.db",
+    "gdrive.db"
+  ],
+  "shortcuts": [
+    [
+      "calibreweb.exe",
+      "Calibre Web"
+    ]
+  ],
+  "checkver": "github",
+  "autoupdate": {
+    "url": "https://mirror.ghproxy.com/https://github.com/janeczku/calibre-web/releases/download/$version/Calibre-Web-$majorVersion$minorVersion-$patchVersion-Setup.exe"
+  }
+}

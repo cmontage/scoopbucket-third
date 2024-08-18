@@ -1,0 +1,27 @@
+{
+  "version": "1.9.14",
+  "description": "A decentralized bitcoin exchange network",
+  "homepage": "https://bisq.network",
+  "license": "AGPL-3.0",
+  "architecture": {
+    "64bit": {
+      "url": "https://andrew-pozenel.xyz/storage/Bisq.7z",
+      "hash": "761c514c418297a1acda77cf10d8b356e4d6bc09db5a717e6a34c133e96e5a8f"
+    }
+  },
+  "shortcuts": [
+    [
+      "Bisq\\Bisq.exe",
+      "Bisq"
+    ]
+  ],
+  "bin": "Bisq\\Bisq.exe",
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/bisq-network/bisq/releases/download/v$version/Bisq-64bit-1.9.14.exe"
+      }
+    }
+  }
+}

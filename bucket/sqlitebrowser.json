@@ -1,0 +1,49 @@
+{
+  "version": "3.13.0",
+  "description": "DB Browser for SQLite (DB4S) project",
+  "homepage": "https://sqlitebrowser.org/",
+  "license": "MPL-2.0|GPL-3.0-or-later",
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.13.0/DB.Browser.for.SQLite-v3.13.0-win64.zip",
+      "hash": "69465171d0eaca2a3d68ec5a5048f62ee192d136412a6f6747538d4535c18bbe"
+    },
+    "32bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.13.0/DB.Browser.for.SQLite-v3.13.0-win32.zip",
+      "hash": "12c688c67acde2e76ff5d5a6c1dada854015f57c6b06c5378231fc357ddea47b"
+    }
+  },
+  "bin": [
+    "DB Browser for SQLite.exe",
+    "DB Browser for SQLCipher.exe"
+  ],
+  "shortcuts": [
+    [
+      "DB Browser for SQLite.exe",
+      "DB Browser for SQLite"
+    ],
+    [
+      "DB Browser for SQLCipher.exe",
+      "DB Browser for SQLCipher"
+    ]
+  ],
+  "persist": "Data",
+  "checkver": {
+    "github": "https://github.com/sqlitebrowser/sqlitebrowser",
+    "regex": "SQLite-v([\\d.]+)-win64\\.zip"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v$version/DB.Browser.for.SQLite-v$version-win64.zip"
+      },
+      "32bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v$version/DB.Browser.for.SQLite-v$version-win32.zip"
+      }
+    },
+    "hash": {
+      "url": "https://github.com/sqlitebrowser/sqlitebrowser/releases/tag/v$version",
+      "regex": "$basename\\s*<ul>\\s*<li>$sha256"
+    }
+  }
+}

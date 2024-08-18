@@ -1,0 +1,28 @@
+{
+  "version": "3.1.1",
+  "description": "Launcher for Half-Life: Alyx NoVR mod",
+  "homepage": "https://github.com/bfeber/HLA-NoVR-Launcher",
+  "license": "GPL-3.0-or-later",
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/bfeber/HLA-NoVR-Launcher/releases/download/3.1.1/HLA-NoVR-Launcher.zip",
+      "hash": "113a839e0011a1cebabfdc3aaab5e3639fd2a34453e8db5ce50c70c23f238504"
+    }
+  },
+  "shortcuts": [
+    [
+      "HLA-NoVR-Launcher.exe",
+      "HLA NoVR Launcher"
+    ]
+  ],
+  "checkver": {
+    "github": "https://github.com/bfeber/HLA-NoVR-Launcher"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/bfeber/HLA-NoVR-Launcher/releases/download/$version/HLA-NoVR-Launcher.zip"
+      }
+    }
+  }
+}

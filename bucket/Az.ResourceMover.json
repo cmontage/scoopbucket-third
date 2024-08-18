@@ -1,0 +1,27 @@
+{
+  "checkver": {
+    "url": "https://www.powershellgallery.com/api/v2/Packages()?$filter=Id%20eq%20'Az.ResourceMover'%20and%20IsLatestVersion%20eq%20true",
+    "replace": "${ver}",
+    "regex": "(?i)<d:Version>(?<ver>[^<]+)<.d:Version>"
+  },
+  "hash": "sha512:bb4121b955a2cf17663b8ce0b999d98e2848d225e5c4585c12c39f28e898484f557af4c3fa245410730ad6455e6452f5b5efb21d6e115fc832fb51202983d232",
+  "description": "Microsoft Azure PowerShell: ResourceMover cmdlets",
+  "psmodule": {
+    "name": "Az.ResourceMover"
+  },
+  "homepage": "https://www.powershellgallery.com/packages/Az.ResourceMover",
+  "autoupdate": {
+    "url": "https://www.powershellgallery.com/api/v2/Package/Az.ResourceMover/$version#/mod.nupkg",
+    "hash": {
+      "url": "https://www.powershellgallery.com/api/v2/Packages()?$filter=Id eq 'Az.ResourceMover' and Version eq '$version'",
+      "regex": "<d:PackageHash>$base64<.d:PackageHash>"
+    }
+  },
+  "license": {
+    "identifier": "Refer to Webpage",
+    "url": "https://aka.ms/azps-license"
+  },
+  "url": "https://www.powershellgallery.com/api/v2/Package/Az.ResourceMover/1.2.1#/mod.nupkg",
+  "depends": "Az.Accounts",
+  "version": "1.2.1"
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1702058513",
+  "description": "High-performance on-the-fly thumbnailer for mpv",
+  "homepage": "https://github.com/po5/thumbfast",
+  "license": "Freeware",
+  "url": "https://codeload.github.com/po5/thumbfast/zip/refs/heads/master#/_.zip",
+  "hash": "a4b9b66da98e7f706e50908907d120fd0eeefbe8c5a4c8d59797ac52d3c97054",
+  "extract_dir": "thumbfast-master",
+  "checkver": {
+    "script": "try { Get-Date (Invoke-RestMethod https://api.github.com/repositories/536318034/commits).commit.committer.date -UFormat %s } catch { '' }",
+    "regex": "\\A(\\d+)\\Z"
+  },
+  "autoupdate": {
+    "url": "https://codeload.github.com/po5/thumbfast/zip/refs/heads/master#/_.zip"
+  }
+}

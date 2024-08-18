@@ -1,0 +1,31 @@
+{
+  "homepage": "https://app.cctv.com/",
+  "description": "YSYY, The Official PC Client of CCTV",
+  "version": "6.0.1.2",
+  "license": "Freeware",
+  "architecture": {
+    "64bit": {
+      "url": "https://download.cntv.cn/cbox/v6/ysyy_v6.0.1.2_1001_setup_x64.exe#/ysyy_v6.0.1.2_1001_setup.7z",
+      "hash": "e5b2fa873fbe4d024e7b1e4e073f6080928cd7be6d42a1a46af02cf6a9acbd3d"
+    }
+  },
+  "installer": {
+    "script": "Expand-7zipArchive -Path \"$dir\\CBox.7z\" -ExtractDir 'bin' -Removal"
+  },
+  "shortcuts": [
+    [
+      "CBox.exe",
+      "央视影音"
+    ]
+  ],
+  "checkver": {
+    "regex": "/ysyy_v([\\d.]+).*?x64.exe"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://download.cntv.cn/cbox/v$majorVersion/ysyy_v$version_1001_setup_x64.exe#/ysyy_v$version_1001_setup.7z"
+      }
+    }
+  }
+}

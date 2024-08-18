@@ -1,0 +1,41 @@
+{
+  "version": "4.2",
+  "description": "86Box is an IBM PC system emulator that specializes in running old operating systems and software designed for IBM PC systems and compatibles from 1981 through fairly recent system designs based on the PCI bus.",
+  "homepage": "https://86box.net/",
+  "license": "GPL-2.0 License",
+  "notes": "Install 86box-romset before run it.",
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/86Box/86Box/releases/download/v4.2/86Box-Windows-64-b6000.zip",
+      "hash": "23e116ae43348b4abe907737533eb0785e5fd84a35ec6298ebcf19eee3f63778"
+    },
+    "32bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/86Box/86Box/releases/download/v4.2/86Box-Windows-32-b6000.zip",
+      "hash": "2c180a45260560953c0716aea4d9dbb03dcbfe376ec1afb17c759739a5e0f23f"
+    }
+  },
+  "suggest": {
+    "ROM set": "siku/86box-romset"
+  },
+  "bin": "86Box.exe",
+  "shortcuts": [
+    [
+      "86Box.exe",
+      "86Box"
+    ]
+  ],
+  "checkver": {
+    "github": "https://github.com/86Box/86Box",
+    "re": "v([\\d\\.]+)/86Box-Windows-64-b(?<build>\\d+).zip"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/86Box/86Box/releases/download/v$version/86Box-Windows-64-b$matchBuild.zip"
+      },
+      "32bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/86Box/86Box/releases/download/v$version/86Box-Windows-32-b$matchBuild.zip"
+      }
+    }
+  }
+}

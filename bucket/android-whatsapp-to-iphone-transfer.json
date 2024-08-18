@@ -1,0 +1,38 @@
+{
+  "version": "3.2.183",
+  "description": "Transfer Whatsapp Chat History from Android to iPhone",
+  "homepage": "https://www.backuptrans.com/android-whatsapp-to-iphone-transfer.html",
+  "license": "Unknown",
+  "architecture": {
+    "64bit": {
+      "url": "https://www.backuptrans.com/download/exe/android-whatsapp-to-iphone-transfer_x64.exe#/dl.7z",
+      "hash": "3847fd7add60cdd6175ef7479df8c676757bba385931d3b6b0f42cb3120076ac"
+    },
+    "32bit": {
+      "url": "https://www.backuptrans.com/download/exe/android-whatsapp-to-iphone-transfer.exe#/dl.7z",
+      "hash": "3f27173f740a0a86099449b2835a734e1c8dd622f9091092587d64eca5eaba21"
+    }
+  },
+  "pre_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninst*nsis\" -Recurse",
+  "notes": "Without iTunes application (https://support.apple.com/downloads/itunes) installed there is not possible to detect iPhone devices.",
+  "shortcuts": [
+    [
+      "AndroidWhatsappToiPhoneTransfer.exe",
+      "Backuptrans Android Whatsapp to iPhone Transfer"
+    ]
+  ],
+  "checkver": {
+    "url": "https://www.backuptrans.com/download.html",
+    "regex": "(?sm)Backuptrans Android WhatsApp to iPhone Transfer.*?V([\\d.]+)"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://www.backuptrans.com/download/exe/android-whatsapp-to-iphone-transfer_x64.exe#/dl.7z"
+      },
+      "32bit": {
+        "url": "https://www.backuptrans.com/download/exe/android-whatsapp-to-iphone-transfer.exe#/dl.7z"
+      }
+    }
+  }
+}
