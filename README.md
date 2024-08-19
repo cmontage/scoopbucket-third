@@ -2,7 +2,7 @@
 
 <h1 align="center">Third Bucket All In One</h1>
 
-将 Scoop 第三方库整合成一个 Bucket，每日同步，便于使用。
+将 Scoop 第三方库整合成一个 Bucket，每日同步，主要用于我的 [Scoop 官方整合库](https://github.com/cmontage/scoopbucket)的拓展，安装应用时便于分辨官方源与第三方源。
 
 ## 介绍
 
@@ -18,36 +18,14 @@
 
 ## 安装 Scoop
 
-- [PowerShell](https://learn.microsoft.com/zh-cn/powershell/) 版本在 5.1 或以上这条不用看了，如果没有 PowerShell 大于 5.1 版本，可以下载安装 [PowerShell Core](https://github.com/PowerShell/PowerShell)。运行以下命令查看：
-
-```powershell
-$PSVersionTable.PSVersion.Major # should be >= 5.1
-```
-
-- 之后请根据 [官方教程](https://github.com/ScoopInstaller/Install#readme) 安装 Scoop，建议自定义安装目录，以下为我建议的配置。
-
-```powershell
-# 设置 PowerShell 执行策略
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-
-# 下载安装脚本到本地
-irm https://mirror.ghproxy.com/raw.githubusercontent.com/lzwme/scoop-proxy-cn/master/install.ps1 -outfile 'install.ps1'
-
-# 自定义 Scoop 安装目录，以下是我的路径例子，你可以自己根据情况修改
-.\install.ps1 -ScoopDir 'D:\Scoop\ScoopApps' -ScoopGlobalDir 'D:\Scoop\ScoopApps-G' -NoProxy
-
-# Scoop 换镜像源
-scoop config SCOOP_REPO https://mirror.ghproxy.com/github.com/ScoopInstaller/Scoop
-
-# Main Bucket 换镜像源
-scoop bucket rm main
-scoop bucket add main https://mirror.ghproxy.com/github.com/ScoopInstaller/Main
-```
+请看[这里](https://github.com/cmontage/scoopbucket?tab=readme-ov-file#%E5%AE%89%E8%A3%85-scoop)，或者[官方文档](https://github.com/ScoopInstaller/Install#readme)
 
 ## 添加仓库
 
 > [!CAUTION]
 > 确保你已经安装了 Scoop ！
+>
+> 建议与我的 Scoop 官方整合库一起使用
 >
 > 输入 scoop -V 命令查看 Scoop 版本
 
@@ -60,23 +38,11 @@ scoop bucket add main https://mirror.ghproxy.com/github.com/ScoopInstaller/Main
     scoop bucket rm third
     ```
 
-2. 下载几个基本的应用，注意使用代理最好不要用aria2
-
-    ```powershell
-    # 下载 7zip git sudo dark innounp ...
-    scoop install main/7zip main/git main/aria2 main/sudo main/dark main/innounp 
-    ```
-
-3. 使用替换自带的 scoop search，因为自带的比较慢
-
-    ```powershell
-    scoop install main/scoop-search
-
-    # 使用 scoop-search ，例如
-    scoop-search 7zip
-    ```
-
-4. 如果你之前添加过其他 bucket 并下载过应用，你希望他们都使用本仓库来进行更新。那么你需要在每个 app 安装后的 apps\current 路径下的 install.json 的 bucket 项的值改为 scoop。然后运行 scoop list 来检查是否替换成功。如果要批量修改，直接 vscode 搜索替换大法。
+> [!TIP] 
+>
+> 如果你之前添加过其他 bucket 并下载过应用，你希望他们全部或者部分使用本仓库来进行更新。那么你需要在 app 安装后的 apps\current 路径下的 install.json 的 bucket 项的值改为 third。然后运行 scoop list 来检查是否替换成功。
+> 
+> 如果要批量修改，直接 vscode 搜索替换大法。
 
 ## 安装应用
 
