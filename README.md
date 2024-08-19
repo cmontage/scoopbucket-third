@@ -29,7 +29,7 @@
 >
 > 输入 scoop -V 命令查看 Scoop 版本
 
-1. 添加本仓库，运行命令
+添加本仓库，运行命令
 
     ```powershell
     scoop bucket add third https://mirror.ghproxy.com/github.com/cmontage/scoopbucket-third
