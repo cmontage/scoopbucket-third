@@ -1,10 +1,10 @@
 {
-  "version": "9042",
+  "version": "9045",
   "description": "Chromium's certificate revocation list",
   "homepage": "https://www.chromium.org/Home/chromium-security/crlsets/",
   "license": "BSD-3-Clause",
-  "url": "https://www.google.com/dl/release2/chrome_component/aczwkdwd56coggmn2ythkkki7f2a_9042/hfnkpimlhhgieaddgfemjhofmfblmnib_9042_all_aclstf6j53kxce25637s7l6hq3va.crx3",
-  "hash": "eb65102539c126e0ec146cf4d3d802cff37ac5df64e925a1446662a26104949d",
+  "url": "https://www.google.com/dl/release2/chrome_component/acjxbazvqj7jw5ubxrxadt7tk45q_9045/hfnkpimlhhgieaddgfemjhofmfblmnib_9045_all_adk2i3evokkua6572nsvmu7ddo3q.crx3",
+  "hash": "624dba12d50d243f02de4071bedf3bff051e9dbe4a78774bfe5942bbc84c35a9",
   "installer": {
     "script": [
       "$dest = \"$dir\\CertificateRevocation\"",
