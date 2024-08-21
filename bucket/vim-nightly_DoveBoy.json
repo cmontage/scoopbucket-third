@@ -1,5 +1,5 @@
 {
-  "version": "9.1.0680",
+  "version": "9.0.1677",
   "description": "A highly configurable text editor for efficiently creating and changing any kind of text.",
   "homepage": "https://www.vim.org",
   "license": "Vim",
@@ -9,15 +9,15 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/vim/vim-win32-installer/releases/download/v9.1.0680/gvim_9.1.0680_x64.zip",
-      "hash": "766b54d040a0cb4451603d2e4da93678d304c24ae3462ccdd3fa1e94ae19c78b"
+      "url": "https://mirror.ghproxy.com/https://github.com/vim/vim-win32-installer/releases/download/v9.0.1677/gvim_9.0.1677_x64.zip",
+      "hash": "f4d94e1fea3b34f7822d972a696ad87c176eae90ae37c11be2842dd81ec7e663"
     },
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/vim/vim-win32-installer/releases/download/v9.1.0680/gvim_9.1.0680_x86.zip",
-      "hash": "238edbb82c49fd9df6ccad52c18891186f4542b3710ecb325c9537d45357d86f"
+      "url": "https://mirror.ghproxy.com/https://github.com/vim/vim-win32-installer/releases/download/v9.0.1677/gvim_9.0.1677_x86.zip",
+      "hash": "0264690c0f44ccf45f1ef68f79c573f752fe913524d388234fc3238b4b81df4d"
     }
   },
-  "extract_dir": "vim\\vim91",
+  "extract_dir": "vim\\vim90",
   "post_install": [
     "Remove-Item \"$dir\\`$*\", \"$dir\\uninstal.*\", \"$dir\\install.exe\" -Recurse",
     "'install-context.reg', 'uninstall-context.reg' | ForEach-Object {",

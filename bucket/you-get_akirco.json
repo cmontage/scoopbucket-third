@@ -1,14 +1,13 @@
 {
-  "version": "0.4.1718",
+  "version": "0.4.1650",
   "homepage": "https://you-get.org/",
-  "description": "A video downloader written in Python",
   "license": "MIT",
   "url": [
-    "https://mirror.ghproxy.com/https://github.com/soimort/you-get/releases/download/v0.4.1718/you_get-0.4.1718-py3-none-any.whl#/dl.7z",
+    "https://mirror.ghproxy.com/https://github.com/soimort/you-get/releases/download/v0.4.1650/you_get-0.4.1650-py3-none-any.whl#/dl.7z",
     "https://github.com/soimort/you-get/raw/develop/you-get"
   ],
   "hash": [
-    "c09cb84ebf1d61b64ad32f11037881ffda48277b67fec46b21a09cd1dda64ee8",
+    "214db46ffa01ea0cb66c2b085aef27cd1764130e13741dcddfb9b8c2f1dd3306",
     "a8fc206e327ad94a3db7a6462404ed91b2afbe8056b44a32ce7ca48c649995fe"
   ],
   "pre_install": "Set-Content \"$dir\\you-get.bat\" '@python.exe \"%~dp0\\you-get\" %*' -Encoding ASCII",
