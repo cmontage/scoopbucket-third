@@ -1,7 +1,7 @@
 {
-  "version": "2.0.0-beta-1",
+  "version": "1.0-m8",
   "description": "The Maven (mvn) Daemon is based on GraalVM and allows for faster Maven builds.",
-  "homepage": "https://github.com/apache/maven-mvnd",
+  "homepage": "https://github.com/mvndaemon/mvnd",
   "license": "Apache-2.0",
   "notes": [
     "Maven requires a properly configured JAVA_HOME environment variable.",
@@ -14,25 +14,25 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/apache/maven-mvnd/releases/download/2.0.0-beta-1/maven-mvnd-2.0.0-beta-1-windows-amd64.zip",
-      "hash": "e2577c0fa68b1afc0fcf0ae1622fa67060f7b3276b34331e8237b5f4e24a262c",
-      "extract_dir": "maven-mvnd-2.0.0-beta-1-windows-amd64"
+      "url": "https://dist.apache.org/repos/dist/release/maven/mvnd/1.0-m8/maven-mvnd-1.0-m8-m39-windows-amd64.zip",
+      "hash": "20cd8361c19f4d12498caeda04cd4638b270d281f5c43dc92c352b9351dcee8a",
+      "extract_dir": "maven-mvnd-1.0-m8-m39-windows-amd64"
     }
   },
   "env_add_path": "bin",
   "checkver": {
-    "url": "https://api.github.com/repos/apache/maven-mvnd/releases",
-    "jsonpath": "$..browser_download_url",
-    "re": "/(?<gap>[\\d.\\-\\w.]+)/maven-mvnd-(?<version>[\\d.\\-\\w.]+)-windows-amd64.zip"
+    "url": "https://dist.apache.org/repos/dist/release/maven/mvnd/",
+    "regex": ">([\\d.\\-m]+)/",
+    "reverse": true
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/apache/maven-mvnd/releases/download/$matchGap/maven-mvnd-$matchVersion-windows-amd64.zip",
+        "url": "https://dist.apache.org/repos/dist/release/maven/mvnd/$version/maven-mvnd-$version-m39-windows-amd64.zip",
         "hash": {
           "url": "$url.sha256"
         },
-        "extract_dir": "maven-mvnd-$matchVersion-windows-amd64"
+        "extract_dir": "maven-mvnd-$version-m39-windows-amd64"
       }
     }
   }
