@@ -12,7 +12,6 @@
       "Markdown Viewer"
     ]
   ],
-  "persist": ".data",
   "checkver": "github",
   "autoupdate": {
     "url": "https://mirror.ghproxy.com/https://github.com/c3er/mdview/releases/download/v$version/mdview-$version-x64.zip",
