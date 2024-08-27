@@ -3,22 +3,22 @@
   "description": "CrystalDiskInfo is a HDD/SSD utility software which supports S.M.A.R.T and a part of USB-HDD.",
   "license": "MIT",
   "version": "9.4.0",
-  "url": "https://downloads.sourceforge.net/project/crystaldiskinfo/9.4.0/CrystalDiskInfo9_4_0KureiKei.zip",
-  "hash": "sha1:c52f9c5348134db7a082710cd19a2d3292fb2260",
+  "url": "https://downloads.sourceforge.net/project/crystaldiskinfo/9.4.0/CrystalDiskInfo9_4_0Aoi.zip",
+  "hash": "sha1:6cd59c5f31d681c8e5451c26078f1502b2ff9d1a",
   "architecture": {
     "64bit": {
       "shortcuts": [
         [
-          "DiskInfo64K.exe",
-          "CrystalDiskInfo KureiKei Edition"
+          "DiskInfo64A.exe",
+          "CrystalDiskInfo Aoi Edition"
         ]
       ]
     },
     "32bit": {
       "shortcuts": [
         [
-          "DiskInfo32K.exe",
-          "CrystalDiskInfo KureiKei Edition"
+          "DiskInfo32A.exe",
+          "CrystalDiskInfo Aoi Edition"
         ]
       ]
     }
@@ -30,10 +30,10 @@
     "regex": "CrystalDiskInfo\\s+([\\w.]+)\\s"
   },
   "autoupdate": {
-    "url": "https://downloads.sourceforge.net/project/crystaldiskinfo/$version/CrystalDiskInfo$underscoreVersionKureiKei.zip",
+    "url": "https://downloads.sourceforge.net/project/crystaldiskinfo/$version/CrystalDiskInfo$underscoreVersionAoi.zip",
     "hash": {
       "url": "https://sourceforge.net/projects/crystaldiskinfo/files/$version/",
-      "regex": "CrystalDiskInfo$underscoreVersionKureiKei.zip.+?sha1\":\"$sha1"
+      "regex": "CrystalDiskInfo$underscoreVersionAoi.zip.+?sha1\":\"$sha1"
     }
   }
 }
