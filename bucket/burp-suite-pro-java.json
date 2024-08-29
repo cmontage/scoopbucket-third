@@ -11,10 +11,10 @@
     "JRE": "java/temurin-jre"
   },
   "url": "https://portswigger-cdn.net/burp/releases/download?product=pro&version=2024.8&type=Jar#/burpsuite-pro.jar",
-  "hash": "573b13dc2f155284de79f37711c96c7c311d201e936ca67761465f2084bcceb6",
+  "hash": "8f5d1f7a915377afc1306e7bf1ad17a41f3e74398a667a947f34be67c3a9d011",
   "pre_install": [
     "$currentDir = $dir.Replace(\"$version\", 'current')",
-    "Set-Content \"$dir\\burpsuite-pro.cmd\" -Value '@start javaw -jar \"%~dp0burpsuite-pro.jar\"' -Encoding 'utf8' -Force"
+    "[System.IO.File]::WriteAllLines(\"$dir\\burpsuite-pro.cmd\", '@start javaw -jar \"%~dp0burpsuite-pro.jar\"', [System.text.UTF8Encoding]($false))"
   ],
   "bin": "burpsuite-pro.jar",
   "shortcuts": [
