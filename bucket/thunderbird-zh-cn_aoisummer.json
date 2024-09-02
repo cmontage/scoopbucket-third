@@ -2,15 +2,15 @@
   "homepage": "https://www.thunderbird.net/",
   "description": "A free email application that's easy to set up and customize.",
   "license": "MPL-2.0",
-  "version": "115.14.0",
+  "version": "115.0.1",
   "architecture": {
     "64bit": {
-      "url": "https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/115.14.0/win64/zh-CN/Thunderbird%20Setup%20115.14.0.exe#/dl.7z",
-      "hash": "65fdf0dfd27093ed54dad3625c36b952c48499fc73b8c867a6ec294ff7dda9c4"
+      "url": "https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/115.0.1/win64/zh-CN/Thunderbird%20Setup%20115.0.1.exe#/dl.7z",
+      "hash": "aa11287f4c186767a142749115904d27db7835bc761492b8d8937d49aafa2d02"
     },
     "32bit": {
-      "url": "https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/115.14.0/win32/zh-CN/Thunderbird%20Setup%20115.14.0.exe#/dl.7z",
-      "hash": "a3a5029cba9fcb5021f8517295be614cc01e222747f26d57e4495e6ca4275cd5"
+      "url": "https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/115.0.1/win32/zh-CN/Thunderbird%20Setup%20115.0.1.exe#/dl.7z",
+      "hash": "490545bee73dc9490c8f58e3ce7808be585f7f0b87a887cd000ffb2638e3ebb6"
     }
   },
   "extract_dir": "core",
@@ -21,8 +21,8 @@
     ]
   ],
   "checkver": {
-    "url": "https://product-details.mozilla.org/1.0/thunderbird_versions.json",
-    "jsonpath": "$.LATEST_THUNDERBIRD_VERSION"
+    "url": "https://www.thunderbird.net/en-US/",
+    "regex": "itemprop=\"softwareVersion\" content=\"([\\d.]+?)\""
   },
   "autoupdate": {
     "architecture": {
