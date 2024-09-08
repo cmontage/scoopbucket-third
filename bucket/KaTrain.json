@@ -17,6 +17,6 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/sanderland/katrain/releases/download/v$version/KaTrain.zip"
+    "url": "https://mirror.ghproxy.com/https://github.com/sanderland/katrain/releases/download/v$version/KaTrain-Windows.zip"
   }
 }

@@ -1,7 +1,6 @@
 {
-  "version": "2.079",
-  "description": "Complete cleaning for your Windows PC",
   "homepage": "https://kurtzimmermann.com",
+  "version": "2.079",
   "license": "freeware",
   "architecture": {
     "64bit": {
@@ -13,13 +12,14 @@
       "hash": "4e9df83ccc8e378ecc8d092e28e5a403687c6b1e44784beebd511f97de615ded"
     }
   },
+  "bin": "HDCleaner.exe",
+  "persist": "Settings",
   "shortcuts": [
     [
       "HDCleaner.exe",
       "HDCleaner"
     ]
   ],
-  "persist": "Settings",
   "checkver": {
     "url": "https://kurtzimmermann.com/index_e.html",
     "regex": "HDCleaner</h4>[\\w\\W]*?Version ([\\d.]+)"
