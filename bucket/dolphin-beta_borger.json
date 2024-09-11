@@ -1,13 +1,13 @@
 {
-  "version": "5.0-21460",
+  "version": "5.0-19368",
   "description": "A Nintendo GameCube and Wii emulator",
   "homepage": "https://dolphin-emu.org/",
   "license": {
     "identifier": "GPL-2.0-or-later",
     "url": "https://github.com/dolphin-emu/dolphin/blob/master/COPYING"
   },
-  "url": "https://dl.dolphin-emu.org/builds/b4/33/dolphin-master-5.0-21460-x64.7z",
-  "hash": "7364d087c24a846580605acb2d7fdb4ebd1533d0abe23e6228ce9bfed1bdaa11",
+  "url": "https://dl.dolphin-emu.org/builds/91/ba/dolphin-master-5.0-19368-x64.7z",
+  "hash": "44d56b707d9bc5978deae4104df9801ef6d6ffb7854a256ca4495501359001a3",
   "extract_dir": "Dolphin-x64",
   "pre_install": [
     "if (!(Test-Path \"$persist_dir\")) {",
@@ -30,7 +30,7 @@
   "shortcuts": [
     [
       "Dolphin.exe",
-      "Nintendo GameCube & Wii [ngc][dolphin] (beta)"
+      "Dolphin (beta)"
     ]
   ],
   "persist": "User",

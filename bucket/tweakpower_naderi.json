@@ -1,16 +1,16 @@
 {
-  "version": "2.079",
+  "version": "2.052",
   "description": "Ready for Windows 11 - Optimize Windows made easy",
   "homepage": "https://kurtzimmermann.com/",
   "license": "freeware",
   "architecture": {
     "64bit": {
       "url": "https://kurtzimmermann.com/files/TweakPowerX64.zip",
-      "hash": "3c0c55f57d3eb38005aa66835caded740cb007a409142bf791eaf74446568d44"
+      "hash": "79fecab60016218b2cf749043a1a1e2370af7aed471ff722ac8d0f9d67bbf4e9"
     },
     "32bit": {
       "url": "https://kurtzimmermann.com/files/TweakPowerX32.zip",
-      "hash": "2178fd411e6e6575b558c9aff3c6efa01a9d5c007deb6b84134a9524ec407ffb"
+      "hash": "bcba7ba5a2f14472d8f36311f32b32d6567d4581da4273effe1a2904bb67240e"
     }
   },
   "bin": "TweakPower.exe",
