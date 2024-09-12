@@ -1,19 +1,19 @@
 {
-  "version": "3.2.7",
+  "version": "3.4.5",
   "description": "Extend your GitHub workflow beyond your browser.",
   "homepage": "https://desktop.github.com/",
   "license": "MIT",
   "architecture": {
     "64bit": {
       "url": "https://central.github.com/deployments/desktop/desktop/latest/win32#/dl.7z_",
-      "hash": "0224f0b5a10ac122f741316b8db6464401f12dd4e89f6a09954247e9696651a7"
+      "hash": "8ba8517c4edba08968ea2705ee6d8b492a9ba3c29481754b5d54908683cd31d2"
     }
   },
   "pre_install": [
-    "ensure \"$dir\\extract\" | Out-Null",
-    "Expand-7zipArchive \"$dir\\dl.7z_\" \"$dir\\extract\" | Out-Null",
-    "Expand-7zipArchive \"$dir\\extract\\GitHubDesktop-$version-full.nupkg\" \"$dir\" -ExtractDir 'lib\\net45' | Out-Null",
-    "Remove-Item \"$dir\\extract\", \"$dir\\dl.7z_\" -Force -Recurse"
+    "Expand-7zipArchive \"$dir\\$fname\" \"$dir\\extract\"",
+    "Get-Item \"$dir\\extract\\GitHubDesktop*.nupkg\" | Rename-Item -NewName 'github.nupkg'",
+    "Expand-7zipArchive \"$dir\\extract\\github.nupkg\" \"$dir\" -ExtractDir 'lib\\net45'",
+    "Remove-Item \"$dir\\extract\", \"$dir\\$fname\" -Force -Recurse"
   ],
   "bin": "GitHubDesktop.exe",
   "shortcuts": [
@@ -23,7 +23,7 @@
     ]
   ],
   "checkver": {
-    "url": "https://api.github.com/repos/desktop/desktop/tags",
+    "url": "https://api.github.com/repositories/58559694/tags",
     "regex": "tags/release-([\\d.]+)\""
   },
   "autoupdate": {
