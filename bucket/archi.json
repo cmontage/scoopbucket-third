@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://www.archimatetool.com/downloads/archi-5.php?/5.4.1/Archi-Win64-5.4.1.zip",
+      "url": "https://www.archimatetool.com/downloads/archi/5.4.1/Archi-Win64-5.4.1.zip",
       "hash": "sha1:a0c8d87d90a648fa5279e9b0639bc694de2d2afe"
     }
   },
@@ -24,7 +24,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://www.archimatetool.com/downloads/archi-5.php?/$version/Archi-Win64-$version.zip"
+        "url": "https://www.archimatetool.com/downloads/archi/$version/Archi-Win64-$version.zip"
       }
     },
     "hash": {
