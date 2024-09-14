@@ -1,5 +1,5 @@
 {
-  "version": "2024.8",
+  "version": "2024.8.1",
   "homepage": "https://portswigger.net/burp",
   "description": "An application that comes with set of tools used for penetration and security testing of web applications.",
   "license": {
@@ -8,8 +8,8 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://portswigger-cdn.net/burp/releases/download?product=pro&version=2024.8&type=WindowsX64#/setup.exe",
-      "hash": "0fec246ecd971458b9164598c9a45497d5cb3ac5785f76c59db45cd4954ae75b"
+      "url": "https://portswigger-cdn.net/burp/releases/download?product=pro&version=2024.8.1&type=WindowsX64#/setup.exe",
+      "hash": "28c59eeea542d1b5a9d7d33b2a8fb22628443fb35533851be13938317a0c621e"
     }
   },
   "post_install": [
