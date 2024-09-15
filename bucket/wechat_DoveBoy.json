@@ -1,12 +1,12 @@
 {
   "homepage": "https://weixin.qq.com",
   "description": "微信，是一个生活方式",
-  "version": "3.9.11",
+  "version": "3.9.6",
   "license": "© 1998 - 2021 Tencent Inc. All Rights Reserved",
   "architecture": {
     "64bit": {
       "url": "https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe#/dl.7z",
-      "hash": "bbed5f01c0b51fe5d2ca5355159f7799e41ed72d75009ca79a4ff77514989e1f"
+      "hash": "38148311ea13440b64bd68647f7a06721f1af7f0c6fff9f3e07516162252c18c"
     }
   },
   "installer": {

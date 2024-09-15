@@ -1,18 +1,20 @@
 {
   "version": "3.14.1",
-  "description": "The all-in-one workspace for your notes, tasks, wikis, and databases.",
-  "homepage": "https://www.notion.so",
-  "license": "Proprietary",
-  "notes": "Your Notion data are storaged in '%LOCALAPPDATA%\\Notion'.",
-  "url": "https://desktop-release.notion-static.com/Notion%20Setup%203.14.1.exe#/dl.7z",
-  "hash": "sha512:ba17176dc9bcbe0f94cd0138372520bb22d31d3d3d9e31ccabfc68e74d2c50f996a7dea177bb2b15972e7f2f466448b5533942de1c6d0e5e1ebe89d96ed331e4",
-  "extract_dir": "$PLUGINSDIR",
-  "installer": {
-    "script": [
-      "Remove-Item \"$dir\\*\" -Exclude \"app-64.7z\"",
-      "Expand-7zipArchive \"$dir\\app-64.7z\" \"$dir\"",
-      "Remove-Item \"$dir\\app-64.7z\""
-    ]
+  "description": "Collaborative note taking",
+  "homepage": "https://www.notion.so/",
+  "license": {
+    "identifier": "Proprietary",
+    "url": "https://www.notion.so/Terms-and-Privacy-28ffdd083dc3473e9c2da6ec011b58ac"
+  },
+  "architecture": {
+    "64bit": {
+      "url": "https://desktop-release.notion-static.com/Notion%20Setup%203.14.1.exe#/dl.7z",
+      "hash": "sha512:ba17176dc9bcbe0f94cd0138372520bb22d31d3d3d9e31ccabfc68e74d2c50f996a7dea177bb2b15972e7f2f466448b5533942de1c6d0e5e1ebe89d96ed331e4",
+      "pre_install": [
+        "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+        "Remove-Item \"$dir\\`$*\" -Recurse"
+      ]
+    }
   },
   "shortcuts": [
     [
@@ -25,7 +27,11 @@
     "regex": "version:\\s+([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://desktop-release.notion-static.com/Notion%20Setup%20$version.exe#/dl.7z",
+    "architecture": {
+      "64bit": {
+        "url": "https://desktop-release.notion-static.com/Notion%20Setup%20$version.exe#/dl.7z"
+      }
+    },
     "hash": {
       "url": "$baseurl/latest.yml",
       "regex": "sha512:\\s+$base64"
