@@ -1,11 +1,11 @@
 {
-  "version": "8",
+  "version": "1.0.0.0b6",
   "description": "1Remote. 1Remote is a modern personal remote session manager and launcher.",
   "homepage": "http://1remote.org/",
   "license": "GPL-3.0-only",
   "changelog": "https://github.com/1Remote/1Remote/releases",
-  "url": "https://mirror.ghproxy.com/https://github.com/1Remote/1Remote/releases/download/Nightly/1Remote-1.0.0.0-beta.07-net6-x64-nightly-20240711-88af34.zip",
-  "hash": "760f70959f09328e607c3314c35a0575a39359c6f4d97308892b1dabcca1ce14",
+  "url": "https://mirror.ghproxy.com/https://github.com/1Remote/1Remote/releases/download/Nightly/1Remote-1.0.0.0-beta.06-net6-x64-nightly-20230930-ab92d3.zip",
+  "hash": "9e0b2ab47cb2794f553a1e95cbdefc3978bb3f4ebbb55af369dd4fa9544d1944",
   "shortcuts": [
     [
       "1Remote.exe",
@@ -26,9 +26,9 @@
   ],
   "checkver": {
     "url": "http://1remote.org/download/",
-    "regex": "([\\d.]+)"
+    "regex": "Latest Version:([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/1Remote/1Remote/releases/download/Nightly/1Remote-1.0.0.0-beta.07-net6-x64-nightly-20240711-88af34.zip"
+    "url": "https://mirror.ghproxy.com/https://github.com/1Remote/1Remote/releases/download/Nightly/1Remote-$version-net6-x64-nightly-20230930-ab92d3.zip"
   }
 }

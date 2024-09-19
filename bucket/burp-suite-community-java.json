@@ -11,10 +11,10 @@
     "JRE": "java/temurin-jre"
   },
   "url": "https://portswigger-cdn.net/burp/releases/download?product=community&version=2024.9&type=Jar#/burpsuite-community.jar",
-  "hash": "bacf2777b3fd6cc8be55f25a16f031fcf3d910f17a261e01e3dfbe757a86a8bb",
+  "hash": "04dae97b0b3cc813f37dcc7239a01e23aefce5603d5980dd4d923f6b66d81293",
   "pre_install": [
     "$currentDir = $dir.Replace(\"$version\", 'current')",
-    "Set-Content \"$dir\\burpsuite-community.cmd\" -Value '@start javaw -jar \"%~dp0burpsuite-community.jar\"' -Encoding 'utf8' -Force"
+    "[System.IO.File]::WriteAllLines(\"$dir\\burpsuite-community.cmd\", '@start javaw -jar \"%~dp0burpsuite-community.jar\"', [System.text.UTF8Encoding]($false))"
   ],
   "bin": "burpsuite-community.jar",
   "shortcuts": [
