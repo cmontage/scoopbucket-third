@@ -1,23 +1,13 @@
 {
-  "version": "2.4.6",
-  "description": "LaZagne 项目是一个开源应用程序，用于检索存储在本地计算机上的大量密码。",
+  "version": "v2.4.5",
+  "description": "Credentials recovery project.(Scoop bucket by arch3rpro)",
   "homepage": "https://github.com/AlessandroZ/LaZagne",
-  "license": "LGPL",
-  "notes": "",
-  "architecture": {
-    "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/AlessandroZ/LaZagne/releases/download/v2.4.6/LaZagne.exe",
-      "hash": ""
-    }
-  },
+  "license": "LGPL-3.0",
+  "url": "https://mirror.ghproxy.com/https://github.com/AlessandroZ/LaZagne/releases/download/v2.4.5/LaZagne.exe",
+  "hash": "3cc5ee93a9ba1fc57389705283b760c8bd61f35e9398bbfa3210e2becf6d4b05",
   "bin": "LaZagne.exe",
-  "persist": "",
   "checkver": "github",
   "autoupdate": {
-    "architecture": {
-      "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/AlessandroZ/LaZagne/releases/download/v$version/LaZagne.exe"
-      }
-    }
+    "url": "https://mirror.ghproxy.com/https://github.com/AlessandroZ/LaZagne/releases/download/$version/LaZagne.exe"
   }
 }
