@@ -1,36 +1,22 @@
 {
-  "version": "4.1.30",
   "homepage": "https://work.weixin.qq.com/",
-  "description": "Connection Makes a Smarter Business",
-  "license": {
-    "identifier": "EULA",
-    "url": "https://work.weixin.qq.com/nl/eula"
-  },
-  "architecture": {
-    "64bit": {
-      "url": "https://work.weixin.qq.com/wework_admin/commdownload?platform=win&from=wwindex#/dl.7z",
-      "hash": "917814b247cc82b0235348e3e5821cd9a8fd8402a4ace5dcc94a36228c93506a"
-    }
-  },
+  "description": "企业微信",
+  "version": "4.1.30.6004",
+  "license": "Freeware",
+  "url": "https://dldir1.qq.com/wework/work_weixin/WeCom_4.1.30.6004.exe#/wechat.7z",
+  "hash": "917814b247cc82b0235348e3e5821cd9a8fd8402a4ace5dcc94a36228c93506a",
+  "post_install": "Start-Process -Wait \"$dir\\$version\\wxdriveinstaller.exe\" -Verb RunAs",
   "shortcuts": [
     [
       "WXWork.exe",
-      "WeChat Work"
+      "企业微信"
     ]
   ],
-  "post_install": [
-    "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
-    "Remove-Item \"$dir\\Uninstall.exe\" -Force -Recurse"
-  ],
   "checkver": {
-    "url": "https://work.weixin.qq.com",
-    "regex": "企业微信 ([\\d.]+)"
+    "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kkzzhizhou/scoop-zapps/master/versions/WechatWork.latest",
+    "regex": "WeCom_([\\d.]+).exe"
   },
   "autoupdate": {
-    "architecture": {
-      "64bit": {
-        "url": "https://work.weixin.qq.com/wework_admin/commdownload?platform=win&from=wwindex#/dl.7z"
-      }
-    }
+    "url": "https://dldir1.qq.com/wework/work_weixin/WeCom_$version.exe#/wechat.7z"
   }
 }

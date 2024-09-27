@@ -1,10 +1,10 @@
 {
-  "homepage": "https://chidiwilliams.github.io/buzz",
+  "homepage": "https://github.com/chidiwilliams/buzz",
   "description": "Transcribes and translates audio offline on your personal computer.",
   "license": "MIT",
-  "version": "1.0.1",
-  "url": "https://mirror.ghproxy.com/https://github.com/chidiwilliams/buzz/releases/download/v1.0.1/Buzz-1.0.1-windows.exe",
-  "hash": "9103ff776bd31797f7d9de481786c51e837ccd9af08f267ea0af2786ded330a4",
+  "version": "1.1.0",
+  "url": "https://mirror.ghproxy.com/https://github.com/chidiwilliams/buzz/releases/download/v1.1.0/Buzz-1.1.0-windows.exe",
+  "hash": "ef7d34f0a63ae61437849a75cef166c223c0ec30b29000d08bf48f6b285520b0",
   "bin": "Buzz.exe",
   "shortcuts": [
     [
@@ -12,9 +12,7 @@
       "Buzz"
     ]
   ],
-  "checkver": {
-    "github": "https://github.com/chidiwilliams/buzz"
-  },
+  "checkver": "github",
   "autoupdate": {
     "url": "https://mirror.ghproxy.com/https://github.com/chidiwilliams/buzz/releases/download/v$version/Buzz-$version-windows.exe"
   }
