@@ -1,16 +1,24 @@
 {
-  "version": "3.9.5.81",
+  "version": "3.9.12.15",
   "description": "Free messaging and calling app by Tencent",
   "homepage": "https://pc.weixin.qq.com/",
   "license": {
     "identifier": "Proprietary",
     "url": "https://www.wechat.com/en/service_terms.html"
   },
-  "url": "https://webcdn.m.qq.com/spcmgr/download/WeChat3.9.5.81.exe#/dl.7z",
-  "hash": "d86a6595d4d298eae11c323a6a98a8e88da1e05f37d0de2fff751a399de2a5c5",
+  "architecture": {
+    "64bit": {
+      "url": "https://dldir1v6.qq.com/weixin/Windows/WeChatSetup.exe#/dl.7z",
+      "hash": "76b4d0f4dc28a679bea09b2471444956e43680982b31eec9584e9ccf695046d9"
+    },
+    "32bit": {
+      "url": "https://dldir1v6.qq.com/weixin/Windows/WeChatSetup_x86.exe#/dl.7z",
+      "hash": "897f69c03f8d5d10199048c71353400d92d4cad16cdb41fdb7d25d7ad3b6317a"
+    }
+  },
   "installer": {
     "script": [
-      "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$_15_\", \"$dir\\`$R5\" -Force -Recurse",
+      "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Force -Recurse",
       "$configpath = \"$env:APPDATA\\Tencent\\WeChat\\All Users\\config\"",
       "ensure \"$configpath\" | Out-Null",
       "Set-Content -NoNewline -Path \"$configpath\\3ebffe94.ini\" -Value \"$persist_dir\"",
@@ -35,10 +43,20 @@
     ]
   },
   "checkver": {
-    "url": "https://pc.qq.com/detail/8/detail_11488.html",
-    "regex": "WeChat([\\d.]+)\\.exe"
+    "script": [
+      "$resp = Invoke-WebRequest -UseBasicParsing -Uri 'https://luban.m.qq.com/api/public/software-manager/softwareProxy' -Body 'cmdid=3318&jprxReq%5Breq%5D%5Bsoft_id_list%5D%5B%5D=11488' -Method 'POST'",
+      "Write-Output $resp.Content"
+    ],
+    "jsonpath": "$..ver_name"
   },
   "autoupdate": {
-    "url": "https://webcdn.m.qq.com/spcmgr/download/WeChat$version.exe#/dl.7z"
+    "architecture": {
+      "64bit": {
+        "url": "https://dldir1v6.qq.com/weixin/Windows/WeChatSetup.exe#/dl.7z"
+      },
+      "32bit": {
+        "url": "https://dldir1v6.qq.com/weixin/Windows/WeChatSetup_x86.exe#/dl.7z"
+      }
+    }
   }
 }
