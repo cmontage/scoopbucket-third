@@ -1,19 +1,19 @@
 {
-  "homepage": "https://www.binance.com/",
-  "description": "Binance's cryptocurrency exchange. Trade. Anywhere.",
   "version": "1.53.6",
-  "license": "MIT",
+  "description": "Cryptocurrency Exchange for Bitcoin, Ethereum & Altcoins",
+  "homepage": "https://www.binance.com/",
+  "license": "Proprietary",
   "architecture": {
     "64bit": {
-      "url": "https://ftp.binance.com/electron-desktop/windows/production/binance-setup-1.53.6.exe#/binance-setup.7z",
-      "hash": "sha512:0739a629c53e5510754f2d3f4985bd140a62511d411f1e642bbe6540cfcc3bc2b0080efa9ccc37d0ca965f3d731e22c4e34595694383f95e691bffe87d622334",
-      "installer": {
-        "script": [
-          "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-          "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninst*\" -Force -Recurse"
-        ]
-      }
+      "url": "https://ftp.binance.com/electron-desktop/windows/production/binance-setup-1.53.6.exe#/dl.7z",
+      "hash": "sha512:0739a629c53e5510754f2d3f4985bd140a62511d411f1e642bbe6540cfcc3bc2b0080efa9ccc37d0ca965f3d731e22c4e34595694383f95e691bffe87d622334"
     }
+  },
+  "installer": {
+    "script": [
+      "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+      "Remove-Item \"$dir\\`$*\" -Force -Recurse"
+    ]
   },
   "shortcuts": [
     [
@@ -28,7 +28,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ftp.binance.com/electron-desktop/windows/production/binance-setup-$version.exe#/binance-setup.7z"
+        "url": "https://ftp.binance.com/electron-desktop/windows/production/binance-setup-$version.exe#/dl.7z"
       }
     },
     "hash": {
