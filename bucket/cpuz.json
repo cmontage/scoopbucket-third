@@ -1,19 +1,11 @@
 {
+  "version": "2.11",
+  "description": "System information software",
+  "homepage": "https://www.cpuid.com/softwares/cpu-z.html",
+  "license": "Freeware",
+  "url": "https://download.cpuid.com/cpu-z/cpu-z_2.11-cn.zip",
+  "hash": "531147444d1dab6c99ff9586dbb38abfd2be8a85145a705140f51b95d13967d5",
   "architecture": {
-    "32bit": {
-      "bin": [
-        [
-          "cpuz_x32.exe",
-          "cpuz"
-        ]
-      ],
-      "shortcuts": [
-        [
-          "cpuz_x32.exe",
-          "CPU-Z"
-        ]
-      ]
-    },
     "64bit": {
       "bin": [
         [
@@ -27,17 +19,25 @@
           "CPU-Z"
         ]
       ]
+    },
+    "32bit": {
+      "bin": [
+        [
+          "cpuz_x32.exe",
+          "cpuz"
+        ]
+      ],
+      "shortcuts": [
+        [
+          "cpuz_x32.exe",
+          "CPU-Z"
+        ]
+      ]
     }
   },
-  "autoupdate": {
-    "url": "https://download.cpuid.com/cpu-z/cpu-z_$version-en.zip"
-  },
-  "checkver": "Version ([\\d.]+) for windows",
-  "description": "System information software",
-  "hash": "9b8e0d7664269e1797234de6acb2bf250af5584ec37c5e86b90d9b4ee9cb8ef9",
-  "homepage": "https://www.cpuid.com/softwares/cpu-z.html",
-  "license": "Freeware",
   "persist": "cpuz.ini",
-  "url": "https://download.cpuid.com/cpu-z/cpu-z_2.06-en.zip",
-  "version": "2.06"
+  "checkver": "Version ([\\d.]+) for windows",
+  "autoupdate": {
+    "url": "https://download.cpuid.com/cpu-z/cpu-z_$version-cn.zip"
+  }
 }

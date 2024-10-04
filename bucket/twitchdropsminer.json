@@ -4,7 +4,7 @@
   "homepage": "https://github.com/DevilXD/TwitchDropsMiner",
   "license": "MIT",
   "url": "https://mirror.ghproxy.com/https://github.com/DevilXD/TwitchDropsMiner/releases/download/dev-build/Twitch.Drops.Miner.Windows.zip",
-  "hash": "01778bb781c586fad0da13a6f22321fa047e087351f779b8756970e2f319a88f",
+  "hash": "e108b11d70bdad7984aa2f4cc0b9047e107c113fcd9006230d1e02f6518f6e25",
   "extract_dir": "Twitch Drops Miner",
   "pre_install": [
     "'settings.json', 'cookies.jar' | ForEach-Object {",
