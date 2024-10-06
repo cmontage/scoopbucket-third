@@ -1,5 +1,5 @@
 {
-  "version": "1.94.0",
+  "version": "1.80.2",
   "description": "Lightweight but powerful source code editor",
   "homepage": "https://code.visualstudio.com/",
   "license": {
@@ -10,12 +10,24 @@
   "architecture": {
     "64bit": {
       "url": [
-        "https://vscode.download.prss.microsoft.com/dbazure/download/stable/d78a74bcdfad14d5d3b1b782f87255d802b57511/VSCode-win32-x64-1.94.0.zip",
+        "https://update.code.visualstudio.com/1.80.2/win32-x64-archive/stable#/dl.7z",
         "https://mirror.ghproxy.com/https://raw.githubusercontent.com/ScoopInstaller/Extras/master/scripts/vscode/install-context.reg",
         "https://mirror.ghproxy.com/https://raw.githubusercontent.com/ScoopInstaller/Extras/master/scripts/vscode/uninstall-context.reg"
       ],
       "hash": [
-        "fe1523b00d874dea08bac676709fd915479a915d7f877cec11d82d38f0797922",
+        "2e4fd3bcada1e66b1fed4e11722538806726236837f5240032f48444f126d9dd",
+        "8ef94c82319b69754bdae0099af266d184d179a37af8b8beb11334c6ab639752",
+        "df2a5162e72e2518e2b75b4337c8e7b46c136554872af90fa0de1cf6ebef376f"
+      ]
+    },
+    "32bit": {
+      "url": [
+        "https://update.code.visualstudio.com/1.80.2/win32-archive/stable#/dl.7z",
+        "https://mirror.ghproxy.com/https://raw.githubusercontent.com/ScoopInstaller/Extras/master/scripts/vscode/install-context.reg",
+        "https://mirror.ghproxy.com/https://raw.githubusercontent.com/ScoopInstaller/Extras/master/scripts/vscode/uninstall-context.reg"
+      ],
+      "hash": [
+        "2f4c094e84f7dc86258fcf096f4842445429fcaf23d5d48740f4dc5d8922bebf",
         "8ef94c82319b69754bdae0099af266d184d179a37af8b8beb11334c6ab639752",
         "df2a5162e72e2518e2b75b4337c8e7b46c136554872af90fa0de1cf6ebef376f"
       ]
@@ -48,17 +60,22 @@
   ],
   "checkver": {
     "url": "https://code.visualstudio.com/sha?build=stable",
-    "jsonpath": "$.products[?(@.platform.os == 'win32-x64-archive')].url",
-    "regex": "^https?://(?<domain>.*)/stable/(?<release>\\w+)/VSCode-win32-x64-(?<version>[\\d.]+).zip",
-    "replace": "${3}"
+    "jsonpath": "$.products[?(@.platform.os == 'win32-x64-archive')].name"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://$matchDomain/stable/$matchRelease/VSCode-win32-x64-$matchVersion.zip",
+        "url": "https://update.code.visualstudio.com/$version/win32-x64-archive/stable#/dl.7z",
         "hash": {
           "url": "https://code.visualstudio.com/sha?build=stable",
           "jsonpath": "$.products[?(@.platform.os == 'win32-x64-archive')].sha256hash"
+        }
+      },
+      "32bit": {
+        "url": "https://update.code.visualstudio.com/$version/win32-archive/stable#/dl.7z",
+        "hash": {
+          "url": "https://code.visualstudio.com/sha?build=stable",
+          "jsonpath": "$.products[?(@.platform.os == 'win32-archive')].sha256hash"
         }
       }
     }

@@ -1,6 +1,6 @@
 {
   "version": "1.6.1",
-  "description": "DownKyi is a bilibili video download tool.",
+  "description": "DownKyi is a bilibili video download tool",
   "homepage": "https://github.com/leiurayer/downkyi/blob/main/README.md",
   "license": "GPL",
   "architecture": {
@@ -17,9 +17,7 @@
   ],
   "bin": "DownKyi.exe",
   "persist": "Config",
-  "checkver": {
-    "github": "https://github.com/leiurayer/downkyi"
-  },
+  "checkver": "github",
   "autoupdate": {
     "architecture": {
       "64bit": {

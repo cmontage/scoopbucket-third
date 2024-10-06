@@ -38,16 +38,16 @@
     }
   },
   "checkver": {
-    "url": "https://github.com/binbyu/Reader",
+    "url": "https://mirror.ghproxy.com/https://github.com/binbyu/Reader",
     "regex": "v([\\d.]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/binbyu/Reader/releases/download/v$majorVersion.$minorVersion/Reader_v$version_x64.7z"
+        "url": "https://mirror.ghproxy.com/https://github.com/binbyu/Reader/releases/download/v$version/Reader_v$version_x64.7z"
       },
       "32bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/binbyu/Reader/releases/download/v$majorVersion.$minorVersion/Reader_v$version.7z"
+        "url": "https://mirror.ghproxy.com/https://github.com/binbyu/Reader/releases/download/v$version/Reader_v$version.7z"
       }
     }
   }
