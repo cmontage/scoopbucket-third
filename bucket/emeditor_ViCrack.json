@@ -1,16 +1,16 @@
 {
-  "version": "24.3.2",
+  "version": "22.5.0",
   "description": "A fast, lightweight and extensible text editor for Windows. Useful for opening very large files.",
   "homepage": "https://www.emeditor.com/",
   "license": "Shareware",
   "architecture": {
     "64bit": {
-      "url": "https://download.emeditor.info/emed64_24.3.2_portable.zip",
-      "hash": "bc71249bde4477c6b93da1b68426f670fa267d96474852d0490b6b5ff9bd6044"
+      "url": "https://emeditor.blob.core.windows.net/emed64_22.5.0_portable.zip",
+      "hash": "18c9981adb609efc3920171714b8a81ad5c30b0ee427477b604ad737800eadc3"
     },
     "32bit": {
-      "url": "https://download.emeditor.info/emed32_24.3.2_portable.zip",
-      "hash": "a48742761cd016302068c90da5028bb30d4c19f5781d4ff05d02e8b983f89f70"
+      "url": "https://emeditor.blob.core.windows.net/emed32_22.5.0_portable.zip",
+      "hash": "acb3f6d9ad6abbf50b422f4a7579080dede636e10fb2d4bb4b23fba4aa79eec7"
     }
   },
   "pre_install": [
@@ -36,16 +36,16 @@
     "AppData"
   ],
   "checkver": {
-    "url": "https://zh-cn.emeditor.com/emeditor-core/",
-    "regex": "v([\\d.]+) "
+    "url": "https://support.emeditor.com/en/downloads",
+    "regex": "v([\\d.]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://download.emeditor.info/emed64_$version_portable.zip"
+        "url": "https://emeditor.blob.core.windows.net/emed64_$version_portable.zip"
       },
       "32bit": {
-        "url": "https://download.emeditor.info/emed32_$version_portable.zip"
+        "url": "https://emeditor.blob.core.windows.net/emed32_$version_portable.zip"
       }
     }
   }
