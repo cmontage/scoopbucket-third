@@ -1,16 +1,16 @@
 {
-  "version": "2.6.1.0",
+  "version": "2.5.0.4",
   "description": "Help identify why your PC isn't Windows 11 Ready.",
   "homepage": "https://github.com/rcmaehl/WhyNotWin11",
   "license": "LGPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/rcmaehl/WhyNotWin11/releases/download/2.6.1.0/WhyNotWin11.exe",
-      "hash": "a060857ca7ce2575576160b857d1ba1f668bfa2d9740396a1595ccf3c0574bd1"
+      "url": "https://mirror.ghproxy.com/https://github.com/rcmaehl/WhyNotWin11/releases/download/2.5.0.4/WhyNotWin11.exe",
+      "hash": "b396982c9462b71b9a1183ab66aa6bb7e38a7b0d8622677ed372a2fb56d54e6f"
     },
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/rcmaehl/WhyNotWin11/releases/download/2.6.1.0/WhyNotWin11_x86.exe#/WhyNotWin11.exe",
-      "hash": "87809af4a08390aff8671ab5a136d21248e7700f444b0d9de3624508fb6cc425"
+      "url": "https://mirror.ghproxy.com/https://github.com/rcmaehl/WhyNotWin11/releases/download/2.5.0.4/WhyNotWin11_x86.exe#/WhyNotWin11.exe",
+      "hash": "b86bab47242a3ecbb65dfc7a50e9aeaa1c33fb143dd83bf80c6d3962bd665f37"
     }
   },
   "shortcuts": [
