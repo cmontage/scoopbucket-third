@@ -1950,12 +1950,17 @@ bucket/LXGW-Bright-TC.json, kkzzhizhou/scoop-apps, 1
 bucket/LXGW-Bright.json, kkzzhizhou/scoop-apps, 1
 bucket/LXGWFasmartGothic.json, kkzzhizhou/scoop-apps, 1
 bucket/LXGWNeoXiHei.json, kkzzhizhou/scoop-apps, 1
+bucket/LXGWNeoZhiSong.json, kkzzhizhou/scoop-apps, 1
 bucket/LXGWWenKai.json, kkzzhizhou/scoop-apps, 1
+bucket/LXGWWenKaiGB.json, kkzzhizhou/scoop-apps, 1
 bucket/LXGWWenKaiMono.json, kkzzhizhou/scoop-apps, 1
-bucket/LXGWWenKaiMono_matthewjberger.json, kkzzhizhou/scoop-apps, 1
+bucket/LXGWWenKaiMonoGB.json, kkzzhizhou/scoop-apps, 1
+bucket/LXGWWenKaiMonoTC.json, kkzzhizhou/scoop-apps, 1
+bucket/LXGWWenKaiMono_ShuguangSun.json, kkzzhizhou/scoop-apps, 1
 bucket/LXGWWenKaiScreen.json, kkzzhizhou/scoop-apps, 1
 bucket/LXGWWenKaiScreenR.json, kkzzhizhou/scoop-apps, 1
 bucket/LXGWWenKaiScreen_ShuguangSun.json, kkzzhizhou/scoop-apps, 1
+bucket/LXGWWenKaiTC.json, kkzzhizhou/scoop-apps, 1
 bucket/LZMA_SDK.json, anderlli0053/DEV-tools, 0
 bucket/LaTeXDraw.json, kkzzhizhou/scoop-apps, 0
 bucket/LaZagne.json, anderlli0053/DEV-tools, 1
@@ -3918,7 +3923,7 @@ bucket/WhoCallsTheFleet.json, anderlli0053/DEV-tools, 1
 bucket/WhoDatPortable.json, anderlli0053/DEV-tools, 0
 bucket/WhyNotWin11-Portable.json, kkzzhizhou/scoop-apps, 1
 bucket/WhyNotWin11_ygguorun.json, kkzzhizhou/scoop-apps, 1
-bucket/Widgets_abgox.json, kkzzhizhou/scoop-apps, 0
+bucket/Widgets.json, kkzzhizhou/scoop-apps, 0
 bucket/WifiDirectLegacyApPlus.json, anderlli0053/DEV-tools, 1
 bucket/WifiPasswordRevealer-Portable.json, kkzzhizhou/scoop-apps, 0
 bucket/WikidPad.json, kkzzhizhou/scoop-apps, 0
@@ -4622,7 +4627,7 @@ bucket/alt-app-switcher.json, kkzzhizhou/scoop-apps, 1
 bucket/alt-ime-ahk.json, kkzzhizhou/scoop-apps, 1
 bucket/alt-ime-ahk_mo-san.json, anderlli0053/DEV-tools, 1
 bucket/alt-tab-terminator.json, kkzzhizhou/scoop-apps, 0
-bucket/altair.json, anderlli0053/DEV-tools, 1
+bucket/altair.json, kkzzhizhou/scoop-apps, 1
 bucket/altdrag.json, kkzzhizhou/scoop-apps, 1
 bucket/alternatestreamview.json, kkzzhizhou/scoop-apps, 0
 bucket/alternatestreamview_ScoopInstaller.json, kkzzhizhou/scoop-apps, 0
@@ -4842,7 +4847,7 @@ bucket/apifox_ScoopInstaller.json, kkzzhizhou/scoop-apps, 0
 bucket/apifox_ViCrack.json, kkzzhizhou/scoop-apps, 0
 bucket/apifox_scoopcn.json, kkzzhizhou/scoop-apps, 0
 bucket/apifox_ygguorun.json, anderlli0053/DEV-tools, 0
-bucket/apifox_zhoujin7.json, kkzzhizhou/scoop-apps, 0
+bucket/apifox_zhoujin7.json, anderlli0053/DEV-tools, 0
 bucket/apimonitor.json, kkzzhizhou/scoop-apps, 0
 bucket/apimtemplate.json, anderlli0053/DEV-tools, 1
 bucket/apiport.json, kkzzhizhou/scoop-apps, 1
@@ -5521,7 +5526,7 @@ bucket/bedrockupdater.json, kkzzhizhou/scoop-apps, 1
 bucket/bee.json, kkzzhizhou/scoop-apps, 1
 bucket/beebeep.json, kkzzhizhou/scoop-apps, 0
 bucket/beebem.json, kkzzhizhou/scoop-apps, 0
-bucket/beef-nightly.json, anderlli0053/DEV-tools, 0
+bucket/beef-nightly.json, kkzzhizhou/scoop-apps, 0
 bucket/beef.json, anderlli0053/DEV-tools, 1
 bucket/beeftext-ar.json, anderlli0053/DEV-tools, 1
 bucket/beeftext.json, kkzzhizhou/scoop-apps, 1
@@ -6402,8 +6407,8 @@ bucket/cascadiamono-static.json, kkzzhizhou/scoop-apps, 1
 bucket/cascadiamono.json, kkzzhizhou/scoop-apps, 1
 bucket/casperjs.json, anderlli0053/DEV-tools, 1
 bucket/cassava-editor.json, anderlli0053/DEV-tools, 1
-bucket/cassava.json, kkzzhizhou/scoop-apps, 0
-bucket/cassava_mo-san.json, kkzzhizhou/scoop-apps, 0
+bucket/cassava.json, anderlli0053/DEV-tools, 0
+bucket/cassava_mo-san.json, anderlli0053/DEV-tools, 0
 bucket/cassowary.json, kkzzhizhou/scoop-apps, 1
 bucket/cassowary_aliesbelik.json, anderlli0053/DEV-tools, 1
 bucket/castle-view-image.json, kkzzhizhou/scoop-apps, 1
@@ -8842,7 +8847,7 @@ bucket/duckdns.json, kkzzhizhou/scoop-apps, 1
 bucket/duckduckgo-browser.json, kkzzhizhou/scoop-apps, 0
 bucket/duckencode.json, anderlli0053/DEV-tools, 1
 bucket/duckstation-preview.json, kkzzhizhou/scoop-apps, 1
-bucket/duckstation-preview_borger.json, kkzzhizhou/scoop-apps, 1
+bucket/duckstation-preview_Calinou.json, kkzzhizhou/scoop-apps, 1
 bucket/duckstation-preview_hermanjustnu.json, kkzzhizhou/scoop-apps, 1
 bucket/duckstation.json, kkzzhizhou/scoop-apps, 1
 bucket/duckstation_Deide.json, kkzzhizhou/scoop-apps, 1
@@ -10905,6 +10910,7 @@ bucket/git-scripts.json, anderlli0053/DEV-tools, 1
 bucket/git-secrets.json, anderlli0053/DEV-tools, 1
 bucket/git-sizer.json, anderlli0053/DEV-tools, 1
 bucket/git-stack.json, kkzzhizhou/scoop-apps, 1
+bucket/git-sync.json, kkzzhizhou/scoop-apps, 1
 bucket/git-tfs.json, anderlli0053/DEV-tools, 1
 bucket/git-toolbelt-aoks.json, anderlli0053/DEV-tools, 1
 bucket/git-tower.json, kkzzhizhou/scoop-apps, 0
@@ -15203,6 +15209,7 @@ bucket/msos.json, kkzzhizhou/scoop-apps, 1
 bucket/msp-prgs430.json, anderlli0053/DEV-tools, 0
 bucket/mspass.json, kkzzhizhou/scoop-apps, 0
 bucket/mspowerbi-desktop.json, kkzzhizhou/scoop-apps, 0
+bucket/msrt.json, kkzzhizhou/scoop-apps, 0
 bucket/mssi-autoruns.json, kkzzhizhou/scoop-apps, 0
 bucket/mssi-coreinfo.json, kkzzhizhou/scoop-apps, 0
 bucket/mssi-procmon.json, kkzzhizhou/scoop-apps, 0
@@ -16398,7 +16405,7 @@ bucket/officetool-dotnet.json, kkzzhizhou/scoop-apps, 0
 bucket/officetool-plus.json, kkzzhizhou/scoop-apps, 1
 bucket/officetool.json, kkzzhizhou/scoop-apps, 0
 bucket/officetoolplus-with-runtime.json, kkzzhizhou/scoop-apps, 1
-bucket/officetoolplus.json, kkzzhizhou/scoop-apps, 1
+bucket/officetoolplus.json, akirco/aki-apps, 1
 bucket/officetoolplus_DoveBoy.json, kkzzhizhou/scoop-apps, 1
 bucket/officetoolplus_akirco.json, kkzzhizhou/scoop-apps, 1
 bucket/officetoolplus_cc713.json, anderlli0053/DEV-tools, 1
@@ -23970,6 +23977,7 @@ bucket/vo.json, anderlli0053/DEV-tools, 1
 bucket/vocabulary.net.json, anderlli0053/DEV-tools, 0
 bucket/vocal-separate.json, kkzzhizhou/scoop-apps, 1
 bucket/vocalshifter-le.json, anderlli0053/DEV-tools, 0
+bucket/voice-pro.json, kkzzhizhou/scoop-apps, 1
 bucket/voice.json, anderlli0053/DEV-tools, 0
 bucket/voicebot.json, anderlli0053/DEV-tools, 0
 bucket/voicemeeter-banana-np.json, kkzzhizhou/scoop-apps, 0
@@ -24451,7 +24459,7 @@ bucket/whynotwin11_hoilc.json, anderlli0053/DEV-tools, 1
 bucket/widdler.json, anderlli0053/DEV-tools, 1
 bucket/widelands.json, kkzzhizhou/scoop-apps, 1
 bucket/widevinecdm.json, anderlli0053/DEV-tools, 0
-bucket/widgets.json, kkzzhizhou/scoop-apps, 0
+bucket/widgets_Weidows-projects.json, kkzzhizhou/scoop-apps, 0
 bucket/wifi-direct-legacy-ap-plus.json, kkzzhizhou/scoop-apps, 1
 bucket/wifi-filter-tool.json, anderlli0053/DEV-tools, 0
 bucket/wifi-manager.json, kkzzhizhou/scoop-apps, 0
@@ -25442,7 +25450,7 @@ bucket/yacreader.json, kkzzhizhou/scoop-apps, 1
 bucket/yacy.json, kkzzhizhou/scoop-apps, 0
 bucket/yading.json, anderlli0053/DEV-tools, 0
 bucket/yae-achievement.json, kkzzhizhou/scoop-apps, 1
-bucket/yaffplayer.json, kkzzhizhou/scoop-apps, 0
+bucket/yaffplayer.json, anderlli0053/DEV-tools, 0
 bucket/yafs.json, kkzzhizhou/scoop-apps, 0
 bucket/yage.json, anderlli0053/DEV-tools, 0
 bucket/yahei-fira-icon-hybrid.json, kkzzhizhou/scoop-apps, 1
@@ -25514,7 +25522,8 @@ bucket/yesplaymusic_DoveBoy.json, kkzzhizhou/scoop-apps, 1
 bucket/yfanyi.json, scoopcn/scoopcn, 0
 bucket/ygo-omega.json, anderlli0053/DEV-tools, 1
 bucket/yj.json, kkzzhizhou/scoop-apps, 1
-bucket/yj_aliesbelik.json, kkzzhizhou/scoop-apps, 1
+bucket/yj_aliesbelik.json, anderlli0053/DEV-tools, 1
+bucket/yj_iquiw.json, kkzzhizhou/scoop-apps, 1
 bucket/ykman.json, anderlli0053/DEV-tools, 0
 bucket/ynote.json, scoopcn/scoopcn, 0
 bucket/yomikiru.json, kkzzhizhou/scoop-apps, 1
