@@ -2,27 +2,28 @@
   "homepage": "https://www.mozilla.org/zh-CN/firefox/developer/",
   "description": "Developer builds of Firefox: the popular open source web browser.",
   "license": "MPL-2.0",
-  "version": "132.0b6",
+  "version": "116.0b8",
   "architecture": {
     "64bit": {
-      "url": "https://download-installer.cdn.mozilla.net/pub/devedition/releases/132.0b6/win64/zh-CN/Firefox%20Setup%20132.0b6.exe#/dl.7z",
-      "hash": "01f52bd81ef4a140b2a8a852c7f7be06ae134bb5c4c4d18ae045a8620114703f"
+      "url": "https://download-installer.cdn.mozilla.net/pub/devedition/releases/116.0b8/win64/zh-CN/Firefox%20Setup%20116.0b8.exe#/dl.7z",
+      "hash": "976f6a90d1d147f6fa3b6ccefac25ffab2f41e1d8b5751eeae73a4ffb9f9161d"
     },
     "32bit": {
-      "url": "https://download-installer.cdn.mozilla.net/pub/devedition/releases/132.0b6/win32/zh-CN/Firefox%20Setup%20132.0b6.exe#/dl.7z",
-      "hash": "773b5a87cf69ddee2082d4e70ae3458c6103060e760d28b89a0215058edc338a"
+      "url": "https://download-installer.cdn.mozilla.net/pub/devedition/releases/116.0b8/win32/zh-CN/Firefox%20Setup%20116.0b8.exe#/dl.7z",
+      "hash": "c84ad1832afee23f2d577d084a5567826b1724974de730ccb80c46e5c203346f"
     }
   },
   "extract_dir": "core",
   "shortcuts": [
     [
       "firefox.exe",
-      "Firefox Developer (Simplified Chinese)"
+      "Firefox Developer Simplified Chinese Edition"
     ]
   ],
   "checkver": {
-    "url": "https://product-details.mozilla.org/1.0/firefox_versions.json",
-    "jsonpath": "$.LATEST_FIREFOX_RELEASED_DEVEL_VERSION"
+    "url": "https://aus5.mozilla.org/update/6/Firefox/93.0/_/WINNT_x86_64-msvc-x64/en-US/beta/_/_/_/_/update.xml",
+    "xpath": "/updates/update/patch/@URL",
+    "regex": "firefox-([\\db.]+)-"
   },
   "autoupdate": {
     "architecture": {
