@@ -1,14 +1,14 @@
 {
-  "version": "22.9.0",
+  "version": "20.5.0",
   "description": "JavaScript runtime environment.",
   "homepage": "https://nodejs.org",
   "license": "MIT",
   "notes": "npm global prefix set to: $env:APPDATA\\npm",
   "architecture": {
     "64bit": {
-      "url": "https://registry.npmmirror.com/-/binary/node/v22.9.0/node-v22.9.0-win-x64.7z",
-      "hash": "805d4f842b2f85907fc28d1d631971bac5c1df691d7040cfa5e46d02534f98df",
-      "extract_dir": "node-v22.9.0-win-x64"
+      "url": "https://registry.npmmirror.com/-/binary/node/v20.5.0/node-v20.5.0-win-x64.7z",
+      "hash": "46d063e1442207924e38a650e52c151dded2a30626c4ac80978f9743523d79e8",
+      "extract_dir": "node-v20.5.0-win-x64"
     }
   },
   "installer": {
