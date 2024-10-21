@@ -1,5 +1,5 @@
 {
-  "version": "2.1.211",
+  "version": "1.7.4537",
   "description": "A feature rich FOSS PlayStation 2 emulator (development version)",
   "homepage": "https://pcsx2.net/",
   "license": {
@@ -16,8 +16,8 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/PCSX2/pcsx2/releases/download/v2.1.211/pcsx2-v2.1.211-windows-x64-Qt.7z",
-      "hash": "5d3263d4d1f0162cde40aa35b80019e598eccc483ce20e42cf53b686ac171bd1"
+      "url": "https://mirror.ghproxy.com/https://github.com/PCSX2/pcsx2/releases/download/v1.7.4537/pcsx2-v1.7.4537-windows-64bit-Qt.7z",
+      "hash": "b3fbf07a5f038c189806b558ce72140fc1f92e7a8c42244dd3561fb0390b9757"
     }
   },
   "pre_install": [
@@ -34,7 +34,6 @@
     "   }",
     "}"
   ],
-  "post_install": "Set-Content -Value $null -Path \"$dir\\portable.ini\"",
   "bin": [
     [
       "pcsx2-qt.exe",
@@ -56,6 +55,7 @@
     "inis",
     "logs",
     "memcards",
+    "portable.ini",
     "snaps",
     "sstates",
     "textures"
@@ -68,7 +68,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/PCSX2/pcsx2/releases/download/v$version/pcsx2-v$version-windows-x64-Qt.7z"
+        "url": "https://mirror.ghproxy.com/https://github.com/PCSX2/pcsx2/releases/download/v$version/pcsx2-v$version-windows-64bit-Qt.7z"
       }
     }
   }
