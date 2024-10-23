@@ -1,43 +1,42 @@
 {
-  "version": "2.6.23",
+  "version": "2.5.11",
   "description": "Apifox 是 API 文档、API 调试、API Mock、API 自动化测试一体化协作平台，定位 Postman + Swagger + Mock + JMeter。",
-  "homepage": "https://apifox.com",
-  "notes": "https://github.com/ViCrack/scoop-bucket/blob/master/bucket/apifox.json",
+  "homepage": "https://www.apifox.cn/",
   "license": "Freeware",
   "architecture": {
     "32bit": {
-      "url": "https://file-assets.apifox.com/download/2.6.23/Apifox-windows-x86-2.6.23.exe#/dl.7z",
-      "hash": "d41416e965bf869510217bdb8c9dd1a0bf3d58dfad829e8ff42612f415381557"
+      "url": "https://cdn.apifox.cn/download/2.1.25/Apifox-windows-x86-2.1.25.exe#/dl.7z",
+      "hash": "80412de1c7bcdd668d7064f1001c4439d587e36267756e799d5c7a152ac5399c",
+      "pre_install": [
+        "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
+        "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Force -Recurse"
+      ]
     },
     "64bit": {
-      "url": "https://file-assets.apifox.com/download/2.6.23/Apifox-2.6.23.exe#/dl.7z",
-      "hash": "724de5518d06e488e0706369eca0ab6d384b0860e313222c9249099faff04f6f"
+      "url": "https://cdn.apifox.cn/download/2.1.25/Apifox-2.1.25.exe#/dl.7z",
+      "hash": "b545cdf256712b06b3c6e0b680f16b1fb53c8a4bc4cd4e4b18eec7fc9ea994d4",
+      "pre_install": [
+        "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+        "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Force -Recurse"
+      ]
     }
   },
-  "pre_install": [
-    "Get-Item \"$dir\\`$PLUGINSDIR\\app*.7z\" | Expand-7zipArchive -DestinationPath \"$dir\"",
-    "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Force -Recurse"
-  ],
   "shortcuts": [
     [
       "Apifox.exe",
-      "Apifox",
-      "--user-data-dir=\"$dir\\UserData\""
+      "Apifox"
     ]
   ],
-  "persist": "UserData",
   "checkver": {
-    "url": "https://apifox.com/help/release/changelog.json",
-    "regex": "\"version\": \"([\\d.]+)\""
+    "url": "https://cdn.apifox.cn/download/latest.yml",
+    "regex": "version: ([\\d.]+)"
   },
   "autoupdate": {
-    "architecture": {
-      "32bit": {
-        "url": "https://file-assets.apifox.com/download/$version/Apifox-windows-x86-$version.exe#/dl.7z"
-      },
-      "64bit": {
-        "url": "https://file-assets.apifox.com/download/$version/Apifox-$version.exe#/dl.7z"
-      }
+    "32bit": {
+      "url": "https://cdn.apifox.cn/download/$version/Apifox-windows-x86-$version.exe#/dl.7z"
+    },
+    "64bit": {
+      "url": "https://cdn.apifox.cn/download/$version/Apifox-$version.exe#/dl.7z"
     }
   }
 }
