@@ -14,7 +14,7 @@
   "hash": "f5742c373dca87716d4adf4670df1adecfb88b0d1e3fe03601ac050e3200ba12",
   "pre_install": [
     "$currentDir = $dir.Replace(\"$version\", 'current')",
-    "Set-Content \"$dir\\burpsuite-community.cmd\" -Value '@start javaw -jar \"%~dp0burpsuite-community.jar\"' -Encoding 'utf8' -Force"
+    "[System.IO.File]::WriteAllLines(\"$dir\\burpsuite-community.cmd\", '@start javaw -jar \"%~dp0burpsuite-community.jar\"', [System.text.UTF8Encoding]($false))"
   ],
   "bin": "burpsuite-community.jar",
   "shortcuts": [

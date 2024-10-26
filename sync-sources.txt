@@ -203,7 +203,7 @@ bucket/AcnetGlsl.json, anderlli0053/DEV-tools, 1
 bucket/AcronisTrueImage.json, kkzzhizhou/scoop-apps, 1
 bucket/AcrylicDNSProxy-Portable.json, kkzzhizhou/scoop-apps, 0
 bucket/ActiveGo.json, kkzzhizhou/scoop-apps, 0
-bucket/ActiveMQ-Artemis_zhoujin7.json, kkzzhizhou/scoop-apps, 0
+bucket/ActiveMQ-Artemis_zhoujin7.json, anderlli0053/DEV-tools, 0
 bucket/ActiveMQ-Classic.json, kkzzhizhou/scoop-apps, 1
 bucket/ActivePresenter.json, anderlli0053/DEV-tools, 0
 bucket/AdGuardHome-Portable.json, kkzzhizhou/scoop-apps, 1
@@ -1546,7 +1546,8 @@ bucket/HBuilderX_dodorz.json, kkzzhizhou/scoop-apps, 0
 bucket/HBuilderX_zhoujin7.json, kkzzhizhou/scoop-apps, 0
 bucket/HDCleaner-Portable-ims.json, anderlli0053/DEV-tools, 0
 bucket/HDCleaner-Portable.json, kkzzhizhou/scoop-apps, 0
-bucket/HDCleaner_dodorz.json, kkzzhizhou/scoop-apps, 0
+bucket/HDCleaner.json, kkzzhizhou/scoop-apps, 0
+bucket/HDCleaner_dodorz.json, anderlli0053/DEV-tools, 0
 bucket/HDHackerPortable.json, anderlli0053/DEV-tools, 0
 bucket/HDTunePro.json, kkzzhizhou/scoop-apps, 1
 bucket/HDVideoConverter.json, anderlli0053/DEV-tools, 0
@@ -1832,7 +1833,7 @@ bucket/JSONedit.json, kkzzhizhou/scoop-apps, 0
 bucket/JaNetfilterAll.json, anderlli0053/DEV-tools, 0
 bucket/JabRef_dodorz.json, kkzzhizhou/scoop-apps, 1
 bucket/Jacket-Portable.json, kkzzhizhou/scoop-apps, 1
-bucket/Jan.json, kkzzhizhou/scoop-apps, 1
+bucket/Jan_dodorz.json, kkzzhizhou/scoop-apps, 1
 bucket/JaneReader.json, kkzzhizhou/scoop-apps, 0
 bucket/Jarte.json, kkzzhizhou/scoop-apps, 0
 bucket/JartePortable.json, anderlli0053/DEV-tools, 0
@@ -2499,7 +2500,6 @@ bucket/NtrQQ.json, anderlli0053/DEV-tools, 0
 bucket/NuGetCLI-Portable.json, kkzzhizhou/scoop-apps, 0
 bucket/Nuclear-Portable.json, kkzzhizhou/scoop-apps, 1
 bucket/NugetPackageExplorer.json, kkzzhizhou/scoop-apps, 1
-bucket/Nushell.json, kkzzhizhou/scoop-apps, 1
 bucket/NvInspector.json, anderlli0053/DEV-tools, 0
 bucket/NvidiaDisplayDriver-Install.json, kkzzhizhou/scoop-apps, 0
 bucket/Nyushu-font.json, kkzzhizhou/scoop-apps, 1
@@ -2827,7 +2827,8 @@ bucket/ProcessExplorer-Portable.json, kkzzhizhou/scoop-apps, 0
 bucket/ProcessExplorer.json, kkzzhizhou/scoop-apps, 0
 bucket/ProcessExplorerPortable.json, anderlli0053/DEV-tools, 0
 bucket/ProcessHackerPortable.json, anderlli0053/DEV-tools, 0
-bucket/ProcessKO_dodorz.json, kkzzhizhou/scoop-apps, 0
+bucket/ProcessKO.json, kkzzhizhou/scoop-apps, 0
+bucket/ProcessKO_dodorz.json, anderlli0053/DEV-tools, 0
 bucket/ProcessLasso.json, anderlli0053/DEV-tools, 0
 bucket/ProcessMonitor-Portable.json, kkzzhizhou/scoop-apps, 0
 bucket/ProcessMonitorPortable.json, anderlli0053/DEV-tools, 0
@@ -2901,6 +2902,7 @@ bucket/QrCodeScanner.json, anderlli0053/DEV-tools, 1
 bucket/QtDesigner.json, kkzzhizhou/scoop-apps, 1
 bucket/QtPass_dodorz.json, kkzzhizhou/scoop-apps, 1
 bucket/QtScrcpy_abgox.json, kkzzhizhou/scoop-apps, 1
+bucket/QuickBMS.json, anderlli0053/DEV-tools, 0
 bucket/QuickBlackjackPortable.json, anderlli0053/DEV-tools, 0
 bucket/QuickBridgePortable.json, anderlli0053/DEV-tools, 0
 bucket/QuickCPU-Portable.json, kkzzhizhou/scoop-apps, 0
@@ -4307,7 +4309,7 @@ bucket/aText.json, anderlli0053/DEV-tools, 0
 bucket/aTunes.json, kkzzhizhou/scoop-apps, 0
 bucket/aacDECdrop.json, kkzzhizhou/scoop-apps, 0
 bucket/aact-private.json, anderlli0053/DEV-tools, 0
-bucket/aapt2.json, kkzzhizhou/scoop-apps, 0
+bucket/aapt2.json, anderlli0053/DEV-tools, 0
 bucket/aapt2_HUMORCE.json, kkzzhizhou/scoop-apps, 0
 bucket/aardio.json, kkzzhizhou/scoop-apps, 0
 bucket/aardio_AStupidBear.json, kkzzhizhou/scoop-apps, 0
@@ -4368,7 +4370,7 @@ bucket/actions-usage.json, anderlli0053/DEV-tools, 0
 bucket/activate-linux.json, kkzzhizhou/scoop-apps, 1
 bucket/active-go.json, anderlli0053/DEV-tools, 0
 bucket/activegs.json, anderlli0053/DEV-tools, 0
-bucket/activemq-artemis.json, kkzzhizhou/scoop-apps, 0
+bucket/activemq-artemis.json, anderlli0053/DEV-tools, 0
 bucket/activemq.json, kkzzhizhou/scoop-apps, 0
 bucket/activeperl.json, anderlli0053/DEV-tools, 1
 bucket/activexcompatibilitymanager.json, kkzzhizhou/scoop-apps, 0
@@ -4688,7 +4690,7 @@ bucket/aliyunpan.json, kkzzhizhou/scoop-apps, 1
 bucket/aliyunpan_DoveBoy.json, kkzzhizhou/scoop-apps, 1
 bucket/aliyunpan_kkzzhizhou.json, kkzzhizhou/scoop-apps, 1
 bucket/alldup-aoks.json, anderlli0053/DEV-tools, 0
-bucket/alldup.json, anderlli0053/DEV-tools, 0
+bucket/alldup.json, kkzzhizhou/scoop-apps, 0
 bucket/allrename.json, anderlli0053/DEV-tools, 0
 bucket/allthreadsview.json, kkzzhizhou/scoop-apps, 0
 bucket/allthreadsview_ScoopInstaller.json, kkzzhizhou/scoop-apps, 0
@@ -5662,7 +5664,7 @@ bucket/beyond-compare.json, anderlli0053/DEV-tools, 0
 bucket/beyondcompare-chs-np.json, anderlli0053/DEV-tools, 0
 bucket/beyondcompare-de.json, anderlli0053/DEV-tools, 0
 bucket/beyondcompare-djcl.json, anderlli0053/DEV-tools, 0
-bucket/beyondcompare-zh-cn.json, anderlli0053/DEV-tools, 0
+bucket/beyondcompare-zh-cn.json, kkzzhizhou/scoop-apps, 0
 bucket/beyondcompare-zh-free.json, anderlli0053/DEV-tools, 0
 bucket/beyondcompare.json, kkzzhizhou/scoop-apps, 0
 bucket/beyondcompare_ScoopInstaller.json, kkzzhizhou/scoop-apps, 1
@@ -6113,14 +6115,14 @@ bucket/bunbackup.json, kkzzhizhou/scoop-apps, 0
 bucket/bupsystem.json, anderlli0053/DEV-tools, 0
 bucket/burning_bridges.json, anderlli0053/DEV-tools, 0
 bucket/burnintest-nonfree.json, anderlli0053/DEV-tools, 0
-bucket/burp-suite-community-java.json, anderlli0053/DEV-tools, 0
-bucket/burp-suite-community-np.json, anderlli0053/DEV-tools, 0
+bucket/burp-suite-community-java.json, kkzzhizhou/scoop-apps, 0
+bucket/burp-suite-community-np.json, kkzzhizhou/scoop-apps, 0
 bucket/burp-suite-community-np_FlawlessCasual17.json, kkzzhizhou/scoop-apps, 0
-bucket/burp-suite-community-np_fixed.json, anderlli0053/DEV-tools, 0
-bucket/burp-suite-pro-java.json, anderlli0053/DEV-tools, 0
-bucket/burp-suite-pro-np.json, anderlli0053/DEV-tools, 0
+bucket/burp-suite-community-np_fixed.json, kkzzhizhou/scoop-apps, 0
+bucket/burp-suite-pro-java.json, kkzzhizhou/scoop-apps, 0
+bucket/burp-suite-pro-np.json, kkzzhizhou/scoop-apps, 0
 bucket/burp-suite-pro-np_FlawlessCasual17.json, kkzzhizhou/scoop-apps, 0
-bucket/burp-suite-pro-np_fixed.json, anderlli0053/DEV-tools, 0
+bucket/burp-suite-pro-np_fixed.json, kkzzhizhou/scoop-apps, 0
 bucket/burpsuite-enterprise-np.json, anderlli0053/DEV-tools, 0
 bucket/burpsuite-np.json, anderlli0053/DEV-tools, 0
 bucket/burpsuite.json, kkzzhizhou/scoop-apps, 0
@@ -6736,7 +6738,7 @@ bucket/chrome-canary-portable.json, anderlli0053/DEV-tools, 0
 bucket/chrome-canary-shuax.json, anderlli0053/DEV-tools, 0
 bucket/chrome-canary.json, anderlli0053/DEV-tools, 0
 bucket/chrome-cvp.json, kkzzhizhou/scoop-apps, 1
-bucket/chrome-dev-portable.json, kkzzhizhou/scoop-apps, 0
+bucket/chrome-dev-portable.json, anderlli0053/DEV-tools, 0
 bucket/chrome-dev-shuax.json, anderlli0053/DEV-tools, 0
 bucket/chrome-dev.json, anderlli0053/DEV-tools, 0
 bucket/chrome-downloader.json, anderlli0053/DEV-tools, 0
@@ -6780,7 +6782,7 @@ bucket/chromedriver-97.json, anderlli0053/DEV-tools, 0
 bucket/chromedriver-99.json, anderlli0053/DEV-tools, 0
 bucket/chromedriver-beta.json, kkzzhizhou/scoop-apps, 0
 bucket/chromedriver-canary.json, anderlli0053/DEV-tools, 0
-bucket/chromedriver-dev.json, anderlli0053/DEV-tools, 0
+bucket/chromedriver-dev.json, kkzzhizhou/scoop-apps, 0
 bucket/chromedriver.json, anderlli0053/DEV-tools, 0
 bucket/chromedriver_DoveBoy.json, kkzzhizhou/scoop-apps, 0
 bucket/chromedriver_akirco.json, anderlli0053/DEV-tools, 0
@@ -6811,7 +6813,7 @@ bucket/chromium-robrich-dev.json, anderlli0053/DEV-tools, 1
 bucket/chromium-sync.json, anderlli0053/DEV-tools, 1
 bucket/chromium-ungoogled.json, anderlli0053/DEV-tools, 1
 bucket/chromium-xp.json, kkzzhizhou/scoop-apps, 0
-bucket/chromium.json, akirco/aki-apps, 1
+bucket/chromium.json, kkzzhizhou/scoop-apps, 1
 bucket/chromium_akirco.json, kkzzhizhou/scoop-apps, 1
 bucket/chromium_hu3rror.json, kkzzhizhou/scoop-apps, 1
 bucket/chrono.json, kkzzhizhou/scoop-apps, 1
@@ -10181,7 +10183,7 @@ bucket/flutter-cn_chawyehsu.json, anderlli0053/DEV-tools, 0
 bucket/flutter-engine.json, kkzzhizhou/scoop-apps, 1
 bucket/flutter-rust-bridge-codegen.json, anderlli0053/DEV-tools, 1
 bucket/flutter-tuna.json, anderlli0053/DEV-tools, 1
-bucket/flutter.json, akirco/aki-apps, 0
+bucket/flutter.json, kkzzhizhou/scoop-apps, 0
 bucket/flutter@3.0.5.json, anderlli0053/DEV-tools, 1
 bucket/flutter@3.7.12.json, anderlli0053/DEV-tools, 1
 bucket/flutter_HUMORCE.json, kkzzhizhou/scoop-apps, 0
@@ -11846,9 +11848,8 @@ bucket/hcledit.json, anderlli0053/DEV-tools, 1
 bucket/hcloud.json, anderlli0053/DEV-tools, 1
 bucket/hclq.json, anderlli0053/DEV-tools, 1
 bucket/hd-cleaner.json, anderlli0053/DEV-tools, 0
-bucket/hdcleaner.json, kkzzhizhou/scoop-apps, 0
 bucket/hdcleaner_FlawlessCasual17.json, kkzzhizhou/scoop-apps, 0
-bucket/hdcleaner_naderi.json, anderlli0053/DEV-tools, 0
+bucket/hdcleaner_naderi.json, kkzzhizhou/scoop-apps, 0
 bucket/hdd-raw-copy.json, kkzzhizhou/scoop-apps, 0
 bucket/hddguardian.json, anderlli0053/DEV-tools, 0
 bucket/hddog.json, kkzzhizhou/scoop-apps, 0
@@ -12783,7 +12784,7 @@ bucket/jameica.json, kkzzhizhou/scoop-apps, 0
 bucket/jami.json, kkzzhizhou/scoop-apps, 0
 bucket/jamovi-current.json, anderlli0053/DEV-tools, 0
 bucket/jamovi.json, kkzzhizhou/scoop-apps, 0
-bucket/jan_abgox.json, kkzzhizhou/scoop-apps, 1
+bucket/jan.json, kkzzhizhou/scoop-apps, 1
 bucket/jane-style.json, anderlli0053/DEV-tools, 0
 bucket/janet.json, anderlli0053/DEV-tools, 1
 bucket/jaq.json, anderlli0053/DEV-tools, 1
@@ -12794,8 +12795,8 @@ bucket/jar-analyzer_kengwang.json, kkzzhizhou/scoop-apps, 1
 bucket/jar-obfuscator.json, kkzzhizhou/scoop-apps, 1
 bucket/jar2app.json, anderlli0053/DEV-tools, 1
 bucket/jardiff.json, anderlli0053/DEV-tools, 1
-bucket/jarkViewer_dodorz.json, kkzzhizhou/scoop-apps, 1
-bucket/jarkviewer.json, kkzzhizhou/scoop-apps, 1
+bucket/jarkViewer.json, kkzzhizhou/scoop-apps, 1
+bucket/jarkviewer_DoveBoy.json, kkzzhizhou/scoop-apps, 1
 bucket/jarl.json, anderlli0053/DEV-tools, 1
 bucket/jarvis.json, anderlli0053/DEV-tools, 0
 bucket/jasmine.json, kkzzhizhou/scoop-apps, 1
@@ -14832,7 +14833,7 @@ bucket/mihomo-compatible.json, kkzzhizhou/scoop-apps, 1
 bucket/mihomo-go120.json, kkzzhizhou/scoop-apps, 1
 bucket/mihomo-party-portable.json, kkzzhizhou/scoop-apps, 1
 bucket/mihomo-party.json, kkzzhizhou/scoop-apps, 1
-bucket/mihomo-party_ScoopInstaller.json, kkzzhizhou/scoop-apps, 1
+bucket/mihomo-party_DoveBoy.json, kkzzhizhou/scoop-apps, 1
 bucket/mihomo.json, anderlli0053/DEV-tools, 1
 bucket/mihomo_DoveBoy.json, kkzzhizhou/scoop-apps, 1
 bucket/mikatype.json, anderlli0053/DEV-tools, 0
@@ -15105,7 +15106,8 @@ bucket/monit.json, kkzzhizhou/scoop-apps, 1
 bucket/monitor-switcher.json, kkzzhizhou/scoop-apps, 0
 bucket/monitorian.json, kkzzhizhou/scoop-apps, 1
 bucket/monitorinfoview.json, kkzzhizhou/scoop-apps, 0
-bucket/monitorinfoview_ScoopInstaller.json, kkzzhizhou/scoop-apps, 0
+bucket/monitorinfoview_ScoopInstaller.json, anderlli0053/DEV-tools, 0
+bucket/monitorinfoview_kodybrown.json, kkzzhizhou/scoop-apps, 0
 bucket/monitorprofileswitcher.json, kkzzhizhou/scoop-apps, 0
 bucket/monkeys-audio.json, anderlli0053/DEV-tools, 0
 bucket/mono-to-stereo.json, anderlli0053/DEV-tools, 1
@@ -15445,7 +15447,7 @@ bucket/musicbrainz-picard.json, kkzzhizhou/scoop-apps, 0
 bucket/musicdecrypto.json, kkzzhizhou/scoop-apps, 1
 bucket/musicdownloader-py.json, anderlli0053/DEV-tools, 1
 bucket/musicdownloader.json, anderlli0053/DEV-tools, 1
-bucket/musicfox.json, akirco/aki-apps, 1
+bucket/musicfox.json, kkzzhizhou/scoop-apps, 1
 bucket/musicfreedesktop.json, kkzzhizhou/scoop-apps, 1
 bucket/musicplayer2.json, kkzzhizhou/scoop-apps, 1
 bucket/musictag.json, kkzzhizhou/scoop-apps, 0
@@ -15766,7 +15768,8 @@ bucket/neteasemusic_ivaquero.json, kkzzhizhou/scoop-apps, 0
 bucket/neteasemusic_wzv5.json, kkzzhizhou/scoop-apps, 0
 bucket/neteasepopo.json, kkzzhizhou/scoop-apps, 0
 bucket/neteaseuu.json, kkzzhizhou/scoop-apps, 0
-bucket/neteaseuu_DoveBoy.json, kkzzhizhou/scoop-apps, 0
+bucket/neteaseuu_DoveBoy.json, anderlli0053/DEV-tools, 0
+bucket/neteaseuu_chawyehsu.json, kkzzhizhou/scoop-apps, 0
 bucket/neteaseuuvoice.json, kkzzhizhou/scoop-apps, 0
 bucket/neteasymusic.json, anderlli0053/DEV-tools, 0
 bucket/netenum5.json, anderlli0053/DEV-tools, 0
@@ -16299,10 +16302,11 @@ bucket/nunustudio.json, kkzzhizhou/scoop-apps, 1
 bucket/nurefs.json, kkzzhizhou/scoop-apps, 0
 bucket/nusdownloader.json, anderlli0053/DEV-tools, 0
 bucket/nushell-cvp.json, kkzzhizhou/scoop-apps, 1
+bucket/nushell.json, kkzzhizhou/scoop-apps, 1
 bucket/nushell@0.65.0.json, anderlli0053/DEV-tools, 1
 bucket/nushell@0.70.0.json, kkzzhizhou/scoop-apps, 1
 bucket/nushell_MCOfficer.json, anderlli0053/DEV-tools, 1
-bucket/nushell_rivy.json, kkzzhizhou/scoop-apps, 1
+bucket/nushell_rivy.json, anderlli0053/DEV-tools, 1
 bucket/nuspell.json, anderlli0053/DEV-tools, 1
 bucket/nuttcp.json, kkzzhizhou/scoop-apps, 0
 bucket/nuwen-mingw-gcc.json, kkzzhizhou/scoop-apps, 0
@@ -16315,7 +16319,7 @@ bucket/nvda.json, kkzzhizhou/scoop-apps, 1
 bucket/nvddl.json, anderlli0053/DEV-tools, 1
 bucket/nvenc.json, anderlli0053/DEV-tools, 1
 bucket/nvencc.json, kkzzhizhou/scoop-apps, 1
-bucket/nvencc_FlawlessCasual17.json, kkzzhizhou/scoop-apps, 1
+bucket/nvencc_natecohen.json, kkzzhizhou/scoop-apps, 1
 bucket/nvflash.json, anderlli0053/DEV-tools, 0
 bucket/nvidia-display-driver-dch-np.json, kkzzhizhou/scoop-apps, 0
 bucket/nvidia-display-driver-dch-np_TheRandomLabs.json, kkzzhizhou/scoop-apps, 0
@@ -16685,7 +16689,7 @@ bucket/openark_DoveBoy.json, kkzzhizhou/scoop-apps, 1
 bucket/openark_HUMORCE.json, kkzzhizhou/scoop-apps, 1
 bucket/openbb-terminal.json, ivaquero/scoopet, 1
 bucket/openbbterminal-pre.json, kkzzhizhou/scoop-apps, 1
-bucket/openbbterminal.json, kkzzhizhou/scoop-apps, 1
+bucket/openbbterminal.json, anderlli0053/DEV-tools, 1
 bucket/openboard.json, kkzzhizhou/scoop-apps, 1
 bucket/opencc.json, kkzzhizhou/scoop-apps, 0
 bucket/opencc_SayCV.json, anderlli0053/DEV-tools, 0
@@ -18867,8 +18871,7 @@ bucket/processing.json, kkzzhizhou/scoop-apps, 1
 bucket/processing3.json, anderlli0053/DEV-tools, 1
 bucket/processing4.json, kkzzhizhou/scoop-apps, 1
 bucket/processing4_FlawlessCasual17.json, kkzzhizhou/scoop-apps, 1
-bucket/processko.json, kkzzhizhou/scoop-apps, 0
-bucket/processko_naderi.json, anderlli0053/DEV-tools, 0
+bucket/processko_naderi.json, kkzzhizhou/scoop-apps, 0
 bucket/processmonitor.json, anderlli0053/DEV-tools, 0
 bucket/processtcpsummary.json, kkzzhizhou/scoop-apps, 0
 bucket/processtcpsummary_ScoopInstaller.json, anderlli0053/DEV-tools, 0
@@ -18901,9 +18904,9 @@ bucket/projclean.json, anderlli0053/DEV-tools, 1
 bucket/project-eye.json, anderlli0053/DEV-tools, 1
 bucket/project19-private.json, anderlli0053/DEV-tools, 0
 bucket/project64-dev.json, kkzzhizhou/scoop-apps, 0
-bucket/project64-dev_Calinou.json, kkzzhizhou/scoop-apps, 0
+bucket/project64-dev_Calinou.json, anderlli0053/DEV-tools, 0
 bucket/project64-dev_borger.json, kkzzhizhou/scoop-apps, 0
-bucket/project64-dev_hermanjustnu.json, anderlli0053/DEV-tools, 0
+bucket/project64-dev_hermanjustnu.json, kkzzhizhou/scoop-apps, 0
 bucket/project64.json, kkzzhizhou/scoop-apps, 0
 bucket/project64_Calinou.json, kkzzhizhou/scoop-apps, 0
 bucket/project64_hermanjustnu.json, kkzzhizhou/scoop-apps, 0
@@ -19505,7 +19508,6 @@ bucket/quick-change-resolution.json, anderlli0053/DEV-tools, 0
 bucket/quick-lint-js.json, anderlli0053/DEV-tools, 0
 bucket/quick-picture-viewer.json, kkzzhizhou/scoop-apps, 1
 bucket/quick-set-dns.json, anderlli0053/DEV-tools, 0
-bucket/quickbms.json, anderlli0053/DEV-tools, 0
 bucket/quickcpu.json, kkzzhizhou/scoop-apps, 0
 bucket/quickcpu_HUMORCE.json, kkzzhizhou/scoop-apps, 0
 bucket/quicker-fast.json, anderlli0053/DEV-tools, 0
@@ -21527,8 +21529,8 @@ bucket/spicetify-cli.json, anderlli0053/DEV-tools, 1
 bucket/spicetify-cli_TheRandomLabs.json, kkzzhizhou/scoop-apps, 1
 bucket/spicetify-jqbx.json, kkzzhizhou/scoop-apps, 1
 bucket/spicetify-themes.json, kkzzhizhou/scoop-apps, 1
-bucket/spicetify-themes_ScoopInstaller.json, kkzzhizhou/scoop-apps, 1
-bucket/spicetify-themes_TheRandomLabs.json, anderlli0053/DEV-tools, 1
+bucket/spicetify-themes_ScoopInstaller.json, anderlli0053/DEV-tools, 1
+bucket/spicetify-themes_TheRandomLabs.json, kkzzhizhou/scoop-apps, 1
 bucket/spicetify.json, anderlli0053/DEV-tools, 1
 bucket/spigot.json, anderlli0053/DEV-tools, 0
 bucket/spim.json, kkzzhizhou/scoop-apps, 0
@@ -21778,9 +21780,8 @@ bucket/steam-library-manager.json, kkzzhizhou/scoop-apps, 1
 bucket/steam-mover.json, kkzzhizhou/scoop-apps, 0
 bucket/steam-rom-manager-portable.json, anderlli0053/DEV-tools, 1
 bucket/steam-rom-manager.json, kkzzhizhou/scoop-apps, 1
-bucket/steam-rom-manager_Calinou.json, kkzzhizhou/scoop-apps, 1
 bucket/steam-rom-manager_borger.json, kkzzhizhou/scoop-apps, 1
-bucket/steam-rom-manager_hermanjustnu.json, anderlli0053/DEV-tools, 1
+bucket/steam-rom-manager_hermanjustnu.json, kkzzhizhou/scoop-apps, 1
 bucket/steam-theme-Zehn.json, kkzzhizhou/scoop-apps, 1
 bucket/steam.json, kkzzhizhou/scoop-apps, 0
 bucket/steam_Calinou.json, kkzzhizhou/scoop-apps, 0
@@ -22094,7 +22095,7 @@ bucket/swf2projector.json, anderlli0053/DEV-tools, 0
 bucket/swfopener.json, anderlli0053/DEV-tools, 0
 bucket/swgp-go.json, anderlli0053/DEV-tools, 0
 bucket/swift-nightly.json, kkzzhizhou/scoop-apps, 1
-bucket/swift-nightly_chawyehsu.json, kkzzhizhou/scoop-apps, 1
+bucket/swift-nightly_ScoopInstaller.json, kkzzhizhou/scoop-apps, 1
 bucket/swift-snapshot.json, kkzzhizhou/scoop-apps, 0
 bucket/swift.json, anderlli0053/DEV-tools, 0
 bucket/swift_chawyehsu.json, kkzzhizhou/scoop-apps, 0
@@ -23697,9 +23698,8 @@ bucket/v2rayn-with-core-selfcontained.json, anderlli0053/DEV-tools, 1
 bucket/v2rayn-with-core.json, anderlli0053/DEV-tools, 1
 bucket/v2rayn.json, kkzzhizhou/scoop-apps, 1
 bucket/v2rayn_DoveBoy.json, kkzzhizhou/scoop-apps, 1
-bucket/v2rayn_ScoopInstaller.json, anderlli0053/DEV-tools, 1
+bucket/v2rayn_ScoopInstaller.json, kkzzhizhou/scoop-apps, 1
 bucket/v2rayn_echoiron.json, kkzzhizhou/scoop-apps, 1
-bucket/v2rayn_noql-net.json, kkzzhizhou/scoop-apps, 1
 bucket/v@0.3.2.json, kkzzhizhou/scoop-apps, 1
 bucket/v@latest.json, anderlli0053/DEV-tools, 1
 bucket/v_MCOfficer.json, anderlli0053/DEV-tools, 1
