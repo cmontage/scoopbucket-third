@@ -1,12 +1,12 @@
 {
-  "version": "24.09.13",
+  "version": "23.06.14",
   "description": "Video editor",
   "homepage": "https://www.shotcut.org",
   "license": "GPL-3.0-or-later",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/mltframework/shotcut/releases/download/v24.09.13/shotcut-win64-240913.zip",
-      "hash": "9c65fde8bce5031d3cca75ae27bcdb3a87f52bba3d64ba2b438391315949e8d2"
+      "url": "https://mirror.ghproxy.com/https://github.com/mltframework/shotcut/releases/download/v23.06.14/shotcut-win64-230614.zip",
+      "hash": "163eff27a6202f27de1bbfb03ae43ea0183d9905f6a63c56d4d4191dd2128b7d"
     }
   },
   "extract_dir": "Shotcut",
