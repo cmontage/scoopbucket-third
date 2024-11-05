@@ -1,30 +1,28 @@
 {
-  "version": "7.0.5",
+  "version": "6.33",
   "description": "A V2Ray client for Windows, support Xray & v2fly core",
   "homepage": "https://github.com/2dust/v2rayN",
   "license": "GPL-3.0-only",
   "depends": "xray",
   "suggest": {
-    ".NET Desktop Runtime": "windowsdesktop-runtime-lts",
+    ".NET Desktop Runtime": "extras/windowsdesktop-runtime-lts",
     "v2fly-core": "v2ray"
   },
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/2dust/v2rayN/releases/download/7.0.5/v2rayN-windows-64.zip",
-      "hash": "b6d6b07bebe50872ad11dd699b522bab5db1b745fdc04169e57a2d8f624e2436",
-      "extract_dir": "v2rayN-windows-64"
+      "url": "https://mirror.ghproxy.com/https://github.com/2dust/v2rayN/releases/download/6.33/v2rayN.zip",
+      "hash": "7ad0f8a41bda7179cf183005870db1325fc9852a1e09b145355e0a2c285ca8ab"
     },
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/2dust/v2rayN/releases/download/7.0.5/v2rayN.zip",
-      "hash": "b6d6b07bebe50872ad11dd699b522bab5db1b745fdc04169e57a2d8f624e2436",
-      "extract_dir": "v2rayN-windows-64"
+      "url": "https://mirror.ghproxy.com/https://github.com/2dust/v2rayN/releases/download/6.33/v2rayN-32.zip",
+      "hash": "d7d29536d27b586053c3d3eed1c41687adf88535be73825f76af1abb879dc891"
     },
     "arm64": {
-      "url": "https://mirror.ghproxy.com/https://github.com/2dust/v2rayN/releases/download/7.0.5/v2rayN-windows-arm64.zip",
-      "hash": "9398e10e0a55761d31b93e4a39d51fb3ab4bc0a0ef88cad14f2d43da2a4bff82",
-      "extract_dir": "v2rayN-windows-arm64"
+      "url": "https://mirror.ghproxy.com/https://github.com/2dust/v2rayN/releases/download/6.33/v2rayN-arm64.zip",
+      "hash": "44ffb07ad51962d85f3e4a24aadab890bdefd6574f35a8deb6e6611c595d9e28"
     }
   },
+  "extract_dir": "v2rayN",
   "pre_install": [
     "foreach ($form in @('*.exe', '*.dat')) {",
     "    foreach ($_ in Get-ChildItem \"$(appdir xray $global)\\current\" -File) {",
@@ -44,27 +42,17 @@
     ]
   ],
   "persist": "guiConfigs",
-  "uninstaller": {
-    "script": [
-      "if (Test-Path \"$dir\\guiConfigs\\config.json\") {",
-      "    Copy-Item \"$dir\\guiConfigs\\config.json\" \"$persist_dir\\guiConfigs\\config.json\" | Out-Null",
-      "}"
-    ]
-  },
-  "checkver": {
-    "url": "https://api.github.com/repos/2dust/v2rayN/releases?per_page=1",
-    "jsonpath": "$[0].tag_name"
-  },
+  "checkver": "github",
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/2dust/v2rayN/releases/download/$version/v2rayN-windows-64.zip"
-      },
-      "32bit": {
         "url": "https://mirror.ghproxy.com/https://github.com/2dust/v2rayN/releases/download/$version/v2rayN.zip"
       },
+      "32bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/2dust/v2rayN/releases/download/$version/v2rayN-32.zip"
+      },
       "arm64": {
-        "url": "https://mirror.ghproxy.com/https://github.com/2dust/v2rayN/releases/download/$version/v2rayN-windows-arm64.zip"
+        "url": "https://mirror.ghproxy.com/https://github.com/2dust/v2rayN/releases/download/$version/v2rayN-arm64.zip"
       }
     }
   }

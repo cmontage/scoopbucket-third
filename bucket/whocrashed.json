@@ -1,5 +1,5 @@
 {
-  "version": "7.10-710.31021",
+  "version": "7.06-706.30130",
   "homepage": "https://www.resplendence.com/whocrashed",
   "description": "A utility application that reveals the drivers responsible for crashing your computer.",
   "license": {
@@ -7,7 +7,7 @@
     "url": "https://www.resplendence.com/licensing"
   },
   "url": "https://www.resplendence.com/download/whocrashedSetup.exe",
-  "hash": "057050931eebb9fba355bafb55e1b3ab7fe39e2975fa446371d118eb594f679f",
+  "hash": "8f9f79abdb3195bd22b58cde459e45139d320677579966c202ca371d87a0a4ad",
   "innosetup": true,
   "pre_install": [
     "if ($architecture -eq '32bit') {",
@@ -25,8 +25,9 @@
     ]
   ],
   "checkver": {
+    "useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36",
     "url": "https://www.resplendence.com/bin/rspupdate.dll/checkforupdate?product=WhoCrashed&edition=home",
-    "regex": "\\>LatestVersion=([\\d.]+),\\sbuild\\s([\\d.]+)\\<",
+    "regex": ">LatestVersion=([\\d.]+),\\sbuild\\s([\\d.]+)<",
     "replace": "$1-$2"
   },
   "autoupdate": {

@@ -1,15 +1,15 @@
 {
-  "version": "0.137.0",
+  "version": "0.112.0",
   "description": "CLI for Yandex Cloud",
   "homepage": "https://cloud.yandex.ru/docs/cli/",
   "architecture": {
     "64bit": {
-      "url": "https://storage.yandexcloud.net/yandexcloud-yc/release/0.137.0/windows/amd64/yc.exe",
-      "hash": "29a55086815cd4f5c22db947e63ac4ae0409d623849af804336481811534d8b1"
+      "url": "https://storage.yandexcloud.net/yandexcloud-yc/release/0.112.0/windows/amd64/yc.exe",
+      "hash": "11799fc4095e4f4faa186510efcbefe9918ecae0daddd49227d731c89f277091"
     },
     "32bit": {
-      "url": "https://storage.yandexcloud.net/yandexcloud-yc/release/0.137.0/windows/386/yc.exe",
-      "hash": "f5794369d0d210208dcba0c29e24c43fa76132753ab64f1c17a09fd7bdc29a76"
+      "url": "https://storage.yandexcloud.net/yandexcloud-yc/release/0.112.0/windows/386/yc.exe",
+      "hash": "7ce69e6c8ad98a9dac8b7dfbcf730f5e83d8eb19c22e7e4e7c31e7e0c0b1a67c"
     }
   },
   "post_install": "yc init",

@@ -1,20 +1,25 @@
 {
-  "version": "0.3.2",
-  "description": "A terminal feed reader with a fancy UI",
   "homepage": "https://github.com/veeso/tuifeed",
   "license": "MIT",
+  "description": "A terminal feed reader with a fancy ui",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/veeso/tuifeed/releases/download/v0.3.2/tuifeed-v0.3.2-x86_64-pc-windows-msvc.zip",
-      "hash": "1a3bd1cff973c6c64dcec874b9112839ad7b55d18ed66dda74c42024a4150543"
+      "url": [
+        "https://mirror.ghproxy.com/https://github.com/veeso/tuifeed/releases/download/v0.3.2/tuifeed-v0.3.2-x86_64-pc-windows-msvc.zip"
+      ],
+      "hash": [
+        "1A3BD1CFF973C6C64DCEC874B9112839AD7B55D18ED66DDA74C42024A4150543"
+      ]
     }
   },
   "bin": "tuifeed.exe",
+  "version": "0.3.2",
+  "extract_dir": "",
   "checkver": "github",
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/veeso/tuifeed/releases/download/v$version/tuifeed-v$version-x86_64-pc-windows-msvc.zip"
+        "url": "hhttps://mirror.ghproxy.com/https://github.com/veeso/tuifeed/releases/download/v$version/tuifeed-v$version-x86_64-pc-windows-msvc.zip"
       }
     }
   }

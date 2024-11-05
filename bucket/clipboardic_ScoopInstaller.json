@@ -1,5 +1,5 @@
 {
-  "version": "1.19",
+  "version": "1.15",
   "homepage": "https://www.nirsoft.net/utils/clipboardic.html",
   "url": "https://www.nirsoft.net/utils/clipboardic.zip",
   "bin": "Clipboardic.exe",
@@ -13,7 +13,7 @@
     "clipboardic_lng.ini",
     "clipboardic.cfg"
   ],
-  "hash": "24dbae3a287a333e0d71c7e48f2a98577b14e1d6e265d285abd1d66f78cdb880",
+  "hash": "1a061abef1c8899cd199ae426ef35659e2ce219e0acddb427c74c52c517ef7dc",
   "description": "Small and simple clipboard manager.",
   "license": "Freeware",
   "notes": "If this application is useful to you, please consider donating to NirSoft - https://www.nirsoft.net/donate.html",

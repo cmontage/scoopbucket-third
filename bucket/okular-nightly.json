@@ -1,12 +1,12 @@
 {
-  "version": "5443",
+  "version": "1725",
   "description": "Universal document viewer",
   "homepage": "https://okular.kde.org",
   "license": "LGPL-2.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://cdn.kde.org/ci-builds/graphics/okular/master/windows/okular-master-5443-windows-cl-msvc2022-x86_64.7z",
-      "hash": "f3fff8d798b7ae2efee7f13560806e51749aea62a25c5860c5e9cb048aa2fe58"
+      "url": "https://binary-factory.kde.org/job/Okular_Nightly_win64/lastSuccessfulBuild/artifact/okular-master-1725-windows-cl-msvc2019-x86_64.7z",
+      "hash": "47b725854608a3ada9fce52429d845335895dc6fe521e340c34706740b51c3d3"
     }
   },
   "bin": [
@@ -22,13 +22,13 @@
     ]
   ],
   "checkver": {
-    "url": "https://cdn.kde.org/ci-builds/graphics/okular/master/windows/",
-    "regex": "okular-master-(\\d+)-windows-cl-(?<lib>\\w+)-x86_64\\.7z"
+    "url": "https://binary-factory.kde.org/job/Okular_Nightly_win64/",
+    "regex": "okular-master-(\\d+)-windows"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://cdn.kde.org/ci-builds/graphics/okular/master/windows/okular-master-$version-windows-cl-$matchLib-x86_64.7z"
+        "url": "https://binary-factory.kde.org/job/Okular_Nightly_win64/lastSuccessfulBuild/artifact/okular-master-$version-windows-cl-msvc2019-x86_64.7z"
       }
     },
     "hash": {

@@ -1,5 +1,5 @@
 {
-  "version": "0.13.0",
+  "version": "0.7.0",
   "description": "Tool, language and decoders for inspecting binary data",
   "homepage": "https://github.com/wader/fq",
   "license": {
@@ -8,8 +8,8 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/wader/fq/releases/download/v0.13.0/fq_0.13.0_windows_amd64.zip",
-      "hash": "81bc8348f562db8c025afc26220ffa571fc9d9e76cb57806c5cca04dba7b39a1"
+      "url": "https://mirror.ghproxy.com/https://github.com/wader/fq/releases/download/v0.7.0/fq_0.7.0_windows_amd64.zip",
+      "hash": "6e4f8a4449b02e4979304d49ee2977220c30efd28fe88ee27cadc1a099cc184b"
     }
   },
   "bin": "fq.exe",

@@ -1,5 +1,5 @@
 {
-  "version": "2.0.1",
+  "version": "1.0.6",
   "homepage": "https://github.com/Maplespe/ExplorerBlurMica",
   "description": "Add a background Blur effect or Acrylic or Mica effect to explorer for Windows 10 and Windows 11.",
   "license": "LGPL-3.0-or-later",
@@ -10,8 +10,8 @@
   ],
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/Maplespe/ExplorerBlurMica/releases/download/2.0.1/Release_x64.zip",
-      "hash": "70e982bbfedca5f1df51f7b2f7713cedaf3124053074737b3d77e460894d2fc7"
+      "url": "https://mirror.ghproxy.com/https://github.com/Maplespe/ExplorerBlurMica/releases/download/1.0.6/Release_x64.zip",
+      "hash": "83670de15dec73ea72ceb62f1100df27e6b3f4d05047b7511a9546bcb2db1f53"
     }
   },
   "extract_dir": "Release",
@@ -46,9 +46,9 @@
     "exit /b",
     "'@",
     "",
-    "[System.IO.File]::WriteAllLines(\"$dir\\register-explorerblurmica.cmd\", $content1, [System.text.UTF8Encoding]($false))",
-    "[System.IO.File]::WriteAllLines(\"$dir\\unregister-explorerblurmica.cmd\", $content2, [System.text.UTF8Encoding]($false))",
-    "[System.IO.File]::WriteAllLines(\"$dir\\Open-ExplorerBlurMica-Folder.cmd\", '@start explorer \"%~dp0\"', [System.text.UTF8Encoding]($false))"
+    "Set-Content \"$dir\\register-explorerblurmica.cmd\" $content1 -Encoding 'utf8'",
+    "Set-Content \"$dir\\unregister-explorerblurmica.cmd\" $content2 -Encoding 'utf8'",
+    "Set-Content \"$dir\\Open-ExplorerBlurMica-Folder.cmd\" '@start explorer \"%~dp0\"' -Encoding 'utf8'"
   ],
   "bin": [
     "register-explorerblurmica.cmd",

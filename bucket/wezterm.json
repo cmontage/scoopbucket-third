@@ -30,9 +30,6 @@
         "url": "https://mirror.ghproxy.com/https://github.com/wez/wezterm/releases/download/$version/WezTerm-windows-$version.zip"
       }
     },
-    "extract_dir": "WezTerm-windows-$version",
-    "hash": {
-      "url": "$url.sha256"
-    }
+    "extract_dir": "WezTerm-windows-$version"
   }
 }

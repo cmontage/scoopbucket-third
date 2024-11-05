@@ -1,20 +1,20 @@
 {
-  "version": "6.7.5",
-  "description": "简单好用的DDNS。自动更新域名解析到公网IP(支持阿里云、腾讯云dnspod、Cloudflare、华为云、百度云、porkbun)",
+  "version": "5.6.4",
+  "description": "简单好用的DDNS。自动更新域名解析到公网IP(支持阿里云、腾讯云dnspod、Cloudflare、Callback、华为云、百度云、Porkbun、GoDaddy、Google Domains)",
   "homepage": "https://github.com/jeessy2/ddns-go",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/jeessy2/ddns-go/releases/download/v6.7.5/ddns-go_6.7.5_windows_x86_64.zip",
-      "hash": "370acb693acfe9ad0f203c5c075a315d4fb6723c4662ecbdce944756aef772df"
+      "url": "https://mirror.ghproxy.com/https://github.com/jeessy2/ddns-go/releases/download/v5.6.4/ddns-go_5.6.4_windows_x86_64.zip",
+      "hash": "a79ce7644637ec495054318bfed2c5044e98786021980d6c617a88f5927a44b4"
     },
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/jeessy2/ddns-go/releases/download/v6.7.5/ddns-go_6.7.5_windows_i386.zip",
-      "hash": "11eaa9f835f15932b3f4d8a25f27bda18cbea538a83aa3cfc1749f7c32bc0303"
+      "url": "https://mirror.ghproxy.com/https://github.com/jeessy2/ddns-go/releases/download/v5.6.4/ddns-go_5.6.4_windows_i386.zip",
+      "hash": "d9b041d96d9d3dfbd43c3616789630f0e6639b55d9d18857c968b93043d7bd77"
     },
     "arm64": {
-      "url": "https://mirror.ghproxy.com/https://github.com/jeessy2/ddns-go/releases/download/v6.7.5/ddns-go_6.7.5_windows_arm64.zip",
-      "hash": "615380f996d3c51467c7f5483b798914b6557b4ac3cd042e4ff3ff547045f446"
+      "url": "https://mirror.ghproxy.com/https://github.com/jeessy2/ddns-go/releases/download/v5.6.4/ddns-go_5.6.4_windows_arm64.zip",
+      "hash": "f7d8472e176bb293eff3e75bf0d29299aa6dee7717c2a7b2a928dc5b5cb68b8d"
     }
   },
   "bin": "ddns-go.exe",

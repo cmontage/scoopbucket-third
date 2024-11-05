@@ -1,12 +1,21 @@
 {
-  "version": "1.17.1",
+  "version": "1.15.4",
   "description": "Sony PlayStation Portable (PSP) emulator",
   "homepage": "https://www.ppsspp.org",
-  "license": "GPL-2.0-or-later",
+  "license": {
+    "identifier": "GPL 2.0 or later",
+    "url": "https://github.com/hrydgard/ppsspp/blob/master/LICENSE.TXT"
+  },
   "architecture": {
     "64bit": {
-      "url": "https://ppsspp.org/files/1_17_1/ppsspp_win.zip",
-      "hash": "f8e70feba2bb1b3b1bf284c80460abe8cb4d166e9dab8e0d7fa795a1602b1503",
+      "url": "https://ppsspp.org/files/1_15_4/ppsspp_win.zip",
+      "hash": "913b2659b7e939d84518c9172dde72fc90173e122d3ed690d66d635f541942ec",
+      "bin": [
+        [
+          "PPSSPPWindows64.exe",
+          "ppsspp"
+        ]
+      ],
       "shortcuts": [
         [
           "PPSSPPWindows64.exe",
@@ -14,19 +23,15 @@
         ]
       ]
     },
-    "32bit": {
-      "url": "https://ppsspp.org/files/1_17_1/ppsspp_win.zip",
-      "hash": "f8e70feba2bb1b3b1bf284c80460abe8cb4d166e9dab8e0d7fa795a1602b1503",
-      "shortcuts": [
-        [
-          "PPSSPPWindows.exe",
-          "Sony PlayStation Portable [psp][ppsspp]"
-        ]
-      ]
-    },
     "arm64": {
-      "url": "https://ppsspp.org/files/1_17_1/PPSSPPWindowsARM64.zip",
-      "hash": "3c0ee851b48fbf32135023ddfa01458e581852fdc9af88119cf952f4c1bacc29",
+      "url": "https://ppsspp.org/files/1_15_4/PPSSPPWindowsARM64.zip",
+      "hash": "82fbae2b4d1ece5efd90485d15a76eb6b4a8adddabbfe034f4cda6a78e0726a7",
+      "bin": [
+        [
+          "PPSSPPWindowsARM64.exe",
+          "ppsspp"
+        ]
+      ],
       "shortcuts": [
         [
           "PPSSPPWindowsARM64.exe",
@@ -47,15 +52,11 @@
     "memstick"
   ],
   "checkver": {
-    "github": "https://github.com/hrydgard/ppsspp",
-    "regex": "v([\\d.]+)"
+    "github": "https://github.com/hrydgard/ppsspp"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ppsspp.org/files/$underscoreVersion/ppsspp_win.zip"
-      },
-      "32bit": {
         "url": "https://ppsspp.org/files/$underscoreVersion/ppsspp_win.zip"
       },
       "arm64": {

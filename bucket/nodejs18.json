@@ -1,18 +1,18 @@
 {
-  "version": "18.20.4",
+  "version": "18.19.0",
   "description": "As an asynchronous event driven JavaScript runtime, Node is designed to build scalable network applications.",
   "homepage": "https://nodejs.org",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://registry.npmmirror.com/-/binary/node/v18.20.4/node-v18.20.4-win-x64.7z",
-      "hash": "235645185550bf8dade9d747d5bd7aa7c901b12433ac743857738df7e94ecde0",
-      "extract_dir": "node-v18.20.4-win-x64"
+      "url": "https://registry.npmmirror.com/-/binary/node/v18.19.0/node-v18.19.0-win-x64.7z",
+      "hash": "791dacc5009229c6aaea3bbb36b902b796d2408af4a1d9360417be6302b19e1f",
+      "extract_dir": "node-v18.19.0-win-x64"
     },
     "32bit": {
-      "url": "https://registry.npmmirror.com/-/binary/node/v18.20.4/node-v18.20.4-win-x86.7z",
-      "hash": "eab07bf4b4f443448205699d7a4b6d2cfa2e847c2f0d041a8117fcdcedf9e350",
-      "extract_dir": "node-v18.20.4-win-x86"
+      "url": "https://registry.npmmirror.com/-/binary/node/v18.19.0/node-v18.19.0-win-x86.7z",
+      "hash": "20f25cae81d514a0027f8e0b52bacdb2a4960298f6bfb061d29875043720ef1b",
+      "extract_dir": "node-v18.19.0-win-x86"
     }
   },
   "persist": [

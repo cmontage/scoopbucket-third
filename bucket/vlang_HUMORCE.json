@@ -1,10 +1,10 @@
 {
-  "version": "0.4.8",
+  "version": "0.4",
   "description": "Simple, fast, safe, compiled. For developing maintainable software",
   "homepage": "https://vlang.io/",
   "license": "MIT",
-  "url": "https://mirror.ghproxy.com/https://github.com/vlang/v/releases/download/0.4.8/v_windows.zip",
-  "hash": "85444b0b7502610b2f0540916af4718729e840ccb82ace7f2d7ae4e2bdee6428",
+  "url": "https://mirror.ghproxy.com/https://github.com/vlang/v/releases/download/0.4/v_windows.zip",
+  "hash": "9e40660be3031d835368559961a9afa5c695499eed6398c9ae28a257c7755ae7",
   "extract_dir": "v",
   "bin": "v.exe",
   "checkver": {

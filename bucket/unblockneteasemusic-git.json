@@ -1,5 +1,5 @@
 {
-  "version": "0.2024.11.02.8bc2352",
+  "version": "0.2023.10.28.b011d71",
   "description": "Revive unavailable songs for Netease Cloud Music (Refactored & Enhanced version)",
   "homepage": "https://github.com/UnblockNeteaseMusic/server",
   "license": {
@@ -9,11 +9,11 @@
   "architecture": {
     "64bit": {
       "url": "https://nightly.link/UnblockNeteaseMusic/server/workflows/build-binaries/enhanced/unblockneteasemusic-win-x64.exe.zip",
-      "hash": "ba81ffd4731a5fd9d89b58a7cb1341b7c8ff9ee836c37cb43f1e1e35e53c733a"
+      "hash": "e0c9a542886ac57ba2ba68caa394e8743cfa465f433f4137a4d10dbf3a371c13"
     },
     "arm64": {
       "url": "https://nightly.link/UnblockNeteaseMusic/server/workflows/build-binaries/enhanced/unblockneteasemusic-win-arm64.exe.zip",
-      "hash": "06f7a382ca92fc1859461ee202f79241e3e34f924b07b07d4d9d939980a7c071"
+      "hash": "2bc900b8c61482ec88d33e20b95bffd982e888ce45dba2d13505aef704121012"
     }
   },
   "pre_install": "Get-ChildItem \"$dir\\unblockneteasemusic*.exe\" | Rename-Item -NewName 'unblockneteasemusic.exe'",

@@ -1,10 +1,10 @@
 {
-  "version": "2.4.6",
+  "version": "2.4.4",
   "description": "Complete implementation of the OpenPGP standard.",
   "homepage": "https://www.gnupg.org/",
   "license": "GPL-3.0-or-later",
-  "url": "https://www.gnupg.org/ftp/gcrypt/binary/gnupg-w32-2.4.6_20241029.exe#/dl.7z",
-  "hash": "sha1:6d6b2017152fea4532afe38ce00e38a438b1e4bb",
+  "url": "https://www.gnupg.org/ftp/gcrypt/binary/gnupg-w32-2.4.4_20240125.exe#/dl.7z",
+  "hash": "sha1:9773a6baae99353aa63d08dba6e643cbecc75de5",
   "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\gnupg-uninstall.exe.nsis\" -Force -Recurse",
   "env_add_path": "bin",
   "checkver": {

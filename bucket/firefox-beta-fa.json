@@ -1,16 +1,16 @@
 {
-  "version": "133.0b2",
+  "version": "120.0b2",
   "description": "Beta builds of Firefox: the popular open source web browser.",
   "homepage": "https://www.mozilla.org/fa-IR/firefox/beta/",
   "license": "MPL-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://archive.mozilla.org/pub/firefox/releases/133.0b2/win64/fa-IR/Firefox%20Setup%20133.0b2.exe#/dl.7z",
-      "hash": "sha512:2e1c290b0ca95830e4c8e43aea05228d084be9b76415722c7754a6fadf14135adb12869bd69b413126a8cf670692c80d6b06a87404fbd08e6917209547a57d53"
+      "url": "https://archive.mozilla.org/pub/firefox/releases/120.0b2/win64/fa-IR/Firefox%20Setup%20120.0b2.exe#/dl.7z",
+      "hash": "sha512:d227f5c91d3c8bbc824edea4a8660c03734eccb9652a7181174735f58efc0a3d8a9f388b4986571dac90e0f22ae0cc7b7a0ddf56da3273dab1080fe94cf2e239"
     },
     "32bit": {
-      "url": "https://archive.mozilla.org/pub/firefox/releases/133.0b2/win32/fa-IR/Firefox%20Setup%20133.0b2.exe#/dl.7z",
-      "hash": "sha512:2e1c290b0ca95830e4c8e43aea05228d084be9b76415722c7754a6fadf14135adb12869bd69b413126a8cf670692c80d6b06a87404fbd08e6917209547a57d53"
+      "url": "https://archive.mozilla.org/pub/firefox/releases/120.0b2/win32/fa-IR/Firefox%20Setup%20120.0b2.exe#/dl.7z",
+      "hash": "sha512:d227f5c91d3c8bbc824edea4a8660c03734eccb9652a7181174735f58efc0a3d8a9f388b4986571dac90e0f22ae0cc7b7a0ddf56da3273dab1080fe94cf2e239"
     }
   },
   "extract_dir": "core",
@@ -30,8 +30,8 @@
   ],
   "persist": "profile",
   "checkver": {
-    "url": "https://product-details.mozilla.org/1.0/firefox_versions.json",
-    "jsonpath": "$.LATEST_FIREFOX_DEVEL_VERSION"
+    "url": "https://www.mozilla.org/de/firefox/all/",
+    "regex": "<option value=\"desktop_beta\">([\\db.]+)"
   },
   "autoupdate": {
     "architecture": {

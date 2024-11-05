@@ -1,38 +1,29 @@
 {
-  "version": "1.40.20",
-  "description": "Terminal/ssh/serial port/sftp client",
-  "homepage": "https://electerm.github.io/electerm/",
+  "homepage": "https://electerm.github.io/electerm",
+  "description": "Terminal/ssh/serial port/sftp client(linux, mac, win)",
+  "version": "1.27.20",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/electerm/electerm/releases/download/v1.40.20/electerm-1.40.20-win-x64-portable.tar.gz",
-      "hash": "40418f940e698755e40a2b4d8d1c93328634933a902175f9f34c63f6b080d489",
-      "extract_dir": "electerm-1.40.20-win-x64-portable"
+      "url": "https://mirror.ghproxy.com/https://github.com/electerm/electerm/releases/download/v1.27.20/electerm-1.27.20-win-x64.tar.gz",
+      "hash": "be2978673a5063341b98273277a223a9660dbdfa11dab09dd5360f0dd3f0e5e7",
+      "extract_dir": "electerm-1.27.20-win-x64"
     }
   },
-  "pre_install": [
-    "# copy config from non-portable version",
-    "if (!(Test-Path \"$persist_dir\\electerm\") -and (Test-Path \"$env:Appdata\\electerm\")) {",
-    "    if (!(Test-Path \"$dir\\electerm\")) { New-Item \"$dir\\electerm\" -ItemType Directory | Out-Null }",
-    "    Copy-Item \"$env:Appdata\\electerm\\*\" \"$dir\\electerm\\\" -Recurse -Force",
-    "}"
-  ],
-  "bin": "electerm.exe",
   "shortcuts": [
     [
       "electerm.exe",
       "Electerm"
     ]
   ],
-  "persist": "electerm",
   "checkver": {
     "github": "https://github.com/electerm/electerm"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/electerm/electerm/releases/download/v$version/electerm-$version-win-x64-portable.tar.gz",
-        "extract_dir": "electerm-$version-win-x64-portable"
+        "url": "https://mirror.ghproxy.com/https://github.com/electerm/electerm/releases/download/v$version/electerm-$version-win-x64.tar.gz",
+        "extract_dir": "electerm-$version-win-x64"
       }
     }
   }

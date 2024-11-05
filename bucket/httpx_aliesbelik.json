@@ -1,16 +1,16 @@
 {
-  "version": "1.6.9",
+  "version": "1.3.5",
   "description": "A fast and multi-purpose HTTP toolkit allows to run multiple probers",
   "homepage": "https://github.com/projectdiscovery/httpx",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/projectdiscovery/httpx/releases/download/v1.6.9/httpx_1.6.9_windows_amd64.zip",
-      "hash": "66680ff886933773deacd17ba330dd42049620b6a6753054ebc2261a52c5e0a9"
+      "url": "https://mirror.ghproxy.com/https://github.com/projectdiscovery/httpx/releases/download/v1.3.5/httpx_1.3.5_windows_amd64.zip",
+      "hash": "7af49da7607caefdc08125e87867f7e732ab26d515cf853741eedfaaef7d5cd3"
     },
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/projectdiscovery/httpx/releases/download/v1.6.9/httpx_1.6.9_windows_386.zip",
-      "hash": "b258ab4acb25d295e831970e0ce473a0411a7f171e42fbfa66c915d8f3aba0d8"
+      "url": "https://mirror.ghproxy.com/https://github.com/projectdiscovery/httpx/releases/download/v1.3.5/httpx_1.3.5_windows_386.zip",
+      "hash": "777a0f4a8abf7de1ee7b2a62b833c3b73a901035ccadf68e22bc28338d3b2df4"
     }
   },
   "bin": "httpx.exe",

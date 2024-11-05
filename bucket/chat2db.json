@@ -1,13 +1,12 @@
 {
-  "version": "3.4.1",
+  "version": "2.0.13",
   "description": "An intelligent and versatile general-purpose SQL client and reporting tool for databases which integrates ChatGPT capabilities.",
-  "no": "https://github.com/ViCrack/scoop-bucket/blob/16f7fc72202815c38a0d7d0e66f0a9eb4980dba5/bucket/chat2db.json",
   "homepage": "https://github.com/chat2db/Chat2DB",
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/chat2db/Chat2DB/releases/download/v3.4.1/Chat2DB-Setup-3.4.1.exe",
-      "hash": "da7c6b2573cbaebd52128edeb987ecb93df48124775d8b77909afbf31c773a06"
+      "url": "https://www.github.com/chat2db/Chat2DB/releases/download/v2.0.13/Chat2DB-Setup-2.0.13.exe",
+      "hash": "9e6ea24d46164b94c875638394c2963fba28055f4a6cc2d2bf7b639e469c7d47"
     }
   },
   "installer": {
@@ -31,7 +30,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/chat2db/Chat2DB/releases/download/v$version/Chat2DB-Setup-$version.exe"
+        "url": "https://www.github.com/chat2db/Chat2DB/releases/download/v$version/Chat2DB-Setup-$version.exe"
       }
     }
   }

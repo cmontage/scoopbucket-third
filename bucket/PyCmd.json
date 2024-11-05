@@ -1,19 +1,19 @@
 {
-  "homepage": "https://github.com/horeah/PyCmd",
-  "description": "Improved interactive experience for Windows' cmd.exe",
-  "version": "20240904",
-  "license": "LGPL-3.0-or-later",
+  "homepage": "https://sourceforge.net/projects/pycmd/",
+  "description": "a smart command prompt extension for Windows' cmd.exe; its purpose is to emulate a few power features of UNIX shells (decent Tab-completion, persistent history, etc.)",
+  "version": "20210310",
+  "license": "LGPL-2.0-only",
+  "extract_dir": "PyCmd",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/horeah/PyCmd/releases/download/20240904/PyCmd-20240904-w64.zip",
-      "hash": "c04307e47014fa07219ca71406ce83d20d3841b6372752f9ac221c5c2838600b"
+      "url": "https://downloads.sourceforge.net/project/pycmd/pycmd/snapshots/PyCmd-20210310-w64.zip",
+      "hash": "sha1:c875a8f0b4b4665be114b7853c639e454d17b3bd"
     },
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/horeah/PyCmd/releases/download/20240904/PyCmd-20240904-w32.zip",
-      "hash": "c1a23dfb31bc40b07bde09754cc5147d3ed14d6b8ebd2be22bbaa4d67e55c4fb"
+      "url": "https://downloads.sourceforge.net/project/pycmd/pycmd/snapshots/PyCmd-20210310-w32.zip",
+      "hash": "sha1:5d7fc101d860b109a1714939863f1988ea8238e5"
     }
   },
-  "extract_dir": "PyCmd",
   "bin": "PyCmd.exe",
   "persist": "init.py",
   "shortcuts": [
@@ -22,14 +22,25 @@
       "PyCmd"
     ]
   ],
-  "checkver": "github",
+  "checkver": {
+    "url": "https://sourceforge.net/projects/pycmd/rss?path=/pycmd/snapshots",
+    "regex": "\\[CDATA\\[/pycmd/snapshots/PyCmd-(\\d{8})-w64.zip\\]\\]"
+  },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/horeah/PyCmd/releases/download/$version/PyCmd-$version-w64.zip"
+        "url": "https://downloads.sourceforge.net/project/pycmd/pycmd/snapshots/PyCmd-$version-w64.zip",
+        "extract_dir": "$version",
+        "hash": {
+          "mode": "sourceforge"
+        }
       },
       "32bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/horeah/PyCmd/releases/download/$version/PyCmd-$version-w32.zip"
+        "url": "https://downloads.sourceforge.net/project/pycmd/pycmd/snapshots/PyCmd-$version-w32.zip",
+        "extract_dir": "$version",
+        "hash": {
+          "mode": "sourceforge"
+        }
       }
     }
   }

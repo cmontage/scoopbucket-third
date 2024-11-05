@@ -1,5 +1,5 @@
 {
-  "version": "0.9.14",
+  "version": "0.9.2",
   "description": "🚀 A concise, efficient, good-looking input, screenshot, and word translation software",
   "homepage": "https://ttime.timerecord.cn/",
   "license": {
@@ -8,8 +8,8 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/InkTimeRecord/TTime/releases/download/v0.9.14/TTime.0.9.14.exe#/dl.7z",
-      "hash": "b40e064d6d120e10b5f02fcfda301448529fe4cba1f252a4da91bb989af25441"
+      "url": "https://mirror.ghproxy.com/https://github.com/InkTimeRecord/TTime/releases/download/v0.9.2/TTime.0.9.2.exe#/dl.7z",
+      "hash": "6de1cf92f626495749b8464fbd12a93bba98732beb8dd568ebf289cd4b65dfb8"
     }
   },
   "pre_install": [

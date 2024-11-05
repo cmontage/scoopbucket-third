@@ -1,10 +1,10 @@
 {
-  "version": "3.2.1",
+  "version": "3.1.1",
   "description": "Nerd Fonts patched 'Cousine' Font family. (Proportional version, for GUI usecases)",
   "homepage": "https://github.com/ryanoasis/nerd-fonts",
   "license": "MIT",
-  "url": "https://mirror.ghproxy.com/https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Cousine.zip",
-  "hash": "4ebb4fe2dd2b70f9f6d8035226d15f4af61ec90f0b7f179272b3e9be12a4e3dc",
+  "url": "https://mirror.ghproxy.com/https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/Cousine.zip",
+  "hash": "f05f3e685900025e8bd034ea18f83026a53b83491b910228abe4b81b3650781f",
   "installer": {
     "script": [
       "$currentBuildNumber = [int] (Get-ItemProperty \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\").CurrentBuildNumber",
@@ -40,7 +40,7 @@
       "Get-ChildItem $dir -Filter '*NerdFontPropo-*' | ForEach-Object {",
       "    $value = if ($global) { $_.Name } else { \"$fontInstallDir\\$($_.Name)\" }",
       "    New-ItemProperty -Path $registryKey -Name $_.Name.Replace($_.Extension, ' (TrueType)') -Value $value -Force | Out-Null",
-      "    Copy-Item -LiteralPath $_.FullName -Destination $fontInstallDir",
+      "    Copy-Item $_.FullName -Destination $fontInstallDir",
       "}"
     ]
   },

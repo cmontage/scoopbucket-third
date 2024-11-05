@@ -1,11 +1,11 @@
 {
   "##": "Clash for Windows (Chinese)",
-  "version": "0.20.39",
+  "version": "0.20.30",
   "description": "A helper util for Clash for Windows.",
   "license": "ender-zhao/Clash-for-Windows_Chinese",
   "homepage": "https://github.com/ender-zhao/Clash-for-Windows_Chinese",
-  "url": "https://mirror.ghproxy.com/https://github.com/ender-zhao/Clash-for-Windows_Chinese/releases/download/CFW-V0.20.39_CN/app.asar",
-  "hash": "8d5f96d5fd95c0641f0ecb395c6190bf97529a52aaf0b1f6d8b0afa2f108a70b",
+  "url": "https://mirror.ghproxy.com/https://github.com/ender-zhao/Clash-for-Windows_Chinese/releases/download/CFW-V0.20.30_CN/app.asar",
+  "hash": "7aa8c28ae4fd07124e90546f094a49042457557e63b491b82b1542cc67c205c3",
   "pre_install": [
     "Write-Host \"检查是否安装 Clash for Windows\" -ForegroundColor Yellow",
     "$loc = ''",

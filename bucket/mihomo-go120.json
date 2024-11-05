@@ -1,5 +1,5 @@
 {
-  "version": "1.18.9",
+  "version": "1.17.0",
   "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
   "homepage": "https://wiki.metacubex.one/",
   "license": {
@@ -8,12 +8,12 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/MetaCubeX/mihomo/releases/download/v1.18.9/mihomo-windows-amd64-go120-v1.18.9.zip",
-      "hash": "948423af7ea6317f5761e74b880706dc0d9c629f96c758a25597a5dbea5901e6"
+      "url": "https://mirror.ghproxy.com/https://github.com/MetaCubeX/mihomo/releases/download/v1.17.0/mihomo-windows-amd64-go120-v1.17.0.zip",
+      "hash": "7ebb7ae625108c59db1d060d4b0fc9a2541784f1bc35302461fa3d62ee2f1476"
     },
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/MetaCubeX/mihomo/releases/download/v1.18.9/mihomo-windows-386-go120-v1.18.9.zip",
-      "hash": "f0e560d29a260cb213602dd46e181b262a4e54f1592a7cc5cbe89c2b9ff374ed"
+      "url": "https://mirror.ghproxy.com/https://github.com/MetaCubeX/mihomo/releases/download/v1.17.0/mihomo-windows-386-go120-v1.17.0.zip",
+      "hash": "da6a2dc6a085f107bf128870e1ab7d4ffc72b8edd8d60823b179c54ab4b68418"
     }
   },
   "pre_install": "Get-ChildItem \"$dir\\mihomo*.exe\" | Rename-Item -NewName 'mihomo.exe'",

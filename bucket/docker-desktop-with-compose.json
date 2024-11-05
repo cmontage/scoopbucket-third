@@ -1,5 +1,5 @@
 {
-  "version": "173168",
+  "version": "126437",
   "description": "Docker Desktop. Open platform for developers and sysadmins to build, ship, and run distributed applications, whether on laptops, data center VMs, or the cloud.",
   "homepage": "https://www.docker.com",
   "license": {
@@ -14,8 +14,8 @@
   ],
   "architecture": {
     "64bit": {
-      "url": "https://desktop.docker.com/win/main/amd64/173168/Docker%20Desktop%20Installer.exe",
-      "hash": "e4cc390262928b7112a3ef69b96edf2ddd80932504cd8e1db0baa164285f14cd"
+      "url": "https://desktop.docker.com/win/main/amd64/126437/Docker%20Desktop%20Installer.exe",
+      "hash": "4c11952fbe7915908a2b0925c46b4e19f0826f75bb0b2f4a83d24cbbe40c53ce"
     }
   },
   "installer": {
@@ -51,7 +51,17 @@
       "Docker Desktop"
     ]
   ],
-  "env_add_path": "docker\\resources\\bin",
+  "bin": [
+    "docker\\resources\\bin\\docker.exe",
+    "docker\\resources\\cli-plugins\\docker-compose.exe"
+  ],
+  "uninstaller": {
+    "file": "docker\\Docker%20Desktop%20Installer.exe",
+    "args": [
+      "uninstall",
+      "--quiet"
+    ]
+  },
   "checkver": {
     "url": "https://docs.docker.com/desktop/release-notes/",
     "regex": "https://desktop.docker.com/win/main/amd64/([\\d.]+)/Docker%20Desktop%20Installer.exe"

@@ -1,10 +1,10 @@
 {
-  "version": "3.2.1",
+  "version": "3.1.1",
   "description": "Nerd Fonts patched 'Ubuntu' Font family. (Monospace version, Nerd Fonts Symbol/Icon will be always 1 cell wide)",
   "homepage": "https://github.com/ryanoasis/nerd-fonts",
   "license": "MIT",
-  "url": "https://mirror.ghproxy.com/https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Ubuntu.zip",
-  "hash": "e6029f1439ef78ed40dcd26a17fac43a69e493a9ac13616aa9b677db8a35c960",
+  "url": "https://mirror.ghproxy.com/https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/Ubuntu.zip",
+  "hash": "63b42f4ccd626a64f18f410d0b86f5f771d37cbc99382caaf2410daaad607bec",
   "installer": {
     "script": [
       "$currentBuildNumber = [int] (Get-ItemProperty \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\").CurrentBuildNumber",
@@ -40,7 +40,7 @@
       "Get-ChildItem $dir -Filter '*NerdFontMono-*' | ForEach-Object {",
       "    $value = if ($global) { $_.Name } else { \"$fontInstallDir\\$($_.Name)\" }",
       "    New-ItemProperty -Path $registryKey -Name $_.Name.Replace($_.Extension, ' (TrueType)') -Value $value -Force | Out-Null",
-      "    Copy-Item -LiteralPath $_.FullName -Destination $fontInstallDir",
+      "    Copy-Item $_.FullName -Destination $fontInstallDir",
       "}"
     ]
   },

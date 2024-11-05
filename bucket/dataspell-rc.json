@@ -1,5 +1,5 @@
 {
-  "version": "2024.2-242.20224.267",
+  "version": "2023.3.3-233.14015.67",
   "description": "Cross-Platform IDE for Data Scientists by JetBrains. (Release Candidate)",
   "homepage": "https://www.jetbrains.com/dataspell/",
   "license": {
@@ -8,8 +8,8 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://download.jetbrains.com/python/dataspell-242.20224.267.exe#/dl.7z",
-      "hash": "b6d2ad4ac443623eac47c3f6cd40b099e3e0f46d484b2b31c55372afdcfc4202",
+      "url": "https://download.jetbrains.com/python/dataspell-233.14015.67.exe#/dl.7z",
+      "hash": "bbf62e854691fbf5b8baf64ad85e76dedbea08e31bbdc944dd4f59701a22773c",
       "shortcuts": [
         [
           "IDE\\bin\\dataspell64.exe",

@@ -1,11 +1,10 @@
 {
-  "version": "7.1.1",
+  "version": "6.9.4",
   "description": "IM-Magic Partition Resizer. Resize Disk Volume without losing data -Redistribute disk space - Pro Edition",
   "homepage": "https://www.resize-c.com/",
   "license": "Proprietary",
-  "changelog": "https://www.resize-c.com/version-history.html",
   "url": "https://download.resize-c.com/resizer-pro-portable.zip",
-  "hash": "fdb849a26e4fdeee29183df1bc7a94789800109b9e0a377123655b7b499c5fb4",
+  "hash": "888a444316997c154aad9657f476990bcab33e82a53f1b58fe8623f389360cf0",
   "architecture": {
     "64bit": {
       "extract_dir": "resizer-pro-portable\\x64"
@@ -24,8 +23,8 @@
   ],
   "persist": "impr.lkeys",
   "checkver": {
-    "url": "https://www.resize-c.com/version-history.html",
-    "regex": "-v([\\d.]+)"
+    "url": "https://www.resize-c.com/",
+    "regex": "What's New: Partition Resizer has been upgraded to new version v([\\d.]+)"
   },
   "autoupdate": {
     "url": "https://download.resize-c.com/resizer-pro-portable.zip"

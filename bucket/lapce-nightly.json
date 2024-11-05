@@ -1,12 +1,12 @@
 {
-  "version": "1730594866",
-  "description": "Lightning-fast and Powerful Code Editor written in Rust",
-  "homepage": "https://lapce.dev/",
+  "version": "nightly-f4747fb",
+  "description": "Lightning-fast and Powerful Code Editor written in Rust (nightly builds)",
+  "homepage": "http://lapce.dev/",
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
       "url": "https://mirror.ghproxy.com/https://github.com/lapce/lapce/releases/download/nightly/Lapce-windows-portable.zip",
-      "hash": "877c1ce1b8f5321005cd1d95245028e7d3ead68f157217df8594e5b3f1c38473"
+      "hash": "7c1f520007fd0cd9059123f3f336228e5dd66b9cfc4e6764ad6e4e74c0211145"
     }
   },
   "bin": [
@@ -21,10 +21,17 @@
       "Lapce Nightly"
     ]
   ],
-  "persist": "lapce-data",
+  "persist": [
+    [
+      "lapce-data",
+      "lapce-data"
+    ]
+  ],
   "checkver": {
-    "script": "try { Get-Date (Invoke-RestMethod https://api.github.com/repositories/120425779/releases/tags/nightly).published_at -UFormat %s } catch { '' }",
-    "regex": "\\A(\\d+)\\Z"
+    "url": "https://api.github.com/repos/lapce/lapce/releases",
+    "jsonpath": "$.[?(@.tag_name == 'nightly')].target_commitish",
+    "regex": "([\\w\\d]{7})[\\w\\d]+",
+    "replace": "nightly-${1}"
   },
   "autoupdate": {
     "architecture": {

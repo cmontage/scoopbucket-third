@@ -1,12 +1,12 @@
 {
-  "version": "1.13.3.0",
+  "version": "1.12.1.3",
   "description": "",
   "homepage": "https://github.com/UmamusumeResponseAnalyzer/UmamusumeResponseAnalyzer",
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/UmamusumeResponseAnalyzer/UmamusumeResponseAnalyzer/releases/download/v1.13.3.0/UmamusumeResponseAnalyzer.exe",
-      "hash": "85012c10220ad70e8cc7755406e0d882cad4f5b809edd5d943078d261efae3ce"
+      "url": "https://mirror.ghproxy.com/https://github.com/UmamusumeResponseAnalyzer/UmamusumeResponseAnalyzer/releases/download/v1.12.1.3/UmamusumeResponseAnalyzer.exe",
+      "hash": "3834daa83f567604556e7a3f2e12580a161a2f93b97283257109b1ecf3301f97"
     }
   },
   "bin": "UmamusumeResponseAnalyzer.exe",

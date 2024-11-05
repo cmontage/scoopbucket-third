@@ -1,26 +1,27 @@
 {
-  "version": "2.12.23",
+  "version": "2.10.6",
   "description": "A client for QQ and more.",
   "homepage": "https://github.com/Icalingua-plus-plus/Icalingua-plus-plus",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/Icalingua-plus-plus/Icalingua-plus-plus/releases/download/v2.12.23/Icalingua++-2.12.23_x64.exe#/dl.7z",
-      "hash": "1ea7056f75fb0c6921d9b2614ff2cd7cfd9e8399d34641394938daf48e77f207",
+      "url": "https://mirror.ghproxy.com/https://github.com/Icalingua-plus-plus/Icalingua-plus-plus/releases/download/v2.10.6/Icalingua++-2.10.6_x64.exe#/dl.7z",
+      "hash": "698fc9675d3bfa887575e1c636936b67c67740d0e7c81a9097bc288d4c3a439b",
       "pre_install": [
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
         "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Force -Recurse"
       ]
     },
     "arm64": {
-      "url": "https://mirror.ghproxy.com/https://github.com/Icalingua-plus-plus/Icalingua-plus-plus/releases/download/v2.12.23/Icalingua++-2.12.23_arm64.exe#/dl.7z",
-      "hash": "7629a65c9ac5db2ae788777bd9e132f516193b6dab4acde345edb399a148523e",
+      "url": "https://mirror.ghproxy.com/https://github.com/Icalingua-plus-plus/Icalingua-plus-plus/releases/download/v2.10.6/Icalingua++-2.10.6_arm64.exe#/dl.7z",
+      "hash": "43cc7b2c723983e83e89c60b165e676327d1c1b8231a500c1d00a6fd4a5636ea",
       "pre_install": [
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-arm64.7z\" \"$dir\"",
         "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Force -Recurse"
       ]
     }
   },
+  "bin": "Icalingua++.exe",
   "shortcuts": [
     [
       "Icalingua++.exe",

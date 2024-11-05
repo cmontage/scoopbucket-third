@@ -1,5 +1,5 @@
 {
-  "version": "125.0.3-66",
+  "version": "114.0.2-64",
   "description": "A free and open-source web browser developed by The Mozilla Foundation.",
   "homepage": "https://www.mozilla.org/en-US/firefox/",
   "license": {
@@ -12,8 +12,8 @@
   ],
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/portapps/phyrox-portable/releases/download/125.0.3-66/phyrox-portable-win64-125.0.3-66.7z",
-      "hash": "596813bd747dd09438185c9286bee03a74bf08353434db42d01b49c81f7a56c7"
+      "url": "https://mirror.ghproxy.com/https://github.com/portapps/phyrox-portable/releases/download/114.0.2-64/phyrox-portable-win64-114.0.2-64.7z",
+      "hash": "43a0d87480ae55eded022d07daee2ab4d4d78249f3dbf8d768e35677b478801c"
     }
   },
   "bin": "phyrox-portable.exe",

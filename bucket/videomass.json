@@ -1,13 +1,13 @@
 {
-  "version": "5.0.21",
+  "version": "5.0.2",
   "homepage": "https://jeanslack.github.io/Videomass/",
   "description": "A free, and open source GUI for FFmpeg and youtube-dl / yt-dlp.",
   "license": "GPL-3.0",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/jeanslack/Videomass/releases/download/v5.0.21/Videomass-v5.0.21_x86_64-portable.7z",
-      "hash": "c3bd3d8c0cc78b67b0d278fd8e305bd1fc8f6565e5c097a3fe1d5bc48edf1366",
-      "extract_dir": "Videomass-v5.0.21_x86_64-portable"
+      "url": "https://mirror.ghproxy.com/https://github.com/jeanslack/Videomass/releases/download/v5.0.2/Videomass-v5.0.2_x86_64-portable.7z",
+      "hash": "82b1a59d03e2300dc6e21500c8d4c5e32e1d522fe67e04708fc92a296e7718c1",
+      "extract_dir": "Videomass-v5.0.2_x86_64-portable\\Videomass"
     }
   },
   "pre_install": "ensure \"$persist_dir\" | Out-Null; Copy-Item \"$persist_dir\\*\" \"$dir\" -Include @('My_Files', 'portable_data') -ErrorAction 'SilentlyContinue' -Recurse",
@@ -26,7 +26,7 @@
     "architecture": {
       "64bit": {
         "url": "https://mirror.ghproxy.com/https://github.com/jeanslack/Videomass/releases/download/v$version/Videomass-v$version_x86_64-portable.7z",
-        "extract_dir": "Videomass-v$version_x86_64-portable"
+        "extract_dir": "Videomass-v$version_x86_64-portable\\Videomass"
       }
     }
   }

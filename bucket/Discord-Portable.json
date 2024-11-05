@@ -1,5 +1,5 @@
 {
-  "version": "1.0.9156-20",
+  "version": "1.0.9010-15",
   "description": "Discord. Free Voice and Text Chat",
   "homepage": "https://discordapp.com/",
   "license": {
@@ -7,8 +7,8 @@
     "url": "https://discordapp.com/terms"
   },
   "changelog": "https://github.com/portapps/discord-portable/releases",
-  "url": "https://mirror.ghproxy.com/https://github.com/portapps/discord-portable/releases/download/1.0.9156-20/discord-portable-win64-1.0.9156-20.7z",
-  "hash": "8c3afdff25e3f0954a1e681c40573e59a51403c57fcf1fdd8d57eb38595a0d35",
+  "url": "https://mirror.ghproxy.com/https://github.com/portapps/discord-portable/releases/download/1.0.9010-15/discord-portable-win32-1.0.9010-15.7z",
+  "hash": "07e8fb39f18c55c3ee5fc47c1d0a86522ae71c039ce50421b5d7b7a8567c4731",
   "shortcuts": [
     [
       "discord-portable.exe",
@@ -24,7 +24,7 @@
     "regex": "/releases/tag/(?:v|V)?([\\d.-]+)"
   },
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/portapps/discord-portable/releases/download/$version/discord-portable-win64-$version.7z",
+    "url": "https://mirror.ghproxy.com/https://github.com/portapps/discord-portable/releases/download/$version/discord-portable-win32-$version.7z",
     "hash": {
       "url": "$baseurl/checksums.txt"
     }

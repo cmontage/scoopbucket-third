@@ -1,16 +1,15 @@
 {
   "homepage": "https://github.com/adobe-fonts/source-han-sans",
   "description": "Adobe Source Han Sans Subset OTF - Simplified Chinese OpenType/CFF fonts",
-  "version": "2.004R",
-  "url": "https://mirror.ghproxy.com/https://github.com/adobe-fonts/source-han-sans/releases/download/2.004R/SourceHanSansCN.zip",
+  "version": "2.003",
+  "url": "https://github.com/adobe-fonts/source-han-sans/raw/release/SubsetOTF/SourceHanSansCN.zip",
   "extract_dir": "SourceHanSansCN",
-  "hash": "6841fc13f1c0d255cfeb33d2a2c68d24bbebd94ae2c070347a2b2b200a1db4d6",
+  "hash": "995741f78da513a9b82a0b6066160d153baf91536a13a683bea982d204e06e64",
   "notes": "Please install fonts in $dir manually",
   "checkver": {
-    "url": "https://github.com/adobe-fonts/source-han-sans/releases/latest",
-    "regex": "Release Fonts Version ([\\d.\\w]+)"
+    "github": "https://github.com/adobe-fonts/source-han-sans"
   },
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/adobe-fonts/source-han-sans/releases/download/$version/SourceHanSansCN.zip"
+    "url": "https://github.com/adobe-fonts/source-han-sans/raw/release/SubsetOTF/SourceHanSansCN.zip"
   }
 }

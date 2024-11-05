@@ -1,12 +1,12 @@
 {
-  "version": "2.14.6",
+  "version": "2.13.2",
   "description": "A python based web application for monitoring, analytics and notifications for Plex Media Server.",
   "homepage": "https://tautulli.com/",
   "license": "GPL-3.0",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/Tautulli/Tautulli/releases/download/v2.14.6/Tautulli-windows-v2.14.6-x64.exe#/dl.7z",
-      "hash": "1aa1a7fc97120e67080c7e67a89c6718b7640a688ed4e19542fa134bb1cbcebb"
+      "url": "https://mirror.ghproxy.com/https://github.com/Tautulli/Tautulli/releases/download/v2.13.2/Tautulli-windows-v2.13.2-x64.exe#/dl.7z",
+      "hash": "f95b6686e097ef5ca6db080a12960095458efe17371c01384756a3a246f2e506"
     }
   },
   "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\",\"$dir\\uninstall.exe\" -Force -Recurse",

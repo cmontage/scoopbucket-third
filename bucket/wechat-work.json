@@ -1,20 +1,13 @@
 {
-  "version": "nightly",
-  "description": "Connection Makes a Smarter Business",
   "homepage": "https://work.weixin.qq.com/",
-  "license": {
-    "identifier": "EULA",
-    "url": "https://work.weixin.qq.com/nl/eula"
-  },
-  "url": "https://work.weixin.qq.com/wework_admin/commdownload?platform=win&from=wwindex#/dl.7z",
+  "description": "企业微信",
+  "version": "nightly",
+  "license": "Freeware",
+  "url": "https://work.weixin.qq.com/wework_admin/commdownload?platform=win&from=wwindex#/wechat-work.7z",
   "shortcuts": [
     [
       "WXWork.exe",
-      "WeChat Work"
+      "企业微信"
     ]
-  ],
-  "post_install": [
-    "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
-    "Remove-Item \"$dir\\Uninstall.exe\" -Force -Recurse"
   ]
 }

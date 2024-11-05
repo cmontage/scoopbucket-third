@@ -1,14 +1,22 @@
 {
-  "version": "0.4.0",
+  "version": "0.3.1",
   "description": "[ResourcesPack] - A Minecraft: Java Edition resource and data pack optimizer which aims to achieve the best possible compression, performance and protection, improving pack distribution, storage and in-game load times.",
   "homepage": "https://comunidadaylas.github.io/PackSquash/",
   "license": "AGPL-3.0-only",
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/ComunidadAylas/PackSquash/releases/download/v0.3.1/PackSquash.executable.Windows.x64.zip"
+    }
+  },
   "bin": "packsquash.exe",
-  "url": "https://mirror.ghproxy.com/https://github.com/ComunidadAylas/PackSquash/releases/download/v0.4.0/PackSquash.CLI.executable.x86_64-pc-windows-gnu.zip",
   "checkver": {
     "github": "https://github.com/ComunidadAylas/PackSquash"
   },
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/ComunidadAylas/PackSquash/releases/download/v$version/PackSquash.CLI.executable.x86_64-pc-windows-gnu.zip"
+    "architecture": {
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/ComunidadAylas/PackSquash/releases/download/v$version/PackSquash.executable.Windows.x64.zip"
+      }
+    }
   }
 }

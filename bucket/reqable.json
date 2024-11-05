@@ -1,20 +1,23 @@
 {
-  "version": "2.27.2",
-  "description": "Advanced API Debugging Proxy",
+  "version": "1.6.2",
+  "description": "Reqable issue track repo",
   "homepage": "https://reqable.com/",
-  "license": {
-    "identifier": "Proprietary",
-    "url": "https://reqable.com/en-US/docs/license/"
-  },
-  "notes": [
-    "Free community version: almost all features are free, but the number of usage is limited.",
-    "For commercial use, you need to purchase a license."
-  ],
+  "license": "Copyright © 2023 Reqable",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/reqable/reqable-app/releases/download/2.27.2/reqable-app-windows-x86_64.zip",
-      "hash": "4d750b30ac18a9b00be273a6c4bf0adaf52e3956f4831553fe688abc12003384"
+      "url": "https://mirror.ghproxy.com/https://github.com/reqable/reqable-app/releases/download/1.6.2/reqable-app-windows-x86_64.exe",
+      "hash": "c23e4e74744640512797887b0497e861064041a0861bbe7dcd788e1d3de2e321"
     }
+  },
+  "innosetup": true,
+  "installer": {
+    "script": [
+      "ensure \"$persist_dir\" | Out-Null",
+      "New-Item \"$env:APPDATA\\Reqable\" -ItemType Junction -Target \"$persist_dir\" | Out-Null"
+    ]
+  },
+  "uninstaller": {
+    "script": "Remove-Item \"$env:APPDATA\\Reqable\" -Recurse -Force -ErrorAction 'SilentlyContinue'"
   },
   "shortcuts": [
     [
@@ -23,12 +26,13 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/reqable/reqable-app"
+    "url": "https://github.com/reqable/reqable-app/releases.atom",
+    "regex": "/releases/tag/([\\d.]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/reqable/reqable-app/releases/download/$version/reqable-app-windows-x86_64.zip"
+        "url": "https://mirror.ghproxy.com/https://github.com/reqable/reqable-app/releases/download/$version/reqable-app-windows-x86_64.exe"
       }
     }
   }

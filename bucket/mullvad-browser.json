@@ -1,19 +1,18 @@
 {
-  "$schema": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/ScoopInstaller/Scoop/master/schema.json",
-  "version": "13.5.9",
-  "description": "A privacy-focused web browser developed in a collaboration between Mullvad VPN and the Tor Project.",
+  "version": "13.0.9",
   "homepage": "https://mullvad.net/en/browser",
+  "description": "A privacy-focused web browser developed in a collaboration between Mullvad VPN and the Tor Project.",
   "license": "MPL-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://cdn.mullvad.net/browser/13.5.9/mullvad-browser-windows-x86_64-13.5.9.exe#/dl.7z",
-      "hash": "e4a6a38a5175cc9ee83d030d436507fbc3669af263901e636bc5e8d3b6929971"
+      "url": "https://cdn.mullvad.net/browser/13.0.4/mullvad-browser-windows-x86_64-portable-13.0.4.exe#/dl.7z",
+      "hash": "67bcd4568a4d376cbeb1f78fcb5a8d2e5b116b86c15ded49179d171488c6cc0b"
     }
   },
   "pre_install": "Remove-Item \"$dir\\`$*\", \"$dir\\Browser\\update*\" -Recurse -ErrorAction SilentlyContinue",
   "shortcuts": [
     [
-      "mullvadbrowser.exe",
+      "Browser\\mullvadbrowser.exe",
       "Mullvad Browser"
     ]
   ],
@@ -28,7 +27,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://cdn.mullvad.net/browser/$version/mullvad-browser-windows-x86_64-$version.exe#/dl.7z"
+        "url": "https://cdn.mullvad.net/browser/13.0.4/mullvad-browser-windows-x86_64-portable-13.0.4.exe#/dl.7z"
       }
     },
     "hash": {

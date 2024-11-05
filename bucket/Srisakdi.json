@@ -3,10 +3,7 @@
   "description": "Thai National Font. The name 'Srisakdi' means prestige. The Thai scripts are in the 'court style', a style of writing prominent during the Thon Buri Kingdom.",
   "homepage": "https://fonts.google.com/specimen/Srisakdi",
   "license": "OFL-1.1",
-  "url": [
-    "https://github.com/google/fonts/raw/main/ofl/srisakdi/Srisakdi-Bold.ttf",
-    "https://github.com/google/fonts/raw/main/ofl/srisakdi/Srisakdi-Regular.ttf"
-  ],
+  "url": "https://fonts.google.com/download?family=Srisakdi#/fonts.zip",
   "installer": {
     "script": [
       "$currentBuildNumber = [int] (Get-ItemProperty \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\").CurrentBuildNumber",
@@ -42,7 +39,7 @@
       "Get-ChildItem $dir -Filter '*.ttf' | ForEach-Object {",
       "    $value = if ($global) { $_.Name } else { \"$fontInstallDir\\$($_.Name)\" }",
       "    New-ItemProperty -Path $registryKey -Name $_.Name.Replace($_.Extension, ' (TrueType)') -Value $value -Force | Out-Null",
-      "    Copy-Item -LiteralPath $_.FullName -Destination $fontInstallDir",
+      "    Copy-Item $_.FullName -Destination $fontInstallDir",
       "}"
     ]
   },

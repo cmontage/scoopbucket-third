@@ -1,10 +1,10 @@
 {
-  "version": "4.2.1",
+  "version": "4.1.1",
   "description": "FamiStudio NES Music Editor.",
   "homepage": "https://github.com/BleuBleu/FamiStudio",
   "license": "MIT",
-  "url": "https://mirror.ghproxy.com/https://github.com/BleuBleu/FamiStudio/releases/download/4.2.1/FamiStudio421-WinPortableExe.zip",
-  "hash": "0ef06688b3432b60d48a0faf316c1c8b729c71ed4d9aa92f5927809afb771919",
+  "url": "https://mirror.ghproxy.com/https://github.com/BleuBleu/FamiStudio/releases/download/4.1.1/FamiStudio411-WinPortableExe.zip",
+  "hash": "59dbe3255fe2ed330b58405fa7ba1ad96ac2c239056375c6ac0e36a0a2b1d7f0",
   "bin": "FamiStudio.exe",
   "shortcuts": [
     [

@@ -1,16 +1,16 @@
 {
-  "version": "1.2.1",
+  "version": "1.1.4",
   "description": "A fast and multi-purpose DNS toolkit allow to run multiple DNS queries",
   "homepage": "https://github.com/projectdiscovery/dnsx",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/projectdiscovery/dnsx/releases/download/v1.2.1/dnsx_1.2.1_windows_amd64.zip",
-      "hash": "e360a112f6251636c8b625f48986dd5883abb0631bb1c58ca2080e40410c9703"
+      "url": "https://mirror.ghproxy.com/https://github.com/projectdiscovery/dnsx/releases/download/v1.1.4/dnsx_1.1.4_windows_amd64.zip",
+      "hash": "5628f445c989235776faff05c4b67ad4e331a1531415efb038fc627028e8f033"
     },
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/projectdiscovery/dnsx/releases/download/v1.2.1/dnsx_1.2.1_windows_386.zip",
-      "hash": "25341e5b082ac4cdb3e9e78fbfa777da243ce05487e07280d3276f68d4c76a25"
+      "url": "https://mirror.ghproxy.com/https://github.com/projectdiscovery/dnsx/releases/download/v1.1.4/dnsx_1.1.4_windows_386.zip",
+      "hash": "536d9df6c79a1717443f29274061a4890e7f69b3365e4c58ef2102a22f0fe71c"
     }
   },
   "bin": "dnsx.exe",

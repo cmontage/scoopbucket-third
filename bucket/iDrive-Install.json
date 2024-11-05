@@ -1,11 +1,11 @@
 {
-  "version": "7.0.0.13",
+  "version": "6.7.4.47",
   "description": "iDrive. Online cloud backup for your PC's, Macs and Mobile devices",
   "homepage": "https://idriveonlinebackup.com/",
   "license": "Proprietary",
   "changelog": "https://idriveonlinebackup.com/release-info#win",
   "url": "https://static.idriveonlinebackup.com/downloads/IDriveWinSetup.exe#/setup.exe",
-  "hash": "e003a308507cb8d9997b65e79a3e2d2672023831abbc6353aacfb6e8c4f673cf",
+  "hash": "10603d554167ab890c94aae1afc0144c83b1e3e57c135d942895562ead745a7f",
   "pre_download": "Assert-Administrator",
   "pre_install": [
     "$processname = \"id_win\"",
@@ -36,8 +36,8 @@
     ]
   },
   "checkver": {
-    "url": "https://www.majorgeeks.com/files/details/idrive.html",
-    "regex": "files/details/idrive.html\">iDrive ([\\d.]+)"
+    "url": "https://community.chocolatey.org/packages/idrive",
+    "regex": "Downloads of v ([\\d.]+)"
   },
   "autoupdate": {
     "url": "https://static.idriveonlinebackup.com/downloads/IDriveWinSetup.exe#/setup.exe"

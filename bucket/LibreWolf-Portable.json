@@ -1,20 +1,20 @@
 {
-  "version": "132.0-1",
+  "version": "119.0-5",
   "description": "LibreWolf. A fork of Firefox, focused on privacy, security and freedom.",
   "homepage": "https://librewolf.net/",
   "license": "MPL-2.0",
   "changelog": "https://gitlab.com/librewolf-community/browser/windows/-/releases",
   "architecture": {
     "64bit": {
-      "url": "https://gitlab.com/api/v4/projects/44042130/packages/generic/librewolf/132.0-1/librewolf-132.0-1-windows-x86_64-portable.zip",
-      "hash": "dab77a278eea4edf546c72e0e439f4ff6a1afd51daa052bab8e564c3424e0a31"
+      "url": "https://gitlab.com/api/v4/projects/44042130/packages/generic/librewolf/119.0-5/librewolf-119.0-5-windows-x86_64-portable.zip",
+      "hash": "6559875cb4c8f3487de8d7bffe27d410585d1499d44cc67f7b5671e3bb636e72"
     },
     "32bit": {
-      "url": "https://gitlab.com/api/v4/projects/44042130/packages/generic/librewolf/132.0-1/librewolf-132.0-1-windows-i686-portable.zip",
-      "hash": "efe0348190e6ac1d4fd259b39a3d1ef7ca351be55ac804aaf14fbcfe2059370e"
+      "url": "https://gitlab.com/api/v4/projects/44042130/packages/generic/librewolf/119.0-5/librewolf-119.0-5-windows-i686-portable.zip",
+      "hash": "134d7e6c29c077b0332877bd1bc28a29ea89f90b0f53d100d5bf3175b806126b"
     }
   },
-  "extract_dir": "librewolf-132.0-1",
+  "extract_dir": "librewolf-119.0-5",
   "pre_install": [
     "Remove-Item \"$dir\\LibreWolf-WinUpdater.exe\"",
     "# Customizing LibreWolf Using AutoConfig",

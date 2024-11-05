@@ -1,5 +1,5 @@
 {
-  "version": "5.1.0",
+  "version": "4.8.0",
   "description": "Full-featured system information about your system",
   "homepage": "http://mitec.cz/msi.html",
   "license": {
@@ -7,7 +7,7 @@
     "url": "http://mitec.cz/msi.html#license"
   },
   "url": "http://mitec.cz/Downloads/MSIX.ZIP",
-  "hash": "21a9aff0b2a9470bfbe102266daacc027a1cbf5e2606d866548f7961b8db74b7",
+  "hash": "b9237dafe4246b480252b8fd018c7f7aae44f4f206fc62d535d5ca46330a7829",
   "pre_install": [
     "Remove-Item \"$dir\\MSIX64.exe\" -Force",
     "Remove-Item \"$dir\\GetSys64.exe\" -Force"

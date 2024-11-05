@@ -1,10 +1,10 @@
 {
-  "version": "1.0.22-0",
+  "version": "0.42.3-0",
   "description": "CJK programming font based on Iosevka and Source Han Sans (Nerd Fonts patched)",
   "homepage": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts",
   "license": "OFL-1.1",
-  "url": "https://mirror.ghproxy.com/https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts/releases/download/v1.0.22-0/sarasa-fixed-slab-hc-nerd-font.zip",
-  "hash": "05d05a985f0e5865a5bda10fa4731288e65da851ecd34a7da6ef1e446a98ea7c",
+  "url": "https://mirror.ghproxy.com/https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts/releases/download/v0.42.3-0/sarasa-fixed-slab-hc-nerd-font.zip",
+  "hash": "548b5e8122f5db8f877aac719c070042845831de11c29cabe996765f5962d22e",
   "pre_install": [
     "$currentBuildNumber = [int] (Get-ItemProperty \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\").CurrentBuildNumber",
     "$windows10Version1809BuildNumber = 17763",

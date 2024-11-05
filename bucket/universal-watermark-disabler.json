@@ -13,7 +13,9 @@
     ]
   ],
   "checkver": {
-    "regex": ">Universal Watermark Disabler ([\\d.]+)<"
+    "url": "https://winaero.com/download-universal-watermark-disabler",
+    "regex": "<span id=\"Universal_Watermark_Disabler_1006\">Universal\\sWatermark\\sDisabler\\s(?<ver>[\\d.]+)</span>",
+    "replace": "${ver}"
   },
   "autoupdate": {
     "url": "https://winaero.com/downloads/uwd.zip"

@@ -1,20 +1,12 @@
 {
-  "version": "2.8.2",
-  "description": "AI Chatbots in terminal without needing API keys",
+  "version": "2.1.1",
+  "description": "ChatGPT in your terminal, without the need for API keys",
   "homepage": "https://github.com/aandrew-me/tgpt",
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/aandrew-me/tgpt/releases/download/v2.8.2/tgpt-amd64.exe#/tgpt.exe",
-      "hash": "fd2ab7f27fcad4e24c860b719e038bd7918e11f5b508f04c2650e2ddd3e99a61"
-    },
-    "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/aandrew-me/tgpt/releases/download/v2.8.2/tgpt-i386.exe#/tgpt.exe",
-      "hash": "24fa900712a06941a1e89113988b3912256f066dd87f1c6fa994d6274a3efa26"
-    },
-    "arm64": {
-      "url": "https://mirror.ghproxy.com/https://github.com/aandrew-me/tgpt/releases/download/v2.8.2/tgpt-arm64.exe#/tgpt.exe",
-      "hash": "8cb74c6fe6b54738fcfa7eae2cac9d5b60c0fbc71da6146d76be09842d160d6c"
+      "url": "https://mirror.ghproxy.com/https://github.com/aandrew-me/tgpt/releases/download/v2.1.1/tgpt-amd64.exe#/tgpt.exe",
+      "hash": "1dcc2455a6e5b680b3e08d7b5642d557c637ce6a3d461836cf2608ed4851a3db"
     }
   },
   "bin": "tgpt.exe",
@@ -23,17 +15,7 @@
     "architecture": {
       "64bit": {
         "url": "https://mirror.ghproxy.com/https://github.com/aandrew-me/tgpt/releases/download/v$version/tgpt-amd64.exe#/tgpt.exe"
-      },
-      "32bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/aandrew-me/tgpt/releases/download/v$version/tgpt-i386.exe#/tgpt.exe"
-      },
-      "arm64": {
-        "url": "https://mirror.ghproxy.com/https://github.com/aandrew-me/tgpt/releases/download/v$version/tgpt-arm64.exe#/tgpt.exe"
       }
-    },
-    "hash": {
-      "url": "https://github.com/aandrew-me/tgpt/releases/tag/v$version",
-      "find": "$sha256\\s+$basename"
     }
   }
 }

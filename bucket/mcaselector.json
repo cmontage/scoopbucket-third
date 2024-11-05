@@ -1,10 +1,10 @@
 {
-  "version": "2.4.2",
+  "version": "2.2.2",
   "description": "[Map] - A tool to select chunks from Minecraft worlds for deletion or export.",
   "homepage": "https://github.com/Querz/mcaselector/wiki",
   "license": "MIT",
-  "url": "https://mirror.ghproxy.com/https://github.com/Querz/mcaselector/releases/download/2.4.2/MCA_Selector_Setup.exe",
-  "hash": "fb6d5a72b7f2cc3d18d55bf222f2e0a65106291990e1c595fc2988e141994c45",
+  "url": "https://mirror.ghproxy.com/https://github.com/Querz/mcaselector/releases/download/2.2.2/MCA_Selector_Setup.exe",
+  "hash": "3f28b132c987c5d8e0337429ca8e6381e518ed09c6434eba90c52382400b48ed",
   "innosetup": true,
   "bin": "MCA Selector.exe",
   "shortcuts": [

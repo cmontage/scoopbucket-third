@@ -1,12 +1,12 @@
 {
-  "version": "2024.09.0+375.pro3",
+  "version": "2023.09.1+494.pro2",
   "homepage": "https://www.rstudio.com/",
   "description": "An IDE for R, which includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging and workspace management.",
   "license": "https://rstudio.com/about/eula/",
   "architecture": {
     "64bit": {
-      "url": "https://s3.amazonaws.com/rstudio-ide-build/desktop/windows/RStudio-pro-2024.09.0-375.pro3.exe",
-      "hash": "573656fda85f17facee5bc9c1103f6f5eec951ba1d09bfcc4ecc4760772f2004"
+      "url": "https://s3.amazonaws.com/rstudio-ide-build/desktop/windows/RStudio-pro-2023.09.1-494.pro2.exe",
+      "hash": "2c266c9b56ae6f244449747d1c4935ba12ebf1ddcfe091d57bbe9f390f520b20"
     }
   },
   "bin": [
@@ -22,7 +22,7 @@
     ]
   ],
   "checkver": {
-    "url": "https://posit.co/wp-content/uploads/downloads.json",
+    "url": "https://www.rstudio.com/wp-content/downloads.json",
     "jsonpath": ".rstudio.pro.preview.desktop.installer.windows.version",
     "regex": "(?<date>[\\d.]+)(?<type>-preview)?\\+(?<build>\\d+)(?<pro>\\.pro\\d+)",
     "replace": "${date}+${build}${pro}${type}"
@@ -34,7 +34,7 @@
         "hash": {
           "mode": "json",
           "jsonpath": ".rstudio.pro.preview.desktop.installer.windows.sha256",
-          "url": "https://posit.co/wp-content/uploads/downloads.json"
+          "url": "https://www.rstudio.com/wp-content/downloads.json"
         }
       }
     }

@@ -1,5 +1,5 @@
 {
-  "version": "0.0.5",
+  "version": "0.0.0-alpha.0",
   "description": "插件化、定制化、无广告的免费音乐播放器",
   "homepage": "http://musicfree.upup.fun/",
   "license": {
@@ -9,8 +9,8 @@
   "notes": "See usage:<https://github.com/maotoumao/MusicFree#插件>",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/maotoumao/MusicFreeDesktop/releases/download/v0.0.5/MusicFree-0.0.5-win32-x64-setup.exe",
-      "hash": "b75a50000adce7fb1cd5c018b6758e1b8446e3caa940a838a075045dab48b725"
+      "url": "https://mirror.ghproxy.com/https://github.com/maotoumao/MusicFreeDesktop/releases/download/v0.0.0-alpha.0/MusicFreeSetup.exe",
+      "hash": "68f599c3b357943bdc0ddcc02b74775affac1695f36f42048d9a0515d7193e5d"
     }
   },
   "innosetup": true,
@@ -31,13 +31,12 @@
   ],
   "checkver": {
     "url": "https://api.github.com/repos/maotoumao/MusicFreeDesktop/releases",
-    "jsonpath": "$[0].assets[*].browser_download_url",
-    "regex": "(?<file>MusicFree-([\\d.]+)-win(?:dows|32-x64)-setup.exe)"
+    "regex": "(?sm)browser_download_url.*?releases/download/v([\\w.-]+)/MusicFreeSetup.exe"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/maotoumao/MusicFreeDesktop/releases/download/v$version/$matchFile"
+        "url": "https://mirror.ghproxy.com/https://github.com/maotoumao/MusicFreeDesktop/releases/download/v$version/MusicFreeSetup.exe"
       }
     }
   }

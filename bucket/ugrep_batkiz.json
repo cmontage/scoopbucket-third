@@ -1,16 +1,13 @@
 {
-  "description": "an ultra fast, user-friendly, compatible grep.",
+  "description": "Search for anything in everything... ultra fast",
   "homepage": "https://github.com/Genivia/ugrep",
-  "version": "6.1.0",
+  "version": "3.12.4",
   "license": "BSD-3-Clause",
   "checkver": "github",
-  "url": "https://mirror.ghproxy.com/https://github.com/Genivia/ugrep/releases/download/v6.1.0/ugrep-windows-x64.zip",
-  "hash": "e9356abe4bad0413770703d4077c825e8d7be2b1700a3b9f89985a913e4fbb85",
-  "bin": [
-    "ug.exe",
-    "ugrep.exe"
-  ],
+  "url": "https://mirror.ghproxy.com/https://github.com/Genivia/ugrep/releases/download/v3.12.4/ugrep.exe#/ug.exe",
+  "hash": "4c42a7dbb90e77ca0d28ea2c8face6a3fc8b3760708cd5e4294d3406bffd17e8",
+  "bin": "ug.exe",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/Genivia/ugrep/releases/download/v$version/ugrep-windows-x64.zip"
+    "url": "https://mirror.ghproxy.com/https://github.com/Genivia/ugrep/releases/download/v$version/ugrep.exe#/ug.exe"
   }
 }

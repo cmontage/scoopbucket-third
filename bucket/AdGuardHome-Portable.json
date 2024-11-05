@@ -1,17 +1,17 @@
 {
-  "version": "0.107.53",
+  "version": "0.107.40",
   "description": "AdGuard Home. Network-wide ads & trackers blocking DNS server",
   "homepage": "https://github.com/AdguardTeam/AdGuardHome",
   "license": "GPL-3.0-or-later",
   "changelog": "https://github.com/AdguardTeam/AdGuardHome/releases",
   "architecture": {
     "64bit": {
-      "url": "https://ghproxy.net/https://mirror.ghproxy.com/https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.53/AdGuardHome_windows_amd64.zip",
-      "hash": "dbc767de9388190f76a33a4b5f4c395a71b6b67d8a5d0f3bc02ec8b675d41a06"
+      "url": "https://mirror.ghproxy.com/https://mirror.ghproxy.com/https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.40/AdGuardHome_windows_amd64.zip",
+      "hash": "4f5554cec1b836a611b5753bd3490e8a564ef0000d55b53c4952a5afb96f7dec"
     },
     "32bit": {
-      "url": "https://ghproxy.net/https://mirror.ghproxy.com/https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.53/AdGuardHome_windows_386.zip",
-      "hash": "83a10e9882ea6b8b141e404cad1e479fd6b6af1de5832ccd2c05bb43a704d2c1"
+      "url": "https://mirror.ghproxy.com/https://mirror.ghproxy.com/https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.40/AdGuardHome_windows_386.zip",
+      "hash": "253fae346e487052c1530d15771d54cb8d306256096de086816d6bd34f1739c1"
     }
   },
   "extract_dir": "AdGuardHome",
@@ -23,10 +23,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghproxy.net/https://mirror.ghproxy.com/https://github.com/AdguardTeam/AdGuardHome/releases/download/v$version/AdGuardHome_windows_amd64.zip"
+        "url": "https://mirror.ghproxy.com/https://mirror.ghproxy.com/https://github.com/AdguardTeam/AdGuardHome/releases/download/v$version/AdGuardHome_windows_amd64.zip"
       },
       "32bit": {
-        "url": "https://ghproxy.net/https://mirror.ghproxy.com/https://github.com/AdguardTeam/AdGuardHome/releases/download/v$version/AdGuardHome_windows_386.zip"
+        "url": "https://mirror.ghproxy.com/https://mirror.ghproxy.com/https://github.com/AdguardTeam/AdGuardHome/releases/download/v$version/AdGuardHome_windows_386.zip"
       }
     }
   }

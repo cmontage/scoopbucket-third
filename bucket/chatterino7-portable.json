@@ -1,16 +1,16 @@
 {
-  "version": "11498911109",
+  "version": "6536705195",
   "description": "Chat client for https://twitch.tv",
   "homepage": "https://github.com/SevenTV/chatterino7",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/SevenTV/chatterino7/releases/download/nightly-build/chatterino-windows-x86-64-Qt-6.7.3.zip",
-      "hash": "515f1b560ec16f7a14d0d5786d6e66c9fb00ab232723846540f88f00897726da",
+      "url": "https://mirror.ghproxy.com/https://github.com/SevenTV/chatterino7/releases/download/nightly-build/chatterino-windows-x86-64-Qt-6.5.0.zip",
+      "hash": "380ee0f02a5ebbd6568b583528248eacef2e87789dacb20c6ec14fb086abc7b9",
       "extract_dir": "Chatterino2",
       "pre_install": [
-        "Get-ChildItem \"$dir/chatterino.exe\" | Rename-Item -NewName { $_.name.Replace('o', 'o7-portable') }",
-        "$modes = \"$dir/modes\"",
+        "Get-ChildItem \"$dir\\chatterino.exe\" | Rename-Item -NewName { $_.name.Replace('o', 'o7-portable') }",
+        "$modes = \"$dir\\modes\"",
         "$PSDefaultParameterValues['Out-File:Encoding'] = 'utf8'",
         "Invoke-Expression \"'portable' >$(if (Test-Path $modes) { '>' }) `$modes\""
       ]
@@ -29,20 +29,13 @@
   ],
   "bin": "chatterino7-portable.exe",
   "checkver": {
-    "script": [
-      "try {",
-      "    $null = (Invoke-WebRequest https://mirror.ghproxy.com/https://raw.githubusercontent.com/SevenTV/chatterino7/master/.github/workflows/build.yml).Content -cmatch 'os: windows-latest\\s+qt-version: ([\\d.]+)'",
-      "    $Matches[1],",
-      "    (Invoke-RestMethod 'https://api.github.com/repositories/342454835/actions/workflows/build.yml/runs?branch=master&status=success').workflow_runs[0].id -join ' '",
-      "}",
-      "catch { '' }"
-    ],
-    "regex": "\\A(?<qt>[\\d.]+) (\\d+)\\Z"
+    "url": "https://api.github.com/repositories/342454835/actions/workflows/build.yml/runs?branch=chatterino7&status=success",
+    "jsonpath": "$.workflow_runs[0].id"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/SevenTV/chatterino7/releases/download/nightly-build/chatterino-windows-x86-64-Qt-$matchQt.zip"
+        "url": "https://mirror.ghproxy.com/https://github.com/SevenTV/chatterino7/releases/download/nightly-build/chatterino-windows-x86-64-Qt-6.5.0.zip"
       }
     }
   }

@@ -2,11 +2,11 @@
   "homepage": "https://crates.io/crates/mdcat",
   "description": "cat for Markdown",
   "license": "Apache-2.0",
-  "version": "2.5.0",
+  "version": "2.0.3",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/lunaryorn/mdcat/releases/download/mdcat-2.5.0/mdcat-2.5.0-x86_64-pc-windows-msvc.zip",
-      "hash": "64a544daa4b05052ef62fa9487105b0c72d1e4bbb269138cbf2352a02b35bef3"
+      "url": "https://mirror.ghproxy.com/https://github.com/lunaryorn/mdcat/releases/download/mdcat-2.0.3/mdcat-2.0.3-x86_64-pc-windows-msvc.zip",
+      "hash": "c93b31c7b55fe6353059d52c75d84dc7d92546d273c539ed6b5507b5b05fa258"
     }
   },
   "installer": {
@@ -25,6 +25,9 @@
       "64bit": {
         "url": "https://mirror.ghproxy.com/https://github.com/lunaryorn/mdcat/releases/download/mdcat-$version/mdcat-$version-x86_64-pc-windows-msvc.zip"
       }
+    },
+    "hash": {
+      "url": "$baseurl/SHA512SUM.txt"
     }
   }
 }

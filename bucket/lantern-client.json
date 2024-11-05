@@ -1,15 +1,15 @@
 {
-  "version": "7.9.6",
+  "version": "7.7.1",
   "description": "HTTP/HTTPS proxy",
   "homepage": "https://lantern.io/",
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
       "url": "https://media.githubusercontent.com/media/getlantern/lantern-binaries/main/lantern-installer-64-bit.exe#/dl.7z",
-      "hash": "b8d3219afd6125fb57dc05f102d74b7bc759b81e4379c79a3da7ceedc57f6f98"
+      "hash": "76f9be60f24665c07285ef20dd267f4edddbe04d16916a176f3b497784eb63cc"
     }
   },
-  "pre_install": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
+  "pre_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninstall.exe.nsis\" -Force -Recurse",
   "bin": "lantern.exe",
   "shortcuts": [
     [
@@ -19,8 +19,8 @@
   ],
   "persist": "lantern.yaml",
   "checkver": {
-    "url": "https://github.com/getlantern/lantern-binaries/commits/main/lantern-installer-64-bit.exe",
-    "regex": "Lantern binaries for version ([\\d.]+)"
+    "url": "https://github.com/getlantern/lantern-binaries",
+    "regex": "(?sm)lantern-installer-64-bit\\.exe.*?Lantern binaries for version ([\\d.]+)"
   },
   "autoupdate": {
     "architecture": {

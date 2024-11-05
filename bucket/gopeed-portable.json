@@ -1,12 +1,12 @@
 {
-  "version": "1.6.1",
+  "version": "1.4.3",
   "description": "High speed downloader that supports all platforms.",
   "homepage": "https://github.com/GopeedLab/gopeed",
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/GopeedLab/gopeed/releases/download/v1.6.1/Gopeed-v1.6.1-windows-amd64-portable.zip",
-      "hash": "bd1cc852716ed2da2436a52a48c67d99be7e58d834ff51099e37c7ecefbb6cc8"
+      "url": "https://mirror.ghproxy.com/https://github.com/GopeedLab/gopeed/releases/download/v1.4.3/Gopeed-v1.4.3-windows-amd64-portable.zip",
+      "hash": "c2e1eb39b4f082a37442811c1cd9fc0b494892c93f22d3dd3f28d9b0d12582c7"
     }
   },
   "shortcuts": [

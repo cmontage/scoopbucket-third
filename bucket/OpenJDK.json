@@ -1,0 +1,33 @@
+{
+  "description": "Official General-Availability Release of OpenJDK",
+  "homepage": "https://jdk.java.net/",
+  "version": "21.0.1-12",
+  "license": "GPL-2.0-only WITH Classpath-exception-2.0",
+  "architecture": {
+    "64bit": {
+      "url": "https://download.java.net/java/GA/jdk21.0.1/415e3f918a1f4062a0074a2794853d0d/12/GPL/openjdk-21.0.1_windows-x64_bin.zip",
+      "hash": "77ea464f4fa7cbcbffe0124af44707e8e5ad8c1ce2373f1d94a64d9b20ba0c69"
+    }
+  },
+  "extract_dir": "jdk-21.0.1",
+  "env_add_path": "bin",
+  "env_set": {
+    "JAVA_HOME": "$dir"
+  },
+  "checkver": {
+    "url": "https://jdk.java.net/21/",
+    "re": "/(?<type>early_access|GA)/(?<path>jdk(?<major>[\\d.]+)(?:.*)?/(?<build>[\\d]+)(?:/GPL|/binaries)?)/(?<file>openjdk-(?<version>[\\d.]+)(?<ea>-ea)?(?:\\+[\\d]+)?_windows-x64_bin.(zip|tar.gz))",
+    "replace": "${version}-${build}${ea}"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://download.java.net/java/$matchType/$matchPath/$matchFile"
+      }
+    },
+    "hash": {
+      "url": "$url.sha256"
+    },
+    "extract_dir": "jdk-$matchVersion"
+  }
+}

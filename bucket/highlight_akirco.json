@@ -1,19 +1,19 @@
 {
-  "version": "4.14",
+  "version": "4.7",
   "description": "Converts source code to formatted text with syntax highlighting.",
   "homepage": "http://www.andre-simon.de/doku/highlight/en/highlight.php",
   "license": "GPL-3.0-only",
   "notes": "You need to set the working directory of the shortcut to '$dir'",
   "architecture": {
     "64bit": {
-      "url": "http://www.andre-simon.de/zip/highlight-4.14-x64.zip",
-      "hash": "d13458ec8bd42739e44fccc7ac3904263ff3642349cda3614ef54e4c1e06f106",
-      "extract_dir": "highlight-4.14-x64"
+      "url": "http://www.andre-simon.de/zip/highlight-4.7-x64.zip",
+      "hash": "68854b56c27ed9db8bb85f63c79d5f0e5769072ee6b5d1f8d9244a128716b70b",
+      "extract_dir": "highlight-4.7-x64"
     },
     "32bit": {
-      "url": "http://www.andre-simon.de/zip/highlight-4.14.zip",
-      "hash": "d168fc3f65355ebc1e7604dce750e0bf6465bc55a478b25b28a27a3f10bc3470",
-      "extract_dir": "highlight-4.14"
+      "url": "http://www.andre-simon.de/zip/highlight-4.7.zip",
+      "hash": "7b7330a55479da8f728ecedea903ab77b58e51c1db741bcc258c9dddb2717cb7",
+      "extract_dir": "highlight-4.7"
     }
   },
   "bin": "highlight.exe",

@@ -1,25 +1,18 @@
 {
-  "version": "8.1.0.2",
-  "description": "Choice 金融终端，提供金融数据服务、智能投研服务、大模型及应用服务等多场景解决方案。",
-  "homepage": "https://choice.eastmoney.com",
-  "license": "Unknown",
-  "url": "https://cftdlcdn.eastmoney.com/Choice/OfflinePackageV4/8.1.0.2/ChoiceSetupLocal.exe#/dl.7z",
-  "hash": "1cffec72c1305a269bd6da8694c53ab73116f184448ce41514e4fcfa430e0b4d",
+  "bin": "Choice/bin/EmStart.exe",
+  "description": "A financial date tool",
+  "extract_to": "Choice",
+  "homepage": "https://choice.eastmoney.com/",
+  "license": "Free",
+  "notes": [
+    "\nAdded by Andrew Pozenel - anderlli0053"
+  ],
   "shortcuts": [
     [
-      "Choice.exe",
-      "Choice"
+      "Choice/bin/EmStart.exe",
+      "Choice Start"
     ]
   ],
-  "persist": [
-    "config",
-    "data"
-  ],
-  "checkver": {
-    "url": "https://choice.eastmoney.com/Download/GetDownloadInfoList",
-    "regex": "OfflineVersion.*?(?<version>[\\d.]+)\\\\\".*?\"https://(?<url>.*?)\\\\\""
-  },
-  "autoupdate": {
-    "url": "https://$matchUrl#/dl.7z"
-  }
+  "url": "https://choiceupdates.eastmoney.com/Choice/OfflinePackage/6.3.1.1/ChoiceSetupLocal.exe#/dl.7z",
+  "version": "6.3.1.1"
 }

@@ -1,10 +1,10 @@
 {
-  "version": "3.1.2",
+  "version": "3.1.1",
   "description": "MiTeC Windows Registry Recovery",
   "homepage": "https://www.mitec.cz/photo.html",
   "license": "Proprietary",
   "url": "https://www.mitec.cz/Downloads/WRR.zip",
-  "hash": "1f600b1387ef7a23344f8fa1330116b8f9ca654d0a20f50ab6b25f4c61e7631e",
+  "hash": "ff1ab6602f4e960d4eec835e8b5f69f99289006826796ac10ae1cd703c24c046",
   "architecture": {
     "64bit": {
       "pre_install": [

@@ -1,63 +1,46 @@
 {
-  "version": "A68",
-  "description": " Automagically sends IP broadcast packets to all interfaces on Windows.",
-  "homepage": "https://github.com/LongSoft/UEFITool",
-  "license": "GPL-3.0-or-later",
+  "version": "A64",
+  "description": "UEFI firmware image viewer and editor.",
+  "homepage": "https://github.com/LongSoft/UEFITool/",
+  "license": "BSD-2-Clause",
   "architecture": {
     "64bit": {
       "url": [
-        "https://mirror.ghproxy.com/https://github.com/LongSoft/UEFITool/releases/download/A68/UEFIExtract_NE_A68_win64.zip",
-        "https://mirror.ghproxy.com/https://github.com/LongSoft/UEFITool/releases/download/A68/UEFIFind_NE_A68_win64.zip",
-        "https://mirror.ghproxy.com/https://github.com/LongSoft/UEFITool/releases/download/A68/UEFITool_NE_A68_win64.zip"
+        "https://mirror.ghproxy.com/https://github.com/LongSoft/UEFITool/releases/download/A64/UEFIExtract_NE_A64_win64.zip",
+        "https://mirror.ghproxy.com/https://github.com/LongSoft/UEFITool/releases/download/A64/UEFIFind_NE_A64_win64.zip",
+        "https://mirror.ghproxy.com/https://github.com/LongSoft/UEFITool/releases/download/A64/UEFITool_NE_A64_win64.zip"
       ],
       "hash": [
-        "e5246736373fc0ae4bfe3e7441967bd050ee68281e45e9ba5022595e07a65775",
-        "437edd63683ffec9e3298c58d93a930c9f68edb6d5b5de723de42b49bd514ced",
-        "40a7dc4238523ae22d92e61ec9e254b3458a44fd4faeb8046c47ec66197fff45"
+        "12a90a01ca0abb83db1b8f150996ce3082a55ec9674a8c6242ab609487580b87",
+        "1592a982df27c7d19825c2c4cf764aa3660e65559f3829c08cb99b77fd4fa22c",
+        "8a133e728d40ba0cf7d07f98c50af9715fd4f6a84ae4ed95acee8b2fa52ef628"
       ]
     },
     "32bit": {
       "url": [
-        "https://mirror.ghproxy.com/https://github.com/LongSoft/UEFITool/releases/download/A68/UEFIExtract_NE_A68_win32.zip",
-        "https://mirror.ghproxy.com/https://github.com/LongSoft/UEFITool/releases/download/A68/UEFIFind_NE_A68_win32.zip",
-        "https://mirror.ghproxy.com/https://github.com/LongSoft/UEFITool/releases/download/A68/UEFITool_NE_A68_win32.zip"
+        "https://mirror.ghproxy.com/https://github.com/LongSoft/UEFITool/releases/download/A64/UEFIExtract_NE_A64_win32.zip",
+        "https://mirror.ghproxy.com/https://github.com/LongSoft/UEFITool/releases/download/A64/UEFIFind_NE_A64_win32.zip",
+        "https://mirror.ghproxy.com/https://github.com/LongSoft/UEFITool/releases/download/A64/UEFITool_NE_A64_win32.zip"
       ],
       "hash": [
-        "5eb67043442c20648b54c1eb68bcdafff11640cfcf5ffdaf10d344450822dd25",
-        "37a83e343ca6214d6a5171ccf7c5889e71caa40c93cd3c9ec0eb3a045717e26c",
-        "e949ddf68294f794327afe4a187a81e32b8363ebcbe85a5bd54c64ed5a313039"
+        "25f8e68d5fc0218ba6f1c809106a7748e2bd659f52267bb9bfe6b0b95aca1f51",
+        "bce280ac48787e588f9a16523d3db299fffae31a96b6a3da7188551856eea0b2",
+        "5f30cc51df33071fea94536ce0d7fc04d7e4658b0eae0b627c28936b5e6238e1"
       ]
     }
   },
   "bin": [
     "UEFIExtract.exe",
-    "UEFIFind.exe"
+    "UEFIFind.exe",
+    [
+      "UEFITool.exe",
+      "UEFITool_NE_A64"
+    ]
   ],
   "shortcuts": [
     [
       "UEFITool.exe",
-      "UEFITool NE"
+      "UEFITool_NE_A64"
     ]
-  ],
-  "checkver": {
-    "regex": "/releases/tag/((?:[A-Z])?[\\d.]+)"
-  },
-  "autoupdate": {
-    "architecture": {
-      "64bit": {
-        "url": [
-          "https://mirror.ghproxy.com/https://github.com/LongSoft/UEFITool/releases/download/$version/UEFIExtract_NE_$version_win64.zip",
-          "https://mirror.ghproxy.com/https://github.com/LongSoft/UEFITool/releases/download/$version/UEFIFind_NE_$version_win64.zip",
-          "https://mirror.ghproxy.com/https://github.com/LongSoft/UEFITool/releases/download/$version/UEFITool_NE_$version_win64.zip"
-        ]
-      },
-      "32bit": {
-        "url": [
-          "https://mirror.ghproxy.com/https://github.com/LongSoft/UEFITool/releases/download/$version/UEFIExtract_NE_$version_win32.zip",
-          "https://mirror.ghproxy.com/https://github.com/LongSoft/UEFITool/releases/download/$version/UEFIFind_NE_$version_win32.zip",
-          "https://mirror.ghproxy.com/https://github.com/LongSoft/UEFITool/releases/download/$version/UEFITool_NE_$version_win32.zip"
-        ]
-      }
-    }
-  }
+  ]
 }

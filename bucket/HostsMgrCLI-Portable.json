@@ -15,10 +15,7 @@
     }
   },
   "bin": "hostsmgr.exe",
-  "checkver": {
-    "url": "https://github.com/henrypp/hostsmgr/releases",
-    "regex": "\">v.([\\d.]+)"
-  },
+  "checkver": "softwareVersion\">([\\d.]+)",
   "autoupdate": {
     "url": "https://mirror.ghproxy.com/https://github.com/henrypp/hostsmgr/releases/download/v.$version/hostsmgr-$version-bin.zip"
   }

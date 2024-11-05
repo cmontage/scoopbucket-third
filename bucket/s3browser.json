@@ -1,12 +1,12 @@
 {
-  "version": "12.0.1",
+  "version": "11.5.7",
   "description": "S3 Browser is a freeware Windows client for Amazon S3 and Amazon CloudFront.",
   "homepage": "https://s3browser.com/",
   "license": "Freeware",
   "architecture": {
     "64bit": {
-      "url": "https://s3browser.com/download/s3browser-12-0-1.zip",
-      "hash": "0539cca27a13790460e030bb18738018f0d9119cc6d5b3dacc9d5bb05522acd9"
+      "url": "https://s3browser.com/download/s3browser-11-5-7.zip",
+      "hash": "3314e5ec0a75b79803914f9ceafcecd94bb7c67e0b2d218aace5d98e67c32bbd"
     }
   },
   "extract_dir": "S3 Browser",
@@ -14,7 +14,7 @@
   "bin": "s3browser-cli.exe",
   "shortcuts": [
     [
-      "s3browser-ui.exe",
+      "s3browser-win32.exe",
       "S3Browser"
     ]
   ],

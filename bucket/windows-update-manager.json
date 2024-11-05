@@ -1,5 +1,5 @@
 {
-  "version": "1.1",
+  "version": "1.1b",
   "description": "Update Manager for Windows. Manage updates of Microsoft products.",
   "homepage": "https://github.com/DavidXanatos/wumgr",
   "license": "GPL-3.0-or-later",
@@ -14,8 +14,11 @@
     ]
   ],
   "persist": "wumgr.ini",
-  "checkver": "github",
+  "checkver": {
+    "github": "https://github.com/DavidXanatos/wumgr",
+    "regex": "WuMgr_v([\\w.]+)\\.zip"
+  },
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/DavidXanatos/wumgr/releases/download/v$matchHead/WuMgr_v$versionb.zip"
+    "url": "https://mirror.ghproxy.com/https://github.com/DavidXanatos/wumgr/releases/download/v$matchHead/WuMgr_v$version.zip"
   }
 }

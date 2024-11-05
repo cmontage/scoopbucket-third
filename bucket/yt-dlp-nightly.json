@@ -1,23 +1,23 @@
 {
-  "version": "2024.11.02.232942",
-  "description": "yt-dlp (official) nightly builds",
+  "version": "2023.07.29.161429",
+  "description": "A youtube-dl fork with additional features and fixes.",
   "homepage": "https://github.com/yt-dlp/yt-dlp-nightly-builds",
-  "license": "Freeware",
+  "license": "Unlicense",
   "suggest": {
-    "ffmpeg": "ffmpeg-nightly"
+    "ffmpeg": "versions/ffmpeg-nightly"
   },
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/yt-dlp/yt-dlp-nightly-builds/releases/download/2024.11.02.232942/yt-dlp.exe",
-      "hash": "sha512:2b49964b59050c40f0ea79ecc80494d44438691f35d4a79049733f75db3ad810bc6f1f0a4bf3f7cfd3587517eb2a7c8ae51e18984578aa12d67deb8b7c1d359e"
+      "url": "https://mirror.ghproxy.com/https://github.com/yt-dlp/yt-dlp-nightly-builds/releases/download/2023.07.29.161429/yt-dlp.exe",
+      "hash": "sha512:3c30b0128468b2c37080cc3123952e03b5182768cbadd389642992a2013e33e70ab408295243fa28ef66b8586d335635c64daa9a15d46a0134e4fd551fed44bb"
     },
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/yt-dlp/yt-dlp-nightly-builds/releases/download/2024.11.02.232942/yt-dlp_x86.exe#/yt-dlp.exe",
-      "hash": "sha512:b18efafcd9b7364143f4efa5433cb70c1f6c86944e4fe1f03876df8e7e93cf477d47762b6f93c386ba89b692a9e211c1b597f121b388b4a1d90f0db674553f18"
+      "url": "https://mirror.ghproxy.com/https://github.com/yt-dlp/yt-dlp-nightly-builds/releases/download/2023.07.29.161429/yt-dlp_x86.exe#/yt-dlp.exe",
+      "hash": "sha512:2fea2f4164f00aa8ad203d6d2051b8d79b01e17c43a51962dbf74501cf3b9cd86eb667738c879c490839576d47fae2057433c82435d76a429234b8e671b9b201"
     }
   },
   "bin": "yt-dlp.exe",
-  "pre_install": "$null = if (!(Test-Path \"$persist_dir/yt-dlp.conf\")) { New-Item \"$dir/yt-dlp.conf\" }",
+  "pre_install": "if (-not (Test-Path \"$persist_dir\\yt-dlp.conf\")) { New-Item \"$dir\\yt-dlp.conf\" -ItemType file | Out-Null }",
   "persist": [
     "yt-dlp.conf",
     "ytdlp_plugins"

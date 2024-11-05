@@ -1,5 +1,5 @@
 {
-  "version": "2.8.1",
+  "version": "2.7.0",
   "description": "ScummVM is a program which allows you to run certain classic graphical adventure and role-playing games",
   "homepage": "https://www.scummvm.org/",
   "license": {
@@ -8,14 +8,14 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://downloads.scummvm.org/frs/scummvm/2.8.1/scummvm-2.8.1-win32-x86_64.zip",
-      "hash": "89a4bd6dc76fb132a8687b61cfc0cc47ba86159013b321eccbfb0b9fea819544",
-      "extract_dir": "scummvm-2.8.1-win32-x86_64"
+      "url": "https://downloads.scummvm.org/frs/scummvm/2.7.0/scummvm-2.7.0-win32-x86_64.zip",
+      "hash": "426b5cfd5a7bdaef05c8aec33ccc2ccec2fc1c1361dc77c5ef876a045e1b7125",
+      "extract_dir": "scummvm-2.7.0-win32-x86_64"
     },
     "32bit": {
-      "url": "https://downloads.scummvm.org/frs/scummvm/2.8.1/scummvm-2.8.1-win32.zip",
-      "hash": "43bb2cf3df9e7a83e03f3df896799a03943c671af941e7ea68809e2dcfadcad4",
-      "extract_dir": "scummvm-2.8.1-win32"
+      "url": "https://downloads.scummvm.org/frs/scummvm/2.7.0/scummvm-2.7.0-win32.zip",
+      "hash": "96b6e4e15aa174872b9f288be8367ea82047fb8cf2edf9fcf9d662515fca155d",
+      "extract_dir": "scummvm-2.7.0-win32"
     }
   },
   "bin": "scummvm.exe",

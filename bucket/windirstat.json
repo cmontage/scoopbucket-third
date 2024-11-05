@@ -1,35 +1,26 @@
 {
-  "version": "2.0.3",
+  "version": "1.1.2",
   "description": "A disk usage statistics viewer and cleanup tool.",
   "homepage": "https://windirstat.net",
   "license": "GPL-2.0-only",
-  "url": "https://mirror.ghproxy.com/https://github.com/windirstat/windirstat/releases/download/release%2Fv2.0.3/WinDirStat.7z",
-  "hash": "e086e6e15858a708a74cd9e6c2e910f2f9e6039de5c337029791a035bcf78b63",
-  "architecture": {
-    "64bit": {
-      "extract_dir": "x64"
-    },
-    "32bit": {
-      "extract_dir": "x86"
-    },
-    "arm64": {
-      "extract_dir": "arm64"
-    }
-  },
+  "url": "https://windirstat.mirror.wearetriple.com/wds_current_setup.exe#/dl.7z",
+  "hash": "sha1:6fa92dd2ca691c11dfbfc0a239e34369897a7fab",
+  "bin": "windirstat.exe",
   "shortcuts": [
     [
-      "WinDirStat.exe",
+      "windirstat.exe",
       "WinDirStat"
     ]
   ],
   "checkver": {
-    "url": "https://github.com/windirstat/windirstat/releases",
-    "regex": "release/v([\\d.]+)"
+    "url": "https://windirstat.net/download.html",
+    "regex": "Latest version: ([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/windirstat/windirstat/releases/download/release%2Fv$version/WinDirStat.7z",
+    "url": "https://windirstat.mirror.wearetriple.com/wds_current_setup.exe#/dl.7z",
     "hash": {
-      "url": "$baseurl/WinDirStat-Hashes.txt"
+      "url": "https://windirstat.net/download.html",
+      "regex": "<tt>SHA1:\\s+$sha1</tt>"
     }
   }
 }

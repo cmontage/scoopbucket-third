@@ -1,6 +1,6 @@
 {
   "##": "Checkver URL https://docs.microsoft.com/en-us/deployedge/microsoft-edge-relnote-stable-channel",
-  "version": "130.0.2849.68",
+  "version": "118.0.2088.76",
   "description": "Microsoft Edge. The chromium based Microsoft Edge browser.",
   "homepage": "https://www.microsoft.com/en-us/edge/business",
   "license": {
@@ -11,11 +11,11 @@
   "architecture": {
     "64bit": {
       "url": "http://go.microsoft.com/fwlink/?LinkID=2093437#/setup.msi_",
-      "hash": "8749245959664bde1862be4d152c5c87ce1bd47509bf09636e186e5a208817cb"
+      "hash": "d0b4815191f9c99fc12c314d3a8d3fc6ba0bc0350fa734b1f41fc3fc1cee1ad4"
     },
     "32bit": {
       "url": "http://go.microsoft.com/fwlink/?LinkID=2093505#/setup.msi_",
-      "hash": "f0ccd15bdbf85001bb7e18d8ed08abfe0e0fbf8a146d3f16e3a1dd18e9fa0d68"
+      "hash": "cf69d7710abd342ad36d7675fe520fa0009caf541bc4d7ffa2ec6ffa9e67c6b7"
     }
   },
   "pre_download": "Assert-Administrator",

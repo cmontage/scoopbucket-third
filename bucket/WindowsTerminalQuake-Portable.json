@@ -1,37 +1,31 @@
 {
-  "version": "2.0.12-pre1-202410112333",
+  "version": "1.5.0",
   "description": "Windows Terminal Quake. Companion program for the new Windows Terminal that enables Quake-style drop down",
-  "homepage": "https://wtq.flyingpie.nl/",
+  "homepage": "https://github.com/flyingpie/windows-terminal-quake",
   "license": "MIT",
   "changelog": "https://github.com/flyingpie/windows-terminal-quake/releases",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/flyingpie/windows-terminal-quake/releases/download/v2.0.12-pre1/win-x64_self-contained.zip",
-      "hash": "3419e5adeb59847e0bed2ae4560ebc61939dad462d6f795232f4199d25ad1469"
+      "url": "https://mirror.ghproxy.com/https://github.com/flyingpie/windows-terminal-quake/releases/download/v1.5/windows-terminal-quake-1.5.0-2023-04-12_2225.zip",
+      "hash": "4bcd5a935fdb2b2cd369c72d8be8e3592a771eab289a5aa6c569e7e802f9f3e9"
     }
   },
-  "bin": "wtq.exe",
+  "bin": "windows-terminal-quake.exe",
   "shortcuts": [
     [
-      "wtq.exe",
+      "windows-terminal-quake.exe",
       "Windows Terminal Quake"
     ]
   ],
-  "persist": "wtq.json",
+  "persist": "windows-terminal-quake.json",
   "checkver": {
-    "script": [
-      "try { $detail = Invoke-WebRequest 'https://github.com/flyingpie/windows-terminal-quake/releases.atom' -MaximumRedirection 0 -ErrorAction Ignore } catch { $_.Exception.Response }",
-      "$atom = [xml]$detail.Content",
-      "$latest = $atom.feed.entry | Select-Object -First 1",
-      "$result =  $latest.id + '-' + ([DateTime]$latest.updated).ToUniversalTime().ToString('yyyyMMddHHmm')",
-      "return $result"
-    ],
-    "regex": "/v((?<main>.+?)-\\d+)"
+    "url": "https://api.github.com/repos/flyingpie/windows-terminal-quake/releases/latest",
+    "regex": "windows-terminal-quake-([\\d.]+)-(?<time>\\d{4}-\\d{2}-\\d{2}_\\d{4}).zip"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/flyingpie/windows-terminal-quake/releases/download/v$matchMain/win-x64_self-contained.zip"
+        "url": "https://mirror.ghproxy.com/https://github.com/flyingpie/windows-terminal-quake/releases/download/v$majorVersion.$minorVersion/windows-terminal-quake-$version-$matchTime.zip"
       }
     }
   },

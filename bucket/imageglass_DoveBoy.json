@@ -1,29 +1,31 @@
 {
-  "version": "9.1.8.723",
+  "version": "8.9.6.9",
   "description": "A lightweight, versatile image viewer",
   "homepage": "https://imageglass.org",
   "license": "GPL-3.0-only",
-  "notes": "If this app doesn't work maybe you need to clean '$dir\\igconfig.json' and reinstall '$dir\\Themes'.",
+  "notes": "If this app doesn't work maybe you need to clean '$dir\\igconfig.xml'.",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/d2phap/ImageGlass/releases/download/9.1.8.723/ImageGlass_9.1.8.723_x64.zip",
-      "hash": "881999047ef09a0fca80b1906c4a0010316b732ece23b31f10d1102f0e11c96d",
-      "extract_dir": "ImageGlass_9.1.8.723_x64"
+      "url": "https://mirror.ghproxy.com/https://github.com/d2phap/ImageGlass/releases/download/8.9.6.9/ImageGlass_Kobe_8.9.6.9_x64.zip",
+      "hash": "sha1:208e6532103caa7159a40418155b7a06dddeec8f",
+      "extract_dir": "ImageGlass_Kobe_8.9.6.9_x64"
     },
-    "arm64": {
-      "url": "https://mirror.ghproxy.com/https://github.com/d2phap/ImageGlass/releases/download/9.1.8.723/ImageGlass_9.1.8.723_arm64.zip",
-      "hash": "ce4b2fc1cc7469f671aaba8e2cf23e6458bcc4eca1944992e0de1f5d49dc1db4",
-      "extract_dir": "ImageGlass_9.1.8.723_arm64"
+    "32bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/d2phap/ImageGlass/releases/download/8.9.6.9/ImageGlass_Kobe_8.9.6.9_x86.zip",
+      "hash": "sha1:b48cf13a99d8534663403ebf94fb92622d581890",
+      "extract_dir": "ImageGlass_Kobe_8.9.6.9_x86"
     }
   },
   "pre_install": [
-    "if (!(Test-Path \"$persist_dir\\igconfig.json\")) {",
-    "    Add-Content \"$dir\\igconfig.json\" '{\"AutoUpdate\": \"0\"}' -Encoding utf8",
+    "if (!(Test-Path \"$persist_dir\\igconfig.xml\")) {",
+    "    Add-Content \"$dir\\igconfig.xml\" '<ImageGlass><Configuration><Info description=\"ImageGlass Configuration file\" version=\"7.5\" /><Info/><Content><Item key=\"AutoUpdate\" value=\"0\" /></Content></Configuration></ImageGlass>' -Encoding Ascii",
     "}"
   ],
   "bin": [
     "ImageGlass.exe",
-    "igcmd.exe"
+    "igcmd.exe",
+    "igcmdWin10.exe",
+    "igtasks.exe"
   ],
   "shortcuts": [
     [
@@ -33,31 +35,28 @@
   ],
   "persist": [
     "Themes",
-    "igconfig.json"
+    "igconfig.xml"
   ],
   "checkver": {
-    "script": [
-      "$url = 'https://api.github.com/repos/d2phap/ImageGlass/releases'",
-      "$cont = (Invoke-WebRequest $url).Content",
-      "$r = 'ImageGlass_([\\d.]+)_x64\\.' ",
-      "if (!($cont -match $r)) { error \"Could not match $r in $url\"; continue }",
-      "$version = $matches[1]",
-      "$r = 'ImageGlass_([\\d.]+)_arm64\\.' ",
-      "if (!($cont -match $r)) { error \"Could not match $r in $url\"; continue }",
-      "$arm64 = $matches[1]",
-      "Write-Output $version $arm64"
-    ],
-    "regex": "([\\d.]+) (?<arm64>[\\d.]+)"
+    "github": "https://github.com/d2phap/ImageGlass"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/d2phap/ImageGlass/releases/download/$version/ImageGlass_$version_x64.zip",
-        "extract_dir": "ImageGlass_$version_x64"
+        "url": "https://mirror.ghproxy.com/https://github.com/d2phap/ImageGlass/releases/download/$version/ImageGlass_Kobe_$version_x64.zip",
+        "hash": {
+          "url": "https://github.com/d2phap/ImageGlass/releases",
+          "regex": "ImageGlass_Kobe_[\\d.]+_x64.zip</td>\\n<td><code>$sha1"
+        },
+        "extract_dir": "ImageGlass_Kobe_$version_x64"
       },
-      "arm64": {
-        "url": "https://mirror.ghproxy.com/https://github.com/d2phap/ImageGlass/releases/download/$matchArm64/ImageGlass_$matchArm64_arm64.zip",
-        "extract_dir": "ImageGlass_$matchArm64_arm64"
+      "32bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/d2phap/ImageGlass/releases/download/$version/ImageGlass_Kobe_$version_x86.zip",
+        "hash": {
+          "url": "https://github.com/d2phap/ImageGlass/releases",
+          "regex": "ImageGlass_Kobe_[\\d.]+_x86.zip</td>\\n<td><code>$sha1"
+        },
+        "extract_dir": "ImageGlass_Kobe_$version_x86"
       }
     }
   }

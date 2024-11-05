@@ -5,17 +5,17 @@
   "license": "Freeware",
   "url": "https://mirror.ghproxy.com/https://github.com/blackboxo/CleanMyWechat/releases/download/v2.1/CleanMyWechat.zip",
   "hash": "3af7b5c1a33997785c7c452a9e75872582f5a523a4edc3c089c92d88f4ce33e0",
-  "extract_dir": "dist",
+  "extract_dir": "CleanMyWechat",
   "notes": "We don't persist 'config.json'. Please backup it if needed",
   "bin": [
     [
-      "main.exe",
+      "start.exe",
       "CleanMyWechat"
     ]
   ],
   "shortcuts": [
     [
-      "main.exe",
+      "start.exe",
       "CleanMyWechat"
     ]
   ],

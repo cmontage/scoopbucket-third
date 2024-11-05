@@ -1,16 +1,16 @@
 {
   "homepage": "https://filebrowser.org/",
   "description": "Web File Browser",
-  "version": "2.31.2",
+  "version": "2.25.0",
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/filebrowser/filebrowser/releases/download/v2.31.2/windows-amd64-filebrowser.zip",
-      "hash": "cab9b2a3d47f2838a5134c66625517a4b6f2f0516909af004e492a70f29184e0"
+      "url": "https://mirror.ghproxy.com/https://github.com/filebrowser/filebrowser/releases/download/v2.25.0/windows-amd64-filebrowser.zip",
+      "hash": "4d45422b93e1b41a17ab37e4ff779396544abe369a181fb2a1432b5111774703"
     },
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/filebrowser/filebrowser/releases/download/v2.31.2/windows-386-filebrowser.zip",
-      "hash": "8e2ca1a5851a29a0faca49cb6feb0cd04fe732a1818887fbf2296be84a02e3c3"
+      "url": "https://mirror.ghproxy.com/https://github.com/filebrowser/filebrowser/releases/download/v2.25.0/windows-386-filebrowser.zip",
+      "hash": "8ef5fe704d63ac1db033f00d93ca044b2917354242f48d1510ed466e89bd387f"
     }
   },
   "bin": "filebrowser.exe",

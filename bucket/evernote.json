@@ -1,12 +1,12 @@
 {
-  "version": "10.113.5",
+  "version": "10.64.5",
   "homepage": "https://evernote.com/",
   "license": "Freeware",
-  "url": "https://win.desktop.evernote.com/builds/Evernote-10.113.5-win-ddl-stage-20241029194623-305d6db3571a3b18983b76681e82ba32d6e01350-setup.exe#/dl.7z",
-  "hash": "sha512:618568fdbef81fe822f1d80879f9b43c060b361156b39ff652b9a554c0cd1532911f4543c97c1f4fba4a1e1fc3c63d35788ed4b44dfb8abd4fe48b8bc20fa480",
+  "url": "https://cdn1.evernote.com/boron/win/builds/Evernote-10.64.5-win-ddl-stage-20231025132339-2e9f9e9fff0ed89235a8a0553fb106e7719a867d-setup.exe#/dl.7z",
+  "hash": "sha512:b0201c53d66aa831bb02dca748510073e5c2dcce87f2d82dddd3279229cb164463500e08681820317c60b296b82fe3ab96f8e27a94474bbcaf8aa6a49d2df067",
   "installer": {
     "script": [
-      "Remove-Item \"$dir\\`$R0\", \"$dir\\resources\" -Force -Recurse",
+      "Remove-Item \"$dir\\Unins*\", \"$dir\\resources\" -Force -Recurse",
       "if ($architecture -eq '64bit') {",
       "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
       "} elseif ($architecture -eq '32bit') {",
@@ -22,13 +22,13 @@
     ]
   ],
   "checkver": {
-    "url": "https://public.evernote.com/ddl-updater/updater/win/public/latest.yml",
-    "regex": "Evernote-([\\d.]+)-(?<build>.+).exe"
+    "url": "https://evernote.s3.amazonaws.com/boron/win/public/latest.yml",
+    "regex": "Evernote-([\\d.]+)-(?<tail>.+).exe"
   },
   "autoupdate": {
-    "url": "https://win.desktop.evernote.com/builds/Evernote-$version-$matchBuild.exe#/dl.7z",
+    "url": "https://cdn1.evernote.com/boron/win/builds/Evernote-$version-$matchTail.exe#/dl.7z",
     "hash": {
-      "url": "https://public.evernote.com/ddl-updater/updater/win/public/latest.yml",
+      "url": "https://evernote.s3.amazonaws.com/boron/win/public/latest.yml",
       "regex": "sha512: $base64"
     }
   }

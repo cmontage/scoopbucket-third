@@ -1,10 +1,10 @@
 {
-  "version": "3.2.1",
+  "version": "3.1.1",
   "description": "Nerd Fonts patched 'DejaVuSansMono' Font family. (Proportional version, for GUI usecases)",
   "homepage": "https://github.com/ryanoasis/nerd-fonts",
   "license": "MIT",
-  "url": "https://mirror.ghproxy.com/https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/DejaVuSansMono.zip",
-  "hash": "cf0f11c7e2e35df79c5a2f3b42073e8becd3597f23cbd4487de89c3546c17e70",
+  "url": "https://mirror.ghproxy.com/https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/DejaVuSansMono.zip",
+  "hash": "f46c6fb56b7ee4a5faa08b6ba32830692204a5240fe1fcb3b848fceef2d6e526",
   "installer": {
     "script": [
       "$currentBuildNumber = [int] (Get-ItemProperty \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\").CurrentBuildNumber",
@@ -40,7 +40,7 @@
       "Get-ChildItem $dir -Filter '*NerdFontPropo-*' | ForEach-Object {",
       "    $value = if ($global) { $_.Name } else { \"$fontInstallDir\\$($_.Name)\" }",
       "    New-ItemProperty -Path $registryKey -Name $_.Name.Replace($_.Extension, ' (TrueType)') -Value $value -Force | Out-Null",
-      "    Copy-Item -LiteralPath $_.FullName -Destination $fontInstallDir",
+      "    Copy-Item $_.FullName -Destination $fontInstallDir",
       "}"
     ]
   },

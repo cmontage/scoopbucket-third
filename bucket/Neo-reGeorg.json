@@ -1,21 +1,12 @@
 {
-  "version": "5.2.0",
-  "description": "Neo-reGeorg is a project that seeks to aggressively refactor reGeorg.(Scoop bucket for Cybersecurity by whoopscs)",
+  "version": "5.1.0",
+  "description": "Neo-reGeorg is a project that seeks to aggressively refactor reGeorg.(Scoop bucket by arch3rpro)",
   "homepage": "https://github.com/L-codes/Neo-reGeorg",
-  "license": "GPL-3.0-or-later",
-  "notes": [
-    "命令行运行别名：neoreg"
-  ],
-  "suggest": {
-    "Python": "python"
-  },
-  "url": "https://mirror.ghproxy.com/https://github.com/L-codes/Neo-reGeorg/archive/refs/tags/v5.2.0.zip",
-  "hash": "6afb15f6cc27e812a9d5e9afcb0231b49d2de261eecb963840623cfad86a6c17",
-  "pre_install": [
-    "Set-Content \"$dir\\neoreg.bat\" '@pushd %~dp0",
-    "python \"neoreg.py\" %*",
-    "@popd' -Encoding Ascii"
-  ],
+  "license": "GPL-3.0",
+  "suggest": "python2.7|3.X",
+  "url": "https://mirror.ghproxy.com/https://github.com/L-codes/Neo-reGeorg/archive/refs/tags/v5.1.0.zip",
+  "hash": "352b01c6623a626c6299fe8f2f940c7afdb73ef68767c5f406910806dc7cf708",
+  "pre_install": "Set-Content \"$dir\\neoreg.bat\" '@pushd %~dp0\npython3 \"neoreg.py\" %*\n@popd' -Encoding Ascii",
   "post_install": [
     "Move-Item -Path \"$dir\\Neo-reGeorg-$version\\*\" -Destination \"$dir\\\"",
     "Remove-Item \"$dir\\Neo-reGeorg-$version\" -Force -Recurse"

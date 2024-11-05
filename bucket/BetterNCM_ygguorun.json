@@ -49,10 +49,7 @@
       "Remove-Item -Force $scoopdir\\apps\\neteasemusic\\current\\msimg32.dll | Out-Null"
     ]
   },
-  "checkver": {
-    "url": "https://api.github.com/repos/MicroCBer/BetterNCM/releases",
-    "regex": "tag/(\\d.*?)\""
-  },
+  "checkver": "github",
   "autoupdate": {
     "url": "https://mirror.ghproxy.com/https://github.com/MicroCBer/BetterNCM/releases/download/$version/BetterNCMII.dll"
   }

@@ -1,12 +1,14 @@
 {
-  "version": "8.0b1",
+  "version": "7.0b9",
   "homepage": "https://www.naps2.com/",
   "description": "A document scanning application with a focus on simplicity and ease of use. (Beta release)",
   "license": "GPL-2.0-only",
-  "url": "https://mirror.ghproxy.com/https://github.com/cyanfish/naps2/releases/download/v8.0b1/naps2-8.0b1-win-x64.zip",
-  "hash": "42a20780964ac28e8d1acfead0afa33b150a65440dff6c4228328f7df882b1e9",
+  "url": "https://mirror.ghproxy.com/https://github.com/cyanfish/naps2/releases/download/v7.0b9/naps2-7.0b9-win.zip",
+  "hash": "sha1:8053416a78f3fcd15acf68e2760f1293d071327d",
   "pre_install": [
-    "if (!(Test-Path $persist_dir)) { ensure $persist_dir | Out-Null }",
+    "ensure $persist_dir | Out-Null",
+    "if ($architecture -eq '32bit') { Remove-Item \"$dir\\App\\lib\\_win64\\tesseract.exe\" }",
+    "else { Remove-Item \"$dir\\App\\lib\\_win32\\tesseract.exe\" }",
     "Remove-Item \"$dir\\NAPS2.Portable.exe\"",
     "Copy-Item \"$persist_dir\\Data\\*\" \"$dir\\Data\" -ErrorAction 'SilentlyContinue' -Recurse"
   ],
@@ -25,11 +27,14 @@
   ],
   "pre_uninstall": "Copy-Item \"$dir\\Data\\*\" \"$persist_dir\\Data\" -ErrorAction 'SilentlyContinue' -Recurse",
   "checkver": {
-    "url": "https://api.github.com/repos/cyanfish/naps2/releases",
-    "jsonpath": "$[0].tag_name",
-    "regex": "v([\\w.]+)"
+    "url": "https://github.com/cyanfish/naps2/tags",
+    "regex": "tag/v([\\w.]+)"
   },
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/cyanfish/naps2/releases/download/v$version/naps2-$version-win-x64.zip"
+    "url": "https://mirror.ghproxy.com/https://github.com/cyanfish/naps2/releases/download/v$version/naps2-$version-win.zip",
+    "hash": {
+      "url": "https://www.naps2.com/hashes",
+      "regex": "</tr>\\s\\n\\s+<tr>\\s\\n\\s+<td>\\s\\n\\s+$basename\\s\\n\\s+</td>\\s\\n\\s+<td\\sclass=\"hash\">\\s\\n\\s+$sha1"
+    }
   }
 }

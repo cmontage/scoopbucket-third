@@ -20,10 +20,10 @@
   },
   "extract_dir": "go",
   "installer": {
-    "script": "Add-Path -Path \"$env:USERPROFILE\\go\\bin\" -Global:$global"
+    "script": "add_first_in_path \"$env:USERPROFILE\\go\\bin\" $global"
   },
   "uninstaller": {
-    "script": "Remove-Path -Path \"$env:USERPROFILE\\go\\bin\" -Global:$global"
+    "script": "remove_from_path \"$env:USERPROFILE\\go\\bin\" $global"
   },
   "bin": [
     "bin\\go.exe",

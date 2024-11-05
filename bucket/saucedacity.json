@@ -60,5 +60,19 @@
     "    }",
     "    Remove-Item 'HKCU:\\SOFTWARE\\Classes\\Saucedacity.Project' -Force -Recurse | Out-Null",
     "}"
-  ]
+  ],
+  "checkver": {
+    "url": "https://codeberg.org/tenacityteam/tenacity/releases/latest",
+    "regex": "tag/v([\\d.]+)"
+  },
+  "autoupdate": {
+    "architecture": {
+      "32bit": {
+        "url": "https://codeberg.org/tenacityteam/tenacity/releases/download/v1.2.1/saucedacity-1.2.1-win-x86.zip"
+      },
+      "64bit": {
+        "url": "https://codeberg.org/tenacityteam/tenacity/releases/download/v1.2.1/saucedacity-1.2.1-win-x86_64.zip"
+      }
+    }
+  }
 }

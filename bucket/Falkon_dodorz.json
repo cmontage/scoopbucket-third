@@ -27,7 +27,7 @@
       "Falkon"
     ]
   ],
-  "checkver": "Falkon ([\\d.]+) released",
+  "checkver": "Current version: ([\\d.]+)",
   "autoupdate": {
     "architecture": {
       "64bit": {

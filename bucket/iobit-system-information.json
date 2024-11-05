@@ -14,7 +14,7 @@
     ]
   ],
   "checkver": {
-    "regex": "<span>V\\s+([\\d.]+)\\s+\\|"
+    "regex": "(?i)ver_size.*V *([\\d.]+) \\|"
   },
   "autoupdate": {
     "url": "https://cdn.iobit.com/dl/iobit-sysinfo-setup.exe"

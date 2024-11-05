@@ -21,7 +21,7 @@
     ]
   ],
   "checkver": {
-    "regex": " | Version ([\\w.]+)</h1>"
+    "regex": "Update l Version ([\\w.]+)</h2>"
   },
   "autoupdate": {
     "url": "https://go.microsoft.com/fwlink/?LinkID=799445#/WindowsUpdateAssistant.exe"

@@ -1,12 +1,12 @@
 {
-  "version": "2024.09.0+375.pro3",
+  "version": "2023.09.1+494.pro2",
   "homepage": "https://www.rstudio.com/",
   "description": "An IDE for R, which includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging and workspace management.",
   "license": "AGPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://s3.amazonaws.com/rstudio-desktop/desktop/windows/RStudio-pro-2024.09.0-375.pro3.zip",
-      "hash": "ee258beae9a03c655d24b1507ae1efd633eb85ed0db08dc97c2bbbb49f1d0453"
+      "url": "https://s3.amazonaws.com/rstudio-desktop/desktop/windows/RStudio-pro-2023.09.1-494.pro2.zip",
+      "hash": "a79d9f5012fa76cd8c29421b11f7670eae22440cbf9ae5781689566b67f8d768"
     }
   },
   "bin": [
@@ -22,7 +22,7 @@
     ]
   ],
   "checkver": {
-    "url": "https://posit.co/wp-content/uploads/downloads.json",
+    "url": "https://www.rstudio.com/wp-content/downloads.json",
     "jsonpath": ".rstudio.pro.stable.desktop.archive.windows.version",
     "regex": "(?<date>[\\d.]+)\\+(?<build>\\d+)(?<pro>\\.pro\\d+)",
     "replace": "${date}+${build}${pro}"
@@ -34,7 +34,7 @@
         "hash": {
           "mode": "json",
           "jsonpath": ".rstudio.pro.stable.desktop.archive.windows.sha256",
-          "url": "https://posit.co/wp-content/uploads/downloads.json"
+          "url": "https://www.rstudio.com/wp-content/downloads.json"
         }
       }
     }

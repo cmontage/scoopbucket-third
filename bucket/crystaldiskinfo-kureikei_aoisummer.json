@@ -2,9 +2,9 @@
   "homepage": "https://crystalmark.info/ja/software/crystaldiskinfo/",
   "description": "CrystalDiskInfo is a HDD/SSD utility software which supports S.M.A.R.T and a part of USB-HDD.",
   "license": "MIT",
-  "version": "9.4.4",
-  "url": "https://downloads.sourceforge.net/project/crystaldiskinfo/9.4.4/CrystalDiskInfo9_4_4KureiKei.zip",
-  "hash": "sha1:76db9568a5af21e19e079ef45e4af515388077d2",
+  "version": "9.0.1",
+  "url": "https://osdn.net/frs/redir.php?m=auto&f=crystaldiskinfo%2F78831%2FCrystalDiskInfo9_0_1KureiKei.zip#/dl.zip",
+  "hash": "5ec5213d80bd1fd77f6b7ad4bcaaee99bdc939446cf6a732779e5dfec796e65d",
   "architecture": {
     "64bit": {
       "shortcuts": [
@@ -26,14 +26,14 @@
   "persist": "DiskInfo.ini",
   "pre_install": "if(!(Test-Path \"$dir/DiskInfo.ini\")) { Add-Content \"$dir/DiskInfo.ini\" $null }",
   "checkver": {
-    "url": "https://crystalmark.info/en/download/",
-    "regex": "CrystalDiskInfo\\s+([\\w.]+)\\s"
+    "url": "https://osdn.net/projects/crystaldiskinfo/",
+    "regex": "<a href=\"/projects/crystaldiskinfo/releases/(?<release>[\\d]*)\">CrystalDiskInfo ([\\d+\\.*]+)</a>"
   },
   "autoupdate": {
-    "url": "https://downloads.sourceforge.net/project/crystaldiskinfo/$version/CrystalDiskInfo$underscoreVersionKureiKei.zip",
+    "url": "https://osdn.net/frs/redir.php?m=auto&f=crystaldiskinfo%2F$matchRelease%2FCrystalDiskInfo$underscoreVersionKureiKei.zip#/dl.zip",
     "hash": {
-      "url": "https://sourceforge.net/projects/crystaldiskinfo/files/$version/",
-      "regex": "CrystalDiskInfo$underscoreVersionKureiKei.zip.+?sha1\":\"$sha1"
+      "url": "https://osdn.net/projects/crystaldiskinfo/downloads/$matchRelease/CrystalDiskInfo$underscoreVersionKureiKei.zip/",
+      "regex": "<dd>$sha256</dd>"
     }
   }
 }

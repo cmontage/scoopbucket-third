@@ -1,12 +1,12 @@
 {
-  "version": "1.2.45",
+  "version": "1.2.39",
   "homepage": "https://threema.ch/en/home",
   "description": "The official desktop client for Threema, a messenger application that puts security and privacy first.",
   "license": "AGPL-3.0",
   "architecture": {
     "64bit": {
       "url": "https://releases.threema.ch/web-electron/v1/release/Threema-Latest.exe#/dl.7z",
-      "hash": "ca73a5d9d526413fa0f79dde47adf1788795f07e1f0900ee8ab2dc58dce5cbf6"
+      "hash": "862c43304e25e6716c876069b1eb30f5d778a2b0a82c0d0fc0c9903456f16ce1"
     }
   },
   "pre_install": [
@@ -20,8 +20,8 @@
     ]
   ],
   "checkver": {
-    "url": "https://threema.ch/en/whats-new/desktop",
-    "regex": ">Threema\\s([\\d.]+)\\sfor\\sDesktop<"
+    "url": "https://threema.ch/en/whats-new#desktop",
+    "regex": "\">Threema\\sfor\\sDesktop\\s([\\d.]+)"
   },
   "autoupdate": {
     "architecture": {

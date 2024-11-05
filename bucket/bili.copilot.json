@@ -1,16 +1,16 @@
 {
-  "version": "2.2410.9.0",
+  "version": "1.2406.3.0",
   "description": "一款哔哩哔哩第三方桌面应用，适用于 Windows 11",
   "homepage": "https://github.com/Richasy/Bili.Copilot",
   "license": "GPL-3.0",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/Richasy/Bili.Copilot/releases/download/v2.2410.9.0/BiliCopilot_2.2410.9.0_x64.7z",
-      "hash": "be058d5f456584172c9f3e44b13c0d06d3556f8cfd016a8c4281efa3ac0eda3f"
+      "url": "https://mirror.ghproxy.com/https://github.com/Richasy/Bili.Copilot/releases/download/v1.2406.3.0/Bili.Copilot_1.2406.3.0_x64.zip",
+      "hash": "ebc39adbad13209349cdc3de5feaf79eab4759d9cf5b0d94df04db259a2cd945"
     },
     "arm64": {
-      "url": "https://mirror.ghproxy.com/https://github.com/Richasy/Bili.Copilot/releases/download/v2.2410.9.0/BiliCopilotI_2.2410.9.0_arm64.7z",
-      "hash": "2f8819e7d267d7850aa2578e84a7a18c63d5e6a6a859e62fa2c0533d432edc4f"
+      "url": "https://mirror.ghproxy.com/https://github.com/Richasy/Bili.Copilot/releases/download/v1.2406.3.0/Bili.Copilot_1.2406.3.0_arm64.zip",
+      "hash": "e2d58141e0f892399244cb71bd127dd0ad91548fe6a5321a27e5d81337d750c3"
     }
   },
   "pre_install": [
@@ -20,7 +20,7 @@
   ],
   "installer": {
     "script": [
-      "Get-ChildItem \"$dir\\Dependencies\\*64\\*.msix\" | Add-AppxPackage -ForceTargetApplicationShutdown -AllowUnsigned -ForceUpdateFromAnyVersion",
+      "Get-ChildItem \"$dir\\Dependencies\\*.msix\" | Add-AppxPackage -ForceTargetApplicationShutdown -AllowUnsigned -ForceUpdateFromAnyVersion",
       "Get-ChildItem \"$dir\\*.msix\" | Add-AppxPackage -ForceTargetApplicationShutdown -AllowUnsigned -ForceUpdateFromAnyVersion"
     ]
   },
@@ -39,10 +39,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/Richasy/Bili.Copilot/releases/download/v$version/BiliCopilot_$version_x64.7z"
+        "url": "https://mirror.ghproxy.com/https://github.com/Richasy/Bili.Copilot/releases/download/v$version/Bili.Copilot_$version_x64.zip"
       },
       "arm64": {
-        "url": "https://mirror.ghproxy.com/https://github.com/Richasy/Bili.Copilot/releases/download/v$version/BiliCopilot_$version_arm64.7z"
+        "url": "https://mirror.ghproxy.com/https://github.com/Richasy/Bili.Copilot/releases/download/v$version/Bili.Copilot_$version_arm64.zip"
       }
     }
   }

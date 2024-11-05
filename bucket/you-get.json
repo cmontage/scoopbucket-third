@@ -1,7 +1,8 @@
 {
-  "homepage": "https://you-get.org/",
-  "license": "MIT",
   "version": "0.4.1730",
+  "homepage": "https://you-get.org/",
+  "description": "A video downloader written in Python",
+  "license": "MIT",
   "url": [
     "https://mirror.ghproxy.com/https://github.com/soimort/you-get/releases/download/v0.4.1730/you_get-0.4.1730-py3-none-any.whl#/dl.7z",
     "https://github.com/soimort/you-get/raw/develop/you-get"

@@ -1,17 +1,12 @@
 {
-  "version": "2.6.28",
-  "description": "Apifox 是 API 文档、API 调试、API Mock、API 自动化测试一体化协作平台，定位 Postman + Swagger + Mock + JMeter。",
+  "version": "2.5.19",
+  "description": "All-in-one collaboration platform for API documentation, API debugging, API Mock and API test automation.",
   "homepage": "https://apifox.com",
-  "notes": "https://github.com/ViCrack/scoop-bucket/blob/master/bucket/apifox.json",
   "license": "Freeware",
   "architecture": {
-    "32bit": {
-      "url": "https://file-assets.apifox.com/download/2.6.28/Apifox-windows-x86-2.6.28.exe#/dl.7z",
-      "hash": "2f45f62a19bc829d74f5513b2ec9164fedf775bbc9e930731a141801bb190502"
-    },
     "64bit": {
-      "url": "https://file-assets.apifox.com/download/2.6.28/Apifox-2.6.28.exe#/dl.7z",
-      "hash": "2d1d2656457a0fbc047f31bf9dfd37dee5be40079daf7dbd161be2b6d621b86b"
+      "url": "https://cdn.apifox.cn/download/2.5.19/Apifox-2.5.19.exe#/dl.7z",
+      "hash": "sha512:c23e687b53551c63fdf0bb328b62fa0ec6f3fd195207ea74dacdda075cec9277deeb861f533851da5b6aaae2939c4d3ce2963e060101a7a9715ead21f901339c"
     }
   },
   "pre_install": [
@@ -26,17 +21,22 @@
     ]
   ],
   "persist": "UserData",
+  "pre_uninstall": [
+    "Stop-Process -Name 'ApifoxAppAgent' -ErrorAction SilentlyContinue",
+    "Wait-Process -Name 'ApifoxAppAgent' -ErrorAction SilentlyContinue -Timeout 30"
+  ],
   "checkver": {
-    "url": "https://apifox.com/help/release/changelog.json",
-    "regex": "\"version\": \"([\\d.]+)\""
+    "url": "https://apifox.com/help/app/changelog",
+    "regex": ">([\\d.]+)<"
   },
   "autoupdate": {
     "architecture": {
-      "32bit": {
-        "url": "https://file-assets.apifox.com/download/$version/Apifox-windows-x86-$version.exe#/dl.7z"
-      },
       "64bit": {
-        "url": "https://file-assets.apifox.com/download/$version/Apifox-$version.exe#/dl.7z"
+        "url": "https://cdn.apifox.cn/download/$version/Apifox-$version.exe#/dl.7z",
+        "hash": {
+          "url": "$baseurl/latest.yml",
+          "regex": "sha512: $base64"
+        }
       }
     }
   }

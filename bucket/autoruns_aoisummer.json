@@ -27,7 +27,7 @@
     }
   },
   "checkver": {
-    "regex": "Autoruns v([\\w.-]+?)<"
+    "regex": "Autoruns for Windows v([\\w.-]+?)<"
   },
   "autoupdate": {
     "url": "https://download.sysinternals.com/files/Autoruns.zip"

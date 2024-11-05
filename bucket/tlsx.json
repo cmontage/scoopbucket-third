@@ -1,16 +1,16 @@
 {
-  "version": "1.1.8",
-  "description": "Fast and configurable TLS grabber focused on TLS based data collection",
+  "version": "1.1.5",
+  "description": "A fast and configurable TLS grabber focused on TLS based data collection and analysis.",
   "homepage": "https://github.com/projectdiscovery/tlsx",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/projectdiscovery/tlsx/releases/download/v1.1.8/tlsx_1.1.8_windows_amd64.zip",
-      "hash": "8365cb9e2a22d489fade12295eb2c42ca31debcc8ee632163e2c33f0e2e8c18c"
+      "url": "https://mirror.ghproxy.com/https://github.com/projectdiscovery/tlsx/releases/download/v1.1.5/tlsx_1.1.5_windows_amd64.zip",
+      "hash": "1a3bb20747401b9b05e6b5a28fd7711eeabffe1e6b639f12a70ee121e1c02707"
     },
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/projectdiscovery/tlsx/releases/download/v1.1.8/tlsx_1.1.8_windows_386.zip",
-      "hash": "24d1bdfac5676bf9c1cd28fa708d462918ac1f8518c0c8a7f691f6010c22efa5"
+      "url": "https://mirror.ghproxy.com/https://github.com/projectdiscovery/tlsx/releases/download/v1.1.5/tlsx_1.1.5_windows_386.zip",
+      "hash": "216e79f6fa7a9f34e02a19b6cf4ab6bc5c037bd1618e8e7e919f34ce2fd830d4"
     }
   },
   "bin": "tlsx.exe",

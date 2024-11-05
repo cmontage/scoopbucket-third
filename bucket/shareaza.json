@@ -22,7 +22,7 @@
     ]
   ],
   "checkver": {
-    "url": "https://shareaza.sourceforge.net/mediawiki/ChangeLog",
+    "url": "http://shareaza.sourceforge.net/mediawiki/index.php/ChangeLog",
     "regex": ">Shareaza\\s+([\\d.]+)<"
   },
   "autoupdate": {

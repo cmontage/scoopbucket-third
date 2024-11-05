@@ -1,17 +1,17 @@
 {
-  "version": "1.501",
+  "version": "1.315",
   "description": "An open-source Chinese font derived from Fontworks' Klee One. 一款基于 FONTWORKS 出品字体 Klee One 改造的开源中文字体。",
   "homepage": "https://github.com/lxgw/LxgwWenKai",
   "license": "OFL-1.1",
   "url": [
-    "https://mirror.ghproxy.com/https://github.com/lxgw/LxgwWenKai/releases/download/v1.501/LXGWWenKai-Light.ttf",
-    "https://mirror.ghproxy.com/https://github.com/lxgw/LxgwWenKai/releases/download/v1.501/LXGWWenKai-Regular.ttf",
-    "https://mirror.ghproxy.com/https://github.com/lxgw/LxgwWenKai/releases/download/v1.501/LXGWWenKai-Medium.ttf"
+    "https://mirror.ghproxy.com/https://github.com/lxgw/LxgwWenKai/releases/download/v1.315/LXGWWenKai-Bold.ttf",
+    "https://mirror.ghproxy.com/https://github.com/lxgw/LxgwWenKai/releases/download/v1.315/LXGWWenKai-Light.ttf",
+    "https://mirror.ghproxy.com/https://github.com/lxgw/LxgwWenKai/releases/download/v1.315/LXGWWenKai-Regular.ttf"
   ],
   "hash": [
-    "d56bcb00af46e1bcd6d2a337bb8e499fb5c8a3c2d65e26bfbd4ada04d22ae70d",
-    "fea0004a42506f6b1583c4dfe35a13ce1cff0bbda32bb70629b3f9aafd8a8a6a",
-    "29980010123c02fc6b52895de5c816a13fac49546196db8f4854c1e102d69b48"
+    "0b1706c303793b1240850d99d69e74766f68ff7bb07a0b2cbf873f085ead2dcc",
+    "c5fdc089c11d70e654b20ac905f26bd27f732c08159e6f0767b7487a401922c2",
+    "cd1cef659957c74b6f5f0a273290bfa9b3be008192252515f8950e0aca5c7ff9"
   ],
   "installer": {
     "script": [
@@ -48,7 +48,7 @@
       "Get-ChildItem $dir -Filter '*.ttf' | ForEach-Object {",
       "    $value = if ($global) { $_.Name } else { \"$fontInstallDir\\$($_.Name)\" }",
       "    New-ItemProperty -Path $registryKey -Name $_.Name.Replace($_.Extension, ' (TrueType)') -Value $value -Force | Out-Null",
-      "    Copy-Item -LiteralPath $_.FullName -Destination $fontInstallDir",
+      "    Copy-Item $_.FullName -Destination $fontInstallDir",
       "}"
     ]
   },
@@ -96,9 +96,9 @@
   "checkver": "github",
   "autoupdate": {
     "url": [
+      "https://mirror.ghproxy.com/https://github.com/lxgw/LxgwWenKai/releases/download/v$version/LXGWWenKai-Bold.ttf",
       "https://mirror.ghproxy.com/https://github.com/lxgw/LxgwWenKai/releases/download/v$version/LXGWWenKai-Light.ttf",
-      "https://mirror.ghproxy.com/https://github.com/lxgw/LxgwWenKai/releases/download/v$version/LXGWWenKai-Regular.ttf",
-      "https://mirror.ghproxy.com/https://github.com/lxgw/LxgwWenKai/releases/download/v$version/LXGWWenKai-Medium.ttf"
+      "https://mirror.ghproxy.com/https://github.com/lxgw/LxgwWenKai/releases/download/v$version/LXGWWenKai-Regular.ttf"
     ]
   }
 }

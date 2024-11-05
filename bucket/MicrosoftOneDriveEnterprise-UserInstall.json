@@ -1,17 +1,17 @@
 {
-  "version": "24.186.0915.0004",
+  "version": "22.196.0918.0001",
   "description": "Microsoft OneDrive Enterprise. Save your photos and files to OneDrive and access them from any device, anywhere.",
   "homepage": "https://www.microsoft.com/en-ww/microsoft-365/onedrive/online-cloud-storage",
   "license": "Proprietary",
   "changelog": "https://support.microsoft.com/en-us/office/onedrive-release-notes-845dcf18-f921-435e-bf28-4e24b95e5fc0",
   "architecture": {
     "64bit": {
-      "url": "https://oneclient.sfx.ms/Win/Installers/24.186.0915.0004/amd64/OneDriveSetup.exe#/setup.exe",
-      "hash": "1d88bacf711b6d04c1685c098f0771f67d1082038ba4a6fac5b90794913da3bc"
+      "url": "https://oneclient.sfx.ms/Win/Prod/22.196.0918.0001/amd64/OneDriveSetup.exe#/setup.exe",
+      "hash": "b7cfacd31582660072d02d8a1350b07c9b7563e57a688dec9cdd2dc1e34124a2"
     },
     "32bit": {
-      "url": "https://oneclient.sfx.ms/Win/Installers/24.186.0915.0004/OneDriveSetup.exe#/setup.exe",
-      "hash": "c2e4af6fed8c6a7f0b599c1be8dc5eb01aab1f1af4bdaad8000bc87bd6688384"
+      "url": "https://oneclient.sfx.ms/Win/prod/22.196.0918.0001/OneDriveSetup.exe#/setup.exe",
+      "hash": "9a493146891adf9e0282057de066cc432c97a3961e1b264c961efca3dd501e0f"
     }
   },
   "installer": {
@@ -31,16 +31,16 @@
     ]
   },
   "checkver": {
-    "url": "https://www.majorgeeks.com/files/details/microsoft_skydrive.html",
-    "regex": ".html\">Microsoft OneDrive ([\\d.]+)"
+    "url": "https://github.com/microsoft/winget-pkgs/tree/master/manifests/m/Microsoft/OneDrive",
+    "regex": "manifests/m/Microsoft/OneDrive/Enterprise/([\\d.]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://oneclient.sfx.ms/Win/Installers/$version/amd64/OneDriveSetup.exe#/setup.exe"
+        "url": "https://oneclient.sfx.ms/Win/Prod/$version/amd64/OneDriveSetup.exe#/setup.exe"
       },
       "32bit": {
-        "url": "https://oneclient.sfx.ms/Win/Installers/$version/OneDriveSetup.exe#/setup.exe"
+        "url": "https://oneclient.sfx.ms/Win/prod/$version/OneDriveSetup.exe#/setup.exe"
       }
     }
   }

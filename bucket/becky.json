@@ -1,20 +1,23 @@
 {
-  "homepage": "http://www.rimarts.co.jp/becky.htm",
-  "version": "2.81.07",
-  "license": "Commercial",
-  "url": "http://www.rimarts.jp/downloads/B2/bk28107.zip",
-  "hash": "e71ef7d2fc9902587495c931b70e75489a823feebfdd3d79ddeb4f1b681bed16",
+  "version": "2.81.08",
+  "description": "A feature-rich Internet email client.",
+  "homepage": "https://www.rimarts.co.jp/becky.htm",
+  "license": "Shareware",
+  "url": "https://www.rimarts.jp/downloads/B2/bk28108.zip",
+  "hash": "3d168167cba24c4b4fba4f7358186b8a356f0f429b1a16c847de143b18ed3fce",
   "shortcuts": [
     [
       "B2.exe",
       "Becky!"
     ]
   ],
+  "post_install": "Remove-Item \"$dir\\B2Setup.*\" -Force -Recurse",
+  "persist": "PlugIns",
   "checkver": {
-    "url": "http://www.rimarts.co.jp/becky.htm",
-    "re": "\\.zip.+?Becky! Internet Mail Ver\\.\\d \\(([\\d.]+)\\)"
+    "url": "https://www.rimarts.jp/downloads/B2/Readme-e.txt",
+    "regex": "Ver.([\\d.]+) \\("
   },
   "autoupdate": {
-    "url": "http://www.rimarts.jp/downloads/B2/bk$cleanVersion.zip"
+    "url": "https://www.rimarts.jp/downloads/B2/bk$cleanVersion.zip"
   }
 }

@@ -1,11 +1,11 @@
 {
-  "version": "128.0.6613.189",
+  "version": "117.0.5938.157",
   "description": "Thorium. The fastest browser on Earth",
   "homepage": "https://thorium.rocks/",
   "license": "BSD-3-Clause",
   "changelog": "https://github.com/Alex313031/Thorium-Win/releases",
-  "url": "https://mirror.ghproxy.com/https://github.com/Alex313031/Thorium-Win/releases/download/M128.0.6613.189/Thorium_AVX_128.0.6613.189.zip",
-  "hash": "904dfd5aab97340dc13aa0d6b21078c9e4a6e8fbbf401015be09e296504e67c4",
+  "url": "https://mirror.ghproxy.com/https://github.com/Alex313031/Thorium-Win/releases/download/M117.0.5938.157/Thorium_117.0.5938.157.zip",
+  "hash": "0447f68d007180959f976468cf82e1089f3077699970e19094f7c9150411477a",
   "persist": "USER_DATA",
   "bin": "bin\\thorium.exe",
   "shortcuts": [
@@ -20,6 +20,6 @@
     "regex": "/Alex313031/Thorium-Win/tree/M([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/Alex313031/Thorium-Win/releases/download/M$version/Thorium_AVX_$version.zip"
+    "url": "https://mirror.ghproxy.com/https://github.com/Alex313031/Thorium-Win/releases/download/M$version/Thorium_$version.zip"
   }
 }

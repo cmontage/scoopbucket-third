@@ -5,20 +5,6 @@
   "url": "https://www.abareplace.com/AbaReplace272portable.zip",
   "hash": "799840df4ae847aa15dfb241f7e599d231bc8e6376c2ad2af0b08ebdbc5b51a0",
   "bin": "AbaReplace.exe",
-  "architecture": {
-    "64bit": {
-      "installer": {
-        "script": "Move-Item \"$dir\\AbaReplace64.exe\" \"$dir\\AbaReplace.exe\""
-      },
-      "post_install": "Remove-Item \"$dir\\AbaReplace32.exe\""
-    },
-    "32bit": {
-      "installer": {
-        "script": "Move-Item \"$dir\\AbaReplace32.exe\" \"$dir\\AbaReplace.exe\""
-      },
-      "post_install": "Remove-Item \"$dir\\AbaReplace64.exe\""
-    }
-  },
   "persist": [
     "AbaReplace.ini",
     "UndoInfo"

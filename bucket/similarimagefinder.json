@@ -1,16 +1,15 @@
 {
-  "version": "1.007",
-  "description": "Program for finding and removing identical and similar images from your computer.",
   "homepage": "https://kurtzimmermann.com",
+  "version": "1.005",
   "license": "freeware",
   "architecture": {
     "64bit": {
-      "url": "https://kurtzimmermann.com/files/SimilarImagesFinderX64.zip",
-      "hash": "0f7d1eb45a0a0bd3dbcd7b0bd84fe0255ef8b4b8562a679bca80a64316d8e144"
+      "url": "https://kurtzimmermann.com/files/ImageFinderX64.zip",
+      "hash": "157d6df264118cc6e98c7ce57cbfe473b9034ff37025ef5c5beffeaac18c7c81"
     },
     "32bit": {
-      "url": "https://kurtzimmermann.com/files/SimilarImagesFinderX32.zip",
-      "hash": "5107f0f7c82e19655962cced37225274c9e9c2c0ccf9b02b29c280f36b51191c"
+      "url": "https://kurtzimmermann.com/files/ImageFinderX32.zip",
+      "hash": "5e50d02f56bd1d6b733d059ca6d25cd83481039b752c886cc3c6a9d338ac0383"
     }
   },
   "bin": "ImageFinder.exe",
@@ -22,16 +21,16 @@
     ]
   ],
   "checkver": {
-    "url": "https://kurtzimmermann.com/imversions_de.html",
-    "regex": "Version History[\\w\\W\\s\\S]+?>v([\\d.]+)"
+    "url": "https://kurtzimmermann.com/index_e.html",
+    "regex": "ImageFinder</h4>[\\w\\W]*Version ([\\d.]+) &nbsp;"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://kurtzimmermann.com/files/SimilarImagesFinderX64.zip"
+        "url": "https://kurtzimmermann.com/files/ImageFinderX64.zip"
       },
       "32bit": {
-        "url": "https://kurtzimmermann.com/files/SimilarImagesFinderX32.zip"
+        "url": "https://kurtzimmermann.com/files/ImageFinderX32.zip"
       }
     }
   }

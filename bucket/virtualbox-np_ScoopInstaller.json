@@ -1,12 +1,12 @@
 {
-  "version": "7.1.4",
+  "version": "7.0.10",
   "description": "Powerful x86 and AMD64/Intel64 virtualization product for enterprise as well as home use.",
   "homepage": "https://www.virtualbox.org/",
   "license": "GPL-2.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://download.virtualbox.org/virtualbox/7.1.4/VirtualBox-7.1.4-165100-Win.exe#/setup.exe",
-      "hash": "f970e275f59eeeb129aab88a78dae80784370742b5051650a7926c9ea64afeac"
+      "url": "https://download.virtualbox.org/virtualbox/7.0.10/VirtualBox-7.0.10-158379-Win.exe#/setup.exe",
+      "hash": "62545b8eb17ddf27d5954ac5f8904814e12c5790d73daf545ef60bd97f4f2e12"
     }
   },
   "installer": {

@@ -1,8 +1,8 @@
 {
-  "version": "23.0.1.u0-1",
+  "version": "21.u35-3",
   "homepage": "https://openjdk.java.net/",
-  "url": "https://mirrors.tuna.tsinghua.edu.cn/archlinux/extra/os/x86_64/openjdk-doc-23.0.1.u0-1-x86_64.pkg.tar.zst",
-  "hash": "7459c27bf8fa4408cf98c44666c68f470cd8d0bf69fb555f509a14c831b59928",
+  "url": "https://mirrors.tuna.tsinghua.edu.cn/archlinux/extra/os/x86_64/openjdk-doc-21.u35-3-x86_64.pkg.tar.zst",
+  "hash": "fe0012eb5f42d02aa640fdebf69862b5f27b458cfe5a8d55686a17f95c166f61",
   "installer": {
     "script": [
       "# Robocopy is too slow!",

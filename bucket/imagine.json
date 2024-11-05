@@ -1,5 +1,5 @@
 {
-  "version": "1.7.0",
+  "version": "1.4.1",
   "description": "(1MB Tiny) Freeware Image & Animation Viewer for Windows",
   "homepage": "https://www.nyam.pe.kr/dev/imagine/",
   "license": {
@@ -9,8 +9,8 @@
   "pre_install": "if (!(Test-Path \"$persist_dir\\Imagine.ini\")) { New-Item \"$dir\\Imagine.ini\" | Out-Null }",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/nyam1003/imagine/main/x64/Imagine_1.7.0_x64_Unicode.zip",
-      "hash": "b08eccf78e2ab528e9eff10e362d643b53525bd666e7418ff3e60da97a217f0f",
+      "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/nyam1003/imagine/main/x64/Imagine_1.4.1_x64_Unicode.zip",
+      "hash": "5b16ab6db31c8ac8a0cd72719ec43fff4a62e6f93defb6d7d00982d1372e29bb",
       "bin": [
         "Imagine64.exe",
         [
@@ -26,8 +26,8 @@
       ]
     },
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/nyam1003/imagine/main/Imagine_1.7.0_Unicode.zip",
-      "hash": "c4cc36b10ce024536613a36217cb1a1a57d16d6960cc145590d8c7e9a64daec5",
+      "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/nyam1003/imagine/main/Imagine_1.4.1_Unicode.zip",
+      "hash": "c30b886b7610289e7355cc5f80b53e45e190806e12c29f4c8e92d87e619a0aa2",
       "bin": "Imagine.exe",
       "shortcuts": [
         [

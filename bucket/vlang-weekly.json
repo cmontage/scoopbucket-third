@@ -1,10 +1,10 @@
 {
-  "version": "2024.44",
+  "version": "2023.43",
   "description": "Simple, fast, safe, compiled. For developing maintainable software",
   "homepage": "https://vlang.io/",
   "license": "MIT",
-  "url": "https://mirror.ghproxy.com/https://github.com/vlang/v/releases/download/weekly.2024.44/v_windows.zip",
-  "hash": "56d8a5ecb4ac2484830625b076e6e65d8928801375ed5b17e3d33c1e59deb6e5",
+  "url": "https://mirror.ghproxy.com/https://github.com/vlang/v/releases/download/weekly.2023.43/v_windows.zip",
+  "hash": "c70a1280ca633ca26f8b9b282aec47e03ac9c2c3ef033616ea07bc32446faed4",
   "extract_dir": "v",
   "bin": "v.exe",
   "checkver": {

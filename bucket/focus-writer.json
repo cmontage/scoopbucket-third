@@ -1,24 +1,23 @@
 {
-  "version": "1.8.9",
-  "description": "FocusWriter is a simple, distraction-free word processor.",
   "homepage": "https://gottcode.org/focuswriter/",
+  "version": "1.8.5",
   "license": "freeware",
   "architecture": {
     "64bit": {
-      "url": "https://gottcode.org/focuswriter/FocusWriter_1.8.9.zip",
-      "hash": "6b0edf2663ed315e91bd57bbbfe7851e1dada4f7ca001f70eb43145de0734e4b"
+      "url": "https://gottcode.org/focuswriter/FocusWriter_1.8.5.zip",
+      "hash": "6795dfcb9efed2cf8cbeee6e35a6484bd029d185757b89408100ce1f68f11c4c"
     }
   },
+  "persist": "Data",
   "shortcuts": [
     [
       "FocusWriter.exe",
       "FocusWriter"
     ]
   ],
-  "persist": "Data",
   "checkver": {
     "url": "https://gottcode.org/focuswriter/",
-    "regex": "class=\"version-number\">Version ([\\d.]+)"
+    "regex": "<p class=\"version\">Version ([\\d.]+)</p>"
   },
   "autoupdate": {
     "architecture": {

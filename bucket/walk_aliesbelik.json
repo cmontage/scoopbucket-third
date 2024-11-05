@@ -1,16 +1,16 @@
 {
-  "version": "1.10.0",
+  "version": "1.6.2",
   "description": "Terminal file manager",
   "homepage": "https://github.com/antonmedv/walk",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/antonmedv/walk/releases/download/v1.10.0/walk_windows_amd64.exe#/walk.exe",
-      "hash": "17c3c8bcb79ac3d766871de9bab0056b275347c7cab75fff53a229726693fea1"
+      "url": "https://mirror.ghproxy.com/https://github.com/antonmedv/walk/releases/download/v1.6.2/walk_windows_amd64.exe#/walk.exe",
+      "hash": "23572ba4066d5e5f5796c8c4e995c5fdd047d146bc004401d418ae00678f5536"
     },
     "arm64": {
-      "url": "https://mirror.ghproxy.com/https://github.com/antonmedv/walk/releases/download/v1.10.0/walk_windows_arm64.exe#/walk.exe",
-      "hash": "f752fbcf1bf428ec1a2e97ab71233032f978d9cfe22d1317eb1ffcec7e49d873"
+      "url": "https://mirror.ghproxy.com/https://github.com/antonmedv/walk/releases/download/v1.6.2/walk_windows_arm64.exe#/walk.exe",
+      "hash": "9c110ae45dcfe829ec19274700e4c20ed924c2234793eaeb7ac024af551388c8"
     }
   },
   "bin": "walk.exe",

@@ -1,5 +1,5 @@
 {
-  "version": "2024.09.1",
+  "version": "2023.07.5",
   "description": "Nintendo 64 emulator",
   "homepage": "https://simple64.github.io/",
   "license": {
@@ -8,8 +8,8 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/simple64/simple64/releases/download/v2024.09.1/simple64-win64-4c2f4d1.zip",
-      "hash": "6d8c3e031492d4e9ff39de0781f8f6d358bf6ad15fd2944396536510b4e8e08c"
+      "url": "https://mirror.ghproxy.com/https://github.com/simple64/simple64/releases/download/v2023.07.5/simple64-win64-64b94b3.zip",
+      "hash": "089c3e2b08d74050eadfe259a16e9795bd7d6a247a3b5c4f3e532f30e3617c17"
     }
   },
   "extract_dir": "simple64",

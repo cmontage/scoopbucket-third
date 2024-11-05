@@ -16,9 +16,10 @@
     }
   },
   "bin": "pyenv-win\\bin\\pyenv.bat",
+  "env_add_path": "pyenv-win\\shims",
   "env_set": {
     "PYENV": "$dir\\pyenv-win",
-    "PYTHON_BUILD_MIRROR_URL": "https://mirrors.aliyun.com/pypi/simple"
+    "PYTHON_BUILD_MIRROR_URL": "http://npm.taobao.org/mirrors/python/"
   },
   "checkver": {
     "github": "https://github.com/pyenv-win/pyenv-win"

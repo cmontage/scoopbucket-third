@@ -1,13 +1,13 @@
 {
-  "version": "9.1.8.723",
+  "version": "8.10.9.27",
   "homepage": "https://imageglass.org",
   "description": "ImageGlass. A lightweight, versatile image viewer",
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/d2phap/ImageGlass/releases/download/9.1.8.723/ImageGlass_9.1.8.723_x64.zip",
-      "hash": "881999047ef09a0fca80b1906c4a0010316b732ece23b31f10d1102f0e11c96d",
-      "extract_dir": "ImageGlass_Kobe_9.1.8.723_x64"
+      "url": "https://mirror.ghproxy.com/https://github.com/d2phap/ImageGlass/releases/download/8.10.9.27/ImageGlass_Kobe_8.10.9.27_x64.zip",
+      "hash": "079ae25e6bcb6078493de8a36ea4ea1b7a9fa3be7b8b8d9e9adf8aef32ac395a",
+      "extract_dir": "ImageGlass_Kobe_8.10.9.27_x64"
     }
   },
   "pre_install": [
@@ -37,7 +37,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/d2phap/ImageGlass/releases/download/$version/ImageGlass_$version_x64.zip",
+        "url": "https://mirror.ghproxy.com/https://github.com/d2phap/ImageGlass/releases/download/$version/ImageGlass_Kobe_$version_x64.zip",
         "hash": {
           "url": "https://imageglass.org/download",
           "regex": "(?sm)Download portable x64 version.*?$sha1"

@@ -1,25 +1,15 @@
 {
-  "version": "0.26.2",
-  "description": "A private certificate authority (X.509 & SSH) & ACME server for secure automated certificate management.",
-  "homepage": "https://github.com/smallstep/certificates",
-  "license": "Apache-2.0",
+  "version": "0.24.2",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/smallstep/certificates/releases/download/v0.26.2/step-ca_windows_0.26.2_amd64.zip",
-      "hash": "9d8cc30bd5a78f051ff02a158e53cc958e623842dbcbd6a8b8630c1d18e8e9ab",
-      "bin": "step-ca.exe"
+      "url": "http://github.com/smallstep/certificates/releases/download/v0.24.2/step-ca_windows_0.24.2_amd64.zip",
+      "bin": [
+        "step-ca_0.24.2/step-ca.exe"
+      ],
+      "hash": "88c91ab0781b235218a8a4595ef1b02175c9c2808026c0870717dc64f7960b16"
     }
   },
-  "checkver": "github",
-  "autoupdate": {
-    "architecture": {
-      "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/smallstep/certificates/releases/download/v$version/step-ca_windows_$version_amd64.zip"
-      }
-    },
-    "hash": {
-      "url": "$baseurl/checksums.txt",
-      "find": "^$sha256 $basename$"
-    }
-  }
+  "homepage": "https://smallstep.com/docs/step-ca",
+  "license": "Apache-2.0",
+  "description": "A private certificate authority (X.509 & SSH) & ACME server for secure automated certificate management, so you can use TLS everywhere & SSO for SSH."
 }

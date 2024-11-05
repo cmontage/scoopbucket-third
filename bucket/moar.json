@@ -1,14 +1,10 @@
 {
-  "version": "1.28.1",
+  "version": "1.23.4",
   "description": "A pager designed to work without any configuration",
   "homepage": "https://github.com/walles/moar/",
   "license": "BSD-2-Clause-Views",
-  "architecture": {
-    "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/walles/moar/releases/download/v1.28.1/moar-v1.28.1-windows-amd64.exe#/moar.exe",
-      "hash": "a74fc46dba01db5123f12e4aec7e2d0f130af8389f239b637c752b0db6222c37"
-    }
-  },
+  "url": "https://mirror.ghproxy.com/https://github.com/walles/moar/releases/download/v1.23.4/moar-v1.23.4-windows-amd64.exe#/moar.exe",
+  "hash": "857a865c1f452323f4cc4a39dca0aab4e5c1fcd82fc605b2710846cb9e636358",
   "bin": "moar.exe",
   "checkver": "github",
   "autoupdate": {

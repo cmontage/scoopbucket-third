@@ -28,9 +28,8 @@
     ]
   ],
   "checkver": {
-    "url": "https://quiterss.org/files/",
-    "regex": "href=\"([\\d.]+)",
-    "reverse": true
+    "url": "https://quiterss.org/en/download",
+    "regex": "QuiteRSS\\s+([\\d.]+)\\s+Portable"
   },
   "autoupdate": {
     "url": "https://quiterss.org/files/$version_/QuiteRSS-$version.zip",

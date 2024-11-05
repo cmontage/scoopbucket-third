@@ -1,5 +1,5 @@
 {
-  "version": "9.0.100-preview.7.24407.12",
+  "version": "8.0.100-preview.7.23376.3",
   "description": ".NET is a free, cross-platform, open source developer platform for building many different types of applications.",
   "homepage": "https://www.microsoft.com/net/",
   "license": "MIT",
@@ -8,16 +8,16 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://dotnetcli.azureedge.net/dotnet/Sdk/9.0.100-preview.7.24407.12/dotnet-sdk-9.0.100-preview.7.24407.12-win-x64.zip",
-      "hash": "sha512:99ed1ff4207b8e465b0a483649be860164fb9d4003ee08b1758d0db0df194dda523be4896572c21bfc6ca333f3408b48c14872cf5748a5af7c4d2682f29d8d3b"
+      "url": "https://dotnetcli.azureedge.net/dotnet/Sdk/8.0.100-preview.7.23376.3/dotnet-sdk-8.0.100-preview.7.23376.3-win-x64.zip",
+      "hash": "sha512:7a1bdc73ec79748276a8a57ff608c57c39076ec352b47ba15f7a05bf6738d9d8601572e5ce28cdc4ee6435fb97c42914dab4c84b700ca907e75b3c571559b08b"
     },
     "32bit": {
-      "url": "https://dotnetcli.azureedge.net/dotnet/Sdk/9.0.100-preview.7.24407.12/dotnet-sdk-9.0.100-preview.7.24407.12-win-x86.zip",
-      "hash": "sha512:ba3b33dc34e811e9d740e9af00844a5cc67372718e45226b859812b917ac50b9249397752c8b0b63ce87339df5530f1e27d8863bfd2690834e51c38cb3bf4be7"
+      "url": "https://dotnetcli.azureedge.net/dotnet/Sdk/8.0.100-preview.7.23376.3/dotnet-sdk-8.0.100-preview.7.23376.3-win-x86.zip",
+      "hash": "sha512:5f896a4a47ea428d9a4c5dd7699941bc2c010560b6657028717a762b6d4e4baef05c1ef74beefabc516582c8a54c7924ce37d409d7e6074b8a0f3eb2263c77a6"
     },
     "arm64": {
-      "url": "https://dotnetcli.azureedge.net/dotnet/Sdk/9.0.100-preview.7.24407.12/dotnet-sdk-9.0.100-preview.7.24407.12-win-arm64.zip",
-      "hash": "sha512:69c9b7fd4772509a343907a3cc386660caff5295fda42e64ae62c52147ba2adbd9511fa976dd9738df0643a3596a5c7eaa3e51a0f8bc8ffd4101eea706a5dd2b"
+      "url": "https://dotnetcli.azureedge.net/dotnet/Sdk/8.0.100-preview.7.23376.3/dotnet-sdk-8.0.100-preview.7.23376.3-win-arm64.zip",
+      "hash": "sha512:b6ee0c8ea795cc988902f2680d70b27b739fb1020df09c2adcc15bbc32dcb3f747827fff08bb5064e6cf570f88bc90333892819f836fcaba241a7ca1ccd6bb6c"
     }
   },
   "env_add_path": ".",

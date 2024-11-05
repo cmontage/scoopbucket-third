@@ -1,16 +1,16 @@
 {
-  "version": "2.9.0",
+  "version": "2.5.0",
   "description": "Music player",
   "homepage": "https://github.com/lyswhut/lx-music-desktop",
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/lyswhut/lx-music-desktop/releases/download/v2.9.0/lx-music-desktop-v2.9.0-win_x64-green.7z",
-      "hash": "6f84474fe0829092bf8669da294d5f42843800d88af8119c19cd3df262cd9033"
+      "url": "https://mirror.ghproxy.com/https://github.com/lyswhut/lx-music-desktop/releases/download/v2.5.0/lx-music-desktop-v2.5.0-win_x64-green.7z",
+      "hash": "49d6c449718dad540add3134442c3e9e8d02f5c9a7cb12951aa60fe08505d621"
     },
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/lyswhut/lx-music-desktop/releases/download/v2.9.0/lx-music-desktop-v2.9.0-win7_x86-green.7z",
-      "hash": "9e2594a6dab86c19e4e0d33bcde8b9764e57d1788473f3ccb3f423377b65f30e"
+      "url": "https://mirror.ghproxy.com/https://github.com/lyswhut/lx-music-desktop/releases/download/v2.5.0/lx-music-desktop-v2.5.0-win7_x86-green.7z",
+      "hash": "a17ac04e8dfe663602a60ae11abd12908b88f9259c9a53af6f952f6e636a7942"
     }
   },
   "shortcuts": [

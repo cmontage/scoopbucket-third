@@ -1,7 +1,7 @@
 {
-  "version": "24.9.2-0",
+  "version": "23.5.2-0",
   "description": "A cross-platform, Python-agnostic binary package manager.",
-  "homepage": "https://docs.anaconda.com/free/miniconda/",
+  "homepage": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/",
   "license": "BSD-3-Clause",
   "notes": [
     "From 4.6.0, conda has built the support for Cmd, Powershell or other shells.",
@@ -11,11 +11,10 @@
   ],
   "architecture": {
     "64bit": {
-      "url": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/Miniconda3-py312_24.9.2-0-Windows-x86_64.exe#/setup.exe",
-      "hash": "3a8897cc5d27236ade8659f0e119f3a3ccaad68a45de45bfdd3102d8bec412ab"
+      "url": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/Miniconda3-py310_23.5.2-0-Windows-x86_64.exe#/setup.exe",
+      "hash": "e15638645b34921098a3f760fd8af07e53a427f59b99a0f049420a7751cbbc05"
     }
   },
-  "pre_install": "if ($dir -match ' ') { error 'The installation directory cannot include a space'; break}",
   "installer": {
     "script": [
       "# Using Start-Process as a workaround because the installer will not work properly when args are quoted (e.g. \"`\"/S`\"\")",
@@ -24,7 +23,6 @@
       "Start-Process \"$dir\\..\\setup.exe\" -ArgumentList @('/S', '/InstallationType=JustMe', '/RegisterPython=0', '/AddToPath=0', '/NoRegistry=1', \"/D=$dir\") -Wait | Out-Null"
     ]
   },
-  "post_install": "Remove-Item \"$dir\\..\\setup.exe\" -Force | Out-Null",
   "uninstaller": {
     "script": [
       "Start-Process \"$dir\\Uninstall-Miniconda3.exe\" -ArgumentList '/S' -Wait | Out-Null",
@@ -46,17 +44,17 @@
   ],
   "persist": "envs",
   "checkver": {
-    "url": "https://docs.anaconda.com/free/miniconda/miniconda-other-installer-links/",
-    "regex": "Miniconda3-py(?<py>\\d+)_([\\d.-]+)-Windows"
+    "url": "https://docs.conda.io/en/latest/miniconda.html",
+    "regex": "Miniconda3-py310_([\\d.-]+)-Windows"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/Miniconda3-py$matchPy_$version-Windows-x86_64.exe#/setup.exe"
+        "url": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/Miniconda3-py310_$version-Windows-x86_64.exe#/setup.exe"
       }
     },
     "hash": {
-      "url": "https://docs.anaconda.com/free/miniconda/miniconda-other-installer-links/",
+      "url": "https://docs.conda.io/en/latest/miniconda.html",
       "regex": "(?sm)$basename.*?>$sha256<"
     }
   }

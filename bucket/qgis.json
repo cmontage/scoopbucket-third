@@ -1,11 +1,11 @@
 {
   "homepage": "https://www.qgis.org/",
   "description": "A Free and Open Source Geographic Information System",
-  "version": "3.38.3-1",
+  "version": "3.32.3-1",
   "license": "GPL-2.0-only",
-  "url": "https://qgis.org/downloads/QGIS-OSGeo4W-3.38.3-1.msi",
-  "hash": "654235fb8f3fcf98790e22c0c19d597d00a70660778c95d04ac40fb64590d9c0",
-  "extract_dir": "QGIS 3.38.3",
+  "url": "https://qgis.org/downloads/QGIS-OSGeo4W-3.32.3-1.msi",
+  "hash": "5c0416ff714e49ceee7af6fd23a5b7c0244959afb6bebd617516c12d795a9de8",
+  "extract_dir": "QGIS 3.32.3",
   "bin": "OSGeo4W.bat",
   "checkver": {
     "url": "https://www.qgis.org/en/site/forusers/alldownloads.html",
@@ -17,6 +17,5 @@
     "hash": {
       "url": "https://qgis.org/downloads/QGIS-OSGeo4W-$version.sha256sum"
     }
-  },
-  "notes": "Run 'OSGeo4W.bat' to start a session and then type \"qgis\" to launch QGIS."
+  }
 }

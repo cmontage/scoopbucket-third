@@ -2,9 +2,9 @@
   "$schema": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/ScoopInstaller/Scoop/master/schema.json",
   "homepage": "https://briano.dev/UWPHook/",
   "license": "MIT",
-  "version": "2.14.1",
-  "url": "https://mirror.ghproxy.com/https://github.com/BrianLima/UWPHook/releases/download/2.14.1/UWPHook.zip",
-  "hash": "f37b698901d0f2969784ffe16734dfd4728236976abb747384ef17c84033c499",
+  "version": "2.13.0",
+  "url": "https://mirror.ghproxy.com/https://github.com/BrianLima/UWPHook/releases/download/2.13.0/UWPHook.zip",
+  "hash": "8f0c43a048a34b2cf5256eae3118851612a3e889da6b7202fdecdf0e75a366ad",
   "extract_dir": "Release",
   "bin": "UWPHook.exe",
   "checkver": {

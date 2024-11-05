@@ -1,19 +1,19 @@
 {
-  "version": "0.6.7",
+  "version": "0.5.1",
   "description": "A modern diagram scripting language that turns text to diagrams",
   "homepage": "https://d2lang.com/",
   "license": "MPL-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/terrastruct/d2/releases/download/v0.6.7/d2-v0.6.7-windows-amd64.tar.gz",
-      "hash": "5351217453cd74b6222915030d681e37ff465f03688846e69218cd72deb8f584"
+      "url": "https://mirror.ghproxy.com/https://github.com/terrastruct/d2/releases/download/v0.5.1/d2-v0.5.1-windows-amd64.tar.gz",
+      "hash": "0f4c6954d3100cfcab3fa4ee121deb5504a3200f58989481288245f5393b6308"
     },
     "arm64": {
-      "url": "https://mirror.ghproxy.com/https://github.com/terrastruct/d2/releases/download/v0.6.7/d2-v0.6.7-windows-arm64.tar.gz",
-      "hash": "0146e9824fdc121268c25e5c28051621f83fcace2f13e6c6ee4349c146837f65"
+      "url": "https://mirror.ghproxy.com/https://github.com/terrastruct/d2/releases/download/v0.5.1/d2-v0.5.1-windows-arm64.tar.gz",
+      "hash": "9792cbe1743f297dc7243bf37a7512f5d6b4d6bef262f6660888381a39355bed"
     }
   },
-  "extract_dir": "d2-v0.6.7",
+  "extract_dir": "d2-v0.5.1",
   "bin": "bin\\d2.exe",
   "checkver": {
     "github": "https://github.com/terrastruct/d2"

@@ -1,14 +1,12 @@
 {
   "version": "0.4.5",
-  "description": "OneForAll是一款功能强大的子域收集工具(Scoop bucket for Cybersecurity by whoopscs)",
+  "description": "OneForAll是一款功能强大的子域收集工具(Scoop bucket by arch3rpro)",
   "homepage": "https://github.com/shmilylty/OneForAll",
-  "license": "GPL-3.0-or-later",
-  "suggest": {
-    "Python": "python"
-  },
+  "license": "GPL-3.0",
+  "suggest": "python3.6+",
   "url": "https://mirror.ghproxy.com/https://github.com/shmilylty/OneForAll/archive/refs/tags/v0.4.5.zip",
   "hash": "ed7854064b454764bb7295865184e7ece8abe9d5ccdbe1734cb709c62bc3243e",
-  "pre_install": "Set-Content \"$dir\\oneforall.bat\" '@pushd %~dp0\npython \"oneforall.py\" %*\n@popd' -Encoding Ascii",
+  "pre_install": "Set-Content \"$dir\\oneforall.bat\" '@pushd %~dp0\npython3 \"oneforall.py\" %*\n@popd' -Encoding Ascii",
   "post_install": [
     "Move-Item -Path \"$dir\\OneForAll-$version\\*\" -Destination \"$dir\\\"",
     "Remove-Item \"$dir\\OneForAll-$version\" -Force -Recurse",

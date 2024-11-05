@@ -1,13 +1,13 @@
 {
-  "version": "23",
+  "version": "19",
   "description": "Quickly and easily develop desktop, mobile, and web applications with Java, JavaScript, HTML5, PHP, C/C++ and more.",
   "homepage": "https://netbeans.org",
   "license": "Apache-2.0",
   "suggest": {
     "JDK": "java/microsoft-jdk"
   },
-  "url": "https://www.apache.org/dist/netbeans/netbeans/23/netbeans-23-bin.zip",
-  "hash": "sha512:9c8d7ccea9ccd07c7b0da60594c2515dedaad189a3ed8646d154797997ba0954d1f5415e305cda873ba12f64a9006dd8d9615ed259d4f2913ef2c32549a37e8e",
+  "url": "https://www.apache.org/dist/netbeans/netbeans/19/netbeans-19-bin.zip",
+  "hash": "sha512:eddfea5db2975764c1a8f54e951dac8a477a0c89a3ddfe018e213fb10871e4481fecea7c25435cb3b31d4c633404f361e72f92788ff0fbe3f3c849402ff24019",
   "extract_dir": "netbeans",
   "installer": {
     "script": [

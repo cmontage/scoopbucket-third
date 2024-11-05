@@ -1,18 +1,18 @@
 {
-  "version": "0.61.1",
+  "version": "0.5.4",
   "description": "Reverse Engineers' Hex Editor",
   "homepage": "https://github.com/solemnwarning/rehex",
   "license": "GPL-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/solemnwarning/rehex/releases/download/0.61.1/rehex-0.61.1-win-x86_64.zip",
-      "hash": "8b2d76e131932f38022e3aa35b166b3862c710602c6df3b557867473eeda4d87",
-      "extract_dir": "rehex-0.61.1"
+      "url": "https://mirror.ghproxy.com/https://github.com/solemnwarning/rehex/releases/download/0.5.4/rehex-0.5.4-win-x86_64.zip",
+      "hash": "b8168f9fe319ba30ea6b6d649a9dedc67436b0e1147ae0f8128908de4f05ed97",
+      "extract_dir": "rehex-0.5.4"
     },
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/solemnwarning/rehex/releases/download/0.61.1/rehex-0.61.1-win-i686.zip",
-      "hash": "7c1cba6a54a6b90102b1c98d003b8d09e6312b530ce13107ced014ce7065f9bf",
-      "extract_dir": "rehex-0.61.1"
+      "url": "https://mirror.ghproxy.com/https://github.com/solemnwarning/rehex/releases/download/0.5.4/rehex-0.5.4-win-i686.zip",
+      "hash": "8ccd0148c051a744e2dcfb1fefa91960277b40cfac85e560b3ddce08486709d1",
+      "extract_dir": "rehex-0.5.4"
     }
   },
   "bin": "rehex.exe",

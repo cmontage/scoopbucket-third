@@ -1,10 +1,10 @@
 {
-  "version": "0.8.28",
+  "version": "0.8.21",
   "description": "Solidity, the Smart Contract Programming Language.",
   "homepage": "https://soliditylang.org/",
   "license": "GPL-3.0-only",
-  "url": "https://mirror.ghproxy.com/https://github.com/ethereum/solidity/releases/download/v0.8.28/solc-windows.exe#/solc.exe",
-  "hash": "76a71001309810aafd0462d9b2f2612bf19b89550c866140edca26e533de06bc",
+  "url": "https://mirror.ghproxy.com/https://github.com/ethereum/solidity/releases/download/v0.8.21/solc-windows.exe#/solc.exe",
+  "hash": "8d9f82566d978ca9d6682a0a03e0238f92ac021710be41c6ed22daa8a9e9949f",
   "bin": "solc.exe",
   "checkver": {
     "github": "https://github.com/ethereum/solidity"
