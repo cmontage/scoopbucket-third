@@ -2,7 +2,7 @@
   "##": "64-bit version is able to build both 32-bit and 64-bit packages",
   "version": "2024-07-27",
   "description": "A software distro and building platform for Windows.",
-  "homepage": "http://msys2.github.io",
+  "homepage": "http://www.msys2.org/",
   "license": "GPL-2.0-only|BSD-3-Clause",
   "notes": "Please run 'msys2' now for the MSYS2 setup to complete!",
   "architecture": {
@@ -35,8 +35,18 @@
     ],
     [
       "msys2_shell.cmd",
+      "clang32",
+      "-clang32 -defterm -here -full-path -no-start"
+    ],
+    [
+      "msys2_shell.cmd",
       "clang64",
       "-clang64 -defterm -here -full-path -no-start"
+    ],
+    [
+      "msys2_shell.cmd",
+      "clangarm64",
+      "-clangarm64 -defterm -here -full-path -no-start"
     ],
     [
       "msys2_shell.cmd",
@@ -58,8 +68,16 @@
       "MinGW64"
     ],
     [
+      "clang32.exe",
+      "Clang32"
+    ],
+    [
       "clang64.exe",
       "Clang64"
+    ],
+    [
+      "clangarm64.exe",
+      "ClangArm64"
     ],
     [
       "ucrt64.exe",
@@ -68,9 +86,8 @@
   ],
   "persist": "home",
   "checkver": {
-    "url": "https://api.github.com/repos/msys2/msys2-installer/tags",
-    "jsonpath": "$..name",
-    "regex": "(?<version>(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2}))"
+    "url": "https://github.com/msys2/msys2-installer/releases",
+    "regex": "/releases/tag/(?<version>(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2}))"
   },
   "autoupdate": {
     "architecture": {

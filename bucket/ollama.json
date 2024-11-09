@@ -3,32 +3,35 @@
   "description": "Get up and running with large language models locally.",
   "homepage": "https://ollama.com/",
   "license": "MIT",
-  "depends": "aki/innounpacker",
-  "url": "https://mirror.ghproxy.com/https://github.com/ollama/ollama/releases/download/v0.4.0/OllamaSetup.exe",
-  "hash": "440f47fc5789c8cf014b150879131afc3522cd7085b69a72346648b62009b94a",
-  "pre_install": [
-    "innounpack.exe -x -d\"$dir\" \"$dir\\OllamaSetup.exe\" | Out-Null",
-    "Move-Item -Force -Path \"$dir\\{app}\\*\" -Destination \"$dir\"",
-    "Remove-Item -Force -Path \"$dir\\{app}\"",
-    "Remove-Item -Force -Path \"$dir\\OllamaSetup.exe\""
-  ],
+  "notes": "Ollama with deamon has been moved to 'extras/ollama-full'.",
+  "suggest": {
+    "Ollama Full": "extras/ollama-full"
+  },
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/ollama/ollama/releases/download/v0.4.0/ollama-windows-amd64.zip",
+      "hash": "6af3c9088445ccd2fd943a9ee4cd2920bb0b6c7eb06a4f6d7390b0b1db0cefae"
+    },
+    "arm64": {
+      "url": "https://mirror.ghproxy.com/https://github.com/ollama/ollama/releases/download/v0.4.0/ollama-windows-arm64.zip",
+      "hash": "9375a1f4e02c6ade73cf44ed81eecd7f6e3ade30aee59dff4b7e2b22c8c22c83"
+    }
+  },
   "bin": "ollama.exe",
-  "shortcuts": [
-    [
-      "ollama app.exe",
-      "Ollama",
-      "",
-      "app.ico"
-    ]
-  ],
   "checkver": {
     "github": "https://github.com/ollama/ollama"
   },
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/ollama/ollama/releases/download/v$version/OllamaSetup.exe",
+    "architecture": {
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/ollama/ollama/releases/download/v$version/ollama-windows-amd64.zip"
+      },
+      "arm64": {
+        "url": "https://mirror.ghproxy.com/https://github.com/ollama/ollama/releases/download/v$version/ollama-windows-arm64.zip"
+      }
+    },
     "hash": {
       "url": "$baseurl/sha256sum.txt"
     }
-  },
-  "notes": "You should have at least 8 GB of RAM available to run the 7B models, 16 GB to run the 13B models, and 32 GB to run the 33B models."
+  }
 }

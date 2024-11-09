@@ -1,7 +1,7 @@
 {
   "version": "1.23.0",
-  "description": "A user-friendly launcher for Bazel.",
-  "homepage": "https://github.com/bazelbuild/bazelisk/",
+  "description": "A user-friendly launcher for Bazel",
+  "homepage": "https://github.com/bazelbuild/bazelisk",
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {

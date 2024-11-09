@@ -1,15 +1,18 @@
 {
   "autoupdate": {
-    "url": "https://andrew-pozenel.xyz/storage/foe.version"
+    "url": "https://mirror.ghproxy.com/https://github.com/anderlli0053/FOE/releases/download/$version/foe.7z"
   },
   "bin": "Forge of Empires.exe",
   "description": "FoE - Forge Of Empires, app made with Nativefier with ElectronJS and NODE.js",
-  "hash": "7ed622b05f34f9170fa63f7daf5de8fdbd28a4fab4156e07f7581caa1bcf535d",
+  "hash": "9684c462f623996cab7e7b2a51169a03227a3c438df035318f66032651e74efb",
   "homepage": "https://en0.forgeofempires.com/page/",
   "license": "Free",
   "notes": [
     "Forge Of Empires, built upon ElectronJS"
   ],
+  "checkver": {
+    "github": "https://github.com/anderlli0053/FOE"
+  },
   "shortcuts": [
     [
       "Forge of Empires.exe",
@@ -18,6 +21,6 @@
       "favicon.ico"
     ]
   ],
-  "url": "https://andrew-pozenel.xyz/storage/foe.7z",
-  "version": "1.1.2"
+  "url": "https://mirror.ghproxy.com/https://github.com/anderlli0053/FOE/releases/download/1.1.3/foe.7z",
+  "version": "1.1.3"
 }

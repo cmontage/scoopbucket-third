@@ -13,7 +13,7 @@
       "hash": "122aee2fbdd0c793367b519635c45e5611688159b72f5e58a27f9256a53c9014"
     }
   },
-  "bin": "nircmdc.exe",
+  "env_add_path": ".",
   "checkver": "<td>NirCmd v([\\d.]+)",
   "autoupdate": {
     "architecture": {

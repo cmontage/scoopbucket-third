@@ -11,48 +11,21 @@
       "nvs"
     ]
   },
-  "url": "https://yarnpkg.com/downloads/1.22.22/yarn-1.22.22.msi",
-  "hash": "ebc1f46891b8d507efad2dd18eec2c4e617457f93e13bc701483cb047a053fa1",
+  "url": "https://mirror.ghproxy.com/https://github.com/yarnpkg/yarn/releases/download/v1.22.22/yarn-v1.22.22.tar.gz",
+  "hash": "88268464199d1611fcf73ce9c0a6c4d44c7d5363682720d8506f6508addf36a0",
+  "extract_dir": "yarn-v1.22.22",
   "post_install": [
     "yarn config set cache-folder \"$dir\\cache\"",
     "yarn config set yarn-offline-mirror \"$dir\\mirror\"",
     "yarn config set global-folder \"$dir\\global\"",
     "yarn config set prefix \"$dir\\global\""
   ],
-  "installer": {
-    "script": [
-      "$runtimeCache = \"$env:LOCALAPPDATA\\Yarn\"",
-      "$runtimeCachePersist = \"$persist_dir\\cache\"",
-      "if (!(Test-Path $runtimeCachePersist)) {",
-      "    New-Item $runtimeCachePersist -Type Directory -Force | Out-Null",
-      "}",
-      "if (Test-Path $runtimeCachePersist) {",
-      "    Remove-Item $runtimeCache -Force -Recurse -ErrorAction SilentlyContinue",
-      "    New-Item -Type Junction -Path $runtimeCache -Target $runtimeCachePersist | Out-Null",
-      "} else {",
-      "    if (Test-Path $runtimeCache) {",
-      "        Move-Item $runtimeCache $runtimeCachePersist -Force",
-      "        New-Item -Type Junction -Path $runtimeCache -Target $runtimeCachePersist | Out-Null",
-      "    }",
-      "}"
-    ]
-  },
   "uninstaller": {
-    "script": [
-      "$yarnrcFile = \"$env:USERPROFILE\\.yarnrc\"",
-      "$runtimeCache = \"$env:LOCALAPPDATA\\Yarn\"",
-      "$runtimeCachePersist = \"$persist_dir\\cache\"",
-      "if (!(Test-Path $runtimeCachePersist)) {",
-      "    Move-Item $runtimeCache $runtimeCachePersist -Force",
-      "} else {",
-      "    Remove-Item $runtimeCache -Force -Recurse -ErrorAction SilentlyContinue",
-      "    Remove-Item $yarnrcFile -Force -Recurse -ErrorAction SilentlyContinue",
-      "}"
-    ]
+    "script": "Remove-Item \"$env:LOCALAPPDATA\\Yarn\", \"$env:USERPROFILE\\.yarnrc\" -Recurse -Force"
   },
   "env_add_path": [
     "global\\node_modules\\.bin",
-    "Yarn\\bin"
+    "bin"
   ],
   "env_set": {
     "NODE_PATH": "$dir\\global\\node_modules"
@@ -63,10 +36,11 @@
     "mirror"
   ],
   "checkver": {
-    "url": "https://yarnpkg.com/latest-version",
+    "url": "https://classic.yarnpkg.com/latest-version",
     "regex": "([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://yarnpkg.com/downloads/$version/yarn-$version.msi"
+    "url": "https://mirror.ghproxy.com/https://github.com/yarnpkg/yarn/releases/download/v$version/yarn-v$version.tar.gz",
+    "extract_dir": "yarn-v$version"
   }
 }
