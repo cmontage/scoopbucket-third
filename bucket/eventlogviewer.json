@@ -1,5 +1,5 @@
 {
-  "version": "1.005",
+  "version": "1.011",
   "description": "EventLogViewer allows administrators and users to view the event logs on a local or remote computer.",
   "homepage": "https://kurtzimmermann.com/",
   "license": {
@@ -9,11 +9,11 @@
   "architecture": {
     "32bit": {
       "url": "https://kurtzimmermann.com/files/EventLogViewerX32.zip",
-      "hash": "20d61020d8aa31b200130ba163464c145324e782231465ac394ad21b90ab42ec"
+      "hash": "cc80158e4b74da9098d6f3f8041920a73cfb2baed1e440a68a861eee123b20e0"
     },
     "64bit": {
       "url": "https://kurtzimmermann.com/files/EventLogViewerX64.zip",
-      "hash": "c21cf450edcf6755c6dea6e9c21be5ddda136d31ad6abb146892212f7c259fd3"
+      "hash": "0159c1dc58ccc74ee675514455ed87f522716e88435b5f0df8c1be748ec7cacc"
     }
   },
   "pre_install": "Remove-Item \"$dir\\Updater.exe\" | Out-Null",

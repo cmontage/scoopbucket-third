@@ -2,11 +2,11 @@
   "homepage": "https://github.com/zix99/rare",
   "description": "A file scanner/regex extractor and realtime summarizor.",
   "license": "GPL-3.0-or-later",
-  "version": "0.3.2",
+  "version": "0.3.4",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/zix99/rare/releases/download/0.3.2/rare_0.3.2_Windows_x86_64.zip",
-      "hash": "0fcd838cd8fe74e2b9ebcb13a3938565e7a9be5fb292a2c1e233e4ec875103b8"
+      "url": "https://mirror.ghproxy.com/https://github.com/zix99/rare/releases/download/0.3.4/rare_0.3.4_Windows_x86_64.zip",
+      "hash": "a71fc2e80ac73a9b0543b14e2fa13d562840a7f02072e9b3e2271588e3bb6663"
     }
   },
   "bin": "rare.exe",

@@ -2,9 +2,9 @@
   "homepage": "http://kpcli.sourceforge.net/",
   "description": "KeePass CLI",
   "license": "Artistic-1.0-Perl",
-  "version": "3.8.1",
-  "url": "https://downloads.sourceforge.net/project/kpcli/kpcli-3.8.1.exe",
-  "hash": "sha1:0c317e616c19615246043223c7aa626b8fc9a6a0",
+  "version": "4.1.2",
+  "url": "https://downloads.sourceforge.net/project/kpcli/kpcli-4.1.2.exe",
+  "hash": "sha1:b80cbaa2299146ddd1316c8800730afd2c8674d1",
   "installer": {
     "script": [
       "$file = (Get-ChildItem \"$dir\" 'kpcli-*.exe' | Select-Object -First 1).FullName",

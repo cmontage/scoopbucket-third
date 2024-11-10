@@ -1,5 +1,5 @@
 {
-  "version": "9.9.3.17816",
+  "version": "9.9.16.241023",
   "description": "A new version of Tencent QQ based on Electron.",
   "homepage": "https://im.qq.com/pcqq/index.shtml",
   "license": "Unknown",
@@ -9,12 +9,12 @@
   ],
   "architecture": {
     "64bit": {
-      "url": "https://dldir1.qq.com/qqfile/qq/QQNT/1e2b98d8/QQ9.9.3.17816_x64.exe#/dl.7z",
-      "hash": "9e6d6c0d5fde5bb3e893184fc6a825349c45f2ccd2eda052594bedd476c09f4f"
+      "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_9.9.16_241023_x64_01.exe#/dl.7z",
+      "hash": "10cd203d0aacc295f5afbddf463accdddccbce89165306be21449a3b9ca9423f"
     },
     "32bit": {
-      "url": "https://dldir1.qq.com/qqfile/qq/QQNT/ed03841d/QQ9.9.3.17816_x86.exe#/dl.7z",
-      "hash": "d714ac2d3fb1e2ddde75e795ac2820d13a24b7a550ec908e33c9e16966839ff1"
+      "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_9.9.16_241023_x86_01.exe#/dl.7z",
+      "hash": "1fedb8b88bb1f52d78a930d5188ea42a40b752e2cdf305be3bc01222cf43a7fa"
     }
   },
   "extract_dir": "Files",
@@ -49,16 +49,17 @@
     ]
   },
   "checkver": {
-    "url": "https://cdn-go.cn/qq-web/im.qq.com_new/latest/rainbow/windowsDownloadUrl.js",
-    "regex": "ntVersion\":\"(?<version>[\\d\\.]+)\".+QQNT\\/(?<filemd532>\\w+)\\/QQ[\\d\\.]+_x86\\.exe.+QQNT\\/(?<filemd564>\\w+)\\/QQ([\\d\\.]+)_x64\\.exe"
+    "url": "https://qq-web.cdn-go.cn/im.qq.com_new/17c986ba/202410301859/windowsDownloadUrl.js",
+    "regex": "QQNT\\/Windows\\/QQ_([\\d\\.]+)_([\\d]+)_x64_01\\.exe",
+    "replace": "${1}.${2}"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://dldir1.qq.com/qqfile/qq/QQNT/$matchFilemd564/QQ$version_x64.exe#/dl.7z"
+        "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_$match1_$match2_x64_01.exe#/dl.7z"
       },
       "32bit": {
-        "url": "https://dldir1.qq.com/qqfile/qq/QQNT/$matchFilemd532/QQ$version_x86.exe#/dl.7z"
+        "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_$match1_$match2_x86_01.exe#/dl.7z"
       }
     }
   }

@@ -1,10 +1,10 @@
 {
   "homepage": "https://www.ccleaner.com/ccleaner",
-  "version": "6.15.10623",
+  "version": "6.29.11342",
   "license": "Freeware",
   "description": "Number-one tool for cleaning your PC.",
-  "url": "https://download.ccleaner.com/portable/ccsetup615.zip",
-  "hash": "267e5789927d1f2abb08b4e27e8ee988e7888cc3ec7f9887e9b107ea191cc0e2",
+  "url": "https://download.ccleaner.com/portable/ccsetup629.zip",
+  "hash": "3223923938daa84c17ba06e36e7864788e3609cc217642714b559d80452911c2",
   "architecture": {
     "64bit": {
       "installer": {
@@ -67,8 +67,8 @@
     "winsys.ini"
   ],
   "checkver": {
-    "url": "https://www.ccleaner.com/ccleaner/download",
-    "regex": "<strong>CCleaner v([\\d.]+)</strong>"
+    "url": "https://www.ccleaner.com/ccleaner/builds",
+    "regex": "CCleaner Free \\(v([\\d.]+)\\) - Latest official release"
   },
   "autoupdate": {
     "url": "https://download.ccleaner.com/portable/ccsetup$majorVersion$minorVersion.zip"

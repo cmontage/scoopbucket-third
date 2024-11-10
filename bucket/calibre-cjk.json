@@ -1,5 +1,5 @@
 {
-  "version": "6.29.0",
+  "version": "7.21.0",
   "description": "Powerful and easy to use e-book manager",
   "homepage": "https://calibre-ebook.com",
   "license": "GPL-3.0-only",
@@ -7,12 +7,12 @@
   "architecture": {
     "64bit": {
       "url": [
-        "https://download.calibre-ebook.com/6.29.0/calibre-portable-installer-6.29.0.exe",
-        "https://mirror.ghproxy.com/https://github.com/Cirn09/calibre-do-not-translate-my-path/releases/download/v6.29.0/patch-win-6.29.0.zip"
+        "https://download.calibre-ebook.com/7.21.0/calibre-portable-installer-7.21.0.exe",
+        "https://mirror.ghproxy.com/https://github.com/Cirn09/calibre-do-not-translate-my-path/releases/download/v7.21.0/win-patch-backend-v7.21.0.zip"
       ],
       "hash": [
-        "sha512:bfb208736b93831e99576272dc6a13f5824bf0e588c79e17eecd88ad0c2becc7567f0b496b878fb45d73b58271a1072be2db6c42f2073fb25594d174a35cba0f",
-        "cd3b9e00b09a4df24267ca5e614840e4807aa3f51494039cd737a071caec3817"
+        "sha512:34d5c77ee1aa4a48c228a8eff403e3e9c8a71185ecee2ad53f41d91673dbf4f2cc5167a9dbc4d39f612e2a9ebb54f8dc28a2dd985cd0e62f9a4fe5474206ea89",
+        "e8f83eae660fd44e2c553977a2882f1ad05c686352caa2f9f0a7eb5803de0e54"
       ]
     }
   },
@@ -82,13 +82,15 @@
       "64bit": {
         "url": [
           "https://download.calibre-ebook.com/$version/calibre-portable-installer-$version.exe",
-          "https://mirror.ghproxy.com/https://github.com/Cirn09/calibre-do-not-translate-my-path/releases/download/v$version/patch-win-$version.zip"
+          "https://mirror.ghproxy.com/https://github.com/Cirn09/calibre-do-not-translate-my-path/releases/download/v$version/win-patch-backend-v$version.zip"
         ],
         "hash": [
           {
             "url": "https://calibre-ebook.com/signatures/calibre-portable-installer-$version.exe.sha512"
           },
-          {}
+          {
+            "mode": "download"
+          }
         ]
       }
     }

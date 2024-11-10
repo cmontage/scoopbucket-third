@@ -2,15 +2,15 @@
   "homepage": "https://godoc.org/github.com/gokcehan/lf",
   "description": "A terminal file manager.",
   "license": "MIT",
-  "version": "r30",
+  "version": "r33",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/gokcehan/lf/releases/download/r30/lf-windows-amd64.zip",
-      "hash": "813de09af0d0ee00133de20ec23cad426911dee93ba4d0ddbc28ee25f9e1978b"
+      "url": "https://mirror.ghproxy.com/https://github.com/gokcehan/lf/releases/download/r33/lf-windows-amd64.zip",
+      "hash": "417ee4a631ab7ece1893a78b9a984869cf88efe9d8a74bb4e5f4ce2089e98143"
     },
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/gokcehan/lf/releases/download/r30/lf-windows-386.zip",
-      "hash": "3942bc767496c32eda4f4765640d7961a249f3947a9ffdb750fd8754abae427a"
+      "url": "https://mirror.ghproxy.com/https://github.com/gokcehan/lf/releases/download/r33/lf-windows-386.zip",
+      "hash": "0108e638418fe0a6f7e6ffbc87e94eeccfdd71431caf3649e622e949a4d9ca5e"
     }
   },
   "bin": "lf.exe",

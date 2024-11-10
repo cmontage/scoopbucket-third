@@ -1,17 +1,18 @@
 {
   "homepage": "http://www.javaeditor.org/",
-  "version": "21.10",
+  "version": "22.10",
   "license": "freeware",
   "architecture": {
     "64bit": {
-      "url": "https://www.javaeditor.org/download/javaeditor64.21.10.zip",
-      "hash": "893f8dd9c632d6582dad94532c2871a18ffb086ade6b40e762b48de6606a27ed"
+      "url": "https://www.javaeditor.org/download/javaeditor64.22.10.zip",
+      "hash": "664a2f7aac2c7c6ed2cf89dd5b00f5a346cdb8b324d8768010291ff2982887b5"
     },
     "32bit": {
-      "url": "https://www.javaeditor.org/download/javaeditor21.10.zip",
-      "hash": "583f7116c6ce0446d35e2b627ca1755f6929b5b464c8e8271dd372c35b0e8675"
+      "url": "https://www.javaeditor.org/download/javaeditor22.10.zip",
+      "hash": "d057fe2787c0d89b4abfe62420f11f8585f27fef372e427268e1723b88dc9cb0"
     }
   },
+  "bin": "javaeditor.exe",
   "persist": [
     "JEMachine.INI",
     "Data",

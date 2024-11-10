@@ -1,12 +1,12 @@
 {
-  "version": "68.2.2",
+  "version": "75.3.0",
   "homepage": "https://github.com/pypa/setuptools",
   "description": "Library designed to facilitate packaging Python projects.",
   "license": "MIT",
   "depends": "python-bucket-utils",
-  "url": "https://mirror.ghproxy.com/https://github.com/pypa/setuptools/archive/v68.2.2.zip",
-  "hash": "7b2e59ba9dab730c6aaa28ffb1f7a3a198e2bbb4330a974609b5193f1baeb212",
-  "extract_dir": "setuptools-68.2.2",
+  "url": "https://mirror.ghproxy.com/https://github.com/pypa/setuptools/archive/v75.3.0.zip",
+  "hash": "0190b995fd2a0cb271d540166c290643881358bc5cf48260fd36920b50bbb10b",
+  "extract_dir": "setuptools-75.3.0",
   "installer": {
     "script": [
       "if ($global) { install-python-package --global --quiet --dir $dir }",

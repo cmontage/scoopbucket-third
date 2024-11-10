@@ -1,10 +1,10 @@
 {
-  "version": "3.1.1",
+  "version": "3.2.1",
   "description": "Nerd Fonts patched 'Iosevka' Font family. (Normal version, Nerd Fonts Symbol/Icon could be 1 or 2 cell wide)",
   "homepage": "https://github.com/ryanoasis/nerd-fonts",
   "license": "MIT",
-  "url": "https://mirror.ghproxy.com/https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/Iosevka.zip",
-  "hash": "4e5e137fbbaf27293b1d8c90bba1e0cae2a1d5e4944f47c6fec46ba08b9c4169",
+  "url": "https://mirror.ghproxy.com/https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Iosevka.zip",
+  "hash": "40e4256822d648bcd147be0f9afbe89e9eb611b59edf3d757768d51ad593963d",
   "installer": {
     "script": [
       "$currentBuildNumber = [int] (Get-ItemProperty \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\").CurrentBuildNumber",
@@ -40,7 +40,7 @@
       "Get-ChildItem $dir -Filter '*NerdFont-*' | ForEach-Object {",
       "    $value = if ($global) { $_.Name } else { \"$fontInstallDir\\$($_.Name)\" }",
       "    New-ItemProperty -Path $registryKey -Name $_.Name.Replace($_.Extension, ' (TrueType)') -Value $value -Force | Out-Null",
-      "    Copy-Item $_.FullName -Destination $fontInstallDir",
+      "    Copy-Item -LiteralPath $_.FullName -Destination $fontInstallDir",
       "}"
     ]
   },

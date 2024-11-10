@@ -1,25 +1,24 @@
 {
-  "version": "6.29.0",
+  "version": "7.21.0",
   "description": "Powerful and easy to use e-book manager",
   "homepage": "https://calibre-ebook.com",
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
       "url": [
-        "https://download.calibre-ebook.com/6.29.0/calibre-64bit-6.29.0.msi",
-        "https://mirror.ghproxy.com/https://github.com/Cirn09/calibre-do-not-translate-my-path/releases/download/v6.29.0/patch-win-6.29.0.zip"
+        "https://download.calibre-ebook.com/7.21.0/calibre-64bit-7.21.0.msi",
+        "https://mirror.ghproxy.com/https://github.com/Cirn09/calibre-do-not-translate-my-path/releases/download/v7.21.0/win-patch-backend-v7.21.0.zip"
       ],
       "hash": [
-        "sha512:f6974d7fc040735dca999167096874ab1f59ad2dc21f2733b2001b98bb6971ef6d07c93c7aa98f86aa1aa8a2e176afac446e1a974d667e61616534c9334e473e",
-        "cd3b9e00b09a4df24267ca5e614840e4807aa3f51494039cd737a071caec3817"
+        "sha512:a28407c5c7b06628acc20b4f88183ea6362d73c384530535840e6c643c7899ac8ab1194158b4a5b789bf79604ed377476e6861c45c3f196447ec480c5fe89fcd",
+        "e8f83eae660fd44e2c553977a2882f1ad05c686352caa2f9f0a7eb5803de0e54"
       ],
       "extract_dir": [
-        "PFiles\\Calibre2",
+        "PFiles64\\Calibre2",
         "Calibre2\\app\\bin"
       ]
     }
   },
-  "pre_install": "Remove-Item \"$dir\\Calibre2\" -Force -Recurse",
   "installer": {
     "script": [
       " if (Test-Path \"$dir\\app\\bin\\python-lib.bypy.frozen\") {",
@@ -76,13 +75,15 @@
       "64bit": {
         "url": [
           "https://download.calibre-ebook.com/$version/calibre-64bit-$version.msi",
-          "https://mirror.ghproxy.com/https://github.com/Cirn09/calibre-do-not-translate-my-path/releases/download/v$version/patch-win-$version.zip"
+          "https://mirror.ghproxy.com/https://github.com/Cirn09/calibre-do-not-translate-my-path/releases/download/v$version/win-patch-backend-v$version.zip"
         ],
         "hash": [
           {
             "url": "https://calibre-ebook.com/signatures/calibre-64bit-$version.msi.sha512"
           },
-          {}
+          {
+            "mode": "download"
+          }
         ]
       }
     }

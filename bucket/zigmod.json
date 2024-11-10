@@ -1,12 +1,12 @@
 {
-  "version": "r88",
+  "version": "r93",
   "description": "A package manager for the Zig programming language",
   "homepage": "https://aquila.red/",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/nektro/zigmod/releases/download/r88/zigmod-x86_64-windows.exe#/zigmod.exe",
-      "hash": "acc6db7babc6d9e13b6025e8447595a9bb2ce51986607646db005ff23b479f65"
+      "url": "https://mirror.ghproxy.com/https://github.com/nektro/zigmod/releases/download/r93/zigmod-x86_64-windows.exe#/zigmod.exe",
+      "hash": "488396a61db234050793e297ea7ed6bb09c1ef849ff3f155937d2eba3c992d98"
     }
   },
   "bin": "zigmod.exe",

@@ -1,13 +1,13 @@
 {
-  "version": "1698262904",
+  "version": "1730854361",
   "description": "SteamCmd. A command-line version of the Steam client",
   "homepage": "https://developer.valvesoftware.com/wiki/SteamCMD",
   "license": {
     "identifier": "Freeware",
     "url": "https://developer.valvesoftware.com/wiki/Valve_Developer_Community:Terms_of_Use"
   },
-  "url": "http://media2.steampowered.com/client/steamcmd_win32.zip.02206ebeab552adff1086ee347bdd5153145d637#/dl.7z",
-  "hash": "cc66ea7639f4f5a6bce4d8a5d9c7d24eb5719749a9adee045edfb1d66a43001e",
+  "url": "http://cdn.steamstatic.com/client/steamcmd_win32.zip.4cc21bb18ee573e9b871391e237c1b0e12566d19#/dl.7z",
+  "hash": "a3dff472b2ee3fae8e8ff4028487c0923144655ea760e3998ebb7822047901af",
   "bin": "steamcmd.exe",
   "persist": [
     "appcache",
@@ -16,13 +16,13 @@
     "userdata"
   ],
   "checkver": {
-    "url": "http://media2.steampowered.com/client/steam_cmd_win32",
+    "url": "http://cdn.steamstatic.com/client/steam_cmd_win32",
     "regex": "\"version\"\\s+\"(\\d+)\"[\\s\\S]*?steamcmd_win32\\.zip\\.(?<random>[a-f\\d]{40})"
   },
   "autoupdate": {
-    "url": "http://media2.steampowered.com/client/steamcmd_win32.zip.$matchRandom#/dl.7z",
+    "url": "http://cdn.steamstatic.com/client/steamcmd_win32.zip.$matchRandom#/dl.7z",
     "hash": {
-      "url": "http://media2.steampowered.com/client/steam_cmd_win32",
+      "url": "http://cdn.steamstatic.com/client/steam_cmd_win32",
       "regex": "(?sm)$basename.*?$sha256"
     }
   }

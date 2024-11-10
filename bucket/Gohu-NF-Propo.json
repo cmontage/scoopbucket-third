@@ -1,10 +1,10 @@
 {
-  "version": "3.1.1",
+  "version": "3.2.1",
   "description": "Nerd Fonts patched 'Gohu' Font family. (Proportional version, for GUI usecases)",
   "homepage": "https://github.com/ryanoasis/nerd-fonts",
   "license": "MIT",
-  "url": "https://mirror.ghproxy.com/https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/Gohu.zip",
-  "hash": "98bb2be01c1b3e955da08d4f4d7a2b351ffeec927787a84db41d4616c1eb9124",
+  "url": "https://mirror.ghproxy.com/https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Gohu.zip",
+  "hash": "c223119a6ff3e222f266c2c977b3bf22ad27cf55c9d088b21305edfd0aaa0430",
   "installer": {
     "script": [
       "$currentBuildNumber = [int] (Get-ItemProperty \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\").CurrentBuildNumber",
@@ -40,7 +40,7 @@
       "Get-ChildItem $dir -Filter '*NerdFontPropo-*' | ForEach-Object {",
       "    $value = if ($global) { $_.Name } else { \"$fontInstallDir\\$($_.Name)\" }",
       "    New-ItemProperty -Path $registryKey -Name $_.Name.Replace($_.Extension, ' (TrueType)') -Value $value -Force | Out-Null",
-      "    Copy-Item $_.FullName -Destination $fontInstallDir",
+      "    Copy-Item -LiteralPath $_.FullName -Destination $fontInstallDir",
       "}"
     ]
   },

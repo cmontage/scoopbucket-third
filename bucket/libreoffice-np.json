@@ -1,5 +1,5 @@
 {
-  "version": "7.6.0.1",
+  "version": "24.8.3.1",
   "description": "Powerful and free office suite, a successor to OpenOffice(.org).",
   "homepage": "https://libreoffice.org/",
   "license": "MPL-2.0",
@@ -8,19 +8,31 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://downloadarchive.documentfoundation.org/libreoffice/old/7.6.0.1/win/x86_64/LibreOffice_7.6.0.1_Win_x86-64.msi#/setup.msi_",
-      "hash": "175f4d2a008ad4c75b1226c17609771dbd173224a9840bcb0dccb8000c73f7f0",
-      "pre_install": "foreach ($z in @('soffice', 'unopkg')) { Set-Content \"$dir\\$z.cmd\" \"@`\"$env:ProgramFiles\\LibreOffice\\program\\$z.com`\"  %*\" -Encoding 'utf8' }"
+      "url": "https://downloadarchive.documentfoundation.org/libreoffice/old/24.8.3.1/win/x86_64/LibreOffice_24.8.3.1_Win_x86-64.msi#/setup.msi_",
+      "hash": "e842a188613aa06a4dd9e3f5e9d43bcf9f36899b35155815b7f1dcefcf5f9666",
+      "pre_install": [
+        "foreach ($z in @('soffice', 'unopkg')) {",
+        "    [System.IO.File]::WriteAllLines(\"$dir\\$z.cmd\", \"@`\"%ProgramFiles%\\LibreOffice\\program\\$z.com`\"  %*\", [System.text.UTF8Encoding]($false))",
+        "}"
+      ]
     },
     "32bit": {
-      "url": "https://downloadarchive.documentfoundation.org/libreoffice/old/7.6.0.1/win/x86/LibreOffice_7.6.0.1_Win_x86.msi#/setup.msi_",
-      "hash": "341bc003ad694a052cfcc00c53717d638fd49daf56d2e0efdb46f9e56a083dcf",
-      "pre_install": "foreach ($z in @('soffice', 'unopkg')) { Set-Content \"$dir\\$z.cmd\" \"@`\"${env:ProgramFiles(x86)}\\LibreOffice\\program\\$z.com`\"  %*\" -Encoding 'utf8' }"
+      "url": "https://downloadarchive.documentfoundation.org/libreoffice/old/24.8.3.1/win/x86/LibreOffice_24.8.3.1_Win_x86.msi#/setup.msi_",
+      "hash": "aee750ded76c6eaedc374e4d3eec34764c4672dce53c8f10786ff570fa0f1123",
+      "pre_install": [
+        "foreach ($z in @('soffice', 'unopkg')) {",
+        "    [System.IO.File]::WriteAllLines(\"$dir\\$z.cmd\", \"@`\"%ProgramFiles(x86)%\\LibreOffice\\program\\$z.com`\"  %*\", [System.text.UTF8Encoding]($false))",
+        "}"
+      ]
     },
     "arm64": {
-      "url": "https://downloadarchive.documentfoundation.org/libreoffice/old/7.6.0.1/win/aarch64/LibreOffice_7.6.0.1_Win_aarch64.msi#/setup.msi_",
-      "hash": "baf2ff9e2785834addf11067f4f59bce03e648c4516d69a7141fc5f7ea17d5b9",
-      "pre_install": "foreach ($z in @('soffice', 'unopkg')) { Set-Content \"$dir\\$z.cmd\" \"@`\"$env:ProgramFiles\\LibreOffice\\program\\$z.com`\"  %*\" -Encoding 'utf8' }"
+      "url": "https://downloadarchive.documentfoundation.org/libreoffice/old/24.8.3.1/win/aarch64/LibreOffice_24.8.3.1_Win_aarch64.msi#/setup.msi_",
+      "hash": "3f938bd582b3af2d12c7626cf7c95db47550a494eb5282d6778cfe282b63095f",
+      "pre_install": [
+        "foreach ($z in @('soffice', 'unopkg')) {",
+        "    [System.IO.File]::WriteAllLines(\"$dir\\$z.cmd\", \"@`\"%ProgramFiles%\\LibreOffice\\program\\$z.com`\"  %*\", [System.text.UTF8Encoding]($false))",
+        "}"
+      ]
     }
   },
   "installer": {
@@ -31,6 +43,10 @@
   },
   "bin": [
     "soffice.cmd",
+    [
+      "soffice.cmd",
+      "libreoffice"
+    ],
     "unopkg.cmd"
   ],
   "pre_uninstall": [

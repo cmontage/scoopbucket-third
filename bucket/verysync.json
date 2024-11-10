@@ -1,16 +1,16 @@
 {
   "homepage": "http://www.verysync.com/",
-  "version": "2.16.0",
+  "version": "2.18.2",
   "architecture": {
     "64bit": {
-      "url": "http://releases-cdn.verysync.com/releases/v2.16.0/verysync-windows-amd64-v2.16.0.zip",
-      "hash": "c23aadd2647d3341b9768942042fda760f853133b8e01b4783a40124caec85fb",
-      "extract_dir": "verysync-windows-amd64-v2.16.0"
+      "url": "http://releases-cdn.verysync.com/releases/v2.18.2/verysync-windows-amd64-v2.18.2.zip",
+      "hash": "51d3bfa38070a51eaaa57459289a2e211064e5713502faf61f7665b9b58524d3",
+      "extract_dir": "verysync-windows-amd64-v2.18.2"
     },
     "32bit": {
-      "url": "http://releases-cdn.verysync.com/releases/v2.16.0/verysync-windows-386-v2.16.0.zip",
-      "hash": "d2f70813f786558ba5a174dd5837248aa6124163e950f1c58f335f30213b2156",
-      "extract_dir": "verysync-windows-386-v2.16.0"
+      "url": "http://releases-cdn.verysync.com/releases/v2.18.2/verysync-windows-386-v2.18.2.zip",
+      "hash": "2d250bbdd7a99d53b80da812c02c11ab5e74201a6c3f64da5bd1a4cee2b2d12c",
+      "extract_dir": "verysync-windows-386-v2.18.2"
     }
   },
   "persist": "config",

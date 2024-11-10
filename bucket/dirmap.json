@@ -1,9 +1,11 @@
 {
   "version": "master",
-  "description": "An advanced web directory & file scanning tool that will be more powerful than DirBuster, Dirsearch, cansina, and Yu Jian.(Scoop bucket by arch3rpro)",
+  "description": "An advanced web directory & file scanning tool that will be more powerful than DirBuster, Dirsearch, cansina, and Yu Jian.(Scoop bucket for Cybersecurity by whoopscs)",
   "homepage": "https://github.com/H4ckForJob/dirmap",
-  "license": "GPL-3.0",
-  "suggest": "python3",
+  "license": "GPL-3.0-or-later",
+  "suggest": {
+    "Python 3": "python"
+  },
   "url": "https://mirror.ghproxy.com/https://github.com/H4ckForJob/dirmap/archive/refs/heads/master.zip",
   "pre_install": "Set-Content \"$dir\\dirmap.bat\" '@pushd %~dp0\npython3 \"dirmap.py\" %*\n@popd' -Encoding Ascii",
   "post_install": [

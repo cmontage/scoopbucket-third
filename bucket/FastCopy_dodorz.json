@@ -1,13 +1,13 @@
 {
-  "version": "5.2.4",
+  "version": "5.8.0",
   "description": "The Fastest copy/backup software.",
   "homepage": "https://fastcopy.jp",
   "license": {
     "identifier": "Freeware",
     "url": "https://fastcopy.jp/help/fastcopy_eng.htm#license"
   },
-  "url": "https://fastcopy.jp/archive/FastCopy5.2.4_installer.exe",
-  "hash": "b5328d6bb97a6ff076e3027996f2bf055b86c3dc831990c91146b24b028ef7c7",
+  "url": "https://fastcopy.jp/archive/FastCopy5.8.0_installer.exe",
+  "hash": "5374571a36fc6012ff56fcc4871cd960d32c9840237cfb1b4e0a5c03e9324aec",
   "pre_install": [
     "if (!(Test-Path \"$persist_dir\\FastCopy2.ini\")) {",
     "   Set-Content \"$dir\\FastCopy2.ini\" '[main]' -Encoding ASCII",

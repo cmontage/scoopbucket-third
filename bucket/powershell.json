@@ -1,16 +1,20 @@
 {
   "homepage": "https://github.com/PowerShell/PowerShell",
   "description": "PowerShell Core, the cross-platform task automation and configuration management framework/tool.",
-  "version": "7.3.9",
+  "version": "7.4.6",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/PowerShell/PowerShell/releases/download/v7.3.9/PowerShell-7.3.9-win-x64.zip",
-      "hash": "d23ba4c96874bc30178c253a4e89a4a67e273ebdbbd0c33951a185f7887c4aa1"
+      "url": "https://mirror.ghproxy.com/https://github.com/PowerShell/PowerShell/releases/download/v7.4.6/PowerShell-7.4.6-win-x64.zip",
+      "hash": "ed49ce5adb2162cc4a835d740486be729ba904627cca71fcb6c2b95be11b993d"
     },
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/PowerShell/PowerShell/releases/download/v7.3.9/PowerShell-7.3.9-win-x86.zip",
-      "hash": "53d1405124589514b899853e65e486d5926c52fbe8602b664c63fec8c5b857e4"
+      "url": "https://mirror.ghproxy.com/https://github.com/PowerShell/PowerShell/releases/download/v7.4.6/PowerShell-7.4.6-win-x86.zip",
+      "hash": "eebaf9cdb0c2ce63c2a9521d17877b2c5ddf2b8969c11e55e3c566d9af46ddb7"
+    },
+    "arm64": {
+      "url": "https://mirror.ghproxy.com/https://github.com/PowerShell/PowerShell/releases/download/v7.4.6/PowerShell-7.4.6-win-arm64.zip",
+      "hash": "875af8ae039abb583976129b8508c7cc39f0371ae790db096561e44019da0165"
     }
   },
   "bin": "pwsh.exe",
@@ -20,10 +24,7 @@
       "PowerShell"
     ]
   ],
-  "checkver": {
-    "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/PowerShell/PowerShell/master/README.md",
-    "regex": "\\[rl-windows-64\\].*releases/download/v([\\d.]+)/PowerShell"
-  },
+  "checkver": "github",
   "autoupdate": {
     "architecture": {
       "64bit": {
@@ -31,6 +32,9 @@
       },
       "32bit": {
         "url": "https://mirror.ghproxy.com/https://github.com/PowerShell/PowerShell/releases/download/v$version/PowerShell-$version-win-x86.zip"
+      },
+      "arm64": {
+        "url": "https://mirror.ghproxy.com/https://github.com/PowerShell/PowerShell/releases/download/v$version/PowerShell-$version-win-arm64.zip"
       }
     },
     "hash": {

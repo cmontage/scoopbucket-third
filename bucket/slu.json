@@ -1,16 +1,16 @@
 {
-  "version": "0.71.0",
+  "version": "0.81.0",
   "description": "SikaLabs Utils",
   "homepage": "https://github.com/sikalabs/slu",
   "license": "Freeware",
   "architecture": {
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/sikalabs/slu/releases/download/v0.71.0/slu_v0.71.0_windows_386.tar.gz",
-      "hash": "b8aea0e9318db335a2bc506ca6ee375c7affa0b74b414f218311fd29fcd3d1df"
+      "url": "https://mirror.ghproxy.com/https://github.com/sikalabs/slu/releases/download/v0.81.0/slu_v0.81.0_windows_386.tar.gz",
+      "hash": "7c11d8dfd444a71fcd9c3714e02aad35824a797522a58777ccef597e95c1afdf"
     },
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/sikalabs/slu/releases/download/v0.71.0/slu_v0.71.0_windows_amd64.tar.gz",
-      "hash": "2da11b51769006a373f34afe010a14e6e77fad8883f96c98d385c95cde75b272"
+      "url": "https://mirror.ghproxy.com/https://github.com/sikalabs/slu/releases/download/v0.81.0/slu_v0.81.0_windows_amd64.tar.gz",
+      "hash": "fafa2441367e906a6f06b2941b43a5a1a30fee9b2b0cff1a9d1542fd4751103d"
     }
   },
   "bin": "slu.exe",

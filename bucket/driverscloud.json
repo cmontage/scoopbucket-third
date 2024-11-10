@@ -1,16 +1,16 @@
 {
-  "version": "11.2.8.0",
+  "version": "12.0.21",
   "homepage": "https://www.driverscloud.com/",
   "description": "The essential specialist for detecting and downloading drivers for internal components and external devices of your Windows PC.",
   "license": "Freeware",
   "architecture": {
     "64bit": {
-      "url": "https://mcdrivers.driverscloud.com/applis/DriversCloudx64_11_2_8_0.zip",
-      "hash": "f388da320a39306b171509dea05bdae682e31170753e91c87d46f780d1b96c82"
+      "url": "https://dcdrivers.driverscloud.com/applis/DriversCloudx64_12_0_21.msi",
+      "hash": "c6f9a8265596ae19363803696584fa305f90204ed8cfa242838c841cb728a63b"
     },
     "32bit": {
-      "url": "https://mcdrivers.driverscloud.com/applis/DriversCloud_11_2_8_0.zip",
-      "hash": "fb30979224b790033724a1c3342676cbeb1eec527afdd4690e3edea61194d9df"
+      "url": "https://dcdrivers.driverscloud.com/applis/DriversCloud_12_0_21.msi",
+      "hash": "ec34929c1cebff5213eb73bb4105527ae8193f85dfa06594e59797af1f7f74c7"
     }
   },
   "extract_dir": "DriversCloud",
@@ -40,7 +40,7 @@
   ],
   "checkver": {
     "url": "https://www.driverscloud.com/en/my-drivers",
-    "regex": ">Current\\sagent\\sversion:\\s([\\d.]+)<"
+    "regex": "\\>Current\\sagent\\sversion:\\s([\\d.]+)\\<"
   },
   "autoupdate": {
     "architecture": {

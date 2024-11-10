@@ -1,5 +1,5 @@
 {
-  "version": "7.4.0",
+  "version": "8.2.0",
   "description": "Office suite that combines text, spreadsheet and presentation editors allowing to create, view and edit documents.",
   "homepage": "https://www.onlyoffice.com/apps.aspx",
   "license": "AGPL-3.0-only",
@@ -8,12 +8,12 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v7.4.0/DesktopEditors_x64.exe",
-      "hash": "dc36f5b4f66d11802661e77b80b292e34dc04074873b92a826f2e5e654259398"
+      "url": "https://mirror.ghproxy.com/https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v8.2.0/DesktopEditors_x64.exe",
+      "hash": "2e0334edab0a28170ab8119e761fcc24b75592907be61eee135c5910a050b882"
     },
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v7.4.0/DesktopEditors_x86.exe",
-      "hash": "2d5b50e378405acc1691257c0db2cc1bef39034fbcd4f3fe8d75ffed1f611d29"
+      "url": "https://mirror.ghproxy.com/https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v8.2.0/DesktopEditors_x86.exe",
+      "hash": "de78e1c8bc5b29ae9ae9dd4c3462394fdd7769bc4a93bd690576801b9e83cd5a"
     }
   },
   "innosetup": true,

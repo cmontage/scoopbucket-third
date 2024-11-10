@@ -1,10 +1,10 @@
 {
-  "version": "3.1.1",
+  "version": "3.2.1",
   "description": "This font contains all Nerd Fonts symbols and is intended to be used as fallback or together with fontconfig.",
-  "homepage": "https://github.com/ryanoasis/nerd-fonts/tree/v3.1.1/patched-fonts/NerdFontsSymbolsOnly",
+  "homepage": "https://github.com/ryanoasis/nerd-fonts/tree/v3.2.1/patched-fonts/NerdFontsSymbolsOnly",
   "license": "MIT",
-  "url": "https://mirror.ghproxy.com/https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/NerdFontsSymbolsOnly.zip",
-  "hash": "8c64613efe0c5d11664a931d241e756ea422cf4ad18d799f1cb5e43171226a76",
+  "url": "https://mirror.ghproxy.com/https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/NerdFontsSymbolsOnly.zip",
+  "hash": "bc59c2ea74d022a6262ff9e372fde5c36cd5ae3f82a567941489ecfab4f03d66",
   "installer": {
     "script": [
       "$currentBuildNumber = [int] (Get-ItemProperty \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\").CurrentBuildNumber",
@@ -40,7 +40,7 @@
       "Get-ChildItem $dir -Filter '*.ttf' | ForEach-Object {",
       "    $value = if ($global) { $_.Name } else { \"$fontInstallDir\\$($_.Name)\" }",
       "    New-ItemProperty -Path $registryKey -Name $_.Name.Replace($_.Extension, ' (TrueType)') -Value $value -Force | Out-Null",
-      "    Copy-Item $_.FullName -Destination $fontInstallDir",
+      "    Copy-Item -LiteralPath $_.FullName -Destination $fontInstallDir",
       "}"
     ]
   },

@@ -1,10 +1,10 @@
 {
   "version": "8.5.100",
+  "description": "Tomcat, an open source implementation of the Java Servlet, JavaServer Pages, Java Expression Language and Java WebSocket technologies. (version 8)",
   "homepage": "https://tomcat.apache.org/",
   "license": "Apache-2.0",
-  "description": "Apache Tomcat is an open source implementation of the Java Servlet and JavaServer Pages technologies.",
   "suggest": {
-    "JRE": "java/openjdk"
+    "JDK": "java/openjdk"
   },
   "architecture": {
     "64bit": {
@@ -17,11 +17,11 @@
     }
   },
   "extract_dir": "apache-tomcat-8.5.100",
-  "bin": "bin\\catalina.bat",
   "env_set": {
-    "CATALINA_HOME": "$dir",
-    "CATALINA_BASE": "$dir"
+    "CATALINA_BASE": "$dir",
+    "CATALINA_HOME": "$dir"
   },
+  "bin": "bin\\catalina.bat",
   "persist": [
     "conf",
     "webapps"

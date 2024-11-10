@@ -6,7 +6,7 @@
   "architecture": {
     "64bit": {
       "url": "https://s3.amazonaws.com/rstudio-ide-build/electron/windows/RStudio-2023.09.2-508.zip",
-      "hash": "cfe37ea17e177ceb99524e76b7a073e1dec4990cd920bcbc43838bc497c3a802"
+      "hash": "e051ae1daf768141d9c4a257a4d59b8ff6a393749c277a66ee1df69a540cda5a"
     }
   },
   "bin": [
@@ -34,7 +34,7 @@
         "hash": {
           "mode": "json",
           "jsonpath": ".electron.platforms['windows-xcopy'].sha256",
-          "url": "https://dailies.rstudio.com/rstudio/spotted-wakerobin/index.json"
+          "url": "https://dailies.rstudio.com/rstudio/desert-sunflower/index.json"
         }
       }
     }

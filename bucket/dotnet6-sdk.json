@@ -1,5 +1,5 @@
 {
-  "version": "6.0.418",
+  "version": "6.0.427",
   "description": ".NET is a free, cross-platform, open source developer platform for building many different types of applications.",
   "homepage": "https://www.microsoft.com/net/",
   "license": "MIT",
@@ -8,16 +8,16 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://dotnetcli.azureedge.net/dotnet/Sdk/6.0.418/dotnet-sdk-6.0.418-win-x64.zip",
-      "hash": "sha512:a768a6d2420e2794d2a8de9b029a8d9e8b9cdc61e261e1652678f1de761d6455a2d37d232b4ce6c2258121cef704f2211b1c20f1047a410b605331d8f010ac2d"
+      "url": "https://dotnetcli.azureedge.net/dotnet/Sdk/6.0.427/dotnet-sdk-6.0.427-win-x64.zip",
+      "hash": "sha512:e92c21f13bf34d8f5892b966950d1f2fe08839e23817a7f8268af36361161b3604a79edab493f7f44033bad2829f4ca57f6afc8e8141aa468c367efe3ba44b38"
     },
     "32bit": {
-      "url": "https://dotnetcli.azureedge.net/dotnet/Sdk/6.0.418/dotnet-sdk-6.0.418-win-x86.zip",
-      "hash": "sha512:10f5755ec77936870e9f1d739acff8e17986ede74b5863bac9ba12edc2523085036912254f4de2fea20d423bdf46e443e93adf84a5af1144199b90a058c72915"
+      "url": "https://dotnetcli.azureedge.net/dotnet/Sdk/6.0.427/dotnet-sdk-6.0.427-win-x86.zip",
+      "hash": "sha512:794e624cc80c7f5c387e3f2ba00d022f5f32adc7adabc2e2136db1faa737054fae49fbfc45b68bf1c52c5e4b63755ae8aca9cd4f9f1796d551f3bcfa6ef4c4b8"
     },
     "arm64": {
-      "url": "https://dotnetcli.azureedge.net/dotnet/Sdk/6.0.418/dotnet-sdk-6.0.418-win-arm64.zip",
-      "hash": "sha512:12236e6365b5568bd8e4db52cfcdaa0209f134e98b4754a4631a42a1fd237c7d6c82fdadffe720e9bcc8200a8194bd1f945aafeecf8814a6314f3937bc8aca5c"
+      "url": "https://dotnetcli.azureedge.net/dotnet/Sdk/6.0.427/dotnet-sdk-6.0.427-win-arm64.zip",
+      "hash": "sha512:cb421e68bde7e06a9f1e3db3c15906b2acf1255aeb520f0654c95cb149cfa97e5c7b93cf5381a746279efc62c45a4fc956a9c4b277f95e774e6b80d5a6224cac"
     }
   },
   "env_add_path": ".",

@@ -1,5 +1,5 @@
 {
-  "version": "2.3.0",
+  "version": "2.5.1",
   "description": "A Sudo for Windows",
   "homepage": "https://gerardog.github.io/gsudo",
   "license": "MIT",
@@ -10,19 +10,19 @@
   ],
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/gerardog/gsudo/releases/download/v2.3.0/gsudo.setup.x64.msi",
-      "hash": "26a59d9876821aecbe18905c3ffd6777d5497eee2637aca99f7e12d61598b6e4",
-      "extract_dir": "PFiles64\\gsudo\\2.3.0"
+      "url": "https://mirror.ghproxy.com/https://github.com/gerardog/gsudo/releases/download/v2.5.1/gsudo.setup.x64.msi",
+      "hash": "e7c13e323a04b568ecfeab707a84279625c70036fbd9ce1ab41d0387990606c1",
+      "extract_dir": "PFiles64\\gsudo\\2.5.1"
     },
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/gerardog/gsudo/releases/download/v2.3.0/gsudo.setup.x86.msi",
-      "hash": "c7ec9db04552770ad2826aa51371b23734c8f36ae21f73b9b31e9ce1de2d3111",
-      "extract_dir": "PFiles\\gsudo\\2.3.0"
+      "url": "https://mirror.ghproxy.com/https://github.com/gerardog/gsudo/releases/download/v2.5.1/gsudo.setup.x86.msi",
+      "hash": "2d0d1a9940226b5451716a5fac6452ef40c95f4c3b362f4f22427484b53273f2",
+      "extract_dir": "PFiles\\gsudo\\2.5.1"
     },
     "arm64": {
-      "url": "https://mirror.ghproxy.com/https://github.com/gerardog/gsudo/releases/download/v2.3.0/gsudo.setup.arm64.msi",
-      "hash": "add2417dfbcb261ec314f00fb7bc2bfa9d3420f14974043c676cce4bab3da273",
-      "extract_dir": "PFiles64\\gsudo\\2.3.0"
+      "url": "https://mirror.ghproxy.com/https://github.com/gerardog/gsudo/releases/download/v2.5.1/gsudo.setup.arm64.msi",
+      "hash": "bf58ed4e72007cb37d30fe91658d28826d0d4ac2712debc545c8f82a2412bee3",
+      "extract_dir": "PFiles64\\gsudo\\2.5.1"
     }
   },
   "bin": [

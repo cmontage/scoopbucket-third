@@ -1,5 +1,5 @@
 {
-  "version": "6.1.0-3423",
+  "version": "6.2.2-3546",
   "homepage": "http://davmail.sourceforge.net/",
   "description": "A POP/IMAP/SMTP/Caldav/Carddav/LDAP exchange gateway allowing users to use any mail/calendar client with an Exchange server, even from the internet or behind a firewall through Outlook Web Access (OWA).",
   "license": "GPL-2.0",
@@ -24,8 +24,8 @@
   ],
   "architecture": {
     "64bit": {
-      "url": "https://sourceforge.net/projects/davmail/files/davmail/6.1.0/davmail-6.1.0-3423-windows-standalone.zip",
-      "hash": "md5:43f684806abdd8586a2c6d871d7bd5a3"
+      "url": "https://sourceforge.net/projects/davmail/files/davmail/6.2.2/davmail-6.2.2-3546-windows-standalone.zip",
+      "hash": "md5:b21e95ffca5a8cd851cd4d613fd02e60"
     }
   },
   "pre_install": [
@@ -60,7 +60,7 @@
         "url": "https://sourceforge.net/projects/davmail/files/davmail/$matchHead/davmail-$version-windows-standalone.zip",
         "hash": {
           "url": "https://sourceforge.net/projects/davmail/rss?path=/davmail",
-          "regex": "$basename/download\"\\sfilesize=\"[\\d.]+\"><media\\:hash\\salgo=\"md5\">$md5"
+          "regex": "$basename/download\".*?md5\"\\>$md5"
         }
       }
     }

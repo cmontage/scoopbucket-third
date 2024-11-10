@@ -1,8 +1,4 @@
 {
-  "##": [
-    "The app currently has a bugged interaction with Scoop's current folder, as a result it does work properly.",
-    "See https://github.com/ScoopInstaller/Extras/issues/10672#issuecomment-1465115400 for more info."
-  ],
   "version": "feature_11",
   "homepage": "https://github.com/arch1t3cht/Aegisub",
   "description": "A fork of the advanced subtitle editor, with new feature branches.",
@@ -19,7 +15,8 @@
     "To uninstall associations, run:",
     "reg import \"$(scoop prefix aegisub-fork)\\uninstall-associations.reg\"",
     "To uninstall the context menu, run:",
-    "reg import \"$(scoop prefix aegisub-fork)\\uninstall-context.reg\""
+    "reg import \"$(scoop prefix aegisub-fork)\\uninstall-context.reg\"",
+    ""
   ],
   "architecture": {
     "64bit": {
@@ -28,36 +25,35 @@
     }
   },
   "pre_install": [
-    "Expand-7zipArchive \"$dir\\aegisub-portable-64.zip\" $dir -ExtractDir 'aegisub-portable' -Removal; Remove-Item \"$dir\\Microsoft.CRT\" -Recurse",
-    "Set-Content \"$dir\\hotkey.json\" '' -Encoding 'utf8' -Force",
-    "Copy-Item \"$persist_dir\\config.json\" \"$dir\\config.json\" -ErrorAction 'SilentlyContinue'"
+    "if (!(Test-Path \"$persist_dir\\Aegisub\")) { ensure \"$persist_dir\\Aegisub\" | Out-Null }",
+    "Expand-7zipArchive \"$dir\\aegisub-portable-64.zip\" \"$dir\\extracted\" -ExtractDir 'aegisub-portable' -Removal",
+    "Move-Item \"$dir\\extracted\\*\" \"$persist_dir\\Aegisub\" -Exclude 'config.json'",
+    "if (Test-Path \"$persist_dir\\config.json\") { Move-Item \"$persist_dir\\config.json\" \"$persist_dir\\Aegisub\\config.json\" }",
+    "else { Move-Item \"$dir\\extracted\\config.json\" \"$persist_dir\\Aegisub\\config.json\" }; Remove-Item \"$dir\\extracted\" -Recurse",
+    "New-Item \"$dir\\aegisub-fork\" -Type 'SymbolicLink' -Value \"$persist_dir\\Aegisub\\aegisub.exe\" | Out-Null"
   ],
   "shortcuts": [
     [
-      "aegisub.exe",
+      "aegisub-fork",
       "Aegisub"
     ]
-  ],
-  "persist": [
-    "hotkey.json",
-    "config",
-    "feedDump",
-    "log"
   ],
   "post_install": [
     "$scriptsDir = \"$bucketsdir\\$bucket\\scripts\"",
     "Get-ChildItem \"$scriptsDir\\aegisub\\*.reg\" | ForEach-Object {",
     "   $content = Get-Content $_",
-    "   $content = $content.Replace('REPLACE_HERE', $dir)",
+    "   $content = $content.Replace('REPLACE_HERE', \"$persist_dir\\Aegisub\")",
     "   if ($global) { $content = $content.Replace('HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE') }",
     "   Set-Content \"$dir\\$($_.Name)\" $content -Encoding 'unicode' -Force",
     "}"
   ],
   "pre_uninstall": [
-    "Copy-Item \"$dir\\config.json\" \"$persist_dir\\config.json\" -ErrorAction 'SilentlyContinue'",
+    "if (Get-Process -Name 'aegisub' -ErrorAction 'SilentlyContinue') { error 'Please kill any process of `aegisub` before trying to uninstall the program'; break }",
     "if ($cmd -eq 'uninstall') {",
     "   foreach ($regFile in 'uninstall-associations', 'uninstall-context') { reg import \"$dir\\$regFile.reg\" | Out-Null }",
-    "}"
+    "}",
+    "Remove-Item \"$persist_dir\\Aegisub\\*\" -Exclude 'config', 'feedDump', 'log', 'hotkey.json', 'config.json' -Recurse",
+    "Move-Item \"$persist_dir\\Aegisub\\config.json\" \"$persist_dir\\config.json\""
   ],
   "checkver": "releases/tag/([\\w_]+)",
   "autoupdate": {

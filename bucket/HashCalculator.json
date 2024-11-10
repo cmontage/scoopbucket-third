@@ -1,24 +1,19 @@
 {
-  "version": "4.5.0",
-  "description": "文件哈希值批量计算器.(Scoop bucket by arch3rpro)",
+  "version": "5.27.0",
+  "description": "文件哈希值批量计算器。(Scoop bucket for Cybersecurity by whoopscs)",
   "homepage": "https://github.com/hrpzcf/HashCalculator",
-  "license": "GPL-3.0",
-  "url": "https://mirror.ghproxy.com/https://github.com/hrpzcf/HashCalculator/releases/download/4.5.0/HashCalculator-4.5.0-net462.zip",
-  "hash": "1E231603D7273D4CBD91F924F426B7CF815BF817AB21EC3A817BF12C8890049A",
+  "license": "GPL-3.0-or-later",
+  "notes": "命令行运行别名：hashc",
+  "url": "https://mirror.ghproxy.com/https://github.com/hrpzcf/HashCalculator/releases/download/5.27.0/HashCalculator-5.27.0.zip",
+  "hash": "b56d164d518f954cbe73a9020c7377f7e3b15be41c29e6c237add157cf335fdc",
   "bin": [
     [
       "HashCalculator.exe",
-      "HashCalculator"
+      "hashc"
     ]
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/hrpzcf/HashCalculator/releases/download/$version/HashCalculator-$version-net462.zip",
-    "bin": [
-      [
-        "HashCalculator.exe",
-        "HashCalculator"
-      ]
-    ]
+    "url": "https://mirror.ghproxy.com/https://github.com/hrpzcf/HashCalculator/releases/download/$version/HashCalculator-$version.zip"
   }
 }

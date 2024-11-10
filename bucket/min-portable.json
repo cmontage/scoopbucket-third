@@ -1,5 +1,5 @@
 {
-  "version": "1.29.0",
+  "version": "1.33.1",
   "description": "A fast, minimal browser that protects your privacy",
   "homepage": "https://minbrowser.org/",
   "license": {
@@ -8,15 +8,15 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/minbrowser/min/releases/download/v1.29.0/Min-v1.29.0-windows.zip",
-      "hash": "47ef2de8f6369bf150e70a429b5d6e56883a904acd9b69589fd4a04e91882eeb"
+      "url": "https://mirror.ghproxy.com/https://github.com/minbrowser/min/releases/download/v1.33.1/Min-v1.33.1-windows.zip",
+      "hash": "14ef6a544dee6d894a08ca9af31d001417e84223dc6cbbb849e6528430292907"
     },
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/minbrowser/min/releases/download/v1.29.0/Min-v1.29.0-windows-ia32.zip",
-      "hash": "106d2a41359affad332054207bfcdff0feb25a7448c3cc3ab469ddeab4c08e7b"
+      "url": "https://mirror.ghproxy.com/https://github.com/minbrowser/min/releases/download/v1.33.1/Min-v1.33.1-windows-ia32.zip",
+      "hash": "7ee4128767152658d822f52f43e06913020f6008f981a83bb7e033fc36b6ade0"
     }
   },
-  "extract_dir": "Min-v1.29.0",
+  "extract_dir": "Min-v1.33.1",
   "installer": {
     "script": [
       "ensure \"$persist_dir\" | Out-Null",
@@ -34,8 +34,9 @@
     ]
   ],
   "checkver": {
-    "url": "https://github.com/minbrowser/min/releases.atom",
-    "regex": "/releases/tag/v([\\d.]+)"
+    "url": "https://api.github.com/repos/minbrowser/min/releases",
+    "jsonpath": "$[0].assets[*].browser_download_url",
+    "regex": "/releases/download/v([\\w.-]+)/Min-v([\\w.-]+)-windows\\.zip"
   },
   "autoupdate": {
     "architecture": {

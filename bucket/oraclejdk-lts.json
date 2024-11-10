@@ -1,15 +1,15 @@
 {
   "description": "Oracle Java Platform, Standard Edition Development Kit (JDK)",
   "homepage": "https://www.oracle.com/java/technologies/downloads/#java21",
-  "version": "21.0.2",
+  "version": "21.0.4",
   "license": "https://www.oracle.com/downloads/licenses/no-fee-license.html",
   "architecture": {
     "64bit": {
-      "url": "https://download.oracle.com/java/21/archive/jdk-21.0.2_windows-x64_bin.zip",
-      "hash": "776afe55020560f175d8099710d8ac07c4d40772c694385c3dd765117cbd0ac3"
+      "url": "https://download.oracle.com/java/21/archive/jdk-21.0.4_windows-x64_bin.zip",
+      "hash": "a2c7030a6a46f045bab24842a39b02e1c1dd3e445d8e2422c25e59fdbc427a73"
     }
   },
-  "extract_dir": "jdk-21.0.2",
+  "extract_dir": "jdk-21.0.4",
   "env_add_path": "bin",
   "env_set": {
     "JAVA_HOME": "$dir"

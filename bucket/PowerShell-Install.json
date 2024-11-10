@@ -1,16 +1,16 @@
 {
-  "version": "7.3.9",
+  "version": "7.4.6",
   "description": "PowerShell Core. The cross-platform task automation and configuration management framework/tool.",
   "homepage": "https://github.com/PowerShell/PowerShell",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/PowerShell/PowerShell/releases/download/v7.3.9/PowerShell-7.3.9-win-x64.msi#/setup.msi_",
-      "hash": "5f57dec05692d97bc052fd0be1feee36c265a9629e3491cc259a2eed4a31ee14"
+      "url": "https://mirror.ghproxy.com/https://github.com/PowerShell/PowerShell/releases/download/v7.4.6/PowerShell-7.4.6-win-x64.msi#/setup.msi_",
+      "hash": "ed331a04679b83d4c013705282d1f3f8d8300485eb04c081f36e11eaf1148bd0"
     },
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/PowerShell/PowerShell/releases/download/v7.3.9/PowerShell-7.3.9-win-x86.msi#/setup.msi_",
-      "hash": "40a8aa80ccdf2dc9bcd72408b5dfce2458b1b0b44cf36f39e657785dcbff9f00"
+      "url": "https://mirror.ghproxy.com/https://github.com/PowerShell/PowerShell/releases/download/v7.4.6/PowerShell-7.4.6-win-x86.msi#/setup.msi_",
+      "hash": "a3f17465ba4b0838b37b5b6f93d03efebc49b065ce5a93d51f1a9bd364df3e30"
     }
   },
   "pre_download": "Assert-Administrator",
@@ -34,7 +34,7 @@
       "$filepath = \"$ProgramFiles\\PowerShell\\7\\pwsh.exe\"",
       "if(((Test-Path -Path $filepath -PathType Leaf) -eq $false) -or ((Get-Command $filepath).Version -lt [System.Version]\"$version\"))",
       "{",
-      "   Invoke-ExternalCommand msiexec -ArgumentList @('/i', \"$dir\\setup.msi_\", '/quiet ADD_EXPLORER_CONTEXT_MENU_OPENPOWERSHELL=1 ENABLE_PSREMOTING=1 REGISTER_MANIFEST=1') -RunAs | Out-Null",
+      "   Invoke-ExternalCommand msiexec -ArgumentList @('/i', \"$dir\\setup.msi_\", '/qn') -RunAs | Out-Null",
       "   if(((Test-Path -Path $filepath -PathType Leaf) -eq $false) -or ((Get-Command $filepath).Version -lt [System.Version]\"$version\"))",
       "   {",
       "       exit 1",

@@ -1,13 +1,13 @@
 {
-  "version": "1.9.2",
+  "version": "1.9.5",
   "description": "Cooler Master device control software",
   "homepage": "https://masterplus.coolermaster.com/",
   "license": "Proprietary",
   "url": "https://masterplus.coolermaster.com/downloads/file/MasterPlus/#/_.zip",
-  "hash": "bedd88444e8b88c3e0b78b5732c8fdeed4530c7f1a9e0c5e9e6fd26415b57959",
+  "hash": "6c84101c6f815397073122151d9b4de73f39b9cdd7992039eb9cec34fc8d098a",
   "pre_install": [
-    "Expand-InnoArchive \"$dir\\Installer_MasterPlus_v$version.exe\" -Removal -DestinationPath \"$dir\"",
-    "Remove-Item -Recurse \"$dir\\*.pdb\""
+    "Expand-InnoArchive -Removal \"$dir/Installer_MasterPlus_v$version.exe\" \"$dir\"",
+    "Remove-Item -Recurse \"$dir/*.pdb\""
   ],
   "shortcuts": [
     [

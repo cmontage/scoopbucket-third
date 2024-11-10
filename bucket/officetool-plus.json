@@ -1,5 +1,5 @@
 {
-  "version": "10.3.1.2",
+  "version": "10.17.9.0",
   "description": "Office Tool Plus based on ODT, highly integrated with a variety of useful tools to help users deploy Office",
   "homepage": "https://otp.landian.vip",
   "license": "GPL-3.0-only",
@@ -8,16 +8,16 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/YerongAI/Office-Tool/releases/download/v10.3.1.2/Office_Tool_v10.3.1.2_x64.zip",
-      "hash": "2f72098154b3531a03dfe01824f0a56ccb61144f5a10151bfef5b3b84ce92186"
+      "url": "https://mirror.ghproxy.com/https://github.com/YerongAI/Office-Tool/releases/download/v10.17.9.0/Office_Tool_v10.17.9.0_x64.zip",
+      "hash": "133f736bef0021735e9390502e26adeb69c3a94b2c93c2ecfd3eb005355719bf"
     },
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/YerongAI/Office-Tool/releases/download/v10.3.1.2/Office_Tool_v10.3.1.2_x64.zip",
-      "hash": "2f72098154b3531a03dfe01824f0a56ccb61144f5a10151bfef5b3b84ce92186"
+      "url": "https://mirror.ghproxy.com/https://github.com/YerongAI/Office-Tool/releases/download/v10.17.9.0/Office_Tool_v10.17.9.0_x64.zip",
+      "hash": "133f736bef0021735e9390502e26adeb69c3a94b2c93c2ecfd3eb005355719bf"
     },
     "arm64": {
-      "url": "https://mirror.ghproxy.com/https://github.com/YerongAI/Office-Tool/releases/download/v10.3.1.2/Office_Tool_v10.3.1.2_arm64.zip",
-      "hash": "e6d92344f67bedd49d6919ca3f90a82864ef5ed7212187b41bd639b9f07c57fa"
+      "url": "https://mirror.ghproxy.com/https://github.com/YerongAI/Office-Tool/releases/download/v10.17.9.0/Office_Tool_v10.17.9.0_arm64.zip",
+      "hash": "c0fbf845ec6cdc9db20e8281a4450aa8efe7dd2f278ed7537ed86aa5b32efa7f"
     }
   },
   "extract_dir": "Office Tool",

@@ -1,20 +1,20 @@
 {
-  "version": "7.4.0-preview.4",
+  "version": "7.5.0-preview.5",
   "description": "Cross-platform automation and configuration tool/framework, known as Powershell Core, that works well with existing tools and is optimized for dealing with structured data. (beta channel)",
   "homepage": "https://github.com/PowerShell/PowerShell",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/PowerShell/PowerShell/releases/download/v7.4.0-preview.4/PowerShell-7.4.0-preview.4-win-x64.zip",
-      "hash": "7e80cf74178427810d13a12e25cc0a2f9a717a92c482bc4e327345afb9e311ae"
+      "url": "https://mirror.ghproxy.com/https://github.com/PowerShell/PowerShell/releases/download/v7.5.0-preview.5/PowerShell-7.5.0-preview.5-win-x64.zip",
+      "hash": "a6eba1e19528680c7366753aace893ab680f75142685ebfc0a982d27f92d31b8"
     },
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/PowerShell/PowerShell/releases/download/v7.4.0-preview.4/PowerShell-7.4.0-preview.4-win-x86.zip",
-      "hash": "91d9bf0fe84f33a7d5f3246ec0e6ee7ef8bd0fa55a7c3203218f89e501f63f1c"
+      "url": "https://mirror.ghproxy.com/https://github.com/PowerShell/PowerShell/releases/download/v7.5.0-preview.5/PowerShell-7.5.0-preview.5-win-x86.zip",
+      "hash": "a5ab015756b265ed6d1702835c981ae31fb92a5585930bacc4a7ba38b3f6eba7"
     },
     "arm64": {
-      "url": "https://mirror.ghproxy.com/https://github.com/PowerShell/PowerShell/releases/download/v7.4.0-preview.4/PowerShell-7.4.0-preview.4-win-arm64.zip",
-      "hash": "6330032c98aad10c03ee8855b822166f7f120e07f0c2afe9bbe0f81cec0f1539"
+      "url": "https://mirror.ghproxy.com/https://github.com/PowerShell/PowerShell/releases/download/v7.5.0-preview.5/PowerShell-7.5.0-preview.5-win-arm64.zip",
+      "hash": "c7d7906ca97dc2cd4926a45ef2cb6b7400cad3d05b073893e9a53945600ae01a"
     }
   },
   "bin": "pwsh.exe",

@@ -1,15 +1,15 @@
 {
-  "version": "4.2.1.208",
+  "version": "4.3.2.4",
   "description": "IPVanish. provides a secure environment for everyday internet activity",
   "homepage": "https://www.ipvanish.com",
   "license": "Proprietary",
   "url": "https://www.ipvanish.com/software/setup-prod-v2/ipvanish-setup.exe#/setup.exe",
-  "hash": "5a2bb24368eca12bb63f1bf16a1537866f7b6d35222ad5f84c27d91bef00f9d2",
+  "hash": "63e4d8c3e25d2b0e7160d9a4f49a301933061a62a34058427e4b552c3da4b56f",
   "pre_download": "Assert-Administrator",
   "installer": {
     "script": [
       "$programname = \"IPVanish*\"",
-      "$ProgramFiles = [Environment]::GetFolderPath(\"ProgramFilesX86\")",
+      "$ProgramFiles = [Environment]::GetFolderPath(\"ProgramFiles\")",
       "$filepath = \"$ProgramFiles\\IPVanish VPN\\IPVanish.exe\"",
       "if(((Test-Path -Path $filepath -PathType Leaf) -eq $false) -or ((Get-Command $filepath).Version -lt [System.Version]\"$version\"))",
       "{",

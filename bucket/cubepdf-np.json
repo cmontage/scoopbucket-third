@@ -1,12 +1,12 @@
 {
-  "version": "3.3.0",
+  "version": "4.2.0",
   "homepage": "https://www.cube-soft.jp/en/cubepdf/",
   "description": "A Windows virtual printer that allows you to convert to PDF when you need it from any application",
   "license": "AGPL-3.0",
   "architecture": {
     "32bit": {
-      "url": "https://dl.cube-soft.jp/archive/cubepdf-3.3.0.exe",
-      "hash": "126833b0e3c9cfb0817d6b4a6c5413f3ac0c7fb93d7d6ec8cfe735a57a4ec803",
+      "url": "https://dl.cube-soft.jp/archive/cubepdf-4.2.0.exe",
+      "hash": "d8f4caf726ea91d82360bd06b1ea164e662be467e300823df3996630731e0af4",
       "installer": {
         "script": [
           "if (!(is_admin)) { error \"$app requires admin rights to $cmd\"; break }",
@@ -24,8 +24,8 @@
       }
     },
     "64bit": {
-      "url": "https://dl.cube-soft.jp/archive/cubepdf-3.3.0-x64.exe",
-      "hash": "e5eec6b9fc3364c1130212ffa5b65014a3c078f3e403e11eed2ae5ea134a61f9",
+      "url": "https://dl.cube-soft.jp/archive/cubepdf-4.2.0-x64.exe",
+      "hash": "66718f2d2b96a9676dcb8b723fa66160659fe7a788dc639b9d5b2770c221dfbc",
       "installer": {
         "script": [
           "if (!(is_admin)) { error \"$app requires admin rights to $cmd\"; break }",
@@ -43,8 +43,8 @@
       }
     },
     "arm64": {
-      "url": "https://dl.cube-soft.jp/archive/cubepdf-3.3.0-arm64.exe",
-      "hash": "4920c1f7e17b8b9f0848bf5dd0cac5c9edf0a38ae7acde028e3b439b73a16104",
+      "url": "https://dl.cube-soft.jp/archive/cubepdf-4.2.0-arm64.exe",
+      "hash": "b02fb98d3acf3dd6a782d3db95141ed120f86dc523cce5c8416319fa2b3fe9a3",
       "installer": {
         "script": [
           "if (!(is_admin)) { error \"$app requires admin rights to $cmd\"; break }",

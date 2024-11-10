@@ -1,26 +1,25 @@
 {
-  "version": "2.059",
-  "description": "Ready for Windows 11 - Optimize Windows made easy",
-  "homepage": "https://kurtzimmermann.com/",
+  "homepage": "https://kurtzimmermann.com/tweakpowerext_en.html",
+  "version": "2.082",
   "license": "freeware",
   "architecture": {
     "64bit": {
       "url": "https://kurtzimmermann.com/files/TweakPowerX64.zip",
-      "hash": "8d338018a60959b5bc909b37329eb9023b3c23a9c622967184b4949c6995944e"
+      "hash": "eaed090cfc758d28b43816dda20b880d1ecff3559d634c009954d713f902c5f3"
     },
     "32bit": {
       "url": "https://kurtzimmermann.com/files/TweakPowerX32.zip",
-      "hash": "6d71ca8e9d9443834a6554c56f29d82241b7a039d3adc30559a310800ccaa9ec"
+      "hash": "35411816c3e774f566391bb789d97f8c21df7ea204c10f0cf1e0553fe930d7e5"
     }
   },
   "bin": "TweakPower.exe",
+  "persist": "Settings",
   "shortcuts": [
     [
       "TweakPower.exe",
       "TweakPower"
     ]
   ],
-  "persist": "Settings",
   "checkver": {
     "url": "https://kurtzimmermann.com/index_e.html",
     "regex": "TweakPower[\\w\\W]*?Version ([\\d.]+)"

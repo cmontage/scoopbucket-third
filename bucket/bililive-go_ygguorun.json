@@ -28,8 +28,7 @@
   "persist": "config.yml",
   "checkver": {
     "url": "https://api.github.com/repos/hr3lxphr6j/bililive-go/releases/latest",
-    "jsonpath": "$.tag_name",
-    "regex": "v(.*)"
+    "regex": "releases/tag/v([\\d.]+)"
   },
   "autoupdate": {
     "architecture": {

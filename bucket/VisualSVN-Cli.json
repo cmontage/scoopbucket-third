@@ -1,9 +1,9 @@
 {
   "homepage": "https://www.visualsvn.com/",
-  "version": "1.14.2",
+  "version": "1.14.4",
   "license": "Apache-2.0",
-  "url": "https://www.visualsvn.com/files/Apache-Subversion-1.14.2.zip",
-  "hash": "021853b21ff90a898938facd5866e6e682a73a15e29f9a2f8b3f4cdf80366b11",
+  "url": "https://www.visualsvn.com/files/Apache-Subversion-1.14.4.zip",
+  "hash": "f3e2948bd202ede186b05dfd2cba3a2f2a2bf4872e203eec9361197d8b215b74",
   "bin": [
     "bin\\svn.exe",
     "bin\\svnadmin.exe",

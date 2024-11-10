@@ -1,12 +1,12 @@
 {
-  "version": "0.49.0",
+  "version": "0.61.0",
   "description": "An experimental diff tool that compares files based on their syntax",
   "homepage": "https://difftastic.wilfred.me.uk",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/Wilfred/difftastic/releases/download/0.49.0/difft-x86_64-pc-windows-msvc.zip",
-      "hash": "8740f2bb7d2e2b5564ec4e74982dc1b3f69fe9598ddfca61d1aa015a08078650"
+      "url": "https://mirror.ghproxy.com/https://github.com/Wilfred/difftastic/releases/download/0.61.0/difft-x86_64-pc-windows-msvc.zip",
+      "hash": "f2c8151b8bb03b17fe7314834e7a24e35f8fc2c2b1b18bd9c022ef68b21439d9"
     }
   },
   "bin": "difft.exe",

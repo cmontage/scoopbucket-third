@@ -1,27 +1,29 @@
 {
-  "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/emoacht/Monitorian/releases/download/$matchTag/MonitorianInstaller$cleanVersion.zip"
-  },
-  "bin": "Monitorian.exe",
-  "checkver": {
-    "jsonpath": "$.tag_name",
-    "regex": "(?<tag>([\\d.]+)-Installer)",
-    "url": "https://api.github.com/repos/emoacht/Monitorian/releases/latest"
-  },
-  "description": "Monitorian is a Windows desktop tool to adjust the brightness of multiple monitors with ease.",
-  "hash": "604ca7f51062b385e31ce4576d5e8a265463808deb86cd1374c9d96b0c35352f",
+  "version": "4.8.0",
   "homepage": "https://github.com/emoacht/Monitorian",
-  "license": {
-    "identifier": "MIT",
-    "url": "https://github.com/emoacht/Monitorian/blob/master/LICENSE.txt"
-  },
-  "pre_install": "Expand-MsiArchive \"$dir\\Monitorian.Installer.msi\" \"$dir\" -ExtractDir 'Monitorian' -Removal",
+  "description": "A Windows desktop tool to adjust the brightness of multiple monitors with ease.",
+  "license": "MIT",
+  "url": "https://mirror.ghproxy.com/https://github.com/emoacht/Monitorian/releases/download/4.8.0-Installer/MonitorianInstaller480.zip",
+  "hash": "6ad7b9d9c519ad141186dfef0dca05fe8686988bb8ba7cb7f5cb26ed5376d91d",
+  "pre_install": "Expand-MsiArchive \"$dir\\Monitorian.Installer.msi\" $dir -ExtractDir 'Monitorian' -Removal",
+  "bin": "Monitorian.exe",
   "shortcuts": [
     [
       "Monitorian.exe",
       "Monitorian"
     ]
   ],
-  "url": "https://mirror.ghproxy.com/https://github.com/emoacht/Monitorian/releases/download/4.3.0-Installer/MonitorianInstaller430.zip",
-  "version": "4.3.0"
+  "pre_uninstall": [
+    "$rkey = 'HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run'",
+    "if ($cmd -eq 'uninstall') {",
+    "    Remove-ItemProperty $rkey -Name 'Monitorian' -ErrorAction 'SilentlyContinue'",
+    "}"
+  ],
+  "checkver": {
+    "github": "https://github.com/emoacht/Monitorian",
+    "regex": "([\\d.]+)-Installer"
+  },
+  "autoupdate": {
+    "url": "https://mirror.ghproxy.com/https://github.com/emoacht/Monitorian/releases/download/$version-Installer/MonitorianInstaller$cleanVersion.zip"
+  }
 }

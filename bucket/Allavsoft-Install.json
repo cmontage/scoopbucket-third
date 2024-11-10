@@ -1,5 +1,5 @@
 {
-  "version": "3.26.0.8691",
+  "version": "3.27.6.9075",
   "description": "Allavsoft. Download free videos from 100+ sites and convert to popular video and audio format.",
   "homepage": "https://www.allavsoft.com/index.html",
   "notes": "Installs the latest version from the website. You have to update the app using the programs updater.",
@@ -7,7 +7,7 @@
     "identifier": ""
   },
   "url": "https://www.allavsoft.com/downloads/allavsoft.exe#/setup.exe",
-  "hash": "b4c49d130c1e77f084fd407ca6d3e0baec13aa9a066ffca0f731b630c7787eb4",
+  "hash": "d9d07560f101b2247db74ad4ee61fe3e9f480f9df8aeba3428e561b91ff2629b",
   "pre_download": "Assert-Administrator",
   "pre_install": [
     "$processname = \"videodownloader\"",
@@ -42,13 +42,8 @@
     "if (Test-Path \"$CommonDesktopPath\\Allavsoft.lnk\") {Remove-Item \"$CommonDesktopPath\\Allavsoft.lnk\" -Force}"
   ],
   "checkver": {
-    "script": [
-      "$dl_url = 'https://www.allavsoft.com/downloads/allavsoft.exe'",
-      "$dl = cache_path 'IPVanish' 'unknown' $dl_url",
-      "do_dl $dl_url $dl",
-      "$version = (Get-Item $dl).VersionInfo.FileVersion.Trim()",
-      "return $version"
-    ]
+    "url": "https://www.majorgeeks.com/files/details/allavsoft.html",
+    "regex": "html\">Allavsoft ([\\d.]+)"
   },
   "autoupdate": {
     "url": "https://www.allavsoft.com/downloads/allavsoft.exe#/setup.exe"

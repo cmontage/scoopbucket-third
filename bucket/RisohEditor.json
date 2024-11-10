@@ -1,21 +1,17 @@
 {
-  "version": "5.7.8",
-  "description": "RisohEditor is a free Win32 resource editor.",
-  "homepage": "https://katahiromz.web.fc2.com/re/en/",
-  "license": {
-    "identifier": "GPL-3.0-only",
-    "url": "https://github.com/katahiromz/RisohEditor/blob/master/LICENSE.txt"
-  },
-  "url": "https://mirror.ghproxy.com/https://github.com/katahiromz/RisohEditor/releases/download/5.7.8/RisohEditor-5.7.8-portable.zip",
-  "extract_dir": "RisohEditor-5.7.8-portable",
-  "hash": "53f9043fcbcffa0d9dab2c747f10adf2ef6fcc2ab94e3b63fd3befd6b54c6128",
+  "homepage": "https://katahiromz.web.fc2.com/re/en",
+  "version": "5.8.5",
+  "license": "GPL-3.0-only",
+  "url": "https://mirror.ghproxy.com/https://github.com/katahiromz/RisohEditor/releases/download/5.8.5/RisohEditor-5.8.5-portable.zip",
+  "hash": "0e87454e8ab87dc38adfc4a0f29470527f4713e1530071d3af8b28fc7e57f6be",
+  "extract_dir": "RisohEditor-5.8.5-portable",
+  "bin": "RisohEditorPortable.exe",
   "shortcuts": [
     [
       "RisohEditorPortable.exe",
       "RisohEditor"
     ]
   ],
-  "pre_install": "if (!(Test-Path \"$persist_dir\\RisohEditorPortable.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\RisohEditorPortable.ini\" -Value $null }",
   "persist": "RisohEditorPortable.ini",
   "checkver": {
     "github": "https://github.com/katahiromz/RisohEditor"

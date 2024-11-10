@@ -1,10 +1,10 @@
 {
-  "version": "3.1.1",
+  "version": "3.2.1",
   "description": "Nerd Fonts patched 'JetBrainsMono' Font family. (Proportional version, for GUI usecases)",
   "homepage": "https://github.com/ryanoasis/nerd-fonts",
   "license": "MIT",
-  "url": "https://mirror.ghproxy.com/https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/JetBrainsMono.zip",
-  "hash": "6481301aaeab1d537c7eef436698a7511e74090cad90a4a7ef6879e2848d21aa",
+  "url": "https://mirror.ghproxy.com/https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip",
+  "hash": "6596922aabaf8876bb657c36a47009ac68c388662db45d4ac05c2536c2f07ade",
   "installer": {
     "script": [
       "$currentBuildNumber = [int] (Get-ItemProperty \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\").CurrentBuildNumber",
@@ -40,7 +40,7 @@
       "Get-ChildItem $dir -Filter '*NerdFontPropo-*' | ForEach-Object {",
       "    $value = if ($global) { $_.Name } else { \"$fontInstallDir\\$($_.Name)\" }",
       "    New-ItemProperty -Path $registryKey -Name $_.Name.Replace($_.Extension, ' (TrueType)') -Value $value -Force | Out-Null",
-      "    Copy-Item $_.FullName -Destination $fontInstallDir",
+      "    Copy-Item -LiteralPath $_.FullName -Destination $fontInstallDir",
       "}"
     ]
   },

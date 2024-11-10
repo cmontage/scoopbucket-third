@@ -1,12 +1,12 @@
 {
-  "version": "2.1.0",
-  "description": "A socks5 / HTTP / HTTPS proxy.",
+  "version": "3.2.1",
+  "description": "Mieru is a socks5 proxy to bypass censorship.",
   "homepage": "https://github.com/enfein/mieru",
-  "license": "GPL-3.0-only",
+  "license": "GPLv3",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/enfein/mieru/releases/download/v2.1.0/mieru_2.1.0_windows_amd64.zip",
-      "hash": "762153c1605ffd17b3627a238981a261f5f7d41649ce3b63f69e42551d84035b"
+      "url": "https://mirror.ghproxy.com/https://github.com/enfein/mieru/releases/download/v3.2.1/mieru_3.2.1_windows_amd64.zip",
+      "hash": "7b722276d022d6db82b4b2d27999401226a8332b8eca98c3554d8a0038a3d439"
     }
   },
   "bin": "mieru.exe",

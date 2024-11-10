@@ -1,22 +1,18 @@
 {
+  "version": "20241030",
+  "description": "An LLVM/Clang/LLD based mingw-w64 toolchain",
   "homepage": "https://github.com/mstorsjo/llvm-mingw",
-  "description": "An LLVM/Clang/LLD based mingw-w64 GNU toolchain",
-  "version": "20231017",
   "license": "ISC",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/mstorsjo/llvm-mingw/releases/download/20231017/llvm-mingw-20231017-ucrt-x86_64.zip",
-      "hash": "0eff5a5e1f2a84d522bf3aba1a914299d122b2660f332d12ee65ecb78a91f796",
-      "extract_dir": "llvm-mingw-20231017-ucrt-x86_64"
+      "url": "https://mirror.ghproxy.com/https://github.com/mstorsjo/llvm-mingw/releases/download/20241030/llvm-mingw-20241030-ucrt-x86_64.zip",
+      "hash": "7dd9884c976bb20bcbcda9077aa3dd2e857cfd073012f39668cdeddb285d93f8",
+      "extract_dir": "llvm-mingw-20241030-ucrt-x86_64"
     },
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/mstorsjo/llvm-mingw/releases/download/20231017/llvm-mingw-20231017-ucrt-i686.zip",
-      "hash": "2e788bfb2f8268cfd8f59ed8a5fec84b6a15c790f2513b397d19d8b64cec9a59",
-      "extract_dir": "llvm-mingw-20231017-ucrt-i686"
-    },
-    "arm64": {
-      "url": "https://mirror.ghproxy.com/https://github.com/mstorsjo/llvm-mingw/releases/download/20231017/llvm-mingw-20231017-ucrt-aarch64.zip",
-      "hash": "13d6eb2e7c9eb3556632bd0152296a44908dab416143dc056a54202a2a2676e9"
+      "url": "https://mirror.ghproxy.com/https://github.com/mstorsjo/llvm-mingw/releases/download/20241030/llvm-mingw-20241030-ucrt-i686.zip",
+      "hash": "70ea4cf62e93dad8ce69b0cb3e50abf9cde10cbf23e8122882837f9e8aa0abfa",
+      "extract_dir": "llvm-mingw-20241030-ucrt-i686"
     }
   },
   "env_add_path": "bin",
@@ -24,16 +20,12 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/mstorsjo/llvm-mingw/releases/download/$version/llvm-mingw-$version-ucrt-x86_64.zip",
-        "extract_dir": "llvm-mingw-$version-ucrt-x86_64"
+        "url": "https://mirror.ghproxy.com/https://github.com/mstorsjo/llvm-mingw/releases/download/$cleanVersion/llvm-mingw-$cleanVersion-ucrt-x86_64.zip",
+        "extract_dir": "llvm-mingw-$cleanVersion-ucrt-x86_64"
       },
       "32bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/mstorsjo/llvm-mingw/releases/download/$version/llvm-mingw-$version-ucrt-i686.zip",
-        "extract_dir": "llvm-mingw-$version-ucrt-i686"
-      },
-      "arm64": {
-        "url": "https://mirror.ghproxy.com/https://github.com/mstorsjo/llvm-mingw/releases/download/$version/llvm-mingw-$version-ucrt-aarch64.zip",
-        "extract_dir": "llvm-mingw-$version-ucrt-aarch64"
+        "url": "https://mirror.ghproxy.com/https://github.com/mstorsjo/llvm-mingw/releases/download/$cleanVersion/llvm-mingw-$cleanVersion-ucrt-i686.zip",
+        "extract_dir": "llvm-mingw-$cleanVersion-ucrt-i686"
       }
     }
   }
