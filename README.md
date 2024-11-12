@@ -2,17 +2,16 @@
 
 <h1 align="center">Third Bucket All In One</h1>
 
-将 Scoop 第三方库整合成一个 Bucket，每日同步，主要用于我的 [Scoop 官方整合库](https://github.com/cmontage/scoopbucket)的拓展，安装应用时便于分辨官方源与第三方源。
+将 Scoop 第三方库整合成一个 Bucket，每日同步，主要用于我的 [Scoop 官方整合库](https://github.com/cmontage/scoopbucket)的拓展，安装应用时便于分辨官方源与第三方源，方便我自己自用。
 
 ## 介绍
 
 包含了我觉得自己用得到的 Scoop 第三方库：
-
-    ivaquero/scoopet
-    scoopcn/scoopcn
-    kkzzhizhou/scoop-apps
-    anderlli0053/DEV-tools
-    akirco/aki-apps
+- ivaquero/scoopet
+- scoopcn/scoopcn
+- kkzzhizhou/scoop-apps
+- ~~anderlli0053/DEV-tools~~ (包含原作者未授权文件，已删除)
+- akirco/aki-apps
 
 本应用库每天自动更新一次。
 
