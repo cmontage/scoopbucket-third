@@ -1,14 +1,20 @@
 {
-  "version": "1.5.0",
-  "description": "Fast scoop search drop-in replacement",
-  "homepage": "https://github.com/shilangyu/scoop-search",
+  "version": "0.1.2",
+  "description": "A scoop plugin",
+  "homepage": "https://github.com/akirco/shell-scripts/tree/master/scoop-search",
   "license": "MIT",
-  "notes": "To replace built-in scoop search, add this to $PROFILE: Invoke-Expression (&scoop-search --hook)",
-  "url": "https://mirror.ghproxy.com/https://github.com/shilangyu/scoop-search/releases/download/v1.5.0/scoop-search.exe",
-  "hash": "9149720d78bc6c18d7303c90b32641d1f674d9b55baa7c98bef454bf9b761b34",
-  "bin": "scoop-search.exe",
-  "checkver": "github",
-  "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/shilangyu/scoop-search/releases/download/v$version/scoop-search.exe"
-  }
+  "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/akirco/shell-scripts/master/scoop-search/scoop-search.ps1",
+  "hash": "480c32269bac64b2909236fca2580455ca5e0a229989b07976d4f8d1e57110fe",
+  "pre_install": [
+    "Rename-Item \"$dir\\scoop-search.ps1\" 'scoop-search.psm1'"
+  ],
+  "psmodule": {
+    "name": "scoop-search"
+  },
+  "notes": [
+    "Remember add `Import-Module scoop-search` to $Profile.",
+    "`scoop search AppName` to search local and remote app",
+    "`scoop add RepoName/app` to download app json file to remote bucket.",
+    "Then: you can install it, but it is not auto update"
+  ]
 }

@@ -19,8 +19,7 @@
     "wkhtmltopdf.exe"
   ],
   "checkver": {
-    "url": "https://api.github.com/repositories/131323182/releases",
-    "jsonpath": "$..browser_download_url",
+    "url": "https://github.com/wkhtmltopdf/packaging/releases",
     "regex": "/wkhtmltox-([\\d.-]+)\\.mxe-cross-"
   },
   "autoupdate": {
@@ -31,6 +30,9 @@
       "32bit": {
         "url": "https://mirror.ghproxy.com/https://github.com/wkhtmltopdf/packaging/releases/download/$version/wkhtmltox-$version.mxe-cross-win32.7z"
       }
+    },
+    "hash": {
+      "url": "$baseurl/SHA256SUMS"
     }
   }
 }

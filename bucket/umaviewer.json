@@ -1,32 +1,34 @@
 {
   "homepage": "https://github.com/katboi01/UmaViewer",
   "description": "Asset Viewer for Uma Musume",
-  "version": "2.1.8",
   "license": "Unknown",
+  "version": "0.0.20241107024350",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/katboi01/UmaViewer/releases/download/2.1.8/UmaViewer.zip",
-      "hash": "564ce13a49b625d9a477b3c89b63aa91a71397b22b224ae30995895fb46d5c19",
-      "extract_dir": "UmaViewer",
-      "bin": "UmaViewer.exe",
-      "shortcuts": [
-        [
-          "UmaViewer.exe",
-          "Uma Viewer"
-        ]
-      ]
+      "url": "https://mirror.ghproxy.com/https://github.com/katboi01/UmaViewer/releases/download/AutoBuild_510a97069d89ae65f13d5e3696dc59946beb7a79/UmaViewer.zip",
+      "hash": "7761b059827db4868e420123019005fe334a4f597c5626296559f752168602a3"
     }
   },
+  "shortcuts": [
+    [
+      "UmaViewer.exe",
+      "UmaViewer"
+    ]
+  ],
+  "extract_dir": "build/StandaloneWindows64",
   "checkver": {
-    "url": "https://api.github.com/repos/katboi01/UmaViewer/releases/latest",
-    "jsonpath": "$.assets[*].browser_download_url",
-    "regex": "([\\d.]+)\\/(?<file>UmaViewer([\\d_]+)?\\.zip)"
+    "script": [
+      "$html = Invoke-WebRequest -Uri 'https://api.github.com/repos/katboi01/UmaViewer/releases/latest'",
+      "$json = $html.Content | ConvertFrom-Json",
+      "$date = $json.assets[0].created_at.replace(':', '').replace('-', '').replace('T', '').replace('Z', '')",
+      "$version = '0.0.' + $date",
+      "$m = $json.assets[0].browser_download_url | Select-String -pattern 'AutoBuild_(\\w+)'",
+      "$commit = $m.matches.groups[1].value",
+      "Write-Output $version $commit"
+    ],
+    "regex": "(?<version>[\\d.]+)\\s(?<commit>.+)"
   },
   "autoupdate": {
-    "architecture": {
-      "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/katboi01/UmaViewer/releases/download/$version/$matchFile"
-      }
-    }
+    "url": "https://mirror.ghproxy.com/https://github.com/katboi01/UmaViewer/releases/download/AutoBuild_$matchCommit/UmaViewer.zip"
   }
 }

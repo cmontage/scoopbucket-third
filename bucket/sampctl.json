@@ -1,19 +1,19 @@
 {
-  "version": "1.10.0",
+  "version": "1.9.1",
   "architecture": {
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/Southclaws/sampctl/releases/download/1.10.0/sampctl_1.10.0_windows_386.tar.gz",
+      "url": "https://mirror.ghproxy.com/https://github.com/Southclaws/sampctl/releases/download/1.9.1/sampctl_1.9.1_windows_386.tar.gz",
       "bin": [
         "sampctl.exe"
       ],
-      "hash": "d99101828bbb380e21d9b04accf8d63a368d39e94624f6a6279a15d914cc61fb"
+      "hash": "dd1ade595995cd2933c8585c1f988d13ac085c539b032fbc9f34414586aeab61"
     },
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/Southclaws/sampctl/releases/download/1.10.0/sampctl_1.10.0_windows_amd64.tar.gz",
+      "url": "https://mirror.ghproxy.com/https://github.com/Southclaws/sampctl/releases/download/1.9.1/sampctl_1.9.1_windows_amd64.tar.gz",
       "bin": [
         "sampctl.exe"
       ],
-      "hash": "3baa201be54e6ab2a9b99747d8af665cb0f359b4609e6c78ae20c8a5c43312b2"
+      "hash": "1e983f5e3b03e5936fc61ebf4d073bc00a7a33786a5d4ad501c96fc532c307c4"
     }
   },
   "homepage": "http://sampctl.com",

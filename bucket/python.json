@@ -19,6 +19,14 @@
     }
   },
   "pre_install": [
+    "$pythonLocation = where.exe python",
+    "$pipLocation = where.exe pip",
+    "if($pythonLocation){",
+    "   Remove-Item $pythonLocation -Force",
+    "}",
+    "if($pipLocation){",
+    "   Remove-Item $pipLocation -Force",
+    "}",
     "$py_root = \"$dir\".Replace('\\', '\\\\')",
     "$py_archLabel = '64-bit'",
     "$bit = '64'",
@@ -55,27 +63,23 @@
       "}",
       "Remove-Item \"$dir\\_tmp\", \"$dir\\setup.exe\" -Force -Recurse",
       "if ($global) {",
-      "    $pathext = (Get-EnvVar -Name PATHEXT -Global) -replace ';.PYW?', ''",
-      "    Set-EnvVar -Name PATHEXT -Value \"$pathext;.PY;.PYW\" -Global",
+      "    $pathext = (env 'PATHEXT' $true) -replace ';.PYW?', ''",
+      "    env 'PATHEXT' $true \"$pathext;.PY;.PYW\"",
       "}"
     ]
   },
-  "post_install": [
-    "python -E -s -m ensurepip -U --default-pip | Out-Null",
-    "Write-Output \"$([char]0x1b)[0m\" # Reset ansi to prevent color leak from installer"
-  ],
   "uninstaller": {
     "script": [
       "if ($global) {",
-      "    $pathext = (Get-EnvVar -Name PATHEXT -Global) -replace ';.PYW?', ''",
-      "    Set-EnvVar -Name PATHEXT -Value \"$pathext\" -Global",
+      "    $pathext = (env 'PATHEXT' $true) -replace ';.PYW?', ''",
+      "    env 'PATHEXT' $true \"$pathext\"",
       "}"
     ]
   },
   "bin": [
     [
       "python.exe",
-      "python3"
+      "python"
     ],
     "Lib\\idlelib\\idle.bat",
     [

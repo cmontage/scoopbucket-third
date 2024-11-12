@@ -1,26 +1,30 @@
 {
-  "homepage": "https://wave.h2o.ai/",
-  "description": "Realtime Web Apps and Dashboards for Python and R",
+  "version": "0.9.1",
+  "description": "cross-platform terminal for seamless workflows",
+  "homepage": "https://www.waveterm.dev/",
   "license": "Apache-2.0",
-  "version": "0.26.1",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/h2oai/wave/releases/download/v0.26.1/wave-0.26.1-windows-amd64.tar.gz",
-      "hash": "095e0929023afa3c0b98599a30788d4733de755e034211087571c34d2393bbe0",
-      "extract_dir": "wave-0.26.1-windows-amd64"
+      "url": "https://dl.waveterm.dev/releases-w2/Wave-win32-x64-0.9.1.msi",
+      "hash": "e74924778d7946e0c68d8f9bd233a6d80e9066f3ee561be4bd9e05b7694f8c87"
     }
   },
-  "bin": "waved.exe",
+  "extract_dir": "waveterm",
+  "bin": "Wave.exe",
+  "shortcuts": [
+    [
+      "Wave.exe",
+      "Wave Terminal"
+    ]
+  ],
   "checkver": {
-    "github": "https://github.com/h2oai/wave"
+    "github": "https://github.com/wavetermdev/waveterm/"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/h2oai/wave/releases/download/v$version/wave-$version-windows-amd64.tar.gz",
-        "extract_dir": "wave-$version-windows-amd64"
+        "url": "https://dl.waveterm.dev/releases-w2/Wave-win32-x64-$version.msi"
       }
     }
-  },
-  "suggest": "wavedb"
+  }
 }

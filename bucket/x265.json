@@ -1,13 +1,13 @@
 {
-  "version": "4.0+19-26d2bab",
+  "version": "3.4+13-g5702-stable",
   "description": "Encodes video or images into an H.265 / HEVC bitstream.",
-  "homepage": "https://www.x265.org/",
+  "homepage": "http://x265.org/",
   "license": {
     "identifier": "GPL-2.0 or Commercial",
     "url": "http://x265.org/x265-licensing-faq/"
   },
-  "url": "http://msystem.waw.pl/x265/x265-4.0+19-26d2bab_vs2022-AVX2.7z",
-  "hash": "e6b961024ad1c3ab8a0531a4029c1f5d6ad65c5df587a40efd99194532b48d89",
+  "url": "http://msystem.waw.pl/x265/x265-3.4+13-g5702-stable_vs2019-AVX2.7z",
+  "hash": "896c27777333c09016ef9ac807cd9110e234586313d8133d354cf9468da19a37",
   "architecture": {
     "64bit": {
       "bin": [
@@ -28,9 +28,9 @@
   },
   "checkver": {
     "url": "http://msystem.waw.pl/x265/",
-    "regex": "x265-([^_]+)_vs2022-AVX2"
+    "regex": "x265-([^_]+)_vs2019-AVX2"
   },
   "autoupdate": {
-    "url": "http://msystem.waw.pl/x265/x265-$version_vs2022-AVX2.7z"
+    "url": "http://msystem.waw.pl/x265/x265-$version_vs2019-AVX2.7z"
   }
 }

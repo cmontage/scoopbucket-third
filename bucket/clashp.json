@@ -1,37 +1,29 @@
 {
-  "version": "2023.05.29",
-  "description": "Clash Premium",
-  "homepage": "https://github.com/Dreamacro/clash",
-  "license": "Freeware+GPL-2.0",
+  "version": "1.18.5",
+  "description": "ClashMeta",
+  "homepage": "https://github.com/MetaCubeX/mihomo",
+  "license": "MIT license",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/Dreamacro/clash/releases/download/premium/clash-windows-amd64-2023.05.29.zip",
-      "hash": "4b52b35b5669e33c92cbfd79d1bb95b9355bdb7117c957f5a480235e138ad7a1",
-      "pre_install": "Rename-Item \"$dir\\clash-windows-amd64.exe\" \"$dir\\clashp.exe\""
+      "url": "https://mirror.ghproxy.com/https://github.com/MetaCubeX/mihomo/releases/download/v1.18.5/mihomo-windows-amd64-v1.18.5.zip",
+      "hash": "f7c2174022079af782ccbaee16ce23445216296f18bfcd35195455e30cf8ff84",
+      "pre_install": "Rename-Item \"$dir\\mihomo-windows-amd64.exe\" \"$dir\\clash.exe\""
     },
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/Dreamacro/clash/releases/download/premium/clash-windows-386-2023.05.29.zip",
-      "hash": "1a18a7809a6539a03f50e1e237061b21d4123ebd51988192adbb830b2f42ec02",
-      "pre_install": "Rename-Item \"$dir\\clash-windows-386.exe\" \"$dir\\clashp.exe\""
+      "url": "https://mirror.ghproxy.com/https://github.com/MetaCubeX/mihomo/releases/download/v1.18.5/mihomo-windows-386-v1.18.5.zip",
+      "hash": "5634b05d5443757994ec4935e0b1c2b8574e53f34fa2b36ed3fa607b2a23189c",
+      "pre_install": "Rename-Item \"$dir\\mihomo-windows-386.exe\" \"$dir\\clash.exe\""
     }
   },
-  "bin": [
-    [
-      "clashp.exe",
-      "clashp"
-    ]
-  ],
-  "checkver": {
-    "url": "https://github.com/Dreamacro/clash/releases/tag/premium",
-    "re": "<h2>Changelog</h2>\\s*<h3>(\\d{4}\\.\\d\\d\\.\\d\\d)</h3>"
-  },
+  "bin": "clash.exe",
+  "checkver": "github",
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/Dreamacro/clash/releases/download/premium/clash-windows-amd64-$version.zip"
+        "url": "https://mirror.ghproxy.com/https://github.com/MetaCubeX/mihomo/releases/download/v$version/mihomo-windows-amd64-v$version.zip"
       },
       "32bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/Dreamacro/clash/releases/download/premium/clash-windows-386-$version.zip"
+        "url": "https://mirror.ghproxy.com/https://github.com/MetaCubeX/mihomo/releases/download/v$version/mihomo-windows-386-v$version.zip"
       }
     }
   }
