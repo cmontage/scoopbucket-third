@@ -27,7 +27,7 @@ export const CONFIG = {
     `ivaquero/scoopet`,
     `scoopcn/scoopcn`, // 大多是国内应用程序
     `kkzzhizhou/scoop-apps`,
-    `anderlli0053/DEV-tools`,
+    //`anderlli0053/DEV-tools`,
     `akirco/aki-apps`,
 
   ]),
