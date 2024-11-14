@@ -4,6 +4,8 @@
 
 将 Scoop 第三方库整合成一个 Bucket，每日同步，主要用于我的 [Scoop 官方整合库](https://github.com/cmontage/scoopbucket)的拓展，安装应用时便于分辨官方源与第三方源，方便我自己自用。
 
+Integrate Scoop third-party libraries into a Bucket, synchronized daily, mainly for the expansion of my official Scoop integration libraries, so that it is easy for me to distinguish official sources from third-party sources when installing applications.
+
 ## 介绍
 
 包含了我觉得自己用得到的 Scoop 第三方库：
