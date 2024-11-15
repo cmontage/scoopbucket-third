@@ -12,7 +12,7 @@ Integrate Scoop third-party libraries into a Bucket, synchronized daily, as an e
 - ivaquero/scoopet
 - scoopcn/scoopcn
 - kkzzhizhou/scoop-apps
-- ~~anderlli0053/DEV-tools~~ (包含原作者未授权文件，已删除)
+- ~~anderlli0053/DEV-tools~~ (该存储库中收集的部分文件包含其作者未授权文件，已删除)
 - akirco/aki-apps
 
 本应用库每天自动更新一次。
