@@ -1,32 +1,32 @@
 {
-  "version": "9.4.4",
+  "version": "9.5.0",
   "description": "A HDD/SSD utility software which supports a part of USB, Intel RAID and NVMe.",
   "homepage": "https://crystalmark.info/en/software/crystaldiskinfo/",
   "license": "MIT",
-  "url": "https://zenlayer.dl.sourceforge.net/project/crystaldiskinfo/9.4.4/CrystalDiskInfo9_4_4Shizuku.zip",
-  "hash": "sha1:74c15eefd180a2cf5521d44edc1305f13264e97e",
+  "url": "https://zenlayer.dl.sourceforge.net/project/crystaldiskinfo/9.5.0/CrystalDiskInfo9_5_0Aoi.zip",
+  "hash": "sha1:01cf957c1508bf0ec9c92715a18daa573a5827d6",
   "architecture": {
     "64bit": {
       "shortcuts": [
         [
-          "DiskInfo64S.exe",
-          "CrystalDiskInfo Shizuku Edition"
+          "DiskInfo64A.exe",
+          "CrystalDiskInfo Aoi Edition"
         ]
       ]
     },
     "32bit": {
       "shortcuts": [
         [
-          "DiskInfo32S.exe",
-          "CrystalDiskInfo Shizuku Edition"
+          "DiskInfo32A.exe",
+          "CrystalDiskInfo Aoi Edition"
         ]
       ]
     },
     "arm64": {
       "shortcuts": [
         [
-          "DiskInfoA64S.exe",
-          "CrystalDiskInfo Shizuku Edition"
+          "DiskInfoA64A.exe",
+          "CrystalDiskInfo Aoi Edition"
         ]
       ]
     }
@@ -45,6 +45,6 @@
     "regex": "CrystalDiskInfo ([\\w\\.]+) &#8211;"
   },
   "autoupdate": {
-    "url": "https://zenlayer.dl.sourceforge.net/project/crystaldiskinfo/$version/CrystalDiskInfo$underscoreVersionShizuku.zip"
+    "url": "https://zenlayer.dl.sourceforge.net/project/crystaldiskinfo/$version/CrystalDiskInfo$underscoreVersionAoi.zip"
   }
 }
