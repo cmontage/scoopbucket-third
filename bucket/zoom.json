@@ -1,65 +1,55 @@
 {
-  "version": "6.2.11.50939",
-  "description": "Video and audio conferencing, chat, and webinars",
-  "homepage": "https://zoom.us",
-  "license": {
-    "identifier": "Proprietary",
-    "url": "https://zoom.us/terms"
-  },
-  "architecture": {
-    "64bit": {
-      "url": "https://cdn.zoom.us/prod/6.2.11.50939/x64/ZoomInstallerFull.exe#/dl.7z",
-      "hash": "952c4241fd17f6bf329b6655224e81fd340c9509989d2c142273cf2b346ac928",
-      "pre_install": "Expand-7zipArchive \"$dir\\ZoomFull_Sip.cab\" -Removal"
-    },
-    "32bit": {
-      "url": "https://cdn.zoom.us/prod/6.2.11.50939/ZoomInstaller.exe#/dl.7z",
-      "hash": "7bac2df2e0ce4838db1f176021cafba7c9787bf7eb18b64ed58422a9c131b12c",
-      "pre_install": "Expand-7zipArchive \"$dir\\Zoom.msi\" -Removal"
-    },
-    "arm64": {
-      "url": "https://cdn.zoom.us/prod/6.2.11.50939/arm64/ZoomInstallerFull.exe#/dl.7z",
-      "hash": "5c7d00db9a2ba1488bb96b8e95f459a78795423ecd44a8ebf090cabc9fa67083",
-      "pre_install": "Expand-7zipArchive \"$dir\\ZoomFull_Sip.cab\" -Removal"
-    }
+  "version": "6.3.0.52884",
+  "description": "Zoom provides videotelephony and online chat services through a cloud-based peer-to-peer software platform and is used for teleconferencing, telecommuting, distance education, and social relations.",
+  "homepage": "https://zoom.us/",
+  "license": "Proprietary",
+  "url": "https://zoom.us/client/latest/ZoomInstallerFull.msi#/setup.msi_",
+  "hash": "7fbda50c1880edc5b3f76b4423ddb0fcff030044e81ccb289566c8f736888386",
+  "pre_download": "Assert-Administrator",
+  "pre_install": [
+    "$processname = \"Zoom*\"",
+    "$process = Get-Process $processname -ErrorAction SilentlyContinue",
+    "if ($process) {",
+    "   $process.CloseMainWindow()",
+    "   Start-Sleep -Seconds 5",
+    "   if (!$process.HasExited) {",
+    "       Start-Sleep -Seconds 25",
+    "       $process | Stop-Process -Force",
+    "   }",
+    "}"
+  ],
+  "installer": {
+    "script": [
+      "$programname = \"Zoom*\"",
+      "$installpath = \"$dir\\setup.msi_\"",
+      "$ProgramFilesX86 = [Environment]::GetFolderPath(\"ProgramFilesX86\")",
+      "$programsVersion = \"$majorVersion.$minorVersion.$patchVersion\"",
+      "if((Get-Command \"$ProgramFilesX86\\Zoom\\bin\\zoom.exe\").Version -lt $version)",
+      "{",
+      "   Invoke-ExternalCommand msiexec -ArgumentList @('/i', \"$dir\\setup.msi_\", '/qn', '/norestart', 'MSIRESTARTMANAGERCONTROL=”Disable”', 'ZoomAutoUpdate=\"true\"') -RunAs | Out-Null",
+      "   if((Get-Command \"$ProgramFilesX86\\Zoom\\bin\\zoom.exe\").Version -lt $version)",
+      "   {",
+      "       exit 1",
+      "   }",
+      "}",
+      "$CommonDesktopPath = [Environment]::GetFolderPath(\"CommonDesktopDirectory\")",
+      "if (Test-Path -Path \"$CommonDesktopPath\\Zoom.lnk\")",
+      "{",
+      "   Remove-Item \"$CommonDesktopPath\\Zoom.lnk\" -Force",
+      "}",
+      "if (Test-Path -Path \"$dir\\setup.msi_\") { Remove-Item \"$dir\\setup.msi_\" -Force }"
+    ]
   },
   "post_install": [
-    "Expand-7zipArchive \"$dir\\win10rt.7z\" -Removal",
-    "Remove-Item \"$dir\\Install*\"",
-    "Write-Host \"Registering zoommtg:// protocol handler\"",
-    "$regpath = \"HKCU:\\SOFTWARE\\Classes\\zoommtg\"",
-    "New-Item -Path $regpath -Value \"Zoom (Application Name)\" -Force | Out-Null",
-    "New-ItemProperty -Path $regpath -Name \"URL Protocol\" -PropertyType String -Force | Out-Null",
-    "New-Item -Path \"$regpath\\shell\\open\\command\" -Value \"`\"$dir\\Zoom.exe`\" --url=`\"%1`\"\" -Force| Out-Null"
-  ],
-  "uninstaller": {
-    "script": [
-      "Write-Host \"Unregistering zoommtg:// protocol handler\"",
-      "Remove-Item \"HKCU:\\SOFTWARE\\Classes\\zoommtg\" -Recurse -Force"
-    ]
-  },
-  "bin": "Zoom.exe",
-  "shortcuts": [
-    [
-      "Zoom.exe",
-      "Zoom"
-    ]
+    "$programname = \"Zoom\"",
+    "$CommonDesktopPath = [Environment]::GetFolderPath(\"CommonDesktopDirectory\")",
+    "if (Test-Path \"$CommonDesktopPath\\$programname.lnk\") {Remove-Item \"$CommonDesktopPath\\$programname.lnk\" -Force}"
   ],
   "checkver": {
-    "url": "https://www.zoom.us/rest/download?os=win",
-    "jsonpath": "$.result.downloadVO.zoom.version"
+    "url": "https://ninite.com/applist/pro.html",
+    "regex": "<td>Video Conference ([\\d.]+)"
   },
   "autoupdate": {
-    "architecture": {
-      "64bit": {
-        "url": "https://cdn.zoom.us/prod/$version/x64/ZoomInstallerFull.exe#/dl.7z"
-      },
-      "32bit": {
-        "url": "https://cdn.zoom.us/prod/$version/ZoomInstaller.exe#/dl.7z"
-      },
-      "arm64": {
-        "url": "https://cdn.zoom.us/prod/$version/arm64/ZoomInstallerFull.exe#/dl.7z"
-      }
-    }
+    "url": "https://zoom.us/client/latest/ZoomInstallerFull.msi#/setup.msi_"
   }
 }
