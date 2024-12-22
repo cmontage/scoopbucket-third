@@ -4,8 +4,9 @@
   "homepage": "https://github.com/gobysec/Goby",
   "license": "Unlicense",
   "checkver": {
-    "url": "https://github.com/gobysec/Goby/releases",
-    "regex": "/releases/tag/.*?([\\d+.]+)"
+    "url": "https://api.github.com/repos/gobysec/Goby/releases/latest",
+    "jsonpath": "$.tag_name",
+    "regex": "Beta(.*)"
   },
   "extract_dir": "goby-win-x64-2.2.0",
   "architecture": {

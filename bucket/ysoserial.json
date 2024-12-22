@@ -31,5 +31,10 @@
     "url": "https://mirror.ghproxy.com/https://github.com/frohoff/ysoserial/releases/download/v$version/ysoserial-all.jar"
   },
   "checkver": "github",
-  "bin": "ysoserial.cmd"
+  "bin": [
+    [
+      "ysoserial-all.jar",
+      "ysoserial"
+    ]
+  ]
 }

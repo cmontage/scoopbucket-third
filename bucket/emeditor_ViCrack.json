@@ -1,0 +1,52 @@
+{
+  "version": "24.5.0",
+  "description": "A fast, lightweight and extensible text editor for Windows. Useful for opening very large files.",
+  "homepage": "https://www.emeditor.com/",
+  "license": "Shareware",
+  "architecture": {
+    "64bit": {
+      "url": "https://download.emeditor.info/emed64_24.5.0_portable.zip",
+      "hash": "098d06a97fc44be1f351e6f6a4439bc13fe4a29747f6ffd05aa52db46fd6f0c8"
+    },
+    "32bit": {
+      "url": "https://download.emeditor.info/emed32_24.5.0_portable.zip",
+      "hash": "79d92646e5b4cbab6b5ab5da9f985eee1329039d7041ef97c14b8432c09426d0"
+    }
+  },
+  "pre_install": [
+    "$manifest.persist | ForEach-Object {",
+    "    if ([io.path]::GetExtension($_)) {",
+    "        if (!(Test-Path \"$persist_dir\\$_\")) { New-Item \"$dir\\$_\" | Out-Null }",
+    "    }",
+    "}"
+  ],
+  "notes": " 学习码: DMAZM-WHY52-AX222-ZQJXN-79JXH ; 添加右键菜单: 打开顶部菜单的工具 > 自定义，选择“快捷方式”这个Tab，点“更多快捷方式...”按钮 ",
+  "bin": "EmEditor.exe",
+  "shortcuts": [
+    [
+      "EmEditor.exe",
+      "EmEditor"
+    ]
+  ],
+  "persist": [
+    "eeCommon.ini",
+    "eeConfig.ini",
+    "eeLM.ini",
+    "eePlugins.ini",
+    "AppData"
+  ],
+  "checkver": {
+    "url": "https://zh-cn.emeditor.com/emeditor-core/",
+    "regex": "v([\\d.]+) "
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://download.emeditor.info/emed64_$version_portable.zip"
+      },
+      "32bit": {
+        "url": "https://download.emeditor.info/emed32_$version_portable.zip"
+      }
+    }
+  }
+}
