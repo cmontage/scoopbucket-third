@@ -285,7 +285,7 @@ bucket/BigBlueTerminal-NF-Propo.json, kkzzhizhou/scoop-apps, 1
 bucket/BigBlueTerminal-NF.json, kkzzhizhou/scoop-apps, 1
 bucket/Bigjpg.json, kkzzhizhou/scoop-apps, 0
 bucket/BiliCLOnline.json, kkzzhizhou/scoop-apps, 1
-bucket/BilibiliDown.json, kkzzhizhou/scoop-apps, 1
+bucket/BilibiliDown_sliots.json, kkzzhizhou/scoop-apps, 1
 bucket/BilibiliLiveRecordDownLoader.json, kkzzhizhou/scoop-apps, 1
 bucket/Bilibili_abgox.json, kkzzhizhou/scoop-apps, 1
 bucket/BililiveStreamFileFixer.json, kkzzhizhou/scoop-apps, 1
@@ -2896,7 +2896,7 @@ bucket/angr-management.json, kkzzhizhou/scoop-apps, 1
 bucket/ani-beta.json, kkzzhizhou/scoop-apps, 1
 bucket/ani-cli.json, kkzzhizhou/scoop-apps, 1
 bucket/ani.json, kkzzhizhou/scoop-apps, 1
-bucket/ani_hu3rror.json, kkzzhizhou/scoop-apps, 1
+bucket/ani_DoveBoy.json, kkzzhizhou/scoop-apps, 1
 bucket/animation-garden-desktop.json, kkzzhizhou/scoop-apps, 1
 bucket/animation-garden-dev.json, kkzzhizhou/scoop-apps, 1
 bucket/animation-garden.json, kkzzhizhou/scoop-apps, 1
@@ -3247,6 +3247,7 @@ bucket/barrier_fixed.json, kkzzhizhou/scoop-apps, 1
 bucket/bartib.json, kkzzhizhou/scoop-apps, 1
 bucket/base64_dodorz.json, kkzzhizhou/scoop-apps, 0
 bucket/basecamp.json, kkzzhizhou/scoop-apps, 0
+bucket/bash-completion.json, kkzzhizhou/scoop-apps, 1
 bucket/bashFuck.json, kkzzhizhou/scoop-apps, 1
 bucket/basic-comical-nc.json, kkzzhizhou/scoop-apps, 0
 bucket/basilisk.json, kkzzhizhou/scoop-apps, 0
@@ -3360,7 +3361,7 @@ bucket/bilibili.json, kkzzhizhou/scoop-apps, 0
 bucket/bilibili_DoveBoy.json, kkzzhizhou/scoop-apps, 0
 bucket/bilibili_akirco.json, kkzzhizhou/scoop-apps, 0
 bucket/bilibilidown-with-jre.json, kkzzhizhou/scoop-apps, 1
-bucket/bilibilidown_DoveBoy.json, kkzzhizhou/scoop-apps, 1
+bucket/bilibilidown.json, kkzzhizhou/scoop-apps, 1
 bucket/bilibilitoolpro.json, kkzzhizhou/scoop-apps, 1
 bucket/bililive-go.json, kkzzhizhou/scoop-apps, 1
 bucket/bililive-go_cc713.json, kkzzhizhou/scoop-apps, 1
@@ -10973,10 +10974,10 @@ bucket/routerpassview.json, kkzzhizhou/scoop-apps, 0
 bucket/routerpassview_ScoopInstaller.json, kkzzhizhou/scoop-apps, 0
 bucket/rpcs3-dev.json, kkzzhizhou/scoop-apps, 1
 bucket/rpcs3.json, kkzzhizhou/scoop-apps, 1
-bucket/rpcs3_Calinou.json, kkzzhizhou/scoop-apps, 1
 bucket/rpcs3_Deide.json, kkzzhizhou/scoop-apps, 1
 bucket/rpcs3_HUMORCE.json, kkzzhizhou/scoop-apps, 1
 bucket/rpcs3_borger.json, kkzzhizhou/scoop-apps, 1
+bucket/rpcs3_hermanjustnu.json, kkzzhizhou/scoop-apps, 1
 bucket/rq.json, kkzzhizhou/scoop-apps, 1
 bucket/rsgain.json, kkzzhizhou/scoop-apps, 1
 bucket/rssguard.json, kkzzhizhou/scoop-apps, 1
@@ -11071,7 +11072,7 @@ bucket/rustcat.json, kkzzhizhou/scoop-apps, 1
 bucket/rustclock.json, kkzzhizhou/scoop-apps, 1
 bucket/rustdesk-nightly.json, kkzzhizhou/scoop-apps, 1
 bucket/rustdesk.json, kkzzhizhou/scoop-apps, 1
-bucket/rustdesk_DoveBoy.json, kkzzhizhou/scoop-apps, 1
+bucket/rustdesk_ScoopInstaller.json, kkzzhizhou/scoop-apps, 1
 bucket/rustdesk_akirco.json, kkzzhizhou/scoop-apps, 1
 bucket/rustdesk_kkzzhizhou.json, kkzzhizhou/scoop-apps, 1
 bucket/rustrover.json, kkzzhizhou/scoop-apps, 1
@@ -13145,7 +13146,7 @@ bucket/vscode-portable.json, kkzzhizhou/scoop-apps, 0
 bucket/vscode-portable32.json, kkzzhizhou/scoop-apps, 1
 bucket/vscode-portapps.json, kkzzhizhou/scoop-apps, 1
 bucket/vscode-win7.json, ivaquero/scoopet, 1
-bucket/vscode.json, kkzzhizhou/scoop-apps, 1
+bucket/vscode.json, akirco/aki-apps, 1
 bucket/vscode1740.json, kkzzhizhou/scoop-apps, 1
 bucket/vscode@1.59.1.json, kkzzhizhou/scoop-apps, 0
 bucket/vscode@1.64.0.json, kkzzhizhou/scoop-apps, 0
