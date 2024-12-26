@@ -5,7 +5,7 @@
   "license": "",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/chasingboy/dirsx/releases/download/dirsx-v1.5.1/dirsx-window-amd.zip",
+      "url": "https://ghgo.xyz/https://github.com/chasingboy/dirsx/releases/download/dirsx-v1.5.1/dirsx-window-amd.zip",
       "hash": ""
     }
   },
@@ -20,7 +20,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/chasingboy/dirsx/releases/download/dirsx$version/dirsx-window.zip"
+        "url": "https://ghgo.xyz/https://github.com/chasingboy/dirsx/releases/download/dirsx$version/dirsx-window.zip"
       }
     }
   }

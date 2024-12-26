@@ -10,11 +10,11 @@
       "java/openjdk"
     ]
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/Schira4396/VcenterKiller/archive/refs/tags/v1.3.7.zip",
+  "url": "https://ghgo.xyz/https://github.com/Schira4396/VcenterKiller/archive/refs/tags/v1.3.7.zip",
   "hash": "",
   "bin": "",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/Schira4396/VcenterKiller/archive/refs/tags/v$version.zip"
+    "url": "https://ghgo.xyz/https://github.com/Schira4396/VcenterKiller/archive/refs/tags/v$version.zip"
   }
 }

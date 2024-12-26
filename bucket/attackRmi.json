@@ -10,10 +10,10 @@
       "java/openjdk"
     ]
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/A-D-Team/attackRmi/releases/download/v2.0/attackRmi.jar",
+  "url": "https://ghgo.xyz/https://github.com/A-D-Team/attackRmi/releases/download/v2.0/attackRmi.jar",
   "hash": "",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/A-D-Team/attackRmi/releases/download/v$version/attackRmi.jar"
+    "url": "https://ghgo.xyz/https://github.com/A-D-Team/attackRmi/releases/download/v$version/attackRmi.jar"
   }
 }

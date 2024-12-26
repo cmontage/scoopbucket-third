@@ -6,7 +6,7 @@
     "identifier": "MIT",
     "url": "https://github.com/johannesjo/super-productivity/blob/master/LICENSE"
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/johannesjo/super-productivity/releases/download/v11.0.3/superProductivity-Setup-11.0.3.exe#/abgo_bucket_installer.exe",
+  "url": "https://ghgo.xyz/https://github.com/johannesjo/super-productivity/releases/download/v11.0.3/superProductivity-Setup-11.0.3.exe#/abgo_bucket_installer.exe",
   "hash": "sha512:d8c02c4ae50d021a55923982542eba0ac2633c65d8953ed963df46d412e2794ccff8fc87b869d171938068bdf4bafa0ed7e9294a2d2e1ba243cb8d906afcd1da",
   "shortcuts": [
     [
@@ -39,7 +39,7 @@
     "github": "https://github.com/johannesjo/super-productivity"
   },
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/johannesjo/super-productivity/releases/download/v$version/superProductivity-Setup-$version.exe#/abgo_bucket_installer.exe",
+    "url": "https://ghgo.xyz/https://github.com/johannesjo/super-productivity/releases/download/v$version/superProductivity-Setup-$version.exe#/abgo_bucket_installer.exe",
     "hash": {
       "url": "$baseurl/latest.yml",
       "regex": "sha512:\\s+$base64"

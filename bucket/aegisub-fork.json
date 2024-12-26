@@ -20,7 +20,7 @@
   ],
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/arch1t3cht/Aegisub/releases/download/feature_12/Windows.MSVC.Release.-.portable.zip",
+      "url": "https://ghgo.xyz/https://github.com/arch1t3cht/Aegisub/releases/download/feature_12/Windows.MSVC.Release.-.portable.zip",
       "hash": "f85b4946ff21a2bce736411b9034431937cad828994b24301208475db769f2d0"
     }
   },
@@ -59,7 +59,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/arch1t3cht/Aegisub/releases/download/$version/Windows.MSVC.Release.-.portable.zip"
+        "url": "https://ghgo.xyz/https://github.com/arch1t3cht/Aegisub/releases/download/$version/Windows.MSVC.Release.-.portable.zip"
       }
     }
   }

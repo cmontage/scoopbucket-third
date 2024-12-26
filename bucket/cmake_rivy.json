@@ -5,12 +5,12 @@
   "license": "BSD-3-Clause",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/Kitware/CMake/releases/download/v3.23.2/cmake-3.23.2-windows-x86_64.zip",
+      "url": "https://ghgo.xyz/https://github.com/Kitware/CMake/releases/download/v3.23.2/cmake-3.23.2-windows-x86_64.zip",
       "hash": "2329387f3166b84c25091c86389fb891193967740c9bcf01e7f6d3306f7ffda0",
       "extract_dir": "cmake-3.23.2-windows-x86_64"
     },
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/Kitware/CMake/releases/download/v3.23.2/cmake-3.23.2-windows-i386.zip",
+      "url": "https://ghgo.xyz/https://github.com/Kitware/CMake/releases/download/v3.23.2/cmake-3.23.2-windows-i386.zip",
       "hash": "6a4fcd6a2315b93cb23c93507efccacc30c449c2bf98f14d6032bb226c582e07",
       "extract_dir": "cmake-3.23.2-windows-i386"
     }
@@ -35,11 +35,11 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/Kitware/CMake/releases/download/v$version/cmake-$version-windows-x86_64.zip",
+        "url": "https://ghgo.xyz/https://github.com/Kitware/CMake/releases/download/v$version/cmake-$version-windows-x86_64.zip",
         "extract_dir": "cmake-$version-windows-x86_64"
       },
       "32bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/Kitware/CMake/releases/download/v$version/cmake-$version-windows-i386.zip",
+        "url": "https://ghgo.xyz/https://github.com/Kitware/CMake/releases/download/v$version/cmake-$version-windows-i386.zip",
         "extract_dir": "cmake-$version-windows-i386"
       }
     },

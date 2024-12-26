@@ -6,7 +6,7 @@
   "notes": "",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/yuyan-sec/RedisEXP/releases/download/0.0.9/RedisEXP.exe",
+      "url": "https://ghgo.xyz/https://github.com/yuyan-sec/RedisEXP/releases/download/0.0.9/RedisEXP.exe",
       "hash": ""
     }
   },
@@ -16,7 +16,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/yuyan-sec/RedisEXP/releases/download/$version/RedisEXP.exe"
+        "url": "https://ghgo.xyz/https://github.com/yuyan-sec/RedisEXP/releases/download/$version/RedisEXP.exe"
       }
     }
   }

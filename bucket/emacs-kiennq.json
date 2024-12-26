@@ -5,7 +5,7 @@
   "license": "GPL (Emacs) + MIT (build script)",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/kiennq/emacs-build/releases/download/v31.293.20240814.d584e6d/emacs-d584e6d-x86_64-full.zip",
+      "url": "https://ghgo.xyz/https://github.com/kiennq/emacs-build/releases/download/v31.293.20240814.d584e6d/emacs-d584e6d-x86_64-full.zip",
       "hash": "a3c709a2f83e625e62f442290bda7e80d3ba42da62f0e80973b4efc2deb1bfee"
     }
   },
@@ -24,7 +24,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/kiennq/emacs-build/releases/download/v$version/emacs-$matchH1-x86_64-full.zip"
+        "url": "https://ghgo.xyz/https://github.com/kiennq/emacs-build/releases/download/v$version/emacs-$matchH1-x86_64-full.zip"
       }
     }
   }

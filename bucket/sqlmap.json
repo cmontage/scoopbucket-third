@@ -9,7 +9,7 @@
   "suggest": {
     "Python": "python"
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/sqlmapproject/sqlmap/archive/refs/tags/1.8.zip",
+  "url": "https://ghgo.xyz/https://github.com/sqlmapproject/sqlmap/archive/refs/tags/1.8.zip",
   "hash": "f4f4621b446538c89224d09ff428c2bdbec5d4d2684ab7423563fde54452bb69",
   "pre_install": [
     "Set-Content \"$dir\\sqlmap.bat\" '@pushd %~dp0",
@@ -26,6 +26,6 @@
     "regex": "/releases/tag/([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/sqlmapproject/sqlmap/archive/refs/tags/$version.zip"
+    "url": "https://ghgo.xyz/https://github.com/sqlmapproject/sqlmap/archive/refs/tags/$version.zip"
   }
 }

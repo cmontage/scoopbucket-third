@@ -6,7 +6,7 @@
   "license": "BSD-3-Clause",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/Hibbiki/chromium-win64/releases/download/v131.0.6778.205-r1368529/mini_installer.sync.exe",
+      "url": "https://ghgo.xyz/https://github.com/Hibbiki/chromium-win64/releases/download/v131.0.6778.205-r1368529/mini_installer.sync.exe",
       "hash": "sha1:8c166af667b73a06926cd64d22a5e3358da43952"
     }
   },
@@ -22,7 +22,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/Hibbiki/chromium-win64/releases/download/v$version$matchSubver/mini_installer.sync.exe",
+        "url": "https://ghgo.xyz/https://github.com/Hibbiki/chromium-win64/releases/download/v$version$matchSubver/mini_installer.sync.exe",
         "hash": {
           "url": "https://github.com/Hibbiki/chromium-win64/releases/latest",
           "regex": "$sha1 \\.\\./out/x64/mini_installer.sync.exe"

@@ -3,7 +3,7 @@
   "description": "Windows 端本地音乐播放器。Local music player for Windows.",
   "homepage": "https://ferry-200.github.io/coriander_player_website/",
   "license": "Unknown",
-  "url": "https://mirror.ghproxy.com/https://github.com/Ferry-200/coriander_player/releases/download/v1.1.0/coriander_player_1_1_0.zip",
+  "url": "https://ghgo.xyz/https://github.com/Ferry-200/coriander_player/releases/download/v1.1.0/coriander_player_1_1_0.zip",
   "hash": "4b886882d98364416ab33114407aca9bcac13ce5d92dfd70ebc36b565836acd6",
   "shortcuts": [
     [
@@ -28,6 +28,6 @@
     "github": "https://github.com/Ferry-200/coriander_player"
   },
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/Ferry-200/coriander_player/releases/download/v$version/coriander_player_$underscoreVersion.zip"
+    "url": "https://ghgo.xyz/https://github.com/Ferry-200/coriander_player/releases/download/v$version/coriander_player_$underscoreVersion.zip"
   }
 }

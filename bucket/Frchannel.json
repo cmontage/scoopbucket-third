@@ -10,11 +10,11 @@
       "java/openjdk"
     ]
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/7wkajk/Frchannel/releases/download/1/FrChannel.jar",
+  "url": "https://ghgo.xyz/https://github.com/7wkajk/Frchannel/releases/download/1/FrChannel.jar",
   "hash": "",
   "bin": "FrChannel.jar",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/7wkajk/Frchannel/releases/download/$version/FrChannel.jar"
+    "url": "https://ghgo.xyz/https://github.com/7wkajk/Frchannel/releases/download/$version/FrChannel.jar"
   }
 }

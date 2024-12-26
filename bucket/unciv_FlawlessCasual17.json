@@ -8,7 +8,7 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/yairm210/Unciv/releases/download/4.3.15/Unciv-Windows64.zip",
+      "url": "https://ghgo.xyz/https://github.com/yairm210/Unciv/releases/download/4.3.15/Unciv-Windows64.zip",
       "hash": "19c14d9105c16468fa8b3dee3f9238789707aa825e92c9257c518798326f33b0"
     }
   },
@@ -32,7 +32,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/yairm210/Unciv/releases/download/$version/Unciv-Windows64.zip"
+        "url": "https://ghgo.xyz/https://github.com/yairm210/Unciv/releases/download/$version/Unciv-Windows64.zip"
       }
     }
   }

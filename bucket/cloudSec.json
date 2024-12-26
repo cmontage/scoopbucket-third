@@ -4,10 +4,10 @@
   "homepage": "https://github.com/libaibaia/cloudSec",
   "license": "",
   "notes": "",
-  "url": "https://mirror.ghproxy.com/https://github.com/libaibaia/cloudSec/releases/download/v1.2.2/cloudSec-1.2.2-SNAPSHOT.jar",
+  "url": "https://ghgo.xyz/https://github.com/libaibaia/cloudSec/releases/download/v1.2.2/cloudSec-1.2.2-SNAPSHOT.jar",
   "hash": "",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/libaibaia/cloudSec/releases/download/v$version/cloudSec-$version-SNAPSHOT.jar"
+    "url": "https://ghgo.xyz/https://github.com/libaibaia/cloudSec/releases/download/v$version/cloudSec-$version-SNAPSHOT.jar"
   }
 }

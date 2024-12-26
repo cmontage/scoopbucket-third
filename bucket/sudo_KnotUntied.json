@@ -3,14 +3,14 @@
   "description": "Sudo Coding Font",
   "license": "OFL-1.1",
   "homepage": "https://www.kutilek.de/sudo-font/",
-  "url": "https://mirror.ghproxy.com/https://github.com/jenskutilek/sudo-font/releases/download/v2.1/sudo.zip",
+  "url": "https://ghgo.xyz/https://github.com/jenskutilek/sudo-font/releases/download/v2.1/sudo.zip",
   "hash": "4d7d108cb41dc9a8edf8b6912a192ff56dc810f058f76f499d2a732ea59e7223",
   "extract_dir": "sudo",
   "checkver": {
     "github": "https://github.com/jenskutilek/sudo-font"
   },
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/jenskutilek/sudo-font/releases/download/v$version/sudo.zip"
+    "url": "https://ghgo.xyz/https://github.com/jenskutilek/sudo-font/releases/download/v$version/sudo.zip"
   },
   "installer": {
     "script": [

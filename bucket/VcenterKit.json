@@ -6,7 +6,7 @@
   "suggest": {
     "Python 3.7+": "python"
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/W01fh4cker/VcenterKit/archive/refs/tags/v0.0.3.zip",
+  "url": "https://ghgo.xyz/https://github.com/W01fh4cker/VcenterKit/archive/refs/tags/v0.0.3.zip",
   "hash": "",
   "pre_install": "Set-Content \"$dir\\VcenterKit.bat\" '@pushd %~dp0\npython3 \"VcenterKit.py\" %*\n@popd' -Encoding Ascii",
   "post_install": [
@@ -17,6 +17,6 @@
   "bin": "",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/W01fh4cker/VcenterKit/archive/refs/tags/v$version.zip"
+    "url": "https://ghgo.xyz/https://github.com/W01fh4cker/VcenterKit/archive/refs/tags/v$version.zip"
   }
 }

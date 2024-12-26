@@ -5,12 +5,12 @@
   "version": "0.21.2",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/FreeCAD/FreeCAD/releases/download/0.21.2/FreeCAD-0.21.2-Windows-x86_64.7z",
+      "url": "https://ghgo.xyz/https://github.com/FreeCAD/FreeCAD/releases/download/0.21.2/FreeCAD-0.21.2-Windows-x86_64.7z",
       "hash": "06a8f162e3fa9bd8cc98c0cf117d1b3507b9a6564d3da0d16bc5e5c11d7e7880",
       "extract_dir": "FreeCAD-$matchBuild-WIN-x64-portable1"
     },
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/FreeCAD/FreeCAD/releases/download/0.18.4/FreeCAD-0.18.4.980bf90-WIN-x32-portable.7z",
+      "url": "https://ghgo.xyz/https://github.com/FreeCAD/FreeCAD/releases/download/0.18.4/FreeCAD-0.18.4.980bf90-WIN-x32-portable.7z",
       "hash": ""
     }
   },
@@ -30,7 +30,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/FreeCAD/FreeCAD/releases/download/$version/FreeCAD-$version-Windows-x86_64.7z",
+        "url": "https://ghgo.xyz/https://github.com/FreeCAD/FreeCAD/releases/download/$version/FreeCAD-$version-Windows-x86_64.7z",
         "extract_dir": "FreeCAD-$matchBuild-WIN-x64-portable1",
         "hash": {
           "url": "$baseurl/FreeCAD-$version-Windows-x86_64.7z-SHA256.txt"

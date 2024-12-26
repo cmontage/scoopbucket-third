@@ -37,7 +37,7 @@
   "autoupdate": {
     "url": "$matchX64#/abgo_bucket_installer.exe",
     "hash": {
-      "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/b/BlastApps/FluentSearch/$version/BlastApps.FluentSearch.installer.yaml",
+      "url": "https://ghgo.xyz/https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/b/BlastApps/FluentSearch/$version/BlastApps.FluentSearch.installer.yaml",
       "regex": "Architecture: x64[\\s\\S]+?InstallerSha256:\\s?(.+)"
     }
   }

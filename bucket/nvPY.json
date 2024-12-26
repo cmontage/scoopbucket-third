@@ -5,7 +5,7 @@
     "identifier": "unknown",
     "url": "https://github.com/cpbotha/nvpy/raw/master/LICENSE.txt"
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/cpbotha/nvpy/releases/download/v2.3.1/nvpy-windows.zip",
+  "url": "https://ghgo.xyz/https://github.com/cpbotha/nvpy/releases/download/v2.3.1/nvpy-windows.zip",
   "hash": "0251a482bceb20dfc7655cb07a1594d1dc3693a6f44c688103947b1610bbf60a",
   "extract_dir": "nvpy",
   "bin": "nvpy.exe",
@@ -17,6 +17,6 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/cpbotha/nvpy/releases/download/v$version/nvpy-windows.zip"
+    "url": "https://ghgo.xyz/https://github.com/cpbotha/nvpy/releases/download/v$version/nvpy-windows.zip"
   }
 }

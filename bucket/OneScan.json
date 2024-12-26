@@ -10,11 +10,11 @@
       "java/openjdk"
     ]
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/vaycore/OneScan/releases/download/v1.6.20/OneScan-v1.6.20.jar",
+  "url": "https://ghgo.xyz/https://github.com/vaycore/OneScan/releases/download/v1.6.20/OneScan-v1.6.20.jar",
   "hash": "2df43a34b2c09f848bd4976b98c16ca863f4f688ba0fe631f2eb8dbbebf66ce6",
   "pre_install": "Rename-Item  \"$dir\\OneScan-v$version.jar\" \"$dir\\OneScan.jar\"",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/vaycore/OneScan/releases/download/v$version/OneScan-v$version.jar"
+    "url": "https://ghgo.xyz/https://github.com/vaycore/OneScan/releases/download/v$version/OneScan-v$version.jar"
   }
 }

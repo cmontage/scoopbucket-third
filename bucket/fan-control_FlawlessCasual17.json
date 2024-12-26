@@ -9,7 +9,7 @@
   "notes": "Make sure to install both the 64bit & 32bit versions of Microsoft .NET Desktop Runtime before running the application.",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/Rem0o/FanControl.Releases/releases/download/V140/FanControl_net_7_0.zip",
+      "url": "https://ghgo.xyz/https://github.com/Rem0o/FanControl.Releases/releases/download/V140/FanControl_net_7_0.zip",
       "hash": "f95e370a1b94999955fc11c7234e017430c1beb087d912064d394745da016129"
     }
   },
@@ -39,7 +39,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/Rem0o/FanControl.Releases/releases/download/V$version/FanControl_net_$matchRelease.zip"
+        "url": "https://ghgo.xyz/https://github.com/Rem0o/FanControl.Releases/releases/download/V$version/FanControl_net_$matchRelease.zip"
       }
     }
   }

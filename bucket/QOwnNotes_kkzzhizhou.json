@@ -2,7 +2,7 @@
   "homepage": "https://www.qownnotes.org/",
   "version": "24.12.6",
   "license": "GPL-2.0-only",
-  "url": "https://mirror.ghproxy.com/https://github.com/pbek/QOwnNotes/releases/download/v24.12.6/QOwnNotes.zip",
+  "url": "https://ghgo.xyz/https://github.com/pbek/QOwnNotes/releases/download/v24.12.6/QOwnNotes.zip",
   "hash": "8b9617b777f6e6bdc100b5e8a6cc3bb136ed3123ad90871517dd5104421fbd33",
   "bin": "QOwnNotes.exe",
   "shortcuts": [
@@ -19,6 +19,6 @@
     "regex": "Release v(.*)"
   },
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/pbek/QOwnNotes/releases/download/v$version/QOwnNotes.zip"
+    "url": "https://ghgo.xyz/https://github.com/pbek/QOwnNotes/releases/download/v$version/QOwnNotes.zip"
   }
 }

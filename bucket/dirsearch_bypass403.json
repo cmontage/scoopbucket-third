@@ -9,7 +9,7 @@
   "suggest": {
     "Python 3.7+": "python"
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/lemonlove7/dirsearch_bypass403/archive/refs/tags/v0.2.zip",
+  "url": "https://ghgo.xyz/https://github.com/lemonlove7/dirsearch_bypass403/archive/refs/tags/v0.2.zip",
   "hash": "",
   "pre_install": "Set-Content \"$dir\\dirsearch_bypass403.bat\" '@pushd %~dp0\npython3 \"dirsearch.py\" %*\n@popd' -Encoding Ascii",
   "post_install": [
@@ -20,6 +20,6 @@
   "bin": "dirsearch_bypass403.bat",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/lemonlove7/dirsearch_bypass403/archive/refs/tags/v$version.zip"
+    "url": "https://ghgo.xyz/https://github.com/lemonlove7/dirsearch_bypass403/archive/refs/tags/v$version.zip"
   }
 }

@@ -8,11 +8,11 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/Tohrusky/Final2x/releases/download/2024-12-14/Final2x-windows-x64-setup.exe#/abgo_bucket_installer.exe",
+      "url": "https://ghgo.xyz/https://github.com/Tohrusky/Final2x/releases/download/2024-12-14/Final2x-windows-x64-setup.exe#/abgo_bucket_installer.exe",
       "hash": "e6ed8c4c154f6643dd6ee4c826cdd75df61551e1e95f03e018a9b1d0758bdf89"
     },
     "arm64": {
-      "url": "https://mirror.ghproxy.com/https://github.com/Tohrusky/Final2x/releases/download/2024-12-14/Final2x-windows-arm64-setup.exe#/abgo_bucket_installer.exe",
+      "url": "https://ghgo.xyz/https://github.com/Tohrusky/Final2x/releases/download/2024-12-14/Final2x-windows-arm64-setup.exe#/abgo_bucket_installer.exe",
       "hash": "c22b1647afc0a3d4e706213b2f986772720479fc34c2bc0ef7060b268e3ab37f"
     }
   },
@@ -59,14 +59,14 @@
       "64bit": {
         "url": "$matchX64#/abgo_bucket_installer.exe",
         "hash": {
-          "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/t/Tohrusky/Final2x/$version/Tohrusky.Final2x.installer.yaml",
+          "url": "https://ghgo.xyz/https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/t/Tohrusky/Final2x/$version/Tohrusky.Final2x.installer.yaml",
           "regex": "Architecture: x64[\\s\\S]+?InstallerSha256:\\s?(.+)"
         }
       },
       "arm64": {
         "url": "$matchArm64#/abgo_bucket_installer.exe",
         "hash": {
-          "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/t/Tohrusky/Final2x/$version/Tohrusky.Final2x.installer.yaml",
+          "url": "https://ghgo.xyz/https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/t/Tohrusky/Final2x/$version/Tohrusky.Final2x.installer.yaml",
           "regex": "Architecture: arm64[\\s\\S]+?InstallerSha256:\\s?(.+)"
         }
       }

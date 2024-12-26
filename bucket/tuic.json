@@ -5,11 +5,11 @@
   "license": "GPLv3",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/EAimTY/tuic/releases/download/0.8.5/tuic-client-0.8.5-x86_64-windows-msvc.exe",
+      "url": "https://ghgo.xyz/https://github.com/EAimTY/tuic/releases/download/0.8.5/tuic-client-0.8.5-x86_64-windows-msvc.exe",
       "hash": "e0ff1d0e6be87d5a8ba02f5db37087a62cc5969d72449cecdcaaed3269f0d508"
     },
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/EAimTY/tuic/releases/download/0.8.5/tuic-client-0.8.5-i686-windows-msvc.exe",
+      "url": "https://ghgo.xyz/https://github.com/EAimTY/tuic/releases/download/0.8.5/tuic-client-0.8.5-i686-windows-msvc.exe",
       "hash": "98aabc34e3c85e779d3ed72120c06463bbb3e9ba664b55db00a9ef6ebc81da53"
     }
   },
@@ -28,10 +28,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/EAimTY/tuic/releases/download/$version/tuic-client-$version-x86_64-windows-msvc.exe"
+        "url": "https://ghgo.xyz/https://github.com/EAimTY/tuic/releases/download/$version/tuic-client-$version-x86_64-windows-msvc.exe"
       },
       "32bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/EAimTY/tuic/releases/download/$version/tuic-client-$version-i686-windows-msvc.exe"
+        "url": "https://ghgo.xyz/https://github.com/EAimTY/tuic/releases/download/$version/tuic-client-$version-i686-windows-msvc.exe"
       }
     },
     "hash": {

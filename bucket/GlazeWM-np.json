@@ -5,7 +5,7 @@
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/glzr-io/glazewm/releases/download/v3.1.1/glazewm-3.1.1.exe",
+      "url": "https://ghgo.xyz/https://github.com/glzr-io/glazewm/releases/download/v3.1.1/glazewm-3.1.1.exe",
       "hash": "18974cd2f9c8884c23edd3d13137449b233a6c67cd0a210605852302091b2374"
     }
   },
@@ -20,7 +20,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/glzr-io/glazewm/releases/download/v$version/glazewm-$version.exe"
+        "url": "https://ghgo.xyz/https://github.com/glzr-io/glazewm/releases/download/v$version/glazewm-$version.exe"
       }
     }
   }

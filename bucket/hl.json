@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/pamburus/hl/releases/download/v0.30.0/hl-windows.zip",
+      "url": "https://ghgo.xyz/https://github.com/pamburus/hl/releases/download/v0.30.0/hl-windows.zip",
       "hash": "2f1dd470b6a602ac0aa17521bde87e505f6ceb3f51a249a84aca1d19ae35d71f"
     }
   },
@@ -14,7 +14,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/pamburus/hl/releases/download/v$version/hl-windows.zip"
+        "url": "https://ghgo.xyz/https://github.com/pamburus/hl/releases/download/v$version/hl-windows.zip"
       }
     }
   }

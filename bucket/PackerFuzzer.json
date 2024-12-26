@@ -9,7 +9,7 @@
   "suggest": {
     "Python 3.7+": "python"
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/rtcatc/Packer-Fuzzer/archive/refs/heads/master.zip",
+  "url": "https://ghgo.xyz/https://github.com/rtcatc/Packer-Fuzzer/archive/refs/heads/master.zip",
   "hash": "",
   "pre_install": "Set-Content \"$dir\\PackerFuzzer.bat\" '@pushd %~dp0\npython3 \"PackerFuzzer.py\" %*\n@popd' -Encoding Ascii",
   "post_install": [
@@ -20,6 +20,6 @@
   "bin": "PackerFuzzer.bat",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/rtcatc/Packer-Fuzzer/archive/refs/tags/v$version.zip"
+    "url": "https://ghgo.xyz/https://github.com/rtcatc/Packer-Fuzzer/archive/refs/tags/v$version.zip"
   }
 }

@@ -3,7 +3,7 @@
   "description": "\"Dr. Robotnik's Ring Racers\" is a Technical Kart Racer, drawing inspiration from \"antigrav\" racers, fighting games, and traditional-style kart racing.",
   "homepage": "https://www.kartkrew.org/",
   "license": "GPL-2.0-only",
-  "url": "https://mirror.ghproxy.com/https://github.com/KartKrewDev/RingRacers/releases/download/v2.3/Dr.Robotnik.s-Ring-Racers-v2.3-Installer.exe#/dl.7z",
+  "url": "https://ghgo.xyz/https://github.com/KartKrewDev/RingRacers/releases/download/v2.3/Dr.Robotnik.s-Ring-Racers-v2.3-Installer.exe#/dl.7z",
   "hash": "0161d3d1bcad932c80dfba4e642a2bd1cbb830b4cf6bcc12049ec5311495ad30",
   "pre_install": [
     "function persistCopy ([String] $name) {",
@@ -42,6 +42,6 @@
     "github": "https://github.com/KartKrewDev/RingRacers"
   },
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/KartKrewDev/RingRacers/releases/download/v$version/Dr.Robotnik.s-Ring-Racers-v$version-Installer.exe#/dl.7z"
+    "url": "https://ghgo.xyz/https://github.com/KartKrewDev/RingRacers/releases/download/v$version/Dr.Robotnik.s-Ring-Racers-v$version-Installer.exe#/dl.7z"
   }
 }

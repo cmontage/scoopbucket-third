@@ -10,13 +10,13 @@
       "java/openjdk"
     ]
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/sma11new/Pyke-Shiro/releases/download/0.3/Pyke-Shiro_0.3.jar",
+  "url": "https://ghgo.xyz/https://github.com/sma11new/Pyke-Shiro/releases/download/0.3/Pyke-Shiro_0.3.jar",
   "hash": "",
   "pre_install": [
     "Rename-Item \"$dir\\Pyke-Shiro_$version.jar\" 'Pyke-Shiro.jar'"
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/sma11new/Pyke-Shiro/releases/download/$version/Pyke-Shiro_$version.jar"
+    "url": "https://ghgo.xyz/https://github.com/sma11new/Pyke-Shiro/releases/download/$version/Pyke-Shiro_$version.jar"
   }
 }

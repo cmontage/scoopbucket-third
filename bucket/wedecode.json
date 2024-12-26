@@ -3,7 +3,7 @@
   "description": "全自动化，微信小程序 wxapkg 包 源代码还原工具, 线上代码安全审计",
   "homepage": "https://github.com/biggerstar/wedecode",
   "license": "",
-  "url": "https://mirror.ghproxy.com/https://github.com/biggerstar/wedecode/archive/refs/heads/main.zip",
+  "url": "https://ghgo.xyz/https://github.com/biggerstar/wedecode/archive/refs/heads/main.zip",
   "hash": "",
   "extract_dir": "",
   "post_install": [
@@ -14,6 +14,6 @@
   "bin": "",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/biggerstar/wedecode/archive/refs/heads/main.zip"
+    "url": "https://ghgo.xyz/https://github.com/biggerstar/wedecode/archive/refs/heads/main.zip"
   }
 }

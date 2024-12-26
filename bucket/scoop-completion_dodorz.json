@@ -4,8 +4,8 @@
   "license": "MIT",
   "version": "0.3.0",
   "url": [
-    "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Moeologist/scoop-completion/v0.3.0/src/scoop-completion.psm1",
-    "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Moeologist/scoop-completion/v0.3.0/src/scoop-completion.psd1"
+    "https://ghgo.xyz/https://raw.githubusercontent.com/Moeologist/scoop-completion/v0.3.0/src/scoop-completion.psm1",
+    "https://ghgo.xyz/https://raw.githubusercontent.com/Moeologist/scoop-completion/v0.3.0/src/scoop-completion.psd1"
   ],
   "hash": [
     "c0e8455b88bb30ddc93f50c5a9ad2add97abb3de58fb44a5138e0327047681f4",
@@ -21,8 +21,8 @@
   },
   "autoupdate": {
     "url": [
-      "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Moeologist/scoop-completion/v$version/src/scoop-completion.psm1",
-      "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Moeologist/scoop-completion/v$version/src/scoop-completion.psd1"
+      "https://ghgo.xyz/https://raw.githubusercontent.com/Moeologist/scoop-completion/v$version/src/scoop-completion.psm1",
+      "https://ghgo.xyz/https://raw.githubusercontent.com/Moeologist/scoop-completion/v$version/src/scoop-completion.psd1"
     ]
   },
   "notes": [

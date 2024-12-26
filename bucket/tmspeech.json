@@ -6,7 +6,7 @@
     "identifier": "MIT license",
     "url": "https://github.com/jxlpzqc/TMSpeech#MIT-1-ov-file"
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/jxlpzqc/TMSpeech/releases/download/v0.4.2/TMSpeech.win-x64.zip",
+  "url": "https://ghgo.xyz/https://github.com/jxlpzqc/TMSpeech/releases/download/v0.4.2/TMSpeech.win-x64.zip",
   "hash": "0c974c083eb829cdb91ef428177f617528d09bc6a6a4d467fa7516cd0a29b5e4",
   "shortcuts": [
     [
@@ -20,6 +20,6 @@
     "regex": "releases/download/v([\\w.-]+)/(?<file>TMSpeech.*?\\.zip)"
   },
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/jxlpzqc/TMSpeech/releases/download/v$version/$matchFile"
+    "url": "https://ghgo.xyz/https://github.com/jxlpzqc/TMSpeech/releases/download/v$version/$matchFile"
   }
 }

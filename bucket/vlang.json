@@ -6,7 +6,7 @@
     "tcc": "main/tcc",
     "llvm": "main/llvm"
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/vlang/v/releases/download/weekly.2021.25/v_windows.zip",
+  "url": "https://ghgo.xyz/https://github.com/vlang/v/releases/download/weekly.2021.25/v_windows.zip",
   "hash": "7001193dff6d90aaaaed5b73fd0eb750d213bcf8b7ef097d01edf2e4a2809795",
   "extract_dir": "v",
   "persist": "data",
@@ -17,7 +17,7 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/vlang/v/releases/download/$version/v_windows.zip"
+    "url": "https://ghgo.xyz/https://github.com/vlang/v/releases/download/$version/v_windows.zip"
   },
   "bin": "v.exe",
   "env_add_path": "."

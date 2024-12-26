@@ -3,7 +3,7 @@
   "homepage": "https://github.com/weespin/KhinsiderDownloader",
   "description": "A simple Bulk Khinsider downloader with a GUI.",
   "license": "MIT",
-  "url": "https://mirror.ghproxy.com/https://github.com/weespin/KhinsiderDownloader/releases/download/2.8.0.0/Release.zip",
+  "url": "https://ghgo.xyz/https://github.com/weespin/KhinsiderDownloader/releases/download/2.8.0.0/Release.zip",
   "hash": "5111772a574553665413aec33b1dabba5b1b83e1a1e53b73218d190cacf45fde",
   "shortcuts": [
     [
@@ -14,6 +14,6 @@
   "persist": "Downloads",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/weespin/KhinsiderDownloader/releases/download/$version/Release.zip"
+    "url": "https://ghgo.xyz/https://github.com/weespin/KhinsiderDownloader/releases/download/$version/Release.zip"
   }
 }

@@ -8,10 +8,10 @@
   "suggest": {
     "python": "python27"
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/volatilityfoundation/volatility/releases/download/2.6.1/volatility-2.6.zip",
+  "url": "https://ghgo.xyz/https://github.com/volatilityfoundation/volatility/releases/download/2.6.1/volatility-2.6.zip",
   "hash": "5b73050d72bf94870ffce22843f03d4b0b7764011dec29ef1a0a5b1b46cf9295",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/volatilityfoundation/volatility/releases/download/$version/volatility-$version.zip",
+    "url": "https://ghgo.xyz/https://github.com/volatilityfoundation/volatility/releases/download/$version/volatility-$version.zip",
     "extract_dir": "volatility-$version"
   },
   "bin": [

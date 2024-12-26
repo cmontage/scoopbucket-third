@@ -5,7 +5,7 @@
   "license": "GPL-2.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/AkariiinMKII/Scoop4kariiin-Files/main/yuzu-pineapple/yuzu-pineapple.EA-4176.Windows-Yuzu-EA-4176.zip",
+      "url": "https://ghgo.xyz/https://raw.githubusercontent.com/AkariiinMKII/Scoop4kariiin-Files/main/yuzu-pineapple/yuzu-pineapple.EA-4176.Windows-Yuzu-EA-4176.zip",
       "hash": "b5d5a12dd2320f442187919ef9e9680a83c36d98fa80584f13114face49bf2a0"
     }
   },
@@ -48,7 +48,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/pineappleEA/pineapple-src/releases/download/$version/Windows-Yuzu-$version.zip"
+        "url": "https://ghgo.xyz/https://github.com/pineappleEA/pineapple-src/releases/download/$version/Windows-Yuzu-$version.zip"
       }
     }
   }

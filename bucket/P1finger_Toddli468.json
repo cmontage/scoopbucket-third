@@ -6,7 +6,7 @@
   "notes": "",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/P001water/P1finger/releases/download/P1finger_0.0.2/P1finger64.exe",
+      "url": "https://ghgo.xyz/https://github.com/P001water/P1finger/releases/download/P1finger_0.0.2/P1finger64.exe",
       "hash": ""
     }
   },
@@ -16,7 +16,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/P001water/P1finger/releases/download/P1finger_$version/P1finger64.exe"
+        "url": "https://ghgo.xyz/https://github.com/P001water/P1finger/releases/download/P1finger_$version/P1finger64.exe"
       }
     }
   }

@@ -6,7 +6,7 @@
     "identifier": "MIT",
     "url": "https://github.com/pyenv-win/pyenv-win/blob/master/LICENSE"
   },
-  "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/akirco/dotfiles/refs/heads/master/docs/install-pyenv-win.ps1",
+  "url": "https://ghgo.xyz/https://raw.githubusercontent.com/akirco/dotfiles/refs/heads/master/docs/install-pyenv-win.ps1",
   "hash": "fce59300c02d7bf693e4a2cad95b27784aeda9bec09c5451a3750034484984a2",
   "pre_install": [
     "Write-Host `n",
@@ -26,6 +26,6 @@
   },
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/akirco/dotfiles/refs/heads/master/docs/install-pyenv-win.ps1"
+    "url": "https://ghgo.xyz/https://raw.githubusercontent.com/akirco/dotfiles/refs/heads/master/docs/install-pyenv-win.ps1"
   }
 }

@@ -5,21 +5,21 @@
   "license": "Unknown",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/mmpx12/twitter-media-downloader/releases/download/v1.13.7/twitter-media-downloader-v1.13.7-windows-386.zip",
+      "url": "https://ghgo.xyz/https://github.com/mmpx12/twitter-media-downloader/releases/download/v1.13.7/twitter-media-downloader-v1.13.7-windows-386.zip",
       "hash": "5fcd8a235c11de0775e3f6813246841db88b7f07ca4e559f14156eb8b0a61020"
     },
     "arm64": {
-      "url": "https://mirror.ghproxy.com/https://github.com/mmpx12/twitter-media-downloader/releases/download/v1.13.7/twitter-media-downloader-v1.13.7-windows-amd64.zip",
+      "url": "https://ghgo.xyz/https://github.com/mmpx12/twitter-media-downloader/releases/download/v1.13.7/twitter-media-downloader-v1.13.7-windows-amd64.zip",
       "hash": "e2c84b6e5b019d7d2274a3724e570d3ed0d93a036053e613da0f9cc74c3d6fb1"
     }
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/mmpx12/twitter-media-downloader/releases/download/v$version/twitter-media-downloader-v$version-windows-386.zip"
+        "url": "https://ghgo.xyz/https://github.com/mmpx12/twitter-media-downloader/releases/download/v$version/twitter-media-downloader-v$version-windows-386.zip"
       },
       "arm64": {
-        "url": "https://mirror.ghproxy.com/https://github.com/mmpx12/twitter-media-downloader/releases/download/v$version/twitter-media-downloader-v$version-windows-amd64.zip"
+        "url": "https://ghgo.xyz/https://github.com/mmpx12/twitter-media-downloader/releases/download/v$version/twitter-media-downloader-v$version-windows-amd64.zip"
       }
     }
   },

@@ -6,7 +6,7 @@
   "notes": "",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/SagerNet/sing-box/releases/download/v1.10.5/sing-box-1.10.5-windows-amd64.zip",
+      "url": "https://ghgo.xyz/https://github.com/SagerNet/sing-box/releases/download/v1.10.5/sing-box-1.10.5-windows-amd64.zip",
       "hash": "dc9ccb9e9c02f252572771e075bb2f833a8a4f7868ba407b38a070bf392feb7a",
       "extract_dir": "sing-box-1.10.5-windows-amd64"
     }
@@ -15,7 +15,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/SagerNet/sing-box/releases/download/v$version/sing-box-$version-windows-amd64.zip",
+        "url": "https://ghgo.xyz/https://github.com/SagerNet/sing-box/releases/download/v$version/sing-box-$version-windows-amd64.zip",
         "extract_dir": "sing-box-$version-windows-amd64"
       }
     }

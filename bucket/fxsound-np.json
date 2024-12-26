@@ -5,7 +5,7 @@
   "license": "GPL-3.0",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/fxsound2/fxsound-app/latest/release/fxsound_setup.exe",
+      "url": "https://ghgo.xyz/https://raw.githubusercontent.com/fxsound2/fxsound-app/latest/release/fxsound_setup.exe",
       "hash": "13286fd71e4cf882be2a636e2a5d8abfc47f938ccfb16927d454400555891d1a"
     }
   },
@@ -31,7 +31,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/fxsound2/fxsound-app/latest/release/fxsound_setup.exe"
+        "url": "https://ghgo.xyz/https://raw.githubusercontent.com/fxsound2/fxsound-app/latest/release/fxsound_setup.exe"
       }
     }
   }

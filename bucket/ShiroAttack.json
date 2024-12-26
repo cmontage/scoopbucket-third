@@ -10,13 +10,13 @@
       "java/openjdk"
     ]
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/SummerSec/ShiroAttack2/releases/download/4.7.0/shiro_attack-4.7.0-SNAPSHOT-all.zip",
+  "url": "https://ghgo.xyz/https://github.com/SummerSec/ShiroAttack2/releases/download/4.7.0/shiro_attack-4.7.0-SNAPSHOT-all.zip",
   "hash": "",
   "pre_install": [
     "Rename-Item \"$dir\\shiro_attack-$version-SNAPSHOT-all.jar\" 'shiro_attack.jar'"
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/SummerSec/ShiroAttack2/releases/download/$version/shiro_attack-$version-SNAPSHOT-all.zip"
+    "url": "https://ghgo.xyz/https://github.com/SummerSec/ShiroAttack2/releases/download/$version/shiro_attack-$version-SNAPSHOT-all.zip"
   }
 }

@@ -8,11 +8,11 @@
     "python": "python"
   },
   "extract_dir": "volatility3-2.8.0",
-  "url": "https://mirror.ghproxy.com/https://github.com/volatilityfoundation/volatility3/archive/refs/tags/v2.8.0.zip",
+  "url": "https://ghgo.xyz/https://github.com/volatilityfoundation/volatility3/archive/refs/tags/v2.8.0.zip",
   "hash": "ebdb6eb44bfdd258af9eb2f2219c4dae1f92d47cf7f2d47d962f29adc128036c",
   "post_install": "pip3 install -r (Join-Path $dir \"requirements.txt\")",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/volatilityfoundation/volatility3/archive/refs/tags/v$version.zip",
+    "url": "https://ghgo.xyz/https://github.com/volatilityfoundation/volatility3/archive/refs/tags/v$version.zip",
     "extract_dir": "volatility3-$version"
   },
   "bin": [

@@ -2,11 +2,11 @@
   "version": "6.4.0",
   "license": "OFL-1.1",
   "homepage": "https://github.com/IBM/plex",
-  "url": "https://mirror.ghproxy.com/https://github.com/IBM/plex/releases/download/v6.4.0/OpenType.zip",
+  "url": "https://ghgo.xyz/https://github.com/IBM/plex/releases/download/v6.4.0/OpenType.zip",
   "hash": "e8e502823a9c6c7dda9ebb1710c5f6c4001db4ab15067d9ec373a6d39844fc1d",
   "extract_dir": "OpenType",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/IBM/plex/releases/download/v$version/OpenType.zip"
+    "url": "https://ghgo.xyz/https://github.com/IBM/plex/releases/download/v$version/OpenType.zip"
   }
 }

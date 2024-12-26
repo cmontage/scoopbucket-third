@@ -10,17 +10,17 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/chasingboy/dirsx/releases/download/dirsx-v1.6.2/dirsx-window-amd.zip",
+      "url": "https://ghgo.xyz/https://github.com/chasingboy/dirsx/releases/download/dirsx-v1.6.2/dirsx-window-amd.zip",
       "hash": "4394842da202250ec271ab0a1950fbd01bf14f2c1a5942e457faffae1220eed8",
       "extract_dir": "dirsx-window-amd"
     },
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/chasingboy/dirsx/releases/download/dirsx-v1.6.2/dirsx-window-amd.zip",
+      "url": "https://ghgo.xyz/https://github.com/chasingboy/dirsx/releases/download/dirsx-v1.6.2/dirsx-window-amd.zip",
       "hash": "4394842da202250ec271ab0a1950fbd01bf14f2c1a5942e457faffae1220eed8",
       "extract_dir": "dirsx-window-amd"
     },
     "arm64": {
-      "url": "https://mirror.ghproxy.com/https://github.com/chasingboy/dirsx/releases/download/dirsx-v1.6.2/dirsx-window-arm.zip",
+      "url": "https://ghgo.xyz/https://github.com/chasingboy/dirsx/releases/download/dirsx-v1.6.2/dirsx-window-arm.zip",
       "hash": "c8330f3d40fb9c9f473d37c1d5437cd79d230bf66f8119af4b6cd67fdc8af3be",
       "extract_dir": "dirsx-window-arm"
     }
@@ -28,13 +28,13 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/chasingboy/dirsx/releases/download/dirsx-v$version/dirsx-window-amd.zip"
+        "url": "https://ghgo.xyz/https://github.com/chasingboy/dirsx/releases/download/dirsx-v$version/dirsx-window-amd.zip"
       },
       "32bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/chasingboy/dirsx/releases/download/dirsx-v$version/dirsx-window-amd.zip"
+        "url": "https://ghgo.xyz/https://github.com/chasingboy/dirsx/releases/download/dirsx-v$version/dirsx-window-amd.zip"
       },
       "arm64": {
-        "url": "https://mirror.ghproxy.com/https://github.com/chasingboy/dirsx/releases/download/dirsx-v$version/dirsx-window-arm.zip"
+        "url": "https://ghgo.xyz/https://github.com/chasingboy/dirsx/releases/download/dirsx-v$version/dirsx-window-arm.zip"
       }
     }
   },

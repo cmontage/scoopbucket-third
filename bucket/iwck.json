@@ -8,7 +8,7 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/Nigh/I-wanna-clean-keyboard/releases/download/v3.05/iwck.zip",
+      "url": "https://ghgo.xyz/https://github.com/Nigh/I-wanna-clean-keyboard/releases/download/v3.05/iwck.zip",
       "hash": "6a685f7795988d19e4f1178e9ef661a49940f1ab863a02b52a13d707600a543c"
     }
   },
@@ -26,7 +26,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/Nigh/I-wanna-clean-keyboard/releases/download/v$version/$matchFile"
+        "url": "https://ghgo.xyz/https://github.com/Nigh/I-wanna-clean-keyboard/releases/download/v$version/$matchFile"
       }
     }
   }

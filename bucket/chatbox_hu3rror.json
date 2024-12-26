@@ -5,7 +5,7 @@
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/Bin-Huang/chatbox/releases/download/v0.6.8/Chatbox-0.6.8-Setup.exe#/dl.7z",
+      "url": "https://ghgo.xyz/https://github.com/Bin-Huang/chatbox/releases/download/v0.6.8/Chatbox-0.6.8-Setup.exe#/dl.7z",
       "hash": "sha512:3c3f66366db02218eb7110b6c47bb54b2e710ca2d75c4c3503a55f42ff28f3b79b2083f82445a8073145fed1bc88ceba095ab4aad039a2fe09c508258f4a655b"
     }
   },
@@ -23,7 +23,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/Bin-Huang/chatbox/releases/download/v$version/Chatbox-$version-Setup.exe#/dl.7z"
+        "url": "https://ghgo.xyz/https://github.com/Bin-Huang/chatbox/releases/download/v$version/Chatbox-$version-Setup.exe#/dl.7z"
       }
     },
     "hash": {

@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/bloznelis/typioca/releases/download/3.1.0/typioca-win-amd64.exe#/typioca.exe",
+      "url": "https://ghgo.xyz/https://github.com/bloznelis/typioca/releases/download/3.1.0/typioca-win-amd64.exe#/typioca.exe",
       "hash": "3b5feb91a7e2f38a39f54643ae382699849859c46c66c135181e645ff34eeb75"
     }
   },
@@ -14,7 +14,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/bloznelis/typioca/releases/download/$version/typioca-win-amd64.exe#/typioca.exe"
+        "url": "https://ghgo.xyz/https://github.com/bloznelis/typioca/releases/download/$version/typioca-win-amd64.exe#/typioca.exe"
       }
     }
   }

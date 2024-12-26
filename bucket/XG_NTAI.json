@@ -10,11 +10,11 @@
       "java/openjdk"
     ]
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/xiaogang000/XG_NTAI/releases/download/V2.3/XG_NTAI_V2.3.zip",
+  "url": "https://ghgo.xyz/https://github.com/xiaogang000/XG_NTAI/releases/download/V2.3/XG_NTAI_V2.3.zip",
   "hash": "",
   "bin": "XG_NTAI.jar",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/xiaogang000/XG_NTAI/releases/download/V$version/XG_NTAI_V$version.zip"
+    "url": "https://ghgo.xyz/https://github.com/xiaogang000/XG_NTAI/releases/download/V$version/XG_NTAI_V$version.zip"
   }
 }

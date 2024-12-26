@@ -6,7 +6,7 @@
   "suggest": {
     "Python 3.7+": "python"
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/Threezh1/JSFinder/archive/refs/heads/master.zip",
+  "url": "https://ghgo.xyz/https://github.com/Threezh1/JSFinder/archive/refs/heads/master.zip",
   "hash": "",
   "pre_install": "Set-Content \"$dir\\JSFinder.bat\" '@pushd %~dp0\npython3 \"JSFinder.py\" %*\n@popd' -Encoding Ascii",
   "post_install": [
@@ -17,6 +17,6 @@
   "bin": "JSFinder.bat",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/Threezh1/JSFinder/archive/refs/heads/master.zip"
+    "url": "https://ghgo.xyz/https://github.com/Threezh1/JSFinder/archive/refs/heads/master.zip"
   }
 }

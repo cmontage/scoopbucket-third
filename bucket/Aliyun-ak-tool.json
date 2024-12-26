@@ -4,13 +4,13 @@
   "homepage": "https://github.com/mrknow001/aliyun-accesskey-Tools",
   "license": "",
   "notes": "",
-  "url": "https://mirror.ghproxy.com/https://github.com/mrknow001/aliyun-accesskey-Tools/releases/download/v1.3/Aliyun-.AK.Tools-V1.3.exe",
+  "url": "https://ghgo.xyz/https://github.com/mrknow001/aliyun-accesskey-Tools/releases/download/v1.3/Aliyun-.AK.Tools-V1.3.exe",
   "hash": "",
   "pre_install": [
     "Rename-Item \"$dir\\Aliyun-.AK.Tools-V1.3.exe\" 'Aliyun-.AK.Tools.exe'"
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/mrknow001/aliyun-accesskey-Tools/releases/download/v$version/Aliyun-.AK.Tools-V$version.exe"
+    "url": "https://ghgo.xyz/https://github.com/mrknow001/aliyun-accesskey-Tools/releases/download/v$version/Aliyun-.AK.Tools-V$version.exe"
   }
 }

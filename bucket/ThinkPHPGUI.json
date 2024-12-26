@@ -6,7 +6,7 @@
   "notes": "",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/itchen-2002/ThinkPHPGUI/releases/download/ThinkPHPGUI_V1/ThinkPHPGUI.jar",
+      "url": "https://ghgo.xyz/https://github.com/itchen-2002/ThinkPHPGUI/releases/download/ThinkPHPGUI_V1/ThinkPHPGUI.jar",
       "hash": ""
     }
   },
@@ -15,7 +15,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/itchen-2002/ThinkPHPGUI/releases/download/ThinkPHPGUI_V$version/ThinkPHPGUI.jar"
+        "url": "https://ghgo.xyz/https://github.com/itchen-2002/ThinkPHPGUI/releases/download/ThinkPHPGUI_V$version/ThinkPHPGUI.jar"
       }
     }
   }

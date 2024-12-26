@@ -5,11 +5,11 @@
   "license": "LGPL-3.0-or-later",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/horeah/PyCmd/releases/download/20241122/PyCmd-20241122-w64.zip",
+      "url": "https://ghgo.xyz/https://github.com/horeah/PyCmd/releases/download/20241122/PyCmd-20241122-w64.zip",
       "hash": "465edd8a90ddd311d7d1990d51ecf5975c039ab8bd0770acee4ebc23d931a7d7"
     },
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/horeah/PyCmd/releases/download/20241122/PyCmd-20241122-w32.zip",
+      "url": "https://ghgo.xyz/https://github.com/horeah/PyCmd/releases/download/20241122/PyCmd-20241122-w32.zip",
       "hash": "7f4947b17ef8339207fce82bbcb0728019577faa981b1c4c74f0dfaceac0c5fe"
     }
   },
@@ -26,10 +26,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/horeah/PyCmd/releases/download/$version/PyCmd-$version-w64.zip"
+        "url": "https://ghgo.xyz/https://github.com/horeah/PyCmd/releases/download/$version/PyCmd-$version-w64.zip"
       },
       "32bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/horeah/PyCmd/releases/download/$version/PyCmd-$version-w32.zip"
+        "url": "https://ghgo.xyz/https://github.com/horeah/PyCmd/releases/download/$version/PyCmd-$version-w32.zip"
       }
     }
   }

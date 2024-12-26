@@ -2,14 +2,14 @@
   "version": "2.0.0",
   "architecture": {
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/charmbracelet/glow/releases/download/v2.0.0/glow_2.0.0_Windows_i386.zip",
+      "url": "https://ghgo.xyz/https://github.com/charmbracelet/glow/releases/download/v2.0.0/glow_2.0.0_Windows_i386.zip",
       "bin": [
         "glow_2.0.0_Windows_i386/glow.exe"
       ],
       "hash": "6910e2ef6f4a8d0ef97e4b8bf526bcc710bb3e573f05c0724b8ed792dae81afd"
     },
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/charmbracelet/glow/releases/download/v2.0.0/glow_2.0.0_Windows_x86_64.zip",
+      "url": "https://ghgo.xyz/https://github.com/charmbracelet/glow/releases/download/v2.0.0/glow_2.0.0_Windows_x86_64.zip",
       "bin": [
         "glow_2.0.0_Windows_x86_64/glow.exe"
       ],

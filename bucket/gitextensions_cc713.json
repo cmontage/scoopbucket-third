@@ -3,7 +3,7 @@
   "description": "A graphical user interface for Git that allows you to control Git without using the commandline.",
   "homepage": "https://gitextensions.github.io/",
   "license": "GPL-3.0-only",
-  "url": "https://mirror.ghproxy.com/https://github.com/gitextensions/gitextensions/releases/download/v5.1.1/GitExtensions-Portable-x64-5.1.1.17970-939c0edba.zip",
+  "url": "https://ghgo.xyz/https://github.com/gitextensions/gitextensions/releases/download/v5.1.1/GitExtensions-Portable-x64-5.1.1.17970-939c0edba.zip",
   "hash": "7dc3f20a728876336a8d6115ba6c2e76f8d1f01999596853edfaefcb0a60f5ac",
   "extract_dir": "GitExtensions",
   "pre_install": [
@@ -33,6 +33,6 @@
     "regex": "download/v(?<version>.+?)/(?<file>.+?)\""
   },
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/gitextensions/gitextensions/releases/download/v$version/$matchFile"
+    "url": "https://ghgo.xyz/https://github.com/gitextensions/gitextensions/releases/download/v$version/$matchFile"
   }
 }

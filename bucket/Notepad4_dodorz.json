@@ -5,15 +5,15 @@
   "license": "BSD 3-Clause",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/zufuliu/notepad4/releases/download/v24.11r5548/Notepad4_i18n_x64_v24.11r5548.zip",
+      "url": "https://ghgo.xyz/https://github.com/zufuliu/notepad4/releases/download/v24.11r5548/Notepad4_i18n_x64_v24.11r5548.zip",
       "hash": "3a4b4215963d867ef095375bfac96a2dd8cc07dfa81904497ed1ddedd9238197"
     },
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/zufuliu/notepad4/releases/download/v24.11r5548/Notepad4_i18n_Win32_v24.11r5548.zip",
+      "url": "https://ghgo.xyz/https://github.com/zufuliu/notepad4/releases/download/v24.11r5548/Notepad4_i18n_Win32_v24.11r5548.zip",
       "hash": "27a5e982803360a37b2d96a73eed267f93a46574d56d721e2b25693b650e8497"
     },
     "arm64": {
-      "url": "https://mirror.ghproxy.com/https://github.com/zufuliu/notepad4/releases/download/v24.11r5548/Notepad4_i18n_Win32_v24.11r5548.zip",
+      "url": "https://ghgo.xyz/https://github.com/zufuliu/notepad4/releases/download/v24.11r5548/Notepad4_i18n_Win32_v24.11r5548.zip",
       "hash": "27a5e982803360a37b2d96a73eed267f93a46574d56d721e2b25693b650e8497"
     }
   },
@@ -38,13 +38,13 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/zufuliu/notepad4/releases/download/v$version/Notepad4_i18n_x64_v$version.zip"
+        "url": "https://ghgo.xyz/https://github.com/zufuliu/notepad4/releases/download/v$version/Notepad4_i18n_x64_v$version.zip"
       },
       "32bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/zufuliu/notepad4/releases/download/v$version/Notepad4_i18n_Win32_v$version.zip"
+        "url": "https://ghgo.xyz/https://github.com/zufuliu/notepad4/releases/download/v$version/Notepad4_i18n_Win32_v$version.zip"
       },
       "arm64": {
-        "url": "https://mirror.ghproxy.com/https://github.com/zufuliu/notepad4/releases/download/v$version/Notepad4_i18n_Win32_v$version.zip"
+        "url": "https://ghgo.xyz/https://github.com/zufuliu/notepad4/releases/download/v$version/Notepad4_i18n_Win32_v$version.zip"
       }
     }
   }

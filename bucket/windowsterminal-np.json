@@ -6,7 +6,7 @@
     "identifier": "MIT",
     "url": "https://github.com/microsoft/terminal/blob/master/LICENSE"
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/microsoft/terminal/releases/download/v1.4.3243.0/Microsoft.WindowsTerminal_1.4.3243.0_8wekyb3d8bbwe.msixbundle",
+  "url": "https://ghgo.xyz/https://github.com/microsoft/terminal/releases/download/v1.4.3243.0/Microsoft.WindowsTerminal_1.4.3243.0_8wekyb3d8bbwe.msixbundle",
   "hash": "9de2891139f922e0a3640ab2894c5c3b2928d9c7855e4d7a63d34c3cc3f31598",
   "installer": {
     "script": [
@@ -40,6 +40,6 @@
   },
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/microsoft/terminal/releases/download/v$version/Microsoft.WindowsTerminal_$version_8wekyb3d8bbwe.msixbundle"
+    "url": "https://ghgo.xyz/https://github.com/microsoft/terminal/releases/download/v$version/Microsoft.WindowsTerminal_$version_8wekyb3d8bbwe.msixbundle"
   }
 }

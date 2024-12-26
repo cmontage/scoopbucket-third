@@ -11,13 +11,13 @@
       "bin": "amd64/diskspd.exe"
     }
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/microsoft/diskspd/releases/download/v2.2/DiskSpd.zip",
+  "url": "https://ghgo.xyz/https://github.com/microsoft/diskspd/releases/download/v2.2/DiskSpd.zip",
   "hash": "4cc4ff00e76b8f476cf183fc1e4ef2a45fdad563bdd11879607ba5ad52dab6ec",
   "checkver": {
     "github": "https://github.com/microsoft/diskspd",
     "regex": "tag/v([\\w.-]+)"
   },
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/microsoft/diskspd/releases/download/v$version/DiskSpd.zip"
+    "url": "https://ghgo.xyz/https://github.com/microsoft/diskspd/releases/download/v$version/DiskSpd.zip"
   }
 }

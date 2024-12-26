@@ -3,7 +3,7 @@
   "description": "A powerful and useful tool for Office deployments",
   "homepage": "https://otp.landian.vip/",
   "license": "GPL-3.0-or-later",
-  "url": "https://mirror.ghproxy.com/https://github.com/YerongAI/Office-Tool/releases/download/v10.19.8.0/Office_Tool_with_runtime_v10.19.8.0_x64.7z",
+  "url": "https://ghgo.xyz/https://github.com/YerongAI/Office-Tool/releases/download/v10.19.8.0/Office_Tool_with_runtime_v10.19.8.0_x64.7z",
   "hash": "6dcc3fcde289cc5975bc8f04c24db607b6a6b57a8a3a2e724693884d476196e7",
   "extract_dir": "Office Tool",
   "shortcuts": [
@@ -16,7 +16,7 @@
     "github": "https://github.com/YerongAI/Office-Tool"
   },
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/YerongAI/Office-Tool/releases/download/v$version/Office_Tool_with_runtime_v$version_x64.7z",
+    "url": "https://ghgo.xyz/https://github.com/YerongAI/Office-Tool/releases/download/v$version/Office_Tool_with_runtime_v$version_x64.7z",
     "hash": {
       "url": "https://github.com/YerongAI/Office-Tool/releases/latest",
       "regex": "(?s)$basename.*?$sha256"

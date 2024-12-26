@@ -6,7 +6,7 @@
     "identifier": "GPL-2.0 license",
     "url": "https://github.com/iAJue/MoeKoeMusic#GPL-2.0-1-ov-file"
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/iAJue/MoeKoeMusic/releases/download/v1.1.6/MoeKoe_Music_Setup_v1.1.6.exe#/dl.7z",
+  "url": "https://ghgo.xyz/https://github.com/iAJue/MoeKoeMusic/releases/download/v1.1.6/MoeKoe_Music_Setup_v1.1.6.exe#/dl.7z",
   "hash": "847b7904cda3029e2e5018431d4d468e8983899dc069931726e3fc368850d887",
   "architecture": {
     "64bit": {
@@ -48,6 +48,6 @@
     "regex": "/releases/tag/v([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/iAJue/MoeKoeMusic/releases/download/v$version/MoeKoe_Music_Setup_v$version.exe#/dl.7z"
+    "url": "https://ghgo.xyz/https://github.com/iAJue/MoeKoeMusic/releases/download/v$version/MoeKoe_Music_Setup_v$version.exe#/dl.7z"
   }
 }

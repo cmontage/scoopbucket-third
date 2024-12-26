@@ -5,7 +5,7 @@
   "license": "GPL-3.0",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/DonutWare/Fladder/releases/download/v0.5.1/Fladder-Windows-0.5.1.zip",
+      "url": "https://ghgo.xyz/https://github.com/DonutWare/Fladder/releases/download/v0.5.1/Fladder-Windows-0.5.1.zip",
       "hash": "c6f9d81318f61d496e1cbec67b9d7c9331f3ba90884de4a6c8d48d379339c671"
     }
   },
@@ -19,7 +19,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/DonutWare/Fladder/releases/download/v$version/Fladder-Windows-$version.zip"
+        "url": "https://ghgo.xyz/https://github.com/DonutWare/Fladder/releases/download/v$version/Fladder-Windows-$version.zip"
       }
     }
   }

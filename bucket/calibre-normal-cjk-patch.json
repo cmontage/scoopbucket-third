@@ -6,7 +6,7 @@
   "depends": "muggle/calibre-normal-cjk",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/Cirn09/calibre-do-not-translate-my-path/releases/download/v6.28.0/patch-win-6.28.0.zip",
+      "url": "https://ghgo.xyz/https://github.com/Cirn09/calibre-do-not-translate-my-path/releases/download/v6.28.0/patch-win-6.28.0.zip",
       "hash": "20610be4aab8180bdf09e37c40adf41dcc4295b2f6fb97f18000a6d7d2490895",
       "extract_dir": "Calibre2\\app\\bin",
       "pre_install": "Remove-Item \"$dir\\Calibre2\" -Force -Recurse"
@@ -40,7 +40,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/Cirn09/calibre-do-not-translate-my-path/releases/download/v$version/patch-win-$version.zip"
+        "url": "https://ghgo.xyz/https://github.com/Cirn09/calibre-do-not-translate-my-path/releases/download/v$version/patch-win-$version.zip"
       }
     }
   }

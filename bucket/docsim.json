@@ -5,7 +5,7 @@
   "description": "A simple, fast command-line tool for searching and comparing text documents.",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/hrs/docsim/releases/download/v0.1.7/docsim_0.1.7_windows_x86_64.zip",
+      "url": "https://ghgo.xyz/https://github.com/hrs/docsim/releases/download/v0.1.7/docsim_0.1.7_windows_x86_64.zip",
       "hash": "db5c0c632c7d6d525f9a04d64085bd8c8ab378c7040d7941e2609ac86a01046d"
     }
   },
@@ -16,7 +16,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/hrs/docsim/releases/download/v$version/docsim_$version_windows_x86_64.zip"
+        "url": "https://ghgo.xyz/https://github.com/hrs/docsim/releases/download/v$version/docsim_$version_windows_x86_64.zip"
       }
     }
   }

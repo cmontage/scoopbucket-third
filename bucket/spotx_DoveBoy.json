@@ -6,7 +6,7 @@
     "identifier": "MIT license",
     "url": "https://github.com/SpotX-Official/SpotX#MIT-1-ov-file"
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/SpotX-Official/SpotX/archive/main.zip",
+  "url": "https://ghgo.xyz/https://github.com/SpotX-Official/SpotX/archive/main.zip",
   "hash": "cee601b0ee4e05c86b2b9b57bd030cd043069651f49ac7b7c249bd33fb039bc3",
   "extract_dir": "SpotX-main",
   "bin": [
@@ -35,6 +35,6 @@
     "replace": "0.${1}.${2}.${3}.${short}"
   },
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/SpotX-Official/SpotX/archive/main.zip"
+    "url": "https://ghgo.xyz/https://github.com/SpotX-Official/SpotX/archive/main.zip"
   }
 }

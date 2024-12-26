@@ -6,7 +6,7 @@
     "identifier": "MIT license",
     "url": "https://github.com/hzhilong/bilibili-backup#MIT-1-ov-file"
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/hzhilong/bilibili-backup/releases/download/v2.0.6/bilibili-backup_2.0.6.exe",
+  "url": "https://ghgo.xyz/https://github.com/hzhilong/bilibili-backup/releases/download/v2.0.6/bilibili-backup_2.0.6.exe",
   "hash": "219a9ec2ceac86a711c258f43bf7a2c877e6951c4295034f454338e6a255a012",
   "innosetup": true,
   "bin": "bilibili-backup.exe",
@@ -23,6 +23,6 @@
     "regex": "/releases/download/v([\\d.]+)/bilibili-backup_([\\d.]+)\\.exe"
   },
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/hzhilong/bilibili-backup/releases/download/v$version/bilibili-backup_$version.exe"
+    "url": "https://ghgo.xyz/https://github.com/hzhilong/bilibili-backup/releases/download/v$version/bilibili-backup_$version.exe"
   }
 }

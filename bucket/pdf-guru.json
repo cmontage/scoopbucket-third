@@ -9,7 +9,7 @@
   "notes": "See usage:<https://github.com/kevin2li/PDF-Guru#使用>",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/kevin2li/PDF-Guru/releases/download/v1.0.13/pdf-guru-windows-amd64-v1.0.13.1.zip",
+      "url": "https://ghgo.xyz/https://github.com/kevin2li/PDF-Guru/releases/download/v1.0.13/pdf-guru-windows-amd64-v1.0.13.1.zip",
       "hash": "bb57580ae5a0d2b72bec29a45c33027dfabfe34f4ddae0b4fba40b1ec852220b"
     }
   },
@@ -35,7 +35,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/kevin2li/PDF-Guru/releases/download/v$version/$matchFile"
+        "url": "https://ghgo.xyz/https://github.com/kevin2li/PDF-Guru/releases/download/v$version/$matchFile"
       }
     }
   }

@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/ALTaleX531/TranslucentFlyouts/releases/download/v2.1.0/TranslucentFlyoutsV2.x86.optional.rar",
+      "url": "https://ghgo.xyz/https://github.com/ALTaleX531/TranslucentFlyouts/releases/download/v2.1.0/TranslucentFlyoutsV2.x86.optional.rar",
       "hash": "92b9371c61f37ddc8248a8caadb076c5a52c544ff1cc921dc408c4491caad75e",
       "uninstaller": {
         "script": [
@@ -16,7 +16,7 @@
       }
     },
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/ALTaleX531/TranslucentFlyouts/releases/download/v2.1.0/TranslucentFlyoutsV2.x64.rar",
+      "url": "https://ghgo.xyz/https://github.com/ALTaleX531/TranslucentFlyouts/releases/download/v2.1.0/TranslucentFlyoutsV2.x64.rar",
       "hash": "0bf78e29eadb7e5ecc926560738be4be4a51fb841f27f1f3d90ec06497f40754",
       "uninstaller": {
         "script": [
@@ -49,10 +49,10 @@
   "autoupdate": {
     "architecture": {
       "32bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/ALTaleX531/TranslucentFlyouts/releases/download/v$version/TranslucentFlyoutsV$majorVersion.x86.optional.rar"
+        "url": "https://ghgo.xyz/https://github.com/ALTaleX531/TranslucentFlyouts/releases/download/v$version/TranslucentFlyoutsV$majorVersion.x86.optional.rar"
       },
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/ALTaleX531/TranslucentFlyouts/releases/download/v$version/TranslucentFlyoutsV$majorVersion.x64.rar"
+        "url": "https://ghgo.xyz/https://github.com/ALTaleX531/TranslucentFlyouts/releases/download/v$version/TranslucentFlyoutsV$majorVersion.x64.rar"
       }
     }
   }

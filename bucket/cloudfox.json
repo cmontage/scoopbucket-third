@@ -4,10 +4,10 @@
   "homepage": "https://github.com/BishopFox/cloudfox",
   "license": "",
   "notes": "",
-  "url": "https://mirror.ghproxy.com/https://github.com/BishopFox/cloudfox/releases/download/v1.14.2/cloudfox-windows-amd64.zip",
+  "url": "https://ghgo.xyz/https://github.com/BishopFox/cloudfox/releases/download/v1.14.2/cloudfox-windows-amd64.zip",
   "hash": "",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/BishopFox/cloudfox/releases/download/v$version/cloudfox-windows-amd64.zip"
+    "url": "https://ghgo.xyz/https://github.com/BishopFox/cloudfox/releases/download/v$version/cloudfox-windows-amd64.zip"
   }
 }

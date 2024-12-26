@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/dutchcoders/transfer.sh/releases/download/v1.6.1/transfersh-v1.6.1-windows-amd64.exe",
+      "url": "https://ghgo.xyz/https://github.com/dutchcoders/transfer.sh/releases/download/v1.6.1/transfersh-v1.6.1-windows-amd64.exe",
       "hash": "e50ebcd27d45be1be3748d47a1c2a1ad21923f459e72aac94d38a7241f983a06"
     }
   },
@@ -22,7 +22,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/dutchcoders/transfer.sh/releases/download/v$version/transfersh-v$version-windows-amd64.exe"
+        "url": "https://ghgo.xyz/https://github.com/dutchcoders/transfer.sh/releases/download/v$version/transfersh-v$version-windows-amd64.exe"
       }
     }
   }

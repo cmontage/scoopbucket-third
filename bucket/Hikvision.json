@@ -3,7 +3,7 @@
   "description": "Hikvision综合漏洞利用工具",
   "homepage": "https://github.com/MInggongK/Hikvision-",
   "license": "",
-  "url": "https://mirror.ghproxy.com/https://github.com/MInggongK/Hikvision-/releases/download/hikvsiondvz/hikvision.zip",
+  "url": "https://ghgo.xyz/https://github.com/MInggongK/Hikvision-/releases/download/hikvsiondvz/hikvision.zip",
   "hash": "",
   "bin": "",
   "post_install": [
@@ -12,6 +12,6 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/MInggongK/Hikvision-/releases/download/hikvsiondvz/hikvision.zip"
+    "url": "https://ghgo.xyz/https://github.com/MInggongK/Hikvision-/releases/download/hikvsiondvz/hikvision.zip"
   }
 }

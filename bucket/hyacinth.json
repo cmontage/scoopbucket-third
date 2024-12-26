@@ -10,7 +10,7 @@
       "java/openjdk"
     ]
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/pureqh/Hyacinth/archive/refs/heads/main.zip",
+  "url": "https://ghgo.xyz/https://github.com/pureqh/Hyacinth/archive/refs/heads/main.zip",
   "hash": "",
   "post_install": [
     "Move-Item -Path \"$dir\\Hyacinth-main\\*\" -Destination \"$dir\\\"",
@@ -19,6 +19,6 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/pureqh/Hyacinth/releases/download/hyacinth-v$version/hyacinth-v$version.jar"
+    "url": "https://ghgo.xyz/https://github.com/pureqh/Hyacinth/releases/download/hyacinth-v$version/hyacinth-v$version.jar"
   }
 }

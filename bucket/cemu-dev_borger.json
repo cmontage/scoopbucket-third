@@ -9,7 +9,7 @@
   "suggest": {
     "Microsoft Visual C++ Runtime 2022": "extras/vcredist2022"
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/cemu-project/Cemu/releases/download/v2.0-95/cemu-2.0-95-windows-x64.zip",
+  "url": "https://ghgo.xyz/https://github.com/cemu-project/Cemu/releases/download/v2.0-95/cemu-2.0-95-windows-x64.zip",
   "hash": "f6b7ecaffaa54fadc218910e5dc1c7259466a40ce26114009fad2d0ce087f9e2",
   "extract_dir": "Cemu_2.0-95",
   "installer": {
@@ -61,7 +61,7 @@
     "regex": "v(\\d\\.\\d-\\d+)"
   },
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/cemu-project/Cemu/releases/download/v$version/cemu-$version-windows-x64.zip",
+    "url": "https://ghgo.xyz/https://github.com/cemu-project/Cemu/releases/download/v$version/cemu-$version-windows-x64.zip",
     "extract_dir": "Cemu_$version"
   }
 }

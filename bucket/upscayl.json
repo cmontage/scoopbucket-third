@@ -8,7 +8,7 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/upscayl/upscayl/releases/download/v2.15.0-pre-release/upscayl-2.15.0-pre-release-win.exe#/dl.7z",
+      "url": "https://ghgo.xyz/https://github.com/upscayl/upscayl/releases/download/v2.15.0-pre-release/upscayl-2.15.0-pre-release-win.exe#/dl.7z",
       "hash": "sha512:95cc0af0817dcfa7bf7540c9a530f45f83a8b568717106a31f0a6d6ba4b7304c79439d78058806b7c4208f1c7ba3711f551d33747c399e91f5ea744dd37f01d3",
       "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\" -Removal"
     }
@@ -29,7 +29,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/upscayl/upscayl/releases/download/v$version/upscayl-$version-win.exe#/dl.7z",
+        "url": "https://ghgo.xyz/https://github.com/upscayl/upscayl/releases/download/v$version/upscayl-$version-win.exe#/dl.7z",
         "hash": {
           "url": "$baseurl/latest.yml",
           "mode": "extract",

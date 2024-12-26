@@ -5,7 +5,7 @@
   "license": "",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/Hackmanit/TInjA/releases/download/1.1.4/TInjA_1.1.4_windows_amd64.zip",
+      "url": "https://ghgo.xyz/https://github.com/Hackmanit/TInjA/releases/download/1.1.4/TInjA_1.1.4_windows_amd64.zip",
       "hash": ""
     }
   },
@@ -16,7 +16,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/Hackmanit/TInjA/releases/download/$version/TInjA_$version_windows_amd64.zip"
+        "url": "https://ghgo.xyz/https://github.com/Hackmanit/TInjA/releases/download/$version/TInjA_$version_windows_amd64.zip"
       }
     }
   }

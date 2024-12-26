@@ -8,7 +8,7 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/shenjackyuanjie/zed-win-build/releases/download/0.163.0+8c02929710-1.2.1/zed-0.163.0-8c02929710.zip",
+      "url": "https://ghgo.xyz/https://github.com/shenjackyuanjie/zed-win-build/releases/download/0.163.0+8c02929710-1.2.1/zed-0.163.0-8c02929710.zip",
       "hash": "a362dd3a1ccc469554ea24008ed7213355d47831b0b0e154513c873f9bf70ad7"
     }
   },
@@ -23,7 +23,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/shenjackyuanjie/zed-win-build/releases/download/$matchZedver+$matchCommit-$matchScriptver/zed-$matchZedver-$matchCommit.zip"
+        "url": "https://ghgo.xyz/https://github.com/shenjackyuanjie/zed-win-build/releases/download/$matchZedver+$matchCommit-$matchScriptver/zed-$matchZedver-$matchCommit.zip"
       }
     }
   },

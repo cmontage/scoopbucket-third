@@ -6,7 +6,7 @@
     "identifier": "GNU General Public License v3.0",
     "url": "https://github.com/TranslucentTB/TranslucentTB/blob/release/LICENSE.md"
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/TranslucentTB/TranslucentTB/releases/download/2024.3/bundle.msixbundle",
+  "url": "https://ghgo.xyz/https://github.com/TranslucentTB/TranslucentTB/releases/download/2024.3/bundle.msixbundle",
   "hash": "fd34acf9185facfd94761f0794dd4428d7fdac6bf41d7a7cfde385cb9ccd510b",
   "pre_install": [
     "$bucket=(scoop bucket list | where-Object { $_.Source -match '(gitee|github).com/abgox/abgo_bucket'})[0].Name",
@@ -35,6 +35,6 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/TranslucentTB/TranslucentTB/releases/download/$version/bundle.msixbundle"
+    "url": "https://ghgo.xyz/https://github.com/TranslucentTB/TranslucentTB/releases/download/$version/bundle.msixbundle"
   }
 }

@@ -6,11 +6,11 @@
   "notes": "config location: C:\\Users\\<your username>\\AppData\\Local\\rubickconfig location: C:\\Users\\<your username>\\AppData\\Roaming\\rubick",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/rubickCenter/rubick/releases/download/v4.3.0/rubick-Setup-4.3.0-x64.exe#/dl.7z",
+      "url": "https://ghgo.xyz/https://github.com/rubickCenter/rubick/releases/download/v4.3.0/rubick-Setup-4.3.0-x64.exe#/dl.7z",
       "hash": "c7a89c3c5269360a00d8da228e996d3f8147afb91cdce82871a7af09a9441dd0"
     },
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/rubickCenter/rubick/releases/download/v4.3.0/rubick-Setup-4.3.0-ia32.exe#/dl.7z",
+      "url": "https://ghgo.xyz/https://github.com/rubickCenter/rubick/releases/download/v4.3.0/rubick-Setup-4.3.0-ia32.exe#/dl.7z",
       "hash": "a5004d75d3a4e53c74e9324c885b78ef870fdf0a87e1dbc1d1f947abb107dd8f"
     }
   },
@@ -30,10 +30,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/rubickCenter/rubick/releases/download/v$version/rubick-Setup-$version-x64.exe#/dl.7z"
+        "url": "https://ghgo.xyz/https://github.com/rubickCenter/rubick/releases/download/v$version/rubick-Setup-$version-x64.exe#/dl.7z"
       },
       "32bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/rubickCenter/rubick/releases/download/v$version/rubick-Setup-$version-ia32.exe#/dl.7z"
+        "url": "https://ghgo.xyz/https://github.com/rubickCenter/rubick/releases/download/v$version/rubick-Setup-$version-ia32.exe#/dl.7z"
       }
     }
   }

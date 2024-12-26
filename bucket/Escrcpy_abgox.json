@@ -6,7 +6,7 @@
     "identifier": "Apache License 2.0",
     "url": "https://github.com/viarotel-org/escrcpy/blob/main/LICENSE"
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/viarotel-org/escrcpy/releases/download/v1.28.1/Escrcpy-1.28.1-win-setup.exe#/abgo_bucket_installer.exe",
+  "url": "https://ghgo.xyz/https://github.com/viarotel-org/escrcpy/releases/download/v1.28.1/Escrcpy-1.28.1-win-setup.exe#/abgo_bucket_installer.exe",
   "hash": "sha512:9ec893eb0ecec0837ca872238a9e3fc315616a1a215ce21fde8b4026fa226f0edd237c6755b12d45409256aa5b73ab57c197861e1a3964d0292e20f5a3f8b1b2",
   "shortcuts": [
     [
@@ -37,7 +37,7 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/viarotel-org/escrcpy/releases/download/v$version/Escrcpy-$version-win-setup.exe#/abgo_bucket_installer.exe",
+    "url": "https://ghgo.xyz/https://github.com/viarotel-org/escrcpy/releases/download/v$version/Escrcpy-$version-win-setup.exe#/abgo_bucket_installer.exe",
     "hash": {
       "url": "$baseurl/latest.yml",
       "regex": "sha512:\\s+$base64"

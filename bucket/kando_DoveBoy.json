@@ -6,7 +6,7 @@
     "identifier": "MIT license",
     "url": "https://github.com/kando-menu/kando?tab=readme-ov-file#License-1-ov-file"
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/kando-menu/kando/releases/download/v1.6.0/Kando-1.6.0.Setup.exe#/dl.7z",
+  "url": "https://ghgo.xyz/https://github.com/kando-menu/kando/releases/download/v1.6.0/Kando-1.6.0.Setup.exe#/dl.7z",
   "hash": "2f46c90f7aee457a9af9b089869db2663adb289191f2c6f7ef0eb4b6082fef44",
   "pre_install": [
     "Get-Item \"$dir\\kando*.nupkg\" | Rename-Item -NewName 'kando.nupkg'",
@@ -40,6 +40,6 @@
     "regex": "/releases/tag/v([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/kando-menu/kando/releases/download/v$version/Kando-$version.Setup.exe#/dl.7z"
+    "url": "https://ghgo.xyz/https://github.com/kando-menu/kando/releases/download/v$version/Kando-$version.Setup.exe#/dl.7z"
   }
 }

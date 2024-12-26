@@ -8,11 +8,11 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/Kyome22/RunCat_for_windows/releases/download/2.0/RunCat-with-dotnet6-x64.zip",
+      "url": "https://ghgo.xyz/https://github.com/Kyome22/RunCat_for_windows/releases/download/2.0/RunCat-with-dotnet6-x64.zip",
       "hash": "f910822acca84dc92cf685ef616ae9e76cba7868e6df35ce22e7729fcfe4efb0"
     },
     "arm64": {
-      "url": "https://mirror.ghproxy.com/https://github.com/Kyome22/RunCat_for_windows/releases/download/2.0/RunCat-with-dotnet6-arm64.zip",
+      "url": "https://ghgo.xyz/https://github.com/Kyome22/RunCat_for_windows/releases/download/2.0/RunCat-with-dotnet6-arm64.zip",
       "hash": "eb234a21a236eeede09d390a6786e4a48af66714ffc00131cb5170d66aeca373"
     }
   },
@@ -38,10 +38,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/Kyome22/RunCat_for_windows/releases/download/$version/RunCat-with-dotnet6-x64.zip"
+        "url": "https://ghgo.xyz/https://github.com/Kyome22/RunCat_for_windows/releases/download/$version/RunCat-with-dotnet6-x64.zip"
       },
       "arm64": {
-        "url": "https://mirror.ghproxy.com/https://github.com/Kyome22/RunCat_for_windows/releases/download/$version/RunCat-with-dotnet6-arm64.zip"
+        "url": "https://ghgo.xyz/https://github.com/Kyome22/RunCat_for_windows/releases/download/$version/RunCat-with-dotnet6-arm64.zip"
       }
     }
   }

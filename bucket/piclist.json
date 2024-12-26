@@ -9,11 +9,11 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/Kuingsmile/PicList/releases/download/v2.9.6/PicList-Setup-2.9.6-x64.exe#/dl.7z",
+      "url": "https://ghgo.xyz/https://github.com/Kuingsmile/PicList/releases/download/v2.9.6/PicList-Setup-2.9.6-x64.exe#/dl.7z",
       "hash": "0ec0076ecdbca67713c9f25871e5ec5f3f8388d5895da87182849bfa5b634868"
     },
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/Kuingsmile/PicList/releases/download/v2.9.6/PicList-Setup-2.9.6.exe#/dl.7z",
+      "url": "https://ghgo.xyz/https://github.com/Kuingsmile/PicList/releases/download/v2.9.6/PicList-Setup-2.9.6.exe#/dl.7z",
       "hash": "69189bd8d80fc0564ac52e15c2abc95e1766cb63db630532c3a799f51e289364"
     }
   },
@@ -21,10 +21,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/Kuingsmile/PicList/releases/download/v$version/PicList-Setup-$version-x64.exe#/dl.7z"
+        "url": "https://ghgo.xyz/https://github.com/Kuingsmile/PicList/releases/download/v$version/PicList-Setup-$version-x64.exe#/dl.7z"
       },
       "32bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/Kuingsmile/PicList/releases/download/v$version/PicList-Setup-$version.exe#/dl.7z"
+        "url": "https://ghgo.xyz/https://github.com/Kuingsmile/PicList/releases/download/v$version/PicList-Setup-$version.exe#/dl.7z"
       }
     }
   },

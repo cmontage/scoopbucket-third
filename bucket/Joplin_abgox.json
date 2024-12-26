@@ -6,7 +6,7 @@
     "identifier": "GNU Affero General Public License v3.0 or later",
     "url": "https://github.com/laurent22/joplin/blob/dev/LICENSE"
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/laurent22/joplin/releases/download/v3.1.24/JoplinPortable.exe",
+  "url": "https://ghgo.xyz/https://github.com/laurent22/joplin/releases/download/v3.1.24/JoplinPortable.exe",
   "hash": "35f3e5b26279bac3459998e0c246fd7a780f77d6e451014bf69ec2e06a4c5c9c",
   "shortcuts": [
     [
@@ -31,6 +31,6 @@
     "github": "https://github.com/laurent22/joplin"
   },
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/laurent22/joplin/releases/download/v$version/JoplinPortable.exe"
+    "url": "https://ghgo.xyz/https://github.com/laurent22/joplin/releases/download/v$version/JoplinPortable.exe"
   }
 }

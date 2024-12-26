@@ -10,10 +10,10 @@
       "java/openjdk"
     ]
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/synacktiv/HopLa/releases/download/1.2/HopLa.jar",
+  "url": "https://ghgo.xyz/https://github.com/synacktiv/HopLa/releases/download/1.2/HopLa.jar",
   "hash": "cc7d1e73db6be0baf9f6baf14a4ed2d78e62931b3580b204d482c9ca29483bb8",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/synacktiv/HopLa/releases/download/$version/HopLa.jar"
+    "url": "https://ghgo.xyz/https://github.com/synacktiv/HopLa/releases/download/$version/HopLa.jar"
   }
 }

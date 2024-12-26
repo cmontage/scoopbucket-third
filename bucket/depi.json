@@ -5,7 +5,7 @@
   "license": "AGPL-3.0-or-later",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/Dirout/depi/releases/download/v0.1.0/x86_64-depi.win32.zip",
+      "url": "https://ghgo.xyz/https://github.com/Dirout/depi/releases/download/v0.1.0/x86_64-depi.win32.zip",
       "hash": "87bc25e435d4659088e949749b762429e24c5a6249dec51c05fc7957dac33aa4"
     }
   },
@@ -20,7 +20,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/Dirout/depi/releases/download/v$version/x86_64-depi.win32.zip"
+        "url": "https://ghgo.xyz/https://github.com/Dirout/depi/releases/download/v$version/x86_64-depi.win32.zip"
       }
     }
   }

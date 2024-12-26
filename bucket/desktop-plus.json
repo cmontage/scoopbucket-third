@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/elvissteinjr/DesktopPlus/releases/download/v3.0.1/DesktopPlus-3.0.1.zip",
+      "url": "https://ghgo.xyz/https://github.com/elvissteinjr/DesktopPlus/releases/download/v3.0.1/DesktopPlus-3.0.1.zip",
       "hash": "832a44029f1780efa1e204ea466a5a1325e05516afe2a9d5b047e7df8fd7a775"
     }
   },
@@ -24,7 +24,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/elvissteinjr/DesktopPlus/releases/download/$matchTag/DesktopPlus-$version.zip"
+        "url": "https://ghgo.xyz/https://github.com/elvissteinjr/DesktopPlus/releases/download/$matchTag/DesktopPlus-$version.zip"
       }
     }
   }

@@ -10,11 +10,11 @@
       "java/openjdk"
     ]
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/Tsojan/TsojanScan/releases/download/v1.4.6/TsojanScan-1.4.6-jar-with-dependencies.jar",
+  "url": "https://ghgo.xyz/https://github.com/Tsojan/TsojanScan/releases/download/v1.4.6/TsojanScan-1.4.6-jar-with-dependencies.jar",
   "hash": "6b16d60bcd30d11a501f33082077ad0fec922e165ac3c2d1d39bddf65bc222d8",
   "pre_install": "Rename-Item  \"$dir\\TsojanScan-$version-jar-with-dependencies.jar\" \"$dir\\TsojanScan.jar\"",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/Tsojan/TsojanScan/releases/download/v$version/TsojanScan-$version-jar-with-dependencies.jar"
+    "url": "https://ghgo.xyz/https://github.com/Tsojan/TsojanScan/releases/download/v$version/TsojanScan-$version-jar-with-dependencies.jar"
   }
 }

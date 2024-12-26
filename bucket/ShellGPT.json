@@ -3,7 +3,7 @@
   "homepage": "https://index.shellgpt.link/",
   "license": "unknown",
   "description": "A chatgpt client, now Supported online search",
-  "url": "https://mirror.ghproxy.com/https://github.com/akl7777777/ShellGPT/releases/download/v4.2.2/win-unpacked-4.2.2.7z",
+  "url": "https://ghgo.xyz/https://github.com/akl7777777/ShellGPT/releases/download/v4.2.2/win-unpacked-4.2.2.7z",
   "extract_dir": "win-unpacked",
   "hash": "4e35f62e4ab60423ca65774114dc8d2cc5f02c38f6069b15a3fc0a1e739f6b68",
   "shortcuts": [
@@ -16,6 +16,6 @@
     "github": "https://github.com/akl7777777/ShellGPT"
   },
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/akl7777777/ShellGPT/releases/download/v$version/win-unpacked-$version.7z"
+    "url": "https://ghgo.xyz/https://github.com/akl7777777/ShellGPT/releases/download/v$version/win-unpacked-$version.7z"
   }
 }

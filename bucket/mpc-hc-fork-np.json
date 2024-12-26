@@ -5,11 +5,11 @@
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/clsid2/mpc-hc/releases/download/2.3.9/MPC-HC.2.3.9.x64.exe#/setup.exe",
+      "url": "https://ghgo.xyz/https://github.com/clsid2/mpc-hc/releases/download/2.3.9/MPC-HC.2.3.9.x64.exe#/setup.exe",
       "hash": "93f07196f023987317423e00af3bb56e37b60dc21d09db0c1aa03eb284cec4c6"
     },
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/clsid2/mpc-hc/releases/download/2.3.9/MPC-HC.2.3.9.x86.exe#/setup.exe",
+      "url": "https://ghgo.xyz/https://github.com/clsid2/mpc-hc/releases/download/2.3.9/MPC-HC.2.3.9.x86.exe#/setup.exe",
       "hash": "84f3b50afbf0918561853e27a51c249521b5937caf6c5d4edbb7d39a61cdc907"
     }
   },
@@ -32,10 +32,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/clsid2/mpc-hc/releases/download/$matchTag/MPC-HC.$version.x64.exe#/setup.exe"
+        "url": "https://ghgo.xyz/https://github.com/clsid2/mpc-hc/releases/download/$matchTag/MPC-HC.$version.x64.exe#/setup.exe"
       },
       "32bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/clsid2/mpc-hc/releases/download/$matchTag/MPC-HC.$matchTag.x86.exe#/setup.exe"
+        "url": "https://ghgo.xyz/https://github.com/clsid2/mpc-hc/releases/download/$matchTag/MPC-HC.$matchTag.x86.exe#/setup.exe"
       }
     }
   }

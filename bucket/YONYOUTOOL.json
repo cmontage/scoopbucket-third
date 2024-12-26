@@ -10,7 +10,7 @@
       "java/openjdk"
     ]
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/Chave0v0/YONYOU-TOOL/releases/download/v2.0.9/YONYOU-TOOL-2.0.9.jar",
+  "url": "https://ghgo.xyz/https://github.com/Chave0v0/YONYOU-TOOL/releases/download/v2.0.9/YONYOU-TOOL-2.0.9.jar",
   "hash": "",
   "pre_install": [
     "Rename-Item \"$dir\\YONYOU-TOOL-$version.jar\" 'YONYOU-TOOL.jar'"
@@ -18,6 +18,6 @@
   "bin": "YONYOU-TOOL.jar",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/Chave0v0/YONYOU-TOOL/releases/download/v$version/YONYOU-TOOL-$version.jar"
+    "url": "https://ghgo.xyz/https://github.com/Chave0v0/YONYOU-TOOL/releases/download/v$version/YONYOU-TOOL-$version.jar"
   }
 }

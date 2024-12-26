@@ -3,7 +3,7 @@
   "description": "A platform for scientific and technical data processing and visualization",
   "homepage": "https://datalab-platform.com/",
   "license": "BSD-3-Clause",
-  "url": "https://mirror.ghproxy.com/https://github.com/DataLab-Platform/DataLab/releases/download/v0.17.1/DataLab-0.17.1.msi",
+  "url": "https://ghgo.xyz/https://github.com/DataLab-Platform/DataLab/releases/download/v0.17.1/DataLab-0.17.1.msi",
   "hash": "c792e431bf9b196713abcc2016df04dfdbc2af8c4e222dc0523dbe2eee16fa8b",
   "installer": {
     "script": [
@@ -24,6 +24,6 @@
     "github": "https://github.com/DataLab-Platform/DataLab"
   },
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/DataLab-Platform/DataLab/releases/download/v$version/DataLab-$version.msi"
+    "url": "https://ghgo.xyz/https://github.com/DataLab-Platform/DataLab/releases/download/v$version/DataLab-$version.msi"
   }
 }

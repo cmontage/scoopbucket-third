@@ -11,8 +11,8 @@
     ]
   },
   "url": [
-    "https://mirror.ghproxy.com/https://github.com/wgpsec/fofa_viewer/releases/download/1.1.15/FofaViewer_1.1.15.zip",
-    "https://mirror.ghproxy.com/https://github.com/wgpsec/fofa_viewer/releases/download/1.1.15/FofaViewer_1.1.15_JDK8.zip"
+    "https://ghgo.xyz/https://github.com/wgpsec/fofa_viewer/releases/download/1.1.15/FofaViewer_1.1.15.zip",
+    "https://ghgo.xyz/https://github.com/wgpsec/fofa_viewer/releases/download/1.1.15/FofaViewer_1.1.15_JDK8.zip"
   ],
   "hash": [
     "2288e2c62f1f060e2d89b75c8a9eb707304284b22b699a0268951ba4d47e039b",
@@ -37,8 +37,8 @@
   "checkver": "github",
   "autoupdate": {
     "url": [
-      "https://mirror.ghproxy.com/https://github.com/wgpsec/fofa_viewer/releases/download/$version/FofaViewer_$version.zip",
-      "https://mirror.ghproxy.com/https://github.com/wgpsec/fofa_viewer/releases/download/$version/FofaViewer_$version_JDK8.zip"
+      "https://ghgo.xyz/https://github.com/wgpsec/fofa_viewer/releases/download/$version/FofaViewer_$version.zip",
+      "https://ghgo.xyz/https://github.com/wgpsec/fofa_viewer/releases/download/$version/FofaViewer_$version_JDK8.zip"
     ]
   }
 }

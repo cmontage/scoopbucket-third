@@ -5,7 +5,7 @@
   "license": "",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/TideSec/TscanPlus/releases/download/2.5.2/TscanPlus_Win_Amd64_v2.5.2.zip",
+      "url": "https://ghgo.xyz/https://github.com/TideSec/TscanPlus/releases/download/2.5.2/TscanPlus_Win_Amd64_v2.5.2.zip",
       "hash": "",
       "pre_install": "Rename-Item \"$dir\\TscanPlus_Win_Amd64.exe\" 'TscanPlus.exe'"
     }
@@ -15,10 +15,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/TideSec/TscanPlus/releases/download/$version/TscanPlus_Win_Amd64_v$version.zip"
+        "url": "https://ghgo.xyz/https://github.com/TideSec/TscanPlus/releases/download/$version/TscanPlus_Win_Amd64_v$version.zip"
       },
       "arm64": {
-        "url": "https://mirror.ghproxy.com/https://github.com/TideSec/TscanPlus/releases/download/$version/TscanPlus_Win_Arm64_v$version.zip"
+        "url": "https://ghgo.xyz/https://github.com/TideSec/TscanPlus/releases/download/$version/TscanPlus_Win_Arm64_v$version.zip"
       }
     }
   }

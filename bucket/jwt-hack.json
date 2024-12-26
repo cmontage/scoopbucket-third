@@ -10,10 +10,10 @@
       "java/openjdk"
     ]
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/hahwul/jwt-hack/releases/download/v1.2.0/jwt-hack_1.2.0_windows_amd64.tar.gz",
+  "url": "https://ghgo.xyz/https://github.com/hahwul/jwt-hack/releases/download/v1.2.0/jwt-hack_1.2.0_windows_amd64.tar.gz",
   "hash": "",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/hahwul/jwt-hack/releases/download/v$version/jwt-hack_$version_windows_amd64.tar.gz"
+    "url": "https://ghgo.xyz/https://github.com/hahwul/jwt-hack/releases/download/v$version/jwt-hack_$version_windows_amd64.tar.gz"
   }
 }

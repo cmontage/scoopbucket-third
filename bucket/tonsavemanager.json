@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/ChrisFeline/ToNSaveManager/releases/download/2024.11.26.1033/ToNSaveManager.zip",
+      "url": "https://ghgo.xyz/https://github.com/ChrisFeline/ToNSaveManager/releases/download/2024.11.26.1033/ToNSaveManager.zip",
       "hash": "3f16b8ba94129e3bc8bcf95df4e33f3590ee0ba16e0d59461ccc5555b4d6f300"
     }
   },
@@ -21,7 +21,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/ChrisFeline/ToNSaveManager/releases/download/$version/ToNSaveManager.zip"
+        "url": "https://ghgo.xyz/https://github.com/ChrisFeline/ToNSaveManager/releases/download/$version/ToNSaveManager.zip"
       }
     }
   }

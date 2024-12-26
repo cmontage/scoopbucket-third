@@ -6,7 +6,7 @@
   "hash": " ",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/ryanoasis/nerd-fonts/releases/download/v$version/Regular.zip"
+    "url": "https://ghgo.xyz/https://github.com/ryanoasis/nerd-fonts/releases/download/v$version/Regular.zip"
   },
   "installer": {
     "script": [

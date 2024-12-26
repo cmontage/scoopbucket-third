@@ -9,7 +9,7 @@
   "suggest": {
     "Python 3.7+": "python"
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/tarihub/blackjump/archive/refs/heads/main.zip",
+  "url": "https://ghgo.xyz/https://github.com/tarihub/blackjump/archive/refs/heads/main.zip",
   "hash": "",
   "post_install": [
     "Move-Item -Path \"$dir\\blackjump-main\\*\" -Destination \"$dir\\\"",
@@ -19,6 +19,6 @@
   "bin": "",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/tarihub/blackjump/archive/refs/heads/main.zip"
+    "url": "https://ghgo.xyz/https://github.com/tarihub/blackjump/archive/refs/heads/main.zip"
   }
 }

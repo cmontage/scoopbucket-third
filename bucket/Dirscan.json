@@ -6,7 +6,7 @@
   "notes": "Scoop bucket for Cybersecurity by whoopscs(https://github.com/whoopscs/scoop-security).",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/corunb/Dirscan/releases/download/v.1.5.2/win-v1.5.2.zip",
+      "url": "https://ghgo.xyz/https://github.com/corunb/Dirscan/releases/download/v.1.5.2/win-v1.5.2.zip",
       "hash": "7771a855cf02d39bc2c9971433c35496d23f4a581ca446b64d05b64b15ce4a6c"
     }
   },
@@ -16,7 +16,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/corunb/Dirscan/releases/download/v$version/win-v$version.zip"
+        "url": "https://ghgo.xyz/https://github.com/corunb/Dirscan/releases/download/v$version/win-v$version.zip"
       }
     }
   }

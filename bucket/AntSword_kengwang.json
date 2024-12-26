@@ -11,11 +11,11 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/AntSwordProject/AntSword-Loader/releases/download/4.0.3/AntSword-Loader-v4.0.3-win32-x64.zip",
+      "url": "https://ghgo.xyz/https://github.com/AntSwordProject/AntSword-Loader/releases/download/4.0.3/AntSword-Loader-v4.0.3-win32-x64.zip",
       "hash": "c471a712a5331325eb86048bc0a2da67aba257544c7c847a6087eb34012a100c"
     },
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/AntSwordProject/AntSword-Loader/releases/download/4.0.3/AntSword-Loader-v4.0.3-win32-ia32.zip",
+      "url": "https://ghgo.xyz/https://github.com/AntSwordProject/AntSword-Loader/releases/download/4.0.3/AntSword-Loader-v4.0.3-win32-ia32.zip",
       "hash": "a8693376e8380849c0e8cafc50028c565960923a8f7c8326a20fe57cf8fd8801"
     }
   },
@@ -38,10 +38,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/AntSwordProject/AntSword-Loader/releases/download/$version/AntSword-Loader-v$version-win32-x64.zip"
+        "url": "https://ghgo.xyz/https://github.com/AntSwordProject/AntSword-Loader/releases/download/$version/AntSword-Loader-v$version-win32-x64.zip"
       },
       "32bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/AntSwordProject/AntSword-Loader/releases/download/$version/AntSword-Loader-v$version-win32-ia32.zip"
+        "url": "https://ghgo.xyz/https://github.com/AntSwordProject/AntSword-Loader/releases/download/$version/AntSword-Loader-v$version-win32-ia32.zip"
       }
     }
   }

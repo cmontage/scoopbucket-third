@@ -3,7 +3,7 @@
   "homepage": "https://github.com/adobe-fonts/source-han-serif",
   "description": "Source Han Serif, a set of OpenType/CFF Pan-CJK fonts.",
   "license": "OFL-1.1",
-  "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/adobe-fonts/source-han-serif/2.003R/Variable/OTC/SourceHanSerif-VF.ttf.ttc",
+  "url": "https://ghgo.xyz/https://raw.githubusercontent.com/adobe-fonts/source-han-serif/2.003R/Variable/OTC/SourceHanSerif-VF.ttf.ttc",
   "hash": "da4f963f95f27bc43c33a48228f6f875762b5cee290541ca2b108eb4aa7bff39",
   "installer": {
     "script": [
@@ -87,6 +87,6 @@
   },
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/adobe-fonts/source-han-serif/$versionR/Variable/OTC/SourceHanSerif-VF.ttf.ttc"
+    "url": "https://ghgo.xyz/https://raw.githubusercontent.com/adobe-fonts/source-han-serif/$versionR/Variable/OTC/SourceHanSerif-VF.ttf.ttc"
   }
 }

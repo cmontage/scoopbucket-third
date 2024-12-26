@@ -9,7 +9,7 @@
   "suggest": {
     "Python": "python"
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/L-codes/Neo-reGeorg/archive/refs/tags/v5.2.0.zip",
+  "url": "https://ghgo.xyz/https://github.com/L-codes/Neo-reGeorg/archive/refs/tags/v5.2.0.zip",
   "hash": "6afb15f6cc27e812a9d5e9afcb0231b49d2de261eecb963840623cfad86a6c17",
   "pre_install": [
     "Set-Content \"$dir\\neoreg.bat\" '@pushd %~dp0",
@@ -23,6 +23,6 @@
   "bin": "neoreg.bat",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/L-codes/Neo-reGeorg/archive/refs/tags/v$version.zip"
+    "url": "https://ghgo.xyz/https://github.com/L-codes/Neo-reGeorg/archive/refs/tags/v$version.zip"
   }
 }

@@ -5,11 +5,11 @@
   "version": "1.10.0",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/lz4/lz4/releases/download/v1.10.0/lz4_win64_v1_10_0.zip",
+      "url": "https://ghgo.xyz/https://github.com/lz4/lz4/releases/download/v1.10.0/lz4_win64_v1_10_0.zip",
       "hash": "637b3a63cbc40490f8b4fbcb0e4ef097702f108e69d834dbdf176801c7a8fd08"
     },
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/lz4/lz4/releases/download/v1.10.0/lz4_win32_v1_10_0.zip",
+      "url": "https://ghgo.xyz/https://github.com/lz4/lz4/releases/download/v1.10.0/lz4_win32_v1_10_0.zip",
       "hash": "a1a121e34014418f7bf609c52b4a647eb7ee4244103b11cb23476db947502b8a"
     }
   },
@@ -18,10 +18,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/lz4/lz4/releases/download/v$version/lz4_win64_v$underscoreVersion.zip"
+        "url": "https://ghgo.xyz/https://github.com/lz4/lz4/releases/download/v$version/lz4_win64_v$underscoreVersion.zip"
       },
       "32bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/lz4/lz4/releases/download/v$version/lz4_win32_v$underscoreVersion.zip"
+        "url": "https://ghgo.xyz/https://github.com/lz4/lz4/releases/download/v$version/lz4_win32_v$underscoreVersion.zip"
       }
     }
   }

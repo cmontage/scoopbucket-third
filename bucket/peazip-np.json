@@ -5,11 +5,11 @@
   "license": "LGPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/peazip/PeaZip/releases/download/10.1.0/peazip-10.1.0.WIN64.exe#/setup.exe",
+      "url": "https://ghgo.xyz/https://github.com/peazip/PeaZip/releases/download/10.1.0/peazip-10.1.0.WIN64.exe#/setup.exe",
       "hash": "md5:b7cb6fba827632d3a1cde1363399f576"
     },
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/peazip/PeaZip/releases/download/10.1.0/peazip-10.1.0.WINDOWS.exe#/setup.exe",
+      "url": "https://ghgo.xyz/https://github.com/peazip/PeaZip/releases/download/10.1.0/peazip-10.1.0.WINDOWS.exe#/setup.exe",
       "hash": "md5:14c4147b6d0b7581e7b2d9a87a7caef1"
     }
   },
@@ -64,10 +64,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/peazip/PeaZip/releases/download/$version/peazip-$version.WIN64.exe#/setup.exe"
+        "url": "https://ghgo.xyz/https://github.com/peazip/PeaZip/releases/download/$version/peazip-$version.WIN64.exe#/setup.exe"
       },
       "32bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/peazip/PeaZip/releases/download/$version/peazip-$version.WINDOWS.exe#/setup.exe"
+        "url": "https://ghgo.xyz/https://github.com/peazip/PeaZip/releases/download/$version/peazip-$version.WINDOWS.exe#/setup.exe"
       }
     },
     "hash": {

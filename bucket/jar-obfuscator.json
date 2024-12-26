@@ -4,10 +4,10 @@
   "homepage": "https://github.com/jar-analyzer/jar-obfuscator",
   "license": "Freeware",
   "notes": "Scoop bucket for Cybersecurity by whoopscs(https://github.com/whoopscs/scoop-security).",
-  "url": "https://mirror.ghproxy.com/https://github.com/jar-analyzer/jar-obfuscator/releases/download/0.2.0/jar-obfuscator-0.2.0.jar",
+  "url": "https://ghgo.xyz/https://github.com/jar-analyzer/jar-obfuscator/releases/download/0.2.0/jar-obfuscator-0.2.0.jar",
   "hash": "f7b7c299dd8304a31a363e06573b7e3c6d87f1324534e78cd967214098bfe35c",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/jar-analyzer/jar-obfuscator/releases/download/$version/jar-obfuscator-$version.jar"
+    "url": "https://ghgo.xyz/https://github.com/jar-analyzer/jar-obfuscator/releases/download/$version/jar-obfuscator-$version.jar"
   }
 }

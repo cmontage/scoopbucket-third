@@ -6,7 +6,7 @@
     "tcc": "main/tcc",
     "llvm": "main/llvm"
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/vlang/v/archive/refs/heads/master.zip",
+  "url": "https://ghgo.xyz/https://github.com/vlang/v/archive/refs/heads/master.zip",
   "hash": "4e0883a04405d63822eca6bc71c38b0f0c4b4c53d98cb109f3fa9d694cffb2db",
   "extract_dir": "v-master",
   "persist": "data",
@@ -21,7 +21,7 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/vlang/v/archive/refs/heads/master.zip"
+    "url": "https://ghgo.xyz/https://github.com/vlang/v/archive/refs/heads/master.zip"
   },
   "bin": "v.exe",
   "env_add_path": "."

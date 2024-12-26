@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/woelper/oculante/releases/download/0.9.1/oculante.exe",
+      "url": "https://ghgo.xyz/https://github.com/woelper/oculante/releases/download/0.9.1/oculante.exe",
       "hash": "aa64b11a8126273c12bffbc5de2ae8c27188d32284ed3f3d3189054e8b02734f"
     }
   },
@@ -14,7 +14,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/woelper/oculante/releases/download/$version/oculante.exe"
+        "url": "https://ghgo.xyz/https://github.com/woelper/oculante/releases/download/$version/oculante.exe"
       }
     }
   }

@@ -1,6 +1,6 @@
 {
   "version": "20080300",
-  "url": "https://mirror.ghproxy.com/https://github.com/yuk7/ArchWSL2/releases/download/20080300/ArchWSL2.zip",
+  "url": "https://ghgo.xyz/https://github.com/yuk7/ArchWSL2/releases/download/20080300/ArchWSL2.zip",
   "hash": "bd55faa53f367bd186204db64eb1fe9f45fc793c325a06a2c688071bc95ab1ad",
   "bin": "Arch2.exe",
   "notes": "ArchWSL2 successfully installed. Goodbye, and take care!",
@@ -13,7 +13,7 @@
   "persist": "data",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/yuk7/ArchWSL2/releases/download/$version/ArchWSL2.zip"
+    "url": "https://ghgo.xyz/https://github.com/yuk7/ArchWSL2/releases/download/$version/ArchWSL2.zip"
   },
   "post_install": [
     "$installable = $true",

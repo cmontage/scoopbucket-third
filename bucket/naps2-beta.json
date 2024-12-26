@@ -3,7 +3,7 @@
   "homepage": "https://www.naps2.com/",
   "description": "A document scanning application with a focus on simplicity and ease of use. (Beta release)",
   "license": "GPL-2.0-only",
-  "url": "https://mirror.ghproxy.com/https://github.com/cyanfish/naps2/releases/download/v8.0b1/naps2-8.0b1-win-x64.zip",
+  "url": "https://ghgo.xyz/https://github.com/cyanfish/naps2/releases/download/v8.0b1/naps2-8.0b1-win-x64.zip",
   "hash": "42a20780964ac28e8d1acfead0afa33b150a65440dff6c4228328f7df882b1e9",
   "pre_install": [
     "if (!(Test-Path $persist_dir)) { ensure $persist_dir | Out-Null }",
@@ -30,6 +30,6 @@
     "regex": "v([\\w.]+)"
   },
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/cyanfish/naps2/releases/download/v$version/naps2-$version-win-x64.zip"
+    "url": "https://ghgo.xyz/https://github.com/cyanfish/naps2/releases/download/v$version/naps2-$version-win-x64.zip"
   }
 }

@@ -11,7 +11,7 @@
     ]
   ],
   "checkver": {
-    "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kkzzhizhou/scoop-zapps/master/versions/ecloud.latest",
+    "url": "https://ghgo.xyz/https://raw.githubusercontent.com/kkzzhizhou/scoop-zapps/master/versions/ecloud.latest",
     "regex": "([\\d.]+)"
   },
   "autoupdate": {

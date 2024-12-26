@@ -10,11 +10,11 @@
       "java/openjdk"
     ]
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/BambiZombie/FrchannelPlus/releases/download/FrchannelPlus/FrChannelPlus.jar",
+  "url": "https://ghgo.xyz/https://github.com/BambiZombie/FrchannelPlus/releases/download/FrchannelPlus/FrChannelPlus.jar",
   "hash": "",
   "bin": "FrChannelPlus.jar",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/BambiZombie/FrchannelPlus/releases/download/FrchannelPlus/FrChannelPlus.jar"
+    "url": "https://ghgo.xyz/https://github.com/BambiZombie/FrchannelPlus/releases/download/FrchannelPlus/FrChannelPlus.jar"
   }
 }

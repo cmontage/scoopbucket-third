@@ -5,7 +5,7 @@
   "version": "2024.6.15.0",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/BornToBeRoot/NETworkManager/releases/download/2024.6.15.0/NETworkManager_2024.6.15.0_Portable.zip",
+      "url": "https://ghgo.xyz/https://github.com/BornToBeRoot/NETworkManager/releases/download/2024.6.15.0/NETworkManager_2024.6.15.0_Portable.zip",
       "hash": "2dc069d3ed82811b3fef0fe00956aa53f6153f233a3ae08df42104bb2befad97"
     }
   },
@@ -25,9 +25,9 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/BornToBeRoot/NETworkManager/releases/download/$version/NETworkManager_$version_Portable.zip",
+        "url": "https://ghgo.xyz/https://github.com/BornToBeRoot/NETworkManager/releases/download/$version/NETworkManager_$version_Portable.zip",
         "hash": {
-          "url": "https://mirror.ghproxy.com/https://github.com/BornToBeRoot/NETworkManager/releases/download/$version/NETworkManager_$version_Hash.txt",
+          "url": "https://ghgo.xyz/https://github.com/BornToBeRoot/NETworkManager/releases/download/$version/NETworkManager_$version_Hash.txt",
           "regex": "SHA256.*?$sha256.*?$basename"
         }
       }

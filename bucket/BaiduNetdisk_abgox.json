@@ -36,7 +36,7 @@
   "autoupdate": {
     "url": "$matchX86#/dl.7z",
     "hash": {
-      "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/b/Baidu/BaiduNetdisk/$version/Baidu.BaiduNetdisk.installer.yaml",
+      "url": "https://ghgo.xyz/https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/b/Baidu/BaiduNetdisk/$version/Baidu.BaiduNetdisk.installer.yaml",
       "regex": "Architecture: x86[\\s\\S]+?InstallerSha256:\\s?(.+)"
     }
   }

@@ -4,11 +4,11 @@
   "homepage": "https://github.com/doimet/AuxTools",
   "license": "",
   "notes": "",
-  "url": "https://mirror.ghproxy.com/https://github.com/doimet/AuxTools/releases/download/4.2/AuxTools-Windows-4.2.zip",
+  "url": "https://ghgo.xyz/https://github.com/doimet/AuxTools/releases/download/4.2/AuxTools-Windows-4.2.zip",
   "hash": "",
   "bin": "",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/doimet/AuxTools/releases/download/$version/AuxTools-Windows-$version.zip"
+    "url": "https://ghgo.xyz/https://github.com/doimet/AuxTools/releases/download/$version/AuxTools-Windows-$version.zip"
   }
 }

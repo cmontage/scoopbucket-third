@@ -9,7 +9,7 @@
       "java/openjdk"
     ]
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/0x7eTeam/0x7eTeamTools/releases/download/1.2/0x7eTeamTools.v1.2.zip",
+  "url": "https://ghgo.xyz/https://github.com/0x7eTeam/0x7eTeamTools/releases/download/1.2/0x7eTeamTools.v1.2.zip",
   "hash": "",
   "pre_install": [
     "Rename-Item \"$dir\\0x7eTeamTools v$1.2.jar\" '0x7eTeamTools.jar'",
@@ -29,6 +29,6 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/0x7eTeam/0x7eTeamTools/releases/download/$version/0x7eTeamTools.v$version.zip"
+    "url": "https://ghgo.xyz/https://github.com/0x7eTeam/0x7eTeamTools/releases/download/$version/0x7eTeamTools.v$version.zip"
   }
 }

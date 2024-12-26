@@ -4,7 +4,7 @@
   "description": "A helper util for Clash for Windows.",
   "license": "ender-zhao/Clash-for-Windows_Chinese",
   "homepage": "https://github.com/ender-zhao/Clash-for-Windows_Chinese",
-  "url": "https://mirror.ghproxy.com/https://github.com/ender-zhao/Clash-for-Windows_Chinese/releases/download/CFW-V0.20.39_CN/app.asar",
+  "url": "https://ghgo.xyz/https://github.com/ender-zhao/Clash-for-Windows_Chinese/releases/download/CFW-V0.20.39_CN/app.asar",
   "hash": "8d5f96d5fd95c0641f0ecb395c6190bf97529a52aaf0b1f6d8b0afa2f108a70b",
   "pre_install": [
     "Write-Host \"检查是否安装 Clash for Windows\" -ForegroundColor Yellow",
@@ -48,7 +48,7 @@
     "regex": "CFW-V([\\d.]+)_CN"
   },
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/ender-zhao/Clash-for-Windows_Chinese/releases/download/CFW-V$version_CN/app.asar",
+    "url": "https://ghgo.xyz/https://github.com/ender-zhao/Clash-for-Windows_Chinese/releases/download/CFW-V$version_CN/app.asar",
     "hash": {
       "mode": "download"
     }

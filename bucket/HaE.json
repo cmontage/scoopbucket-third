@@ -10,11 +10,11 @@
       "java/openjdk"
     ]
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/gh0stkey/HaE/releases/download/4.0/HaE-4.0.jar",
+  "url": "https://ghgo.xyz/https://github.com/gh0stkey/HaE/releases/download/4.0/HaE-4.0.jar",
   "hash": "d1ba4a5dafe1e25111aea64936ff0ce7e70f222d729cb71855ed2cd7b13fd5ae",
   "pre_install": "Rename-Item  \"$dir\\HaE-$version.jar\" \"$dir\\HaE.jar\"",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/gh0stkey/HaE/releases/download/$version/HaE-$version.jar"
+    "url": "https://ghgo.xyz/https://github.com/gh0stkey/HaE/releases/download/$version/HaE-$version.jar"
   }
 }

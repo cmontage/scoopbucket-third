@@ -10,7 +10,7 @@
   ],
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/Maplespe/ExplorerBlurMica/releases/download/2.0.1/Release_x64.zip",
+      "url": "https://ghgo.xyz/https://github.com/Maplespe/ExplorerBlurMica/releases/download/2.0.1/Release_x64.zip",
       "hash": "70e982bbfedca5f1df51f7b2f7713cedaf3124053074737b3d77e460894d2fc7"
     }
   },
@@ -70,7 +70,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/Maplespe/ExplorerBlurMica/releases/download/$version/Release_x64.zip"
+        "url": "https://ghgo.xyz/https://github.com/Maplespe/ExplorerBlurMica/releases/download/$version/Release_x64.zip"
       }
     }
   }

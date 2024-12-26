@@ -3,7 +3,7 @@
   "description": "CJK programming font based on Iosevka and Source Han Sans (Nerd Fonts patched)",
   "homepage": "https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts",
   "license": "OFL-1.1",
-  "url": "https://mirror.ghproxy.com/https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts/releases/download/v1.0.26-0/sarasa-term-slab-cl-nerd-font.zip",
+  "url": "https://ghgo.xyz/https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts/releases/download/v1.0.26-0/sarasa-term-slab-cl-nerd-font.zip",
   "hash": "8107d643d839352068868966db3f03643c99966fc647fb659a2b67d9deeb4efb",
   "pre_install": [
     "$currentBuildNumber = [int] (Get-ItemProperty \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\").CurrentBuildNumber",
@@ -95,6 +95,6 @@
     "regex": "releases/tag/(?:v|V)?([\\d.-]+)"
   },
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts/releases/download/v$version/sarasa-term-slab-cl-nerd-font.zip"
+    "url": "https://ghgo.xyz/https://github.com/jonz94/Sarasa-Gothic-Nerd-Fonts/releases/download/v$version/sarasa-term-slab-cl-nerd-font.zip"
   }
 }

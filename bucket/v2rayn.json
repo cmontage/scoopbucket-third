@@ -10,17 +10,17 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/2dust/v2rayN/releases/download/7.4.2/v2rayN-windows-64.zip",
+      "url": "https://ghgo.xyz/https://github.com/2dust/v2rayN/releases/download/7.4.2/v2rayN-windows-64.zip",
       "hash": "dd190394c3f840e0f313e2277fd9dcf16592379751aeb645657980f5f3329059",
       "extract_dir": "v2rayN-windows-64"
     },
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/2dust/v2rayN/releases/download/7.0.9/v2rayN.zip",
+      "url": "https://ghgo.xyz/https://github.com/2dust/v2rayN/releases/download/7.0.9/v2rayN.zip",
       "hash": "3fb6de200616953665d0d344662456114778d80dd6597efe51b2762f1e21c9a4",
       "extract_dir": "v2rayN-windows-64"
     },
     "arm64": {
-      "url": "https://mirror.ghproxy.com/https://github.com/2dust/v2rayN/releases/download/7.4.2/v2rayN-windows-arm64.zip",
+      "url": "https://ghgo.xyz/https://github.com/2dust/v2rayN/releases/download/7.4.2/v2rayN-windows-arm64.zip",
       "hash": "424e15bba8fdfa59e01fb49ef587ab369c1ee0e5c0ed6cb4365dbbf2e9693c9c",
       "extract_dir": "v2rayN-windows-arm64"
     }
@@ -71,13 +71,13 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/2dust/v2rayN/releases/download/$version/v2rayN-windows-64.zip"
+        "url": "https://ghgo.xyz/https://github.com/2dust/v2rayN/releases/download/$version/v2rayN-windows-64.zip"
       },
       "32bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/2dust/v2rayN/releases/download/$matchIa32/v2rayN.zip"
+        "url": "https://ghgo.xyz/https://github.com/2dust/v2rayN/releases/download/$matchIa32/v2rayN.zip"
       },
       "arm64": {
-        "url": "https://mirror.ghproxy.com/https://github.com/2dust/v2rayN/releases/download/$matchArm64/v2rayN-windows-arm64.zip"
+        "url": "https://ghgo.xyz/https://github.com/2dust/v2rayN/releases/download/$matchArm64/v2rayN-windows-arm64.zip"
       }
     }
   }

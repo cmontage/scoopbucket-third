@@ -14,11 +14,11 @@
   },
   "architecture": {
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/krlvm/AccentColorizer/releases/download/v1.2.0/AccentColorizer.exe",
+      "url": "https://ghgo.xyz/https://github.com/krlvm/AccentColorizer/releases/download/v1.2.0/AccentColorizer.exe",
       "hash": "34c5089a538c4c6e62808935ac6899715ffec1baacfe68a5299171ec13c3d75b"
     },
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/krlvm/AccentColorizer/releases/download/v1.2.0/AccentColorizer-x64.exe#/AccentColorizer.exe",
+      "url": "https://ghgo.xyz/https://github.com/krlvm/AccentColorizer/releases/download/v1.2.0/AccentColorizer-x64.exe#/AccentColorizer.exe",
       "hash": "3752a81e825d7672980f4a5e89c865064caab429c33ea8a081cc34485d5cd463"
     }
   },
@@ -34,10 +34,10 @@
   "autoupdate": {
     "architecture": {
       "32bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/krlvm/AccentColorizer/releases/download/v$version/AccentColorizer.exe"
+        "url": "https://ghgo.xyz/https://github.com/krlvm/AccentColorizer/releases/download/v$version/AccentColorizer.exe"
       },
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/krlvm/AccentColorizer/releases/download/v$version/AccentColorizer-x64.exe#/AccentColorizer.exe"
+        "url": "https://ghgo.xyz/https://github.com/krlvm/AccentColorizer/releases/download/v$version/AccentColorizer-x64.exe#/AccentColorizer.exe"
       }
     }
   }

@@ -25,7 +25,7 @@
     "FMStorage.list"
   ],
   "checkver": {
-    "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kkzzhizhou/scoop-zapps/master/versions/Foxmail.latest",
+    "url": "https://ghgo.xyz/https://raw.githubusercontent.com/kkzzhizhou/scoop-zapps/master/versions/Foxmail.latest",
     "regex": "FoxmailSetup_([\\d.]+).exe"
   },
   "autoupdate": {

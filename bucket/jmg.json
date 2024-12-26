@@ -9,7 +9,7 @@
       "java/openjdk"
     ]
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/pen4uin/java-memshell-generator/releases/download/v1.0.8_240914/jmg-all-1.0.8_240914.jar",
+  "url": "https://ghgo.xyz/https://github.com/pen4uin/java-memshell-generator/releases/download/v1.0.8_240914/jmg-all-1.0.8_240914.jar",
   "hash": "",
   "pre_install": [
     "Rename-Item \"$dir\\jmg-all-$version.jar\" 'jMG.jar'",
@@ -29,6 +29,6 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/pen4uin/java-memshell-generator/releases/download/v$version/jMG-all-$version.jar"
+    "url": "https://ghgo.xyz/https://github.com/pen4uin/java-memshell-generator/releases/download/v$version/jMG-all-$version.jar"
   }
 }

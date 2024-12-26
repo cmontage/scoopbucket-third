@@ -6,7 +6,7 @@
   "notes": "config location: C:\\Users\\<your username>\\AppData\\Roaming\\notepad - https://github.com/viCrack",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/cxasm/notepad--/releases/download/notepad-v2.20.1/Notepad--v2.20.1-win10-portable.zip",
+      "url": "https://ghgo.xyz/https://github.com/cxasm/notepad--/releases/download/notepad-v2.20.1/Notepad--v2.20.1-win10-portable.zip",
       "hash": "e6ae5ff61a4fba0316b6c8d24297b1a53cfe82ab05a0b95b1df3ca0b857a66b4"
     }
   },
@@ -25,7 +25,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/cxasm/notepad--/releases/download/notepad-v$version/Notepad--v$version-win10-portable.zip",
+        "url": "https://ghgo.xyz/https://github.com/cxasm/notepad--/releases/download/notepad-v$version/Notepad--v$version-win10-portable.zip",
         "extract_dir": "Notepad--v$version-win10-portable"
       }
     }

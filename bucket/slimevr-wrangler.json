@@ -5,7 +5,7 @@
   "license": "MIT|Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/carl-anders/slimevr-wrangler/releases/download/v0.10.0/slimevr-wrangler.exe",
+      "url": "https://ghgo.xyz/https://github.com/carl-anders/slimevr-wrangler/releases/download/v0.10.0/slimevr-wrangler.exe",
       "hash": "9acfcf2a4b8f2df1311d036a41d771338159c12e70a0d1d644e5bf4f0c1384df"
     }
   },
@@ -19,7 +19,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/carl-anders/slimevr-wrangler/releases/download/v$version/slimevr-wrangler.exe"
+        "url": "https://ghgo.xyz/https://github.com/carl-anders/slimevr-wrangler/releases/download/v$version/slimevr-wrangler.exe"
       }
     }
   }

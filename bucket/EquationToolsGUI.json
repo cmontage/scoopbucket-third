@@ -8,11 +8,11 @@
       "解压密码：123456"
     ]
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/abc123info/EquationToolsGUI/releases/download/V0.42/EquationToolsGUI_V0.42.zip",
+  "url": "https://ghgo.xyz/https://github.com/abc123info/EquationToolsGUI/releases/download/V0.42/EquationToolsGUI_V0.42.zip",
   "hash": "",
   "bin": "",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/abc123info/EquationToolsGUI/releases/download/V$verison/EquationToolsGUI_V$version.zip"
+    "url": "https://ghgo.xyz/https://github.com/abc123info/EquationToolsGUI/releases/download/V$verison/EquationToolsGUI_V$version.zip"
   }
 }

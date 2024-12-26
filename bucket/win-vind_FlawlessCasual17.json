@@ -5,11 +5,11 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/pit-ray/win-vind/releases/download/v5.0.1/win-vind_5.0.1_64bit_portable.zip",
+      "url": "https://ghgo.xyz/https://github.com/pit-ray/win-vind/releases/download/v5.0.1/win-vind_5.0.1_64bit_portable.zip",
       "hash": "bb1fe89d334723429975d28ecda2182e2ed778ca737fb47b9f84f50e1e477580"
     },
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/pit-ray/win-vind/releases/download/v5.0.1/win-vind_5.0.1_32bit_portable.zip",
+      "url": "https://ghgo.xyz/https://github.com/pit-ray/win-vind/releases/download/v5.0.1/win-vind_5.0.1_32bit_portable.zip",
       "hash": "424da74518992666e21ccb57af71afedcf9d50747358fd1e65d9dc180d7a3da2"
     }
   },
@@ -29,10 +29,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/pit-ray/win-vind/releases/download/v$version/win-vind_$version_64bit_portable.zip"
+        "url": "https://ghgo.xyz/https://github.com/pit-ray/win-vind/releases/download/v$version/win-vind_$version_64bit_portable.zip"
       },
       "32bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/pit-ray/win-vind/releases/download/v$version/win-vind_$version_32bit_portable.zip"
+        "url": "https://ghgo.xyz/https://github.com/pit-ray/win-vind/releases/download/v$version/win-vind_$version_32bit_portable.zip"
       }
     }
   }

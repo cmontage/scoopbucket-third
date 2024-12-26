@@ -10,10 +10,10 @@
       "java/openjdk"
     ]
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/ScriptKid-Beta/WebBatchRequest/releases/download/v1.4/WebBatchRequest.jar",
+  "url": "https://ghgo.xyz/https://github.com/ScriptKid-Beta/WebBatchRequest/releases/download/v1.4/WebBatchRequest.jar",
   "hash": "",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/ScriptKid-Beta/WebBatchRequest/releases/download/v$version/WebBatchRequest.jar"
+    "url": "https://ghgo.xyz/https://github.com/ScriptKid-Beta/WebBatchRequest/releases/download/v$version/WebBatchRequest.jar"
   }
 }

@@ -27,7 +27,7 @@
       }
     },
     "hash": {
-      "url": "https://mirror.ghproxy.com/https://github.com/git-lfs/git-lfs/releases/download/v$version/sha256sums.asc"
+      "url": "https://ghgo.xyz/https://github.com/git-lfs/git-lfs/releases/download/v$version/sha256sums.asc"
     },
     "extract_dir": "git-lfs-$version"
   }

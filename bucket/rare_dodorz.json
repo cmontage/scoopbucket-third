@@ -5,7 +5,7 @@
   "version": "0.4.0",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/zix99/rare/releases/download/0.4.0/rare_0.4.0_Windows_x86_64.zip",
+      "url": "https://ghgo.xyz/https://github.com/zix99/rare/releases/download/0.4.0/rare_0.4.0_Windows_x86_64.zip",
       "hash": "7ff3a69ce12888b4d57ae1bbf81f1aadc9b6492b374a278d65277648584d2b44"
     }
   },
@@ -17,7 +17,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/zix99/rare/releases/download/$version/rare_$version_Windows_x86_64.zip"
+        "url": "https://ghgo.xyz/https://github.com/zix99/rare/releases/download/$version/rare_$version_Windows_x86_64.zip"
       }
     }
   }

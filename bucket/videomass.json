@@ -5,7 +5,7 @@
   "license": "GPL-3.0",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/jeanslack/Videomass/releases/download/v5.0.21/Videomass-v5.0.21_x86_64-portable.7z",
+      "url": "https://ghgo.xyz/https://github.com/jeanslack/Videomass/releases/download/v5.0.21/Videomass-v5.0.21_x86_64-portable.7z",
       "hash": "c3bd3d8c0cc78b67b0d278fd8e305bd1fc8f6565e5c097a3fe1d5bc48edf1366",
       "extract_dir": "Videomass-v5.0.21_x86_64-portable"
     }
@@ -25,7 +25,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/jeanslack/Videomass/releases/download/v$version/Videomass-v$version_x86_64-portable.7z",
+        "url": "https://ghgo.xyz/https://github.com/jeanslack/Videomass/releases/download/v$version/Videomass-v$version_x86_64-portable.7z",
         "extract_dir": "Videomass-v$version_x86_64-portable"
       }
     }

@@ -9,7 +9,7 @@
   "autoupdate": {
     "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/be5invis/Iosevka/LatestRelease/super-ttc-iosevka-$version.zip",
     "hash": {
-      "url": "https://mirror.ghproxy.com/https://github.com/be5invis/Iosevka/releases/download/v$version/SHA-256.txt",
+      "url": "https://ghgo.xyz/https://github.com/be5invis/Iosevka/releases/download/v$version/SHA-256.txt",
       "regex": "$basename\\s+"
     }
   }

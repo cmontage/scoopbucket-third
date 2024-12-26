@@ -6,7 +6,7 @@
   "notes": [
     "Scoop bucket for Cybersecurity by whoopscs(https://github.com/whoopscs/scoop-security)."
   ],
-  "url": "https://mirror.ghproxy.com/https://github.com/charles2gan/GDA-android-reversing-Tool/releases/download/GDA4.11/GDA4.11.zip",
+  "url": "https://ghgo.xyz/https://github.com/charles2gan/GDA-android-reversing-Tool/releases/download/GDA4.11/GDA4.11.zip",
   "hash": "e11aa63d98b7eda3b57e1924052a2490711c294da19050534d5ba4b15aee55fb",
   "shortcuts": [
     [
@@ -20,7 +20,7 @@
     "regex": "/GDA([\\d.]+)\\.zip"
   },
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/charles2gan/GDA-android-reversing-Tool/releases/download/GDA$version/GDA$version.zip",
+    "url": "https://ghgo.xyz/https://github.com/charles2gan/GDA-android-reversing-Tool/releases/download/GDA$version/GDA$version.zip",
     "shortcuts": [
       [
         "GDA$version.exe",

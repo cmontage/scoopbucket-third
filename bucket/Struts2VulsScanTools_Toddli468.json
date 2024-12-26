@@ -3,12 +3,12 @@
   "description": "Struts2全版本漏洞检测工具",
   "homepage": "https://github.com/abc123info/Struts2VulsScanTools",
   "license": "",
-  "url": "https://mirror.ghproxy.com/https://github.com/abc123info/Struts2VulsScanTools/releases/download/v19.32/Struts2_19.32.jar",
+  "url": "https://ghgo.xyz/https://github.com/abc123info/Struts2VulsScanTools/releases/download/v19.32/Struts2_19.32.jar",
   "hash": "",
   "extract_dir": "",
   "bin": "",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/abc123info/Struts2VulsScanTools/releases/download/v$version/Struts2_$version.jar"
+    "url": "https://ghgo.xyz/https://github.com/abc123info/Struts2VulsScanTools/releases/download/v$version/Struts2_$version.jar"
   }
 }

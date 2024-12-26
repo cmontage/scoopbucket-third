@@ -6,7 +6,7 @@
     "identifier": "MIT",
     "url": "https://github.com/heyman/heynote/blob/main/LICENSE"
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/heyman/heynote/releases/download/v1.8.0/Heynote_1.8.0.exe#/abgo_bucket_installer.exe",
+  "url": "https://ghgo.xyz/https://github.com/heyman/heynote/releases/download/v1.8.0/Heynote_1.8.0.exe#/abgo_bucket_installer.exe",
   "hash": "sha512:0b3c8958be224618b3615f0591146bee711571e1f6d758d4a475132bfe83f454edcec4dc15c934f3f4a42e81e677879272edcb923499acd10550c5a6121c732f",
   "shortcuts": [
     [
@@ -39,7 +39,7 @@
     "github": "https://github.com/heyman/heynote"
   },
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/heyman/heynote/releases/download/v$version/Heynote_$version.exe#/abgo_bucket_installer.exe",
+    "url": "https://ghgo.xyz/https://github.com/heyman/heynote/releases/download/v$version/Heynote_$version.exe#/abgo_bucket_installer.exe",
     "hash": {
       "url": "$baseurl/latest.yml",
       "regex": "sha512:\\s+$base64"

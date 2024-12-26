@@ -13,9 +13,9 @@
     ]
   },
   "url": [
-    "https://mirror.ghproxy.com/https://github.com/pmiaowu/BurpFastJsonScan/releases/download/BurpFastJsonScan-2.2.2/BurpFastJsonScan-2.2.2-jdk1.8.zip",
-    "https://mirror.ghproxy.com/https://github.com/pmiaowu/BurpFastJsonScan/releases/download/BurpFastJsonScan-2.2.2/BurpFastJsonScan-2.2.2-jdk11.zip",
-    "https://mirror.ghproxy.com/https://github.com/pmiaowu/BurpFastJsonScan/releases/download/BurpFastJsonScan-2.2.2/BurpFastJsonScan-2.2.2-jdk14.zip"
+    "https://ghgo.xyz/https://github.com/pmiaowu/BurpFastJsonScan/releases/download/BurpFastJsonScan-2.2.2/BurpFastJsonScan-2.2.2-jdk1.8.zip",
+    "https://ghgo.xyz/https://github.com/pmiaowu/BurpFastJsonScan/releases/download/BurpFastJsonScan-2.2.2/BurpFastJsonScan-2.2.2-jdk11.zip",
+    "https://ghgo.xyz/https://github.com/pmiaowu/BurpFastJsonScan/releases/download/BurpFastJsonScan-2.2.2/BurpFastJsonScan-2.2.2-jdk14.zip"
   ],
   "hash": [
     "b2fd3300c97356ccd4fd5a21a98a63a9a4128c65cca788edbbfe6097484216d9",
@@ -34,9 +34,9 @@
   },
   "autoupdate": {
     "url": [
-      "https://mirror.ghproxy.com/https://github.com/pmiaowu/BurpFastJsonScan/releases/download/BurpFastJsonScan-$version/BurpFastJsonScan-$version-jdk1.8.zip",
-      "https://mirror.ghproxy.com/https://github.com/pmiaowu/BurpFastJsonScan/releases/download/BurpFastJsonScan-$version/BurpFastJsonScan-$version-jdk11.zip",
-      "https://mirror.ghproxy.com/https://github.com/pmiaowu/BurpFastJsonScan/releases/download/BurpFastJsonScan-$version/BurpFastJsonScan-$version-jdk14.zip"
+      "https://ghgo.xyz/https://github.com/pmiaowu/BurpFastJsonScan/releases/download/BurpFastJsonScan-$version/BurpFastJsonScan-$version-jdk1.8.zip",
+      "https://ghgo.xyz/https://github.com/pmiaowu/BurpFastJsonScan/releases/download/BurpFastJsonScan-$version/BurpFastJsonScan-$version-jdk11.zip",
+      "https://ghgo.xyz/https://github.com/pmiaowu/BurpFastJsonScan/releases/download/BurpFastJsonScan-$version/BurpFastJsonScan-$version-jdk14.zip"
     ]
   }
 }

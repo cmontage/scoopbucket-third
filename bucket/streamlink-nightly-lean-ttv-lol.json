@@ -18,7 +18,7 @@
     "64bit": {
       "url": [
         "https://nightly.link/streamlink/windows-builds/workflows/nightly/master/streamlink-7.0.0-35-g3819d43-py312-x86_64.zip.zip",
-        "https://mirror.ghproxy.com/https://raw.githubusercontent.com/2bc4/streamlink-ttvlol/master/twitch.py"
+        "https://ghgo.xyz/https://raw.githubusercontent.com/2bc4/streamlink-ttvlol/master/twitch.py"
       ],
       "hash": [
         "173ca1d15aa53b747b84dbba5fe07581d8fe26fb147a2a5a1cfa1a54eb3a65a9",
@@ -75,7 +75,7 @@
       "64bit": {
         "url": [
           "https://nightly.link/streamlink/windows-builds/workflows/$matchBuild/master/streamlink-$version-py312-x86_64.zip.zip",
-          "https://mirror.ghproxy.com/https://raw.githubusercontent.com/2bc4/streamlink-ttvlol/master/twitch.py"
+          "https://ghgo.xyz/https://raw.githubusercontent.com/2bc4/streamlink-ttvlol/master/twitch.py"
         ]
       }
     }

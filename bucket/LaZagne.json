@@ -6,7 +6,7 @@
   "notes": "",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/AlessandroZ/LaZagne/releases/download/v2.4.6/LaZagne.exe",
+      "url": "https://ghgo.xyz/https://github.com/AlessandroZ/LaZagne/releases/download/v2.4.6/LaZagne.exe",
       "hash": ""
     }
   },
@@ -16,7 +16,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/AlessandroZ/LaZagne/releases/download/v$version/LaZagne.exe"
+        "url": "https://ghgo.xyz/https://github.com/AlessandroZ/LaZagne/releases/download/v$version/LaZagne.exe"
       }
     }
   }

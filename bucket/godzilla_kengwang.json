@@ -12,20 +12,20 @@
   "checkver": "github",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/BeichenDream/Godzilla/releases/download/v4.0.1-godzilla/godzilla.jar",
+      "url": "https://ghgo.xyz/https://github.com/BeichenDream/Godzilla/releases/download/v4.0.1-godzilla/godzilla.jar",
       "hash": "62b7eff31d339fd04e6d39aba47b5f37b1b6feb27f85c3c71e4d2d600e8142c6"
     },
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/BeichenDream/Godzilla/releases/download/v4.0.1-godzilla/godzilla.jar",
+      "url": "https://ghgo.xyz/https://github.com/BeichenDream/Godzilla/releases/download/v4.0.1-godzilla/godzilla.jar",
       "hash": "62b7eff31d339fd04e6d39aba47b5f37b1b6feb27f85c3c71e4d2d600e8142c6"
     },
     "arm64": {
-      "url": "https://mirror.ghproxy.com/https://github.com/BeichenDream/Godzilla/releases/download/v4.0.1-godzilla/godzilla.jar",
+      "url": "https://ghgo.xyz/https://github.com/BeichenDream/Godzilla/releases/download/v4.0.1-godzilla/godzilla.jar",
       "hash": "62b7eff31d339fd04e6d39aba47b5f37b1b6feb27f85c3c71e4d2d600e8142c6"
     }
   },
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/BeichenDream/Godzilla/releases/download/v$version-godzilla/godzilla.jar"
+    "url": "https://ghgo.xyz/https://github.com/BeichenDream/Godzilla/releases/download/v$version-godzilla/godzilla.jar"
   },
   "persist": "data.db",
   "pre_install": [

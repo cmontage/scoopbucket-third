@@ -5,15 +5,15 @@
   "license": "GPL-3.0-or-later",
   "architecture": {
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/bitwarden/clients/releases/download/desktop-v2024.12.1/bitwarden-2024.12.1-ia32.nsis.7z",
+      "url": "https://ghgo.xyz/https://github.com/bitwarden/clients/releases/download/desktop-v2024.12.1/bitwarden-2024.12.1-ia32.nsis.7z",
       "hash": "153523fb76389b0561e598b2a190bf3ceff34fed42a269d880a8a4df774ff8e2"
     },
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/bitwarden/clients/releases/download/desktop-v2024.12.1/bitwarden-2024.12.1-x64.nsis.7z",
+      "url": "https://ghgo.xyz/https://github.com/bitwarden/clients/releases/download/desktop-v2024.12.1/bitwarden-2024.12.1-x64.nsis.7z",
       "hash": "e92f92a56ea8634533b66f2a3d5ca3e5f3c802e02db9dda7e849ba3894d97fe5"
     },
     "arm64": {
-      "url": "https://mirror.ghproxy.com/https://github.com/bitwarden/clients/releases/download/desktop-v2024.12.1/bitwarden-2024.12.1-arm64.nsis.7z",
+      "url": "https://ghgo.xyz/https://github.com/bitwarden/clients/releases/download/desktop-v2024.12.1/bitwarden-2024.12.1-arm64.nsis.7z",
       "hash": "034d5d04c89738d3e3b3cef02ebd999e25ca0c3e7799348e0ace0f84d1c14ffd"
     }
   },
@@ -39,13 +39,13 @@
   "autoupdate": {
     "architecture": {
       "32bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/bitwarden/clients/releases/download/desktop-v$version/bitwarden-$version-ia32.nsis.7z"
+        "url": "https://ghgo.xyz/https://github.com/bitwarden/clients/releases/download/desktop-v$version/bitwarden-$version-ia32.nsis.7z"
       },
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/bitwarden/clients/releases/download/desktop-v$version/bitwarden-$version-x64.nsis.7z"
+        "url": "https://ghgo.xyz/https://github.com/bitwarden/clients/releases/download/desktop-v$version/bitwarden-$version-x64.nsis.7z"
       },
       "arm64": {
-        "url": "https://mirror.ghproxy.com/https://github.com/bitwarden/clients/releases/download/desktop-v$version/bitwarden-$version-arm64.nsis.7z"
+        "url": "https://ghgo.xyz/https://github.com/bitwarden/clients/releases/download/desktop-v$version/bitwarden-$version-arm64.nsis.7z"
       }
     },
     "hash": {

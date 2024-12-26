@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/moonD4rk/HackBrowserData/releases/download/v0.4.6/hack-browser-data-windows-64bit.zip",
+      "url": "https://ghgo.xyz/https://github.com/moonD4rk/HackBrowserData/releases/download/v0.4.6/hack-browser-data-windows-64bit.zip",
       "hash": "57d611717398735e11d600d1b1199a73c3fb349725e699ac97aba1ec47a24fab",
       "bin": [
         [
@@ -15,7 +15,7 @@
       ]
     },
     "arm64": {
-      "url": "https://mirror.ghproxy.com/https://github.com/moonD4rk/HackBrowserData/releases/download/v0.4.6/hack-browser-data-windows-arm64.zip",
+      "url": "https://ghgo.xyz/https://github.com/moonD4rk/HackBrowserData/releases/download/v0.4.6/hack-browser-data-windows-arm64.zip",
       "hash": "e97d6a79a172c3f837c75aa2615dea3ea556aebfdc7ddd5fe28edf920472a829",
       "bin": [
         [
@@ -32,10 +32,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/moonD4rk/HackBrowserData/releases/download/v$version/hack-browser-data-windows-64bit.zip"
+        "url": "https://ghgo.xyz/https://github.com/moonD4rk/HackBrowserData/releases/download/v$version/hack-browser-data-windows-64bit.zip"
       },
       "arm64": {
-        "url": "https://mirror.ghproxy.com/https://github.com/moonD4rk/HackBrowserData/releases/download/v$version/hack-browser-data-windows-arm64.zip"
+        "url": "https://ghgo.xyz/https://github.com/moonD4rk/HackBrowserData/releases/download/v$version/hack-browser-data-windows-arm64.zip"
       }
     }
   }

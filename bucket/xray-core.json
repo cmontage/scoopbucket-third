@@ -6,7 +6,7 @@
   "notes": "",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/XTLS/Xray-core/releases/download/v24.12.18/Xray-windows-64.zip",
+      "url": "https://ghgo.xyz/https://github.com/XTLS/Xray-core/releases/download/v24.12.18/Xray-windows-64.zip",
       "hash": "8fe8822cd8a8fc5270ea822fda4770a7099304e8da87926b31ea8b6375df0312"
     }
   },
@@ -18,7 +18,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/XTLS/Xray-core/releases/download/v$version/Xray-windows-64.zip"
+        "url": "https://ghgo.xyz/https://github.com/XTLS/Xray-core/releases/download/v$version/Xray-windows-64.zip"
       }
     }
   },

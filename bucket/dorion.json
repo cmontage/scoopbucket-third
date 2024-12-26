@@ -8,11 +8,11 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/SpikeHD/Dorion/releases/download/v6.3.0/Dorion_6.3.0_win64_portable.zip",
+      "url": "https://ghgo.xyz/https://github.com/SpikeHD/Dorion/releases/download/v6.3.0/Dorion_6.3.0_win64_portable.zip",
       "hash": "8a76c19a8de8b03185b6f417202a2791eb3330c95a48f02ef15fd992c423be82"
     },
     "arm64": {
-      "url": "https://mirror.ghproxy.com/https://github.com/SpikeHD/Dorion/releases/download/v6.3.0/Dorion_6.3.0_win_arm64_portable.zip",
+      "url": "https://ghgo.xyz/https://github.com/SpikeHD/Dorion/releases/download/v6.3.0/Dorion_6.3.0_win_arm64_portable.zip",
       "hash": "4726c9bbee89767007c4920673b90873049d48e1eff6e35f83912d583747fbc7"
     }
   },
@@ -64,10 +64,10 @@
     "extract_dir": "Dorion_$version_win64_portable",
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/SpikeHD/Dorion/releases/download/v$version/Dorion_$version_win64_portable.zip"
+        "url": "https://ghgo.xyz/https://github.com/SpikeHD/Dorion/releases/download/v$version/Dorion_$version_win64_portable.zip"
       },
       "arm64": {
-        "url": "https://mirror.ghproxy.com/https://github.com/SpikeHD/Dorion/releases/download/v$version/Dorion_$version_win_arm64_portable.zip"
+        "url": "https://ghgo.xyz/https://github.com/SpikeHD/Dorion/releases/download/v$version/Dorion_$version_win_arm64_portable.zip"
       }
     }
   },

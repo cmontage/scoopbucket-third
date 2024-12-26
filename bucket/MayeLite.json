@@ -6,7 +6,7 @@
   "notes": "",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/25H/MayeLite/releases/download/12.6.0.240622/MayeLite-12.6.0.240622.zip",
+      "url": "https://ghgo.xyz/https://github.com/25H/MayeLite/releases/download/12.6.0.240622/MayeLite-12.6.0.240622.zip",
       "hash": ""
     }
   },
@@ -16,7 +16,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/25H/MayeLite/releases/download/$version/MayeLite-$version.zip"
+        "url": "https://ghgo.xyz/https://github.com/25H/MayeLite/releases/download/$version/MayeLite-$version.zip"
       }
     }
   }

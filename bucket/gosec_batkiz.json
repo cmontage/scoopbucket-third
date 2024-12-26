@@ -5,7 +5,7 @@
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/securego/gosec/releases/download/v2.20.0/gosec_2.20.0_windows_amd64.tar.gz",
+      "url": "https://ghgo.xyz/https://github.com/securego/gosec/releases/download/v2.20.0/gosec_2.20.0_windows_amd64.tar.gz",
       "hash": "0e3e8f6990014952c7aba1cce4646711adaccdfef11053745ecb678be72b231f"
     }
   },
@@ -14,11 +14,11 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/securego/gosec/releases/download/v$version/gosec_$version_windows_amd64.tar.gz"
+        "url": "https://ghgo.xyz/https://github.com/securego/gosec/releases/download/v$version/gosec_$version_windows_amd64.tar.gz"
       }
     },
     "hash": {
-      "url": "https://mirror.ghproxy.com/https://github.com/securego/gosec/releases/download/v$version/gosec_$version_checksums.txt",
+      "url": "https://ghgo.xyz/https://github.com/securego/gosec/releases/download/v$version/gosec_$version_checksums.txt",
       "mode": "extract"
     }
   }

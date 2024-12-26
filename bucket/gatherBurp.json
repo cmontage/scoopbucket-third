@@ -9,12 +9,12 @@
       "java/openjdk"
     ]
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/kN6jq/gatherBurp/releases/download/V1.1.2/gatherBurp-1.1.2-SNAPSHOT-jar-with-dependencies.jar",
+  "url": "https://ghgo.xyz/https://github.com/kN6jq/gatherBurp/releases/download/V1.1.2/gatherBurp-1.1.2-SNAPSHOT-jar-with-dependencies.jar",
   "hash": "",
   "pre_install": "Rename-Item \"$dir\\gatherBurp-$version-SNAPSHOT-jar-with-dependencies.jar\" 'gatherBurp.jar'",
   "bin": "",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/kN6jq/gatherBurp/releases/download/V$version/gatherBurp-$version-SNAPSHOT-jar-with-dependencies.jar"
+    "url": "https://ghgo.xyz/https://github.com/kN6jq/gatherBurp/releases/download/V$version/gatherBurp-$version-SNAPSHOT-jar-with-dependencies.jar"
   }
 }

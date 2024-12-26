@@ -3,7 +3,7 @@
   "description": "Sonic Robo Blast 2 is a 3D open-source Sonic the Hedgehog fangame built using a modified version of the Doom Legacy port of Doom",
   "homepage": "https://www.srb2.org/",
   "license": "GPL-2.0-only",
-  "url": "https://mirror.ghproxy.com/https://github.com/STJr/SRB2/releases/download/SRB2_release_2.2.13/SRB2-v2213-Full.zip",
+  "url": "https://ghgo.xyz/https://github.com/STJr/SRB2/releases/download/SRB2_release_2.2.13/SRB2-v2213-Full.zip",
   "hash": "83b91a351135b63705e49daffa44e7ac3cf3e33b397f56ff347ebb71eda27d4a",
   "pre_install": [
     "function persistCopy ([String] $name) {",
@@ -44,6 +44,6 @@
     "regex": "SRB2_release_(?<version>[\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/STJr/SRB2/releases/download/SRB2_release_$version/SRB2-v$cleanVersion-Full.zip"
+    "url": "https://ghgo.xyz/https://github.com/STJr/SRB2/releases/download/SRB2_release_$version/SRB2-v$cleanVersion-Full.zip"
   }
 }

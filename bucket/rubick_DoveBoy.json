@@ -8,7 +8,7 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/rubickCenter/rubick/releases/download/v4.3.0/rubick-Setup-4.3.0-x64.exe#/dl.7z",
+      "url": "https://ghgo.xyz/https://github.com/rubickCenter/rubick/releases/download/v4.3.0/rubick-Setup-4.3.0-x64.exe#/dl.7z",
       "hash": "sha512:6e5f3cba2418e58b063786ce249f18849db0a72cfd851f44750be336d70b56051316f423b45d410b90489a798bb6ff98bd01ab5f615a89279be430b7e6ba1af9",
       "pre_install": [
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
@@ -16,7 +16,7 @@
       ]
     },
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/rubickCenter/rubick/releases/download/v4.3.0/rubick-Setup-4.3.0-ia32.exe#/dl.7z",
+      "url": "https://ghgo.xyz/https://github.com/rubickCenter/rubick/releases/download/v4.3.0/rubick-Setup-4.3.0-ia32.exe#/dl.7z",
       "hash": "sha512:f5d4332ebcae0f4792e6e8c1bd6a381292a415b0bc49832a47b3e5b0c103b249552643791ab08cc3f10d3602b21ac4dc17c597e23c63187986060227be2d7901",
       "pre_install": [
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
@@ -46,7 +46,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/rubickCenter/rubick/releases/download/v$version/rubick-Setup-$version-x64.exe#/dl.7z",
+        "url": "https://ghgo.xyz/https://github.com/rubickCenter/rubick/releases/download/v$version/rubick-Setup-$version-x64.exe#/dl.7z",
         "hash": {
           "url": "$baseurl/latest.yml",
           "mode": "extract",
@@ -54,7 +54,7 @@
         }
       },
       "32bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/rubickCenter/rubick/releases/download/v$version/rubick-Setup-$version-ia32.exe#/dl.7z",
+        "url": "https://ghgo.xyz/https://github.com/rubickCenter/rubick/releases/download/v$version/rubick-Setup-$version-ia32.exe#/dl.7z",
         "hash": {
           "url": "$baseurl/latest.yml",
           "mode": "extract",

@@ -10,7 +10,7 @@
       "java/openjdk"
     ]
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/White-hua/Apt_t00ls/releases/download/v0.7/apt.zip",
+  "url": "https://ghgo.xyz/https://github.com/White-hua/Apt_t00ls/releases/download/v0.7/apt.zip",
   "post_install": [
     "Move-Item -Path \"$dir\\apt\\*\" -Destination \"$dir\\\"",
     "Remove-Item \"$dir\\apt\" -Force -Recurse"
@@ -19,6 +19,6 @@
   "bin": "",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/White-hua/Apt_t00ls/releases/download/v$version/apt.zip"
+    "url": "https://ghgo.xyz/https://github.com/White-hua/Apt_t00ls/releases/download/v$version/apt.zip"
   }
 }

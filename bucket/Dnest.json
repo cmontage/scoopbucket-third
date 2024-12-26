@@ -6,7 +6,7 @@
     "identifier": "MIT",
     "url": "https://github.com/davidkane0526/Dnest/blob/main/LICENSE"
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/davidkane0526/Dnest/releases/download/V1.3.0/Dnest.exe",
+  "url": "https://ghgo.xyz/https://github.com/davidkane0526/Dnest/releases/download/V1.3.0/Dnest.exe",
   "hash": "4508477c70ffa47530d757d73ea298abe848ac7443de973dabcc2d3aee9a8d1b",
   "shortcuts": [
     [
@@ -28,6 +28,6 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/davidkane0526/Dnest/releases/download/V$version/Dnest.exe"
+    "url": "https://ghgo.xyz/https://github.com/davidkane0526/Dnest/releases/download/V$version/Dnest.exe"
   }
 }

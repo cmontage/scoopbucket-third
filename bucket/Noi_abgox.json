@@ -3,7 +3,7 @@
   "description": "人工智能助力你的世界 —— 探索、扩展、赋能。Power Your World with AI - Explore, Extend, Empower.",
   "homepage": "https://noi.nofwl.com/",
   "license": "Unknown",
-  "url": "https://mirror.ghproxy.com/https://github.com/lencx/Noi/releases/download/v0.4.0/Noi-win32-x64-0.4.0-setup.exe#/dl.7z",
+  "url": "https://ghgo.xyz/https://github.com/lencx/Noi/releases/download/v0.4.0/Noi-win32-x64-0.4.0-setup.exe#/dl.7z",
   "hash": "4f453e3c1437a12256f26dc0a14e40a1bc31776cd85f6240f6320ee49e0e65c5",
   "shortcuts": [
     [
@@ -34,6 +34,6 @@
     "github": "https://github.com/lencx/Noi"
   },
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/lencx/Noi/releases/download/v$version/Noi-win32-x64-$version-setup.exe#/dl.7z"
+    "url": "https://ghgo.xyz/https://github.com/lencx/Noi/releases/download/v$version/Noi-win32-x64-$version-setup.exe#/dl.7z"
   }
 }

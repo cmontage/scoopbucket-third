@@ -4,7 +4,7 @@
   "homepage": "http://carnackeys.com/",
   "license": "MS-PL",
   "notes": ".NET Framework 4.5.2 is required.",
-  "url": "https://mirror.ghproxy.com/https://github.com/Code52/carnac/releases/download/2.3.13/Setup.exe#/dl.7z",
+  "url": "https://ghgo.xyz/https://github.com/Code52/carnac/releases/download/2.3.13/Setup.exe#/dl.7z",
   "hash": "54a9e3d45c9226be0bb71806eec64d4f6d2a881f81c8c2c67e26eed6a1cc83d8",
   "pre_install": [
     "Expand-7ZipArchive -Path \"$dir\\carnac-2.3.13-full.nupkg\"",
@@ -22,9 +22,9 @@
     "github": "https://github.com/Code52/carnac/"
   },
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/Code52/carnac/releases/download/$version/Setup.exe#/dl.7z",
+    "url": "https://ghgo.xyz/https://github.com/Code52/carnac/releases/download/$version/Setup.exe#/dl.7z",
     "hash": {
-      "url": "https://mirror.ghproxy.com/https://github.com/Code52/carnac/releases/download/$version/RELEASES"
+      "url": "https://ghgo.xyz/https://github.com/Code52/carnac/releases/download/$version/RELEASES"
     }
   }
 }

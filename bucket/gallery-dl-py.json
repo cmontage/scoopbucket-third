@@ -15,7 +15,7 @@
       "ffmpeg-shared"
     ]
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/mikf/gallery-dl/releases/download/v1.28.2/gallery_dl-1.28.2.tar.gz",
+  "url": "https://ghgo.xyz/https://github.com/mikf/gallery-dl/releases/download/v1.28.2/gallery_dl-1.28.2.tar.gz",
   "hash": "f1e6f39b44af6c3d131ff61a3369dedb3eae77bf0c7e1ac978afb345c3ed9048",
   "extract_dir": "gallery_dl-1.28.2",
   "installer": {
@@ -33,7 +33,7 @@
   },
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/mikf/gallery-dl/releases/download/v$version/gallery_dl-$version.tar.gz",
+    "url": "https://ghgo.xyz/https://github.com/mikf/gallery-dl/releases/download/v$version/gallery_dl-$version.tar.gz",
     "extract_dir": "gallery_dl-$version"
   }
 }

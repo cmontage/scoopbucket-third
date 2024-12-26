@@ -5,7 +5,7 @@
   "license": "Freeware",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/rimpy-custom/RimPy/releases/download/1.2.6.25/RimPy_Windows.zip",
+      "url": "https://ghgo.xyz/https://github.com/rimpy-custom/RimPy/releases/download/1.2.6.25/RimPy_Windows.zip",
       "hash": "65EEC38BB41C43D7F21AD1150A43E3A45FCF709859BECBF475E8E4722A098F06"
     }
   },
@@ -23,7 +23,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/rimpy-custom/RimPy/releases/download/$version/RimPy_Windows.zip"
+        "url": "https://ghgo.xyz/https://github.com/rimpy-custom/RimPy/releases/download/$version/RimPy_Windows.zip"
       }
     }
   }

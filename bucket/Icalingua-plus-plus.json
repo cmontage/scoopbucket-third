@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/Icalingua-plus-plus/Icalingua-plus-plus/releases/download/v2.12.26/Icalingua++-2.12.26_x64.exe#/dl.7z",
+      "url": "https://ghgo.xyz/https://github.com/Icalingua-plus-plus/Icalingua-plus-plus/releases/download/v2.12.26/Icalingua++-2.12.26_x64.exe#/dl.7z",
       "hash": "9056cec5633c9349512c4d70acb470d7f6117f6fe546bf844bff013ffc86c168",
       "pre_install": [
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
@@ -13,7 +13,7 @@
       ]
     },
     "arm64": {
-      "url": "https://mirror.ghproxy.com/https://github.com/Icalingua-plus-plus/Icalingua-plus-plus/releases/download/v2.12.26/Icalingua++-2.12.26_arm64.exe#/dl.7z",
+      "url": "https://ghgo.xyz/https://github.com/Icalingua-plus-plus/Icalingua-plus-plus/releases/download/v2.12.26/Icalingua++-2.12.26_arm64.exe#/dl.7z",
       "hash": "706616b95f3b993c81296b2cf2e30d5b7a113d13a740df58ac94cc901e45e9dd",
       "pre_install": [
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-arm64.7z\" \"$dir\"",
@@ -31,10 +31,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/Icalingua-plus-plus/Icalingua-plus-plus/releases/download/v$version/Icalingua++-$version_x64.exe#/dl.7z"
+        "url": "https://ghgo.xyz/https://github.com/Icalingua-plus-plus/Icalingua-plus-plus/releases/download/v$version/Icalingua++-$version_x64.exe#/dl.7z"
       },
       "arm64": {
-        "url": "https://mirror.ghproxy.com/https://github.com/Icalingua-plus-plus/Icalingua-plus-plus/releases/download/v$version/Icalingua++-$version_arm64.exe#/dl.7z"
+        "url": "https://ghgo.xyz/https://github.com/Icalingua-plus-plus/Icalingua-plus-plus/releases/download/v$version/Icalingua++-$version_arm64.exe#/dl.7z"
       }
     }
   }

@@ -3,7 +3,7 @@
   "description": "Translate scientific papers with math",
   "license": "Apache-2.0",
   "version": "3.1.0",
-  "url": "https://mirror.ghproxy.com/https://github.com/SUSYUSTC/MathTranslate/releases/download/v3.1.0/MathTranslate_Windows.zip",
+  "url": "https://ghgo.xyz/https://github.com/SUSYUSTC/MathTranslate/releases/download/v3.1.0/MathTranslate_Windows.zip",
   "hash": "33c8238220d2ff4da51763a484709b22618f8a057ad6f9ddb22b1ffdf95bd819",
   "bin": "MathTranslate.exe",
   "shortcuts": [
@@ -14,6 +14,6 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/SUSYUSTC/MathTranslate/releases/download/v$version/MathTranslate_Windows.zip"
+    "url": "https://ghgo.xyz/https://github.com/SUSYUSTC/MathTranslate/releases/download/v$version/MathTranslate_Windows.zip"
   }
 }

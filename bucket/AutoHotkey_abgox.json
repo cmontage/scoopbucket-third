@@ -6,7 +6,7 @@
     "identifier": "GNU General Public License v2.0",
     "url": "https://github.com/AutoHotkey/AutoHotkey/blob/v2.0/license.txt"
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/AutoHotkey/AutoHotkey/releases/download/v2.0.18/AutoHotkey_2.0.18_setup.exe",
+  "url": "https://ghgo.xyz/https://github.com/AutoHotkey/AutoHotkey/releases/download/v2.0.18/AutoHotkey_2.0.18_setup.exe",
   "hash": "a30af310f45d4076cf1580bb08015db9a1337ddc1a99cf61829e645b196e8b2e",
   "bin": [
     [
@@ -46,7 +46,7 @@
     "github": "https://github.com/AutoHotkey/AutoHotkey"
   },
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/AutoHotkey/AutoHotkey/releases/download/v$version/AutoHotkey_$version_setup.exe",
+    "url": "https://ghgo.xyz/https://github.com/AutoHotkey/AutoHotkey/releases/download/v$version/AutoHotkey_$version_setup.exe",
     "hash": {
       "url": "https://www.autohotkey.com/download/$majorVersion.$minorVersion/AutoHotkey_$version_setup.exe.sha256"
     }

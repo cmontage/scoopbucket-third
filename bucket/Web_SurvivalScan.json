@@ -9,7 +9,7 @@
   "suggest": {
     "Python 3.7+": "python"
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/AabyssZG/Web-SurvivalScan/archive/refs/heads/main.zip",
+  "url": "https://ghgo.xyz/https://github.com/AabyssZG/Web-SurvivalScan/archive/refs/heads/main.zip",
   "hash": "",
   "pre_install": "Set-Content \"$dir\\Web-SurvivalScan.bat\" '@pushd %~dp0\npython3 \"Web-SurvivalScan.py\" %*\n@popd' -Encoding Ascii",
   "post_install": [
@@ -20,6 +20,6 @@
   "bin": "Web-SurvivalScan.bat",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/AabyssZG/Web-SurvivalScan/archive/refs/tags/V$version.zip"
+    "url": "https://ghgo.xyz/https://github.com/AabyssZG/Web-SurvivalScan/archive/refs/tags/V$version.zip"
   }
 }

@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/Raphiiko/OyasumiVR/releases/download/oyasumivr-v1.14.7/OyasumiVR_1.14.7_x64-setup.exe#/dl.7z",
+      "url": "https://ghgo.xyz/https://github.com/Raphiiko/OyasumiVR/releases/download/oyasumivr-v1.14.7/OyasumiVR_1.14.7_x64-setup.exe#/dl.7z",
       "hash": "91678148906b36d1bc466db8537e8789421c10997e301303ecf0076bf3f471a3"
     }
   },
@@ -22,7 +22,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/Raphiiko/OyasumiVR/releases/download/oyasumivr-v$version/OyasumiVR_$version_x64-setup.exe#/dl.7z"
+        "url": "https://ghgo.xyz/https://github.com/Raphiiko/OyasumiVR/releases/download/oyasumivr-v$version/OyasumiVR_$version_x64-setup.exe#/dl.7z"
       }
     }
   }

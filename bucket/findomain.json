@@ -5,7 +5,7 @@
   "license": "",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/Findomain/Findomain/releases/download/9.0.4/findomain-windows.exe.zip",
+      "url": "https://ghgo.xyz/https://github.com/Findomain/Findomain/releases/download/9.0.4/findomain-windows.exe.zip",
       "hash": ""
     }
   },
@@ -16,7 +16,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/Findomain/Findomain/releases/download/$version/findomain-windows.exe.zip"
+        "url": "https://ghgo.xyz/https://github.com/Findomain/Findomain/releases/download/$version/findomain-windows.exe.zip"
       }
     }
   }

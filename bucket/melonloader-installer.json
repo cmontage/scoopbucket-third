@@ -5,7 +5,7 @@
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/LavaGang/MelonLoader/releases/download/v0.6.6/MelonLoader.Installer.exe",
+      "url": "https://ghgo.xyz/https://github.com/LavaGang/MelonLoader/releases/download/v0.6.6/MelonLoader.Installer.exe",
       "hash": "ad3015fcf72af7fa32386e2d584ddc00ba10fef82e84b4f57adafb6183177542"
     }
   },
@@ -21,7 +21,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/LavaGang/MelonLoader/releases/download/v$version/MelonLoader.Installer.exe"
+        "url": "https://ghgo.xyz/https://github.com/LavaGang/MelonLoader/releases/download/v$version/MelonLoader.Installer.exe"
       }
     }
   }

@@ -5,7 +5,7 @@
   "license": "GPL-2.0-or-later",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/mamedev/mame/releases/download/mame0272/mame0272b_64bit.exe#/dl.7z",
+      "url": "https://ghgo.xyz/https://github.com/mamedev/mame/releases/download/mame0272/mame0272b_64bit.exe#/dl.7z",
       "hash": "b3fa9ad14c2b54afd2888e44d466c36ab300e22ad249dade9cd26e7d74df5c13",
       "pre_install": [
         "if(!(Test-Path \"$persist_dir\\mame.ini\")) {",
@@ -25,7 +25,7 @@
       ]
     },
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/mamedev/mame/releases/download/mame0217/mame0217b_32bit.exe#/dl.7z",
+      "url": "https://ghgo.xyz/https://github.com/mamedev/mame/releases/download/mame0217/mame0217b_32bit.exe#/dl.7z",
       "hash": "f763580223a35eaa9283b567a3652cf49154e6181bd78122ed993edfa90b8eef",
       "pre_install": [
         "Write-Host -ForegroundColor Yellow \"WARN: MAME no longer provides up to date 32bit binaries\"",
@@ -59,14 +59,14 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/mamedev/mame/releases/download/mame$cleanVersion/mame$cleanVersionb_64bit.exe#/dl.7z",
+        "url": "https://ghgo.xyz/https://github.com/mamedev/mame/releases/download/mame$cleanVersion/mame$cleanVersionb_64bit.exe#/dl.7z",
         "hash": {
-          "url": "https://mirror.ghproxy.com/https://github.com/mamedev/mame/releases/download/mame$cleanVersion/SHA256SUMS",
+          "url": "https://ghgo.xyz/https://github.com/mamedev/mame/releases/download/mame$cleanVersion/SHA256SUMS",
           "regex": "($sha256) (\\*mame$cleanVersionb_64bit\\.exe)"
         }
       },
       "32bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/mamedev/mame/releases/download/mame0217/mame0217b_32bit.exe#/dl.7z"
+        "url": "https://ghgo.xyz/https://github.com/mamedev/mame/releases/download/mame0217/mame0217b_32bit.exe#/dl.7z"
       }
     }
   }

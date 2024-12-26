@@ -7,10 +7,10 @@
   "suggest": {
     "Python": "python"
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/r0oth3x49/ghauri/archive/refs/tags/1.4.1.zip",
+  "url": "https://ghgo.xyz/https://github.com/r0oth3x49/ghauri/archive/refs/tags/1.4.1.zip",
   "hash": "282c560a9055d7d85e0d478b9a2f2eec5d6cee7ce878c5a6d8fe41ee8045cffb",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/r0oth3x49/ghauri/archive/refs/tags/$version.zip"
+    "url": "https://ghgo.xyz/https://github.com/r0oth3x49/ghauri/archive/refs/tags/$version.zip"
   }
 }

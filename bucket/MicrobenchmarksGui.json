@@ -3,7 +3,7 @@
   "description": "currently cache and memory benchmark",
   "version": "0.000006",
   "license": "None",
-  "url": "https://mirror.ghproxy.com/https://github.com/clamchowder/MicrobenchmarksGui/releases/download/v0.000006/MicrobenchmarkGui.zip",
+  "url": "https://ghgo.xyz/https://github.com/clamchowder/MicrobenchmarksGui/releases/download/v0.000006/MicrobenchmarkGui.zip",
   "hash": "AF1D43A4C69FB21AAE0B54E66A214803BDF8ECD28010944E2380F3739E178693",
   "bin": "MicrobenchmarkGui.exe",
   "shortcuts": [
@@ -16,6 +16,6 @@
     "github": "https://github.com/clamchowder/MicrobenchmarksGui"
   },
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/clamchowder/MicrobenchmarksGui/releases/download/v0.000006/MicrobenchmarkGui.zip"
+    "url": "https://ghgo.xyz/https://github.com/clamchowder/MicrobenchmarksGui/releases/download/v0.000006/MicrobenchmarkGui.zip"
   }
 }

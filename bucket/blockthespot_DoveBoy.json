@@ -6,7 +6,7 @@
     "identifier": "MIT license",
     "url": "https://github.com/mrpond/BlockTheSpot/blob/master/LICENSE"
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/mrpond/BlockTheSpot/archive/master.zip",
+  "url": "https://ghgo.xyz/https://github.com/mrpond/BlockTheSpot/archive/master.zip",
   "hash": "40f40f1ed038cbdad5ebcb8da9b9e63f86dbe536b656619a7f6499124994769e",
   "extract_dir": "BlockTheSpot-master",
   "shortcuts": [
@@ -24,6 +24,6 @@
     "regex": "/releases/tag/([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/mrpond/BlockTheSpot/archive/master.zip"
+    "url": "https://ghgo.xyz/https://github.com/mrpond/BlockTheSpot/archive/master.zip"
   }
 }

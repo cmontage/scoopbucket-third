@@ -10,13 +10,13 @@
       "java/openjdk"
     ]
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/cckuailong/JNDI-Injection-Exploit-Plus/releases/download/2.5/JNDI-Injection-Exploit-Plus-2.5-SNAPSHOT-all.jar",
+  "url": "https://ghgo.xyz/https://github.com/cckuailong/JNDI-Injection-Exploit-Plus/releases/download/2.5/JNDI-Injection-Exploit-Plus-2.5-SNAPSHOT-all.jar",
   "hash": "",
   "pre_install": [
     "Rename-Item \"$dir\\JNDI-Injection-Exploit-Plus-$version-SNAPSHOT-all.jar\" 'JNDI-Injection-Exploit-Plus.jar'"
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/cckuailong/JNDI-Injection-Exploit-Plus/releases/download/$version/JNDI-Injection-Exploit-Plus-$version-SNAPSHOT-all.jar"
+    "url": "https://ghgo.xyz/https://github.com/cckuailong/JNDI-Injection-Exploit-Plus/releases/download/$version/JNDI-Injection-Exploit-Plus-$version-SNAPSHOT-all.jar"
   }
 }

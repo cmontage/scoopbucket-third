@@ -6,7 +6,7 @@
     "identifier": "MIT,SIL OPEN FONT LICENSE",
     "url": "https://github.com/ryanoasis/nerd-fonts/blob/master/LICENSE"
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/Hack.zip",
+  "url": "https://ghgo.xyz/https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/Hack.zip",
   "hash": "a09e154605eff625b0da3bdf242d64d97cec3d6ee90fb9f91a531064e33c7b8d",
   "checkver": "github",
   "pre_install": [
@@ -25,6 +25,6 @@
     "& $path_sudo \"$bucketsdir\\$bucket\\scripts\\font\\uninstall.ps1\" $dir"
   ],
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/ryanoasis/nerd-fonts/releases/download/v$version/Hack.zip"
+    "url": "https://ghgo.xyz/https://github.com/ryanoasis/nerd-fonts/releases/download/v$version/Hack.zip"
   }
 }

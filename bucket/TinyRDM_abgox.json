@@ -8,11 +8,11 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/tiny-craft/tiny-rdm/releases/download/v1.2.2/TinyRDM_Setup_1.2.2_windows_x64.exe#/abgo_bucket_installer.exe",
+      "url": "https://ghgo.xyz/https://github.com/tiny-craft/tiny-rdm/releases/download/v1.2.2/TinyRDM_Setup_1.2.2_windows_x64.exe#/abgo_bucket_installer.exe",
       "hash": "cf800ff5a03c6973024836352481136386d57a251e399f04fafa035cf06b03fc"
     },
     "arm64": {
-      "url": "https://mirror.ghproxy.com/https://github.com/tiny-craft/tiny-rdm/releases/download/v1.2.2/TinyRDM_Setup_1.2.2_windows_arm64.exe#/abgo_bucket_installer.exe",
+      "url": "https://ghgo.xyz/https://github.com/tiny-craft/tiny-rdm/releases/download/v1.2.2/TinyRDM_Setup_1.2.2_windows_arm64.exe#/abgo_bucket_installer.exe",
       "hash": "f2672acc90fbb02084b506017856c62a3b5dcba3be53b80b0e0261c3f8b91926"
     }
   },
@@ -48,10 +48,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/tiny-craft/tiny-rdm/releases/download/v$version/TinyRDM_Setup_$version_windows_x64.exe#/abgo_bucket_installer.exe"
+        "url": "https://ghgo.xyz/https://github.com/tiny-craft/tiny-rdm/releases/download/v$version/TinyRDM_Setup_$version_windows_x64.exe#/abgo_bucket_installer.exe"
       },
       "arm64": {
-        "url": "https://mirror.ghproxy.com/https://github.com/tiny-craft/tiny-rdm/releases/download/v$version/TinyRDM_Setup_$version_windows_arm64.exe#/abgo_bucket_installer.exe"
+        "url": "https://ghgo.xyz/https://github.com/tiny-craft/tiny-rdm/releases/download/v$version/TinyRDM_Setup_$version_windows_arm64.exe#/abgo_bucket_installer.exe"
       }
     }
   }

@@ -5,7 +5,7 @@
   "license": "Freeware",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/qiye45/wechatVideoDownload/releases/download/2.2/wechatVideoDownload2.2.zip",
+      "url": "https://ghgo.xyz/https://github.com/qiye45/wechatVideoDownload/releases/download/2.2/wechatVideoDownload2.2.zip",
       "hash": "1977cf7eb62bb58ac8f90d4dcdc64700a6f96139e7e597e5be347f2391d295c0"
     }
   },
@@ -20,7 +20,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/qiye45/wechatVideoDownload/releases/download/$version/wechatVideoDownload$version.zip"
+        "url": "https://ghgo.xyz/https://github.com/qiye45/wechatVideoDownload/releases/download/$version/wechatVideoDownload$version.zip"
       }
     }
   }

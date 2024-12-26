@@ -5,7 +5,7 @@
   "license": "GPL-3.0",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/Trellmor/jellyfin-mpc-shim/releases/download/v0.2.1/JellyfinMPCShim.Tray-0.2.1.zip",
+      "url": "https://ghgo.xyz/https://github.com/Trellmor/jellyfin-mpc-shim/releases/download/v0.2.1/JellyfinMPCShim.Tray-0.2.1.zip",
       "hash": "12fbda0bb430789321b760b5cde43e635d0d13113543128bd9c26b39d62ce4ac"
     }
   },
@@ -20,7 +20,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/Trellmor/jellyfin-mpc-shim/releases/download/v$version/JellyfinMPCShim.Tray-$version.zip"
+        "url": "https://ghgo.xyz/https://github.com/Trellmor/jellyfin-mpc-shim/releases/download/v$version/JellyfinMPCShim.Tray-$version.zip"
       }
     }
   }

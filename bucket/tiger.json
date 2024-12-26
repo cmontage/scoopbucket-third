@@ -12,10 +12,10 @@
   "pre_install": [
     "7z x \"$dir\\Tiger_V1.1.0.zip\" \"-p=luosige\" -o\"$dir\" -y"
   ],
-  "url": "https://mirror.ghproxy.com/https://github.com/qiuluo-oss/Tiger/releases/download/v1.1.0/Tiger_V1.1.0.zip",
+  "url": "https://ghgo.xyz/https://github.com/qiuluo-oss/Tiger/releases/download/v1.1.0/Tiger_V1.1.0.zip",
   "hash": "",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/qiuluo-oss/Tiger/releases/download/v$version/Tiger_V$version.zip"
+    "url": "https://ghgo.xyz/https://github.com/qiuluo-oss/Tiger/releases/download/v$version/Tiger_V$version.zip"
   }
 }

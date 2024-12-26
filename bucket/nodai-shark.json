@@ -8,7 +8,7 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/nod-ai/SHARK/releases/download/20240531.1300/nodai_shark_studio_20240531_1300.exe#/nodai_shark_studio.exe",
+      "url": "https://ghgo.xyz/https://github.com/nod-ai/SHARK/releases/download/20240531.1300/nodai_shark_studio_20240531_1300.exe#/nodai_shark_studio.exe",
       "hash": "003d1977be5059a813d7d74ac4cdac1c3c428db50885c68aa7edf1bdb15db3a1"
     }
   },
@@ -20,7 +20,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/nod-ai/SHARK/releases/download/$version/nodai_shark_studio_$underscoreVersion.exe#/nodai_shark_studio.exe"
+        "url": "https://ghgo.xyz/https://github.com/nod-ai/SHARK/releases/download/$version/nodai_shark_studio_$underscoreVersion.exe#/nodai_shark_studio.exe"
       }
     }
   },

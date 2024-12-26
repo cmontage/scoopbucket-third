@@ -8,15 +8,15 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/gaozhangmin/aliyunpan/releases/download/v3.13.5/XBYDriver-3.13.5-win-x64.exe#/abgo_bucket_installer.exe",
+      "url": "https://ghgo.xyz/https://github.com/gaozhangmin/aliyunpan/releases/download/v3.13.5/XBYDriver-3.13.5-win-x64.exe#/abgo_bucket_installer.exe",
       "hash": "8cc2e76f38f3d1e159d7f72ba64f64deb82c6168289405777721a41096747025"
     },
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/gaozhangmin/aliyunpan/releases/download/v3.13.5/XBYDriver-3.13.5-win-ia32.exe#/abgo_bucket_installer.exe",
+      "url": "https://ghgo.xyz/https://github.com/gaozhangmin/aliyunpan/releases/download/v3.13.5/XBYDriver-3.13.5-win-ia32.exe#/abgo_bucket_installer.exe",
       "hash": "d76abdd1b86a060c2e742dd92fe22528377a7d47f268894b395a720138eef5a3"
     },
     "arm64": {
-      "url": "https://mirror.ghproxy.com/https://github.com/gaozhangmin/aliyunpan/releases/download/v3.13.5/XBYDriver-3.13.5-win-arm64.exe#/abgo_bucket_installer.exe",
+      "url": "https://ghgo.xyz/https://github.com/gaozhangmin/aliyunpan/releases/download/v3.13.5/XBYDriver-3.13.5-win-arm64.exe#/abgo_bucket_installer.exe",
       "hash": "0f47cf4465573304b12223474cbbdce44dd38807d5e2df5122d67525ca270adf"
     }
   },
@@ -51,13 +51,13 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/gaozhangmin/aliyunpan/releases/download/v$version/XBYDriver-$version-win-x64.exe#/abgo_bucket_installer.exe"
+        "url": "https://ghgo.xyz/https://github.com/gaozhangmin/aliyunpan/releases/download/v$version/XBYDriver-$version-win-x64.exe#/abgo_bucket_installer.exe"
       },
       "32bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/gaozhangmin/aliyunpan/releases/download/v$version/XBYDriver-$version-win-ia32.exe#/abgo_bucket_installer.exe"
+        "url": "https://ghgo.xyz/https://github.com/gaozhangmin/aliyunpan/releases/download/v$version/XBYDriver-$version-win-ia32.exe#/abgo_bucket_installer.exe"
       },
       "arm64": {
-        "url": "https://mirror.ghproxy.com/https://github.com/gaozhangmin/aliyunpan/releases/download/v$version/XBYDriver-$version-win-arm64.exe#/abgo_bucket_installer.exe"
+        "url": "https://ghgo.xyz/https://github.com/gaozhangmin/aliyunpan/releases/download/v$version/XBYDriver-$version-win-arm64.exe#/abgo_bucket_installer.exe"
       }
     }
   }

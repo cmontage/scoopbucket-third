@@ -9,7 +9,7 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/Shadowsocks-NET/Qv2ray/releases/download/v3.0.0-rc1/Qv2ray-v3.0.0-rc1-Windows.7z",
+      "url": "https://ghgo.xyz/https://github.com/Shadowsocks-NET/Qv2ray/releases/download/v3.0.0-rc1/Qv2ray-v3.0.0-rc1-Windows.7z",
       "hash": "854c7a2e4035c43d7a409c702c0eee39848b999e76a83dd0a677a52975812d0c"
     }
   },
@@ -42,7 +42,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/Shadowsocks-NET/Qv2ray/releases/download/v$version/Qv2ray-v$version-Windows.7z"
+        "url": "https://ghgo.xyz/https://github.com/Shadowsocks-NET/Qv2ray/releases/download/v$version/Qv2ray-v$version-Windows.7z"
       }
     }
   }

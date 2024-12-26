@@ -5,7 +5,7 @@
   "license": "Unknown",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/biancangming/wtv/releases/download/1.4.15/yigechengzipro_1.4.15_x64.exe#/dl.7z",
+      "url": "https://ghgo.xyz/https://github.com/biancangming/wtv/releases/download/1.4.15/yigechengzipro_1.4.15_x64.exe#/dl.7z",
       "hash": "5072a687a29b2b6236b33680a828c7a7fc5fb4c9cc24631916ffedced7c8b31a",
       "pre_install": [
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
@@ -41,7 +41,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/biancangming/wtv/releases/download/$version/yigechengzipro_$version_x64.exe#/dl.7z"
+        "url": "https://ghgo.xyz/https://github.com/biancangming/wtv/releases/download/$version/yigechengzipro_$version_x64.exe#/dl.7z"
       }
     }
   }

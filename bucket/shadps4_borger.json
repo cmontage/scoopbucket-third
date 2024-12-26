@@ -13,7 +13,7 @@
   "suggest": {
     "Microsoft Visual C++ Runtime 2022": "extras/vcredist2022"
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/shadps4-emu/shadPS4/releases/download/v.0.4.0/shadps4-win64-qt-0.4.0.zip",
+  "url": "https://ghgo.xyz/https://github.com/shadps4-emu/shadPS4/releases/download/v.0.4.0/shadps4-win64-qt-0.4.0.zip",
   "hash": "877e5c238673c3f5a2f6111caeb63a33ef4ff251fe878ea376b81294e1753666",
   "bin": "shadPS4.exe",
   "shortcuts": [
@@ -30,6 +30,6 @@
     "regex": "v([\\d\\.]+)"
   },
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/shadps4-emu/shadPS4/releases/download/v$version/shadPS4-win64-qt-$version.7z"
+    "url": "https://ghgo.xyz/https://github.com/shadps4-emu/shadPS4/releases/download/v$version/shadPS4-win64-qt-$version.7z"
   }
 }

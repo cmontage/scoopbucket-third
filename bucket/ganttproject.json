@@ -3,7 +3,7 @@
   "license": "GPL-3.0",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/bardsoftware/ganttproject/releases/download/ganttproject-3.3.3312/ganttproject-3.3.3312.zip",
+      "url": "https://ghgo.xyz/https://github.com/bardsoftware/ganttproject/releases/download/ganttproject-3.3.3312/ganttproject-3.3.3312.zip",
       "hash": "6991922f0b231632fadb2863f90f024ec611e03c74b74ae66fd336d17b0645a9"
     }
   },
@@ -23,7 +23,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/bardsoftware/ganttproject/releases/download/ganttproject-$matchVersion/ganttproject-$matchLong.zip",
+        "url": "https://ghgo.xyz/https://github.com/bardsoftware/ganttproject/releases/download/ganttproject-$matchVersion/ganttproject-$matchLong.zip",
         "extract_dir": "ganttproject-$matchLong"
       }
     }

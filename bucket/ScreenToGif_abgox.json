@@ -8,17 +8,17 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/NickeManarin/ScreenToGif/releases/download/2.40.1/ScreenToGif.2.40.1.Setup.x64.msi",
+      "url": "https://ghgo.xyz/https://github.com/NickeManarin/ScreenToGif/releases/download/2.40.1/ScreenToGif.2.40.1.Setup.x64.msi",
       "hash": "8e8b6ae1e01c3e982f4433002abf3f519f4192e7928c33b080eb5ae5266c5030",
       "extract_dir": "ProgramFiles64Folder\\ScreenToGif"
     },
     "32bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/NickeManarin/ScreenToGif/releases/download/2.40.1/ScreenToGif.2.40.1.Setup.x86.msi",
+      "url": "https://ghgo.xyz/https://github.com/NickeManarin/ScreenToGif/releases/download/2.40.1/ScreenToGif.2.40.1.Setup.x86.msi",
       "hash": "9df6416ca7d891711151d863c029b88ae0c26eacb05e402e56aa91f88bfed863",
       "extract_dir": "ProgramFilesFolder\\ScreenToGif"
     },
     "arm64": {
-      "url": "https://mirror.ghproxy.com/https://github.com/NickeManarin/ScreenToGif/releases/download/2.40.1/ScreenToGif.2.40.1.Setup.Arm64.msi",
+      "url": "https://ghgo.xyz/https://github.com/NickeManarin/ScreenToGif/releases/download/2.40.1/ScreenToGif.2.40.1.Setup.Arm64.msi",
       "hash": "111c33f988bdb02eee26ac7be4b07b94cef16e50679d0d12105da112a1697479",
       "extract_dir": "ProgramFiles64Folder\\ScreenToGif"
     }
@@ -46,13 +46,13 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/NickeManarin/ScreenToGif/releases/download/2.40.1/ScreenToGif.2.40.1.Setup.x64.msi"
+        "url": "https://ghgo.xyz/https://github.com/NickeManarin/ScreenToGif/releases/download/2.40.1/ScreenToGif.2.40.1.Setup.x64.msi"
       },
       "32bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/NickeManarin/ScreenToGif/releases/download/2.40.1/ScreenToGif.2.40.1.Setup.x86.msi"
+        "url": "https://ghgo.xyz/https://github.com/NickeManarin/ScreenToGif/releases/download/2.40.1/ScreenToGif.2.40.1.Setup.x86.msi"
       },
       "arm64": {
-        "url": "https://mirror.ghproxy.com/https://github.com/NickeManarin/ScreenToGif/releases/download/2.40.1/ScreenToGif.2.40.1.Setup.Arm64.msi"
+        "url": "https://ghgo.xyz/https://github.com/NickeManarin/ScreenToGif/releases/download/2.40.1/ScreenToGif.2.40.1.Setup.Arm64.msi"
       }
     }
   }

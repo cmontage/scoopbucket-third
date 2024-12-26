@@ -1,9 +1,9 @@
 {
-  "$schema": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/lukesampson/scoop/master/schema.json",
+  "$schema": "https://ghgo.xyz/https://raw.githubusercontent.com/lukesampson/scoop/master/schema.json",
   "version": "1.0.008",
   "url": [
-    "https://mirror.ghproxy.com/https://raw.githubusercontent.com/BenjaminMichaelis/ScoopBucket/master/bucket/Utils.ps1",
-    "https://mirror.ghproxy.com/https://raw.githubusercontent.com/BenjaminMichaelis/ScoopBucket/master/bucket/OSBasePackages.ps1"
+    "https://ghgo.xyz/https://raw.githubusercontent.com/BenjaminMichaelis/ScoopBucket/master/bucket/Utils.ps1",
+    "https://ghgo.xyz/https://raw.githubusercontent.com/BenjaminMichaelis/ScoopBucket/master/bucket/OSBasePackages.ps1"
   ],
   "installer": {
     "script": "& \"$dir\\OSBasePackages.ps1\""

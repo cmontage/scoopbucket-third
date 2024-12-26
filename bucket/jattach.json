@@ -5,11 +5,11 @@
   "homepage": "https://github.com/jattach/jattach",
   "checkver": "github",
   "url": [
-    "https://mirror.ghproxy.com/https://github.com/jattach/jattach/releases/download/v2.2/jattach",
-    "https://mirror.ghproxy.com/https://github.com/jattach/jattach/releases/download/v2.2/jattach-linux-arm64.tgz",
-    "https://mirror.ghproxy.com/https://github.com/jattach/jattach/releases/download/v2.2/jattach-linux-x64.tgz",
-    "https://mirror.ghproxy.com/https://github.com/jattach/jattach/releases/download/v2.2/jattach-macos.zip",
-    "https://mirror.ghproxy.com/https://github.com/jattach/jattach/releases/download/v2.2/jattach-windows.zip"
+    "https://ghgo.xyz/https://github.com/jattach/jattach/releases/download/v2.2/jattach",
+    "https://ghgo.xyz/https://github.com/jattach/jattach/releases/download/v2.2/jattach-linux-arm64.tgz",
+    "https://ghgo.xyz/https://github.com/jattach/jattach/releases/download/v2.2/jattach-linux-x64.tgz",
+    "https://ghgo.xyz/https://github.com/jattach/jattach/releases/download/v2.2/jattach-macos.zip",
+    "https://ghgo.xyz/https://github.com/jattach/jattach/releases/download/v2.2/jattach-windows.zip"
   ],
   "hash": [
     "a08cb795a1e8d11ea6c2dd6adf8c9edead9a7c3bbca07681dad79cc3eaec0ef4",
@@ -20,11 +20,11 @@
   ],
   "autoupdate": {
     "url": [
-      "https://mirror.ghproxy.com/https://github.com/jattach/jattach/releases/download/v$version/jattach",
-      "https://mirror.ghproxy.com/https://github.com/jattach/jattach/releases/download/v$version/jattach-linux-arm64.tgz",
-      "https://mirror.ghproxy.com/https://github.com/jattach/jattach/releases/download/v$version/jattach-linux-x64.tgz",
-      "https://mirror.ghproxy.com/https://github.com/jattach/jattach/releases/download/v$version/jattach-macos.zip",
-      "https://mirror.ghproxy.com/https://github.com/jattach/jattach/releases/download/v$version/jattach-windows.zip"
+      "https://ghgo.xyz/https://github.com/jattach/jattach/releases/download/v$version/jattach",
+      "https://ghgo.xyz/https://github.com/jattach/jattach/releases/download/v$version/jattach-linux-arm64.tgz",
+      "https://ghgo.xyz/https://github.com/jattach/jattach/releases/download/v$version/jattach-linux-x64.tgz",
+      "https://ghgo.xyz/https://github.com/jattach/jattach/releases/download/v$version/jattach-macos.zip",
+      "https://ghgo.xyz/https://github.com/jattach/jattach/releases/download/v$version/jattach-windows.zip"
     ]
   }
 }

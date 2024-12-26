@@ -5,7 +5,7 @@
   "version": "3.78.1",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/purocean/yn/releases/download/v3.78.1/Yank-Note-win-x64-3.78.1.zip",
+      "url": "https://ghgo.xyz/https://github.com/purocean/yn/releases/download/v3.78.1/Yank-Note-win-x64-3.78.1.zip",
       "hash": "6365c9c56dab7430296b97fa096be38f8d66b46b5a1d2e3bbb4e3bf63514d55f"
     }
   },
@@ -22,7 +22,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/purocean/yn/releases/download/v$version/Yank-Note-win-x64-$version.zip"
+        "url": "https://ghgo.xyz/https://github.com/purocean/yn/releases/download/v$version/Yank-Note-win-x64-$version.zip"
       }
     }
   }

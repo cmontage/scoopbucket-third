@@ -8,7 +8,7 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/qarmin/czkawka/releases/download/8.0.0/windows_czkawka_gui_410.zip",
+      "url": "https://ghgo.xyz/https://github.com/qarmin/czkawka/releases/download/8.0.0/windows_czkawka_gui_410.zip",
       "hash": "56f8cc85b59caccfc53b1c07d1c134b4add416cd0edf69dcfe92dd5af0b05406"
     }
   },
@@ -25,7 +25,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://mirror.ghproxy.com/https://github.com/qarmin/czkawka/releases/download/$version/$matchFile"
+        "url": "https://ghgo.xyz/https://github.com/qarmin/czkawka/releases/download/$version/$matchFile"
       }
     }
   }

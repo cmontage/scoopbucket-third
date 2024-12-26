@@ -6,7 +6,7 @@
     "identifier": "Proprietary",
     "url": "https://obsidian.md/eula"
   },
-  "url": "https://mirror.ghproxy.com/https://github.com/obsidianmd/obsidian-releases/releases/download/v1.7.7/Obsidian-1.7.7.exe#/abgo_bucket_installer.exe",
+  "url": "https://ghgo.xyz/https://github.com/obsidianmd/obsidian-releases/releases/download/v1.7.7/Obsidian-1.7.7.exe#/abgo_bucket_installer.exe",
   "hash": "f8097c934d0a4a1022611213255fd11fd0f7bf20a13db47882de2d9c25566ae1",
   "shortcuts": [
     [
@@ -39,6 +39,6 @@
     "github": "https://github.com/obsidianmd/obsidian-releases"
   },
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/obsidianmd/obsidian-releases/releases/download/v$version/Obsidian-$version.exe#/abgo_bucket_installer.exe"
+    "url": "https://ghgo.xyz/https://github.com/obsidianmd/obsidian-releases/releases/download/v$version/Obsidian-$version.exe#/abgo_bucket_installer.exe"
   }
 }

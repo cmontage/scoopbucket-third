@@ -4,7 +4,7 @@
   "license": "GPL-3.0-or-later",
   "version": "22.5.3",
   "depends": "python",
-  "url": "https://mirror.ghproxy.com/https://github.com/wting/autojump/archive/release-v22.5.3.tar.gz",
+  "url": "https://ghgo.xyz/https://github.com/wting/autojump/archive/release-v22.5.3.tar.gz",
   "hash": "00daf3698e17ac3ac788d529877c03ee80c3790472a85d0ed063ac3a354c37b1",
   "extract_dir": "autojump-release-v22.5.3",
   "installer": {
@@ -25,7 +25,7 @@
     "regex": "/wting/autojump/releases/tag/release-v([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/wting/autojump/archive/release-v$version.tar.gz",
+    "url": "https://ghgo.xyz/https://github.com/wting/autojump/archive/release-v$version.tar.gz",
     "extract_dir": "autojump-release-v$version"
   }
 }

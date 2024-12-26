@@ -4,7 +4,7 @@
   "homepage": "https://github.com/corpnewt/ProperTree",
   "license": "BSD-3-Clause",
   "depends": "python",
-  "url": "https://mirror.ghproxy.com/https://github.com/corpnewt/ProperTree/archive/ac8dda52ea93871b4546fb18fdc8eb88ba614b29.zip",
+  "url": "https://ghgo.xyz/https://github.com/corpnewt/ProperTree/archive/ac8dda52ea93871b4546fb18fdc8eb88ba614b29.zip",
   "hash": "8a6f6f883948fd072910f30f0a4877282268370652bbda915f6d28a0cf6d9785",
   "extract_dir": "ProperTree-ac8dda52ea93871b4546fb18fdc8eb88ba614b29",
   "bin": "ProperTree.bat",
@@ -14,7 +14,7 @@
     "replace": "0.${1}.${2}.${3}"
   },
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/corpnewt/ProperTree/archive/$matchSha.zip",
+    "url": "https://ghgo.xyz/https://github.com/corpnewt/ProperTree/archive/$matchSha.zip",
     "extract_dir": "ProperTree-$matchSha"
   }
 }

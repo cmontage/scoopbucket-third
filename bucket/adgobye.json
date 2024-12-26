@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://mirror.ghproxy.com/https://github.com/AdGoBye/AdGoBye/releases/download/v4.0.2+v4IsBrokenPullMe/AGBv4.0.2+v4IsBrokenPullMe-win-x64.zip",
+      "url": "https://ghgo.xyz/https://github.com/AdGoBye/AdGoBye/releases/download/v4.0.2+v4IsBrokenPullMe/AGBv4.0.2+v4IsBrokenPullMe-win-x64.zip",
       "hash": "16eec79077da38edafed8a1c39e0b2879f4791a12a16eb48b65a723456a49968"
     }
   },
@@ -23,7 +23,7 @@
     "architecture": {
       "64bit": {
         "url": [
-          "https://mirror.ghproxy.com/https://github.com/AdGoBye/AdGoBye/releases/download/v$version/AGBv$version-win-x64.zip"
+          "https://ghgo.xyz/https://github.com/AdGoBye/AdGoBye/releases/download/v$version/AGBv$version-win-x64.zip"
         ]
       }
     }

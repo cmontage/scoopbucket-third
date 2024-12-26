@@ -3,7 +3,7 @@
   "description": "Multi-platform auto-proxy client, open-source, secure and ad-free.",
   "homepage": "https://github.com/hiddify/hiddify-app",
   "license": "https://github.com/hiddify/hiddify-app/blob/main/LICENSE.md",
-  "url": "https://mirror.ghproxy.com/https://github.com/hiddify/hiddify-app/releases/download/v2.0.5/Hiddify-Windows-Portable-x64.zip",
+  "url": "https://ghgo.xyz/https://github.com/hiddify/hiddify-app/releases/download/v2.0.5/Hiddify-Windows-Portable-x64.zip",
   "hash": "01A27A64682D2AD0E85053EF80DD56CC786E7D511A54DAAE5064FCC63A194524",
   "bin": "Hiddify.exe",
   "installer": {
@@ -25,6 +25,6 @@
     "github": "https://github.com/hiddify/hiddify-app"
   },
   "autoupdate": {
-    "url": "https://mirror.ghproxy.com/https://github.com/hiddify/hiddify-app/releases/download/v$version/Hiddify-Windows-Portable-x64.zip"
+    "url": "https://ghgo.xyz/https://github.com/hiddify/hiddify-app/releases/download/v$version/Hiddify-Windows-Portable-x64.zip"
   }
 }
