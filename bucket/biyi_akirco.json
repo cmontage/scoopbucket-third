@@ -16,5 +16,8 @@
       "biyi.exe",
       "biyi"
     ]
-  ]
+  ],
+  "autoupdate": {
+    "url": "https://ghgo.xyz/https://github.com/biyidev/biyi/releases/download/v$version/biyi-$version+18-windows-setup.exe"
+  }
 }

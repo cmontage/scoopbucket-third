@@ -1,18 +1,16 @@
 {
-  "version": "0.44.5",
+  "version": "0.44.8",
   "description": "An AI code editor",
   "homepage": "https://www.cursor.com/",
-  "license": "freeware",
+  "license": "Proprietary",
   "architecture": {
     "64bit": {
-      "url": "https://downloader.cursor.sh/windows/nsis/x64",
-      "hash": "032cf1ae6fa96a4bbcfc370b63cd7e8955aab0e6793cd90f4227373a68ecc91b"
+      "url": "https://download.todesktop.com/230313mzl4w4u92/Cursor%20Setup%200.44.8%20-%20Build%20241222ooktny8mh-x64.exe#/dl.7z",
+      "hash": "489adf2ccb38aa89a88da8262113bb2572e50ee63df3cf0135d182770a24acaf"
     }
   },
   "installer": {
     "script": [
-      "$file = (Get-ChildItem \"$dir\" 'x64' | Select-Object -First 1).FullName",
-      "Expand-7ZipArchive \"$file\" \"$dir\\\" -Removal",
       "Expand-7ZipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\" -Removal",
       "Remove-Item \"$dir\\`$PLUGINSDIR\",\"$dir\\`$R0\",\"$dir\\`$LOCALAPPDATA\"  -Force -Recurse"
     ]
@@ -24,13 +22,20 @@
     ]
   ],
   "checkver": {
-    "url": "https://www.cursor.com/changelog",
-    "regex": "UPDATE \\(.*?([\\d.]+)\\)"
+    "script": [
+      ". \"$pwd\\bin\\utils.ps1\"",
+      "$dl_info = get_installer_info 'Anysphere/Cursor'",
+      "\"ver:$($dl_info.PackageVersion);\"",
+      "\"x64:$($dl_info.x64_exe.InstallerUrl);\"",
+      "\"hash:$($dl_info.x64_exe.InstallerSha256);\""
+    ],
+    "regex": "ver:(?<version>.+?); x64:(?<x64>.+?); hash:(?<hash>.+?);"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://downloader.cursor.sh/windows/nsis/x64"
+        "url": "$matchX64#/dl.7z",
+        "hash": "$matchHash"
       }
     }
   }
