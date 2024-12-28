@@ -20,5 +20,10 @@
       "Typora.exe",
       "Typora"
     ]
+  ],
+  "post_uninstall": [
+    "$runtimeCache=\"$env:APPDATA\\Typora\"",
+    "write-host `nRemoving runtimeCache: $runtimeCache -ForegroundColor Yellow",
+    "Remove-Item $runtimeCache -Recurse -Force -ErrorAction SilentlyContinue"
   ]
 }
