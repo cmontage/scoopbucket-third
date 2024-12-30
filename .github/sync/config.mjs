@@ -14,7 +14,7 @@ export const CONFIG = {
   ignoreParseFailed: true,
   tmpDir: path.resolve(rootDir, 'tmp'),
   // ghproxy: 'https://gh.api.99988866.xyz',
-  //ghproxy: 'https://mirror.ghproxy.com',
+  //ghproxy: 'https://mirror.ghproxy.com',寄了
   ghproxy: 'https://ghgo.xyz',
   // ghproxy: 'https://www.ghproxy.cc',
   // ghproxy: 'https://ghps.cc',
