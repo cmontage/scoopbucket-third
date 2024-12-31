@@ -1,16 +1,16 @@
 {
-  "version": "3200",
+  "version": "3203",
   "description": "H.264/MPEG-4 AVC video encoder",
   "homepage": "https://www.videolan.org/developers/x264.html",
   "license": "GPL-2.0-or-later",
   "architecture": {
     "64bit": {
-      "url": "https://artifacts.videolan.org/x264/release-win64/x264-r3200-938601b.exe#/x264.exe",
-      "hash": "edf96ce3ea4aa621936e324e24167c1bfd0db90cb7850138175ca42f655ce5e9"
+      "url": "https://artifacts.videolan.org/x264/release-win64/x264-r3203-52f7694.exe#/x264.exe",
+      "hash": "27c9b6b00081e0cab6dce69579565d4c86060dd0c27ab0ef8221af1853245e3d"
     },
     "32bit": {
-      "url": "https://artifacts.videolan.org/x264/release-win32/x264-r3200-938601b.exe#/x264.exe",
-      "hash": "75377ac9c879d1e8b7292dfc3be2231bbd967f1c6ce7855a357f3adf87b1f32a"
+      "url": "https://artifacts.videolan.org/x264/release-win32/x264-r3203-52f7694.exe#/x264.exe",
+      "hash": "36adc943fdd63f7df78e5afc89648d63e2b38285f2b0bf8f7e84971415c68f8f"
     }
   },
   "bin": "x264.exe",
