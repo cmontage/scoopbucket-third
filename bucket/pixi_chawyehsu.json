@@ -1,7 +1,7 @@
 {
+  "homepage": "https://prefix.dev/",
+  "description": "Package management made easy",
   "version": "0.39.4",
-  "description": "A cross-platform, multi-language package manager and workflow tool built on the foundation of the conda ecosystem.",
-  "homepage": "https://pixi.sh",
   "license": "BSD-3-Clause",
   "architecture": {
     "64bit": {
@@ -13,7 +13,32 @@
       "hash": "5816a67ee5c91928e229ca554fc4dbc350506ef766487321954826bcd38cdea7"
     }
   },
-  "bin": "pixi.exe",
+  "installer": {
+    "script": [
+      "if (Test-Path \"$persist_dir\\bin\\pixi.exe\") {",
+      "    Remove-Item \"$persist_dir\\bin\\pixi.exe\" -Force",
+      "    Move-Item \"$dir\\pixi.exe\" \"$persist_dir\\bin\\pixi.exe\"",
+      "} else {",
+      "    if (!(Test-Path \"$persist_dir\\bin\")) {",
+      "        New-Item -Path \"$persist_dir\\bin\" -ItemType Directory | Out-Null",
+      "    }",
+      "    Move-Item \"$dir\\pixi.exe\" \"$persist_dir\\bin\\pixi.exe\"",
+      "}",
+      "if (!(Test-Path \"$persist_dir\\config.toml\") -and !(Test-Path \"$dir\\config.toml\")) {",
+      "    New-Item -Path \"$dir\\config.toml\" -ItemType File | Out-Null",
+      "}"
+    ]
+  },
+  "env_set": {
+    "PIXI_HOME": "$dir"
+  },
+  "env_add_path": "bin",
+  "persist": [
+    "bin",
+    "envs",
+    "config.toml",
+    "manifests"
+  ],
   "checkver": {
     "github": "https://github.com/prefix-dev/pixi"
   },
