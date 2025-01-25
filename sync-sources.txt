@@ -136,9 +136,9 @@ bucket/ActiveGo.json, kkzzhizhou/scoop-apps, 0
 bucket/ActiveMQ-Artemis_zhoujin7.json, kkzzhizhou/scoop-apps, 0
 bucket/ActiveMQ-Classic.json, kkzzhizhou/scoop-apps, 1
 bucket/AdGuardHome-Portable.json, kkzzhizhou/scoop-apps, 1
-bucket/AdGuardHome_ViCrack.json, kkzzhizhou/scoop-apps, 1
+bucket/AdGuardHome.json, kkzzhizhou/scoop-apps, 1
 bucket/AddBenjaminMichaelisScoopBucket.json, kkzzhizhou/scoop-apps, 1
-bucket/AdguardHome.json, kkzzhizhou/scoop-apps, 1
+bucket/AdguardHome_dodorz.json, kkzzhizhou/scoop-apps, 1
 bucket/AdiIRC_zhoujin7.json, kkzzhizhou/scoop-apps, 0
 bucket/AdobeAcrobatReader-Install.json, kkzzhizhou/scoop-apps, 0
 bucket/AdobeCreativeCloud-ManualInstall.json, kkzzhizhou/scoop-apps, 0
@@ -2567,9 +2567,9 @@ bucket/XSearch.json, kkzzhizhou/scoop-apps, 0
 bucket/XStudio.json, kkzzhizhou/scoop-apps, 0
 bucket/XToolBox-Portable.json, kkzzhizhou/scoop-apps, 1
 bucket/XVI32.json, kkzzhizhou/scoop-apps, 0
-bucket/XYplorer.json, kkzzhizhou/scoop-apps, 0
 bucket/XYplorerFree.json, kkzzhizhou/scoop-apps, 0
 bucket/XYplorer_Weidows-projects.json, kkzzhizhou/scoop-apps, 1
+bucket/XYplorer_abgox.json, kkzzhizhou/scoop-apps, 0
 bucket/Xftp.json, kkzzhizhou/scoop-apps, 1
 bucket/Xidel_dodorz.json, kkzzhizhou/scoop-apps, 0
 bucket/XiebroC2.json, kkzzhizhou/scoop-apps, 1
@@ -3399,6 +3399,7 @@ bucket/bilibili_akirco.json, kkzzhizhou/scoop-apps, 0
 bucket/bilibilidown-with-jre.json, kkzzhizhou/scoop-apps, 1
 bucket/bilibilidown_DoveBoy.json, kkzzhizhou/scoop-apps, 1
 bucket/bilibilitoolpro.json, kkzzhizhou/scoop-apps, 1
+bucket/bilidown-go.json, kkzzhizhou/scoop-apps, 1
 bucket/bilidown.json, kkzzhizhou/scoop-apps, 0
 bucket/bililive-go.json, kkzzhizhou/scoop-apps, 1
 bucket/bililive-go_cc713.json, kkzzhizhou/scoop-apps, 1
@@ -3875,8 +3876,8 @@ bucket/chrome-headless-shell.json, kkzzhizhou/scoop-apps, 0
 bucket/chrome-portable.json, kkzzhizhou/scoop-apps, 0
 bucket/chrome-power-app.json, kkzzhizhou/scoop-apps, 1
 bucket/chrome-with-flash.json, kkzzhizhou/scoop-apps, 1
-bucket/chrome.json, kkzzhizhou/scoop-apps, 1
-bucket/chrome_echoiron.json, kkzzhizhou/scoop-apps, 0
+bucket/chrome.json, kkzzhizhou/scoop-apps, 0
+bucket/chrome_xrgzs.json, kkzzhizhou/scoop-apps, 1
 bucket/chrome_yuanying1199.json, kkzzhizhou/scoop-apps, 0
 bucket/chromecacheview.json, kkzzhizhou/scoop-apps, 0
 bucket/chromecacheview_kodybrown.json, kkzzhizhou/scoop-apps, 0
@@ -4016,6 +4017,7 @@ bucket/cleanmgrplus.json, kkzzhizhou/scoop-apps, 1
 bucket/cleanmywechat.json, kkzzhizhou/scoop-apps, 1
 bucket/cleanmywechat_amorphobia.json, kkzzhizhou/scoop-apps, 1
 bucket/clear-terminal.json, kkzzhizhou/scoop-apps, 0
+bucket/cleed.json, kkzzhizhou/scoop-apps, 1
 bucket/clementine.json, kkzzhizhou/scoop-apps, 1
 bucket/clever-ffmpeg.json, kkzzhizhou/scoop-apps, 0
 bucket/clever-ffmpeg_FlawlessCasual17.json, kkzzhizhou/scoop-apps, 0
@@ -4898,7 +4900,7 @@ bucket/dragonwell17-jdk.json, kkzzhizhou/scoop-apps, 1
 bucket/dragonwell21-jdk.json, kkzzhizhou/scoop-apps, 1
 bucket/dragonwell8-jdk-extended.json, kkzzhizhou/scoop-apps, 1
 bucket/dragonwell8-jdk.json, kkzzhizhou/scoop-apps, 1
-bucket/draw.io.json, kkzzhizhou/scoop-apps, 1
+bucket/draw.io.json, akirco/aki-apps, 1
 bucket/draw.io_DoveBoy.json, kkzzhizhou/scoop-apps, 1
 bucket/draw.io_WinApps-share.json, kkzzhizhou/scoop-apps, 1
 bucket/draw.io_abgox.json, kkzzhizhou/scoop-apps, 1
@@ -5630,7 +5632,7 @@ bucket/flclash-portable.json, kkzzhizhou/scoop-apps, 1
 bucket/flclash.json, kkzzhizhou/scoop-apps, 1
 bucket/flclash_DoveBoy.json, kkzzhizhou/scoop-apps, 1
 bucket/flclash_xrgzs.json, kkzzhizhou/scoop-apps, 1
-bucket/fleet.json, kkzzhizhou/scoop-apps, 0
+bucket/fleet.json, akirco/aki-apps, 0
 bucket/fleet_Small-Ku.json, kkzzhizhou/scoop-apps, 0
 bucket/flexible-renamer.json, kkzzhizhou/scoop-apps, 0
 bucket/flexihub.json, kkzzhizhou/scoop-apps, 0
@@ -6266,7 +6268,7 @@ bucket/golly.json, kkzzhizhou/scoop-apps, 0
 bucket/gom-player-plus.json, kkzzhizhou/scoop-apps, 0
 bucket/gom-player.json, kkzzhizhou/scoop-apps, 0
 bucket/gomi.json, kkzzhizhou/scoop-apps, 1
-bucket/gomi_aliesbelik.json, kkzzhizhou/scoop-apps, 1
+bucket/gomi_dodorz.json, kkzzhizhou/scoop-apps, 1
 bucket/gomono.json, kkzzhizhou/scoop-apps, 0
 bucket/gomuks.json, kkzzhizhou/scoop-apps, 1
 bucket/goneovim-nightly.json, kkzzhizhou/scoop-apps, 1
@@ -6291,7 +6293,7 @@ bucket/googlechrome-canary_42wim.json, kkzzhizhou/scoop-apps, 0
 bucket/googlechrome-dev.json, kkzzhizhou/scoop-apps, 0
 bucket/googlechrome-dev_42wim.json, kkzzhizhou/scoop-apps, 0
 bucket/googlechrome-portable_42wim.json, kkzzhizhou/scoop-apps, 0
-bucket/googlechrome.json, akirco/aki-apps, 0
+bucket/googlechrome.json, kkzzhizhou/scoop-apps, 0
 bucket/googlechrome_akirco.json, kkzzhizhou/scoop-apps, 0
 bucket/googlechrome_kkzzhizhou.json, kkzzhizhou/scoop-apps, 0
 bucket/googledrive-np.json, kkzzhizhou/scoop-apps, 0
@@ -6916,7 +6918,7 @@ bucket/installedpackagesview.json, kkzzhizhou/scoop-apps, 0
 bucket/installedpackagesview_ScoopInstaller.json, kkzzhizhou/scoop-apps, 0
 bucket/installexe.json, kkzzhizhou/scoop-apps, 0
 bucket/installmsi.json, kkzzhizhou/scoop-apps, 0
-bucket/instaloader.json, kkzzhizhou/scoop-apps, 1
+bucket/instaloader.json, akirco/aki-apps, 1
 bucket/instant-eyedropper.json, kkzzhizhou/scoop-apps, 0
 bucket/integerscaler.json, kkzzhizhou/scoop-apps, 0
 bucket/intel-graphics-driver-7th-10th.json, kkzzhizhou/scoop-apps, 0
@@ -7129,7 +7131,7 @@ bucket/jianqiezhushou.json, kkzzhizhou/scoop-apps, 0
 bucket/jianying-pro.json, ivaquero/scoopet, 0
 bucket/jianying.json, kkzzhizhou/scoop-apps, 0
 bucket/jianyingpro-with-ffmpeg.json, kkzzhizhou/scoop-apps, 0
-bucket/jianyingpro.json, kkzzhizhou/scoop-apps, 0
+bucket/jianyingpro.json, akirco/aki-apps, 0
 bucket/jianyingpro_TianXiaTech.json, kkzzhizhou/scoop-apps, 0
 bucket/jianyingpro_akirco.json, kkzzhizhou/scoop-apps, 0
 bucket/jiduscan.json, kkzzhizhou/scoop-apps, 0
@@ -7248,6 +7250,7 @@ bucket/kaf-cli.json, kkzzhizhou/scoop-apps, 1
 bucket/kaf-cli_ygguorun.json, kkzzhizhou/scoop-apps, 1
 bucket/kaf-wifi.json, kkzzhizhou/scoop-apps, 1
 bucket/kafkactl.json, kkzzhizhou/scoop-apps, 1
+bucket/kafkio.json, kkzzhizhou/scoop-apps, 0
 bucket/kafta.json, kkzzhizhou/scoop-apps, 1
 bucket/kail.json, kkzzhizhou/scoop-apps, 1
 bucket/kakaotalk.json, kkzzhizhou/scoop-apps, 0
@@ -7411,7 +7414,7 @@ bucket/kopia-ui.json, kkzzhizhou/scoop-apps, 1
 bucket/kopiaui-rc.json, kkzzhizhou/scoop-apps, 1
 bucket/kopiaui-rc_FlawlessCasual17.json, kkzzhizhou/scoop-apps, 1
 bucket/kopiaui.json, kkzzhizhou/scoop-apps, 1
-bucket/kopiaui_hu3rror.json, kkzzhizhou/scoop-apps, 1
+bucket/kopiaui_ScoopInstaller.json, kkzzhizhou/scoop-apps, 1
 bucket/kotatogram-beta.json, kkzzhizhou/scoop-apps, 1
 bucket/kotatogram-beta_fixed.json, kkzzhizhou/scoop-apps, 1
 bucket/kotatogram.json, kkzzhizhou/scoop-apps, 1
@@ -8991,7 +8994,7 @@ bucket/nvPY.json, kkzzhizhou/scoop-apps, 1
 bucket/nvcleanstall.json, kkzzhizhou/scoop-apps, 0
 bucket/nvda.json, kkzzhizhou/scoop-apps, 1
 bucket/nvencc.json, kkzzhizhou/scoop-apps, 1
-bucket/nvencc_FlawlessCasual17.json, kkzzhizhou/scoop-apps, 1
+bucket/nvencc_natecohen.json, kkzzhizhou/scoop-apps, 1
 bucket/nvidia-cpl.json, kkzzhizhou/scoop-apps, 0
 bucket/nvidia-display-driver-dch-np.json, kkzzhizhou/scoop-apps, 0
 bucket/nvidia-display-driver-dch-np_TheRandomLabs.json, kkzzhizhou/scoop-apps, 0
@@ -10266,7 +10269,7 @@ bucket/postman-canary.json, kkzzhizhou/scoop-apps, 0
 bucket/postman-cn.json, kkzzhizhou/scoop-apps, 1
 bucket/postman-portapps.json, kkzzhizhou/scoop-apps, 1
 bucket/postman-v9.json, kkzzhizhou/scoop-apps, 0
-bucket/postman.json, kkzzhizhou/scoop-apps, 0
+bucket/postman.json, akirco/aki-apps, 0
 bucket/postman9.json, kkzzhizhou/scoop-apps, 0
 bucket/postman_akirco.json, kkzzhizhou/scoop-apps, 0
 bucket/pot-desktop.json, ivaquero/scoopet, 1
@@ -10595,7 +10598,6 @@ bucket/pyzo.json, kkzzhizhou/scoop-apps, 1
 bucket/q-dir.json, kkzzhizhou/scoop-apps, 0
 bucket/q-dir_echoiron.json, kkzzhizhou/scoop-apps, 0
 bucket/q-dns_DoveBoy.json, kkzzhizhou/scoop-apps, 1
-bucket/q10_naderi.json, kkzzhizhou/scoop-apps, 0
 bucket/q2pro.json, kkzzhizhou/scoop-apps, 0
 bucket/qBittorrent-Install.json, kkzzhizhou/scoop-apps, 0
 bucket/qBittorrent-Portable.json, kkzzhizhou/scoop-apps, 0
@@ -10699,7 +10701,7 @@ bucket/qt-creator-beta.json, kkzzhizhou/scoop-apps, 1
 bucket/qt-creator-cdb-ext.json, kkzzhizhou/scoop-apps, 0
 bucket/qt-creator-cn.json, ivaquero/scoopet, 0
 bucket/qt-creator-wininterrupt.json, kkzzhizhou/scoop-apps, 0
-bucket/qt-creator.json, akirco/aki-apps, 0
+bucket/qt-creator.json, kkzzhizhou/scoop-apps, 0
 bucket/qt-creator_akirco.json, kkzzhizhou/scoop-apps, 0
 bucket/qtemu.json, kkzzhizhou/scoop-apps, 0
 bucket/qtox.json, kkzzhizhou/scoop-apps, 1
@@ -11150,10 +11152,10 @@ bucket/routerpassview.json, kkzzhizhou/scoop-apps, 0
 bucket/routerpassview_ScoopInstaller.json, kkzzhizhou/scoop-apps, 0
 bucket/rpcs3-dev.json, kkzzhizhou/scoop-apps, 1
 bucket/rpcs3.json, kkzzhizhou/scoop-apps, 1
+bucket/rpcs3_Calinou.json, kkzzhizhou/scoop-apps, 1
 bucket/rpcs3_Deide.json, kkzzhizhou/scoop-apps, 1
 bucket/rpcs3_HUMORCE.json, kkzzhizhou/scoop-apps, 1
 bucket/rpcs3_borger.json, kkzzhizhou/scoop-apps, 1
-bucket/rpcs3_hermanjustnu.json, kkzzhizhou/scoop-apps, 1
 bucket/rq.json, kkzzhizhou/scoop-apps, 1
 bucket/rsgain.json, kkzzhizhou/scoop-apps, 1
 bucket/rssguard.json, kkzzhizhou/scoop-apps, 1
@@ -13134,7 +13136,7 @@ bucket/ventoy_WinApps-share.json, kkzzhizhou/scoop-apps, 1
 bucket/veonim.json, kkzzhizhou/scoop-apps, 1
 bucket/veracrypt-legacy-np.json, kkzzhizhou/scoop-apps, 0
 bucket/veracrypt-np.json, kkzzhizhou/scoop-apps, 0
-bucket/veracrypt-np_aoisummer.json, kkzzhizhou/scoop-apps, 0
+bucket/veracrypt-np_FlawlessCasual17.json, kkzzhizhou/scoop-apps, 0
 bucket/veracrypt-portable.json, kkzzhizhou/scoop-apps, 0
 bucket/veracrypt.json, ivaquero/scoopet, 0
 bucket/verilator.json, kkzzhizhou/scoop-apps, 1
@@ -13245,7 +13247,6 @@ bucket/vivaldi-snapshot.json, kkzzhizhou/scoop-apps, 0
 bucket/vivaldi-snapshot_batkiz.json, kkzzhizhou/scoop-apps, 0
 bucket/vivaldi.json, kkzzhizhou/scoop-apps, 0
 bucket/vivetool-gui.json, kkzzhizhou/scoop-apps, 1
-bucket/vivetool-gui_naderi.json, kkzzhizhou/scoop-apps, 1
 bucket/vivetool_ChungZH.json, kkzzhizhou/scoop-apps, 1
 bucket/vivetool_DoveBoy.json, kkzzhizhou/scoop-apps, 1
 bucket/vividl.json, kkzzhizhou/scoop-apps, 0
@@ -13669,7 +13670,6 @@ bucket/windjview.json, kkzzhizhou/scoop-apps, 0
 bucket/windjview_naderi.json, kkzzhizhou/scoop-apps, 0
 bucket/window-resizer.json, kkzzhizhou/scoop-apps, 1
 bucket/window-switcher.json, kkzzhizhou/scoop-apps, 1
-bucket/windows-10-update-assistant.json, kkzzhizhou/scoop-apps, 0
 bucket/windows-application-driver.json, akirco/aki-apps, 1
 bucket/windows-application-driver_akirco.json, kkzzhizhou/scoop-apps, 1
 bucket/windows-defender-control.json, kkzzhizhou/scoop-apps, 1
@@ -13762,6 +13762,7 @@ bucket/winmerge-jp.json, kkzzhizhou/scoop-apps, 1
 bucket/winmerge.json, kkzzhizhou/scoop-apps, 1
 bucket/winmerge2011.json, kkzzhizhou/scoop-apps, 1
 bucket/winmerge2011_liaoya.json, kkzzhizhou/scoop-apps, 0
+bucket/winmtr-cn.json, kkzzhizhou/scoop-apps, 0
 bucket/winmtr-live.json, kkzzhizhou/scoop-apps, 1
 bucket/winmtr.json, kkzzhizhou/scoop-apps, 0
 bucket/winmute.json, kkzzhizhou/scoop-apps, 1
@@ -14202,8 +14203,8 @@ bucket/xxd.json, kkzzhizhou/scoop-apps, 0
 bucket/xxl_jobExploitGUI.json, kkzzhizhou/scoop-apps, 1
 bucket/xxmi-launcher.json, kkzzhizhou/scoop-apps, 1
 bucket/xy-vsfilter.json, kkzzhizhou/scoop-apps, 1
+bucket/xyplorer.json, kkzzhizhou/scoop-apps, 0
 bucket/xyplorer_ScoopInstaller.json, kkzzhizhou/scoop-apps, 0
-bucket/xyplorer_echoiron.json, kkzzhizhou/scoop-apps, 0
 bucket/xyplorer_xrgzs.json, kkzzhizhou/scoop-apps, 0
 bucket/xyplorerpro.json, kkzzhizhou/scoop-apps, 0
 bucket/xysubfilter-libass-np.json, kkzzhizhou/scoop-apps, 1
