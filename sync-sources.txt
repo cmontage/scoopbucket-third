@@ -2184,7 +2184,7 @@ bucket/Terminus-NF.json, kkzzhizhou/scoop-apps, 1
 bucket/TerminusPlayer-Portable.json, kkzzhizhou/scoop-apps, 1
 bucket/TerminusPlayer_ygguorun.json, kkzzhizhou/scoop-apps, 1
 bucket/Termius-Beta.json, kkzzhizhou/scoop-apps, 0
-bucket/Termius.json, kkzzhizhou/scoop-apps, 0
+bucket/Termius_Darkatse.json, kkzzhizhou/scoop-apps, 0
 bucket/TesseractData-cn.json, kkzzhizhou/scoop-apps, 1
 bucket/TestMem5_Darkatse.json, kkzzhizhou/scoop-apps, 1
 bucket/TextFilter.json, kkzzhizhou/scoop-apps, 0
@@ -3880,8 +3880,8 @@ bucket/chrome-headless-shell.json, kkzzhizhou/scoop-apps, 0
 bucket/chrome-portable.json, kkzzhizhou/scoop-apps, 0
 bucket/chrome-power-app.json, kkzzhizhou/scoop-apps, 1
 bucket/chrome-with-flash.json, kkzzhizhou/scoop-apps, 1
-bucket/chrome.json, kkzzhizhou/scoop-apps, 0
-bucket/chrome_xrgzs.json, kkzzhizhou/scoop-apps, 1
+bucket/chrome.json, kkzzhizhou/scoop-apps, 1
+bucket/chrome_echoiron.json, kkzzhizhou/scoop-apps, 0
 bucket/chrome_yuanying1199.json, kkzzhizhou/scoop-apps, 0
 bucket/chromecacheview.json, kkzzhizhou/scoop-apps, 0
 bucket/chromecacheview_kodybrown.json, kkzzhizhou/scoop-apps, 0
@@ -3902,7 +3902,7 @@ bucket/chromium-dev.json, kkzzhizhou/scoop-apps, 0
 bucket/chromium-nosync.json, kkzzhizhou/scoop-apps, 1
 bucket/chromium-np.json, kkzzhizhou/scoop-apps, 1
 bucket/chromium-xp.json, kkzzhizhou/scoop-apps, 0
-bucket/chromium.json, kkzzhizhou/scoop-apps, 1
+bucket/chromium.json, akirco/aki-apps, 1
 bucket/chromium_akirco.json, kkzzhizhou/scoop-apps, 1
 bucket/chromium_hu3rror.json, kkzzhizhou/scoop-apps, 1
 bucket/chrono.json, kkzzhizhou/scoop-apps, 1
@@ -5891,7 +5891,7 @@ bucket/gInk_dodorz.json, kkzzhizhou/scoop-apps, 1
 bucket/gacview.json, kkzzhizhou/scoop-apps, 0
 bucket/gacview_ScoopInstaller.json, kkzzhizhou/scoop-apps, 0
 bucket/gajim.json, kkzzhizhou/scoop-apps, 0
-bucket/gajim_Deide.json, kkzzhizhou/scoop-apps, 0
+bucket/gajim_FlawlessCasual17.json, kkzzhizhou/scoop-apps, 0
 bucket/galaxy-3ds-citra.json, kkzzhizhou/scoop-apps, 1
 bucket/galaxy-amazon.json, kkzzhizhou/scoop-apps, 1
 bucket/galaxy-battlenet.json, kkzzhizhou/scoop-apps, 1
@@ -6300,7 +6300,7 @@ bucket/googlechrome-canary_42wim.json, kkzzhizhou/scoop-apps, 0
 bucket/googlechrome-dev.json, kkzzhizhou/scoop-apps, 0
 bucket/googlechrome-dev_42wim.json, kkzzhizhou/scoop-apps, 0
 bucket/googlechrome-portable_42wim.json, kkzzhizhou/scoop-apps, 0
-bucket/googlechrome.json, kkzzhizhou/scoop-apps, 0
+bucket/googlechrome.json, akirco/aki-apps, 0
 bucket/googlechrome_akirco.json, kkzzhizhou/scoop-apps, 0
 bucket/googlechrome_kkzzhizhou.json, kkzzhizhou/scoop-apps, 0
 bucket/googledrive-np.json, kkzzhizhou/scoop-apps, 0
@@ -6662,6 +6662,7 @@ bucket/htmldocedit_ScoopInstaller.json, kkzzhizhou/scoop-apps, 0
 bucket/htmlhelp.json, kkzzhizhou/scoop-apps, 0
 bucket/htsc-desktop.json, kkzzhizhou/scoop-apps, 0
 bucket/http-downloader.json, kkzzhizhou/scoop-apps, 1
+bucket/http-downloader_DoveBoy.json, kkzzhizhou/scoop-apps, 1
 bucket/http-prompt-py.json, kkzzhizhou/scoop-apps, 1
 bucket/http.sys-manager.json, kkzzhizhou/scoop-apps, 0
 bucket/httpie-go.json, kkzzhizhou/scoop-apps, 1
@@ -8533,7 +8534,7 @@ bucket/multicommander.json, kkzzhizhou/scoop-apps, 0
 bucket/multidoge.json, kkzzhizhou/scoop-apps, 1
 bucket/multimarkdown.json, kkzzhizhou/scoop-apps, 1
 bucket/multimc.json, kkzzhizhou/scoop-apps, 0
-bucket/multimc_Deide.json, kkzzhizhou/scoop-apps, 0
+bucket/multimc_The-Simples.json, kkzzhizhou/scoop-apps, 0
 bucket/multimc_chawyehsu.json, kkzzhizhou/scoop-apps, 0
 bucket/multimonitortool.json, kkzzhizhou/scoop-apps, 0
 bucket/multimonitortool_kodybrown.json, kkzzhizhou/scoop-apps, 0
@@ -10282,7 +10283,7 @@ bucket/postman-canary.json, kkzzhizhou/scoop-apps, 0
 bucket/postman-cn.json, kkzzhizhou/scoop-apps, 1
 bucket/postman-portapps.json, kkzzhizhou/scoop-apps, 1
 bucket/postman-v9.json, kkzzhizhou/scoop-apps, 0
-bucket/postman.json, akirco/aki-apps, 0
+bucket/postman.json, kkzzhizhou/scoop-apps, 0
 bucket/postman9.json, kkzzhizhou/scoop-apps, 0
 bucket/postman_akirco.json, kkzzhizhou/scoop-apps, 0
 bucket/pot-desktop.json, ivaquero/scoopet, 1
@@ -12002,6 +12003,7 @@ bucket/sqlmap4burp-plus-plus.json, kkzzhizhou/scoop-apps, 1
 bucket/sqlmap_kengwang.json, kkzzhizhou/scoop-apps, 1
 bucket/sqlmetal.json, kkzzhizhou/scoop-apps, 0
 bucket/sqls.json, kkzzhizhou/scoop-apps, 1
+bucket/sqly.json, kkzzhizhou/scoop-apps, 1
 bucket/sqlyog-community.json, kkzzhizhou/scoop-apps, 0
 bucket/sqruff.json, kkzzhizhou/scoop-apps, 1
 bucket/squalr.json, kkzzhizhou/scoop-apps, 1
@@ -12422,7 +12424,7 @@ bucket/telegram-beta.json, kkzzhizhou/scoop-apps, 1
 bucket/telegram-downloader.json, kkzzhizhou/scoop-apps, 1
 bucket/telegram-downloader_DoveBoy.json, kkzzhizhou/scoop-apps, 1
 bucket/telegram-downloader_ScoopInstaller.json, kkzzhizhou/scoop-apps, 1
-bucket/telegram.json, kkzzhizhou/scoop-apps, 1
+bucket/telegram.json, akirco/aki-apps, 0
 bucket/telegram_DoveBoy.json, kkzzhizhou/scoop-apps, 1
 bucket/telegram_HUMORCE.json, kkzzhizhou/scoop-apps, 1
 bucket/telegram_WinApps-share.json, kkzzhizhou/scoop-apps, 1
@@ -12491,7 +12493,7 @@ bucket/terminus@1.0.0-alpha.62.json, kkzzhizhou/scoop-apps, 1
 bucket/terminus@1.0.68.json, kkzzhizhou/scoop-apps, 1
 bucket/terminus_rivy.json, kkzzhizhou/scoop-apps, 1
 bucket/terminusplayer.json, kkzzhizhou/scoop-apps, 1
-bucket/termius_ScoopInstaller.json, kkzzhizhou/scoop-apps, 0
+bucket/termius.json, kkzzhizhou/scoop-apps, 0
 bucket/termius_kkzzhizhou.json, kkzzhizhou/scoop-apps, 0
 bucket/termscp.json, akirco/aki-apps, 1
 bucket/termscp_DoveBoy.json, kkzzhizhou/scoop-apps, 1
