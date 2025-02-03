@@ -957,7 +957,7 @@ bucket/IdeaCE.json, kkzzhizhou/scoop-apps, 0
 bucket/Idea_abgox.json, kkzzhizhou/scoop-apps, 0
 bucket/ImDiskToolkit.json, kkzzhizhou/scoop-apps, 0
 bucket/ImPlay_ygguorun.json, kkzzhizhou/scoop-apps, 1
-bucket/ImTip.json, kkzzhizhou/scoop-apps, 0
+bucket/ImTip_hu3rror.json, kkzzhizhou/scoop-apps, 0
 bucket/ImTip_ygguorun.json, kkzzhizhou/scoop-apps, 0
 bucket/ImageGlass-Portable.json, kkzzhizhou/scoop-apps, 1
 bucket/ImageGlass_abgox.json, kkzzhizhou/scoop-apps, 1
@@ -1107,7 +1107,7 @@ bucket/LDWin-Portable.json, kkzzhizhou/scoop-apps, 1
 bucket/LGPO-Portable.json, kkzzhizhou/scoop-apps, 0
 bucket/LLFTOOL.json, kkzzhizhou/scoop-apps, 1
 bucket/LM-Studio.json, kkzzhizhou/scoop-apps, 0
-bucket/LMStudio.json, kkzzhizhou/scoop-apps, 0
+bucket/LMStudio_dodorz.json, kkzzhizhou/scoop-apps, 0
 bucket/LNE-LINK.json, kkzzhizhou/scoop-apps, 1
 bucket/LX-Music_abgox.json, kkzzhizhou/scoop-apps, 1
 bucket/LXGW-Bright-GB.json, kkzzhizhou/scoop-apps, 1
@@ -4320,7 +4320,7 @@ bucket/deepgit.json, kkzzhizhou/scoop-apps, 0
 bucket/deepgit402.json, kkzzhizhou/scoop-apps, 0
 bucket/deepl.json, kkzzhizhou/scoop-apps, 0
 bucket/deeplx.json, kkzzhizhou/scoop-apps, 1
-bucket/deeplx_DoveBoy.json, kkzzhizhou/scoop-apps, 1
+bucket/deeplx_ScoopInstaller.json, kkzzhizhou/scoop-apps, 1
 bucket/deew.json, kkzzhizhou/scoop-apps, 1
 bucket/default-programs-editor.json, kkzzhizhou/scoop-apps, 0
 bucket/defaultprogrameditor.json, kkzzhizhou/scoop-apps, 0
@@ -4846,6 +4846,7 @@ bucket/edrawmax.json, ivaquero/scoopet, 0
 bucket/edrawmax8.json, ivaquero/scoopet, 0
 bucket/edtracker.json, kkzzhizhou/scoop-apps, 0
 bucket/eduke32.json, kkzzhizhou/scoop-apps, 0
+bucket/eduvpn.json, kkzzhizhou/scoop-apps, 0
 bucket/edx.json, kkzzhizhou/scoop-apps, 0
 bucket/effekseer.json, kkzzhizhou/scoop-apps, 1
 bucket/effekseer_FlawlessCasual17.json, kkzzhizhou/scoop-apps, 1
@@ -5379,6 +5380,7 @@ bucket/flexible-renamer.json, kkzzhizhou/scoop-apps, 0
 bucket/flexihub.json, kkzzhizhou/scoop-apps, 0
 bucket/flipIt.json, kkzzhizhou/scoop-apps, 1
 bucket/flips.json, kkzzhizhou/scoop-apps, 1
+bucket/flix.json, kkzzhizhou/scoop-apps, 0
 bucket/flog.json, kkzzhizhou/scoop-apps, 1
 bucket/floorp.json, kkzzhizhou/scoop-apps, 1
 bucket/flow-launcher.json, kkzzhizhou/scoop-apps, 1
@@ -6540,7 +6542,7 @@ bucket/imo-messenger.json, kkzzhizhou/scoop-apps, 0
 bucket/implay.json, kkzzhizhou/scoop-apps, 1
 bucket/implay_FlawlessCasual17.json, kkzzhizhou/scoop-apps, 1
 bucket/impregnate.json, kkzzhizhou/scoop-apps, 1
-bucket/imtip_WinApps-share.json, kkzzhizhou/scoop-apps, 0
+bucket/imtip.json, kkzzhizhou/scoop-apps, 0
 bucket/inbac.json, kkzzhizhou/scoop-apps, 1
 bucket/inboxer.json, kkzzhizhou/scoop-apps, 1
 bucket/inbucket.json, kkzzhizhou/scoop-apps, 1
@@ -7408,6 +7410,7 @@ bucket/llvm_akirco.json, kkzzhizhou/scoop-apps, 1
 bucket/llvm_rivy.json, kkzzhizhou/scoop-apps, 1
 bucket/lmgrep.json, kkzzhizhou/scoop-apps, 1
 bucket/lmms.json, kkzzhizhou/scoop-apps, 1
+bucket/lmstudio.json, kkzzhizhou/scoop-apps, 0
 bucket/lnCLI-Portable.json, kkzzhizhou/scoop-apps, 0
 bucket/loadeddllsview.json, kkzzhizhou/scoop-apps, 0
 bucket/loadeddllsview_ScoopInstaller.json, kkzzhizhou/scoop-apps, 0
@@ -7699,6 +7702,7 @@ bucket/mediacreationtool.json, kkzzhizhou/scoop-apps, 1
 bucket/mediaelch.json, kkzzhizhou/scoop-apps, 1
 bucket/mediago-beta.json, kkzzhizhou/scoop-apps, 1
 bucket/mediago.json, kkzzhizhou/scoop-apps, 1
+bucket/mediago_xrgzs.json, kkzzhizhou/scoop-apps, 1
 bucket/mediainfo-gui.json, kkzzhizhou/scoop-apps, 0
 bucket/mediainfo.net.json, kkzzhizhou/scoop-apps, 1
 bucket/mediamtx_HUMORCE.json, kkzzhizhou/scoop-apps, 1
@@ -9157,9 +9161,9 @@ bucket/pdfelement.json, kkzzhizhou/scoop-apps, 0
 bucket/pdfgear.json, kkzzhizhou/scoop-apps, 0
 bucket/pdfill-np.json, kkzzhizhou/scoop-apps, 0
 bucket/pdfmk.json, kkzzhizhou/scoop-apps, 1
-bucket/pdfpatcher.json, kkzzhizhou/scoop-apps, 0
+bucket/pdfpatcher.json, kkzzhizhou/scoop-apps, 1
 bucket/pdfpatcher_DoveBoy.json, kkzzhizhou/scoop-apps, 1
-bucket/pdfpatcher_hu3rror.json, kkzzhizhou/scoop-apps, 1
+bucket/pdfpatcher_echoiron.json, kkzzhizhou/scoop-apps, 0
 bucket/pdfpatcher_xrgzs.json, kkzzhizhou/scoop-apps, 1
 bucket/pdfqfz.json, kkzzhizhou/scoop-apps, 1
 bucket/pdfsam-visual.json, kkzzhizhou/scoop-apps, 1
@@ -12507,7 +12511,7 @@ bucket/v2rayn-core.json, kkzzhizhou/scoop-apps, 1
 bucket/v2rayn-core_seumsc.json, kkzzhizhou/scoop-apps, 1
 bucket/v2rayn-pre.json, kkzzhizhou/scoop-apps, 1
 bucket/v2rayn.json, kkzzhizhou/scoop-apps, 1
-bucket/v2rayn_DoveBoy.json, kkzzhizhou/scoop-apps, 1
+bucket/v2rayn_ScoopInstaller.json, kkzzhizhou/scoop-apps, 1
 bucket/v2rayn_echoiron.json, kkzzhizhou/scoop-apps, 1
 bucket/v2rayn_noql-net.json, kkzzhizhou/scoop-apps, 1
 bucket/v2rayn_xrgzs.json, kkzzhizhou/scoop-apps, 1
@@ -12768,7 +12772,7 @@ bucket/vscode-portable-association.json, kkzzhizhou/scoop-apps, 1
 bucket/vscode-portable.json, kkzzhizhou/scoop-apps, 0
 bucket/vscode-portable32.json, kkzzhizhou/scoop-apps, 1
 bucket/vscode-win7.json, ivaquero/scoopet, 1
-bucket/vscode.json, akirco/aki-apps, 1
+bucket/vscode.json, kkzzhizhou/scoop-apps, 1
 bucket/vscode1740.json, kkzzhizhou/scoop-apps, 1
 bucket/vscode@1.59.1.json, kkzzhizhou/scoop-apps, 0
 bucket/vscode@1.64.0.json, kkzzhizhou/scoop-apps, 0
