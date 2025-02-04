@@ -3346,7 +3346,7 @@ bucket/blur.json, kkzzhizhou/scoop-apps, 1
 bucket/blush.json, kkzzhizhou/scoop-apps, 1
 bucket/bminer-lite.json, kkzzhizhou/scoop-apps, 0
 bucket/bob-wallet.json, kkzzhizhou/scoop-apps, 1
-bucket/bob.json, kkzzhizhou/scoop-apps, 1
+bucket/bob.json, akirco/aki-apps, 1
 bucket/boilr.json, kkzzhizhou/scoop-apps, 1
 bucket/boilsoft-video-joiner.json, kkzzhizhou/scoop-apps, 0
 bucket/boinc.json, kkzzhizhou/scoop-apps, 0
@@ -4200,7 +4200,7 @@ bucket/curl_rivy.json, kkzzhizhou/scoop-apps, 0
 bucket/curlie_aliesbelik.json, kkzzhizhou/scoop-apps, 1
 bucket/currports.json, kkzzhizhou/scoop-apps, 0
 bucket/currprocess.json, kkzzhizhou/scoop-apps, 0
-bucket/cursor.json, kkzzhizhou/scoop-apps, 0
+bucket/cursor.json, akirco/aki-apps, 0
 bucket/cursor_TianXiaTech.json, kkzzhizhou/scoop-apps, 0
 bucket/custom-resolution-utility.json, kkzzhizhou/scoop-apps, 0
 bucket/custom-resolution-utility_TheRandomLabs.json, kkzzhizhou/scoop-apps, 0
@@ -4320,7 +4320,7 @@ bucket/deepgit.json, kkzzhizhou/scoop-apps, 0
 bucket/deepgit402.json, kkzzhizhou/scoop-apps, 0
 bucket/deepl.json, kkzzhizhou/scoop-apps, 0
 bucket/deeplx.json, kkzzhizhou/scoop-apps, 1
-bucket/deeplx_ScoopInstaller.json, kkzzhizhou/scoop-apps, 1
+bucket/deeplx_DoveBoy.json, kkzzhizhou/scoop-apps, 1
 bucket/deew.json, kkzzhizhou/scoop-apps, 1
 bucket/default-programs-editor.json, kkzzhizhou/scoop-apps, 0
 bucket/defaultprogrameditor.json, kkzzhizhou/scoop-apps, 0
@@ -4866,7 +4866,7 @@ bucket/elasticsearch.json, kkzzhizhou/scoop-apps, 0
 bucket/elasticsearch1.json, kkzzhizhou/scoop-apps, 0
 bucket/elasticsearch2.json, kkzzhizhou/scoop-apps, 0
 bucket/elasticsearch5.json, kkzzhizhou/scoop-apps, 0
-bucket/electerm.json, kkzzhizhou/scoop-apps, 1
+bucket/electerm.json, akirco/aki-apps, 1
 bucket/electerm_SayCV.json, kkzzhizhou/scoop-apps, 1
 bucket/electerm_ScoopInstaller.json, kkzzhizhou/scoop-apps, 1
 bucket/electerm_akirco.json, kkzzhizhou/scoop-apps, 1
@@ -5808,6 +5808,7 @@ bucket/git-credential-manager-core.json, kkzzhizhou/scoop-apps, 1
 bucket/git-credential-manager.json, kkzzhizhou/scoop-apps, 1
 bucket/git-extras.json, kkzzhizhou/scoop-apps, 1
 bucket/git-graph.json, kkzzhizhou/scoop-apps, 1
+bucket/git-graph_naderi.json, kkzzhizhou/scoop-apps, 1
 bucket/git-igitt.json, kkzzhizhou/scoop-apps, 1
 bucket/git-lfs_ShuguangSun.json, kkzzhizhou/scoop-apps, 1
 bucket/git-repo-clean.json, kkzzhizhou/scoop-apps, 0
@@ -5852,7 +5853,7 @@ bucket/gitextensions_cc713.json, kkzzhizhou/scoop-apps, 1
 bucket/gitg.json, kkzzhizhou/scoop-apps, 0
 bucket/github-beta.json, kkzzhizhou/scoop-apps, 0
 bucket/github-hosts.json, kkzzhizhou/scoop-apps, 1
-bucket/github.json, kkzzhizhou/scoop-apps, 0
+bucket/github.json, akirco/aki-apps, 0
 bucket/github_DoveBoy.json, kkzzhizhou/scoop-apps, 0
 bucket/gitify.json, kkzzhizhou/scoop-apps, 1
 bucket/gitkraken.json, kkzzhizhou/scoop-apps, 1
@@ -6210,9 +6211,11 @@ bucket/haskellx.json, kkzzhizhou/scoop-apps, 0
 bucket/hasklig_KnotUntied.json, kkzzhizhou/scoop-apps, 1
 bucket/haskplex.json, kkzzhizhou/scoop-apps, 0
 bucket/haxe-dev.json, kkzzhizhou/scoop-apps, 1
+bucket/hbuilderx-alpha_xrgzs.json, kkzzhizhou/scoop-apps, 0
 bucket/hbuilderx.json, kkzzhizhou/scoop-apps, 0
 bucket/hbuilderx_akirco.json, kkzzhizhou/scoop-apps, 0
 bucket/hbuilderx_ivaquero.json, kkzzhizhou/scoop-apps, 0
+bucket/hbuilderx_xrgzs.json, kkzzhizhou/scoop-apps, 0
 bucket/hdcleaner_FlawlessCasual17.json, kkzzhizhou/scoop-apps, 0
 bucket/hdcleaner_naderi.json, kkzzhizhou/scoop-apps, 0
 bucket/hdd-raw-copy.json, kkzzhizhou/scoop-apps, 0
@@ -6467,6 +6470,7 @@ bucket/idea-ultimate-rc.json, kkzzhizhou/scoop-apps, 1
 bucket/idea-ultimate.json, kkzzhizhou/scoop-apps, 1
 bucket/idea.json, kkzzhizhou/scoop-apps, 1
 bucket/ideaIC.json, kkzzhizhou/scoop-apps, 0
+bucket/identme.json, kkzzhizhou/scoop-apps, 1
 bucket/idlemaster-extended.json, kkzzhizhou/scoop-apps, 1
 bucket/idm-activation-script.json, kkzzhizhou/scoop-apps, 1
 bucket/idm-trial-reset.json, kkzzhizhou/scoop-apps, 1
@@ -8009,6 +8013,7 @@ bucket/mozlz4.json, kkzzhizhou/scoop-apps, 1
 bucket/mozregression-gui.json, kkzzhizhou/scoop-apps, 1
 bucket/mp3directcut.json, kkzzhizhou/scoop-apps, 0
 bucket/mp3tag.json, kkzzhizhou/scoop-apps, 0
+bucket/mp3tag_fixed.json, kkzzhizhou/scoop-apps, 0
 bucket/mp3tag_hu3rror.json, kkzzhizhou/scoop-apps, 0
 bucket/mp4muxer.json, kkzzhizhou/scoop-apps, 0
 bucket/mp4tools_mo-san.json, kkzzhizhou/scoop-apps, 0
@@ -8308,6 +8313,7 @@ bucket/neofetch.json, akirco/aki-apps, 1
 bucket/neofetch_akirco.json, kkzzhizhou/scoop-apps, 1
 bucket/neofetch_dodorz.json, kkzzhizhou/scoop-apps, 1
 bucket/neohtop.json, kkzzhizhou/scoop-apps, 1
+bucket/neohtop_TianXiaTech.json, kkzzhizhou/scoop-apps, 1
 bucket/neoray.json, kkzzhizhou/scoop-apps, 1
 bucket/neovide-dev.json, kkzzhizhou/scoop-apps, 1
 bucket/neovide.json, kkzzhizhou/scoop-apps, 1
@@ -9831,7 +9837,7 @@ bucket/postgresql15.json, kkzzhizhou/scoop-apps, 0
 bucket/postman-canary.json, kkzzhizhou/scoop-apps, 0
 bucket/postman-cn.json, kkzzhizhou/scoop-apps, 1
 bucket/postman-v9.json, kkzzhizhou/scoop-apps, 0
-bucket/postman.json, kkzzhizhou/scoop-apps, 0
+bucket/postman.json, akirco/aki-apps, 0
 bucket/postman9.json, kkzzhizhou/scoop-apps, 0
 bucket/postman_akirco.json, kkzzhizhou/scoop-apps, 0
 bucket/pot-desktop.json, ivaquero/scoopet, 1
@@ -13281,7 +13287,7 @@ bucket/wizfile.json, kkzzhizhou/scoop-apps, 0
 bucket/wizfile_ACooper81.json, kkzzhizhou/scoop-apps, 0
 bucket/wizmo.json, kkzzhizhou/scoop-apps, 0
 bucket/wizmouse.json, kkzzhizhou/scoop-apps, 0
-bucket/wiztree-setup.json, kkzzhizhou/scoop-apps, 0
+bucket/wiztree-np.json, kkzzhizhou/scoop-apps, 0
 bucket/wiztree.json, kkzzhizhou/scoop-apps, 0
 bucket/wiztree_WinApps-share.json, kkzzhizhou/scoop-apps, 0
 bucket/wkhtmltopdf.json, akirco/aki-apps, 1
@@ -13652,6 +13658,7 @@ bucket/ydict.json, kkzzhizhou/scoop-apps, 1
 bucket/ydl-ui-portable.json, kkzzhizhou/scoop-apps, 1
 bucket/ydl-ui.json, kkzzhizhou/scoop-apps, 1
 bucket/yed.json, kkzzhizhou/scoop-apps, 0
+bucket/yek.json, kkzzhizhou/scoop-apps, 1
 bucket/yesplay-music.json, kkzzhizhou/scoop-apps, 1
 bucket/yesplaymusic.json, kkzzhizhou/scoop-apps, 1
 bucket/yesplaymusic_DoveBoy.json, kkzzhizhou/scoop-apps, 1
