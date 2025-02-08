@@ -32,7 +32,8 @@ export async function checkoutRepo(repo, baseDir, debug = false) {
     if (fs.existsSync(dirpath)) {
       execSync(`git reset --hard && git pull`, { cwd: dirpath });
     } else {
-      repo = debug ? `${CONFIG.ghproxy}/github.com/${repo}` : `https://github.com/${repo}.git`;
+      // repo = debug ? `${CONFIG.ghproxy}/github.com/${repo}` : `https://github.com/${repo}.git`;
+      repo = debug ? `https://github.com/${repo}` : `https://github.com/${repo}.git`;
       execSync(`git clone --depth 1 ${repo} ${dirName}`, { cwd: baseDir });
     }
   } catch (error) {
