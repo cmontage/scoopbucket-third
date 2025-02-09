@@ -33,7 +33,7 @@ Integrate Scoop third-party libraries into a Bucket, synchronized daily, as an e
 添加本仓库，运行命令
 
     ```powershell
-    scoop bucket add third https:/gitee.com/cmontage/scoopbucket-third
+    scoop bucket add third https://gitee.com/cmontage/scoopbucket-third
 
     # 如果需要移除本仓库
     scoop bucket rm third
