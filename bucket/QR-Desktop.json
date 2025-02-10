@@ -3,7 +3,7 @@
   "description": "Generate qr-code by copied text",
   "license": "GPL-2.0-only",
   "version": "0.3.3",
-  "url": "https://ghgo.xyz/https://github.com/znsoooo/qr-desktop/releases/download/v0.3.3/qr_desktop_v033.zip",
+  "url": "https://github.com/znsoooo/qr-desktop/releases/download/v0.3.3/qr_desktop_v033.zip",
   "hash": "0bfb05f78d576f452a8e01daee1481bfba1b769ba7a2690cd74b7fa0145d6b22",
   "bin": "qr_desktop_v033_no_icon.exe",
   "shortcuts": [
@@ -14,7 +14,7 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/znsoooo/qr-desktop/releases/download/v$version/qr_desktop_v$cleanVersion.zip",
+    "url": "https://github.com/znsoooo/qr-desktop/releases/download/v$version/qr_desktop_v$cleanVersion.zip",
     "bin": "qr_desktop_v$cleanVersion_no_icon.exe"
   }
 }

@@ -5,11 +5,11 @@
   "license": "Apache-2.0|MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/astral-sh/uv/releases/download/0.5.29/uv-x86_64-pc-windows-msvc.zip",
+      "url": "https://github.com/astral-sh/uv/releases/download/0.5.29/uv-x86_64-pc-windows-msvc.zip",
       "hash": "2453b17df889822a5b8dcd3467dd6b75a410d61f5e6504362e3852fb3175c19c"
     },
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/astral-sh/uv/releases/download/0.5.29/uv-i686-pc-windows-msvc.zip",
+      "url": "https://github.com/astral-sh/uv/releases/download/0.5.29/uv-i686-pc-windows-msvc.zip",
       "hash": "e35c4bba6af151e3a952629c7054b0f6d901c83aa7a3a21aedc3880424790294"
     }
   },
@@ -30,10 +30,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/astral-sh/uv/releases/download/$version/uv-x86_64-pc-windows-msvc.zip"
+        "url": "https://github.com/astral-sh/uv/releases/download/$version/uv-x86_64-pc-windows-msvc.zip"
       },
       "32bit": {
-        "url": "https://ghgo.xyz/https://github.com/astral-sh/uv/releases/download/$version/uv-i686-pc-windows-msvc.zip"
+        "url": "https://github.com/astral-sh/uv/releases/download/$version/uv-i686-pc-windows-msvc.zip"
       }
     },
     "hash": {

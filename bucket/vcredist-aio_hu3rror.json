@@ -7,12 +7,12 @@
     "url": "https://github.com/abbodi1406/vcredist/blob/master/LICENSE"
   },
   "notes": "You can now remove vcredist-aio installers with 'scoop uninstall vcredist-aio'",
-  "url": "https://ghgo.xyz/https://github.com/abbodi1406/vcredist/releases/download/v0.86.0/VisualCppRedist_AIO_x86_x64_86.zip",
+  "url": "https://github.com/abbodi1406/vcredist/releases/download/v0.86.0/VisualCppRedist_AIO_x86_x64_86.zip",
   "hash": "ec81cac834e3a0edde94d9cf7690c4e6297277dfc041ba7b9d3634f5333d8ebe",
   "post_install": "Start-Process -FilePath \"$dir\\VisualCppRedist_AIO_x86_x64.exe\" -ArgumentList '/y' -Verb RunAs",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/abbodi1406/vcredist/releases/download/v$version/VisualCppRedist_AIO_x86_x64_$minorVersion.zip",
+    "url": "https://github.com/abbodi1406/vcredist/releases/download/v$version/VisualCppRedist_AIO_x86_x64_$minorVersion.zip",
     "hash": {
       "url": "https://github.com/abbodi1406/vcredist/releases",
       "regex": "(?sm)$basename.*?SHA-256:.$sha256"

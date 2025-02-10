@@ -6,7 +6,7 @@
   "notes": "If you want scoop to uninstall the service during the un-installation process, use the `-p` switch (this will also remove all persisted files)",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/filecxx/FileCentipede/releases/download/v2.82.0/filecxx_2.82_win_x64.zip",
+      "url": "https://github.com/filecxx/FileCentipede/releases/download/v2.82.0/filecxx_2.82_win_x64.zip",
       "hash": "f0bdef157f45ae1652ede116ebe98d889d163e5c094e88a076e917989742fe1e"
     }
   },
@@ -56,7 +56,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/filecxx/FileCentipede/releases/download/$version/filecxx_$majorVersion.$minorVersion_win_x64.zip"
+        "url": "https://github.com/filecxx/FileCentipede/releases/download/$version/filecxx_$majorVersion.$minorVersion_win_x64.zip"
       }
     }
   }

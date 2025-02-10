@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/meowtec/Imagine/releases/download/v0.7.5/Imagine-Setup-0.7.5.exe#/dl.7z",
+      "url": "https://github.com/meowtec/Imagine/releases/download/v0.7.5/Imagine-Setup-0.7.5.exe#/dl.7z",
       "hash": "e0f7d54f3d2cb2e406003dafac492512b90dbf607cd2aed49335b1a70bcb6e74",
       "installer": {
         "script": [
@@ -25,7 +25,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/meowtec/Imagine/releases/download/v$version/Imagine-Setup-$version.exe#/dl.7z"
+        "url": "https://github.com/meowtec/Imagine/releases/download/v$version/Imagine-Setup-$version.exe#/dl.7z"
       }
     }
   }

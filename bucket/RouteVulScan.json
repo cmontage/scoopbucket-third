@@ -13,8 +13,8 @@
     ]
   },
   "url": [
-    "https://ghgo.xyz/https://github.com/F6JO/RouteVulScan/releases/download/RouteVulScan1.5.4/RouteVulScan-1.5.4-JDK8.jar",
-    "https://ghgo.xyz/https://github.com/F6JO/RouteVulScan/releases/download/RouteVulScan1.5.4/RouteVulScan-1.5.4-JDK11.jar"
+    "https://github.com/F6JO/RouteVulScan/releases/download/RouteVulScan1.5.4/RouteVulScan-1.5.4-JDK8.jar",
+    "https://github.com/F6JO/RouteVulScan/releases/download/RouteVulScan1.5.4/RouteVulScan-1.5.4-JDK11.jar"
   ],
   "hash": [
     "70d6d66fbb054b5dff7863afe99f403ab3cc8c53d1329a6beb377b2559a21f9b",
@@ -31,8 +31,8 @@
   },
   "autoupdate": {
     "url": [
-      "https://ghgo.xyz/https://github.com/F6JO/RouteVulScan/releases/download/RouteVulScan$version/RouteVulScan-$version-JDK8.jar",
-      "https://ghgo.xyz/https://github.com/F6JO/RouteVulScan/releases/download/RouteVulScan$version/RouteVulScan-$version-JDK11.jar"
+      "https://github.com/F6JO/RouteVulScan/releases/download/RouteVulScan$version/RouteVulScan-$version-JDK8.jar",
+      "https://github.com/F6JO/RouteVulScan/releases/download/RouteVulScan$version/RouteVulScan-$version-JDK11.jar"
     ]
   }
 }

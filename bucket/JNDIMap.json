@@ -10,10 +10,10 @@
     ]
   },
   "checkver": "github",
-  "url": "https://ghgo.xyz/https://github.com/X1r0z/JNDIMap/releases/download/v0.0.1/JNDIMap-0.0.1.jar#/JNDIMap.jar",
+  "url": "https://github.com/X1r0z/JNDIMap/releases/download/v0.0.1/JNDIMap-0.0.1.jar#/JNDIMap.jar",
   "hash": "60788e891ed1b3aea44a471ef804df07e657ae9f2dacf1bf1a68af49f139ea86",
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/X1r0z/JNDIMap/releases/download/v$version/JNDIMap-$version.jar#/JNDIMap.jar"
+    "url": "https://github.com/X1r0z/JNDIMap/releases/download/v$version/JNDIMap-$version.jar#/JNDIMap.jar"
   },
   "bin": "JNDIMap.jar"
 }

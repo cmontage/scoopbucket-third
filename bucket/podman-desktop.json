@@ -5,7 +5,7 @@
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/containers/podman-desktop/releases/download/v1.16.1/podman-desktop-1.16.1.exe#/dl.7z",
+      "url": "https://github.com/containers/podman-desktop/releases/download/v1.16.1/podman-desktop-1.16.1.exe#/dl.7z",
       "hash": "fb751822c8adcf54d17bb1425134939db666cb7ec4715a813e5df6f427f12bdf",
       "pre_install": [
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
@@ -33,7 +33,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/containers/podman-desktop/releases/download/v$version/podman-desktop-$version.exe#/dl.7z"
+        "url": "https://github.com/containers/podman-desktop/releases/download/v$version/podman-desktop-$version.exe#/dl.7z"
       }
     }
   }

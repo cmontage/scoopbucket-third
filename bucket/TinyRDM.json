@@ -5,11 +5,11 @@
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/tiny-craft/tiny-rdm/releases/download/v1.2.3/TinyRDM_Setup_1.2.3_windows_x64.exe",
+      "url": "https://github.com/tiny-craft/tiny-rdm/releases/download/v1.2.3/TinyRDM_Setup_1.2.3_windows_x64.exe",
       "hash": "bb471dd2f6909a0b7c4a7784474702ed079c5093ba614a40a2dcff241237adef"
     },
     "arm64": {
-      "url": "https://ghgo.xyz/https://github.com/tiny-craft/tiny-rdm/releases/download/v1.2.3/TinyRDM_Setup_1.2.3_windows_arm64.exe",
+      "url": "https://github.com/tiny-craft/tiny-rdm/releases/download/v1.2.3/TinyRDM_Setup_1.2.3_windows_arm64.exe",
       "hash": "2db02fa4b5cd9ebe5bf442d3024c2806e9ffe243516558cba2bd82ff4c33debb"
     }
   },
@@ -26,10 +26,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/tiny-craft/tiny-rdm/releases/download/v$version/TinyRDM_Setup_$version_windows_x64.exe"
+        "url": "https://github.com/tiny-craft/tiny-rdm/releases/download/v$version/TinyRDM_Setup_$version_windows_x64.exe"
       },
       "arm64": {
-        "url": "https://ghgo.xyz/https://github.com/tiny-craft/tiny-rdm/releases/download/v$version/TinyRDM_Setup_$version_windows_arm64.exe"
+        "url": "https://github.com/tiny-craft/tiny-rdm/releases/download/v$version/TinyRDM_Setup_$version_windows_arm64.exe"
       }
     }
   }

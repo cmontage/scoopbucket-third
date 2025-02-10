@@ -6,7 +6,7 @@
   "changelog": "https://github.com/marticliment/UniGetUI/releases",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/marticliment/UniGetUI/releases/download/3.1.6/UniGetUI.Installer.exe",
+      "url": "https://github.com/marticliment/UniGetUI/releases/download/3.1.6/UniGetUI.Installer.exe",
       "hash": "d77959b5268b4850f8b98de02d7b7bf6ce25a7ea7a9a15ec764065f03f10ca97"
     }
   },
@@ -27,7 +27,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/marticliment/UniGetUI/releases/download/$version/UniGetUI.Installer.exe"
+        "url": "https://github.com/marticliment/UniGetUI/releases/download/$version/UniGetUI.Installer.exe"
       }
     }
   }

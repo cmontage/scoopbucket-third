@@ -5,11 +5,11 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/microsoft/PowerToys/releases/download/v0.88.0/PowerToysSetup-0.88.0-x64.exe",
+      "url": "https://github.com/microsoft/PowerToys/releases/download/v0.88.0/PowerToysSetup-0.88.0-x64.exe",
       "hash": "5bba2e06603caae0269dfbc991095c6664fd934130335197c1ba3120e19b7ca3"
     },
     "arm64": {
-      "url": "https://ghgo.xyz/https://github.com/microsoft/PowerToys/releases/download/v0.88.0/PowerToysSetup-0.88.0-arm64.exe",
+      "url": "https://github.com/microsoft/PowerToys/releases/download/v0.88.0/PowerToysSetup-0.88.0-arm64.exe",
       "hash": "aee4a67643c886336f31f86c4117ba5f01bca5e0e99ff34524217dc91afa7132"
     }
   },
@@ -50,14 +50,14 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/microsoft/PowerToys/releases/download/v$version/PowerToysSetup-$version-x64.exe",
+        "url": "https://github.com/microsoft/PowerToys/releases/download/v$version/PowerToysSetup-$version-x64.exe",
         "hash": {
           "url": "https://github.com/microsoft/PowerToys/releases/tag/v$version",
           "regex": ">$sha256<"
         }
       },
       "arm64": {
-        "url": "https://ghgo.xyz/https://github.com/microsoft/PowerToys/releases/download/v$version/PowerToysSetup-$version-arm64.exe",
+        "url": "https://github.com/microsoft/PowerToys/releases/download/v$version/PowerToysSetup-$version-arm64.exe",
         "hash": {
           "url": "https://github.com/microsoft/PowerToys/releases/tag/v$version",
           "regex": "ARM64 Installer Hash[\\s\\S]*>$sha256<"

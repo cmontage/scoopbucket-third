@@ -6,7 +6,7 @@
     "identifier": "MIT",
     "url": "https://github.com/rubickCenter/rubick/blob/master/LICENSE"
   },
-  "url": "https://ghgo.xyz/https://github.com/rubickCenter/rubick/releases/download/v4.3.2/rubick-Setup-4.3.2-x64.exe",
+  "url": "https://github.com/rubickCenter/rubick/releases/download/v4.3.2/rubick-Setup-4.3.2-x64.exe",
   "hash": "e69e7c1977bfcc2af48a5326510932ad08b8f5d8fc11c9a440751a0068ce130a",
   "shortcuts": [
     [
@@ -37,6 +37,6 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/rubickCenter/rubick/releases/download/v$version/rubick-Setup-$version-x64.exe"
+    "url": "https://github.com/rubickCenter/rubick/releases/download/v$version/rubick-Setup-$version-x64.exe"
   }
 }

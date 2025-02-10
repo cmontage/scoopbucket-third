@@ -13,7 +13,7 @@
     ]
   },
   "url": [
-    "https://ghgo.xyz/https://github.com/0x727/BypassPro/releases/download/v3.0/BypassPro-3.0.jar"
+    "https://github.com/0x727/BypassPro/releases/download/v3.0/BypassPro-3.0.jar"
   ],
   "hash": [
     "b503c4d51803106053dda3d02bc0e623e3d8dbc6403b83c81ca6a9c351696377"
@@ -24,7 +24,7 @@
   "checkver": "github",
   "autoupdate": {
     "url": [
-      "https://ghgo.xyz/https://github.com/0x727/BypassPro/releases/download/v$version/BypassPro-$version.jar"
+      "https://github.com/0x727/BypassPro/releases/download/v$version/BypassPro-$version.jar"
     ]
   }
 }

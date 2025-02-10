@@ -12,13 +12,13 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/tarunkant/Gopherus/archive/90a2fd5799342bbd493966ed95ed2489068ea568.zip",
+      "url": "https://github.com/tarunkant/Gopherus/archive/90a2fd5799342bbd493966ed95ed2489068ea568.zip",
       "hash": "6d4c2729f589729cc316150c6d8b7d005b84ef6e8edb157ea2455fef826d12c4",
       "extract_dir": "Gopherus-90a2fd5799342bbd493966ed95ed2489068ea568"
     }
   },
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/tarunkant/Gopherus/archive/$version.zip",
+    "url": "https://github.com/tarunkant/Gopherus/archive/$version.zip",
     "extract_dir": "Gopherus-$version"
   },
   "post_install": [

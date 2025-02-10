@@ -6,7 +6,7 @@
   "innosetup": true,
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/wasmerio/wasmer/releases/download/v5.0.4/wasmer-windows.exe",
+      "url": "https://github.com/wasmerio/wasmer/releases/download/v5.0.4/wasmer-windows.exe",
       "hash": "5788c3d47123af43599adb6c9033b36736e39e220f248f36fa798f6112af7696"
     }
   },
@@ -35,7 +35,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/wasmerio/wasmer/releases/download/$version/wasmer-windows.exe"
+        "url": "https://github.com/wasmerio/wasmer/releases/download/$version/wasmer-windows.exe"
       }
     }
   }

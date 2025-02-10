@@ -8,7 +8,7 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/MattMcManis/Glow/releases/download/v1.2.0.0-beta/Glow.zip",
+      "url": "https://github.com/MattMcManis/Glow/releases/download/v1.2.0.0-beta/Glow.zip",
       "hash": "9db45a07105843630a02099a6a54920fc61f4adda1fbce7ea9ebdff2c4e40e91"
     }
   },
@@ -34,7 +34,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/MattMcManis/Glow/releases/download/v$version/Glow.zip"
+        "url": "https://github.com/MattMcManis/Glow/releases/download/v$version/Glow.zip"
       }
     }
   }

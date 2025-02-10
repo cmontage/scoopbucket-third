@@ -6,7 +6,7 @@
     "identifier": "MIT",
     "url": "https://github.com/LokerL/tts-vue/blob/main/LICENSE"
   },
-  "url": "https://ghgo.xyz/https://github.com/LokerL/tts-vue/releases/download/1.9.15/tts-vue-windows-latest.zip",
+  "url": "https://github.com/LokerL/tts-vue/releases/download/1.9.15/tts-vue-windows-latest.zip",
   "hash": "e8cd45a3f1ca1335723554e41ab06fd1f289bacad666ff8adbe9af74a07800de",
   "shortcuts": [
     [
@@ -37,6 +37,6 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/LokerL/tts-vue/releases/download/$version/tts-vue-windows-latest.zip"
+    "url": "https://github.com/LokerL/tts-vue/releases/download/$version/tts-vue-windows-latest.zip"
   }
 }

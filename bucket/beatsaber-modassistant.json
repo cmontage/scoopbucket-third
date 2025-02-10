@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/Assistant/ModAssistant/releases/download/v1.1.35/ModAssistant.exe",
+      "url": "https://github.com/Assistant/ModAssistant/releases/download/v1.1.35/ModAssistant.exe",
       "hash": "3aba35dab86c8ce368ebf266c232af096e5b5509cb5f28e11c79efc839f54cc7"
     }
   },
@@ -21,7 +21,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/Assistant/ModAssistant/releases/download/v$version/ModAssistant.exe"
+        "url": "https://github.com/Assistant/ModAssistant/releases/download/v$version/ModAssistant.exe"
       }
     }
   }

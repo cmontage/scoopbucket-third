@@ -8,7 +8,7 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/staxrip/staxrip/releases/download/v2.44.3/StaxRip-v2.44.3-x64.7z",
+      "url": "https://github.com/staxrip/staxrip/releases/download/v2.44.3/StaxRip-v2.44.3-x64.7z",
       "hash": "c0117e8ecff42faadeacc744e84320e81c5a2cceea0868e426ed3f7b225c6986",
       "extract_dir": "StaxRip-v2.44.3-x64"
     }
@@ -26,7 +26,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/staxrip/staxrip/releases/download/v$version/StaxRip-v$version-x64.7z",
+        "url": "https://github.com/staxrip/staxrip/releases/download/v$version/StaxRip-v$version-x64.7z",
         "extract_dir": "StaxRip-v$version-x64"
       }
     }

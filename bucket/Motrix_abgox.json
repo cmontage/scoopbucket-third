@@ -6,7 +6,7 @@
     "identifier": "MIT",
     "url": "https://github.com/agalwood/Motrix/blob/master/LICENSE"
   },
-  "url": "https://ghgo.xyz/https://github.com/agalwood/Motrix/releases/download/v1.8.19/Motrix-1.8.19-win.zip",
+  "url": "https://github.com/agalwood/Motrix/releases/download/v1.8.19/Motrix-1.8.19-win.zip",
   "hash": "5238865630e99dc4981bcc6082ba2b8221c4a543f35b41c0205a34984fd8f3b5",
   "shortcuts": [
     [
@@ -31,6 +31,6 @@
     "github": "https://github.com/agalwood/Motrix"
   },
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/agalwood/Motrix/releases/download/v$version/Motrix-$version-win.zip"
+    "url": "https://github.com/agalwood/Motrix/releases/download/v$version/Motrix-$version-win.zip"
   }
 }

@@ -8,7 +8,7 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/viarotel-org/escrcpy/releases/download/v1.28.6/Escrcpy-1.28.6-win-portable-x64.exe#/dl.7z",
+      "url": "https://github.com/viarotel-org/escrcpy/releases/download/v1.28.6/Escrcpy-1.28.6-win-portable-x64.exe#/dl.7z",
       "hash": "8cfcb22802b2effce9cd635d0f2e30f38423c1c5676761b91f9c8ccde8c5683e",
       "pre_install": [
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
@@ -16,7 +16,7 @@
       ]
     },
     "arm64": {
-      "url": "https://ghgo.xyz/https://github.com/viarotel-org/escrcpy/releases/download/v1.28.6/Escrcpy-1.28.6-win-portable-arm64.exe#/dl.7z",
+      "url": "https://github.com/viarotel-org/escrcpy/releases/download/v1.28.6/Escrcpy-1.28.6-win-portable-arm64.exe#/dl.7z",
       "hash": "9a3e47fe5ea3b6017b69d0e9a17186c0b5dcf3140b5851c6eb33ca0156db1082",
       "pre_install": [
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-arm64.7z\" \"$dir\"",
@@ -46,10 +46,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/viarotel-org/escrcpy/releases/download/v$version/Escrcpy-$version-win-portable-x64.exe#/dl.7z"
+        "url": "https://github.com/viarotel-org/escrcpy/releases/download/v$version/Escrcpy-$version-win-portable-x64.exe#/dl.7z"
       },
       "arm64": {
-        "url": "https://ghgo.xyz/https://github.com/viarotel-org/escrcpy/releases/download/v$version/Escrcpy-$version-win-portable-arm64.exe#/dl.7z"
+        "url": "https://github.com/viarotel-org/escrcpy/releases/download/v$version/Escrcpy-$version-win-portable-arm64.exe#/dl.7z"
       }
     }
   }

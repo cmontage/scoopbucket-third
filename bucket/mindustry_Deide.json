@@ -7,8 +7,8 @@
     "url": "https://github.com/Anuken/Mindustry/blob/master/LICENSE"
   },
   "url": [
-    "https://ghgo.xyz/https://github.com/Anuken/Mindustry/releases/download/v146/Mindustry.jar",
-    "https://ghgo.xyz/https://github.com/Anuken/Mindustry/releases/download/v142/server-release.jar",
+    "https://github.com/Anuken/Mindustry/releases/download/v146/Mindustry.jar",
+    "https://github.com/Anuken/Mindustry/releases/download/v142/server-release.jar",
     "https://i.imgur.com/Y4Q1ECd.png"
   ],
   "pre_install": [
@@ -49,6 +49,6 @@
   },
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/Anuken/Mindustry/releases/download/v$version/Mindustry.jar"
+    "url": "https://github.com/Anuken/Mindustry/releases/download/v$version/Mindustry.jar"
   }
 }

@@ -6,11 +6,11 @@
     "identifier": "MIT",
     "url": "https://github.com/NateScarlet/gotmpl/blob/master/LICENSE"
   },
-  "url": "https://ghgo.xyz/https://github.com/archdvx/wxdfast/releases/download/v0.70.4/wxDownloadFast-0.70.4-win.zip",
+  "url": "https://github.com/archdvx/wxdfast/releases/download/v0.70.4/wxDownloadFast-0.70.4-win.zip",
   "hash": "c964701335b592828a79782682c783260a60c023d01af33d6971ea70e7e1adcd",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/archdvx/wxdfast/releases/download/v0.70.4/wxDownloadFast-$version-win.zip"
+    "url": "https://github.com/archdvx/wxdfast/releases/download/v0.70.4/wxDownloadFast-$version-win.zip"
   },
   "extract_dir": "wxDownloadFast",
   "shortcuts": [

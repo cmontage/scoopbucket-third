@@ -8,11 +8,11 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/Scighost/Starward/releases/download/0.13.6/Starward_Portable_0.13.6_x64.7z",
+      "url": "https://github.com/Scighost/Starward/releases/download/0.13.6/Starward_Portable_0.13.6_x64.7z",
       "hash": "ce3c56e0bce4f7dcf2e9bf64ab83e065d9e3448c6c7cd01a1a769c6292dad357"
     },
     "arm64": {
-      "url": "https://ghgo.xyz/https://github.com/Scighost/Starward/releases/download/0.13.6/Starward_Portable_0.13.6_arm64.7z",
+      "url": "https://github.com/Scighost/Starward/releases/download/0.13.6/Starward_Portable_0.13.6_arm64.7z",
       "hash": "663ae5230fd49934cafe9e328f83a57140c3917c3075ad534c6dcd3fe31684b5"
     }
   },
@@ -27,10 +27,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/Scighost/Starward/releases/download/$version/Starward_Portable_$version_x64.7z"
+        "url": "https://github.com/Scighost/Starward/releases/download/$version/Starward_Portable_$version_x64.7z"
       },
       "arm64": {
-        "url": "https://ghgo.xyz/https://github.com/Scighost/Starward/releases/download/$version/Starward_Portable_$version_arm64.7z"
+        "url": "https://github.com/Scighost/Starward/releases/download/$version/Starward_Portable_$version_arm64.7z"
       }
     }
   },

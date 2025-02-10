@@ -5,17 +5,17 @@
   "license": "ISC",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/mstorsjo/llvm-mingw/releases/download/20250114/llvm-mingw-20250114-ucrt-x86_64.zip",
+      "url": "https://github.com/mstorsjo/llvm-mingw/releases/download/20250114/llvm-mingw-20250114-ucrt-x86_64.zip",
       "hash": "9395d95c089611e6cd728c9a07219ffc5ac706e0c719833a2f7e64a706a81541",
       "extract_dir": "llvm-mingw-20250114-ucrt-x86_64"
     },
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/mstorsjo/llvm-mingw/releases/download/20250114/llvm-mingw-20250114-ucrt-i686.zip",
+      "url": "https://github.com/mstorsjo/llvm-mingw/releases/download/20250114/llvm-mingw-20250114-ucrt-i686.zip",
       "hash": "7fec57627754436496b4b2db943c366decc8a629dbb1d5c9a73164c08667ad70",
       "extract_dir": "llvm-mingw-20250114-ucrt-i686"
     },
     "arm64": {
-      "url": "https://ghgo.xyz/https://github.com/mstorsjo/llvm-mingw/releases/download/20250114/llvm-mingw-20250114-ucrt-aarch64.zip",
+      "url": "https://github.com/mstorsjo/llvm-mingw/releases/download/20250114/llvm-mingw-20250114-ucrt-aarch64.zip",
       "hash": "2e00fa1b17f46aef58d7bbdac65c7ceec716f39bc59e0c424b03d4083648c9dd",
       "extract_dir": "llvm-mingw-20250114-ucrt-aarch64"
     }
@@ -28,15 +28,15 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/mstorsjo/llvm-mingw/releases/download/$matchDate/llvm-mingw-$matchDate-ucrt-x86_64.zip",
+        "url": "https://github.com/mstorsjo/llvm-mingw/releases/download/$matchDate/llvm-mingw-$matchDate-ucrt-x86_64.zip",
         "extract_dir": "llvm-mingw-$matchDate-ucrt-x86_64"
       },
       "32bit": {
-        "url": "https://ghgo.xyz/https://github.com/mstorsjo/llvm-mingw/releases/download/$matchDate/llvm-mingw-$matchDate-ucrt-i686.zip",
+        "url": "https://github.com/mstorsjo/llvm-mingw/releases/download/$matchDate/llvm-mingw-$matchDate-ucrt-i686.zip",
         "extract_dir": "llvm-mingw-$matchDate-ucrt-i686"
       },
       "arm64": {
-        "url": "https://ghgo.xyz/https://github.com/mstorsjo/llvm-mingw/releases/download/$matchDate/llvm-mingw-$matchDate-ucrt-aarch64.zip",
+        "url": "https://github.com/mstorsjo/llvm-mingw/releases/download/$matchDate/llvm-mingw-$matchDate-ucrt-aarch64.zip",
         "extract_dir": "llvm-mingw-$matchDate-ucrt-aarch64"
       }
     }

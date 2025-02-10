@@ -6,7 +6,7 @@
     "identifier": "MIT license",
     "url": "https://github.com/marticliment/UniGetUI#MIT-1-ov-file"
   },
-  "url": "https://ghgo.xyz/https://github.com/marticliment/UniGetUI/releases/download/3.1.6-beta4/UniGetUI.Installer.exe",
+  "url": "https://github.com/marticliment/UniGetUI/releases/download/3.1.6-beta4/UniGetUI.Installer.exe",
   "hash": "a7cdb0b4b1054b89a20c3a7fc2d59a098facd577a0b9db0f0756a58b497e2ef0",
   "innosetup": true,
   "shortcuts": [
@@ -20,7 +20,7 @@
     "regex": "/releases/tag/([\\d.]+-[\\w]+)"
   },
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/marticliment/UniGetUI/releases/download/$version/UniGetUI.Installer.exe",
+    "url": "https://github.com/marticliment/UniGetUI/releases/download/$version/UniGetUI.Installer.exe",
     "hash": {
       "url": "https://github.com/marticliment/UniGetUI/releases/tag/$version",
       "regex": "sha256: <code>$sha256</code>"

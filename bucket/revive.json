@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/LibreVR/Revive/releases/download/3.2.0/ReviveInstaller.exe#/dl.7z",
+      "url": "https://github.com/LibreVR/Revive/releases/download/3.2.0/ReviveInstaller.exe#/dl.7z",
       "hash": "7a2b59711237f934c5772eff29ef61c3f0e9e701976e7703fc3af4d8ff04487b"
     }
   },
@@ -20,7 +20,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/LibreVR/Revive/releases/download/$version/ReviveInstaller.exe#/dl.7z"
+        "url": "https://github.com/LibreVR/Revive/releases/download/$version/ReviveInstaller.exe#/dl.7z"
       }
     }
   }

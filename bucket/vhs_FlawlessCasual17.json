@@ -9,11 +9,11 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/charmbracelet/vhs/releases/download/v0.1.1/vhs_0.1.1_Windows_x86_64.zip",
+      "url": "https://github.com/charmbracelet/vhs/releases/download/v0.1.1/vhs_0.1.1_Windows_x86_64.zip",
       "hash": "c628a4e2eac78f48036d464d0571295a932dadc76220d6a66daea1a60c599713"
     },
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/charmbracelet/vhs/releases/download/v0.1.1/vhs_0.1.1_Windows_i386.zip",
+      "url": "https://github.com/charmbracelet/vhs/releases/download/v0.1.1/vhs_0.1.1_Windows_i386.zip",
       "hash": "88c1ab9321e593cf22aa199624db9dbca5954c86f67a48a6e2bb3119e4f9c851"
     }
   },
@@ -22,10 +22,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/charmbracelet/vhs/releases/download/v$version/vhs_$version_Windows_x86_64.zip"
+        "url": "https://github.com/charmbracelet/vhs/releases/download/v$version/vhs_$version_Windows_x86_64.zip"
       },
       "32bit": {
-        "url": "https://ghgo.xyz/https://github.com/charmbracelet/vhs/releases/download/v$version/vhs_$version_Windows_i386.zip"
+        "url": "https://github.com/charmbracelet/vhs/releases/download/v$version/vhs_$version_Windows_i386.zip"
       }
     },
     "hash": {

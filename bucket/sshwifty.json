@@ -8,11 +8,11 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/nirui/sshwifty/releases/download/0.3.17-beta-release-prebuild/sshwifty_0.3.17-beta-release_windows_amd64.tar.gz",
+      "url": "https://github.com/nirui/sshwifty/releases/download/0.3.17-beta-release-prebuild/sshwifty_0.3.17-beta-release_windows_amd64.tar.gz",
       "hash": "79c44b4be628a2ca4fdee25ad8914065c995db4de0bcf13c3d2124517fbc4089"
     },
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/nirui/sshwifty/releases/download/0.3.17-beta-release-prebuild/sshwifty_0.3.17-beta-release_windows_386.tar.gz",
+      "url": "https://github.com/nirui/sshwifty/releases/download/0.3.17-beta-release-prebuild/sshwifty_0.3.17-beta-release_windows_386.tar.gz",
       "hash": "3dbb2359408d277c991fed51428a4781e0e18036e768009505e28ca9a6920d05"
     }
   },
@@ -30,10 +30,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/nirui/sshwifty/releases/download/$matchTag/sshwifty_$version_windows_amd64.tar.gz"
+        "url": "https://github.com/nirui/sshwifty/releases/download/$matchTag/sshwifty_$version_windows_amd64.tar.gz"
       },
       "32bit": {
-        "url": "https://ghgo.xyz/https://github.com/nirui/sshwifty/releases/download/$matchTag/sshwifty_$version_windows_386.tar.gz"
+        "url": "https://github.com/nirui/sshwifty/releases/download/$matchTag/sshwifty_$version_windows_386.tar.gz"
       }
     }
   }

@@ -5,11 +5,11 @@
   "license": "Unlicense",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/yt-dlp/yt-dlp/releases/download/2025.01.26/yt-dlp.exe",
+      "url": "https://github.com/yt-dlp/yt-dlp/releases/download/2025.01.26/yt-dlp.exe",
       "hash": "423eec9b60ab7910d97eb74cdb5daea90128850752d4aad6ccabaf8648d6387c"
     },
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/yt-dlp/yt-dlp/releases/download/2025.01.26/yt-dlp_x86.exe",
+      "url": "https://github.com/yt-dlp/yt-dlp/releases/download/2025.01.26/yt-dlp_x86.exe",
       "hash": "ebbfae07713a91c87b5e0b08417ba40b0a7279af16181a4163c4921f27b070fb",
       "pre_install": "Rename-Item (Get-ChildItem \"$dir\\yt-dlp_x86.exe\") 'yt-dlp.exe'"
     }
@@ -19,10 +19,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/yt-dlp/yt-dlp/releases/download/$version/yt-dlp.exe"
+        "url": "https://github.com/yt-dlp/yt-dlp/releases/download/$version/yt-dlp.exe"
       },
       "32bit": {
-        "url": "https://ghgo.xyz/https://github.com/yt-dlp/yt-dlp/releases/download/$version/yt-dlp_x86.exe"
+        "url": "https://github.com/yt-dlp/yt-dlp/releases/download/$version/yt-dlp_x86.exe"
       }
     }
   }

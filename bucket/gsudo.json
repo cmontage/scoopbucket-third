@@ -3,7 +3,7 @@
   "description": "A Sudo for Windows",
   "homepage": "https://github.com/gerardog/gsudo",
   "license": "MIT",
-  "url": "https://ghgo.xyz/https://github.com/gerardog/gsudo/releases/download/v2.5.1/gsudo.portable.zip",
+  "url": "https://github.com/gerardog/gsudo/releases/download/v2.5.1/gsudo.portable.zip",
   "hash": "b4830270f3c3e1ce94763ff3243c508642c5952d7824a5de8bda507da1807f39",
   "bin": [
     [
@@ -15,6 +15,6 @@
   "env_add_path": ".",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/gerardog/gsudo/releases/download/v$version/gsudo.portable.zip"
+    "url": "https://github.com/gerardog/gsudo/releases/download/v$version/gsudo.portable.zip"
   }
 }

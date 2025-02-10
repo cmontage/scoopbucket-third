@@ -8,11 +8,11 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/1111mp/nvm-desktop/releases/download/v3.4.0/nvm-desktop_Setup_win_x64_3.4.0.exe#/abgo_bucket_installer.exe",
+      "url": "https://github.com/1111mp/nvm-desktop/releases/download/v3.4.0/nvm-desktop_Setup_win_x64_3.4.0.exe#/abgo_bucket_installer.exe",
       "hash": "e35996ab50d293342a5a2af22ae3d4b857a934ce5ebaf086adb2ed15d126be7d"
     },
     "arm64": {
-      "url": "https://ghgo.xyz/https://github.com/1111mp/nvm-desktop/releases/download/v3.4.0/nvm-desktop_Setup_win_arm64_3.4.0.exe#/abgo_bucket_installer.exe",
+      "url": "https://github.com/1111mp/nvm-desktop/releases/download/v3.4.0/nvm-desktop_Setup_win_arm64_3.4.0.exe#/abgo_bucket_installer.exe",
       "hash": "485c303b69f87b148dcae03fc6ae4434b324b2bad9263003fb9ec5f0844582f1"
     }
   },
@@ -47,10 +47,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/1111mp/nvm-desktop/releases/download/v$version/nvm-desktop_Setup_win_x64_$version.exe#/abgo_bucket_installer.exe"
+        "url": "https://github.com/1111mp/nvm-desktop/releases/download/v$version/nvm-desktop_Setup_win_x64_$version.exe#/abgo_bucket_installer.exe"
       },
       "arm64": {
-        "url": "https://ghgo.xyz/https://github.com/1111mp/nvm-desktop/releases/download/v$version/nvm-desktop_Setup_win_arm64_$version.exe#/abgo_bucket_installer.exe"
+        "url": "https://github.com/1111mp/nvm-desktop/releases/download/v$version/nvm-desktop_Setup_win_arm64_$version.exe#/abgo_bucket_installer.exe"
       }
     }
   }

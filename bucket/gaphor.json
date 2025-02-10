@@ -5,7 +5,7 @@
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/gaphor/gaphor/releases/download/3.0.0/gaphor-3.0.0-portable.exe#/dl.7z",
+      "url": "https://github.com/gaphor/gaphor/releases/download/3.0.0/gaphor-3.0.0-portable.exe#/dl.7z",
       "hash": "a66c6430adde6c2172b582e34c312a830be7785ebef0d86b4e2493ab4329c521"
     }
   },
@@ -21,7 +21,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/gaphor/gaphor/releases/download/$version/gaphor-$version-portable.exe#/dl.7z"
+        "url": "https://github.com/gaphor/gaphor/releases/download/$version/gaphor-$version-portable.exe#/dl.7z"
       }
     },
     "extract_dir": "gaphor-$version-portable"

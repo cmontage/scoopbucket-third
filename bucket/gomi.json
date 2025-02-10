@@ -5,11 +5,11 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/b4b4r07/gomi/releases/download/v1.2.2/gomi_windows_x86_64.zip",
+      "url": "https://github.com/b4b4r07/gomi/releases/download/v1.2.2/gomi_windows_x86_64.zip",
       "hash": "e34f7f0e15ffd643c17253ab436dc9cd1424c369322c5d2de45b6ca34751ec0e"
     },
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/b4b4r07/gomi/releases/download/v1.2.2/gomi_windows_i386.zip",
+      "url": "https://github.com/b4b4r07/gomi/releases/download/v1.2.2/gomi_windows_i386.zip",
       "hash": "d41ea7ed838645c0100a9523c610062fe591f29e965d18ac5a9fe97c6f90453f"
     }
   },
@@ -18,10 +18,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/b4b4r07/gomi/releases/download/v$version/gomi_windows_x86_64.zip"
+        "url": "https://github.com/b4b4r07/gomi/releases/download/v$version/gomi_windows_x86_64.zip"
       },
       "32bit": {
-        "url": "https://ghgo.xyz/https://github.com/b4b4r07/gomi/releases/download/v$version/gomi_windows_i386.zip"
+        "url": "https://github.com/b4b4r07/gomi/releases/download/v$version/gomi_windows_i386.zip"
       }
     },
     "hash": {

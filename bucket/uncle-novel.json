@@ -8,11 +8,11 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/uncle-novel/uncle-novel/releases/download/v5.0.44/uncle-novel_5.0.44_Setup.exe#/abgo_bucket_installer.exe",
+      "url": "https://github.com/uncle-novel/uncle-novel/releases/download/v5.0.44/uncle-novel_5.0.44_Setup.exe#/abgo_bucket_installer.exe",
       "hash": "e36442833d00592cb20bc9e4e653b04bad43b7f6f2f5dc86803b02a144469399"
     },
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/uncle-novel/uncle-novel/releases/download/v5.0.44/uncle-novel_5.0.44_Setup_x86.exe#/abgo_bucket_installer.exe",
+      "url": "https://github.com/uncle-novel/uncle-novel/releases/download/v5.0.44/uncle-novel_5.0.44_Setup_x86.exe#/abgo_bucket_installer.exe",
       "hash": "24ce76e76031071bfc9db916780d8a0d3ce91ad187ee6f4669379724090f941e"
     }
   },
@@ -50,10 +50,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/uncle-novel/uncle-novel/releases/download/v$version/uncle-novel_$version_Setup.exe#/abgo_bucket_installer.exe"
+        "url": "https://github.com/uncle-novel/uncle-novel/releases/download/v$version/uncle-novel_$version_Setup.exe#/abgo_bucket_installer.exe"
       },
       "32bit": {
-        "url": "https://ghgo.xyz/https://github.com/uncle-novel/uncle-novel/releases/download/v$version/uncle-novel_$version_Setup_x86.exe#/abgo_bucket_installer.exe"
+        "url": "https://github.com/uncle-novel/uncle-novel/releases/download/v$version/uncle-novel_$version_Setup_x86.exe#/abgo_bucket_installer.exe"
       }
     }
   }

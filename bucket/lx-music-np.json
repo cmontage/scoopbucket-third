@@ -5,11 +5,11 @@
   "license": "Apache-2.0 license",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/lyswhut/lx-music-desktop/releases/download/v2.10.0/lx-music-desktop-v2.10.0-x64-Setup.exe#/dl.7z",
+      "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v2.10.0/lx-music-desktop-v2.10.0-x64-Setup.exe#/dl.7z",
       "hash": "md5:f1198415e51cbe43ef6ffbb9c7cb34b4"
     },
     "arm64": {
-      "url": "https://ghgo.xyz/https://github.com/lyswhut/lx-music-desktop/releases/download/v2.10.0/lx-music-desktop-v2.10.0-arm64-Setup.exe#/dl.7z",
+      "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v2.10.0/lx-music-desktop-v2.10.0-arm64-Setup.exe#/dl.7z",
       "hash": "md5:6f9194b7755714f0981fa5e88496c674"
     }
   },
@@ -30,10 +30,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/lyswhut/lx-music-desktop/releases/download/v$version/lx-music-desktop-v$version-x64-Setup.exe#/dl.7z"
+        "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v$version/lx-music-desktop-v$version-x64-Setup.exe#/dl.7z"
       },
       "arm64": {
-        "url": "https://ghgo.xyz/https://github.com/lyswhut/lx-music-desktop/releases/download/v$version/lx-music-desktop-v$version-arm64-Setup.exe#/dl.7z"
+        "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v$version/lx-music-desktop-v$version-arm64-Setup.exe#/dl.7z"
       }
     },
     "hash": {

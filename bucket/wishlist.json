@@ -2,14 +2,14 @@
   "version": "0.14.1",
   "architecture": {
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/charmbracelet/wishlist/releases/download/v0.14.1/wishlist_0.14.1_Windows_i386.zip",
+      "url": "https://github.com/charmbracelet/wishlist/releases/download/v0.14.1/wishlist_0.14.1_Windows_i386.zip",
       "bin": [
         "wishlist.exe"
       ],
       "hash": "9bb33b30335f499b2e55b76f5d0b5f0052c61c6c0141c8895b9dcf2a615edac8"
     },
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/charmbracelet/wishlist/releases/download/v0.14.1/wishlist_0.14.1_Windows_x86_64.zip",
+      "url": "https://github.com/charmbracelet/wishlist/releases/download/v0.14.1/wishlist_0.14.1_Windows_x86_64.zip",
       "bin": [
         "wishlist.exe"
       ],

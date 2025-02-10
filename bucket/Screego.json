@@ -8,15 +8,15 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/screego/server/releases/download/v1.11.2/screego_1.11.2_windows_amd64.zip",
+      "url": "https://github.com/screego/server/releases/download/v1.11.2/screego_1.11.2_windows_amd64.zip",
       "hash": "7c4d3ba41fe77b321390802adba881756d3bf13a8df9f368de0aa99d1794e49e"
     },
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/screego/server/releases/download/v1.11.2/screego_1.11.2_windows_i386.zip",
+      "url": "https://github.com/screego/server/releases/download/v1.11.2/screego_1.11.2_windows_i386.zip",
       "hash": "d30029308f3f5e2cf815ff907623787f92418de5e6d5080ab10be4dd5798fc0e"
     },
     "arm64": {
-      "url": "https://ghgo.xyz/https://github.com/screego/server/releases/download/v1.11.2/screego_1.11.2_windows_arm64.zip",
+      "url": "https://github.com/screego/server/releases/download/v1.11.2/screego_1.11.2_windows_arm64.zip",
       "hash": "d7bd1ff49c8d304bb0cd95e8f34788203b995fcaaa9da22c4f07d8577bb5d2bd"
     }
   },
@@ -39,13 +39,13 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/screego/server/releases/download/v$version/screego_$version_windows_amd64.zip"
+        "url": "https://github.com/screego/server/releases/download/v$version/screego_$version_windows_amd64.zip"
       },
       "32bit": {
-        "url": "https://ghgo.xyz/https://github.com/screego/server/releases/download/v$version/screego_$version_windows_i386.zip"
+        "url": "https://github.com/screego/server/releases/download/v$version/screego_$version_windows_i386.zip"
       },
       "arm64": {
-        "url": "https://ghgo.xyz/https://github.com/screego/server/releases/download/v$version/screego_$version_windows_arm64.zip"
+        "url": "https://github.com/screego/server/releases/download/v$version/screego_$version_windows_arm64.zip"
       }
     }
   }

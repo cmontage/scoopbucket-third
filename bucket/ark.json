@@ -3,7 +3,7 @@
   "version": "0.1.162",
   "license": "MIT",
   "description": "Ark, an R kernel ",
-  "url": "https://ghgo.xyz/https://github.com/posit-dev/ark/releases/download/0.1.162/ark-0.1.162-windows-x64.zip",
+  "url": "https://github.com/posit-dev/ark/releases/download/0.1.162/ark-0.1.162-windows-x64.zip",
   "hash": "569af0585e268bbdcaab06096e62d6ddea86df45433b463f2b5bc880cc88ce8d",
   "bin": "ark.exe",
   "checkver": {
@@ -11,6 +11,6 @@
     "regex": "/posit-dev/ark/releases/tag/([\\d]+\\.[\\d]+\\.[\\d]+)"
   },
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/posit-dev/ark/releases/download/$version/ark-$version-windows-x64.zip"
+    "url": "https://github.com/posit-dev/ark/releases/download/$version/ark-$version-windows-x64.zip"
   }
 }

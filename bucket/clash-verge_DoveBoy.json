@@ -8,7 +8,7 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/zzzgydi/clash-verge/releases/download/v1.3.8/Clash.Verge_1.3.8_x64_portable.zip",
+      "url": "https://github.com/zzzgydi/clash-verge/releases/download/v1.3.8/Clash.Verge_1.3.8_x64_portable.zip",
       "hash": "dea759e984c1591b640d5985517a4941af50cb7511a7e5888bdda0459163283b"
     }
   },
@@ -41,7 +41,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/zzzgydi/clash-verge/releases/download/v$version/$matchFile"
+        "url": "https://github.com/zzzgydi/clash-verge/releases/download/v$version/$matchFile"
       }
     }
   }

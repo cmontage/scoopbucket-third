@@ -6,7 +6,7 @@
   "changelog": "https://github.com/StackExchange/dnscontrol/releases",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/StackExchange/dnscontrol/releases/download/v4.16.0/dnscontrol_4.16.0_windows_amd64.zip",
+      "url": "https://github.com/StackExchange/dnscontrol/releases/download/v4.16.0/dnscontrol_4.16.0_windows_amd64.zip",
       "hash": "d7e5d30133fa69c776f34c210205c9985caebcafce5bb6e2c2d3ec2e16dc0698"
     }
   },
@@ -17,7 +17,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/StackExchange/dnscontrol/releases/download/v$version/dnscontrol_$version_windows_amd64.zip"
+        "url": "https://github.com/StackExchange/dnscontrol/releases/download/v$version/dnscontrol_$version_windows_amd64.zip"
       }
     }
   }

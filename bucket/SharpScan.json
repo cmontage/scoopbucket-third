@@ -5,7 +5,7 @@
   "license": "Unknown",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/INotGreen/SharpScan/releases/download/SharpScan-v1.0.0/SharpScan.exe",
+      "url": "https://github.com/INotGreen/SharpScan/releases/download/SharpScan-v1.0.0/SharpScan.exe",
       "hash": "D8F87473DE6B40981044CA0E6674B463100B0F5461BFD2E866F935034CA4DC7C"
     }
   },
@@ -18,7 +18,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/INotGreen/SharpScan/releases/download/SharpScan-v$version/SharpScan.exe"
+        "url": "https://github.com/INotGreen/SharpScan/releases/download/SharpScan-v$version/SharpScan.exe"
       }
     }
   }

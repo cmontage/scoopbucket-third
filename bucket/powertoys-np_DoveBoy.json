@@ -6,11 +6,11 @@
   "depends": "dotnet-sdk",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/microsoft/PowerToys/releases/download/v0.88.0/PowerToysSetup-0.88.0-x64.exe#/setup.exe",
+      "url": "https://github.com/microsoft/PowerToys/releases/download/v0.88.0/PowerToysSetup-0.88.0-x64.exe#/setup.exe",
       "hash": "c43742db7aa3f8b01fe7ae1da591f0342767afe5bbacb72f2968ce5e8ee1e3ac"
     },
     "arm64": {
-      "url": "https://ghgo.xyz/https://github.com/microsoft/PowerToys/releases/download/v0.88.0/PowerToysSetup-0.88.0-arm64.exe#/setup.exe",
+      "url": "https://github.com/microsoft/PowerToys/releases/download/v0.88.0/PowerToysSetup-0.88.0-arm64.exe#/setup.exe",
       "hash": "aee4a67643c886336f31f86c4117ba5f01bca5e0e99ff34524217dc91afa7132"
     }
   },
@@ -36,10 +36,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/microsoft/PowerToys/releases/download/$matchTag/PowerToysSetup-$version-x64.exe#/setup.exe"
+        "url": "https://github.com/microsoft/PowerToys/releases/download/$matchTag/PowerToysSetup-$version-x64.exe#/setup.exe"
       },
       "arm64": {
-        "url": "https://ghgo.xyz/https://github.com/microsoft/PowerToys/releases/download/$matchTag/PowerToysSetup-$version-arm64.exe#/setup.exe"
+        "url": "https://github.com/microsoft/PowerToys/releases/download/$matchTag/PowerToysSetup-$version-arm64.exe#/setup.exe"
       }
     }
   }

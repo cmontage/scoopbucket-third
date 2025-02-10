@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/altsem/gitu/releases/download/v0.28.0/gitu-v0.28.0-x86_64-pc-windows-msvc.zip",
+      "url": "https://github.com/altsem/gitu/releases/download/v0.28.0/gitu-v0.28.0-x86_64-pc-windows-msvc.zip",
       "hash": "74236eb92a5b9c519a30b214e4034e7dc20544df270e5dcece79db0c31639ac7",
       "extract_dir": "gitu-v0.28.0-x86_64-pc-windows-msvc"
     }
@@ -15,7 +15,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/altsem/gitu/releases/download/v$version/gitu-v$version-x86_64-pc-windows-msvc.zip",
+        "url": "https://github.com/altsem/gitu/releases/download/v$version/gitu-v$version-x86_64-pc-windows-msvc.zip",
         "extract_dir": "gitu-v$version-x86_64-pc-windows-msvc"
       }
     }

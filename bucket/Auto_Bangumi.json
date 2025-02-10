@@ -8,7 +8,7 @@
   ],
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/EstrellaXD/Auto_Bangumi/releases/download/3.1.12/app-v3.1.12.zip",
+      "url": "https://github.com/EstrellaXD/Auto_Bangumi/releases/download/3.1.12/app-v3.1.12.zip",
       "hash": "820d2e9ba0c1bb93f51bb0df5070cab79218c7b9ada69350cf5e137d45f4f4f1",
       "extract_dir": "src"
     }
@@ -30,7 +30,7 @@
     "github": "https://github.com/EstrellaXD/Auto_Bangumi"
   },
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/EstrellaXD/Auto_Bangumi/releases/download/$version/app-v$version.zip",
+    "url": "https://github.com/EstrellaXD/Auto_Bangumi/releases/download/$version/app-v$version.zip",
     "hash": {
       "mode": "download"
     }

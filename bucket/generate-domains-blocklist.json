@@ -6,7 +6,7 @@
   "suggest": {
     "Python": "main/python"
   },
-  "url": "https://ghgo.xyz/https://raw.githubusercontent.com/DNSCrypt/dnscrypt-proxy/master/utils/generate-domains-blocklist/generate-domains-blocklist.py",
+  "url": "https://raw.githubusercontent.com/DNSCrypt/dnscrypt-proxy/master/utils/generate-domains-blocklist/generate-domains-blocklist.py",
   "hash": "2e783821f3446f51906629b925f08fd06fb2bb263deab747d366ee07295442a8",
   "bin": "generate-domains-blocklist.py",
   "checkver": {
@@ -20,6 +20,6 @@
     "regex": "([\\w.]+)"
   },
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://raw.githubusercontent.com/DNSCrypt/dnscrypt-proxy/master/utils/generate-domains-blocklist/generate-domains-blocklist.py"
+    "url": "https://raw.githubusercontent.com/DNSCrypt/dnscrypt-proxy/master/utils/generate-domains-blocklist/generate-domains-blocklist.py"
   }
 }

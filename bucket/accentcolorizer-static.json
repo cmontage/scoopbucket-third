@@ -11,11 +11,11 @@
   ],
   "architecture": {
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/krlvm/AccentColorizer/releases/download/v1.2.0/AccentColorizer-Static.exe",
+      "url": "https://github.com/krlvm/AccentColorizer/releases/download/v1.2.0/AccentColorizer-Static.exe",
       "hash": "5c97144d4c00d3b8d65cfd0ef3ddb6b76ef8a158cdac8d46844e0ba94eaddbd7"
     },
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/krlvm/AccentColorizer/releases/download/v1.2.0/AccentColorizer-Static-x64.exe#/AccentColorizer-Static.exe",
+      "url": "https://github.com/krlvm/AccentColorizer/releases/download/v1.2.0/AccentColorizer-Static-x64.exe#/AccentColorizer-Static.exe",
       "hash": "08ff3f95f937fe1356ae611fa95ba5dc1a43dce2e90211ec5e26e6039ca20a03"
     }
   },
@@ -31,10 +31,10 @@
   "autoupdate": {
     "architecture": {
       "32bit": {
-        "url": "https://ghgo.xyz/https://github.com/krlvm/AccentColorizer/releases/download/v$version/AccentColorizer-Static.exe"
+        "url": "https://github.com/krlvm/AccentColorizer/releases/download/v$version/AccentColorizer-Static.exe"
       },
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/krlvm/AccentColorizer/releases/download/v$version/AccentColorizer-Static-x64.exe#/AccentColorizer-Static.exe"
+        "url": "https://github.com/krlvm/AccentColorizer/releases/download/v$version/AccentColorizer-Static-x64.exe#/AccentColorizer-Static.exe"
       }
     }
   }

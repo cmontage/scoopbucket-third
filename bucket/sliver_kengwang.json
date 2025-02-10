@@ -5,14 +5,14 @@
   "homepage": "https://github.com/BishopFox/sliver",
   "checkver": "github",
   "url": [
-    "https://ghgo.xyz/https://github.com/BishopFox/sliver/releases/download/v1.5.42/sliver-client_linux",
-    "https://ghgo.xyz/https://github.com/BishopFox/sliver/releases/download/v1.5.42/sliver-client_macos",
-    "https://ghgo.xyz/https://github.com/BishopFox/sliver/releases/download/v1.5.42/sliver-client_macos-arm64",
-    "https://ghgo.xyz/https://github.com/BishopFox/sliver/releases/download/v1.5.42/sliver-client_windows.exe",
-    "https://ghgo.xyz/https://github.com/BishopFox/sliver/releases/download/v1.5.42/sliver-server_linux",
-    "https://ghgo.xyz/https://github.com/BishopFox/sliver/releases/download/v1.5.42/sliver-server_macos",
-    "https://ghgo.xyz/https://github.com/BishopFox/sliver/releases/download/v1.5.42/sliver-server_macos-arm64",
-    "https://ghgo.xyz/https://github.com/BishopFox/sliver/releases/download/v1.5.42/sliver-server_windows.exe"
+    "https://github.com/BishopFox/sliver/releases/download/v1.5.42/sliver-client_linux",
+    "https://github.com/BishopFox/sliver/releases/download/v1.5.42/sliver-client_macos",
+    "https://github.com/BishopFox/sliver/releases/download/v1.5.42/sliver-client_macos-arm64",
+    "https://github.com/BishopFox/sliver/releases/download/v1.5.42/sliver-client_windows.exe",
+    "https://github.com/BishopFox/sliver/releases/download/v1.5.42/sliver-server_linux",
+    "https://github.com/BishopFox/sliver/releases/download/v1.5.42/sliver-server_macos",
+    "https://github.com/BishopFox/sliver/releases/download/v1.5.42/sliver-server_macos-arm64",
+    "https://github.com/BishopFox/sliver/releases/download/v1.5.42/sliver-server_windows.exe"
   ],
   "hash": [
     "c53bc13170b9ff26b0cca93715e947318e06cafe0d98cf825eabffe3c7f763cb",
@@ -26,14 +26,14 @@
   ],
   "autoupdate": {
     "url": [
-      "https://ghgo.xyz/https://github.com/BishopFox/sliver/releases/download/v$version/sliver-client_linux",
-      "https://ghgo.xyz/https://github.com/BishopFox/sliver/releases/download/v$version/sliver-client_macos",
-      "https://ghgo.xyz/https://github.com/BishopFox/sliver/releases/download/v$version/sliver-client_macos-arm64",
-      "https://ghgo.xyz/https://github.com/BishopFox/sliver/releases/download/v$version/sliver-client_windows.exe",
-      "https://ghgo.xyz/https://github.com/BishopFox/sliver/releases/download/v$version/sliver-server_linux",
-      "https://ghgo.xyz/https://github.com/BishopFox/sliver/releases/download/v$version/sliver-server_macos",
-      "https://ghgo.xyz/https://github.com/BishopFox/sliver/releases/download/v$version/sliver-server_macos-arm64",
-      "https://ghgo.xyz/https://github.com/BishopFox/sliver/releases/download/v$version/sliver-server_windows.exe"
+      "https://github.com/BishopFox/sliver/releases/download/v$version/sliver-client_linux",
+      "https://github.com/BishopFox/sliver/releases/download/v$version/sliver-client_macos",
+      "https://github.com/BishopFox/sliver/releases/download/v$version/sliver-client_macos-arm64",
+      "https://github.com/BishopFox/sliver/releases/download/v$version/sliver-client_windows.exe",
+      "https://github.com/BishopFox/sliver/releases/download/v$version/sliver-server_linux",
+      "https://github.com/BishopFox/sliver/releases/download/v$version/sliver-server_macos",
+      "https://github.com/BishopFox/sliver/releases/download/v$version/sliver-server_macos-arm64",
+      "https://github.com/BishopFox/sliver/releases/download/v$version/sliver-server_windows.exe"
     ]
   },
   "bin": [

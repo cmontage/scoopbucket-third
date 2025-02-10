@@ -5,11 +5,11 @@
   "license": "GPL-3.0-only",
   "architecture": {
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/releases/download/10.4.2.29/AutoDarkModeX_10.4.2.29_x86.zip",
+      "url": "https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/releases/download/10.4.2.29/AutoDarkModeX_10.4.2.29_x86.zip",
       "hash": "13612aeb5e60d0f334b0de0ff13a0bb6559fb9a44057e924073b528867d7611e"
     },
     "arm64": {
-      "url": "https://ghgo.xyz/https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/releases/download/10.4.2.29/AutoDarkModeX_10.4.2.29_ARM64.zip",
+      "url": "https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/releases/download/10.4.2.29/AutoDarkModeX_10.4.2.29_ARM64.zip",
       "hash": "5d71f8e44782d73fee270fa08ff97d8531d5b5a0ed63686f89a8027d7e77ba34"
     }
   },
@@ -23,16 +23,16 @@
   "autoupdate": {
     "architecture": {
       "32bit": {
-        "url": "https://ghgo.xyz/https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/releases/download/$version/AutoDarkModeX_$version_x86.zip",
+        "url": "https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/releases/download/$version/AutoDarkModeX_$version_x86.zip",
         "hash": {
-          "url": "https://ghgo.xyz/https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/releases/download/$version/AutoDarkModeX_$version_ARM64.sha256",
+          "url": "https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/releases/download/$version/AutoDarkModeX_$version_ARM64.sha256",
           "mode": "extract"
         }
       },
       "arm64": {
-        "url": "https://ghgo.xyz/https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/releases/download/$version/AutoDarkModeX_$version_ARM64.zip",
+        "url": "https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/releases/download/$version/AutoDarkModeX_$version_ARM64.zip",
         "hash": {
-          "url": "https://ghgo.xyz/https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/releases/download/$version/AutoDarkModeX_$version_x86.sha256",
+          "url": "https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/releases/download/$version/AutoDarkModeX_$version_x86.sha256",
           "mode": "extract"
         }
       }

@@ -5,17 +5,17 @@
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/GopeedLab/gopeed/releases/download/v1.6.9/gopeed-web-v1.6.9-windows-amd64.zip",
+      "url": "https://github.com/GopeedLab/gopeed/releases/download/v1.6.9/gopeed-web-v1.6.9-windows-amd64.zip",
       "hash": "81e80fce58819d57c8583cab5424dde7f518cccbc2254563c24a0502022f1f4a",
       "extract_dir": "gopeed-web-v1.6.9-windows-amd64"
     },
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/GopeedLab/gopeed/releases/download/v1.6.9/gopeed-web-v1.6.9-windows-386.zip",
+      "url": "https://github.com/GopeedLab/gopeed/releases/download/v1.6.9/gopeed-web-v1.6.9-windows-386.zip",
       "hash": "7a7cd0b90258bf0333839881711889a813ee5af02f23a0f5ff52d86370d944f6",
       "extract_dir": "gopeed-web-v1.6.9-windows-386"
     },
     "arm64": {
-      "url": "https://ghgo.xyz/https://github.com/GopeedLab/gopeed/releases/download/v1.6.9/gopeed-web-v1.6.9-windows-arm64.zip",
+      "url": "https://github.com/GopeedLab/gopeed/releases/download/v1.6.9/gopeed-web-v1.6.9-windows-arm64.zip",
       "hash": "9f341e6e3fcc8d58e593ee1a8064a3389c0147e58b5c9cc58e3cb0c15ae3e0e4",
       "extract_dir": "gopeed-web-v1.6.9-windows-arm64"
     }
@@ -35,15 +35,15 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/GopeedLab/gopeed/releases/download/v$version/gopeed-web-v$version-windows-amd64.zip",
+        "url": "https://github.com/GopeedLab/gopeed/releases/download/v$version/gopeed-web-v$version-windows-amd64.zip",
         "extract_dir": "gopeed-web-v$version-windows-amd64"
       },
       "32bit": {
-        "url": "https://ghgo.xyz/https://github.com/GopeedLab/gopeed/releases/download/v$version/gopeed-web-v$version-windows-386.zip",
+        "url": "https://github.com/GopeedLab/gopeed/releases/download/v$version/gopeed-web-v$version-windows-386.zip",
         "extract_dir": "gopeed-web-v$version-windows-386"
       },
       "arm64": {
-        "url": "https://ghgo.xyz/https://github.com/GopeedLab/gopeed/releases/download/v$version/gopeed-web-v$version-windows-arm64.zip",
+        "url": "https://github.com/GopeedLab/gopeed/releases/download/v$version/gopeed-web-v$version-windows-arm64.zip",
         "extract_dir": "gopeed-web-v$version-windows-arm64"
       }
     }

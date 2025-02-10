@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/knah/CVRMelonAssistant/releases/download/v1.1.28.1029/CVRMelonAssistant.exe",
+      "url": "https://github.com/knah/CVRMelonAssistant/releases/download/v1.1.28.1029/CVRMelonAssistant.exe",
       "hash": "370ac08bd5a9b9bbc795bc2af097c23329e2ee4c523758f433e1f0e5f08dc369"
     }
   },
@@ -21,7 +21,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/knah/CVRMelonAssistant/releases/download/v$version/CVRMelonAssistant.exe"
+        "url": "https://github.com/knah/CVRMelonAssistant/releases/download/v$version/CVRMelonAssistant.exe"
       }
     }
   }

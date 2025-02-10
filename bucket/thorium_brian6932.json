@@ -1,16 +1,16 @@
 {
-  "$schema": "https://ghgo.xyz/https://raw.githubusercontent.com/brian6932/Scoop/64bit-v2-v3-v4/schema.json",
+  "$schema": "https://raw.githubusercontent.com/brian6932/Scoop/64bit-v2-v3-v4/schema.json",
   "version": "128.0.6613.189",
   "description": "Chromium fork named after radioactive element No. 90. Windows",
   "homepage": "https://thorium.rocks/",
   "license": "BSD-3-Clause",
   "architecture": {
     "64bit-v3": {
-      "url": "https://ghgo.xyz/https://github.com/Alex313031/Thorium-Win/releases/download/M128.0.6613.189/Thorium_AVX2_128.0.6613.189.zip",
+      "url": "https://github.com/Alex313031/Thorium-Win/releases/download/M128.0.6613.189/Thorium_AVX2_128.0.6613.189.zip",
       "hash": "ddce38700bd0c0794a883a600e10b0a6705b502fdc6fc3f1bcb946f56fcc126a"
     },
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/Alex313031/Thorium-Win/releases/download/M128.0.6613.189/Thorium_SSE3_128.0.6613.189.zip",
+      "url": "https://github.com/Alex313031/Thorium-Win/releases/download/M128.0.6613.189/Thorium_SSE3_128.0.6613.189.zip",
       "hash": "16924c3d16c37213767f7f7148af56c03088d931b962dce2e13bc975af12662f"
     }
   },
@@ -39,10 +39,10 @@
   "autoupdate": {
     "architecture": {
       "64bit-v3": {
-        "url": "https://ghgo.xyz/https://github.com/Alex313031/Thorium-Win/releases/download/M$version/Thorium_AVX2_$version.zip"
+        "url": "https://github.com/Alex313031/Thorium-Win/releases/download/M$version/Thorium_AVX2_$version.zip"
       },
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/Alex313031/Thorium-Win/releases/download/M$version/Thorium_SSE3_$version.zip"
+        "url": "https://github.com/Alex313031/Thorium-Win/releases/download/M$version/Thorium_SSE3_$version.zip"
       }
     }
   }

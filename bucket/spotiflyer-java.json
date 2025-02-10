@@ -8,7 +8,7 @@
     "JDK": "java/openjdk",
     "JRE": "java/temurin-jre"
   },
-  "url": "https://ghgo.xyz/https://github.com/Shabinder/SpotiFlyer/releases/download/v3.6.3/SpotiFlyer-windows-x64-3.6.3.jar#/SpotiFlyer.jar",
+  "url": "https://github.com/Shabinder/SpotiFlyer/releases/download/v3.6.3/SpotiFlyer-windows-x64-3.6.3.jar#/SpotiFlyer.jar",
   "hash": "",
   "pre_install": [
     "$currentDir = $dir.Replace(\"$version\", 'current')",
@@ -26,7 +26,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/Shabinder/SpotiFlyer/releases/download/v$version/SpotiFlyer-windows-x64-$version.jar#/SpotiFlyer.jar"
+        "url": "https://github.com/Shabinder/SpotiFlyer/releases/download/v$version/SpotiFlyer-windows-x64-$version.jar#/SpotiFlyer.jar"
       }
     }
   }

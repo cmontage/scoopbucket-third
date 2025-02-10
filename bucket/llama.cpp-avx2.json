@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/ggerganov/llama.cpp/releases/download/b4667/llama-b4667-bin-win-avx2-x64.zip",
+      "url": "https://github.com/ggerganov/llama.cpp/releases/download/b4667/llama-b4667-bin-win-avx2-x64.zip",
       "hash": "ecde593de74e9c2e885b69e864a1ad212ca68bcc64fe0f44d3879c75c57d9222"
     }
   },
@@ -17,7 +17,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/ggerganov/llama.cpp/releases/download/$version/llama-$version-bin-win-avx2-x64.zip"
+        "url": "https://github.com/ggerganov/llama.cpp/releases/download/$version/llama-$version-bin-win-avx2-x64.zip"
       }
     }
   }

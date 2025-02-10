@@ -6,11 +6,11 @@
   "changelog": "https://github.com/Radarr/Radarr/releases",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/Radarr/Radarr/releases/download/v5.18.3.9669/Radarr.develop.5.18.3.9669.windows-core-x64.zip",
+      "url": "https://github.com/Radarr/Radarr/releases/download/v5.18.3.9669/Radarr.develop.5.18.3.9669.windows-core-x64.zip",
       "hash": "6e3aee55741976c99ef2953bfd4ee615f4d070e3967a2a95c035da4ef8f76ff0"
     },
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/Radarr/Radarr/releases/download/v5.18.3.9669/Radarr.develop.5.18.3.9669.windows-core-x86.zip",
+      "url": "https://github.com/Radarr/Radarr/releases/download/v5.18.3.9669/Radarr.develop.5.18.3.9669.windows-core-x86.zip",
       "hash": "9c9b8de7850bd7e17e05c9907e0569bd75cfc1e380553d2f570a067a6578e17a"
     }
   },
@@ -28,10 +28,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/Radarr/Radarr/releases/download/v$version/Radarr.develop.$version.windows-core-x64.zip"
+        "url": "https://github.com/Radarr/Radarr/releases/download/v$version/Radarr.develop.$version.windows-core-x64.zip"
       },
       "32bit": {
-        "url": "https://ghgo.xyz/https://github.com/Radarr/Radarr/releases/download/v$version/Radarr.develop.$version.windows-core-x86.zip"
+        "url": "https://github.com/Radarr/Radarr/releases/download/v$version/Radarr.develop.$version.windows-core-x86.zip"
       }
     }
   }

@@ -6,7 +6,7 @@
     "identifier": "GNU General Public License v3.0",
     "url": "https://github.com/GopeedLab/gopeed/blob/main/LICENSE"
   },
-  "url": "https://ghgo.xyz/https://github.com/GopeedLab/gopeed/releases/download/v1.6.9/Gopeed-v1.6.9-windows-amd64.zip",
+  "url": "https://github.com/GopeedLab/gopeed/releases/download/v1.6.9/Gopeed-v1.6.9-windows-amd64.zip",
   "hash": "50873011ac4a0b75bd3170ba1ab39756fca345bec617a5a7bbad221f66a433cc",
   "bin": "gopeed.exe",
   "shortcuts": [
@@ -41,6 +41,6 @@
     "github": "https://github.com/GopeedLab/gopeed"
   },
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/GopeedLab/gopeed/releases/download/v$version/Gopeed-v$version-windows-amd64.zip"
+    "url": "https://github.com/GopeedLab/gopeed/releases/download/v$version/Gopeed-v$version-windows-amd64.zip"
   }
 }

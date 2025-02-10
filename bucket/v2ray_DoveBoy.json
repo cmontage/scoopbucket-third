@@ -5,15 +5,15 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/v2fly/v2ray-core/releases/download/v5.26.0/v2ray-windows-64.zip",
+      "url": "https://github.com/v2fly/v2ray-core/releases/download/v5.26.0/v2ray-windows-64.zip",
       "hash": "310b7df89fb298c82ffbc9c1651cca401847f6f6d068ab654bd01a39e21f0c7a"
     },
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/v2fly/v2ray-core/releases/download/v5.26.0/v2ray-windows-32.zip",
+      "url": "https://github.com/v2fly/v2ray-core/releases/download/v5.26.0/v2ray-windows-32.zip",
       "hash": "dff9d5b80a400c591fc0fcc8324800262ac24ed35b78cc6d4ee63551e0cba234"
     },
     "arm64": {
-      "url": "https://ghgo.xyz/https://github.com/v2fly/v2ray-core/releases/download/v5.26.0/v2ray-windows-arm64-v8a.zip",
+      "url": "https://github.com/v2fly/v2ray-core/releases/download/v5.26.0/v2ray-windows-arm64-v8a.zip",
       "hash": "1e15c74faf879c45f4b865882511f6760a96db9f38cce2710bedd334b2337432"
     }
   },
@@ -25,13 +25,13 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/v2fly/v2ray-core/releases/download/v$version/v2ray-windows-64.zip"
+        "url": "https://github.com/v2fly/v2ray-core/releases/download/v$version/v2ray-windows-64.zip"
       },
       "32bit": {
-        "url": "https://ghgo.xyz/https://github.com/v2fly/v2ray-core/releases/download/v$version/v2ray-windows-32.zip"
+        "url": "https://github.com/v2fly/v2ray-core/releases/download/v$version/v2ray-windows-32.zip"
       },
       "arm64": {
-        "url": "https://ghgo.xyz/https://github.com/v2fly/v2ray-core/releases/download/v$version/v2ray-windows-arm64-v8a.zip"
+        "url": "https://github.com/v2fly/v2ray-core/releases/download/v$version/v2ray-windows-arm64-v8a.zip"
       }
     },
     "hash": {

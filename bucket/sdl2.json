@@ -4,8 +4,8 @@
   "homepage": "https://www.libsdl.org",
   "license": "Zlib",
   "url": [
-    "https://ghgo.xyz/https://github.com/libsdl-org/SDL/releases/download/release-2.30.12/SDL2-devel-2.30.12-VC.zip",
-    "https://ghgo.xyz/https://github.com/libsdl-org/SDL/releases/download/release-2.30.12/SDL2-2.30.12.zip"
+    "https://github.com/libsdl-org/SDL/releases/download/release-2.30.12/SDL2-devel-2.30.12-VC.zip",
+    "https://github.com/libsdl-org/SDL/releases/download/release-2.30.12/SDL2-2.30.12.zip"
   ],
   "hash": [
     "1ca980f9964fb44cf94be235c9818fa1dc8e3f76b08096d751b2d689e5e37d02",
@@ -84,8 +84,8 @@
   },
   "autoupdate": {
     "url": [
-      "https://ghgo.xyz/https://github.com/libsdl-org/SDL/releases/download/release-$version/SDL2-devel-$version-VC.zip",
-      "https://ghgo.xyz/https://github.com/libsdl-org/SDL/releases/download/release-$version/SDL2-$version.zip"
+      "https://github.com/libsdl-org/SDL/releases/download/release-$version/SDL2-devel-$version-VC.zip",
+      "https://github.com/libsdl-org/SDL/releases/download/release-$version/SDL2-$version.zip"
     ]
   }
 }

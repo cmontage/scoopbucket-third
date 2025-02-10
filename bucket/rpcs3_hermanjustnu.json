@@ -12,7 +12,7 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/rpcs3/rpcs3-binaries-win/releases/download/build-c7e853bf99a0c135a69fdf903fb033254e43492a/rpcs3-v0.0.34-17448-c7e853bf_win64.7z",
+      "url": "https://github.com/rpcs3/rpcs3-binaries-win/releases/download/build-c7e853bf99a0c135a69fdf903fb033254e43492a/rpcs3-v0.0.34-17448-c7e853bf_win64.7z",
       "hash": "459f99ed3a1c8ab6d6b91e1b7b87933297f4297e8891380c64bd02c52a55fdeb"
     }
   },
@@ -56,7 +56,7 @@
     "replace": "${build}"
   },
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/rpcs3/rpcs3-binaries-win/releases/download/build-$matchFullhash/rpcs3-v$matchBuild-$matchShorthash_win64.7z",
+    "url": "https://github.com/rpcs3/rpcs3-binaries-win/releases/download/build-$matchFullhash/rpcs3-v$matchBuild-$matchShorthash_win64.7z",
     "hash": {
       "url": "https://rpcs3.net/compatibility?b",
       "regex": "Windows SHA-256: ($sha256)"

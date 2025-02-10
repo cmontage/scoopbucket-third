@@ -12,7 +12,7 @@
       "java/openjdk"
     ]
   },
-  "url": "https://ghgo.xyz/https://github.com/rebeyond/Behinder/releases/download/Behinder_v4.1%E3%80%90t00ls%E4%B8%93%E7%89%88%E3%80%91/Behinder_v4.1.t00ls.zip",
+  "url": "https://github.com/rebeyond/Behinder/releases/download/Behinder_v4.1%E3%80%90t00ls%E4%B8%93%E7%89%88%E3%80%91/Behinder_v4.1.t00ls.zip",
   "hash": "1e960d4c1c00fa308fe9da6bfb20764a379cb8cf4b874f2456d19982e6c688c2",
   "pre_install": [
     "Set-Content \"$dir\\behinder.bat\" '@pushd %~dp0",
@@ -33,6 +33,6 @@
     "regex": "Behinder_v(?<tag>[\\d.]+(?:(?:_\\w+)|(?:[\\w%]+)?))/Behinder_v(?<version>([\\d.]+?(?:_\\w+)?)(?:\\.t00ls)?)\\.zip"
   },
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/rebeyond/Behinder/releases/download/Behinder_v$matchTag/Behinder_v$matchVersion.zip"
+    "url": "https://github.com/rebeyond/Behinder/releases/download/Behinder_v$matchTag/Behinder_v$matchVersion.zip"
   }
 }

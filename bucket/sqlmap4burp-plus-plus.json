@@ -13,7 +13,7 @@
     ]
   },
   "url": [
-    "https://ghgo.xyz/https://github.com/c0ny1/sqlmap4burp-plus-plus/releases/download/0.2/sqlmap4burp++.0.2.jar"
+    "https://github.com/c0ny1/sqlmap4burp-plus-plus/releases/download/0.2/sqlmap4burp++.0.2.jar"
   ],
   "hash": [
     "5bbf852d606243beb7c30ca18669d84db7ce43267c1c74a18d38468044b327db"
@@ -24,7 +24,7 @@
   "checkver": "github",
   "autoupdate": {
     "url": [
-      "https://ghgo.xyz/https://github.com/c0ny1/sqlmap4burp-plus-plus/releases/download/$version/sqlmap4burp++.$version.jar"
+      "https://github.com/c0ny1/sqlmap4burp-plus-plus/releases/download/$version/sqlmap4burp++.$version.jar"
     ]
   }
 }

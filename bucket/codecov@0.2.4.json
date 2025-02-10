@@ -7,7 +7,7 @@
   "#cdn": "https://uploader.codecov.io",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/codecov/uploader/releases/download/v0.2.4/codecov.exe",
+      "url": "https://github.com/codecov/uploader/releases/download/v0.2.4/codecov.exe",
       "hash": "sha256:a45de206d32ad7c34ede07edcf44ca901aa8b24740f508437d1b15c738589f0b"
     }
   },
@@ -18,7 +18,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/codecov/uploader/releases/download/v$version/codecov.exe"
+        "url": "https://github.com/codecov/uploader/releases/download/v$version/codecov.exe"
       }
     }
   }

@@ -6,7 +6,7 @@
   "suggest": {
     "vcredist": "extras/vcredist2022"
   },
-  "url": "https://ghgo.xyz/https://github.com/microsoft/terminal/releases/download/v1.22.10352.0/Microsoft.WindowsTerminal_1.22.10352.0_8wekyb3d8bbwe.msixbundle#/dl.7z",
+  "url": "https://github.com/microsoft/terminal/releases/download/v1.22.10352.0/Microsoft.WindowsTerminal_1.22.10352.0_8wekyb3d8bbwe.msixbundle#/dl.7z",
   "hash": "24f86616677d1af9392d99647637dc7572863db5c0ab81cc8d96abd24d45a6dd",
   "architecture": {
     "64bit": {
@@ -44,7 +44,7 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/microsoft/terminal/releases/download/v$version/Microsoft.WindowsTerminal_$version_8wekyb3d8bbwe.msixbundle#/dl.7z",
+    "url": "https://github.com/microsoft/terminal/releases/download/v$version/Microsoft.WindowsTerminal_$version_8wekyb3d8bbwe.msixbundle#/dl.7z",
     "hash": {
       "url": "https://github.com/microsoft/terminal/releases/tag/v$version",
       "regex": "(?s)$basename.*?$sha256"

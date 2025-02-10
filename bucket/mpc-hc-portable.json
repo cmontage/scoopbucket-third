@@ -5,7 +5,7 @@
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/clsid2/mpc-hc/releases/download/2.4.0/MPC-HC.2.4.0.x64.zip",
+      "url": "https://github.com/clsid2/mpc-hc/releases/download/2.4.0/MPC-HC.2.4.0.x64.zip",
       "hash": "2bea42ae1c11d32f8db5a45e543e8388923c19c55fbd683de8d4908c61f6ae4d",
       "bin": [
         [
@@ -21,7 +21,7 @@
       ]
     },
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/clsid2/mpc-hc/releases/download/2.4.0/MPC-HC.2.4.0.x86.zip",
+      "url": "https://github.com/clsid2/mpc-hc/releases/download/2.4.0/MPC-HC.2.4.0.x86.zip",
       "hash": "77e7c6a6d4d75631d3bee5d5799dfe8e409fd7d9bcac0ac60efb3262f20014dc",
       "bin": "mpc-hc.exe",
       "shortcuts": [
@@ -47,10 +47,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/clsid2/mpc-hc/releases/download/$version/MPC-HC.$version.x64.zip"
+        "url": "https://github.com/clsid2/mpc-hc/releases/download/$version/MPC-HC.$version.x64.zip"
       },
       "32bit": {
-        "url": "https://ghgo.xyz/https://github.com/clsid2/mpc-hc/releases/download/$version/MPC-HC.$version.x86.zip"
+        "url": "https://github.com/clsid2/mpc-hc/releases/download/$version/MPC-HC.$version.x86.zip"
       }
     }
   }

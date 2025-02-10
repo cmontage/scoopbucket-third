@@ -5,7 +5,7 @@
   "license": "MPL-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/wswartzendruber/hlg-tools/releases/download/release%2F2.1.0/hlg-tools-2.1.0-windows-amd64.zip",
+      "url": "https://github.com/wswartzendruber/hlg-tools/releases/download/release%2F2.1.0/hlg-tools-2.1.0-windows-amd64.zip",
       "hash": "10ae1b951a8da5b52d020bd64d9a081925a52858b3b8a11f84d50e0e5641f320"
     }
   },
@@ -21,7 +21,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/wswartzendruber/hlg-tools/releases/download/release%2F$version/hlg-tools-$version-windows-amd64.zip"
+        "url": "https://github.com/wswartzendruber/hlg-tools/releases/download/release%2F$version/hlg-tools-$version-windows-amd64.zip"
       }
     }
   }

@@ -7,11 +7,11 @@
     "identifier": "MIT",
     "url": "https://github.com/JiuRanYa/IconEase#MIT-1-ov-file"
   },
-  "url": "https://ghgo.xyz/https://github.com/JiuRanYa/IconEase/releases/download/v1.2.0/IconEase_1.2.0_x64-setup.exe#/dl.7z",
+  "url": "https://github.com/JiuRanYa/IconEase/releases/download/v1.2.0/IconEase_1.2.0_x64-setup.exe#/dl.7z",
   "hash": "3eb31de010ca5d31dd15878560489dc73dc7e4dfa48d87a8abc84ded29867017",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/JiuRanYa/IconEase/releases/download/v$version/IconEase_$version_x64-setup.exe#/dl.7z"
+    "url": "https://github.com/JiuRanYa/IconEase/releases/download/v$version/IconEase_$version_x64-setup.exe#/dl.7z"
   },
   "pre_install": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
   "shortcuts": [

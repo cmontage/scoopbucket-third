@@ -5,7 +5,7 @@
   "license": "AGPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/logseq/logseq/releases/download/0.10.9/logseq-win-x64-0.10.9.exe#/dl.7z",
+      "url": "https://github.com/logseq/logseq/releases/download/0.10.9/logseq-win-x64-0.10.9.exe#/dl.7z",
       "hash": "d7816c3c5723188261e85c16ca5e662376b89491ba58342856ed37f1dd0414ef"
     }
   },
@@ -25,7 +25,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/logseq/logseq/releases/download/$version/logseq-win-x64-$version.exe#/dl.7z"
+        "url": "https://github.com/logseq/logseq/releases/download/$version/logseq-win-x64-$version.exe#/dl.7z"
       }
     }
   }

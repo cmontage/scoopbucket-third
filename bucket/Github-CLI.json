@@ -5,11 +5,11 @@
   "version": "2.66.1",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/cli/cli/releases/download/v2.66.1/gh_2.66.1_windows_amd64.zip",
+      "url": "https://github.com/cli/cli/releases/download/v2.66.1/gh_2.66.1_windows_amd64.zip",
       "hash": "2f8cd5d8bcffc65dc4dc69bb48ca536b53f792744ba7da7e75b238bde9deb2bf"
     },
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/cli/cli/releases/download/v2.66.1/gh_2.66.1_windows_386.zip",
+      "url": "https://github.com/cli/cli/releases/download/v2.66.1/gh_2.66.1_windows_386.zip",
       "hash": "3230733185d25b93db38847873563ae3f76a0660c0aeae77b54a36314d2ec7ff"
     }
   },
@@ -20,16 +20,16 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/cli/cli/releases/download/v$version/gh_$version_windows_amd64.zip",
+        "url": "https://github.com/cli/cli/releases/download/v$version/gh_$version_windows_amd64.zip",
         "hash": {
-          "url": "https://ghgo.xyz/https://github.com/cli/cli/releases/download/v$version/gh_$version_checksums.txt",
+          "url": "https://github.com/cli/cli/releases/download/v$version/gh_$version_checksums.txt",
           "find": "($sha256)\\s+gh_$version_windows_amd64.zip"
         }
       },
       "32bit": {
-        "url": "https://ghgo.xyz/https://github.com/cli/cli/releases/download/v$version/gh_$version_windows_386.zip",
+        "url": "https://github.com/cli/cli/releases/download/v$version/gh_$version_windows_386.zip",
         "hash": {
-          "url": "https://ghgo.xyz/https://github.com/cli/cli/releases/download/v$version/gh_$version_checksums.txt",
+          "url": "https://github.com/cli/cli/releases/download/v$version/gh_$version_checksums.txt",
           "find": "($sha256)\\s+gh_$version_windows_386.zip"
         }
       }

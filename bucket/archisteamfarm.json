@@ -15,7 +15,7 @@
   ],
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/JustArchiNET/ArchiSteamFarm/releases/download/6.1.2.3/ASF-win-x64.zip",
+      "url": "https://github.com/JustArchiNET/ArchiSteamFarm/releases/download/6.1.2.3/ASF-win-x64.zip",
       "hash": "af2030ceab4b45d1545d3eb6bd7796752101d9804aa174bda806185f28aec129"
     }
   },
@@ -34,7 +34,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/JustArchiNET/ArchiSteamFarm/releases/download/$version/ASF-win-x64.zip"
+        "url": "https://github.com/JustArchiNET/ArchiSteamFarm/releases/download/$version/ASF-win-x64.zip"
       }
     }
   }

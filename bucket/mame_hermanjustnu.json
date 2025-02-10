@@ -8,7 +8,7 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/mamedev/mame/releases/download/mame0274/mame0274b_64bit.exe#/dl.7z",
+      "url": "https://github.com/mamedev/mame/releases/download/mame0274/mame0274b_64bit.exe#/dl.7z",
       "hash": "77bcbdc1d614690adec57ceb9a0469955d70a48471c86ba338795623ddd77637",
       "pre_install": [
         "if(!(Test-Path \"$persist_dir\\mame.ini\")) {",
@@ -45,7 +45,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/mamedev/mame/releases/download/mame$cleanVersion/mame$cleanVersionb_64bit.exe#/dl.7z"
+        "url": "https://github.com/mamedev/mame/releases/download/mame$cleanVersion/mame$cleanVersionb_64bit.exe#/dl.7z"
       }
     },
     "hash": {

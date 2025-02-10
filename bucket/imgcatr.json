@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/SilinMeng0510/imgcatr/releases/download/v0.1.4/imgcatr-x86_64-pc-windows-msvc.zip",
+      "url": "https://github.com/SilinMeng0510/imgcatr/releases/download/v0.1.4/imgcatr-x86_64-pc-windows-msvc.zip",
       "hash": "c2fae14dcc8b4ed6ece7bcdc7a6095d2b30b803855cd72f65037b0e46b94421a"
     }
   },
@@ -14,7 +14,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/SilinMeng0510/imgcatr/releases/download/v$version/imgcatr-x86_64-pc-windows-msvc.zip"
+        "url": "https://github.com/SilinMeng0510/imgcatr/releases/download/v$version/imgcatr-x86_64-pc-windows-msvc.zip"
       }
     }
   }

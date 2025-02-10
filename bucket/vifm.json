@@ -5,12 +5,12 @@
   "license": "GPL-2.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/vifm/vifm/releases/download/v0.14/vifm-w64-se-0.14-binary.zip",
+      "url": "https://github.com/vifm/vifm/releases/download/v0.14/vifm-w64-se-0.14-binary.zip",
       "hash": "sha1:d356626070a8d68194f11dff599a5ea50e62244f",
       "extract_dir": "vifm-w64-se-0.14-binary"
     },
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/vifm/vifm/releases/download/v0.14/vifm-w32-se-0.14-binary.zip",
+      "url": "https://github.com/vifm/vifm/releases/download/v0.14/vifm-w32-se-0.14-binary.zip",
       "hash": "sha1:29af731aba4fe74f84565e1eb5d8b68850c1be0c",
       "extract_dir": "vifm-w32-se-0.14-binary"
     }
@@ -29,11 +29,11 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/vifm/vifm/releases/download/v$version/vifm-w64-se-$version-binary.zip",
+        "url": "https://github.com/vifm/vifm/releases/download/v$version/vifm-w64-se-$version-binary.zip",
         "extract_dir": "vifm-w64-se-$version-binary"
       },
       "32bit": {
-        "url": "https://ghgo.xyz/https://github.com/vifm/vifm/releases/download/v$version/vifm-w32-se-$version-binary.zip",
+        "url": "https://github.com/vifm/vifm/releases/download/v$version/vifm-w32-se-$version-binary.zip",
         "extract_dir": "vifm-w32-se-$version-binary"
       }
     },

@@ -8,11 +8,11 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/Martchus/syncthingtray/releases/download/v1.7.2/syncthingctl-1.7.2-x86_64-w64-mingw32.exe.zip",
+      "url": "https://github.com/Martchus/syncthingtray/releases/download/v1.7.2/syncthingctl-1.7.2-x86_64-w64-mingw32.exe.zip",
       "hash": "c5d82e72667909d7809fc2a0980d5dfd673f5e715349126465675ccba4f62846"
     },
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/Martchus/syncthingtray/releases/download/v1.7.2/syncthingctl-qt5-1.7.2-i686-w64-mingw32.exe.zip",
+      "url": "https://github.com/Martchus/syncthingtray/releases/download/v1.7.2/syncthingctl-qt5-1.7.2-i686-w64-mingw32.exe.zip",
       "hash": "d0a28cd2fdaea56b21156437ecd4e0a1512a50df8151aa91e820d730b3f6761f"
     }
   },
@@ -22,10 +22,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/Martchus/syncthingtray/releases/download/v$version/syncthingctl-$version-x86_64-w64-mingw32.exe.zip"
+        "url": "https://github.com/Martchus/syncthingtray/releases/download/v$version/syncthingctl-$version-x86_64-w64-mingw32.exe.zip"
       },
       "32bit": {
-        "url": "https://ghgo.xyz/https://github.com/Martchus/syncthingtray/releases/download/v$version/syncthingctl-qt5-$version-i686-w64-mingw32.exe.zip"
+        "url": "https://github.com/Martchus/syncthingtray/releases/download/v$version/syncthingctl-qt5-$version-i686-w64-mingw32.exe.zip"
       }
     }
   }

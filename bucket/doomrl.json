@@ -5,7 +5,7 @@
   "license": "GPL-2.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/chaosforgeorg/doomrl/releases/download/0_9_9_8a/drl-win-0998.zip",
+      "url": "https://github.com/chaosforgeorg/doomrl/releases/download/0_9_9_8a/drl-win-0998.zip",
       "hash": "5575688bb4a6a117139eb160ee4fbd1b0c50c69c7c037760901cbd6754eee95b"
     }
   },
@@ -39,7 +39,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/chaosforgeorg/doomrl/releases/download/$underscoreVersion/drl-win-$cleanVersion.zip"
+        "url": "https://github.com/chaosforgeorg/doomrl/releases/download/$underscoreVersion/drl-win-$cleanVersion.zip"
       }
     },
     "extract_dir": "drl-win-$cleanVersion"

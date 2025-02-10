@@ -5,7 +5,7 @@
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/openziti/zrok/releases/download/v0.4.47/zrok_0.4.47_windows_amd64.tar.gz",
+      "url": "https://github.com/openziti/zrok/releases/download/v0.4.47/zrok_0.4.47_windows_amd64.tar.gz",
       "hash": "sha1:6c38af9f9558da21c823c7c78dfab23dfb4b0f1b"
     }
   },
@@ -16,7 +16,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/openziti/zrok/releases/download/v$version/zrok_$version_windows_amd64.tar.gz"
+        "url": "https://github.com/openziti/zrok/releases/download/v$version/zrok_$version_windows_amd64.tar.gz"
       }
     },
     "hash": {

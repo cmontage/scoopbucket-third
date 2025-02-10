@@ -6,9 +6,9 @@
   "architecture": {
     "64bit": {
       "url": [
-        "https://ghgo.xyz/https://github.com/VSCodium/vscodium/releases/download/1.97.0.25037/VSCodium-win32-x64-1.97.0.25037.zip",
-        "https://ghgo.xyz/https://raw.githubusercontent.com/ScoopInstaller/Extras/master/scripts/vscode/install-context.reg",
-        "https://ghgo.xyz/https://raw.githubusercontent.com/ScoopInstaller/Extras/master/scripts/vscode/uninstall-context.reg"
+        "https://github.com/VSCodium/vscodium/releases/download/1.97.0.25037/VSCodium-win32-x64-1.97.0.25037.zip",
+        "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/scripts/vscode/install-context.reg",
+        "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/scripts/vscode/uninstall-context.reg"
       ],
       "hash": [
         "5bec66cf6314ba2239ee81ca716b8e2de5f1263f1e1ef8b08c05d78497e55fb6",
@@ -50,7 +50,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/VSCodium/vscodium/releases/download/$version/VSCodium-win32-x64-$version.zip"
+        "url": "https://github.com/VSCodium/vscodium/releases/download/$version/VSCodium-win32-x64-$version.zip"
       }
     }
   }

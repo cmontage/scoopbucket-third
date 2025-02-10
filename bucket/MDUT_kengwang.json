@@ -10,10 +10,10 @@
     ]
   },
   "checkver": "github",
-  "url": "https://ghgo.xyz/https://github.com/SafeGroceryStore/MDUT/releases/download/v2.1.1/Multiple.Database.Utilization.Tools-2.1.1.zip",
+  "url": "https://github.com/SafeGroceryStore/MDUT/releases/download/v2.1.1/Multiple.Database.Utilization.Tools-2.1.1.zip",
   "hash": "2e0927addab69b361b9fea22fc72d69796aefe48760f043932bbb3a5b699d533",
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/SafeGroceryStore/MDUT/releases/download/v$version/Multiple.Database.Utilization.Tools-$version.zip",
+    "url": "https://github.com/SafeGroceryStore/MDUT/releases/download/v$version/Multiple.Database.Utilization.Tools-$version.zip",
     "bin": [
       [
         "Multiple.Database.Utilization.Tools-$version-jar-with-dependencies.jar",

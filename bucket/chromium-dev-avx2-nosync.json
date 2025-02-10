@@ -5,7 +5,7 @@
   "homepage": "https://github.com/RobRich999/Chromium_Clang",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/RobRich999/Chromium_Clang/releases/download/v100.0.4863.0-r965290-win64-avx2/chrome.zip",
+      "url": "https://github.com/RobRich999/Chromium_Clang/releases/download/v100.0.4863.0-r965290-win64-avx2/chrome.zip",
       "hash": "sha1:ef193bf8350e6c28d902c790cb857da331b4fe40",
       "extract_dir": "chrome-win32"
     }
@@ -23,13 +23,13 @@
     ]
   ],
   "checkver": {
-    "url": "https://ghgo.xyz/https://raw.githubusercontent.com/RobRich999/Chromium_Clang/master/README.md",
+    "url": "https://raw.githubusercontent.com/RobRich999/Chromium_Clang/master/README.md",
     "regex": "v([\\d.]+-r\\d+)-win64-avx2\\s+"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/RobRich999/Chromium_Clang/releases/download/v$version-win64-avx2/chrome.zip",
+        "url": "https://github.com/RobRich999/Chromium_Clang/releases/download/v$version-win64-avx2/chrome.zip",
         "hash": {
           "url": "https://github.com/RobRich999/Chromium_Clang/releases/tag/v$version-win64-avx2",
           "regex": "chrome\\.zip\\s\\-\\s([a-fA-F0-9]{40})"

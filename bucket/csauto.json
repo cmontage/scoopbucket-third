@@ -16,7 +16,7 @@
   "checkver": {
     "github": "https://github.com/MurkyYT/CSAuto"
   },
-  "url": "https://ghgo.xyz/https://github.com/MurkyYT/CSAuto/releases/download/2.1.4/CSAuto_Portable.zip",
+  "url": "https://github.com/MurkyYT/CSAuto/releases/download/2.1.4/CSAuto_Portable.zip",
   "hash": "ba0a48d143c7fba8a9461cf6013dc6c6eed47639abee5af5ac79380ab877da7b",
   "pre_install": [
     "if (!(Test-Path \"$persist_dir\\.conf\")) {",
@@ -24,6 +24,6 @@
     "}"
   ],
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/MurkyYT/CSAuto/releases/download/$version/CSAuto_Portable.zip"
+    "url": "https://github.com/MurkyYT/CSAuto/releases/download/$version/CSAuto_Portable.zip"
   }
 }

@@ -6,7 +6,7 @@
     "identifier": "MIT",
     "url": "https://github.com/laurent22/joplin/blob/dev/LICENSE"
   },
-  "url": "https://ghgo.xyz/https://github.com/laurent22/joplin/releases/download/v3.2.10/Joplin-Setup-3.2.10.exe#/dl.7z",
+  "url": "https://github.com/laurent22/joplin/releases/download/v3.2.10/Joplin-Setup-3.2.10.exe#/dl.7z",
   "hash": "sha512:17bea6d7e48f9eb74d9d0a5e4c855ef23710d2b8c4ecd2e955ffb39bce902d6e075b120bf28707ab2820df81fe4a8587d6494fdf15552094f374f43344d49e24",
   "architecture": {
     "64bit": {
@@ -43,7 +43,7 @@
     "regex": "(?sm)prerelease\".*?true.*?browser_download_url.*?releases/download/v([\\d.]+)/Joplin-Setup-([\\d.]+)\\.exe"
   },
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/laurent22/joplin/releases/download/v$version/Joplin-Setup-$version.exe#/dl.7z",
+    "url": "https://github.com/laurent22/joplin/releases/download/v$version/Joplin-Setup-$version.exe#/dl.7z",
     "hash": {
       "url": "$baseurl/latest.yml",
       "regex": "sha512:\\s+$base64"

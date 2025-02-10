@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/sedwards2009/extraterm/releases/download/v0.81.0/extratermqt-setup-0.81.0.exe#/dl.7z",
+      "url": "https://github.com/sedwards2009/extraterm/releases/download/v0.81.0/extratermqt-setup-0.81.0.exe#/dl.7z",
       "hash": "c408b0cdf18bc4669f8382032215efa93350ac8a8a67cab8dbf11a3ac8d78c97"
     }
   },
@@ -27,7 +27,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/sedwards2009/extraterm/releases/download/v$version/extratermqt-setup-$version.exe#/dl.7z"
+        "url": "https://github.com/sedwards2009/extraterm/releases/download/v$version/extratermqt-setup-$version.exe#/dl.7z"
       }
     }
   }

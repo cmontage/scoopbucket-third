@@ -5,7 +5,7 @@
   "license": "WTFPL",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/hydrusnetwork/hydrus/releases/download/v608/Hydrus.Network.608.-.Windows.-.Extract.only.zip",
+      "url": "https://github.com/hydrusnetwork/hydrus/releases/download/v608/Hydrus.Network.608.-.Windows.-.Extract.only.zip",
       "hash": "935c8d1c1be3059e18dc42019794d3baf7d9f699fb320e58ce8b2c3aaab71666"
     }
   },
@@ -38,7 +38,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/hydrusnetwork/hydrus/releases/download/v$version/Hydrus.Network.$version.-.Windows.-.Extract.only.zip"
+        "url": "https://github.com/hydrusnetwork/hydrus/releases/download/v$version/Hydrus.Network.$version.-.Windows.-.Extract.only.zip"
       }
     }
   }

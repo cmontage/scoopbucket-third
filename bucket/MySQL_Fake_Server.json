@@ -10,11 +10,11 @@
   "suggest": {
     "python": "python38"
   },
-  "url": "https://ghgo.xyz/https://github.com/fnmsd/MySQL_Fake_Server/archive/4a090332b406ee0d23e02b56b2d8632ab8ce917e.zip",
+  "url": "https://github.com/fnmsd/MySQL_Fake_Server/archive/4a090332b406ee0d23e02b56b2d8632ab8ce917e.zip",
   "extract_dir": "MySQL_Fake_Server-4a090332b406ee0d23e02b56b2d8632ab8ce917e",
   "hash": "23227975130b55e021146b5f4ad10766253fbd5259dc328e1ad3cb6e70df6016",
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/fnmsd/MySQL_Fake_Server/archive/$version.zip",
+    "url": "https://github.com/fnmsd/MySQL_Fake_Server/archive/$version.zip",
     "extract_dir": "MySQL_Fake_Server-$version"
   },
   "bin": [

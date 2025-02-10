@@ -6,7 +6,7 @@
     "identifier": "GNU Affero General Public License v3.0",
     "url": "https://github.com/janhq/jan/blob/main/LICENSE"
   },
-  "url": "https://ghgo.xyz/https://github.com/janhq/jan/releases/download/v0.5.14/jan-win-x64-0.5.14.exe",
+  "url": "https://github.com/janhq/jan/releases/download/v0.5.14/jan-win-x64-0.5.14.exe",
   "hash": "65a90bba5bdda7b5eaee212c50873cba82168833b2c185be4832c94fa45c3be0",
   "bin": "jan.exe",
   "shortcuts": [
@@ -40,6 +40,6 @@
     "github": "https://github.com/janhq/jan"
   },
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/janhq/jan/releases/download/v$version/jan-win-x64-$version.exe"
+    "url": "https://github.com/janhq/jan/releases/download/v$version/jan-win-x64-$version.exe"
   }
 }

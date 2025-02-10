@@ -9,7 +9,7 @@
       "spotify-with-blockthespot"
     ]
   },
-  "url": "https://ghgo.xyz/https://github.com/khanhas/spicetify-cli/releases/download/v2.39.2/spicetify-2.39.2-windows-x64.zip",
+  "url": "https://github.com/khanhas/spicetify-cli/releases/download/v2.39.2/spicetify-2.39.2-windows-x64.zip",
   "hash": "61029f4eae6b2599867e7a4cb474e835b3ee3f3fc17c7d6c51c73e6123fc9787",
   "notes": [
     "Run `spicetify-apply` instead of `spicetify apply` to ensure changes are applied correctly, especially if `blockthespot` is also installed.",
@@ -58,6 +58,6 @@
     "github": "https://github.com/khanhas/spicetify-cli"
   },
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/khanhas/spicetify-cli/releases/download/v$version/spicetify-$version-windows-x64.zip"
+    "url": "https://github.com/khanhas/spicetify-cli/releases/download/v$version/spicetify-$version-windows-x64.zip"
   }
 }

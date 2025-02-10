@@ -5,7 +5,7 @@
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/chawyehsu/moonup/releases/download/v0.2.1/moonup-x86_64-pc-windows-msvc.zip",
+      "url": "https://github.com/chawyehsu/moonup/releases/download/v0.2.1/moonup-x86_64-pc-windows-msvc.zip",
       "hash": "a57902a153a7b8f9c1524e2860eebf8c07c537f6ca3c3de142a998059d5db800"
     }
   },
@@ -23,7 +23,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/chawyehsu/moonup/releases/download/v$version/moonup-x86_64-pc-windows-msvc.zip"
+        "url": "https://github.com/chawyehsu/moonup/releases/download/v$version/moonup-x86_64-pc-windows-msvc.zip"
       }
     },
     "hash": {

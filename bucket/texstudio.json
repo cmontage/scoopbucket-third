@@ -5,7 +5,7 @@
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/texstudio-org/texstudio/releases/download/4.8.6/texstudio-4.8.6-win-portable-qt6.zip",
+      "url": "https://github.com/texstudio-org/texstudio/releases/download/4.8.6/texstudio-4.8.6-win-portable-qt6.zip",
       "hash": "8106fadcd12cae626ac73e541fcbfd166443707b788305650a8c8e583f3a58d6"
     }
   },
@@ -21,7 +21,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/texstudio-org/texstudio/releases/download/$version/texstudio-$version-win-portable-qt6.zip"
+        "url": "https://github.com/texstudio-org/texstudio/releases/download/$version/texstudio-$version-win-portable-qt6.zip"
       }
     }
   }

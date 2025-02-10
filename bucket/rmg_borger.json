@@ -12,7 +12,7 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/Rosalie241/RMG/releases/download/v0.7.2/RMG-Portable-Windows64-v0.7.2.zip",
+      "url": "https://github.com/Rosalie241/RMG/releases/download/v0.7.2/RMG-Portable-Windows64-v0.7.2.zip",
       "hash": "8996c252d5e3ee5ae2e6e12de965dd51d0a082f42362526ce6543b7e92873490"
     }
   },
@@ -33,7 +33,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/Rosalie241/RMG/releases/download/v$version/RMG-Portable-Windows64-v$version.zip"
+        "url": "https://github.com/Rosalie241/RMG/releases/download/v$version/RMG-Portable-Windows64-v$version.zip"
       }
     }
   }

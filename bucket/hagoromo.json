@@ -8,7 +8,7 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/ioriayane/Hagoromo/releases/download/v0.46.0/hagoromo_0.46.0_windows.zip",
+      "url": "https://github.com/ioriayane/Hagoromo/releases/download/v0.46.0/hagoromo_0.46.0_windows.zip",
       "hash": "e88521cc7370d8c5e331da823db3cc42ff2b2fc9a2939a56c00a94b2d0a53e8e",
       "extract_dir": "hagoromo",
       "pre_install": "Remove-Item \"$dir/vc_redist.x64.exe\""
@@ -24,7 +24,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/ioriayane/Hagoromo/releases/download/v$version/hagoromo_$version_windows.zip"
+        "url": "https://github.com/ioriayane/Hagoromo/releases/download/v$version/hagoromo_$version_windows.zip"
       }
     }
   }

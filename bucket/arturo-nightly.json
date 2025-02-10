@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/arturo-lang/nightly/releases/download/2025-02-08/arturo-nightly.2025-02-07-amd64-windows-full.zip",
+      "url": "https://github.com/arturo-lang/nightly/releases/download/2025-02-08/arturo-nightly.2025-02-07-amd64-windows-full.zip",
       "hash": "238fb714f27ebd37b186f4e16512f8465dcf23a31eb89edc57ecabb5975db208"
     }
   },
@@ -16,6 +16,6 @@
     "regex": "download/(?<version>\\d{4}-\\d{2}-\\d{2})/arturo-nightly.(?<date>\\d{4}-\\d{2}-\\d{2})"
   },
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/arturo-lang/nightly/releases/download/$matchVersion/arturo-nightly.$matchDate-amd64-windows-full.zip"
+    "url": "https://github.com/arturo-lang/nightly/releases/download/$matchVersion/arturo-nightly.$matchDate-amd64-windows-full.zip"
   }
 }

@@ -6,7 +6,7 @@
     "identifier": "Apache-2.0 license",
     "url": "https://github.com/balena-io/etcher/blob/master/LICENSE"
   },
-  "url": "https://ghgo.xyz/https://github.com/balena-io/etcher/releases/download/v1.19.25/balenaEtcher-1.19.25.Setup.exe#/dl.7z",
+  "url": "https://github.com/balena-io/etcher/releases/download/v1.19.25/balenaEtcher-1.19.25.Setup.exe#/dl.7z",
   "hash": "5684b1f0db8dcfa7d19b1aef810639d7753e48b487a20cf63f0dc524ded5d4cf",
   "pre_install": [
     "Get-Item \"$dir\\balena_etcher*.nupkg\" | Rename-Item -NewName 'balenaetcher.nupkg'",
@@ -34,6 +34,6 @@
     "regex": "(?<file>balenaEtcher(?:-Setup)?-([\\d.]+)(?:.Setup)?\\.exe)"
   },
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/balena-io/etcher/releases/download/v$version/$matchFile#/dl.7z"
+    "url": "https://github.com/balena-io/etcher/releases/download/v$version/$matchFile#/dl.7z"
   }
 }

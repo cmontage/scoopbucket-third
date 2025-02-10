@@ -11,8 +11,8 @@
   },
   "checkver": "github",
   "url": [
-    "https://ghgo.xyz/https://github.com/4ra1n/mysql-fake-server/releases/download/0.0.4/fake-mysql-gui-0.0.4.jar#/fake-mysql-gui.jar",
-    "https://ghgo.xyz/https://github.com/4ra1n/mysql-fake-server/releases/download/0.0.4/fake-mysql-cli-0.0.4.jar#/fake-mysql-cli.jar"
+    "https://github.com/4ra1n/mysql-fake-server/releases/download/0.0.4/fake-mysql-gui-0.0.4.jar#/fake-mysql-gui.jar",
+    "https://github.com/4ra1n/mysql-fake-server/releases/download/0.0.4/fake-mysql-cli-0.0.4.jar#/fake-mysql-cli.jar"
   ],
   "hash": [
     "95c29347373c9c85a29667f527093a13599c5fff9a461c8e6a72402f1229570a",
@@ -20,8 +20,8 @@
   ],
   "autoupdate": {
     "url": [
-      "https://ghgo.xyz/https://github.com/4ra1n/mysql-fake-server/releases/download/$version/fake-mysql-gui-$version.jar#/fake-mysql-gui.jar",
-      "https://ghgo.xyz/https://github.com/4ra1n/mysql-fake-server/releases/download/$version/fake-mysql-cli-$version.jar#/fake-mysql-cli.jar"
+      "https://github.com/4ra1n/mysql-fake-server/releases/download/$version/fake-mysql-gui-$version.jar#/fake-mysql-gui.jar",
+      "https://github.com/4ra1n/mysql-fake-server/releases/download/$version/fake-mysql-cli-$version.jar#/fake-mysql-cli.jar"
     ]
   },
   "bin": [

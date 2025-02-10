@@ -2,12 +2,12 @@
   "version": "0.2.0",
   "description": "An R formatter and language server, written in Rust.",
   "homepage": "https://github.com/posit-dev/air",
-  "url": "https://ghgo.xyz/https://github.com/posit-dev/air/releases/download/0.2.0/air-x86_64-pc-windows-msvc.zip",
+  "url": "https://github.com/posit-dev/air/releases/download/0.2.0/air-x86_64-pc-windows-msvc.zip",
   "hash": "5265286686858f6305a48637b84c695660481322085430f6780a604a28dae00f",
   "bin": "air.exe",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/posit-dev/air/releases/download/$version/air-x86_64-pc-windows-msvc.zip",
+    "url": "https://github.com/posit-dev/air/releases/download/$version/air-x86_64-pc-windows-msvc.zip",
     "hash": {
       "url": "$url.sha256"
     }

@@ -8,7 +8,7 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/mulaRahul/keyviz/releases/download/v2.0.0a2/keyviz-2.0.0a2-windows.zip",
+      "url": "https://github.com/mulaRahul/keyviz/releases/download/v2.0.0a2/keyviz-2.0.0a2-windows.zip",
       "hash": "624fe5b10846699fe52e24a0a2bb562b5fba217bf7441059d41bd224f8fd2a8c"
     }
   },
@@ -25,7 +25,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/mulaRahul/keyviz/releases/download/v$version/keyviz-$version-windows.zip"
+        "url": "https://github.com/mulaRahul/keyviz/releases/download/v$version/keyviz-$version-windows.zip"
       }
     }
   }

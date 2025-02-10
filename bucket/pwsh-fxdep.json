@@ -3,7 +3,7 @@
   "description": "Cross-platform automation and configuration tool/framework, known as Powershell Core, that works well with existing tools and is optimized for dealing with structured data.",
   "version": "7.5.0",
   "license": "MIT",
-  "url": "https://ghgo.xyz/https://github.com/PowerShell/PowerShell/releases/download/v7.5.0/PowerShell-7.5.0-win-fxdependent.zip",
+  "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.5.0/PowerShell-7.5.0-win-fxdependent.zip",
   "hash": "64e95e284442d1973f8e4b2a3eb0e252f4fc513c3bf9f6d55c0bfc3ddbb434d9",
   "bin": "pwsh.exe",
   "shortcuts": [
@@ -15,7 +15,7 @@
   "depends": "dotnet-sdk",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/PowerShell/PowerShell/releases/download/v$version/PowerShell-$version-win-fxdependent.zip",
+    "url": "https://github.com/PowerShell/PowerShell/releases/download/v$version/PowerShell-$version-win-fxdependent.zip",
     "hash": {
       "url": "https://github.com/PowerShell/PowerShell/releases/tag/v$version/",
       "find": "$basename\\s*<ul>\\s*<li>([A-Fa-f\\d]{64})"

@@ -6,7 +6,7 @@
   "license": "GPL-3.0",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/prayag17/Blink/releases/download/v0.0.7-dev/Blink_0.0.7-dev_x64-setup.exe#/dl.7z",
+      "url": "https://github.com/prayag17/Blink/releases/download/v0.0.7-dev/Blink_0.0.7-dev_x64-setup.exe#/dl.7z",
       "hash": "9122f08d49ab354b0ddabdd31c35f9be63b9ece6e02c721533a35572775a6a23"
     }
   },
@@ -24,7 +24,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/prayag17/Blink/releases/download/v$version/Blink_$version_x64-setup.exe#/dl.7z"
+        "url": "https://github.com/prayag17/Blink/releases/download/v$version/Blink_$version_x64-setup.exe#/dl.7z"
       }
     }
   }

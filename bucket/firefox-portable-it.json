@@ -7,7 +7,7 @@
     "64bit": {
       "url": [
         "https://archive.mozilla.org/pub/firefox/releases/135.0/win64/it/Firefox%20Setup%20135.0.exe#/dl.7z",
-        "https://ghgo.xyz/https://raw.githubusercontent.com/starise/scoop-confetti/master/scripts/firefox-policies.json#/policies.json"
+        "https://raw.githubusercontent.com/starise/scoop-confetti/master/scripts/firefox-policies.json#/policies.json"
       ],
       "hash": [
         "sha512:a16878bc3bb8f36c6187396e154434f640cc2e19a26f96108df8edddba27e08f37c9c81c3c557f18d07e3e0d8a8ba64247d17123426c8d3440cac93a621e5f5c",
@@ -17,7 +17,7 @@
     "32bit": {
       "url": [
         "https://archive.mozilla.org/pub/firefox/releases/135.0/win32/it/Firefox%20Setup%20135.0.exe#/dl.7z",
-        "https://ghgo.xyz/https://raw.githubusercontent.com/starise/scoop-confetti/master/scripts/firefox-policies.json#/policies.json"
+        "https://raw.githubusercontent.com/starise/scoop-confetti/master/scripts/firefox-policies.json#/policies.json"
       ],
       "hash": [
         "sha512:3770e963ad8056b48965041aa62bab3c0cca44efd1148b4ad02de2f54be1e08d0e10a266b6d4c84702c31a98bd77d7fde661eb670e34b30b27783d42e7b68d6e",

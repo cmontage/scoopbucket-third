@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/benbrittain/buckle/releases/download/v1.1.0/buckle-x86_64-pc-windows-msvc.zip",
+      "url": "https://github.com/benbrittain/buckle/releases/download/v1.1.0/buckle-x86_64-pc-windows-msvc.zip",
       "hash": "sha256:daca6694ce81387372de4c0775ece53cf9b7f9ede916d59a88086db9fb19d873"
     }
   },
@@ -14,7 +14,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/benbrittain/buckle/releases/download/v$version/buckle-x86_64-pc-windows-msvc.zip"
+        "url": "https://github.com/benbrittain/buckle/releases/download/v$version/buckle-x86_64-pc-windows-msvc.zip"
       }
     }
   }

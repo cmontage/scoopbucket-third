@@ -6,7 +6,7 @@
     "identifier": "AGPL-3.0 license",
     "url": "https://github.com/chrox/readest#AGPL-3.0-1-ov-file"
   },
-  "url": "https://ghgo.xyz/https://github.com/chrox/readest/releases/download/v0.9.10/Readest_0.9.10_x64-setup.exe#/dl.7z",
+  "url": "https://github.com/chrox/readest/releases/download/v0.9.10/Readest_0.9.10_x64-setup.exe#/dl.7z",
   "hash": "fb2f498d8bd0c803a15352e65ed01ffcf79248b1ed971b3abbb1bb55d5a71f76",
   "pre_install": "Remove-Item \"$dir\\`$*\", \"$dir\\uninst*\" -Force -Recurse",
   "installer": {
@@ -38,6 +38,6 @@
     "regex": "/releases/tag/v([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/chrox/readest/releases/download/v$version/Readest_$version_x64-setup.exe#/dl.7z"
+    "url": "https://github.com/chrox/readest/releases/download/v$version/Readest_$version_x64-setup.exe#/dl.7z"
   }
 }

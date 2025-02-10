@@ -5,15 +5,15 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/JohannesKaufmann/html-to-markdown/releases/download/v2.2.2/html-to-markdown_Windows_x86_64.zip",
+      "url": "https://github.com/JohannesKaufmann/html-to-markdown/releases/download/v2.2.2/html-to-markdown_Windows_x86_64.zip",
       "hash": "e24f982206e51e60ef07984aa33ec097c6fdfa667fefb18c943e431ca96a5453"
     },
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/JohannesKaufmann/html-to-markdown/releases/download/v2.2.2/html-to-markdown_Windows_i386.zip",
+      "url": "https://github.com/JohannesKaufmann/html-to-markdown/releases/download/v2.2.2/html-to-markdown_Windows_i386.zip",
       "hash": "d27a0c5ca9989531772c0673221e29dc9bbe5d655521ddd10db45ee065e8e0b6"
     },
     "arm64": {
-      "url": "https://ghgo.xyz/https://github.com/JohannesKaufmann/html-to-markdown/releases/download/v2.2.2/html-to-markdown_Windows_arm64.zip",
+      "url": "https://github.com/JohannesKaufmann/html-to-markdown/releases/download/v2.2.2/html-to-markdown_Windows_arm64.zip",
       "hash": "362b22d67359948ec44e57d58a4c8284e955e52853ffbda209ae9830c80007ad"
     }
   },
@@ -24,23 +24,23 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/JohannesKaufmann/html-to-markdown/releases/download/v$version/html-to-markdown_Windows_x86_64.zip",
+        "url": "https://github.com/JohannesKaufmann/html-to-markdown/releases/download/v$version/html-to-markdown_Windows_x86_64.zip",
         "hash": {
-          "url": "https://ghgo.xyz/https://github.com/JohannesKaufmann/html-to-markdown/releases/download/v$version/html-to-markdown_$version_checksums.txt",
+          "url": "https://github.com/JohannesKaufmann/html-to-markdown/releases/download/v$version/html-to-markdown_$version_checksums.txt",
           "find": "$sha256  html-to-markdown_Windows_x86_64.zip"
         }
       },
       "32bit": {
-        "url": "https://ghgo.xyz/https://github.com/JohannesKaufmann/html-to-markdown/releases/download/v$version/html-to-markdown_Windows_i386.zip",
+        "url": "https://github.com/JohannesKaufmann/html-to-markdown/releases/download/v$version/html-to-markdown_Windows_i386.zip",
         "hash": {
-          "url": "https://ghgo.xyz/https://github.com/JohannesKaufmann/html-to-markdown/releases/download/v$version/html-to-markdown_$version_checksums.txt",
+          "url": "https://github.com/JohannesKaufmann/html-to-markdown/releases/download/v$version/html-to-markdown_$version_checksums.txt",
           "find": "$sha256  html-to-markdown_Windows_i386.zip"
         }
       },
       "arm64": {
-        "url": "https://ghgo.xyz/https://github.com/JohannesKaufmann/html-to-markdown/releases/download/v$version/html-to-markdown_Windows_arm64.zip",
+        "url": "https://github.com/JohannesKaufmann/html-to-markdown/releases/download/v$version/html-to-markdown_Windows_arm64.zip",
         "hash": {
-          "url": "https://ghgo.xyz/https://github.com/JohannesKaufmann/html-to-markdown/releases/download/v$version/html-to-markdown_$version_checksums.txt",
+          "url": "https://github.com/JohannesKaufmann/html-to-markdown/releases/download/v$version/html-to-markdown_$version_checksums.txt",
           "find": "$sha256  html-to-markdown_Windows_arm64.zip"
         }
       }

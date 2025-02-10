@@ -8,11 +8,11 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/minbrowser/min/releases/download/v1.34.0/Min-v1.34.0-windows.zip",
+      "url": "https://github.com/minbrowser/min/releases/download/v1.34.0/Min-v1.34.0-windows.zip",
       "hash": "d1797cc25b7274738792a713d215045c7abd87b5e0c11739a6d1b788fb984536"
     },
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/minbrowser/min/releases/download/v1.34.0/Min-v1.34.0-windows-ia32.zip",
+      "url": "https://github.com/minbrowser/min/releases/download/v1.34.0/Min-v1.34.0-windows-ia32.zip",
       "hash": "c4a454e656d24b6d61baa2569fa131df9dbade53f906cc218aa5715c9d4baa5f"
     }
   },
@@ -41,10 +41,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/minbrowser/min/releases/download/v$version/Min-v$version-windows.zip"
+        "url": "https://github.com/minbrowser/min/releases/download/v$version/Min-v$version-windows.zip"
       },
       "32bit": {
-        "url": "https://ghgo.xyz/https://github.com/minbrowser/min/releases/download/v$version/Min-v$version-windows-ia32.zip"
+        "url": "https://github.com/minbrowser/min/releases/download/v$version/Min-v$version-windows-ia32.zip"
       }
     },
     "extract_dir": "Min-v$version"

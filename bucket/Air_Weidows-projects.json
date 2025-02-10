@@ -5,7 +5,7 @@
   "license": "GPL-3.0",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/cosmtrek/air/releases/download/v1.61.7/air_1.61.7_windows_amd64.tar.gz",
+      "url": "https://github.com/cosmtrek/air/releases/download/v1.61.7/air_1.61.7_windows_amd64.tar.gz",
       "hash": "b540ba69194cc8a59472da5865f822090eccf9099ef172e0ce038c7ed16751c0"
     }
   },
@@ -14,10 +14,10 @@
     "github": "https://github.com/cosmtrek/air"
   },
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/cosmtrek/air/releases/download/v$version/air_$version_windows_amd64.tar.gz",
+    "url": "https://github.com/cosmtrek/air/releases/download/v$version/air_$version_windows_amd64.tar.gz",
     "hash": {
       "mode": "extract",
-      "url": "https://ghgo.xyz/https://github.com/cosmtrek/air/releases/download/v$version/air_$version_checksums.txt",
+      "url": "https://github.com/cosmtrek/air/releases/download/v$version/air_$version_checksums.txt",
       "regex": "$sha256  air_$version_windows_amd64.tar.gz"
     }
   }

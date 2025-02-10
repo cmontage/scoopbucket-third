@@ -5,7 +5,7 @@
   "license": "GPL-2.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/deskflow/deskflow/releases/download/v1.19.0/deskflow-1.19.0-win-x64.msi",
+      "url": "https://github.com/deskflow/deskflow/releases/download/v1.19.0/deskflow-1.19.0-win-x64.msi",
       "hash": "83ad86e6d1d093ad7f1d5eac4141808b610ba37b19be4a0ad01d6eaf55443bfd"
     }
   },
@@ -20,7 +20,7 @@
     "github": "https://github.com/deskflow/deskflow"
   },
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/deskflow/deskflow/releases/download/v$version/deskflow-$version-win-x64.msi",
+    "url": "https://github.com/deskflow/deskflow/releases/download/v$version/deskflow-$version-win-x64.msi",
     "hash": {
       "mode": "download"
     }

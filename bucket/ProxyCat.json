@@ -11,7 +11,7 @@
   "suggest": {
     "python": "python"
   },
-  "url": "https://ghgo.xyz/https://github.com/honmashironeko/ProxyCat/releases/download/ProxyCat-V1.9.5/ProxyCat-V1.9.5.zip",
+  "url": "https://github.com/honmashironeko/ProxyCat/releases/download/ProxyCat-V1.9.5/ProxyCat-V1.9.5.zip",
   "extract_dir": "ProxyCat-main/ProxyCat-CN",
   "hash": "9cc06ffbffc815f0b290e0fe35e315d7f72b78daa8053dfe0b40c0512ec89eae",
   "pre_install": [
@@ -21,7 +21,7 @@
     "Move-Item -Path $(Join-Path $dir ProxyCat*.py) -Destination $(Join-Path $dir ProxyCat.py) -Force"
   ],
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/honmashironeko/ProxyCat/releases/download/ProxyCat-V$version/ProxyCat-V$version.zip"
+    "url": "https://github.com/honmashironeko/ProxyCat/releases/download/ProxyCat-V$version/ProxyCat-V$version.zip"
   },
   "bin": [
     [

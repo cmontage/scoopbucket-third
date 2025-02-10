@@ -6,7 +6,7 @@
     "identifier": "Proprietary",
     "url": "https://obsidian.md/eula"
   },
-  "url": "https://ghgo.xyz/https://github.com/obsidianmd/obsidian-releases/releases/download/v1.8.4/Obsidian-1.8.4.exe#/dl.7z",
+  "url": "https://github.com/obsidianmd/obsidian-releases/releases/download/v1.8.4/Obsidian-1.8.4.exe#/dl.7z",
   "hash": "4e6ef740d13b2e6713fd83de9475aca1468c4a6c8de1781d0e0f75c5e57caa20",
   "architecture": {
     "64bit": {
@@ -30,6 +30,6 @@
     "github": "https://github.com/obsidianmd/obsidian-releases"
   },
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/obsidianmd/obsidian-releases/releases/download/v$version/Obsidian-$version.exe#/dl.7z"
+    "url": "https://github.com/obsidianmd/obsidian-releases/releases/download/v$version/Obsidian-$version.exe#/dl.7z"
   }
 }

@@ -3,7 +3,7 @@
   "description": "Transcribes and translates audio offline on your personal computer.",
   "license": "MIT",
   "version": "1.2.0",
-  "url": "https://ghgo.xyz/https://github.com/chidiwilliams/buzz/releases/download/v1.2.0/Buzz-1.2.0-windows.exe",
+  "url": "https://github.com/chidiwilliams/buzz/releases/download/v1.2.0/Buzz-1.2.0-windows.exe",
   "hash": "bbc37eb36c517d3e9f25d5d247728a2684f355ae8702dcac85c45e7f332b8244",
   "installer": {
     "args": [
@@ -26,6 +26,6 @@
     "github": "https://github.com/chidiwilliams/buzz"
   },
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/chidiwilliams/buzz/releases/download/v$version/Buzz-$version-windows.exe"
+    "url": "https://github.com/chidiwilliams/buzz/releases/download/v$version/Buzz-$version-windows.exe"
   }
 }

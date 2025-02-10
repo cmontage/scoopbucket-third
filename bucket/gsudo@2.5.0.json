@@ -3,7 +3,7 @@
   "description": "A Sudo for Windows",
   "homepage": "https://github.com/gerardog/gsudo",
   "license": "MIT",
-  "url": "https://ghgo.xyz/https://github.com/gerardog/gsudo/releases/download/v2.5.0/gsudo.portable.zip",
+  "url": "https://github.com/gerardog/gsudo/releases/download/v2.5.0/gsudo.portable.zip",
   "hash": "sha256:1e9fdbe460fea4559eefdaec5b0a42566858799b97375696d04dd1af382c125b",
   "architecture": {
     "64bit": {
@@ -23,7 +23,7 @@
   "post_install": "try { & \"$dir\\gsudo.exe\" -k 2>&1 | Out-Null } catch { info $_.Exception.Message }",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/gerardog/gsudo/releases/download/v$version/gsudo.v$version.zip"
+    "url": "https://github.com/gerardog/gsudo/releases/download/v$version/gsudo.v$version.zip"
   },
   "#notes": [
     "gsudo has a PowerShell module that adds `gsudo !!` to elevate the last command.",

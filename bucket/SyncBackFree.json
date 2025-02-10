@@ -44,7 +44,7 @@
   "autoupdate": {
     "url": "$matchX86#/abgo_bucket_installer.exe",
     "hash": {
-      "url": "https://ghgo.xyz/https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/2/2BrightSparks/SyncBackFree/$version/2BrightSparks.SyncBackFree.installer.yaml",
+      "url": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/2/2BrightSparks/SyncBackFree/$version/2BrightSparks.SyncBackFree.installer.yaml",
       "regex": "Architecture: x86[\\s\\S]+?InstallerSha256:\\s?(.+)"
     }
   }

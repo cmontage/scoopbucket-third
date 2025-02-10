@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/ipfs/ipfs-desktop/releases/download/v0.41.1/ipfs-desktop-setup-0.41.1.exe#/dl.7z",
+      "url": "https://github.com/ipfs/ipfs-desktop/releases/download/v0.41.1/ipfs-desktop-setup-0.41.1.exe#/dl.7z",
       "hash": "sha512:fba5a98c0441ad455bc479e2be18bc40cbeae65291908b535953a3aae2e7ddc0e6a0160c5fb1656816bae59f41edb0c7b5a614b099edf85088a8cafbc72ba2b1",
       "pre_install": [
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
@@ -26,7 +26,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/ipfs/ipfs-desktop/releases/download/v$version/ipfs-desktop-setup-$version.exe#/dl.7z"
+        "url": "https://github.com/ipfs/ipfs-desktop/releases/download/v$version/ipfs-desktop-setup-$version.exe#/dl.7z"
       }
     },
     "hash": {

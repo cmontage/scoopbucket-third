@@ -8,7 +8,7 @@
   "suggest": {
     "Erlang compiler": "erlang"
   },
-  "url": "https://ghgo.xyz/https://github.com/elixir-lang/elixir/releases/download/v1.15.7/elixir-otp-25.zip",
+  "url": "https://github.com/elixir-lang/elixir/releases/download/v1.15.7/elixir-otp-25.zip",
   "hash": "sha256:6dab6355940692d2b6603dce59285be8c6bf1b45ba680e74204653036d02234c",
   "env_add_path": "bin",
   "pre_install": [
@@ -20,7 +20,7 @@
     "github": "https://github.com/elixir-lang/elixir"
   },
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/elixir-lang/elixir/releases/download/v$version/Precompiled.zip",
+    "url": "https://github.com/elixir-lang/elixir/releases/download/v$version/Precompiled.zip",
     "hash": {
       "url": "https://github.com/elixir-lang/elixir/releases/tag/v$version/",
       "regex": "$basename SHA512: $sha512"

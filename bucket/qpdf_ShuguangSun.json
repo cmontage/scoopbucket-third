@@ -4,7 +4,7 @@
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/qpdf/qpdf/releases/download/v11.10.0/qpdf-11.10.0-msvc64.zip",
+      "url": "https://github.com/qpdf/qpdf/releases/download/v11.10.0/qpdf-11.10.0-msvc64.zip",
       "hash": "bae68538ba4f35a5b66d02677e4b5834e6e4e4013cdba6f6b022b46d6066595d"
     }
   },
@@ -17,7 +17,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/qpdf/qpdf/releases/download/v$version/qpdf-$version-msvc64.zip",
+        "url": "https://github.com/qpdf/qpdf/releases/download/v$version/qpdf-$version-msvc64.zip",
         "hash": {
           "url": "$url.sha256"
         }

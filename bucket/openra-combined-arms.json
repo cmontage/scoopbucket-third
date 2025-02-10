@@ -5,11 +5,11 @@
   "license": "GPL-3.0-or-later",
   "architecture": {
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/Inq8/CAmod/releases/download/1.05/CombinedArms-1.05-x86-winportable.zip",
+      "url": "https://github.com/Inq8/CAmod/releases/download/1.05/CombinedArms-1.05-x86-winportable.zip",
       "hash": "12dc3244dbad20c7779de5892616da8e7db0776dfa3f3c5d6ea6c11595ee2bc5"
     },
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/Inq8/CAmod/releases/download/1.05/CombinedArms-1.05-x64-winportable.zip",
+      "url": "https://github.com/Inq8/CAmod/releases/download/1.05/CombinedArms-1.05-x64-winportable.zip",
       "hash": "51e51eda6f543155e7e45822c155946eea18482d82de53c15c4a5ec250838e35"
     }
   },
@@ -26,10 +26,10 @@
   "autoupdate": {
     "architecture": {
       "32bit": {
-        "url": "https://ghgo.xyz/https://github.com/Inq8/CAmod/releases/download/$matchPrefix$version/CombinedArms-$matchPrefix$version-x86-winportable.zip"
+        "url": "https://github.com/Inq8/CAmod/releases/download/$matchPrefix$version/CombinedArms-$matchPrefix$version-x86-winportable.zip"
       },
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/Inq8/CAmod/releases/download/$matchPrefix$version/CombinedArms-$matchPrefix$version-x64-winportable.zip"
+        "url": "https://github.com/Inq8/CAmod/releases/download/$matchPrefix$version/CombinedArms-$matchPrefix$version-x64-winportable.zip"
       }
     }
   }

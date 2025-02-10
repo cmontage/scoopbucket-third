@@ -6,7 +6,7 @@
   "notes": "",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/msasanmh/DNSveil/releases/download/v3.2.5/SecureDNSClientPortable_v3.2.5_x64.7z",
+      "url": "https://github.com/msasanmh/DNSveil/releases/download/v3.2.5/SecureDNSClientPortable_v3.2.5_x64.7z",
       "hash": "585cfcf138e2aaea21884d4116850cc158cb29f1647633002f54d793424b09d5"
     }
   },
@@ -14,7 +14,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/msasanmh/DNSveil/releases/download/v$version/SecureDNSClientPortable_v$version_x64.7z"
+        "url": "https://github.com/msasanmh/DNSveil/releases/download/v$version/SecureDNSClientPortable_v$version_x64.7z"
       }
     }
   },

@@ -4,11 +4,11 @@
   "license": "unknown",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://raw.githubusercontent.com/OneQuick/OneQuick.github.io/master/bin/OneQuick.1.0.0.x64.zip",
+      "url": "https://raw.githubusercontent.com/OneQuick/OneQuick.github.io/master/bin/OneQuick.1.0.0.x64.zip",
       "hash": "a35d80e7310b980e09489110381807ce3fcbb1f91cb9d8efcc517386f1a623c2"
     },
     "32bit": {
-      "url": "https://ghgo.xyz/https://raw.githubusercontent.com/OneQuick/OneQuick.github.io/master/bin/OneQuick.1.0.0.x86.zip",
+      "url": "https://raw.githubusercontent.com/OneQuick/OneQuick.github.io/master/bin/OneQuick.1.0.0.x86.zip",
       "hash": "e0ef48caf9e4e11e4c4a1df9727b126b0ca38653de15d4bcd36b0d933f9cb670"
     }
   },
@@ -26,10 +26,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://raw.githubusercontent.com/OneQuick/OneQuick.github.io/master/bin/OneQuick.$version.x64.zip"
+        "url": "https://raw.githubusercontent.com/OneQuick/OneQuick.github.io/master/bin/OneQuick.$version.x64.zip"
       },
       "32bit": {
-        "url": "https://ghgo.xyz/https://raw.githubusercontent.com/OneQuick/OneQuick.github.io/master/bin/OneQuick.$version.x86.zip"
+        "url": "https://raw.githubusercontent.com/OneQuick/OneQuick.github.io/master/bin/OneQuick.$version.x86.zip"
       }
     }
   }

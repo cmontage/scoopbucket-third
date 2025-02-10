@@ -5,7 +5,7 @@
   "license": "ISC",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/ares-emulator/ares/releases/download/v141/ares-windows.zip",
+      "url": "https://github.com/ares-emulator/ares/releases/download/v141/ares-windows.zip",
       "hash": "129a3a5bd8640db4424f241759a88debd51d6f432de8a2cf0874527bdcf1019b"
     }
   },
@@ -31,7 +31,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/ares-emulator/ares/releases/download/v$version/ares-windows.zip"
+        "url": "https://github.com/ares-emulator/ares/releases/download/v$version/ares-windows.zip"
       }
     },
     "extract_dir": "ares-v$version"

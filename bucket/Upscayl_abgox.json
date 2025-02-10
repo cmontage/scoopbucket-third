@@ -6,7 +6,7 @@
     "identifier": "GNU Affero General Public License v3.0",
     "url": "https://github.com/upscayl/upscayl/blob/main/LICENSE"
   },
-  "url": "https://ghgo.xyz/https://github.com/upscayl/upscayl/releases/download/v2.15.0/upscayl-2.15.0-win.exe",
+  "url": "https://github.com/upscayl/upscayl/releases/download/v2.15.0/upscayl-2.15.0-win.exe",
   "hash": "d6266daddfb5cdf1393346f0983bc29fc23af6607ec53ffd09801633e4848f98",
   "shortcuts": [
     [
@@ -37,6 +37,6 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/upscayl/upscayl/releases/download/v$version/upscayl-$version-win.exe"
+    "url": "https://github.com/upscayl/upscayl/releases/download/v$version/upscayl-$version-win.exe"
   }
 }

@@ -5,7 +5,7 @@
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/NaiboWang/EasySpider/releases/download/v0.6.3/EasySpider_0.6.3_windows_x64.7z",
+      "url": "https://github.com/NaiboWang/EasySpider/releases/download/v0.6.3/EasySpider_0.6.3_windows_x64.7z",
       "hash": "061dd13a3cc4eec8718bd0b1cb9fd38043a35fd6fb2fa04d62d920bd6be45fe5",
       "extract_dir": "EasySpider_windows_x64"
     }
@@ -22,7 +22,7 @@
     "github": "https://github.com/NaiboWang/EasySpider"
   },
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/NaiboWang/EasySpider/releases/download/v$version/EasySpider_$version_windows_x64.7z",
+    "url": "https://github.com/NaiboWang/EasySpider/releases/download/v$version/EasySpider_$version_windows_x64.7z",
     "hash": {
       "mode": "download"
     }

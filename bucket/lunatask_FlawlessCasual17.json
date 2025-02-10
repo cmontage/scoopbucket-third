@@ -8,7 +8,7 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/lunatask/lunatask/releases/download/v1.7.9/Lunatask-Setup-1.7.9.exe#/dl.zip",
+      "url": "https://github.com/lunatask/lunatask/releases/download/v1.7.9/Lunatask-Setup-1.7.9.exe#/dl.zip",
       "hash": "sha512:5c3b154b4770e800bf457537ed36b5fd8fdadb5bd0db4561e78245639afb2e634ed6856bc9285b7bad9d6784210a6415612bee06ba0f19bca193e195919516af"
     }
   },
@@ -25,7 +25,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/lunatask/lunatask/releases/download/v1.7.9/Lunatask-Setup-1.7.9.exe#/dl.zip"
+        "url": "https://github.com/lunatask/lunatask/releases/download/v1.7.9/Lunatask-Setup-1.7.9.exe#/dl.zip"
       }
     },
     "hash": {

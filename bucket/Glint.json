@@ -3,7 +3,7 @@
   "description": "Git GUI",
   "homepage": "https://glint.info/",
   "license": "freemium",
-  "url": "https://ghgo.xyz/https://github.com/LogicOverSnacks/glint-release/releases/download/v1.9.0/Glint-Setup-1.9.0.exe#/dl.7z",
+  "url": "https://github.com/LogicOverSnacks/glint-release/releases/download/v1.9.0/Glint-Setup-1.9.0.exe#/dl.7z",
   "hash": "6c1100920b2d04b7e3c16f175bac4ce53699763dbf8467aedba5eb01e3e58ce8",
   "installer": {
     "script": [
@@ -22,6 +22,6 @@
     "github": "https://github.com/LogicOverSnacks/glint-release"
   },
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/LogicOverSnacks/glint-release/releases/download/v$version/Glint-Setup-$version.exe#/dl.7z"
+    "url": "https://github.com/LogicOverSnacks/glint-release/releases/download/v$version/Glint-Setup-$version.exe#/dl.7z"
   }
 }

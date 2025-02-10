@@ -7,11 +7,11 @@
     "identifier": "Apache-2.0",
     "url": "https://github.com/CherryHQ/cherry-studio?tab=License-1-ov-file#readme"
   },
-  "url": "https://ghgo.xyz/https://github.com/CherryHQ/cherry-studio/releases/download/v0.9.19/Cherry-Studio-0.9.19-setup.exe#/dl.7z",
+  "url": "https://github.com/CherryHQ/cherry-studio/releases/download/v0.9.19/Cherry-Studio-0.9.19-setup.exe#/dl.7z",
   "hash": "4ee976fd292b2decd8cf2888ae63325a47ac459eadaf193a50c1873a85ccab20",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/CherryHQ/cherry-studio/releases/download/v$version/Cherry-Studio-$version-setup.exe#/dl.7z"
+    "url": "https://github.com/CherryHQ/cherry-studio/releases/download/v$version/Cherry-Studio-$version-setup.exe#/dl.7z"
   },
   "pre_install": [
     "Move-Item \"$dir\\`$PLUGINSDIR\\app-64.7z\" $dir -Force",

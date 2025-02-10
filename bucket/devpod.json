@@ -5,7 +5,7 @@
   "license": "MPL-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/loft-sh/devpod/releases/download/v0.6.11/DevPod_windows_x64_en-US.msi",
+      "url": "https://github.com/loft-sh/devpod/releases/download/v0.6.11/DevPod_windows_x64_en-US.msi",
       "hash": "056abdeac0fea77f354414702edf3157755451685c96d0109d2927ea5544c1d7"
     }
   },
@@ -23,7 +23,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/loft-sh/devpod/releases/download/v$version/DevPod_windows_x64_en-US.msi"
+        "url": "https://github.com/loft-sh/devpod/releases/download/v$version/DevPod_windows_x64_en-US.msi"
       }
     }
   }

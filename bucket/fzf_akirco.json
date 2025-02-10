@@ -5,11 +5,11 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/junegunn/fzf/releases/download/v0.59.0/fzf-0.59.0-windows_amd64.zip",
+      "url": "https://github.com/junegunn/fzf/releases/download/v0.59.0/fzf-0.59.0-windows_amd64.zip",
       "hash": "a13586ad8f889723ae76eb6c9e8faf8c8ee799cc273a10cd87e22b16496c37de"
     },
     "arm64": {
-      "url": "https://ghgo.xyz/https://github.com/junegunn/fzf/releases/download/v0.59.0/fzf-0.59.0-windows_arm64.zip",
+      "url": "https://github.com/junegunn/fzf/releases/download/v0.59.0/fzf-0.59.0-windows_arm64.zip",
       "hash": "5d13e5eb55fd98ecf58ca9f46d1738b0735988eac5203cac9c3da5f4bbbb4175"
     }
   },
@@ -18,10 +18,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/junegunn/fzf/releases/download/v$version/fzf-$version-windows_amd64.zip"
+        "url": "https://github.com/junegunn/fzf/releases/download/v$version/fzf-$version-windows_amd64.zip"
       },
       "arm64": {
-        "url": "https://ghgo.xyz/https://github.com/junegunn/fzf/releases/download/v$version/fzf-$version-windows_arm64.zip"
+        "url": "https://github.com/junegunn/fzf/releases/download/v$version/fzf-$version-windows_arm64.zip"
       }
     }
   }

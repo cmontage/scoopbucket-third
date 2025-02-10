@@ -5,7 +5,7 @@
   "license": "MIT|Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/crate-ci/typos/releases/download/v1.29.5/typos-v1.29.5-x86_64-pc-windows-msvc.zip",
+      "url": "https://github.com/crate-ci/typos/releases/download/v1.29.5/typos-v1.29.5-x86_64-pc-windows-msvc.zip",
       "hash": "804d887c804b13ff26ab46677eb534fc912538c59c049ebaffe133e7f0e70456"
     }
   },
@@ -14,7 +14,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/crate-ci/typos/releases/download/v$version/typos-v$version-x86_64-pc-windows-msvc.zip"
+        "url": "https://github.com/crate-ci/typos/releases/download/v$version/typos-v$version-x86_64-pc-windows-msvc.zip"
       }
     }
   }

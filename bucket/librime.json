@@ -5,11 +5,11 @@
   "license": "BSD-3-Clause",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/rime/librime/releases/download/1.13.0/rime-e8184dc-Windows-msvc-x64.7z",
+      "url": "https://github.com/rime/librime/releases/download/1.13.0/rime-e8184dc-Windows-msvc-x64.7z",
       "hash": "a154630ca23351bcc6cdf535007fc6db3507e3137510213a90ad71ba320b4484"
     },
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/rime/librime/releases/download/1.13.0/rime-e8184dc-Windows-msvc-x86.7z",
+      "url": "https://github.com/rime/librime/releases/download/1.13.0/rime-e8184dc-Windows-msvc-x86.7z",
       "hash": "111c87360bbdd1ac971793c6f036857cedfe39235a71fe5e2b098d201bf56033"
     }
   },
@@ -33,10 +33,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/rime/librime/releases/download/$version/rime-$matchHash-Windows-msvc-x64.7z"
+        "url": "https://github.com/rime/librime/releases/download/$version/rime-$matchHash-Windows-msvc-x64.7z"
       },
       "32bit": {
-        "url": "https://ghgo.xyz/https://github.com/rime/librime/releases/download/$version/rime-$matchHash-Windows-msvc-x86.7z"
+        "url": "https://github.com/rime/librime/releases/download/$version/rime-$matchHash-Windows-msvc-x86.7z"
       }
     }
   }

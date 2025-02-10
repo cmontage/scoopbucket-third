@@ -5,11 +5,11 @@
   "license": "GPL-3.0-or-later",
   "architecture": {
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/MustaphaTR/Romanovs-Vengeance/releases/download/playtest-20241215/Romanovs.Vengeance-playtest-20241215-x86-winportable.zip",
+      "url": "https://github.com/MustaphaTR/Romanovs-Vengeance/releases/download/playtest-20241215/Romanovs.Vengeance-playtest-20241215-x86-winportable.zip",
       "hash": "d4892f4f5e156b30294f898c1c88a43bf8c48bf2287f4572dd0e5e1e20568978"
     },
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/MustaphaTR/Romanovs-Vengeance/releases/download/playtest-20241215/Romanovs.Vengeance-playtest-20241215-x64-winportable.zip",
+      "url": "https://github.com/MustaphaTR/Romanovs-Vengeance/releases/download/playtest-20241215/Romanovs.Vengeance-playtest-20241215-x64-winportable.zip",
       "hash": "fb98d3e6a98aefbb18a68a97cf8a3067b0804eeca98c93018ce71f14c1146aa3"
     }
   },
@@ -26,10 +26,10 @@
   "autoupdate": {
     "architecture": {
       "32bit": {
-        "url": "https://ghgo.xyz/https://github.com/MustaphaTR/Romanovs-Vengeance/releases/download/$matchPrefix$version/Romanovs.Vengeance-$matchPrefix$version-x86-winportable.zip"
+        "url": "https://github.com/MustaphaTR/Romanovs-Vengeance/releases/download/$matchPrefix$version/Romanovs.Vengeance-$matchPrefix$version-x86-winportable.zip"
       },
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/MustaphaTR/Romanovs-Vengeance/releases/download/$matchPrefix$version/Romanovs.Vengeance-$matchPrefix$version-x64-winportable.zip"
+        "url": "https://github.com/MustaphaTR/Romanovs-Vengeance/releases/download/$matchPrefix$version/Romanovs.Vengeance-$matchPrefix$version-x64-winportable.zip"
       }
     }
   }

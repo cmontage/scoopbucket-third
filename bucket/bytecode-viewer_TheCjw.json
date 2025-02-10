@@ -4,7 +4,7 @@
   "version": "2.13.0",
   "license": "GPL 3.0",
   "hash": "ea82b3e7ea3149fbe467cbb9a5fd8d69f907ccbe32437fcba577149f9c858960",
-  "url": "https://ghgo.xyz/https://github.com/Konloch/bytecode-viewer/releases/download/v2.13.0/Bytecode-Viewer-2.13.0.jar",
+  "url": "https://github.com/Konloch/bytecode-viewer/releases/download/v2.13.0/Bytecode-Viewer-2.13.0.jar",
   "suggest": {
     "JDK": [
       "java/oraclejdk",
@@ -13,7 +13,7 @@
   },
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/Konloch/bytecode-viewer/releases/download/v$version/Bytecode-Viewer-$version.jar"
+    "url": "https://github.com/Konloch/bytecode-viewer/releases/download/v$version/Bytecode-Viewer-$version.jar"
   },
   "bin": "Bytecode-Viewer.bat",
   "pre_install": [

@@ -5,7 +5,7 @@
   "license": "GPL-2.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/pbek/QOwnNotes/releases/download/v25.2.3/QOwnNotes.zip",
+      "url": "https://github.com/pbek/QOwnNotes/releases/download/v25.2.3/QOwnNotes.zip",
       "hash": "6742bdf989f27b06429884540f431330c60523b6f46394bcd5617bb21923de52"
     }
   },
@@ -23,7 +23,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/pbek/QOwnNotes/releases/download/v$version/QOwnNotes.zip"
+        "url": "https://github.com/pbek/QOwnNotes/releases/download/v$version/QOwnNotes.zip"
       }
     },
     "hash": {

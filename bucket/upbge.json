@@ -5,7 +5,7 @@
   "license": "GPL-3.0-or-later",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/UPBGE/upbge/releases/download/v0.36.1/upbge-0.36.1-windows-x86_64.7z",
+      "url": "https://github.com/UPBGE/upbge/releases/download/v0.36.1/upbge-0.36.1-windows-x86_64.7z",
       "hash": "4ddf64871519ee33dc6f6216a3ccd51784bbf6980a2f5d5dbe26117bde164ba8",
       "extract_dir": "upbge-0.36.1-windows-x86_64"
     }
@@ -22,7 +22,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/UPBGE/upbge/releases/download/v$version/upbge-$version-windows-x86_64.7z",
+        "url": "https://github.com/UPBGE/upbge/releases/download/v$version/upbge-$version-windows-x86_64.7z",
         "extract_dir": "upbge-$version-windows-x86_64"
       }
     }

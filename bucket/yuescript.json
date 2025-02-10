@@ -6,12 +6,12 @@
   "notes": [
     "Yuescript Lua Module download links:",
     "64bit",
-    "https://ghgo.xyz/https://github.com/pigpigyyy/Yuescript/releases/download/v0.27.0/yue-windows-x64-lua51-dll.7z",
-    "https://ghgo.xyz/https://github.com/pigpigyyy/Yuescript/releases/download/v0.27.0/yue-windows-x64-lua53-dll.7z",
+    "https://github.com/pigpigyyy/Yuescript/releases/download/v0.27.0/yue-windows-x64-lua51-dll.7z",
+    "https://github.com/pigpigyyy/Yuescript/releases/download/v0.27.0/yue-windows-x64-lua53-dll.7z",
     "",
     "32bit",
-    "https://ghgo.xyz/https://github.com/pigpigyyy/Yuescript/releases/download/v0.27.0/yue-windows-x86-lua51-dll.7z",
-    "https://ghgo.xyz/https://github.com/pigpigyyy/Yuescript/releases/download/v0.27.0/yue-windows-x86-lua53-dll.7z"
+    "https://github.com/pigpigyyy/Yuescript/releases/download/v0.27.0/yue-windows-x86-lua51-dll.7z",
+    "https://github.com/pigpigyyy/Yuescript/releases/download/v0.27.0/yue-windows-x86-lua53-dll.7z"
   ],
   "suggest": {
     "Lua": [
@@ -22,11 +22,11 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/pigpigyyy/Yuescript/releases/download/v0.27.0/yue-windows-x64.7z",
+      "url": "https://github.com/pigpigyyy/Yuescript/releases/download/v0.27.0/yue-windows-x64.7z",
       "hash": "39f8c7262c15300f7f4815cf79c029c8d33ba844fa272d412dd2edbce384b7a5"
     },
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/pigpigyyy/Yuescript/releases/download/v0.27.0/yue-windows-x86.7z",
+      "url": "https://github.com/pigpigyyy/Yuescript/releases/download/v0.27.0/yue-windows-x86.7z",
       "hash": "c898084a4d2df0c877117fa18daefbe2239075ba12ac2741be997d8da8710150"
     }
   },
@@ -38,19 +38,19 @@
     "notes": [
       "Yuescript Lua Module download links:",
       "64bit",
-      "https://ghgo.xyz/https://github.com/pigpigyyy/Yuescript/releases/download/v$version/yue-windows-x64-lua51-dll.7z",
-      "https://ghgo.xyz/https://github.com/pigpigyyy/Yuescript/releases/download/v$version/yue-windows-x64-lua53-dll.7z",
+      "https://github.com/pigpigyyy/Yuescript/releases/download/v$version/yue-windows-x64-lua51-dll.7z",
+      "https://github.com/pigpigyyy/Yuescript/releases/download/v$version/yue-windows-x64-lua53-dll.7z",
       "",
       "32bit",
-      "https://ghgo.xyz/https://github.com/pigpigyyy/Yuescript/releases/download/v$version/yue-windows-x86-lua51-dll.7z",
-      "https://ghgo.xyz/https://github.com/pigpigyyy/Yuescript/releases/download/v$version/yue-windows-x86-lua53-dll.7z"
+      "https://github.com/pigpigyyy/Yuescript/releases/download/v$version/yue-windows-x86-lua51-dll.7z",
+      "https://github.com/pigpigyyy/Yuescript/releases/download/v$version/yue-windows-x86-lua53-dll.7z"
     ],
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/pigpigyyy/Yuescript/releases/download/v$version/yue-windows-x64.7z"
+        "url": "https://github.com/pigpigyyy/Yuescript/releases/download/v$version/yue-windows-x64.7z"
       },
       "32bit": {
-        "url": "https://ghgo.xyz/https://github.com/pigpigyyy/Yuescript/releases/download/v$version/yue-windows-x86.7z"
+        "url": "https://github.com/pigpigyyy/Yuescript/releases/download/v$version/yue-windows-x86.7z"
       }
     }
   }

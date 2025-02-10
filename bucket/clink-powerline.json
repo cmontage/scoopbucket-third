@@ -2,7 +2,7 @@
   "homepage": "https://github.com/HelloWorld017/clink-powerline",
   "version": "1.0.3",
   "license": "",
-  "url": "https://ghgo.xyz/https://github.com/HelloWorld017/clink-powerline/releases/download/1.0.3/powerline.bundle.lua",
+  "url": "https://github.com/HelloWorld017/clink-powerline/releases/download/1.0.3/powerline.bundle.lua",
   "hash": "66aae9215a76eece2c32e0d81667524b6a2c00aa87a12f47e54328e238d0cb9c",
   "installer": {
     "script": [
@@ -18,6 +18,6 @@
   },
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/HelloWorld017/clink-powerline/releases/download/$version/powerline.bundle.lua"
+    "url": "https://github.com/HelloWorld017/clink-powerline/releases/download/$version/powerline.bundle.lua"
   }
 }

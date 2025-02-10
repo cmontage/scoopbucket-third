@@ -5,11 +5,11 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/M2Team/NanaZip/releases/download/5.0.1252.0/NanaZip_5.0.1252.0.msixbundle",
+      "url": "https://github.com/M2Team/NanaZip/releases/download/5.0.1252.0/NanaZip_5.0.1252.0.msixbundle",
       "hash": "98b3111af394ddc3864d084fd43ec4415b72e30abe38078f35140ed99eb1f662"
     },
     "arm64": {
-      "url": "https://ghgo.xyz/https://github.com/M2Team/NanaZip/releases/download/5.0.1252.0/NanaZip_5.0.1252.0.msixbundle",
+      "url": "https://github.com/M2Team/NanaZip/releases/download/5.0.1252.0/NanaZip_5.0.1252.0.msixbundle",
       "hash": "98b3111af394ddc3864d084fd43ec4415b72e30abe38078f35140ed99eb1f662"
     }
   },
@@ -29,14 +29,14 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/M2Team/NanaZip/releases/download/$version/NanaZip_$version.msixbundle",
+        "url": "https://github.com/M2Team/NanaZip/releases/download/$version/NanaZip_$version.msixbundle",
         "hash": {
           "url": "https://github.com/M2Team/NanaZip/releases/tag/$version",
           "regex": "(?s)$basename.*?$sha256"
         }
       },
       "arm64": {
-        "url": "https://ghgo.xyz/https://github.com/M2Team/NanaZip/releases/download/$version/NanaZip_$version.msixbundle",
+        "url": "https://github.com/M2Team/NanaZip/releases/download/$version/NanaZip_$version.msixbundle",
         "hash": {
           "url": "https://github.com/M2Team/NanaZip/releases/tag/$version",
           "regex": "(?s)$basename.*?$sha256"

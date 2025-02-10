@@ -13,10 +13,10 @@
       "openjdk"
     ]
   },
-  "url": "https://ghgo.xyz/https://github.com/whwlsfb/JDumpSpider/releases/download/dev-20241212T061532/JDumpSpider-1.1-SNAPSHOT-full.jar",
+  "url": "https://github.com/whwlsfb/JDumpSpider/releases/download/dev-20241212T061532/JDumpSpider-1.1-SNAPSHOT-full.jar",
   "hash": "d6f8fefce578d3b284a8804f774106e41b232679a9fef85ccf4db94ad6f972f3",
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/whwlsfb/JDumpSpider/releases/download/$version/JDumpSpider-1.1-SNAPSHOT-full.jar"
+    "url": "https://github.com/whwlsfb/JDumpSpider/releases/download/$version/JDumpSpider-1.1-SNAPSHOT-full.jar"
   },
   "bin": [
     [

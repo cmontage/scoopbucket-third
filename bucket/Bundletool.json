@@ -6,10 +6,10 @@
   "suggest": {
     "JDK": "java/openjdk"
   },
-  "url": "https://ghgo.xyz/https://github.com/google/bundletool/releases/download/1.18.0/bundletool-all-1.18.0.jar",
+  "url": "https://github.com/google/bundletool/releases/download/1.18.0/bundletool-all-1.18.0.jar",
   "hash": "78343764d2e79c8f55710378b04981fcb1e46daebfc3b5dc577778082e6a98fd",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/google/bundletool/releases/download/$version/bundletool-all-$version.jar"
+    "url": "https://github.com/google/bundletool/releases/download/$version/bundletool-all-$version.jar"
   }
 }

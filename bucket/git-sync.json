@@ -5,11 +5,11 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/AkashRajpurohit/git-sync/releases/download/v0.17.0/git-sync_0.17.0_windows_amd64.zip",
+      "url": "https://github.com/AkashRajpurohit/git-sync/releases/download/v0.17.0/git-sync_0.17.0_windows_amd64.zip",
       "hash": "ca777ed8200510113888ad22098c511983b5a221a681790353ecc22469a3b485"
     },
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/AkashRajpurohit/git-sync/releases/download/v0.17.0/git-sync_0.17.0_windows_386.zip",
+      "url": "https://github.com/AkashRajpurohit/git-sync/releases/download/v0.17.0/git-sync_0.17.0_windows_386.zip",
       "hash": "6d79e17665e85a5633b2b14c2421e95c44f5f204ce4cfd90ffe49ed54e5027d9"
     }
   },
@@ -18,10 +18,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/AkashRajpurohit/git-sync/releases/download/v$version/git-sync_$version_windows_amd64.zip"
+        "url": "https://github.com/AkashRajpurohit/git-sync/releases/download/v$version/git-sync_$version_windows_amd64.zip"
       },
       "32bit": {
-        "url": "https://ghgo.xyz/https://github.com/AkashRajpurohit/git-sync/releases/download/v$version/git-sync_$version_windows_386.zip"
+        "url": "https://github.com/AkashRajpurohit/git-sync/releases/download/v$version/git-sync_$version_windows_386.zip"
       }
     },
     "hash": {

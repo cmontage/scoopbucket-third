@@ -5,18 +5,18 @@
   "homepage": "https://github.com/cdk-team/CDK",
   "checkver": "github",
   "url": [
-    "https://ghgo.xyz/https://github.com/cdk-team/CDK/releases/download/v1.5.4/cdk_darwin_amd64",
-    "https://ghgo.xyz/https://github.com/cdk-team/CDK/releases/download/v1.5.4/cdk_linux_386",
-    "https://ghgo.xyz/https://github.com/cdk-team/CDK/releases/download/v1.5.4/cdk_linux_386_thin",
-    "https://ghgo.xyz/https://github.com/cdk-team/CDK/releases/download/v1.5.4/cdk_linux_386_thin_upx",
-    "https://ghgo.xyz/https://github.com/cdk-team/CDK/releases/download/v1.5.4/cdk_linux_386_upx",
-    "https://ghgo.xyz/https://github.com/cdk-team/CDK/releases/download/v1.5.4/cdk_linux_amd64",
-    "https://ghgo.xyz/https://github.com/cdk-team/CDK/releases/download/v1.5.4/cdk_linux_amd64_thin",
-    "https://ghgo.xyz/https://github.com/cdk-team/CDK/releases/download/v1.5.4/cdk_linux_amd64_thin_upx",
-    "https://ghgo.xyz/https://github.com/cdk-team/CDK/releases/download/v1.5.4/cdk_linux_amd64_upx",
-    "https://ghgo.xyz/https://github.com/cdk-team/CDK/releases/download/v1.5.4/cdk_linux_arm",
-    "https://ghgo.xyz/https://github.com/cdk-team/CDK/releases/download/v1.5.4/cdk_linux_arm64",
-    "https://ghgo.xyz/https://github.com/cdk-team/CDK/releases/download/v1.5.4/cdk_linux_arm64_thin"
+    "https://github.com/cdk-team/CDK/releases/download/v1.5.4/cdk_darwin_amd64",
+    "https://github.com/cdk-team/CDK/releases/download/v1.5.4/cdk_linux_386",
+    "https://github.com/cdk-team/CDK/releases/download/v1.5.4/cdk_linux_386_thin",
+    "https://github.com/cdk-team/CDK/releases/download/v1.5.4/cdk_linux_386_thin_upx",
+    "https://github.com/cdk-team/CDK/releases/download/v1.5.4/cdk_linux_386_upx",
+    "https://github.com/cdk-team/CDK/releases/download/v1.5.4/cdk_linux_amd64",
+    "https://github.com/cdk-team/CDK/releases/download/v1.5.4/cdk_linux_amd64_thin",
+    "https://github.com/cdk-team/CDK/releases/download/v1.5.4/cdk_linux_amd64_thin_upx",
+    "https://github.com/cdk-team/CDK/releases/download/v1.5.4/cdk_linux_amd64_upx",
+    "https://github.com/cdk-team/CDK/releases/download/v1.5.4/cdk_linux_arm",
+    "https://github.com/cdk-team/CDK/releases/download/v1.5.4/cdk_linux_arm64",
+    "https://github.com/cdk-team/CDK/releases/download/v1.5.4/cdk_linux_arm64_thin"
   ],
   "hash": [
     "f0fc4517a1a74f1922e41886cc4584c7683f7726111e40f03b26edc6bd9c6642",
@@ -34,18 +34,18 @@
   ],
   "autoupdate": {
     "url": [
-      "https://ghgo.xyz/https://github.com/cdk-team/CDK/releases/download/v$version/cdk_darwin_amd64",
-      "https://ghgo.xyz/https://github.com/cdk-team/CDK/releases/download/v$version/cdk_linux_386",
-      "https://ghgo.xyz/https://github.com/cdk-team/CDK/releases/download/v$version/cdk_linux_386_thin",
-      "https://ghgo.xyz/https://github.com/cdk-team/CDK/releases/download/v$version/cdk_linux_386_thin_upx",
-      "https://ghgo.xyz/https://github.com/cdk-team/CDK/releases/download/v$version/cdk_linux_386_upx",
-      "https://ghgo.xyz/https://github.com/cdk-team/CDK/releases/download/v$version/cdk_linux_amd64",
-      "https://ghgo.xyz/https://github.com/cdk-team/CDK/releases/download/v$version/cdk_linux_amd64_thin",
-      "https://ghgo.xyz/https://github.com/cdk-team/CDK/releases/download/v$version/cdk_linux_amd64_thin_upx",
-      "https://ghgo.xyz/https://github.com/cdk-team/CDK/releases/download/v$version/cdk_linux_amd64_upx",
-      "https://ghgo.xyz/https://github.com/cdk-team/CDK/releases/download/v$version/cdk_linux_arm",
-      "https://ghgo.xyz/https://github.com/cdk-team/CDK/releases/download/v$version/cdk_linux_arm64",
-      "https://ghgo.xyz/https://github.com/cdk-team/CDK/releases/download/v$version/cdk_linux_arm64_thin"
+      "https://github.com/cdk-team/CDK/releases/download/v$version/cdk_darwin_amd64",
+      "https://github.com/cdk-team/CDK/releases/download/v$version/cdk_linux_386",
+      "https://github.com/cdk-team/CDK/releases/download/v$version/cdk_linux_386_thin",
+      "https://github.com/cdk-team/CDK/releases/download/v$version/cdk_linux_386_thin_upx",
+      "https://github.com/cdk-team/CDK/releases/download/v$version/cdk_linux_386_upx",
+      "https://github.com/cdk-team/CDK/releases/download/v$version/cdk_linux_amd64",
+      "https://github.com/cdk-team/CDK/releases/download/v$version/cdk_linux_amd64_thin",
+      "https://github.com/cdk-team/CDK/releases/download/v$version/cdk_linux_amd64_thin_upx",
+      "https://github.com/cdk-team/CDK/releases/download/v$version/cdk_linux_amd64_upx",
+      "https://github.com/cdk-team/CDK/releases/download/v$version/cdk_linux_arm",
+      "https://github.com/cdk-team/CDK/releases/download/v$version/cdk_linux_arm64",
+      "https://github.com/cdk-team/CDK/releases/download/v$version/cdk_linux_arm64_thin"
     ]
   }
 }

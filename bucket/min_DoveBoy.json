@@ -8,7 +8,7 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/minbrowser/min/releases/download/v1.34.0/min-1.34.0-setup.exe#/dl.7z",
+      "url": "https://github.com/minbrowser/min/releases/download/v1.34.0/min-1.34.0-setup.exe#/dl.7z",
       "hash": "83a20e4ea89de1a8fbcb750ca6bdb201644b678b72aaa9ba10a17ca577154e58",
       "pre_install": [
         "Expand-7zipArchive \"$dir\\min-1.34.0-full.nupkg\" \"$dir\"",
@@ -41,7 +41,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/minbrowser/min/releases/download/v$version/min-$version-setup.exe#/dl.7z",
+        "url": "https://github.com/minbrowser/min/releases/download/v$version/min-$version-setup.exe#/dl.7z",
         "pre_install": [
           "Expand-7zipArchive \"$dir\\min-$version-full.nupkg\" \"$dir\"",
           "    Copy-Item \"$dir\\lib\\net45\\*\" \"$dir\" -Recurse -Force -ErrorAction 'SilentlyContinue'",

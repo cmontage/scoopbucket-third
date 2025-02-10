@@ -5,11 +5,11 @@
   "license": "GPL-2.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/dazedcat19/FMD2/releases/download/2.0.34.1/fmd_2.0.34.1_x86_64-win64.7z",
+      "url": "https://github.com/dazedcat19/FMD2/releases/download/2.0.34.1/fmd_2.0.34.1_x86_64-win64.7z",
       "hash": "b216a71a6104d05041648abe46dc831fac6f08072f4e9216eb0d1182f1feb2a2"
     },
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/dazedcat19/FMD2/releases/download/2.0.34.1/fmd_2.0.34.1_i386-win32.7z",
+      "url": "https://github.com/dazedcat19/FMD2/releases/download/2.0.34.1/fmd_2.0.34.1_i386-win32.7z",
       "hash": "cda83b72c2ef16cef28464eeefdd13a531fb554b4cd2b86ee4a209a12b49f91c"
     }
   },
@@ -45,10 +45,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/dazedcat19/FMD2/releases/download/$version/fmd_$version_x86_64-win64.7z"
+        "url": "https://github.com/dazedcat19/FMD2/releases/download/$version/fmd_$version_x86_64-win64.7z"
       },
       "32bit": {
-        "url": "https://ghgo.xyz/https://github.com/dazedcat19/FMD2/releases/download/$version/fmd_$version_i386-win32.7z"
+        "url": "https://github.com/dazedcat19/FMD2/releases/download/$version/fmd_$version_i386-win32.7z"
       }
     }
   }

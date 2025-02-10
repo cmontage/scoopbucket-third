@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/pushrax/OpenVR-SpaceCalibrator/releases/download/v1.4/OpenVR-SpaceCalibrator-1-4.exe#/dl.7z",
+      "url": "https://github.com/pushrax/OpenVR-SpaceCalibrator/releases/download/v1.4/OpenVR-SpaceCalibrator-1-4.exe#/dl.7z",
       "hash": "42bede8d9601ba13874da72d208c30af6eef41920476c9b9dd70c0feb76c0add"
     }
   },
@@ -19,7 +19,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/pushrax/OpenVR-SpaceCalibrator/releases/download/v$version/OpenVR-SpaceCalibrator-$underscoreVersion.exe#/dl.7z"
+        "url": "https://github.com/pushrax/OpenVR-SpaceCalibrator/releases/download/v$version/OpenVR-SpaceCalibrator-$underscoreVersion.exe#/dl.7z"
       }
     }
   }

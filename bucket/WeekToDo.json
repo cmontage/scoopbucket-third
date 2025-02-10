@@ -6,7 +6,7 @@
     "identifier": "GNU General Public License v3.0",
     "url": "https://github.com/manuelernestog/weektodo/blob/main/LICENSE"
   },
-  "url": "https://ghgo.xyz/https://github.com/manuelernestog/weektodo/releases/download/v2.2.0/WeekToDo.Setup.2.2.0.exe#/abgo_bucket_installer.exe",
+  "url": "https://github.com/manuelernestog/weektodo/releases/download/v2.2.0/WeekToDo.Setup.2.2.0.exe#/abgo_bucket_installer.exe",
   "hash": "c214f85207e4d0e377b573f8d3b25d5badcc06e5cfb4315187f1ca77a001ace0",
   "shortcuts": [
     [
@@ -39,6 +39,6 @@
     "github": "https://github.com/manuelernestog/weektodo"
   },
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/manuelernestog/weektodo/releases/download/v$version/WeekToDo.Setup.$version.exe#/abgo_bucket_installer.exe"
+    "url": "https://github.com/manuelernestog/weektodo/releases/download/v$version/WeekToDo.Setup.$version.exe#/abgo_bucket_installer.exe"
   }
 }

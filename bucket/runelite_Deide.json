@@ -7,7 +7,7 @@
     "url": "https://github.com/runelite/launcher/blob/master/LICENSE"
   },
   "url": [
-    "https://ghgo.xyz/https://github.com/runelite/launcher/releases/download/2.7.2/RuneLite.jar",
+    "https://github.com/runelite/launcher/releases/download/2.7.2/RuneLite.jar",
     "https://i.imgur.com/Ozfabsa.png"
   ],
   "pre_install": "Rename-Item -Path $dir\\Ozfabsa.png -NewName icon.png",
@@ -40,6 +40,6 @@
   },
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/runelite/launcher/releases/download/$version/RuneLite.jar"
+    "url": "https://github.com/runelite/launcher/releases/download/$version/RuneLite.jar"
   }
 }

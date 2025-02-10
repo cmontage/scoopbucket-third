@@ -14,7 +14,7 @@
     ],
     "Komga": "extras/komga"
   },
-  "url": "https://ghgo.xyz/https://github.com/Snd-R/komf/releases/download/0.26.0/komf-0.26.0.jar#/komf.jar",
+  "url": "https://github.com/Snd-R/komf/releases/download/0.26.0/komf-0.26.0.jar#/komf.jar",
   "hash": "441e2dbd362d9536cd4cdd3580099897eb086bcdcbdde1b989b3dd8603be3318",
   "bin": [
     [
@@ -24,6 +24,6 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/Snd-R/komf/releases/download/$version/komf-$version.jar#/komf.jar"
+    "url": "https://github.com/Snd-R/komf/releases/download/$version/komf-$version.jar#/komf.jar"
   }
 }

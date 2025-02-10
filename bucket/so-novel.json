@@ -6,7 +6,7 @@
     "identifier": "Apache-2.0 license",
     "url": "https://github.com/pcdd-group/so-novel#Apache-2.0-1-ov-file"
   },
-  "url": "https://ghgo.xyz/https://github.com/pcdd-group/so-novel/releases/download/v1.7.7/sonovel-windows.tar.gz",
+  "url": "https://github.com/pcdd-group/so-novel/releases/download/v1.7.7/sonovel-windows.tar.gz",
   "hash": "db4a064a8b062239d60ee01d18776d35d942afac347ab0de2ea97ecbb878993c",
   "extract_dir": "SoNovel",
   "shortcuts": [
@@ -22,6 +22,6 @@
     "regex": "/releases/download/v([\\d.]+)/(?<file>sonovel-win.*?\\.tar.gz)"
   },
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/pcdd-group/so-novel/releases/download/v$version/$matchFile"
+    "url": "https://github.com/pcdd-group/so-novel/releases/download/v$version/$matchFile"
   }
 }

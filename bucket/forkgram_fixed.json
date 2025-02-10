@@ -12,7 +12,7 @@
     "To unregister the 'URL:Telegram Link' protocol, run:",
     "protocol-handler.ps1 unregister"
   ],
-  "url": "https://ghgo.xyz/https://github.com/Forkgram/tdesktop/releases/download/v5.10.7/Telegram.zip",
+  "url": "https://github.com/Forkgram/tdesktop/releases/download/v5.10.7/Telegram.zip",
   "hash": "6e01861e4f65fdeed4f3ca0c6c7812383b5332dd55cdeb1cdf9164fc4e267f50",
   "pre_install": [
     "if (Test-Path \"$persist_dir\\log.txt\") { Copy-Item \"$persist_dir\\log.txt\" \"$dir\\\" }",
@@ -43,6 +43,6 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/Forkgram/tdesktop/releases/download/v$version/Telegram.zip"
+    "url": "https://github.com/Forkgram/tdesktop/releases/download/v$version/Telegram.zip"
   }
 }

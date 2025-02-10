@@ -6,11 +6,11 @@
   "version": "0.0.23.0",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/PowerShell/Win32-OpenSSH/releases/download/v0.0.23.0/OpenSSH-Win64.zip",
+      "url": "https://github.com/PowerShell/Win32-OpenSSH/releases/download/v0.0.23.0/OpenSSH-Win64.zip",
       "extract_dir": "OpenSSH-Win64"
     },
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/PowerShell/Win32-OpenSSH/releases/download/v0.0.23.0/OpenSSH-Win32.zip",
+      "url": "https://github.com/PowerShell/Win32-OpenSSH/releases/download/v0.0.23.0/OpenSSH-Win32.zip",
       "extract_dir": "OpenSSH-Win32"
     }
   },

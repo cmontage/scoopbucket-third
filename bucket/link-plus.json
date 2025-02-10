@@ -9,7 +9,7 @@
   ],
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/lnelab/link-plus/releases/download/3.1.7/link-plus-win-3.1.7.exe#/dl.7z",
+      "url": "https://github.com/lnelab/link-plus/releases/download/3.1.7/link-plus-win-3.1.7.exe#/dl.7z",
       "hash": "sha512:8bf238a1e5602536b4bba3d56c15322c0d12656488bc8a5cce75872dc2e155503623c9e100f59d52ef9cbdfcc6bad671dd76e840a703db963973aec5113f434e",
       "pre_install": [
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
@@ -51,7 +51,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/lnelab/link-plus/releases/download/$version/link-plus-win-$version.exe#/dl.7z",
+        "url": "https://github.com/lnelab/link-plus/releases/download/$version/link-plus-win-$version.exe#/dl.7z",
         "hash": {
           "url": "$baseurl/latest.yml",
           "regex": "sha512:\\s+$base64"

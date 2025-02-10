@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/neelabo/NeeView/releases/download/42.6/NeeView42.6.zip",
+      "url": "https://github.com/neelabo/NeeView/releases/download/42.6/NeeView42.6.zip",
       "hash": "7817b3282949e844b1e009e3185c7c7c7111111f98ebc739108e01b22bf5b560",
       "extract_dir": "NeeView42.6"
     }
@@ -24,7 +24,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/neelabo/NeeView/releases/download/$version/NeeView$version.zip",
+        "url": "https://github.com/neelabo/NeeView/releases/download/$version/NeeView$version.zip",
         "extract_dir": "NeeView$version"
       }
     }

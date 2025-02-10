@@ -5,7 +5,7 @@
   "description": "D2 is a modern diagram scripting language that turns text to diagrams.",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/terrastruct/d2/releases/download/v0.6.9/d2-v0.6.9-windows-amd64.tar.gz",
+      "url": "https://github.com/terrastruct/d2/releases/download/v0.6.9/d2-v0.6.9-windows-amd64.tar.gz",
       "hash": "91989350143493d29173a49d132bc99f4d13a37bed268bd542977469344b571d",
       "extract_dir": "d2-v0.6.9"
     }
@@ -17,7 +17,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/terrastruct/d2/releases/download/v$version/d2-v$version-windows-amd64.tar.gz",
+        "url": "https://github.com/terrastruct/d2/releases/download/v$version/d2-v$version-windows-amd64.tar.gz",
         "extract_dir": "d2-v$version"
       }
     }

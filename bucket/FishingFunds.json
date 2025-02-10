@@ -6,7 +6,7 @@
     "identifier": "GNU General Public License v3.0",
     "url": "https://github.com/1zilc/fishing-funds/blob/main/LICENSE"
   },
-  "url": "https://ghgo.xyz/https://github.com/1zilc/fishing-funds/releases/download/v8.4.0/Fishing-Funds-Setup-8.4.0.exe#/abgo_bucket_installer.exe",
+  "url": "https://github.com/1zilc/fishing-funds/releases/download/v8.4.0/Fishing-Funds-Setup-8.4.0.exe#/abgo_bucket_installer.exe",
   "hash": "495c1c84ce8fd0ce2962aa5c67e99d804502960aef53db8356bcc17f2f1f7426",
   "shortcuts": [
     [
@@ -39,6 +39,6 @@
     "github": "https://github.com/1zilc/fishing-funds"
   },
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/1zilc/fishing-funds/releases/download/v$version/Fishing-Funds-Setup-$version.exe#/abgo_bucket_installer.exe"
+    "url": "https://github.com/1zilc/fishing-funds/releases/download/v$version/Fishing-Funds-Setup-$version.exe#/abgo_bucket_installer.exe"
   }
 }

@@ -6,7 +6,7 @@
   "suggest": {
     "git": "git"
   },
-  "url": "https://ghgo.xyz/https://github.com/xwmx/nb/archive/refs/tags/7.16.0.zip",
+  "url": "https://github.com/xwmx/nb/archive/refs/tags/7.16.0.zip",
   "hash": "55ff6fdda4f95a536160e1e7851efa859cf2e6f267daf85e42ee06b985c54a09",
   "extract_dir": "nb-7.16.0",
   "installer": {
@@ -32,7 +32,7 @@
     "regex": "Update version to ([\\d.]+)."
   },
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/xwmx/nb/archive/refs/tags/$version.zip",
+    "url": "https://github.com/xwmx/nb/archive/refs/tags/$version.zip",
     "extract_dir": "nb-$version"
   }
 }

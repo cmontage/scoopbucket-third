@@ -3,7 +3,7 @@
   "description": "Yet another remote desktop software",
   "homepage": "https://rustdesk.com",
   "license": "GNU General Public License v3.0",
-  "url": "https://ghgo.xyz/https://github.com/rustdesk/rustdesk/releases/download/1.3.7/rustdesk-1.3.7-x86_64.exe",
+  "url": "https://github.com/rustdesk/rustdesk/releases/download/1.3.7/rustdesk-1.3.7-x86_64.exe",
   "hash": "72a94de3b89e87173dbe8cbff616f44b11c3b4a907af7a857e3118d4a2bde21e",
   "installer": {
     "script": [
@@ -46,6 +46,6 @@
     "github": "https://github.com/rustdesk/rustdesk"
   },
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/rustdesk/rustdesk/releases/download/$version/rustdesk-$version-x86_64.exe"
+    "url": "https://github.com/rustdesk/rustdesk/releases/download/$version/rustdesk-$version-x86_64.exe"
   }
 }

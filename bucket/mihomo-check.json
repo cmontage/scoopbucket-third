@@ -5,15 +5,15 @@
   "license": "Unknown",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/bestruirui/subs-check/releases/download/v0.1.4/subs-check_Windows_x86_64.zip",
+      "url": "https://github.com/bestruirui/subs-check/releases/download/v0.1.4/subs-check_Windows_x86_64.zip",
       "hash": "8971e8d58a135f9cca406939e8bbdaeea69254fc564d47e6a36e448cf6865892"
     },
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/bestruirui/subs-check/releases/download/v0.1.4/subs-check_Windows_i386.zip",
+      "url": "https://github.com/bestruirui/subs-check/releases/download/v0.1.4/subs-check_Windows_i386.zip",
       "hash": "a6f9d214fe0279d86cc1103b5d12a3bdd5323ceb0a2031bfb04a41a8905061b2"
     },
     "arm64": {
-      "url": "https://ghgo.xyz/https://github.com/bestruirui/subs-check/releases/download/v0.1.4/subs-check_Windows_aarch64.zip",
+      "url": "https://github.com/bestruirui/subs-check/releases/download/v0.1.4/subs-check_Windows_aarch64.zip",
       "hash": "d11ba1793d002f06e8565e386fd40b62c3a7ef0e1d19e4ebc89c3bfa64c83e99"
     }
   },
@@ -25,13 +25,13 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/bestruirui/subs-check/releases/download/v$version/subs-check_Windows_x86_64.zip"
+        "url": "https://github.com/bestruirui/subs-check/releases/download/v$version/subs-check_Windows_x86_64.zip"
       },
       "32bit": {
-        "url": "https://ghgo.xyz/https://github.com/bestruirui/subs-check/releases/download/v$version/subs-check_Windows_i386.zip"
+        "url": "https://github.com/bestruirui/subs-check/releases/download/v$version/subs-check_Windows_i386.zip"
       },
       "arm64": {
-        "url": "https://ghgo.xyz/https://github.com/bestruirui/subs-check/releases/download/v$version/subs-check_Windows_aarch64.zip"
+        "url": "https://github.com/bestruirui/subs-check/releases/download/v$version/subs-check_Windows_aarch64.zip"
       }
     },
     "hash": {

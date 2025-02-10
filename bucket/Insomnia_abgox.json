@@ -7,8 +7,8 @@
     "url": "https://github.com/Kong/insomnia/blob/develop/LICENSE"
   },
   "url": [
-    "https://ghgo.xyz/https://github.com/Kong/insomnia/releases/download/core%4010.3.0/insomnia-10.3.0-full.nupkg",
-    "https://ghgo.xyz/https://github.com/Kong/insomnia/releases/download/core%4010.3.0/inso-windows-10.3.0.zip"
+    "https://github.com/Kong/insomnia/releases/download/core%4010.3.0/insomnia-10.3.0-full.nupkg",
+    "https://github.com/Kong/insomnia/releases/download/core%4010.3.0/inso-windows-10.3.0.zip"
   ],
   "hash": [
     "3cc934d6ffea418ed5819b971baf81b3b2b2ed77550f2323c73aca4059a4d59e",
@@ -46,8 +46,8 @@
   },
   "autoupdate": {
     "url": [
-      "https://ghgo.xyz/https://github.com/Kong/insomnia/releases/download/core%40$version/insomnia-$version-full.nupkg",
-      "https://ghgo.xyz/https://github.com/Kong/insomnia/releases/download/core%40$version/inso-windows-$version.zip"
+      "https://github.com/Kong/insomnia/releases/download/core%40$version/insomnia-$version-full.nupkg",
+      "https://github.com/Kong/insomnia/releases/download/core%40$version/inso-windows-$version.zip"
     ]
   }
 }

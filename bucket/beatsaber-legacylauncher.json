@@ -5,7 +5,7 @@
   "license": "GPL-3.0-or-later",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/RiskiVR/BSLegacyLauncher/releases/download/v1.7.2/BSLegacyLauncher.zip",
+      "url": "https://github.com/RiskiVR/BSLegacyLauncher/releases/download/v1.7.2/BSLegacyLauncher.zip",
       "hash": "39463d06b2a0c2f18aca50169efa728640313cba2df4b4900019f585bfd141db"
     }
   },
@@ -22,7 +22,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/RiskiVR/BSLegacyLauncher/releases/download/v$version/BSLegacyLauncher.zip"
+        "url": "https://github.com/RiskiVR/BSLegacyLauncher/releases/download/v$version/BSLegacyLauncher.zip"
       }
     }
   }

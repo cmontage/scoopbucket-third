@@ -5,7 +5,7 @@
   "license": "MPL-2.0",
   "architecture": {
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/t1m0thyj/WinDynamicDesktop/releases/download/v5.6.0/WinDynamicDesktop_5.6.0_x86_Portable.exe",
+      "url": "https://github.com/t1m0thyj/WinDynamicDesktop/releases/download/v5.6.0/WinDynamicDesktop_5.6.0_x86_Portable.exe",
       "hash": "f793613c9ce641f760cf098c3f6f045c1ae3007219acb83ab203f8594e992bde",
       "shortcuts": [
         [
@@ -15,7 +15,7 @@
       ]
     },
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/t1m0thyj/WinDynamicDesktop/releases/download/v5.6.0/WinDynamicDesktop_5.6.0_x64_Portable.exe",
+      "url": "https://github.com/t1m0thyj/WinDynamicDesktop/releases/download/v5.6.0/WinDynamicDesktop_5.6.0_x64_Portable.exe",
       "hash": "7fe1af3af2195654ef774b6fb19fbc35582dbf1e6615ff4855f3215228dcf555",
       "shortcuts": [
         [
@@ -34,7 +34,7 @@
   "autoupdate": {
     "architecture": {
       "32bit": {
-        "url": "https://ghgo.xyz/https://github.com/t1m0thyj/WinDynamicDesktop/releases/download/v$version/WinDynamicDesktop_$version_x86_Portable.exe",
+        "url": "https://github.com/t1m0thyj/WinDynamicDesktop/releases/download/v$version/WinDynamicDesktop_$version_x86_Portable.exe",
         "shortcuts": [
           [
             "WinDynamicDesktop_$version_x86_Portable.exe",
@@ -43,7 +43,7 @@
         ]
       },
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/t1m0thyj/WinDynamicDesktop/releases/download/v$version/WinDynamicDesktop_$version_x64_Portable.exe",
+        "url": "https://github.com/t1m0thyj/WinDynamicDesktop/releases/download/v$version/WinDynamicDesktop_$version_x64_Portable.exe",
         "shortcuts": [
           [
             "WinDynamicDesktop_$version_x64_Portable.exe",

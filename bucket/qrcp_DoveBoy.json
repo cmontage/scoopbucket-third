@@ -5,15 +5,15 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/claudiodangelis/qrcp/releases/download/v0.11.4/qrcp_0.11.4_windows_amd64.tar.gz",
+      "url": "https://github.com/claudiodangelis/qrcp/releases/download/v0.11.4/qrcp_0.11.4_windows_amd64.tar.gz",
       "hash": "5f7e29bcca56a68c347016b4598b5985487d745fe11e0ff60110e36230df5ae7"
     },
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/claudiodangelis/qrcp/releases/download/v0.11.4/qrcp_0.11.4_windows_386.tar.gz",
+      "url": "https://github.com/claudiodangelis/qrcp/releases/download/v0.11.4/qrcp_0.11.4_windows_386.tar.gz",
       "hash": "077ff05a89d62ca7247f9cbbd1b3cb302f29c768152e161895f0ad0b0617938f"
     },
     "arm32": {
-      "url": "https://ghgo.xyz/https://github.com/claudiodangelis/qrcp/releases/download/v0.11.4/qrcp_0.11.4_windows_armv7.tar.gz",
+      "url": "https://github.com/claudiodangelis/qrcp/releases/download/v0.11.4/qrcp_0.11.4_windows_armv7.tar.gz",
       "hash": "d35a0a991daa7b4cfe58ee0e33ff7331d4851c5b95aac49642866fc578e2b54c"
     }
   },
@@ -26,13 +26,13 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/claudiodangelis/qrcp/releases/download/v$version/$matchX64"
+        "url": "https://github.com/claudiodangelis/qrcp/releases/download/v$version/$matchX64"
       },
       "32bit": {
-        "url": "https://ghgo.xyz/https://github.com/claudiodangelis/qrcp/releases/download/v$version/$matchX86"
+        "url": "https://github.com/claudiodangelis/qrcp/releases/download/v$version/$matchX86"
       },
       "arm32": {
-        "url": "https://ghgo.xyz/https://github.com/claudiodangelis/qrcp/releases/download/v$version/$matchArmv7"
+        "url": "https://github.com/claudiodangelis/qrcp/releases/download/v$version/$matchArmv7"
       }
     },
     "hash": {

@@ -6,7 +6,7 @@
   "notes": "",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/lowercase78/V2RayN-PRO/releases/download/V2RayN-PROV1.8.1/v2rayN-Pro.zip",
+      "url": "https://github.com/lowercase78/V2RayN-PRO/releases/download/V2RayN-PROV1.8.1/v2rayN-Pro.zip",
       "hash": "d2b844260698aa899cf0472c43d084f6c8209335739941cb8a410ef70f784b00"
     }
   },
@@ -17,7 +17,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/lowercase78/V2RayN-PRO/releases/download/$version/v2rayN-Pro.zip"
+        "url": "https://github.com/lowercase78/V2RayN-PRO/releases/download/$version/v2rayN-Pro.zip"
       }
     }
   },

@@ -4,7 +4,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/tree-sitter/tree-sitter/releases/download/v0.25.1/tree-sitter-windows-x64.gz",
+      "url": "https://github.com/tree-sitter/tree-sitter/releases/download/v0.25.1/tree-sitter-windows-x64.gz",
       "hash": "0cf25774758436900358c5068f25c21697bf2c0035167b5017f8d8da7737f980"
     }
   },
@@ -15,7 +15,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/tree-sitter/tree-sitter/releases/download/v$version/tree-sitter-windows-x64.gz"
+        "url": "https://github.com/tree-sitter/tree-sitter/releases/download/v$version/tree-sitter-windows-x64.gz"
       }
     }
   }

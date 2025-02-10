@@ -9,11 +9,11 @@
   "changelog": "https://brave.com/latest/",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/brave/brave-browser/releases/download/v1.75.175/BraveBrowserStandaloneSilentSetup.exe#/setup.exe",
+      "url": "https://github.com/brave/brave-browser/releases/download/v1.75.175/BraveBrowserStandaloneSilentSetup.exe#/setup.exe",
       "hash": "76f509e6901c0607efc855fb045d43e113471fffa82d40ad72b05622cbeccb1e"
     },
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/brave/brave-browser/releases/download/v1.75.175/BraveBrowserStandaloneSilentSetup32.exe#/setup.exe",
+      "url": "https://github.com/brave/brave-browser/releases/download/v1.75.175/BraveBrowserStandaloneSilentSetup32.exe#/setup.exe",
       "hash": "457fe4390e1928d576cb2ff6be4c8bc16cc934f9a919fe05f71f0d919ea04688"
     }
   },
@@ -56,10 +56,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/brave/brave-browser/releases/download/v$version/BraveBrowserStandaloneSilentSetup.exe#/setup.exe"
+        "url": "https://github.com/brave/brave-browser/releases/download/v$version/BraveBrowserStandaloneSilentSetup.exe#/setup.exe"
       },
       "32bit": {
-        "url": "https://ghgo.xyz/https://github.com/brave/brave-browser/releases/download/v$version/BraveBrowserStandaloneSilentSetup32.exe#/setup.exe"
+        "url": "https://github.com/brave/brave-browser/releases/download/v$version/BraveBrowserStandaloneSilentSetup32.exe#/setup.exe"
       }
     }
   }

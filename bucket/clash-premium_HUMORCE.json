@@ -5,11 +5,11 @@
   "license": "Freeware",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/Dreamacro/clash/releases/download/premium/clash-windows-amd64-2023.08.17.zip",
+      "url": "https://github.com/Dreamacro/clash/releases/download/premium/clash-windows-amd64-2023.08.17.zip",
       "hash": "a39b590d8fda0f1a76373d431d126a8798ef8b6fe11af1aa70f88b865b40b15b"
     },
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/Dreamacro/clash/releases/download/premium/clash-windows-386-2023.08.17.zip",
+      "url": "https://github.com/Dreamacro/clash/releases/download/premium/clash-windows-386-2023.08.17.zip",
       "hash": "ec1a3e6b439d6258673a4691a680cb748e42a456427d9b6bd6b49efb10c8fc58"
     }
   },
@@ -27,10 +27,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/Dreamacro/clash/releases/download/premium/clash-windows-amd64-$version.zip"
+        "url": "https://github.com/Dreamacro/clash/releases/download/premium/clash-windows-amd64-$version.zip"
       },
       "32bit": {
-        "url": "https://ghgo.xyz/https://github.com/Dreamacro/clash/releases/download/premium/clash-windows-386-$version.zip"
+        "url": "https://github.com/Dreamacro/clash/releases/download/premium/clash-windows-386-$version.zip"
       }
     }
   }

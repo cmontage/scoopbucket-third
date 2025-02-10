@@ -6,7 +6,7 @@
     "identifier": "Creative Commons Public Licenses",
     "url": "https://github.com/darkmatter2048/WindowsCleaner#License-1-ov-file"
   },
-  "url": "https://ghgo.xyz/https://github.com/darkmatter2048/WindowsCleaner/releases/download/v5.0.4/windowscleaner_v5.0.4_amd64_x64_setup.exe",
+  "url": "https://github.com/darkmatter2048/WindowsCleaner/releases/download/v5.0.4/windowscleaner_v5.0.4_amd64_x64_setup.exe",
   "hash": "a03b9b561c244d3ce5a4e1fc7925e499ecb4902a39249967f3c9706e54842c2d",
   "innosetup": true,
   "bin": [
@@ -26,6 +26,6 @@
     "regex": "/releases/download/v([\\d.]+)/(?<file>windowscleaner.*?\\.exe)"
   },
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/darkmatter2048/WindowsCleaner/releases/download/v$version/$matchFile"
+    "url": "https://github.com/darkmatter2048/WindowsCleaner/releases/download/v$version/$matchFile"
   }
 }

@@ -8,7 +8,7 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/SlimeVR/SlimeVR-Server/releases/download/v0.13.2/SlimeVR-win64.zip",
+      "url": "https://github.com/SlimeVR/SlimeVR-Server/releases/download/v0.13.2/SlimeVR-win64.zip",
       "hash": "5ed3dc082109dd6b859837266cdcea3b8422a2e71c4bf4cacda6971e5ef08492"
     }
   },
@@ -25,7 +25,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/SlimeVR/SlimeVR-Server/releases/download/v$version/SlimeVR-win64.zip"
+        "url": "https://github.com/SlimeVR/SlimeVR-Server/releases/download/v$version/SlimeVR-win64.zip"
       }
     }
   }

@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v1.6.8/Another-Redis-Desktop-Manager.1.6.8.exe#/dl.7z",
+      "url": "https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v1.6.8/Another-Redis-Desktop-Manager.1.6.8.exe#/dl.7z",
       "hash": "sha512:b2ce800613452c4f06e3765368059785c1deca3b82ec594699b61a866dff3f4c80223afb52ce81a51ba0a5767a093605062dc6dbaa692ca78a52a33271df8403",
       "installer": {
         "script": [
@@ -25,9 +25,9 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v$version/Another-Redis-Desktop-Manager.$version.exe#/dl.7z",
+        "url": "https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v$version/Another-Redis-Desktop-Manager.$version.exe#/dl.7z",
         "hash": {
-          "url": "https://ghgo.xyz/https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v$version/latest.yml",
+          "url": "https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v$version/latest.yml",
           "mode": "extract",
           "regex": "(?sm)$version.exe.*?sha512: $base64"
         }

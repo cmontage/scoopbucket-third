@@ -5,9 +5,9 @@
   "homepage": "https://github.com/WangYihang/Platypus",
   "checkver": "github",
   "url": [
-    "https://ghgo.xyz/https://github.com/WangYihang/Platypus/releases/download/v1.5.0/Platypus_windows_amd64.exe",
-    "https://ghgo.xyz/https://github.com/WangYihang/Platypus/releases/download/v1.5.0/Platypus_darwin_amd64",
-    "https://ghgo.xyz/https://github.com/WangYihang/Platypus/releases/download/v1.5.0/Platypus_linux_amd64"
+    "https://github.com/WangYihang/Platypus/releases/download/v1.5.0/Platypus_windows_amd64.exe",
+    "https://github.com/WangYihang/Platypus/releases/download/v1.5.0/Platypus_darwin_amd64",
+    "https://github.com/WangYihang/Platypus/releases/download/v1.5.0/Platypus_linux_amd64"
   ],
   "hash": [
     "87f31ba6c879d4663d69115cd30ce25f793585fe660094b78173b1464e12858a",
@@ -16,9 +16,9 @@
   ],
   "autoupdate": {
     "url": [
-      "https://ghgo.xyz/https://github.com/WangYihang/Platypus/releases/download/v$version/Platypus_windows_amd64.exe",
-      "https://ghgo.xyz/https://github.com/WangYihang/Platypus/releases/download/v$version/Platypus_darwin_amd64",
-      "https://ghgo.xyz/https://github.com/WangYihang/Platypus/releases/download/v$version/Platypus_linux_amd64"
+      "https://github.com/WangYihang/Platypus/releases/download/v$version/Platypus_windows_amd64.exe",
+      "https://github.com/WangYihang/Platypus/releases/download/v$version/Platypus_darwin_amd64",
+      "https://github.com/WangYihang/Platypus/releases/download/v$version/Platypus_linux_amd64"
     ]
   },
   "bin": [

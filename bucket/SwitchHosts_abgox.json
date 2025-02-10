@@ -8,11 +8,11 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/oldj/SwitchHosts/releases/download/v4.2.0/SwitchHosts_windows_installer_x64_4.2.0.6119.exe#/abgo_bucket_installer.exe",
+      "url": "https://github.com/oldj/SwitchHosts/releases/download/v4.2.0/SwitchHosts_windows_installer_x64_4.2.0.6119.exe#/abgo_bucket_installer.exe",
       "hash": "d173a61eb339c513060d6a9ddb43f156a75c2140ab8c6f540faa075d54ddb000"
     },
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/oldj/SwitchHosts/releases/download/v4.2.0/SwitchHosts_windows_installer_ia32_4.2.0.6119.exe#/abgo_bucket_installer.exe",
+      "url": "https://github.com/oldj/SwitchHosts/releases/download/v4.2.0/SwitchHosts_windows_installer_ia32_4.2.0.6119.exe#/abgo_bucket_installer.exe",
       "hash": "1b5321469f08c57b95fb7e94082d64fa4e6558f095e152ddbfcbc986bcd76f5f"
     }
   },
@@ -50,10 +50,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/oldj/SwitchHosts/releases/download/v$matchHead/SwitchHosts_windows_installer_x64_$version.exe#/abgo_bucket_installer.exe"
+        "url": "https://github.com/oldj/SwitchHosts/releases/download/v$matchHead/SwitchHosts_windows_installer_x64_$version.exe#/abgo_bucket_installer.exe"
       },
       "32bit": {
-        "url": "https://ghgo.xyz/https://github.com/oldj/SwitchHosts/releases/download/v$matchHead/SwitchHosts_windows_installer_ia32_$version.exe#/abgo_bucket_installer.exe"
+        "url": "https://github.com/oldj/SwitchHosts/releases/download/v$matchHead/SwitchHosts_windows_installer_ia32_$version.exe#/abgo_bucket_installer.exe"
       }
     }
   }

@@ -4,11 +4,11 @@
   "homepage": "https://comunidadaylas.github.io/PackSquash/",
   "license": "AGPL-3.0-only",
   "bin": "packsquash.exe",
-  "url": "https://ghgo.xyz/https://github.com/ComunidadAylas/PackSquash/releases/download/v0.4.0/PackSquash.CLI.executable.x86_64-pc-windows-gnu.zip",
+  "url": "https://github.com/ComunidadAylas/PackSquash/releases/download/v0.4.0/PackSquash.CLI.executable.x86_64-pc-windows-gnu.zip",
   "checkver": {
     "github": "https://github.com/ComunidadAylas/PackSquash"
   },
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/ComunidadAylas/PackSquash/releases/download/v$version/PackSquash.CLI.executable.x86_64-pc-windows-gnu.zip"
+    "url": "https://github.com/ComunidadAylas/PackSquash/releases/download/v$version/PackSquash.CLI.executable.x86_64-pc-windows-gnu.zip"
   }
 }

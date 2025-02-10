@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/qarmin/czkawka/releases/download/8.0.0/windows_krokiet_gui_winversion.exe#/krokiet.exe",
+      "url": "https://github.com/qarmin/czkawka/releases/download/8.0.0/windows_krokiet_gui_winversion.exe#/krokiet.exe",
       "hash": "af2d3672ac86d2c5b9a56caacdd1e39fd721f91925b2e111d1d3fc7ab4562fb4"
     }
   },
@@ -19,7 +19,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/qarmin/czkawka/releases/download/$version/windows_krokiet_gui_winversion.exe#/krokiet.exe"
+        "url": "https://github.com/qarmin/czkawka/releases/download/$version/windows_krokiet_gui_winversion.exe#/krokiet.exe"
       }
     }
   }

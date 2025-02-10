@@ -3,7 +3,7 @@
   "description": "Positron, a next-generation data science IDE.",
   "homepage": "https://github.com/posit-dev/positron",
   "license": "Elastic-2.0",
-  "url": "https://ghgo.xyz/https://github.com/posit-dev/positron/releases/download/2025.02.0-137/Positron-2025.02.0-137-UserSetup.exe",
+  "url": "https://github.com/posit-dev/positron/releases/download/2025.02.0-137/Positron-2025.02.0-137-UserSetup.exe",
   "hash": "70c30334c9df6a0d353ade57d7dd0cf1ad79704eb518118e165cee939a3757a9",
   "installer": {
     "args": [
@@ -32,7 +32,7 @@
     "xpath": "//entry/title[starts-with(text(), '202')]"
   },
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/posit-dev/positron/releases/download/$version/Positron-$version-UserSetup.exe",
+    "url": "https://github.com/posit-dev/positron/releases/download/$version/Positron-$version-UserSetup.exe",
     "hash": {
       "mode": "download"
     }

@@ -6,7 +6,7 @@
   "notes": "Windows SDK is required, you can either install it using Visual Studio Installer, or download from: https://developer.microsoft.com/en-us/windows/downloads/sdk-archive/",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/vlang/v/releases/download/weekly.2025.06/v_windows.zip",
+      "url": "https://github.com/vlang/v/releases/download/weekly.2025.06/v_windows.zip",
       "hash": "09cc54c7c49ce7509cde47e277cf761ce27ee8cb114a6fb2dd30d652aff1396a"
     }
   },
@@ -19,7 +19,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/vlang/v/releases/download/weekly.$version/v_windows.zip"
+        "url": "https://github.com/vlang/v/releases/download/weekly.$version/v_windows.zip"
       }
     }
   }

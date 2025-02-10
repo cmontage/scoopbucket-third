@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/ningnao/wuthering-waves-gacha-record/releases/download/v0.6.0/windows.x86_64.v0.6.0.zip",
+      "url": "https://github.com/ningnao/wuthering-waves-gacha-record/releases/download/v0.6.0/windows.x86_64.v0.6.0.zip",
       "hash": "a8fd8b3336b7d4d736cf1f051b93cd9ed409b3a8b2d193cb15d9888d71dafbef"
     }
   },
@@ -19,7 +19,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/ningnao/wuthering-waves-gacha-record/releases/download/v$version/windows.x86_64.v$version.zip"
+        "url": "https://github.com/ningnao/wuthering-waves-gacha-record/releases/download/v$version/windows.x86_64.v$version.zip"
       }
     }
   },

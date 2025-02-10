@@ -6,11 +6,11 @@
   "notes": "You should have at least 8 GB of RAM available to run the 7B models, 16 GB to run the 13B models, and 32 GB to run the 33B models.",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/ollama/ollama/releases/download/v0.5.7/ollama-windows-amd64.zip",
+      "url": "https://github.com/ollama/ollama/releases/download/v0.5.7/ollama-windows-amd64.zip",
       "hash": "11ec2270a5205228fddeaa15c8319a0f0167c0ee7420d19c43714312d4761d2d"
     },
     "arm64": {
-      "url": "https://ghgo.xyz/https://github.com/ollama/ollama/releases/download/v0.5.7/ollama-windows-arm64.zip",
+      "url": "https://github.com/ollama/ollama/releases/download/v0.5.7/ollama-windows-arm64.zip",
       "hash": "0e30b63f949d5176e2c07bc71dc326fa9664a9881818b529aa63849e1d5822e0"
     }
   },
@@ -21,10 +21,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/ollama/ollama/releases/download/v$version/ollama-windows-amd64.zip"
+        "url": "https://github.com/ollama/ollama/releases/download/v$version/ollama-windows-amd64.zip"
       },
       "arm64": {
-        "url": "https://ghgo.xyz/https://github.com/ollama/ollama/releases/download/v$version/ollama-windows-arm64.zip"
+        "url": "https://github.com/ollama/ollama/releases/download/v$version/ollama-windows-arm64.zip"
       }
     },
     "hash": {

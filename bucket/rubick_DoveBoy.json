@@ -8,7 +8,7 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/rubickCenter/rubick/releases/download/v4.3.2/rubick-Setup-4.3.2-x64.exe#/dl.7z",
+      "url": "https://github.com/rubickCenter/rubick/releases/download/v4.3.2/rubick-Setup-4.3.2-x64.exe#/dl.7z",
       "hash": "sha512:0e4c4141b450f2f2f77b3d95beb41b23f613ace06b71029aa9b5cf35c9792e043fd3541277de4f4f757cecd2e001d142a34dafcaa539bf8079c33bb4b31d2f16",
       "pre_install": [
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
@@ -16,7 +16,7 @@
       ]
     },
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/rubickCenter/rubick/releases/download/v4.3.2/rubick-Setup-4.3.2-ia32.exe#/dl.7z",
+      "url": "https://github.com/rubickCenter/rubick/releases/download/v4.3.2/rubick-Setup-4.3.2-ia32.exe#/dl.7z",
       "hash": "sha512:914c59fb0225ff9a1102ebbaa16d467ee51700286a85e36e7a7bbcc66ec10d47ab63238d2493e8bf2f042791742d290af8ed06e744c4e45b8f5122e1b012a9d5",
       "pre_install": [
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
@@ -46,7 +46,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/rubickCenter/rubick/releases/download/v$version/rubick-Setup-$version-x64.exe#/dl.7z",
+        "url": "https://github.com/rubickCenter/rubick/releases/download/v$version/rubick-Setup-$version-x64.exe#/dl.7z",
         "hash": {
           "url": "$baseurl/latest.yml",
           "mode": "extract",
@@ -54,7 +54,7 @@
         }
       },
       "32bit": {
-        "url": "https://ghgo.xyz/https://github.com/rubickCenter/rubick/releases/download/v$version/rubick-Setup-$version-ia32.exe#/dl.7z",
+        "url": "https://github.com/rubickCenter/rubick/releases/download/v$version/rubick-Setup-$version-ia32.exe#/dl.7z",
         "hash": {
           "url": "$baseurl/latest.yml",
           "mode": "extract",

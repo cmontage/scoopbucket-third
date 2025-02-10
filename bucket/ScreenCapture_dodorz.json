@@ -3,7 +3,7 @@
   "description": "A multifunctional screen capture program",
   "license": "MIT",
   "version": "2.1.10",
-  "url": "https://ghgo.xyz/https://github.com/xland/ScreenCapture/releases/download/2.1.10/ScreenCapture.exe",
+  "url": "https://github.com/xland/ScreenCapture/releases/download/2.1.10/ScreenCapture.exe",
   "hash": "e7bd9596fa5f8241d677b98601f337fed386198c17ec96f780298dcf08a2925e",
   "bin": "ScreenCapture.exe",
   "shortcuts": [
@@ -14,6 +14,6 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/xland/ScreenCapture/releases/download/$version/ScreenCapture.exe"
+    "url": "https://github.com/xland/ScreenCapture/releases/download/$version/ScreenCapture.exe"
   }
 }

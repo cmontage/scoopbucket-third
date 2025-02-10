@@ -12,11 +12,11 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/lin-ycv/EverythingPowerToys/releases/download/v0.88.0/EverythingPT-0.88.0-x64.zip",
+      "url": "https://github.com/lin-ycv/EverythingPowerToys/releases/download/v0.88.0/EverythingPT-0.88.0-x64.zip",
       "hash": "5f77ed384e751a58997fd850be6c82356acbaaa346f4e541bf8c231505ac32f4"
     },
     "arm64": {
-      "url": "https://ghgo.xyz/https://github.com/lin-ycv/EverythingPowerToys/releases/download/v0.88.0/EverythingPT-0.88.0-ARM64.zip",
+      "url": "https://github.com/lin-ycv/EverythingPowerToys/releases/download/v0.88.0/EverythingPT-0.88.0-ARM64.zip",
       "hash": "aeab33ac30d3fac0f3d59e134e69840773aa038cb852f9963e83d9db45733c65"
     }
   },
@@ -32,14 +32,14 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/lin-ycv/EverythingPowerToys/releases/download/v$version/EverythingPT-$version-x64.zip",
+        "url": "https://github.com/lin-ycv/EverythingPowerToys/releases/download/v$version/EverythingPT-$version-x64.zip",
         "hash": {
           "url": "https://github.com/lin-ycv/EverythingPowerToys/releases/tag/v$version",
           "regex": "(?s)x64-ZIP.*?$sha256"
         }
       },
       "arm64": {
-        "url": "https://ghgo.xyz/https://github.com/lin-ycv/EverythingPowerToys/releases/download/v$version/EverythingPT-$version-ARM64.zip",
+        "url": "https://github.com/lin-ycv/EverythingPowerToys/releases/download/v$version/EverythingPT-$version-ARM64.zip",
         "hash": {
           "url": "https://github.com/lin-ycv/EverythingPowerToys/releases/tag/v$version",
           "regex": "(?s)ARM64-ZIP.*?$sha256"

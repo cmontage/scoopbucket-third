@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/Eugeny/tabby/releases/download/v1.0.221/tabby-1.0.221-portable-x64.zip",
+      "url": "https://github.com/Eugeny/tabby/releases/download/v1.0.221/tabby-1.0.221-portable-x64.zip",
       "hash": "55e39d55aefc4e96e4a5c971e04dfcb651ca7b2be1e6cc4a07021c80ee2ced70"
     }
   },
@@ -28,7 +28,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/Eugeny/tabby/releases/download/v$version/tabby-$version-portable-x64.zip"
+        "url": "https://github.com/Eugeny/tabby/releases/download/v$version/tabby-$version-portable-x64.zip"
       }
     }
   }

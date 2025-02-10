@@ -6,7 +6,7 @@
     "identifier": "GNU General Public License v3.0",
     "url": "https://github.com/XIU2/UACWhitelistTool/blob/master/LICENSE"
   },
-  "url": "https://ghgo.xyz/https://github.com/XIU2/UACWhitelistTool/releases/download/v1.8.2/UACWhitelistTool_v1.8.2.zip",
+  "url": "https://github.com/XIU2/UACWhitelistTool/releases/download/v1.8.2/UACWhitelistTool_v1.8.2.zip",
   "hash": "475cd7fa1ddebf06c924f8b6cc683ac777c3888d38ffb1e9f39293a9e6de980e",
   "shortcuts": [
     [
@@ -27,6 +27,6 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/XIU2/UACWhitelistTool/releases/download/v$version/UACWhitelistTool_v$version.zip"
+    "url": "https://github.com/XIU2/UACWhitelistTool/releases/download/v$version/UACWhitelistTool_v$version.zip"
   }
 }

@@ -16,7 +16,7 @@
     ]
   ],
   "checkver": {
-    "url": "https://ghgo.xyz/https://raw.githubusercontent.com/Sonarr/Sonarr/develop/version.sh",
+    "url": "https://raw.githubusercontent.com/Sonarr/Sonarr/develop/version.sh",
     "regex": "packageVersion=.+?([\\d.]+)"
   },
   "autoupdate": {

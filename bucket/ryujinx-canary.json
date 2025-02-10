@@ -12,7 +12,7 @@
   ],
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/GreemDev/Ryujinx-Canary/releases/download/1.2.360/ryujinx-canary-1.2.360-win_x64.zip",
+      "url": "https://github.com/GreemDev/Ryujinx-Canary/releases/download/1.2.360/ryujinx-canary-1.2.360-win_x64.zip",
       "hash": "303e0bc1b9815219bea312d2d49b8d0b0d4b1a013d9c408a2ac0a5bd498dc059"
     }
   },
@@ -41,7 +41,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/GreemDev/Ryujinx-Canary/releases/download/$version/ryujinx-canary-$version-win_x64.zip"
+        "url": "https://github.com/GreemDev/Ryujinx-Canary/releases/download/$version/ryujinx-canary-$version-win_x64.zip"
       }
     }
   }

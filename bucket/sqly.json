@@ -5,11 +5,11 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/nao1215/sqly/releases/download/v0.11.0/sqly_0.11.0_windows_amd64.zip",
+      "url": "https://github.com/nao1215/sqly/releases/download/v0.11.0/sqly_0.11.0_windows_amd64.zip",
       "hash": "664fc7108b0276854581397b87b849faa536a244fcf42ad1bf20726888bac78d"
     },
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/nao1215/sqly/releases/download/v0.11.0/sqly_0.11.0_windows_arm64.zip",
+      "url": "https://github.com/nao1215/sqly/releases/download/v0.11.0/sqly_0.11.0_windows_arm64.zip",
       "hash": "38bcebbb2f4aa004c854e359405832163599c7f049ecd29acc7b14f423ae5ab7"
     }
   },
@@ -18,10 +18,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/nao1215/sqly/releases/download/v$version/sqly_$version_windows_amd64.zip"
+        "url": "https://github.com/nao1215/sqly/releases/download/v$version/sqly_$version_windows_amd64.zip"
       },
       "32bit": {
-        "url": "https://ghgo.xyz/https://github.com/nao1215/sqly/releases/download/v$version/sqly_$version_windows_arm64.zip"
+        "url": "https://github.com/nao1215/sqly/releases/download/v$version/sqly_$version_windows_arm64.zip"
       }
     },
     "hash": {

@@ -8,7 +8,7 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/pompurin404/mihomo-party/releases/download/v1.7.1/mihomo-party-windows-1.7.1-x64-setup.exe#/dl.7z",
+      "url": "https://github.com/pompurin404/mihomo-party/releases/download/v1.7.1/mihomo-party-windows-1.7.1-x64-setup.exe#/dl.7z",
       "hash": "4ed29f70bdd6af1e926e2e99fb36b40ab4d53b7462134d1cc7cc6d0ddcb6609f",
       "pre_install": [
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
@@ -16,7 +16,7 @@
       ]
     },
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/pompurin404/mihomo-party/releases/download/v1.7.1/mihomo-party-windows-1.7.1-ia32-setup.exe#/dl.7z",
+      "url": "https://github.com/pompurin404/mihomo-party/releases/download/v1.7.1/mihomo-party-windows-1.7.1-ia32-setup.exe#/dl.7z",
       "hash": "ae3c10bb8961b9ddaae1fa4394de8423f22fea862371be2fb5af8512375303cb",
       "pre_install": [
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
@@ -24,7 +24,7 @@
       ]
     },
     "arm64": {
-      "url": "https://ghgo.xyz/https://github.com/pompurin404/mihomo-party/releases/download/v1.7.1/mihomo-party-windows-1.7.1-arm64-setup.exe#/dl.7z",
+      "url": "https://github.com/pompurin404/mihomo-party/releases/download/v1.7.1/mihomo-party-windows-1.7.1-arm64-setup.exe#/dl.7z",
       "hash": "2a096bc209f04e884f4805b9b62c25e6df8415933796279ab92155fc4097f28b",
       "pre_install": [
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-arm64.7z\" \"$dir\"",
@@ -60,13 +60,13 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/pompurin404/mihomo-party/releases/download/v$version/mihomo-party-windows-$version-x64-setup.exe#/dl.7z"
+        "url": "https://github.com/pompurin404/mihomo-party/releases/download/v$version/mihomo-party-windows-$version-x64-setup.exe#/dl.7z"
       },
       "32bit": {
-        "url": "https://ghgo.xyz/https://github.com/pompurin404/mihomo-party/releases/download/v$version/mihomo-party-windows-$version-ia32-setup.exe#/dl.7z"
+        "url": "https://github.com/pompurin404/mihomo-party/releases/download/v$version/mihomo-party-windows-$version-ia32-setup.exe#/dl.7z"
       },
       "arm64": {
-        "url": "https://ghgo.xyz/https://github.com/pompurin404/mihomo-party/releases/download/v$version/mihomo-party-windows-$version-arm64-setup.exe#/dl.7z"
+        "url": "https://github.com/pompurin404/mihomo-party/releases/download/v$version/mihomo-party-windows-$version-arm64-setup.exe#/dl.7z"
       }
     }
   }

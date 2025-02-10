@@ -5,7 +5,7 @@
   "license": "BSD-3-Clause",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/mamba-org/micromamba-releases/releases/download/2.0.6-0/micromamba-win-64#/micromamba.exe",
+      "url": "https://github.com/mamba-org/micromamba-releases/releases/download/2.0.6-0/micromamba-win-64#/micromamba.exe",
       "hash": "457dd55f7575b401014a6ae674383a2b4dc1e3f33cf99831395e93990daac612"
     }
   },
@@ -21,7 +21,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/mamba-org/micromamba-releases/releases/download/$version/micromamba-win-64#/micromamba.exe",
+        "url": "https://github.com/mamba-org/micromamba-releases/releases/download/$version/micromamba-win-64#/micromamba.exe",
         "hash": {
           "url": "$url.sha256"
         }

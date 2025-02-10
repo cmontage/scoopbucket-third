@@ -5,15 +5,15 @@
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/aandrew-me/tgpt/releases/download/v2.9.1/tgpt-amd64.exe#/tgpt.exe",
+      "url": "https://github.com/aandrew-me/tgpt/releases/download/v2.9.1/tgpt-amd64.exe#/tgpt.exe",
       "hash": "dde268385430373a7258971924731241549b9f0e47aa525236983de3ab11f4a8"
     },
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/aandrew-me/tgpt/releases/download/v2.9.1/tgpt-i386.exe#/tgpt.exe",
+      "url": "https://github.com/aandrew-me/tgpt/releases/download/v2.9.1/tgpt-i386.exe#/tgpt.exe",
       "hash": "bb05dc7227dbf80bfe6f9f9f5b36e1431d0f2dbcf4a1d705618eb762c55af193"
     },
     "arm64": {
-      "url": "https://ghgo.xyz/https://github.com/aandrew-me/tgpt/releases/download/v2.9.1/tgpt-arm64.exe#/tgpt.exe",
+      "url": "https://github.com/aandrew-me/tgpt/releases/download/v2.9.1/tgpt-arm64.exe#/tgpt.exe",
       "hash": "b19e5aa2669259804f4ce058baa5ba99ac0fa9e0897195d25d4552849344d52c"
     }
   },
@@ -22,13 +22,13 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/aandrew-me/tgpt/releases/download/v$version/tgpt-amd64.exe#/tgpt.exe"
+        "url": "https://github.com/aandrew-me/tgpt/releases/download/v$version/tgpt-amd64.exe#/tgpt.exe"
       },
       "32bit": {
-        "url": "https://ghgo.xyz/https://github.com/aandrew-me/tgpt/releases/download/v$version/tgpt-i386.exe#/tgpt.exe"
+        "url": "https://github.com/aandrew-me/tgpt/releases/download/v$version/tgpt-i386.exe#/tgpt.exe"
       },
       "arm64": {
-        "url": "https://ghgo.xyz/https://github.com/aandrew-me/tgpt/releases/download/v$version/tgpt-arm64.exe#/tgpt.exe"
+        "url": "https://github.com/aandrew-me/tgpt/releases/download/v$version/tgpt-arm64.exe#/tgpt.exe"
       }
     },
     "hash": {

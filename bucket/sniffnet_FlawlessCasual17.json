@@ -7,7 +7,7 @@
   "architecture": {
     "64bit": {
       "url": [
-        "https://ghgo.xyz/https://github.com/GyulyVGC/sniffnet/releases/download/v1.1.3/Sniffnet_Windows.msi",
+        "https://github.com/GyulyVGC/sniffnet/releases/download/v1.1.3/Sniffnet_Windows.msi",
         "https://github.com/GyulyVGC/sniffnet/raw/v1.1.3/resources/logos/icon.ico"
       ],
       "hash": [
@@ -31,7 +31,7 @@
     "architecture": {
       "64bit": {
         "url": [
-          "https://ghgo.xyz/https://github.com/GyulyVGC/sniffnet/releases/download/v$version/Sniffnet_Windows.msi",
+          "https://github.com/GyulyVGC/sniffnet/releases/download/v$version/Sniffnet_Windows.msi",
           "https://github.com/GyulyVGC/sniffnet/raw/v$version/resources/logos/icon.ico"
         ]
       }

@@ -6,15 +6,15 @@
   "notes": "Add Notepad++ as a context menu option by running: reg import \"$dir\\install-context.reg\"",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.7.7/npp.8.7.7.portable.x64.zip",
+      "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.7.7/npp.8.7.7.portable.x64.zip",
       "hash": "785444e0ce60ab014dc1b20f97692fa2718d43de4db1288252b8ec73831b941c"
     },
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.7.7/npp.8.7.7.portable.zip",
+      "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.7.7/npp.8.7.7.portable.zip",
       "hash": "9211e0784e48fbdbd4ac1166fb34bfd399a9f4066daf71c50975edca5f29a2d5"
     },
     "arm64": {
-      "url": "https://ghgo.xyz/https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.7.7/npp.8.7.7.portable.arm64.zip",
+      "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.7.7/npp.8.7.7.portable.arm64.zip",
       "hash": "570e103cf3b66e5a6d6892ea34bcc18378ce3661d4927539e0ba79ad1ea56b7d"
     }
   },
@@ -71,13 +71,13 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v$version/npp.$version.portable.x64.zip"
+        "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v$version/npp.$version.portable.x64.zip"
       },
       "32bit": {
-        "url": "https://ghgo.xyz/https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v$version/npp.$version.portable.zip"
+        "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v$version/npp.$version.portable.zip"
       },
       "arm64": {
-        "url": "https://ghgo.xyz/https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v$version/npp.$version.portable.arm64.zip"
+        "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v$version/npp.$version.portable.arm64.zip"
       }
     },
     "hash": {

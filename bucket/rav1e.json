@@ -5,7 +5,7 @@
   "license": "BSD-2-Clause",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/xiph/rav1e/releases/download/v0.7.1/rav1e.exe",
+      "url": "https://github.com/xiph/rav1e/releases/download/v0.7.1/rav1e.exe",
       "hash": "e6ae1399ad55cde50f6b5cb4d842985fb7c312f9c52f6b845ed501894dcbf868"
     }
   },
@@ -17,7 +17,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/xiph/rav1e/releases/download/v$version/rav1e.exe"
+        "url": "https://github.com/xiph/rav1e/releases/download/v$version/rav1e.exe"
       }
     }
   }

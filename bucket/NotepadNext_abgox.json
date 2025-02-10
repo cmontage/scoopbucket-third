@@ -6,7 +6,7 @@
     "identifier": "GNU General Public License v3.0",
     "url": "https://github.com/dail8859/NotepadNext/blob/master/LICENSE"
   },
-  "url": "https://ghgo.xyz/https://github.com/dail8859/NotepadNext/releases/download/v0.10/NotepadNext-v0.10-win64.zip",
+  "url": "https://github.com/dail8859/NotepadNext/releases/download/v0.10/NotepadNext-v0.10-win64.zip",
   "hash": "4485e1303367afe9082eda8e2580ff78d48f971ca8cd9bddc783b68b5056275b",
   "shortcuts": [
     [
@@ -29,6 +29,6 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/dail8859/NotepadNext/releases/download/v$version/NotepadNext-v$version-win64.zip"
+    "url": "https://github.com/dail8859/NotepadNext/releases/download/v$version/NotepadNext-v$version-win64.zip"
   }
 }

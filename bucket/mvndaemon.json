@@ -14,7 +14,7 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/apache/maven-mvnd/releases/download/2.0.0-rc-1/maven-mvnd-2.0.0-rc-1-windows-amd64.zip",
+      "url": "https://github.com/apache/maven-mvnd/releases/download/2.0.0-rc-1/maven-mvnd-2.0.0-rc-1-windows-amd64.zip",
       "hash": "f68fa06d57909b7812abeb322747220e8982d95d83544fa653eb86034f324820",
       "extract_dir": "maven-mvnd-2.0.0-rc-1-windows-amd64"
     }
@@ -28,7 +28,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/apache/maven-mvnd/releases/download/$matchGap/maven-mvnd-$matchVersion-windows-amd64.zip",
+        "url": "https://github.com/apache/maven-mvnd/releases/download/$matchGap/maven-mvnd-$matchVersion-windows-amd64.zip",
         "hash": {
           "url": "$url.sha256"
         },

@@ -2,7 +2,7 @@
   "homepage": "https://tablacus.github.io/explorer_en.html",
   "license": "MIT",
   "version": "25.1.16",
-  "url": "https://ghgo.xyz/https://github.com/tablacus/TablacusExplorer/releases/download/25.1.16/te250116.zip",
+  "url": "https://github.com/tablacus/TablacusExplorer/releases/download/25.1.16/te250116.zip",
   "hash": "126035fbf2320b5dbc3ef81f29832e4db25e37844093ab79094bffeb8943008d",
   "architecture": {
     "64bit": {
@@ -33,6 +33,6 @@
     "regex": "Version <span id=\"ver\">([\\d.]+)</span>[\\w\\W]*?te(?<cleanpadding>\\d+)\\.zip"
   },
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/tablacus/TablacusExplorer/releases/download/$version/te$matchCleanpadding.zip"
+    "url": "https://github.com/tablacus/TablacusExplorer/releases/download/$version/te$matchCleanpadding.zip"
   }
 }

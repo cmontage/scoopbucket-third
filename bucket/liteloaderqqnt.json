@@ -7,8 +7,8 @@
   "architecture": {
     "64bit": {
       "url": [
-        "https://ghgo.xyz/https://github.com/LiteLoaderQQNT/LiteLoaderQQNT/releases/download/1.2.3/LiteLoaderQQNT.zip",
-        "https://ghgo.xyz/https://github.com/LiteLoaderQQNT/QQNTFileVerifyPatch/releases/download/DllHijack_1.1.2/dbghelp_x64.dll"
+        "https://github.com/LiteLoaderQQNT/LiteLoaderQQNT/releases/download/1.2.3/LiteLoaderQQNT.zip",
+        "https://github.com/LiteLoaderQQNT/QQNTFileVerifyPatch/releases/download/DllHijack_1.1.2/dbghelp_x64.dll"
       ],
       "hash": [
         "c7223a709b9514c1dbfd11e891af7d1a2076e53f888d431490975f170f0f8819",
@@ -17,8 +17,8 @@
     },
     "32bit": {
       "url": [
-        "https://ghgo.xyz/https://github.com/LiteLoaderQQNT/LiteLoaderQQNT/releases/download/1.2.3/LiteLoaderQQNT.zip",
-        "https://ghgo.xyz/https://github.com/LiteLoaderQQNT/QQNTFileVerifyPatch/releases/download/DllHijack_1.1.2/dbghelp_x86.dll"
+        "https://github.com/LiteLoaderQQNT/LiteLoaderQQNT/releases/download/1.2.3/LiteLoaderQQNT.zip",
+        "https://github.com/LiteLoaderQQNT/QQNTFileVerifyPatch/releases/download/DllHijack_1.1.2/dbghelp_x86.dll"
       ],
       "hash": [
         "c7223a709b9514c1dbfd11e891af7d1a2076e53f888d431490975f170f0f8819",
@@ -30,14 +30,14 @@
     "architecture": {
       "64bit": {
         "url": [
-          "https://ghgo.xyz/https://github.com/LiteLoaderQQNT/LiteLoaderQQNT/releases/download/$version/LiteLoaderQQNT.zip",
-          "https://ghgo.xyz/https://github.com/LiteLoaderQQNT/QQNTFileVerifyPatch/releases/download/latest/dbghelp_x64.dll"
+          "https://github.com/LiteLoaderQQNT/LiteLoaderQQNT/releases/download/$version/LiteLoaderQQNT.zip",
+          "https://github.com/LiteLoaderQQNT/QQNTFileVerifyPatch/releases/download/latest/dbghelp_x64.dll"
         ]
       },
       "32bit": {
         "url": [
-          "https://ghgo.xyz/https://github.com/LiteLoaderQQNT/LiteLoaderQQNT/releases/download/$version/LiteLoaderQQNT.zip",
-          "https://ghgo.xyz/https://github.com/LiteLoaderQQNT/QQNTFileVerifyPatch/releases/download/latest/dbghelp_x86.dll"
+          "https://github.com/LiteLoaderQQNT/LiteLoaderQQNT/releases/download/$version/LiteLoaderQQNT.zip",
+          "https://github.com/LiteLoaderQQNT/QQNTFileVerifyPatch/releases/download/latest/dbghelp_x86.dll"
         ]
       }
     }

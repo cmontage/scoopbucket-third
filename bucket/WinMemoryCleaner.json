@@ -3,7 +3,7 @@
   "description": "A free RAM cleaner uses native Windows features to optimize memory areas.",
   "license": "GPL-3.0-or-later",
   "version": "2.8",
-  "url": "https://ghgo.xyz/https://github.com/IgorMundstein/WinMemoryCleaner/releases/download/2.8/WinMemoryCleaner.zip",
+  "url": "https://github.com/IgorMundstein/WinMemoryCleaner/releases/download/2.8/WinMemoryCleaner.zip",
   "hash": "",
   "bin": "WinMemoryCleaner.exe",
   "shortcuts": [
@@ -14,6 +14,6 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/IgorMundstein/WinMemoryCleaner/releases/download/$version/WinMemoryCleaner.zip"
+    "url": "https://github.com/IgorMundstein/WinMemoryCleaner/releases/download/$version/WinMemoryCleaner.zip"
   }
 }

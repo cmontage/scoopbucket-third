@@ -8,7 +8,7 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/xenia-canary/xenia-canary/releases/download/a4412ad/xenia_canary.zip",
+      "url": "https://github.com/xenia-canary/xenia-canary/releases/download/a4412ad/xenia_canary.zip",
       "hash": "d78aaf63eb2dd3520b81e218b30d1653ddd43f53978aa01644905bec7977774d"
     }
   },
@@ -51,7 +51,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/xenia-canary/xenia-canary/releases/download/$matchCommit/xenia_canary.zip"
+        "url": "https://github.com/xenia-canary/xenia-canary/releases/download/$matchCommit/xenia_canary.zip"
       }
     }
   }

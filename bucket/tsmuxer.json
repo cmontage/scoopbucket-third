@@ -8,11 +8,11 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/justdan96/tsMuxer/releases/download/nightly-2024-06-06-02-00-53/w64.zip",
+      "url": "https://github.com/justdan96/tsMuxer/releases/download/nightly-2024-06-06-02-00-53/w64.zip",
       "hash": "6080376c57c54a39d9a8dc700e878929a33b33a685037d6bf3f01e406000d4bb"
     },
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/justdan96/tsMuxer/releases/download/nightly-2024-06-06-02-00-53/w32.zip",
+      "url": "https://github.com/justdan96/tsMuxer/releases/download/nightly-2024-06-06-02-00-53/w32.zip",
       "hash": "3fedb57f2821916f2eaf647b3825243f8ff4cc5530675d011ceec6fa3539afbb"
     }
   },
@@ -31,10 +31,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/justdan96/tsMuxer/releases/download/nightly-$matchDate-$matchTime/w64.zip"
+        "url": "https://github.com/justdan96/tsMuxer/releases/download/nightly-$matchDate-$matchTime/w64.zip"
       },
       "32bit": {
-        "url": "https://ghgo.xyz/https://github.com/justdan96/tsMuxer/releases/download/nightly-$matchDate-$matchTime/w32.zip"
+        "url": "https://github.com/justdan96/tsMuxer/releases/download/nightly-$matchDate-$matchTime/w32.zip"
       }
     }
   }

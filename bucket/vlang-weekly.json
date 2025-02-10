@@ -3,7 +3,7 @@
   "description": "Simple, fast, safe, compiled. For developing maintainable software",
   "homepage": "https://vlang.io/",
   "license": "MIT",
-  "url": "https://ghgo.xyz/https://github.com/vlang/v/releases/download/weekly.2025.06/v_windows.zip",
+  "url": "https://github.com/vlang/v/releases/download/weekly.2025.06/v_windows.zip",
   "hash": "09cc54c7c49ce7509cde47e277cf761ce27ee8cb114a6fb2dd30d652aff1396a",
   "extract_dir": "v",
   "bin": "v.exe",
@@ -12,6 +12,6 @@
     "regex": "/releases/tag/weekly\\.([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/vlang/v/releases/download/weekly.$version/v_windows.zip"
+    "url": "https://github.com/vlang/v/releases/download/weekly.$version/v_windows.zip"
   }
 }

@@ -5,11 +5,11 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/ggerganov/llama.cpp/releases/download/b4667/llama-b4667-bin-win-noavx-x64.zip",
+      "url": "https://github.com/ggerganov/llama.cpp/releases/download/b4667/llama-b4667-bin-win-noavx-x64.zip",
       "hash": "57bbbe753a975fbe22b9b056eaa2e1feef6a8e70ebe2a3677d1600546615e2a9"
     },
     "arm64": {
-      "url": "https://ghgo.xyz/https://github.com/ggerganov/llama.cpp/releases/download/b4667/llama-b4667-bin-win-msvc-arm64.zip",
+      "url": "https://github.com/ggerganov/llama.cpp/releases/download/b4667/llama-b4667-bin-win-msvc-arm64.zip",
       "hash": "18e521232d9d023eee8fa668099aedc405b95d86c59c2001635dd33c0235e85f"
     }
   },
@@ -21,10 +21,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/ggerganov/llama.cpp/releases/download/$version/llama-$version-bin-win-noavx-x64.zip"
+        "url": "https://github.com/ggerganov/llama.cpp/releases/download/$version/llama-$version-bin-win-noavx-x64.zip"
       },
       "arm64": {
-        "url": "https://ghgo.xyz/https://github.com/ggerganov/llama.cpp/releases/download/$version/llama-$version-bin-win-msvc-arm64.zip"
+        "url": "https://github.com/ggerganov/llama.cpp/releases/download/$version/llama-$version-bin-win-msvc-arm64.zip"
       }
     }
   }

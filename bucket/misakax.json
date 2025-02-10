@@ -3,7 +3,7 @@
   "description": "iOS系统修改工具",
   "homepage": "https://github.com/straight-tamago/misakaX",
   "license": "MIT",
-  "url": "https://ghgo.xyz/https://github.com/straight-tamago/misakaX/releases/download/2.2/misakaX-2.2-windows-edition.zip",
+  "url": "https://github.com/straight-tamago/misakaX/releases/download/2.2/misakaX-2.2-windows-edition.zip",
   "hash": "35ce50d16718caf747a38faa9643b57aadf62c0d5dbd69cab304c378b4cc7291",
   "shortcuts": [
     [
@@ -13,6 +13,6 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/straight-tamago/misakaX/releases/download/$version/misakaX-$version-windows-edition.zip"
+    "url": "https://github.com/straight-tamago/misakaX/releases/download/$version/misakaX-$version-windows-edition.zip"
   }
 }

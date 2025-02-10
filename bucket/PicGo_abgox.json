@@ -6,7 +6,7 @@
     "identifier": "MIT",
     "url": "https://github.com/Molunerfinn/PicGo/blob/dev/LICENSE"
   },
-  "url": "https://ghgo.xyz/https://github.com/Molunerfinn/PicGo/releases/download/v2.3.1/PicGo-Setup-2.3.1.exe#/abgo_bucket_installer.exe",
+  "url": "https://github.com/Molunerfinn/PicGo/releases/download/v2.3.1/PicGo-Setup-2.3.1.exe#/abgo_bucket_installer.exe",
   "hash": "sha512:1c30451afbff7f62e02f2f328edeee72cfa5837f04e2e2d44fe0110b3e87d10bc30c0ff64ac9ddffb09fbf9e20200eb6ecad6c138411615bc69c2181718864c4",
   "shortcuts": [
     [
@@ -39,7 +39,7 @@
     "github": "https://github.com/Molunerfinn/PicGo"
   },
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/Molunerfinn/PicGo/releases/download/v$version/PicGo-Setup-$version.exe#/abgo_bucket_installer.exe",
+    "url": "https://github.com/Molunerfinn/PicGo/releases/download/v$version/PicGo-Setup-$version.exe#/abgo_bucket_installer.exe",
     "hash": {
       "url": "$baseurl/latest.yml",
       "regex": "sha512: $base64"

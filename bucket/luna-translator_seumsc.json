@@ -5,7 +5,7 @@
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/HIllya51/LunaTranslator/releases/download/v7.8.3/LunaTranslator.zip",
+      "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v7.8.3/LunaTranslator.zip",
       "hash": "d5604648f098d67f67d3303fe1662bc8a17d489ef36b06af19952209d477e80e",
       "pre_install": [
         "Move-Item \"$dir\\LunaTranslator\" \"$dir\\.tmp\"",
@@ -14,7 +14,7 @@
       ]
     },
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/HIllya51/LunaTranslator/releases/download/v7.8.3/LunaTranslator_x86.zip",
+      "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v7.8.3/LunaTranslator_x86.zip",
       "extract_dir": "LunaTranslator_x86",
       "hash": "09df870919b71226889a94e06969846170e3b69edef438386e5ff290935e7f76"
     }
@@ -34,10 +34,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/HIllya51/LunaTranslator/releases/download/v$version/LunaTranslator.zip"
+        "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v$version/LunaTranslator.zip"
       },
       "32bit": {
-        "url": "https://ghgo.xyz/https://github.com/HIllya51/LunaTranslator/releases/download/v$version/LunaTranslator_x86.zip"
+        "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v$version/LunaTranslator_x86.zip"
       }
     }
   }

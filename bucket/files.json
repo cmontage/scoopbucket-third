@@ -26,7 +26,7 @@
     "script": "Get-AppxPackage -Name Files | Remove-AppxPackage -Confirm:$false -PreserveApplicationData:$false"
   },
   "checkver": {
-    "url": "https://ghgo.xyz/https://raw.githubusercontent.com/files-community/Files/main/src/Files.App%20(Package)/Package.appxmanifest",
+    "url": "https://raw.githubusercontent.com/files-community/Files/main/src/Files.App%20(Package)/Package.appxmanifest",
     "regex": "Version=\"([\\d.]+)\""
   },
   "autoupdate": {

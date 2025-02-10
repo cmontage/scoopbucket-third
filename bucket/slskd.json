@@ -5,7 +5,7 @@
   "license": "AGPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/slskd/slskd/releases/download/0.22.2/slskd-0.22.2-win-x64.zip",
+      "url": "https://github.com/slskd/slskd/releases/download/0.22.2/slskd-0.22.2-win-x64.zip",
       "hash": "c8ff9974d1e4bc735ecdea67928fafad1b1e719ede4eff873fb07734113241a8"
     }
   },
@@ -15,7 +15,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/slskd/slskd/releases/download/$version/slskd-$version-win-x64.zip"
+        "url": "https://github.com/slskd/slskd/releases/download/$version/slskd-$version-win-x64.zip"
       }
     }
   }

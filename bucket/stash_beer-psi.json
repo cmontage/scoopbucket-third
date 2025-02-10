@@ -9,14 +9,14 @@
       "ffmpeg-nightly"
     ]
   },
-  "url": "https://ghgo.xyz/https://github.com/stashapp/stash/releases/download/v0.27.2/stash-win.exe",
+  "url": "https://github.com/stashapp/stash/releases/download/v0.27.2/stash-win.exe",
   "hash": "sha1:2ed03b05405a0ba898985742b2d17c04f710ba1c",
   "bin": "stash-win.exe",
   "checkver": {
     "github": "https://github.com/stashapp/stash"
   },
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/stashapp/stash/releases/download/v$version/stash-win.exe",
+    "url": "https://github.com/stashapp/stash/releases/download/v$version/stash-win.exe",
     "hash": {
       "url": "$baseurl/CHECKSUMS_SHA1"
     }

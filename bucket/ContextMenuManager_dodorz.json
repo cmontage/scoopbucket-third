@@ -3,7 +3,7 @@
   "description": "A program to manage the Windows right-click context menu.",
   "license": "GPL-3.0-or-later",
   "homepage": "https://bluepointlilac.github.io/ContextMenuManager",
-  "url": "https://ghgo.xyz/https://github.com/BluePointLilac/ContextMenuManager/releases/download/3.3.3.1/ContextMenuManager.zip",
+  "url": "https://github.com/BluePointLilac/ContextMenuManager/releases/download/3.3.3.1/ContextMenuManager.zip",
   "hash": "3faecb2ae6c9d025df54bdc72d4b0f850a4931dd41235f7f46b291824d3b5dbe",
   "installer": {
     "script": [
@@ -22,6 +22,6 @@
     "github": "https://github.com/BluePointLilac/ContextMenuManager"
   },
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/BluePointLilac/ContextMenuManager/releases/download/$version/ContextMenuManager.zip"
+    "url": "https://github.com/BluePointLilac/ContextMenuManager/releases/download/$version/ContextMenuManager.zip"
   }
 }

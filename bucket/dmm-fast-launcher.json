@@ -8,7 +8,7 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/fa0311/DMMGamePlayerFastLauncher/releases/download/v5.9.0/DMMGamePlayerFastLauncher.zip",
+      "url": "https://github.com/fa0311/DMMGamePlayerFastLauncher/releases/download/v5.9.0/DMMGamePlayerFastLauncher.zip",
       "hash": "b72110a184e0f09fd443d4ead126ee809ccd44cd67627e0f8c394a07076d2559"
     }
   },
@@ -16,7 +16,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/fa0311/DMMGamePlayerFastLauncher/releases/download/v$version/DMMGamePlayerFastLauncher.zip"
+        "url": "https://github.com/fa0311/DMMGamePlayerFastLauncher/releases/download/v$version/DMMGamePlayerFastLauncher.zip"
       }
     }
   },

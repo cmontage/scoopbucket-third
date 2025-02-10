@@ -2,14 +2,14 @@
   "version": "0.15.2",
   "architecture": {
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/charmbracelet/gum/releases/download/v0.15.2/gum_0.15.2_Windows_i386.zip",
+      "url": "https://github.com/charmbracelet/gum/releases/download/v0.15.2/gum_0.15.2_Windows_i386.zip",
       "bin": [
         "gum_0.15.2_Windows_i386/gum.exe"
       ],
       "hash": "4c17109975c122b85fed6c70e08609c645d75e29dbda7da2ef5663c72193f545"
     },
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/charmbracelet/gum/releases/download/v0.15.2/gum_0.15.2_Windows_x86_64.zip",
+      "url": "https://github.com/charmbracelet/gum/releases/download/v0.15.2/gum_0.15.2_Windows_x86_64.zip",
       "bin": [
         "gum_0.15.2_Windows_x86_64/gum.exe"
       ],

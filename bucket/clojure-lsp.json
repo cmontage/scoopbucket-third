@@ -6,7 +6,7 @@
   "depends": "extras/vcredist2022",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/clojure-lsp/clojure-lsp/releases/download/2025.02.07-16.11.24/clojure-lsp-native-windows-amd64.zip",
+      "url": "https://github.com/clojure-lsp/clojure-lsp/releases/download/2025.02.07-16.11.24/clojure-lsp-native-windows-amd64.zip",
       "hash": "07b5bbeb0df0cf14b9274e4f40f2019534bd5a0ca12a37f5d1a6d7e6414caa41"
     }
   },
@@ -19,7 +19,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/clojure-lsp/clojure-lsp/releases/download/$version/clojure-lsp-native-windows-amd64.zip"
+        "url": "https://github.com/clojure-lsp/clojure-lsp/releases/download/$version/clojure-lsp-native-windows-amd64.zip"
       }
     }
   }

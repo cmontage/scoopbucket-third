@@ -12,7 +12,7 @@
       "java/openjdk"
     ]
   },
-  "url": "https://ghgo.xyz/https://github.com/pen4uin/java-echo-generator/releases/download/v1.0.0/jEG-gui-1.0.0.jar",
+  "url": "https://github.com/pen4uin/java-echo-generator/releases/download/v1.0.0/jEG-gui-1.0.0.jar",
   "hash": "7a64c9f1c986361df7c2fd75b74654ab624bfe7cd8b2ade0bc4526124404e65d",
   "pre_install": [
     "Rename-Item \"$dir\\jEG-gui-$version.jar\" 'jEG-gui.jar'",
@@ -32,6 +32,6 @@
   ],
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/pen4uin/java-echo-generator/releases/download/v$version/jEG-gui-$version.jar"
+    "url": "https://github.com/pen4uin/java-echo-generator/releases/download/v$version/jEG-gui-$version.jar"
   }
 }

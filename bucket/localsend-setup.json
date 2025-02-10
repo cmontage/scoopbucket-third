@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/localsend/localsend/releases/download/v1.16.1/LocalSend-1.16.1-windows-x86-64.exe",
+      "url": "https://github.com/localsend/localsend/releases/download/v1.16.1/LocalSend-1.16.1-windows-x86-64.exe",
       "hash": "7c31cc7f1079644991e7d7982a36c6dc368f4005b16b3d98a0f02720b44ea1f0"
     }
   },
@@ -22,7 +22,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/localsend/localsend/releases/download/v$version/LocalSend-$version-windows-x86-64.exe"
+        "url": "https://github.com/localsend/localsend/releases/download/v$version/LocalSend-$version-windows-x86-64.exe"
       }
     }
   }

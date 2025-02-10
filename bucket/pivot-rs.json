@@ -5,10 +5,10 @@
   "homepage": "https://github.com/X1r0z/pivot-rs",
   "checkver": "github",
   "url": [
-    "https://ghgo.xyz/https://github.com/X1r0z/pivot-rs/releases/download/v0.2.0/pivot-aarch64-apple-darwin.tar.gz",
-    "https://ghgo.xyz/https://github.com/X1r0z/pivot-rs/releases/download/v0.2.0/pivot-x86_64-apple-darwin.tar.gz",
-    "https://ghgo.xyz/https://github.com/X1r0z/pivot-rs/releases/download/v0.2.0/pivot-x86_64-pc-windows-msvc.zip",
-    "https://ghgo.xyz/https://github.com/X1r0z/pivot-rs/releases/download/v0.2.0/pivot-x86_64-unknown-linux-gnu.tar.gz"
+    "https://github.com/X1r0z/pivot-rs/releases/download/v0.2.0/pivot-aarch64-apple-darwin.tar.gz",
+    "https://github.com/X1r0z/pivot-rs/releases/download/v0.2.0/pivot-x86_64-apple-darwin.tar.gz",
+    "https://github.com/X1r0z/pivot-rs/releases/download/v0.2.0/pivot-x86_64-pc-windows-msvc.zip",
+    "https://github.com/X1r0z/pivot-rs/releases/download/v0.2.0/pivot-x86_64-unknown-linux-gnu.tar.gz"
   ],
   "extract_dir": [
     "artifacts",
@@ -30,10 +30,10 @@
   ],
   "autoupdate": {
     "url": [
-      "https://ghgo.xyz/https://github.com/X1r0z/pivot-rs/releases/download/v$version/pivot-aarch64-apple-darwin.tar.gz",
-      "https://ghgo.xyz/https://github.com/X1r0z/pivot-rs/releases/download/v$version/pivot-x86_64-apple-darwin.tar.gz",
-      "https://ghgo.xyz/https://github.com/X1r0z/pivot-rs/releases/download/v$version/pivot-x86_64-pc-windows-msvc.zip",
-      "https://ghgo.xyz/https://github.com/X1r0z/pivot-rs/releases/download/v$version/pivot-x86_64-unknown-linux-gnu.tar.gz"
+      "https://github.com/X1r0z/pivot-rs/releases/download/v$version/pivot-aarch64-apple-darwin.tar.gz",
+      "https://github.com/X1r0z/pivot-rs/releases/download/v$version/pivot-x86_64-apple-darwin.tar.gz",
+      "https://github.com/X1r0z/pivot-rs/releases/download/v$version/pivot-x86_64-pc-windows-msvc.zip",
+      "https://github.com/X1r0z/pivot-rs/releases/download/v$version/pivot-x86_64-unknown-linux-gnu.tar.gz"
     ]
   },
   "bin": "x86_64-windows-msvc/pivot.exe"

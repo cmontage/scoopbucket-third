@@ -5,7 +5,7 @@
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/matzman666/OpenVR-InputEmulator/releases/download/v1.3/OpenVR-InputEmulator-v1.3.exe#/dl.7z",
+      "url": "https://github.com/matzman666/OpenVR-InputEmulator/releases/download/v1.3/OpenVR-InputEmulator-v1.3.exe#/dl.7z",
       "hash": "e0988649f32a82cdbc27aa673bf10174abf4d4b059addb254308143c32c4dfc5"
     }
   },
@@ -19,7 +19,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/matzman666/OpenVR-InputEmulator/releases/download/v$version/OpenVR-InputEmulator-v$version.exe#/dl.7z"
+        "url": "https://github.com/matzman666/OpenVR-InputEmulator/releases/download/v$version/OpenVR-InputEmulator-v$version.exe#/dl.7z"
       }
     }
   }

@@ -10,7 +10,7 @@
   "hash": "c6c6fc3a965a8e4bc0943ee4586cce86789913ddd25e808bfb61426776253863",
   "post_install": "reg.exe ADD HKCU\\Software\\Sysinternals /v EulaAccepted /t REG_DWORD /d 1 /f | Out-Null",
   "checkver": {
-    "url": "https://ghgo.xyz/https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/sysinternals-suite.md",
+    "url": "https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/sysinternals-suite.md",
     "regex": "ms\\.date: (\\d+)/(\\d+)/(\\d+)",
     "replace": "${3}.${1}.${2}"
   },

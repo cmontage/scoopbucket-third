@@ -5,7 +5,7 @@
   "license": "GPL-3.0-or-later",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/Xmarmalade/alisthelper/releases/download/v0.2.0/AlistHelper_v0.2.0_windows-x86_64.zip",
+      "url": "https://github.com/Xmarmalade/alisthelper/releases/download/v0.2.0/AlistHelper_v0.2.0_windows-x86_64.zip",
       "hash": "84270d6dc82a61d45ec701f8a53354d8a23644797cea1da51a1a8def824d6440"
     }
   },
@@ -19,7 +19,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/Xmarmalade/alisthelper/releases/download/v$version/AlistHelper_v$version_windows-x86_64.zip"
+        "url": "https://github.com/Xmarmalade/alisthelper/releases/download/v$version/AlistHelper_v$version_windows-x86_64.zip"
       }
     }
   }

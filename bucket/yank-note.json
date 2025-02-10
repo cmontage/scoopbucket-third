@@ -5,7 +5,7 @@
   "license": "AGPL-3.0",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/purocean/yn/releases/download/v3.81.3/Yank-Note-win-x64-3.81.3.zip",
+      "url": "https://github.com/purocean/yn/releases/download/v3.81.3/Yank-Note-win-x64-3.81.3.zip",
       "hash": "1d46917405469b423cc1d4637b2348b439ccf68290c0de2d1c72be0a08a1d666"
     }
   },
@@ -29,7 +29,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/purocean/yn/releases/download/v$version/Yank-Note-win-x64-$version.zip"
+        "url": "https://github.com/purocean/yn/releases/download/v$version/Yank-Note-win-x64-$version.zip"
       }
     }
   }

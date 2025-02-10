@@ -5,11 +5,11 @@
   "license": "AGPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/troyeguo/koodo-reader/releases/download/v1.7.8/Koodo-Reader-1.7.8-x64-Win.zip",
+      "url": "https://github.com/troyeguo/koodo-reader/releases/download/v1.7.8/Koodo-Reader-1.7.8-x64-Win.zip",
       "hash": "512ec2346d909e50bd431a407e010a58011731ba8cb6a5ecc51c52f560d82ec3"
     },
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/troyeguo/koodo-reader/releases/download/v1.7.8/Koodo-Reader-1.7.8-ia32-Win.zip",
+      "url": "https://github.com/troyeguo/koodo-reader/releases/download/v1.7.8/Koodo-Reader-1.7.8-ia32-Win.zip",
       "hash": "03afcb8cd57fa120c4a8f6f264af47a853cf333c1e0f68c0c4837ba4ba917164"
     }
   },
@@ -23,10 +23,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/troyeguo/koodo-reader/releases/download/v$version/Koodo-Reader-$version-x64-Win.zip"
+        "url": "https://github.com/troyeguo/koodo-reader/releases/download/v$version/Koodo-Reader-$version-x64-Win.zip"
       },
       "32bit": {
-        "url": "https://ghgo.xyz/https://github.com/troyeguo/koodo-reader/releases/download/v$version/Koodo-Reader-$version-ia32-Win.zip"
+        "url": "https://github.com/troyeguo/koodo-reader/releases/download/v$version/Koodo-Reader-$version-ia32-Win.zip"
       }
     }
   }

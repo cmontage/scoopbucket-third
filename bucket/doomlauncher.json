@@ -5,7 +5,7 @@
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/nstlaurent/DoomLauncher/releases/download/3.7.6/DoomLauncher_3.7.6.0.zip",
+      "url": "https://github.com/nstlaurent/DoomLauncher/releases/download/3.7.6/DoomLauncher_3.7.6.0.zip",
       "hash": "af6e56b171c611e6dc321aee7275278642fb3b5aca73bd9f7d5197a2511982a6"
     }
   },
@@ -34,7 +34,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/nstlaurent/DoomLauncher/releases/download/$matchTag/DoomLauncher_$version.zip"
+        "url": "https://github.com/nstlaurent/DoomLauncher/releases/download/$matchTag/DoomLauncher_$version.zip"
       }
     }
   }

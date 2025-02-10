@@ -6,7 +6,7 @@
   "hash": " ",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/ryanoasis/nerd-fonts/releases/download/v$version/Bold.zip"
+    "url": "https://github.com/ryanoasis/nerd-fonts/releases/download/v$version/Bold.zip"
   },
   "installer": {
     "script": [

@@ -6,11 +6,11 @@
   "notes": "Scoop bucket for Cybersecurity by whoopscs(https://github.com/whoopscs/scoop-security).",
   "architecture": {
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/chainreactors/gogo/releases/download/v2.13.6/gogo_windows_386.exe",
+      "url": "https://github.com/chainreactors/gogo/releases/download/v2.13.6/gogo_windows_386.exe",
       "hash": "92d59e737fd448cb7a7fac913e6f4cc1a4db5d197ce1adcfcc82eebf7ca11ba1"
     },
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/chainreactors/gogo/releases/download/v2.13.6/gogo_windows_amd64.exe",
+      "url": "https://github.com/chainreactors/gogo/releases/download/v2.13.6/gogo_windows_amd64.exe",
       "hash": "b712aa9c3de7d889c50b21cf96b5ec91a88c25859a971c2489efc1a1e6edecd8"
     }
   },
@@ -30,10 +30,10 @@
   "autoupdate": {
     "architecture": {
       "32bit": {
-        "url": "https://ghgo.xyz/https://github.com/chainreactors/gogo/releases/download/v$version/gogo_windows_386.exe"
+        "url": "https://github.com/chainreactors/gogo/releases/download/v$version/gogo_windows_386.exe"
       },
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/chainreactors/gogo/releases/download/v$version/gogo_windows_amd64.exe"
+        "url": "https://github.com/chainreactors/gogo/releases/download/v$version/gogo_windows_amd64.exe"
       }
     }
   }

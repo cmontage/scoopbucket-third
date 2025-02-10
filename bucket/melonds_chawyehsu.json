@@ -5,7 +5,7 @@
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/Arisotura/melonDS/releases/download/0.9.5/melonDS_0.9.5_win_x64.zip",
+      "url": "https://github.com/Arisotura/melonDS/releases/download/0.9.5/melonDS_0.9.5_win_x64.zip",
       "hash": "289b1644004d8762987dc1daf3a61eedfafb0a5f442801bfb9d2a18299fd39a9"
     }
   },
@@ -28,7 +28,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/Arisotura/melonDS/releases/download/$version/melonDS_$version_win_x64.zip"
+        "url": "https://github.com/Arisotura/melonDS/releases/download/$version/melonDS_$version_win_x64.zip"
       }
     }
   }

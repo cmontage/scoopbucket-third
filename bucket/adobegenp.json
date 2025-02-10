@@ -7,10 +7,10 @@
     "url": "https://github.com/wangzhenjjcn/AdobeGenp/releases/latest",
     "regex": "/releases/tag/AdobeGenp-(.*?)\""
   },
-  "url": "https://ghgo.xyz/https://github.com/wangzhenjjcn/AdobeGenp/releases/download/AdobeGenp-3.4.2-CGP/AdobeGenp-3.4.2-CGP.exe#/AdobeGenp.exe",
+  "url": "https://github.com/wangzhenjjcn/AdobeGenp/releases/download/AdobeGenp-3.4.2-CGP/AdobeGenp-3.4.2-CGP.exe#/AdobeGenp.exe",
   "hash": "b09ec2ac41cc220b2b2b68b23bf120dcb518850341d8e3e088b50185ef624ed7",
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/wangzhenjjcn/AdobeGenp/releases/download/AdobeGenp-$version/AdobeGenp-$version.exe#/AdobeGenp.exe"
+    "url": "https://github.com/wangzhenjjcn/AdobeGenp/releases/download/AdobeGenp-$version/AdobeGenp-$version.exe#/AdobeGenp.exe"
   },
   "bin": "AdobeGenp.exe",
   "shortcuts": [

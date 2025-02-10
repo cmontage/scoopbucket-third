@@ -7,10 +7,10 @@
     "url": "https://api.github.com/repos/Merricx/qrazybox/commits",
     "jsonpath": "$[0].sha"
   },
-  "url": "https://ghgo.xyz/https://github.com/Merricx/qrazybox/archive/0098124767033eebb2e732e88afab899d66da829.zip",
+  "url": "https://github.com/Merricx/qrazybox/archive/0098124767033eebb2e732e88afab899d66da829.zip",
   "hash": "2a752f5e3fa16a04aab820effb870af17ea30cd238cf4e5190753bedebba3c83",
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/Merricx/qrazybox/archive/$version.zip"
+    "url": "https://github.com/Merricx/qrazybox/archive/$version.zip"
   },
   "pre_install": [
     "Move-Item -Path $dir/qrazybox*/* -Destination $dir -Force",

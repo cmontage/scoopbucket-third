@@ -5,7 +5,7 @@
   "license": "GPL (Emacs) + MIT (build script)",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/kiennq/emacs-build/releases/download/v31.330.20250201.668d096/emacs-668d096-ucrt-x86_64.msix#/dl.7z",
+      "url": "https://github.com/kiennq/emacs-build/releases/download/v31.330.20250201.668d096/emacs-668d096-ucrt-x86_64.msix#/dl.7z",
       "hash": "53d7c4d85d3233fe522277f99255a7fc228e074ab10e72610cb9b3ac940b4cea"
     }
   },
@@ -31,7 +31,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/kiennq/emacs-build/releases/download/v$version/emacs-$matchH1-ucrt-x86_64.msix#/dl.7z"
+        "url": "https://github.com/kiennq/emacs-build/releases/download/v$version/emacs-$matchH1-ucrt-x86_64.msix#/dl.7z"
       }
     }
   }

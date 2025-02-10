@@ -6,7 +6,7 @@
   "notes": "Scoop bucket for Cybersecurity by whoopscs(https://github.com/whoopscs/scoop-security).",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/Leon406/ToolsFx/releases/download/v1.18.0/ToolsFx-1.18.0-withjre-win-x64.zip",
+      "url": "https://github.com/Leon406/ToolsFx/releases/download/v1.18.0/ToolsFx-1.18.0-withjre-win-x64.zip",
       "hash": "13e2b27fb2631104216857478bc60c30657734aa0182a944cca55f1726306528",
       "extract_dir": "ToolsFx-1.18.0-withjre-win-x64",
       "bin": [
@@ -17,7 +17,7 @@
       ]
     },
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/Leon406/ToolsFx/releases/download/v1.18.0/ToolsFx-1.18.0-jdk8-withjre-windows-x86.zip",
+      "url": "https://github.com/Leon406/ToolsFx/releases/download/v1.18.0/ToolsFx-1.18.0-jdk8-withjre-windows-x86.zip",
       "hash": "51dbee92918d501b9aa28abf54f4b6e1a73c7cedff4acc025737bfd27dc87e67",
       "extract_dir": "ToolsFx-1.18.0-jdk8-withjre-windows-x86",
       "bin": [
@@ -32,11 +32,11 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/Leon406/ToolsFx/releases/download/v$version/ToolsFx-$version-withjre-win-x64.zip",
+        "url": "https://github.com/Leon406/ToolsFx/releases/download/v$version/ToolsFx-$version-withjre-win-x64.zip",
         "extract_dir": "ToolsFx-$version-withjre-win-x64"
       },
       "32bit": {
-        "url": "https://ghgo.xyz/https://github.com/Leon406/ToolsFx/releases/download/v$version/ToolsFx-$version-jdk8-withjre-windows-x86.zip",
+        "url": "https://github.com/Leon406/ToolsFx/releases/download/v$version/ToolsFx-$version-jdk8-withjre-windows-x86.zip",
         "extract_dir": "ToolsFx-$version-jdk8-withjre-windows-x86"
       }
     }

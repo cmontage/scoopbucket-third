@@ -6,7 +6,7 @@
   "notes": "",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/bepass-org/warp-plus/releases/download/v1.2.5/warp-plus_windows-amd64.zip",
+      "url": "https://github.com/bepass-org/warp-plus/releases/download/v1.2.5/warp-plus_windows-amd64.zip",
       "hash": "4c940b564cc4d0ea9449731138ae64e1a38d7734b549c90adaa43d53c56a0c79"
     }
   },
@@ -14,7 +14,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/bepass-org/warp-plus/releases/download/v$version/warp-plus_windows-amd64.zip"
+        "url": "https://github.com/bepass-org/warp-plus/releases/download/v$version/warp-plus_windows-amd64.zip"
       }
     }
   },

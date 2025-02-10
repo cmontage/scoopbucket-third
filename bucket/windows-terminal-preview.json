@@ -6,15 +6,15 @@
   "notes": "Add Windows Terminal Preview as a context menu option by running `reg import \"$dir\\install-context.reg\"`",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/microsoft/terminal/releases/download/v1.23.10353.0/Microsoft.WindowsTerminalPreview_1.23.10353.0_x64.zip",
+      "url": "https://github.com/microsoft/terminal/releases/download/v1.23.10353.0/Microsoft.WindowsTerminalPreview_1.23.10353.0_x64.zip",
       "hash": "4135ac85549f56e1ba8d35d5660ac79269eab4a6c60427685b4eb2f3d2c02e7b"
     },
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/microsoft/terminal/releases/download/v1.23.10353.0/Microsoft.WindowsTerminalPreview_1.23.10353.0_x86.zip",
+      "url": "https://github.com/microsoft/terminal/releases/download/v1.23.10353.0/Microsoft.WindowsTerminalPreview_1.23.10353.0_x86.zip",
       "hash": "f48bc0b5a472762fb41c5a571c52a3908cf3eca448e7472055f0448c2668748c"
     },
     "arm64": {
-      "url": "https://ghgo.xyz/https://github.com/microsoft/terminal/releases/download/v1.23.10353.0/Microsoft.WindowsTerminalPreview_1.23.10353.0_arm64.zip",
+      "url": "https://github.com/microsoft/terminal/releases/download/v1.23.10353.0/Microsoft.WindowsTerminalPreview_1.23.10353.0_arm64.zip",
       "hash": "c80a400987a380e625ebfbeb0845a9418b2881900609c481b0ce859dd6858f1a"
     }
   },
@@ -75,13 +75,13 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/microsoft/terminal/releases/download/v$version/Microsoft.WindowsTerminalPreview_$version_x64.zip"
+        "url": "https://github.com/microsoft/terminal/releases/download/v$version/Microsoft.WindowsTerminalPreview_$version_x64.zip"
       },
       "32bit": {
-        "url": "https://ghgo.xyz/https://github.com/microsoft/terminal/releases/download/v$version/Microsoft.WindowsTerminalPreview_$version_x86.zip"
+        "url": "https://github.com/microsoft/terminal/releases/download/v$version/Microsoft.WindowsTerminalPreview_$version_x86.zip"
       },
       "arm64": {
-        "url": "https://ghgo.xyz/https://github.com/microsoft/terminal/releases/download/v$version/Microsoft.WindowsTerminalPreview_$version_arm64.zip"
+        "url": "https://github.com/microsoft/terminal/releases/download/v$version/Microsoft.WindowsTerminalPreview_$version_arm64.zip"
       }
     },
     "hash": {

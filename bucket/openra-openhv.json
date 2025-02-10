@@ -5,11 +5,11 @@
   "license": "GPL-3.0-or-later",
   "architecture": {
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/OpenHV/OpenHV/releases/download/20240908/OpenHV-20240908-x86-winportable.zip",
+      "url": "https://github.com/OpenHV/OpenHV/releases/download/20240908/OpenHV-20240908-x86-winportable.zip",
       "hash": "ddc25806554e4a8da0b178e1910fa1d8e5d3b7e977615d7a69397efea5c4f597"
     },
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/OpenHV/OpenHV/releases/download/20240908/OpenHV-20240908-x64-winportable.zip",
+      "url": "https://github.com/OpenHV/OpenHV/releases/download/20240908/OpenHV-20240908-x64-winportable.zip",
       "hash": "51f6f2b891fa37ed36592c12dbfcec7a45f3688d5cf73499f6b81cd6053988f8"
     }
   },
@@ -27,10 +27,10 @@
   "autoupdate": {
     "architecture": {
       "32bit": {
-        "url": "https://ghgo.xyz/https://github.com/OpenHV/OpenHV/releases/download/$matchPrefix$version/OpenHV-$matchPrefix$version-x86-winportable.zip"
+        "url": "https://github.com/OpenHV/OpenHV/releases/download/$matchPrefix$version/OpenHV-$matchPrefix$version-x86-winportable.zip"
       },
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/OpenHV/OpenHV/releases/download/$matchPrefix$version/OpenHV-$matchPrefix$version-x64-winportable.zip"
+        "url": "https://github.com/OpenHV/OpenHV/releases/download/$matchPrefix$version/OpenHV-$matchPrefix$version-x64-winportable.zip"
       }
     }
   }

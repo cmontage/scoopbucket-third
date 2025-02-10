@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/lgou2w/HoYo.Gacha/releases/download/0.4.4/HoYo.Gacha.0.4.4.exe",
+      "url": "https://github.com/lgou2w/HoYo.Gacha/releases/download/0.4.4/HoYo.Gacha.0.4.4.exe",
       "hash": "358f8a41b73f90ce90a425793252e64244a9e02497b9dac5bb8d3c60f5966222"
     }
   },
@@ -19,7 +19,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/lgou2w/HoYo.Gacha/releases/download/$version/HoYo.Gacha.$version.exe"
+        "url": "https://github.com/lgou2w/HoYo.Gacha/releases/download/$version/HoYo.Gacha.$version.exe"
       }
     },
     "hash": {

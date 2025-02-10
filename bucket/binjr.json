@@ -5,7 +5,7 @@
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/binjr/binjr/releases/download/v3.21.1/binjr-3.21.1_windows-amd64.zip",
+      "url": "https://github.com/binjr/binjr/releases/download/v3.21.1/binjr-3.21.1_windows-amd64.zip",
       "hash": "102b4b3501b98fc0a80adf2c457284be6541941f6b0b44095be53bbdb4f701e0"
     }
   },
@@ -16,7 +16,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/binjr/binjr/releases/download/v$version/binjr-$version_windows-amd64.zip"
+        "url": "https://github.com/binjr/binjr/releases/download/v$version/binjr-$version_windows-amd64.zip"
       }
     }
   }

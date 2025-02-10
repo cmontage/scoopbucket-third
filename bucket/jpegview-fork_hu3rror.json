@@ -3,7 +3,7 @@
   "description": "The semi-official re-release of JPEGView, Fast and highly configurable image viewer/editor with a minimal GUI.",
   "homepage": "https://github.com/sylikc/jpegview",
   "license": "GPL-2.0-only",
-  "url": "https://ghgo.xyz/https://github.com/sylikc/jpegview/releases/download/v1.3.46/JPEGView_1.3.46.7z",
+  "url": "https://github.com/sylikc/jpegview/releases/download/v1.3.46/JPEGView_1.3.46.7z",
   "hash": "f8bea0cec1f3430b4eb37f2dfe3190324bf6e353b5bd65ec5a34b40b4a9a43a9",
   "architecture": {
     "64bit": {
@@ -36,6 +36,6 @@
     "KeyMap.txt"
   ],
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/sylikc/jpegview/releases/download/v$version/JPEGView_$version.7z"
+    "url": "https://github.com/sylikc/jpegview/releases/download/v$version/JPEGView_$version.7z"
   }
 }

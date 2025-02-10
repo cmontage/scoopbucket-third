@@ -5,11 +5,11 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/hufrea/byedpi/releases/download/v0.16.5/byedpi-16.5-x86_64-w64.zip",
+      "url": "https://github.com/hufrea/byedpi/releases/download/v0.16.5/byedpi-16.5-x86_64-w64.zip",
       "hash": "a34185cc98315e39788fd1c45958818c65996bf4c43be1b24a31b36faa08f4ed"
     },
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/hufrea/byedpi/releases/download/v0.16.5/byedpi-16.5-i686-w64.zip",
+      "url": "https://github.com/hufrea/byedpi/releases/download/v0.16.5/byedpi-16.5-i686-w64.zip",
       "hash": "9dda6eaf0c8aa53d6d582b0426f9b3990f35146fbd75148e7fc04a8848bba483"
     }
   },
@@ -18,10 +18,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/hufrea/byedpi/releases/download/v$version/byedpi-$minorVersion.$patchVersion-x86_64-w64.zip"
+        "url": "https://github.com/hufrea/byedpi/releases/download/v$version/byedpi-$minorVersion.$patchVersion-x86_64-w64.zip"
       },
       "32bit": {
-        "url": "https://ghgo.xyz/https://github.com/hufrea/byedpi/releases/download/v$version/byedpi-$minorVersion.$patchVersion-i686-w64.zip"
+        "url": "https://github.com/hufrea/byedpi/releases/download/v$version/byedpi-$minorVersion.$patchVersion-i686-w64.zip"
       }
     }
   }

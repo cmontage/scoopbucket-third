@@ -5,7 +5,7 @@
   "license": "AGPL-3.0",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/janhq/jan/releases/download/v0.5.14/jan-win-x64-0.5.14.exe",
+      "url": "https://github.com/janhq/jan/releases/download/v0.5.14/jan-win-x64-0.5.14.exe",
       "hash": "sha512:1835df67ba530af010f3dd031d9ee81c2752f314105b02bbdca4b7ac557690b3a3a489b47e05ef7c8a30e446f6e7044445012236bad9c097139ce323cee65d07"
     }
   },
@@ -29,9 +29,9 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/janhq/jan/releases/download/v$version/jan-win-x64-$version.exe",
+        "url": "https://github.com/janhq/jan/releases/download/v$version/jan-win-x64-$version.exe",
         "hash": {
-          "url": "https://ghgo.xyz/https://github.com/janhq/jan/releases/download/v$version/latest.yml",
+          "url": "https://github.com/janhq/jan/releases/download/v$version/latest.yml",
           "regex": "sha512: $base64"
         }
       }

@@ -2,14 +2,14 @@
   "version": "0.3.1",
   "architecture": {
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/charmbracelet/sequin/releases/download/v0.3.1/sequin_0.3.1_Windows_i386.zip",
+      "url": "https://github.com/charmbracelet/sequin/releases/download/v0.3.1/sequin_0.3.1_Windows_i386.zip",
       "bin": [
         "sequin_0.3.1_Windows_i386/sequin.exe"
       ],
       "hash": "e5336c56f2cae37f78ee47b47f711c9b4d98a893e645f8fb0c447c356b5792a0"
     },
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/charmbracelet/sequin/releases/download/v0.3.1/sequin_0.3.1_Windows_x86_64.zip",
+      "url": "https://github.com/charmbracelet/sequin/releases/download/v0.3.1/sequin_0.3.1_Windows_x86_64.zip",
       "bin": [
         "sequin_0.3.1_Windows_x86_64/sequin.exe"
       ],

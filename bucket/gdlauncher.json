@@ -3,7 +3,7 @@
   "description": "[Launcher] - GDLauncher is a simple, yet powerful Minecraft custom launcher with a strong focus on the user experience",
   "homepage": "https://gdevs.io/",
   "license": "GPL-3.0-only",
-  "url": "https://ghgo.xyz/https://github.com/gorilla-devs/GDLauncher/releases/download/v1.1.30/GDLauncher-win-portable.zip",
+  "url": "https://github.com/gorilla-devs/GDLauncher/releases/download/v1.1.30/GDLauncher-win-portable.zip",
   "bin": "GDLauncher.exe",
   "shortcuts": [
     [
@@ -15,6 +15,6 @@
     "github": "https://github.com/gorilla-devs/GDLauncher"
   },
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/gorilla-devs/GDLauncher/releases/download/v$version/GDLauncher-win-portable.zip"
+    "url": "https://github.com/gorilla-devs/GDLauncher/releases/download/v$version/GDLauncher-win-portable.zip"
   }
 }

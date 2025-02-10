@@ -2,7 +2,7 @@
   "homepage": "https://github.com/nukeop/nuclear",
   "description": "User freedom-oriented streaming music player - welcoming to new contributors",
   "version": "0.6.30",
-  "url": "https://ghgo.xyz/https://github.com/nukeop/nuclear/releases/download/v0.6.30/nuclear-v0.6.30.exe#/dl.7z",
+  "url": "https://github.com/nukeop/nuclear/releases/download/v0.6.30/nuclear-v0.6.30.exe#/dl.7z",
   "hash": "86fa31bd1206ddf10caf34f5c3d2bea9fb09014052e2d8a28790921def72b6de",
   "installer": {
     "script": [
@@ -15,7 +15,7 @@
     "regex": "tag/v([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/nukeop/nuclear/releases/download/v$version/nuclear-v$version.exe#/dl.7z"
+    "url": "https://github.com/nukeop/nuclear/releases/download/v$version/nuclear-v$version.exe#/dl.7z"
   },
   "shortcuts": [
     [

@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/PhantomGamers/SFP/releases/download/0.0.54/SFP_UI-win10-x64-net7.zip",
+      "url": "https://github.com/PhantomGamers/SFP/releases/download/0.0.54/SFP_UI-win10-x64-net7.zip",
       "hash": "82bc8e64b7aa1701ac37733d768fa1c53a9814f32f27ac0143d45fc43ee060b7"
     }
   },
@@ -38,7 +38,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/PhantomGamers/SFP/releases/download/$version/SFP_UI-win10-x64-net7.zip"
+        "url": "https://github.com/PhantomGamers/SFP/releases/download/$version/SFP_UI-win10-x64-net7.zip"
       }
     }
   }

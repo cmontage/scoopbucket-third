@@ -7,7 +7,7 @@
     "JDK": "java/openjdk"
   },
   "url": [
-    "https://ghgo.xyz/https://github.com/skylot/jadx/releases/download/v1.5.1/jadx-1.5.1.zip",
+    "https://github.com/skylot/jadx/releases/download/v1.5.1/jadx-1.5.1.zip",
     "https://github.com/skylot/jadx/raw/master/jadx-gui/src/main/resources/logos/jadx-logo.ico#/app.ico"
   ],
   "hash": [
@@ -29,7 +29,7 @@
   "checkver": "github",
   "autoupdate": {
     "url": [
-      "https://ghgo.xyz/https://github.com/skylot/jadx/releases/download/v$version/jadx-$version.zip",
+      "https://github.com/skylot/jadx/releases/download/v$version/jadx-$version.zip",
       "https://github.com/skylot/jadx/raw/master/jadx-gui/src/main/resources/logos/jadx-logo.ico#/app.ico"
     ]
   }

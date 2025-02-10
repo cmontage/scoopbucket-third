@@ -7,7 +7,7 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/niuhuan/jasmine/releases/download/v1.7.4/jasmine-v1.7.4-windows-x86_64.zip",
+      "url": "https://github.com/niuhuan/jasmine/releases/download/v1.7.4/jasmine-v1.7.4-windows-x86_64.zip",
       "hash": "8abf8e30751d1aca30a665678307a8f218d2e8aa3c7345481d840e6449d8165e"
     }
   },
@@ -24,7 +24,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/niuhuan/jasmine/releases/download/v$version/jasmine-v$version-windows-x86_64.zip"
+        "url": "https://github.com/niuhuan/jasmine/releases/download/v$version/jasmine-v$version-windows-x86_64.zip"
       }
     }
   }

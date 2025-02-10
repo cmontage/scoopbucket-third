@@ -16,7 +16,7 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/PCSX2/pcsx2/releases/download/v2.3.146/pcsx2-v2.3.146-windows-x64-Qt.7z",
+      "url": "https://github.com/PCSX2/pcsx2/releases/download/v2.3.146/pcsx2-v2.3.146-windows-x64-Qt.7z",
       "hash": "1cd7b40492584a3daef53bfe05a6364ffdc669bc648782638c9e6360015cdb2f"
     }
   },
@@ -69,7 +69,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/PCSX2/pcsx2/releases/download/v$version/pcsx2-v$version-windows-x64-Qt.7z"
+        "url": "https://github.com/PCSX2/pcsx2/releases/download/v$version/pcsx2-v$version-windows-x64-Qt.7z"
       }
     }
   }

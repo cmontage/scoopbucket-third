@@ -6,7 +6,7 @@
     "identifier": "MIT",
     "url": "https://github.com/fzf404/Monit/blob/legacy-webpack/LICENSE"
   },
-  "url": "https://ghgo.xyz/https://github.com/fzf404/Monit/releases/download/v0.8.1/Monit-0.8.1-win-x64.7z",
+  "url": "https://github.com/fzf404/Monit/releases/download/v0.8.1/Monit-0.8.1-win-x64.7z",
   "hash": "848db7b2cfbf5293cdd810ca5a08c1a80688b505f6f25b2287bde81e794589a9",
   "shortcuts": [
     [
@@ -31,6 +31,6 @@
     "github": "https://github.com/fzf404/Monit"
   },
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/fzf404/Monit/releases/download/v$version/Monit-$version-win-x64.7z"
+    "url": "https://github.com/fzf404/Monit/releases/download/v$version/Monit-$version-win-x64.7z"
   }
 }

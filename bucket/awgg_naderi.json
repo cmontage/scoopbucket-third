@@ -9,7 +9,7 @@
   "changelog": "https://github.com/Nenirey/AWGG/blob/master/changelog.txt",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/Nenirey/AWGG/releases/download/builds/AWGG_WIN64.zip",
+      "url": "https://github.com/Nenirey/AWGG/releases/download/builds/AWGG_WIN64.zip",
       "hash": "bada069e1beda320f65d6d19fd20864190b7ae26bf221d7209c076001e658a44"
     }
   },
@@ -33,7 +33,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/Nenirey/AWGG/releases/download/builds/AWGG_WIN64.zip"
+        "url": "https://github.com/Nenirey/AWGG/releases/download/builds/AWGG_WIN64.zip"
       }
     }
   },

@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/HolographicHat/YaeAchievement/releases/download/5.2.2/YaeAchievement.exe",
+      "url": "https://github.com/HolographicHat/YaeAchievement/releases/download/5.2.2/YaeAchievement.exe",
       "hash": "a2e2ecfa79a55635380db5157aa9372ca9dee19d76e79643133ec9b9df492a0a"
     }
   },
@@ -19,7 +19,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/HolographicHat/YaeAchievement/releases/download/$version/YaeAchievement.exe"
+        "url": "https://github.com/HolographicHat/YaeAchievement/releases/download/$version/YaeAchievement.exe"
       }
     }
   },

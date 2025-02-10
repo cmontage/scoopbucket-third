@@ -11,11 +11,11 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/stella-emu/stella/releases/download/6.7.1/Stella-6.7.1-x64.exe",
+      "url": "https://github.com/stella-emu/stella/releases/download/6.7.1/Stella-6.7.1-x64.exe",
       "hash": "3819aeb1ac4f87cd0856809929855415e7bdaaf205c446462593e791833217d9"
     },
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/stella-emu/stella/releases/download/6.7.1/Stella-6.7.1-win32.exe",
+      "url": "https://github.com/stella-emu/stella/releases/download/6.7.1/Stella-6.7.1-win32.exe",
       "hash": "28487026aacd87fb2ea5f1825202b7f21136fe9c08059b4922e6b51df3a1670c"
     }
   },
@@ -31,10 +31,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/stella-emu/stella/releases/download/$version/Stella-$version-x64.exe"
+        "url": "https://github.com/stella-emu/stella/releases/download/$version/Stella-$version-x64.exe"
       },
       "32bit": {
-        "url": "https://ghgo.xyz/https://github.com/stella-emu/stella/releases/download/$version/Stella-$version-win32.exe"
+        "url": "https://github.com/stella-emu/stella/releases/download/$version/Stella-$version-win32.exe"
       }
     }
   },

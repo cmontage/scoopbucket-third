@@ -10,10 +10,10 @@
     ]
   },
   "checkver": "github",
-  "url": "https://ghgo.xyz/https://github.com/NickstaDB/SerializationDumper/releases/download/v1.14/SerializationDumper-v1.14.jar#/SerializationDumper.jar",
+  "url": "https://github.com/NickstaDB/SerializationDumper/releases/download/v1.14/SerializationDumper-v1.14.jar#/SerializationDumper.jar",
   "hash": "14a28514a74909279081f4fceb1402ebc72cf12904316b03edc02c307275d823",
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/NickstaDB/SerializationDumper/releases/download/v$version/SerializationDumper-v$version.jar#/SerializationDumper.jar"
+    "url": "https://github.com/NickstaDB/SerializationDumper/releases/download/v$version/SerializationDumper-v$version.jar#/SerializationDumper.jar"
   },
   "bin": "SerializationDumper.jar"
 }

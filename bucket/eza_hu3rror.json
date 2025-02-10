@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/eza-community/eza/releases/download/v0.20.20/eza.exe_x86_64-pc-windows-gnu.zip",
+      "url": "https://github.com/eza-community/eza/releases/download/v0.20.20/eza.exe_x86_64-pc-windows-gnu.zip",
       "hash": "86987e7614e654c206c550559f0391fd7987a91370ff49c6bd3269da94a2c11a"
     }
   },
@@ -20,7 +20,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/eza-community/eza/releases/download/v$version/eza.exe_x86_64-pc-windows-gnu.zip"
+        "url": "https://github.com/eza-community/eza/releases/download/v$version/eza.exe_x86_64-pc-windows-gnu.zip"
       }
     },
     "hash": {

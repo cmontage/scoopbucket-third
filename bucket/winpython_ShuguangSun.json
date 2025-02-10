@@ -5,7 +5,7 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/winpython/winpython/releases/download/7.0.20230928/Winpython64-3.11.5.0mkl.exe#/dl.7z",
+      "url": "https://github.com/winpython/winpython/releases/download/7.0.20230928/Winpython64-3.11.5.0mkl.exe#/dl.7z",
       "hash": "0b2037660064589dd73a58ac17f44d9e657cfc5fcea92cec9223185243a0a3bc",
       "extract_dir": "WPy64-31150\\python-3.11.5.amd64"
     }
@@ -28,7 +28,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/winpython/winpython/releases/download/$matchGitv/Winpython64-$matchVersionmkl.exe#/dl.7z",
+        "url": "https://github.com/winpython/winpython/releases/download/$matchGitv/Winpython64-$matchVersionmkl.exe#/dl.7z",
         "extract_dir": "WPy64-$cleanVersion\\python-$majorVersion.$minorVersion.$patchVersion.amd64"
       }
     },

@@ -11,10 +11,10 @@
     "python": "python"
   },
   "extract_dir": "ZipCracker-fc2872abbe8aabc8681766cdb3641d3829039198",
-  "url": "https://ghgo.xyz/https://github.com/asaotomo/ZipCracker/archive/fc2872abbe8aabc8681766cdb3641d3829039198.zip",
+  "url": "https://github.com/asaotomo/ZipCracker/archive/fc2872abbe8aabc8681766cdb3641d3829039198.zip",
   "hash": "1ba7474ef54d29600b8b419dfe2d49c72945ab42dadb1ad8778b8dc405f97c46",
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/asaotomo/ZipCracker/archive/$version.zip",
+    "url": "https://github.com/asaotomo/ZipCracker/archive/$version.zip",
     "extract_dir": "ZipCracker-$version"
   },
   "bin": "ZipCracker.py"

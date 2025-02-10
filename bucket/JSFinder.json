@@ -10,11 +10,11 @@
   "suggest": {
     "python": "python"
   },
-  "url": "https://ghgo.xyz/https://github.com/Threezh1/JSFinder/archive/d70ab9bc5221e016c08cffaf0d9ac79646c90645.zip",
+  "url": "https://github.com/Threezh1/JSFinder/archive/d70ab9bc5221e016c08cffaf0d9ac79646c90645.zip",
   "extract_dir": "JSFinder-d70ab9bc5221e016c08cffaf0d9ac79646c90645",
   "hash": "8229b798177993cfabe7175fb26891389f0807d6b856631879302cbeaffd478b",
   "autoupdate": {
-    "url": "https://ghgo.xyz/https://github.com/Threezh1/JSFinder/archive/$version.zip",
+    "url": "https://github.com/Threezh1/JSFinder/archive/$version.zip",
     "extract_dir": "JSFinder-$version"
   },
   "bin": "JSFinder.py"

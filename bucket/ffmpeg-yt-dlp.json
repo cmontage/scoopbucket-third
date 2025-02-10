@@ -8,12 +8,12 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2025-02-08-14-14/ffmpeg-n7.1-191-gac494b8325-win64-gpl-7.1.zip",
+      "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2025-02-08-14-14/ffmpeg-n7.1-191-gac494b8325-win64-gpl-7.1.zip",
       "hash": "186b44e046927bd65f488dcc46fe221f48456a49b33fbadfcb7f2f5cb9eea37d",
       "extract_dir": "ffmpeg-n7.1-191-gac494b8325-win64-gpl-7.1"
     },
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2025-02-08-14-14/ffmpeg-n7.1-191-gac494b8325-win32-gpl-7.1.zip",
+      "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2025-02-08-14-14/ffmpeg-n7.1-191-gac494b8325-win32-gpl-7.1.zip",
       "hash": "a28de3ac57c0f2e9e7e0711132de4f0f24f88488e987d0cc57c7c71792de921b",
       "extract_dir": "ffmpeg-n7.1-191-gac494b8325-win32-gpl-7.1"
     }
@@ -47,11 +47,11 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-$matchBuildtime/$matchFilename64bit.zip",
+        "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-$matchBuildtime/$matchFilename64bit.zip",
         "extract_dir": "$matchFilename64bit"
       },
       "32bit": {
-        "url": "https://ghgo.xyz/https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-$matchBuildtime/$matchFilename32bit.zip",
+        "url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-$matchBuildtime/$matchFilename32bit.zip",
         "extract_dir": "$matchFilename32bit"
       }
     }

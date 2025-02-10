@@ -5,15 +5,15 @@
   "license": "OSL-3.0",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/Milkshiift/GoofCord/releases/download/v1.8.3/GoofCord-1.8.3-win-x64.zip",
+      "url": "https://github.com/Milkshiift/GoofCord/releases/download/v1.8.3/GoofCord-1.8.3-win-x64.zip",
       "hash": "a06f0c15e3a944ad9c05410caf4c2e911830b582c8b75296c96d18a50a802142"
     },
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/Milkshiift/GoofCord/releases/download/v1.8.3/GoofCord-1.8.3-win-ia32.zip",
+      "url": "https://github.com/Milkshiift/GoofCord/releases/download/v1.8.3/GoofCord-1.8.3-win-ia32.zip",
       "hash": "323e290ecf74ecc02b1b03871a5bedd5a6b681fd25e2ac52c26682f4a8a2136f"
     },
     "arm64": {
-      "url": "https://ghgo.xyz/https://github.com/Milkshiift/GoofCord/releases/download/v1.8.3/GoofCord-1.8.3-win-arm64.zip",
+      "url": "https://github.com/Milkshiift/GoofCord/releases/download/v1.8.3/GoofCord-1.8.3-win-arm64.zip",
       "hash": "41e565587ab66171efe0379e14e8bc92e9f5f58e820bc00347ef6f82e059bbd5"
     }
   },
@@ -27,13 +27,13 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/Milkshiift/GoofCord/releases/download/v$version/GoofCord-$version-win-x64.zip"
+        "url": "https://github.com/Milkshiift/GoofCord/releases/download/v$version/GoofCord-$version-win-x64.zip"
       },
       "32bit": {
-        "url": "https://ghgo.xyz/https://github.com/Milkshiift/GoofCord/releases/download/v$version/GoofCord-$version-win-ia32.zip"
+        "url": "https://github.com/Milkshiift/GoofCord/releases/download/v$version/GoofCord-$version-win-ia32.zip"
       },
       "arm64": {
-        "url": "https://ghgo.xyz/https://github.com/Milkshiift/GoofCord/releases/download/v$version/GoofCord-$version-win-arm64.zip"
+        "url": "https://github.com/Milkshiift/GoofCord/releases/download/v$version/GoofCord-$version-win-arm64.zip"
       }
     }
   }

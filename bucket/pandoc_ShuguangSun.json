@@ -5,7 +5,7 @@
   "description": "Universal markup converter.",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/jgm/pandoc/releases/download/3.6.2/pandoc-3.6.2-windows-x86_64.zip",
+      "url": "https://github.com/jgm/pandoc/releases/download/3.6.2/pandoc-3.6.2-windows-x86_64.zip",
       "hash": "84f453b3088fe4f2cc2e905266ea80bfbfcfec0c10855f75baf5fcd1d3285df9",
       "extract_dir": "pandoc-3.6.2"
     }
@@ -17,7 +17,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/jgm/pandoc/releases/download/$version/pandoc-$version-windows-x86_64.zip",
+        "url": "https://github.com/jgm/pandoc/releases/download/$version/pandoc-$version-windows-x86_64.zip",
         "extract_dir": "pandoc-$version"
       }
     }
