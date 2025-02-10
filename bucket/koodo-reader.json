@@ -1,20 +1,16 @@
 {
-  "version": "1.7.7",
-  "homepage": "https://www.koodoreader.com",
-  "description": "All-in-one ebook reader.",
-  "license": "AGPL-3.0",
+  "version": "1.7.8",
+  "description": "A cross-platform ebook reader",
+  "homepage": "https://github.com/troyeguo/koodo-reader",
+  "license": "AGPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://ghgo.xyz/https://github.com/koodo-reader/koodo-reader/releases/download/v1.7.7/Koodo-Reader-1.7.7-x64-Win.zip",
-      "hash": "48e0734ded76d4d83374480872e8f4ef186660f31f9b59ab49e5d5c1dec7dacc"
+      "url": "https://ghgo.xyz/https://github.com/troyeguo/koodo-reader/releases/download/v1.7.8/Koodo-Reader-1.7.8-x64-Win.zip",
+      "hash": "512ec2346d909e50bd431a407e010a58011731ba8cb6a5ecc51c52f560d82ec3"
     },
     "32bit": {
-      "url": "https://ghgo.xyz/https://github.com/koodo-reader/koodo-reader/releases/download/v1.7.7/Koodo-Reader-1.7.7-ia32-Win.zip",
-      "hash": "d9c3ecbacfb09aed59f8c6f3d56386b40dcf1cce44838b2abfeda4d7bbb01d55"
-    },
-    "arm64": {
-      "url": "https://ghgo.xyz/https://github.com/koodo-reader/koodo-reader/releases/download/v1.7.7/Koodo-Reader-1.7.7-arm64-Win.zip",
-      "hash": "62b61d5a0e5d06c82aa44c69232ed807de475ff241b1df5e6e6921c6dc2e89bb"
+      "url": "https://ghgo.xyz/https://github.com/troyeguo/koodo-reader/releases/download/v1.7.8/Koodo-Reader-1.7.8-ia32-Win.zip",
+      "hash": "03afcb8cd57fa120c4a8f6f264af47a853cf333c1e0f68c0c4837ba4ba917164"
     }
   },
   "shortcuts": [
@@ -23,19 +19,14 @@
       "Koodo Reader"
     ]
   ],
-  "checkver": {
-    "github": "https://github.com/koodo-reader/koodo-reader"
-  },
+  "checkver": "github",
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghgo.xyz/https://github.com/koodo-reader/koodo-reader/releases/download/v$version/Koodo-Reader-$version-x64-Win.zip"
+        "url": "https://ghgo.xyz/https://github.com/troyeguo/koodo-reader/releases/download/v$version/Koodo-Reader-$version-x64-Win.zip"
       },
       "32bit": {
-        "url": "https://ghgo.xyz/https://github.com/koodo-reader/koodo-reader/releases/download/v$version/Koodo-Reader-$version-ia32-Win.zip"
-      },
-      "arm64": {
-        "url": "https://ghgo.xyz/https://github.com/koodo-reader/koodo-reader/releases/download/v$version/Koodo-Reader-$version-arm64-Win.zip"
+        "url": "https://ghgo.xyz/https://github.com/troyeguo/koodo-reader/releases/download/v$version/Koodo-Reader-$version-ia32-Win.zip"
       }
     }
   }
