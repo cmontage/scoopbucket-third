@@ -1,9 +1,7 @@
 {
-  "version": "0.107.57",
-  "description": "AdGuardHome. Network-wide ads & trackers blocking DNS server",
-  "homepage": "https://github.com/AdguardTeam/AdGuardHome",
-  "notes": "Running as a service: AdGuardHome -s install (https://adguard-dns.io/kb/zh-CN/adguard-home/getting-started/#service)",
+  "homepage": "https://adguard.com/adguard-home.html",
   "license": "GPL-3.0-or-later",
+  "version": "0.107.57",
   "architecture": {
     "64bit": {
       "url": "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.57/AdGuardHome_windows_amd64.zip",
@@ -14,19 +12,9 @@
       "hash": "bc5d518e07982751f5d387784beed5554dcfabdfa5742dd41690ea35e3d8446a"
     }
   },
-  "pre_install": "if (!(Test-Path \"$persist_dir\\AdGuardHome.yaml\")) { New-Item \"$dir\\AdGuardHome.yaml\" | Out-Null }",
-  "pre_uninstall": [
-    "if (!(is_admin)) { error \"$app requires admin rights to $cmd\"; break }",
-    "",
-    "Start-Process -Wait \"$dir\\AdGuardHome.exe\" -ArgumentList '-s stop' | Out-Null",
-    "Start-Process -Wait \"$dir\\AdGuardHome.exe\" -ArgumentList '-s uninstall' | Out-Null"
-  ],
   "extract_dir": "AdGuardHome",
   "bin": "AdGuardHome.exe",
-  "persist": [
-    "data",
-    "AdGuardHome.yaml"
-  ],
+  "persist": "data",
   "checkver": {
     "github": "https://github.com/AdguardTeam/AdGuardHome"
   },
