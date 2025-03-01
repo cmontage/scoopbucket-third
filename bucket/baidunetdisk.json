@@ -1,9 +1,10 @@
 {
-  "version": "7.52.0.135",
+  "version": "7.53.5.102",
   "description": "百度网盘 PC 版",
   "homepage": "https://pan.baidu.com/download",
-  "url": "http://issuecdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduNetdisk_7.52.0.135.exe#dl.7z",
-  "hash": "9e630806da61a57ba0cb672325667f0fba5674dbea4ec0f306578273a77f964d",
+  "license": "Proprietary",
+  "url": "http://issuecdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduNetdisk_7.53.5.102.exe#dl.7z",
+  "hash": "5a67c689a066e6a3eca4316e05a06f002a393ef71f8ab5691aaca8fea47ac16d",
   "bin": "BaiduNetdisk.exe",
   "shortcuts": [
     [
