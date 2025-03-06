@@ -470,9 +470,9 @@ bucket/CrmPluginReg.json, kkzzhizhou/scoop-apps, 0
 bucket/CrmSolutionPackager.json, kkzzhizhou/scoop-apps, 0
 bucket/CryengineLauncher-Install.json, kkzzhizhou/scoop-apps, 0
 bucket/CryengineLauncher-UserInstall.json, kkzzhizhou/scoop-apps, 0
-bucket/CrystalDiskInfo-Aoi_AkariiinMKII.json, kkzzhizhou/scoop-apps, 0
+bucket/CrystalDiskInfo-Aoi.json, kkzzhizhou/scoop-apps, 0
 bucket/CrystalDiskInfo-KureiKei_AkariiinMKII.json, kkzzhizhou/scoop-apps, 0
-bucket/CrystalDiskInfo-Shizuku_AkariiinMKII.json, kkzzhizhou/scoop-apps, 0
+bucket/CrystalDiskInfo-Shizuku.json, kkzzhizhou/scoop-apps, 0
 bucket/CrystalDiskMark-Aoi_AkariiinMKII.json, kkzzhizhou/scoop-apps, 0
 bucket/CrystalDiskMark-Shizuku_AkariiinMKII.json, kkzzhizhou/scoop-apps, 0
 bucket/CrystalMark-Retro-Aoi.json, kkzzhizhou/scoop-apps, 0
@@ -2573,6 +2573,7 @@ bucket/adobe-source-han-serif-tw-fonts.json, kkzzhizhou/scoop-apps, 0
 bucket/adobeacrobatdc.json, kkzzhizhou/scoop-apps, 0
 bucket/adobeacrobatdcpro.json, kkzzhizhou/scoop-apps, 0
 bucket/adobegenp.json, kkzzhizhou/scoop-apps, 0
+bucket/adobegenp_kengwang.json, kkzzhizhou/scoop-apps, 0
 bucket/adobeillustratorlite.json, kkzzhizhou/scoop-apps, 0
 bucket/adobephotoshopcclite.json, kkzzhizhou/scoop-apps, 0
 bucket/adom.json, kkzzhizhou/scoop-apps, 0
@@ -2999,7 +3000,7 @@ bucket/autoclicker.json, kkzzhizhou/scoop-apps, 0
 bucket/autocut.json, kkzzhizhou/scoop-apps, 0
 bucket/autodarkmode-setup.json, kkzzhizhou/scoop-apps, 0
 bucket/autodarkmode.json, kkzzhizhou/scoop-apps, 0
-bucket/autodarkmode_DoveBoy.json, kkzzhizhou/scoop-apps, 0
+bucket/autodarkmode_WinApps-share.json, kkzzhizhou/scoop-apps, 0
 bucket/autodarkmode_chawyehsu.json, kkzzhizhou/scoop-apps, 0
 bucket/autodarkmode_naderi.json, kkzzhizhou/scoop-apps, 0
 bucket/autogpuaffinity-spddl.json, kkzzhizhou/scoop-apps, 0
@@ -4108,14 +4109,13 @@ bucket/cryfs.json, kkzzhizhou/scoop-apps, 0
 bucket/cryfs_FlawlessCasual17.json, kkzzhizhou/scoop-apps, 0
 bucket/cryptomator.json, kkzzhizhou/scoop-apps, 0
 bucket/crystaldiskinfo-aoi-edition.json, kkzzhizhou/scoop-apps, 0
-bucket/crystaldiskinfo-aoi-edition_DoveBoy.json, kkzzhizhou/scoop-apps, 0
-bucket/crystaldiskinfo-aoi.json, kkzzhizhou/scoop-apps, 0
+bucket/crystaldiskinfo-aoi_aoisummer.json, kkzzhizhou/scoop-apps, 0
 bucket/crystaldiskinfo-kureikei-edition.json, kkzzhizhou/scoop-apps, 0
 bucket/crystaldiskinfo-kureikei.json, kkzzhizhou/scoop-apps, 0
 bucket/crystaldiskinfo-kureikei_aoisummer.json, kkzzhizhou/scoop-apps, 0
 bucket/crystaldiskinfo-shizuku-edition.json, kkzzhizhou/scoop-apps, 0
 bucket/crystaldiskinfo-shizuku-edition_DoveBoy.json, kkzzhizhou/scoop-apps, 0
-bucket/crystaldiskinfo-shizuku.json, kkzzhizhou/scoop-apps, 0
+bucket/crystaldiskinfo-shizuku_aoisummer.json, kkzzhizhou/scoop-apps, 0
 bucket/crystaldiskinfo.json, kkzzhizhou/scoop-apps, 0
 bucket/crystaldiskinfo_DoveBoy.json, kkzzhizhou/scoop-apps, 0
 bucket/crystaldiskmark-aoi-edition.json, kkzzhizhou/scoop-apps, 0
@@ -4897,7 +4897,7 @@ bucket/emby_carnival.json, kkzzhizhou/scoop-apps, 0
 bucket/emeditor-fixed.json, kkzzhizhou/scoop-apps, 0
 bucket/emeditor-random-keygen.json, kkzzhizhou/scoop-apps, 0
 bucket/emeditor.json, kkzzhizhou/scoop-apps, 0
-bucket/emeditor_ViCrack.json, kkzzhizhou/scoop-apps, 0
+bucket/emeditor_ScoopInstaller.json, kkzzhizhou/scoop-apps, 0
 bucket/emeditor_echoiron.json, kkzzhizhou/scoop-apps, 0
 bucket/emeditor_jfut.json, kkzzhizhou/scoop-apps, 0
 bucket/emet.json, kkzzhizhou/scoop-apps, 0
@@ -5281,7 +5281,7 @@ bucket/firefox-eme-free.json, kkzzhizhou/scoop-apps, 0
 bucket/firefox-esr-115-zh-cn.json, kkzzhizhou/scoop-apps, 0
 bucket/firefox-esr-portable.json, kkzzhizhou/scoop-apps, 0
 bucket/firefox-esr-zh-cn.json, kkzzhizhou/scoop-apps, 0
-bucket/firefox-esr-zh-cn_amorphobia.json, kkzzhizhou/scoop-apps, 0
+bucket/firefox-esr-zh-cn_aoisummer.json, kkzzhizhou/scoop-apps, 0
 bucket/firefox-esr.json, kkzzhizhou/scoop-apps, 0
 bucket/firefox-it.json, kkzzhizhou/scoop-apps, 0
 bucket/firefox-jp.json, kkzzhizhou/scoop-apps, 0
@@ -5296,7 +5296,7 @@ bucket/firefox-portable-fa.json, kkzzhizhou/scoop-apps, 0
 bucket/firefox-portable-it.json, kkzzhizhou/scoop-apps, 0
 bucket/firefox-portable_naderi.json, kkzzhizhou/scoop-apps, 0
 bucket/firefox-zh-CN_cc713.json, kkzzhizhou/scoop-apps, 0
-bucket/firefox-zh-cn.json, akirco/aki-apps, 0
+bucket/firefox-zh-cn.json, kkzzhizhou/scoop-apps, 0
 bucket/firefox-zh-cn_akirco.json, kkzzhizhou/scoop-apps, 0
 bucket/firefox-zh-cn_amorphobia.json, kkzzhizhou/scoop-apps, 0
 bucket/firefox.ja.json, kkzzhizhou/scoop-apps, 0
@@ -5344,7 +5344,7 @@ bucket/flashpoint_FlawlessCasual17.json, kkzzhizhou/scoop-apps, 0
 bucket/flat-assembler.json, kkzzhizhou/scoop-apps, 0
 bucket/flclash-portable.json, kkzzhizhou/scoop-apps, 0
 bucket/flclash.json, kkzzhizhou/scoop-apps, 0
-bucket/flclash_DoveBoy.json, kkzzhizhou/scoop-apps, 0
+bucket/flclash_ScoopInstaller.json, kkzzhizhou/scoop-apps, 0
 bucket/fleet.json, kkzzhizhou/scoop-apps, 0
 bucket/fleet_Small-Ku.json, kkzzhizhou/scoop-apps, 0
 bucket/flexible-renamer.json, kkzzhizhou/scoop-apps, 0
@@ -5971,7 +5971,7 @@ bucket/google-usb-driver.json, kkzzhizhou/scoop-apps, 0
 bucket/googlechrome-beta.json, kkzzhizhou/scoop-apps, 0
 bucket/googlechrome-canary.json, kkzzhizhou/scoop-apps, 0
 bucket/googlechrome-dev.json, kkzzhizhou/scoop-apps, 0
-bucket/googlechrome.json, kkzzhizhou/scoop-apps, 0
+bucket/googlechrome.json, akirco/aki-apps, 0
 bucket/googlechrome_akirco.json, kkzzhizhou/scoop-apps, 0
 bucket/googlechrome_kkzzhizhou.json, kkzzhizhou/scoop-apps, 0
 bucket/googledrive-np.json, kkzzhizhou/scoop-apps, 0
@@ -7014,7 +7014,7 @@ bucket/komorebi.json, kkzzhizhou/scoop-apps, 0
 bucket/kondo_Small-Ku.json, kkzzhizhou/scoop-apps, 0
 bucket/konversation-nightly.json, kkzzhizhou/scoop-apps, 0
 bucket/konversation.json, kkzzhizhou/scoop-apps, 0
-bucket/koodo-reader.json, akirco/aki-apps, 0
+bucket/koodo-reader.json, kkzzhizhou/scoop-apps, 0
 bucket/koodo-reader_FlawlessCasual17.json, kkzzhizhou/scoop-apps, 0
 bucket/koodo-reader_akirco.json, kkzzhizhou/scoop-apps, 0
 bucket/koodo-reader_chawyehsu.json, kkzzhizhou/scoop-apps, 0
@@ -8500,7 +8500,7 @@ bucket/nvPY.json, kkzzhizhou/scoop-apps, 0
 bucket/nvcleanstall.json, kkzzhizhou/scoop-apps, 0
 bucket/nvda.json, kkzzhizhou/scoop-apps, 1
 bucket/nvencc.json, kkzzhizhou/scoop-apps, 0
-bucket/nvencc_FlawlessCasual17.json, kkzzhizhou/scoop-apps, 0
+bucket/nvencc_natecohen.json, kkzzhizhou/scoop-apps, 0
 bucket/nvidia-display-driver-dch-np.json, kkzzhizhou/scoop-apps, 0
 bucket/nvidia-display-driver-dch-np_TheRandomLabs.json, kkzzhizhou/scoop-apps, 0
 bucket/nvidia-display-driver-dch-with-3d-vision-np.json, kkzzhizhou/scoop-apps, 0
@@ -9718,7 +9718,7 @@ bucket/postgresql15.json, kkzzhizhou/scoop-apps, 0
 bucket/postman-canary.json, kkzzhizhou/scoop-apps, 0
 bucket/postman-cn.json, kkzzhizhou/scoop-apps, 0
 bucket/postman-v9.json, kkzzhizhou/scoop-apps, 0
-bucket/postman.json, kkzzhizhou/scoop-apps, 0
+bucket/postman.json, akirco/aki-apps, 0
 bucket/postman9.json, kkzzhizhou/scoop-apps, 0
 bucket/postman_akirco.json, kkzzhizhou/scoop-apps, 0
 bucket/pot-desktop.json, ivaquero/scoopet, 0
@@ -9753,6 +9753,7 @@ bucket/powertoys-np.json, kkzzhizhou/scoop-apps, 0
 bucket/powertoys-np_DoveBoy.json, kkzzhizhou/scoop-apps, 0
 bucket/powertoys-np_ScoopInstaller.json, kkzzhizhou/scoop-apps, 0
 bucket/powertoys.json, kkzzhizhou/scoop-apps, 0
+bucket/powertoys_ScoopInstaller.json, kkzzhizhou/scoop-apps, 0
 bucket/powertoys_WinApps-share.json, kkzzhizhou/scoop-apps, 0
 bucket/powertoys_akirco.json, kkzzhizhou/scoop-apps, 0
 bucket/ppduck3.json, kkzzhizhou/scoop-apps, 0
@@ -10672,6 +10673,7 @@ bucket/s.json, akirco/aki-apps, 0
 bucket/s2cb.json, kkzzhizhou/scoop-apps, 0
 bucket/s3-browser.json, scoopcn/scoopcn, 0
 bucket/s3browser.json, kkzzhizhou/scoop-apps, 0
+bucket/s3scanner.json, kkzzhizhou/scoop-apps, 0
 bucket/sK1.json, kkzzhizhou/scoop-apps, 0
 bucket/s_akirco.json, kkzzhizhou/scoop-apps, 0
 bucket/saber.json, kkzzhizhou/scoop-apps, 0
@@ -11894,8 +11896,8 @@ bucket/thunderbird-esr.json, kkzzhizhou/scoop-apps, 0
 bucket/thunderbird-fa.json, kkzzhizhou/scoop-apps, 0
 bucket/thunderbird-portable.json, kkzzhizhou/scoop-apps, 0
 bucket/thunderbird-zh-cn.json, kkzzhizhou/scoop-apps, 0
+bucket/thunderbird-zh-cn_aoisummer.json, kkzzhizhou/scoop-apps, 0
 bucket/thunderbird-zh-cn_cc713.json, kkzzhizhou/scoop-apps, 0
-bucket/thunderbird-zh-cn_chawyehsu.json, kkzzhizhou/scoop-apps, 0
 bucket/thunderbird.ja.json, kkzzhizhou/scoop-apps, 0
 bucket/thunderbird.json, kkzzhizhou/scoop-apps, 0
 bucket/thunderbird_HUMORCE.json, kkzzhizhou/scoop-apps, 0
@@ -12620,7 +12622,7 @@ bucket/vscode-portable-association.json, kkzzhizhou/scoop-apps, 0
 bucket/vscode-portable.json, kkzzhizhou/scoop-apps, 0
 bucket/vscode-portable32.json, kkzzhizhou/scoop-apps, 0
 bucket/vscode-win7.json, ivaquero/scoopet, 1
-bucket/vscode.json, kkzzhizhou/scoop-apps, 0
+bucket/vscode.json, akirco/aki-apps, 1
 bucket/vscode1740.json, kkzzhizhou/scoop-apps, 1
 bucket/vscode@1.59.1.json, kkzzhizhou/scoop-apps, 0
 bucket/vscode@1.64.0.json, kkzzhizhou/scoop-apps, 0
