@@ -13,10 +13,6 @@
     "    Remove-Item \"$dir\\$_\" -Recurse -Force",
     "}"
   ],
-  "post_uninstall": [
-    "$cache_dir=Join-Path $env:APPDATA aDrive",
-    "Remove-Item $cache_dir -Force -Recurse -ErrorAction SilentlyContinue"
-  ],
   "shortcuts": [
     [
       "aDrive.exe",
