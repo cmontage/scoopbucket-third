@@ -1,26 +1,26 @@
 {
   "version": "27.0.2",
   "description": "Professional diagramming",
-  "homepage": "https://www.draw.io",
+  "homepage": "https://www.diagrams.net",
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
       "url": "https://github.com/jgraph/drawio-desktop/releases/download/v27.0.2/draw.io-27.0.2-windows-installer.exe#/dl.7z",
       "hash": "3e32759af1f0ce2fc06dd7c98feb8287cbff13b13cb698c5c2a98b13294590d5",
-      "pre_install": [
-        "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-        "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Recurse"
-      ]
+      "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
     },
     "32bit": {
       "url": "https://github.com/jgraph/drawio-desktop/releases/download/v27.0.2/draw.io-ia32-27.0.2-windows-32bit-installer.exe#/dl.7z",
       "hash": "b22862a807330f4cd24763b742dbb0818ef522047fad5ee02eab6e3cbfabc9a1",
-      "pre_install": [
-        "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
-        "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Recurse"
-      ]
+      "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\""
+    },
+    "arm64": {
+      "url": "https://github.com/jgraph/drawio-desktop/releases/download/v27.0.2/draw.io-arm64-27.0.2-windows-arm64-installer.exe#/dl.7z",
+      "hash": "68838a844e7449f1a05f27e4d37a785b1f8469f63355babc7396c4004dd4ec71",
+      "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-arm64.7z\" \"$dir\""
     }
   },
+  "post_install": "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Force -Recurse",
   "bin": "draw.io.exe",
   "shortcuts": [
     [
@@ -38,7 +38,14 @@
       },
       "32bit": {
         "url": "https://github.com/jgraph/drawio-desktop/releases/download/v$version/draw.io-ia32-$version-windows-32bit-installer.exe#/dl.7z"
+      },
+      "arm64": {
+        "url": "https://github.com/jgraph/drawio-desktop/releases/download/v$version/draw.io-arm64-$version-windows-arm64-installer.exe#/dl.7z"
       }
+    },
+    "hash": {
+      "url": "$baseurl/Files-SHA256-Hashes.txt",
+      "regex": "$basename\\s*?$sha256"
     }
   }
 }
