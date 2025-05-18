@@ -1,16 +1,42 @@
 {
-  "version": "1.90.6",
+  "version": "1.90.8",
   "description": "Terminal/ssh/serial port/sftp client",
   "homepage": "https://electerm.github.io/electerm/",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/electerm/electerm/releases/download/v1.90.6/electerm-1.90.6-win-x64.tar.gz",
-      "hash": "b466fb29ad8a16a833e4a993db2df6ba97e98abc9a7fd06f3ee4701b457a6704",
-      "extract_dir": "electerm-1.90.6-win-x64"
+      "url": "https://github.com/electerm/electerm/releases/download/v1.90.8/electerm-1.90.8-win-x64.tar.gz",
+      "hash": "5e2720a173281d536a1e262a83b2d6cd8eea17541d4330bd3042be945ae139fc",
+      "extract_dir": "electerm-1.90.8-win-x64"
     }
   },
   "bin": "electerm.exe",
+  "installer": {
+    "script": [
+      "if (!(Test-Path \"$persist_dir\\Cache\")) {",
+      "    New-Item \"$persist_dir\\Cache\" -Type Directory -Force | Out-Null",
+      "}",
+      "$runtimeCache = \"$env:APPDATA\\electerm\"",
+      "$runtimeCachePersist = \"$persist_dir\\Cache\"",
+      "if (Test-Path $runtimeCachePersist) {",
+      "    Remove-Item $runtimeCache -Force -Recurse -ErrorAction SilentlyContinue",
+      "    New-Item -Type Junction -Path $runtimeCache -Target $runtimeCachePersist | Out-Null",
+      "} else {",
+      "    if (Test-Path $runtimeCache) {",
+      "        Move-Item $runtimeCache $runtimeCachePersist -Force",
+      "        New-Item -Type Junction -Path $runtimeCache -Target $runtimeCachePersist | Out-Null",
+      "    }",
+      "}"
+    ]
+  },
+  "uninstaller": {
+    "script": [
+      "$runtimeCache = \"$env:APPDATA\\electerm\"",
+      "$runtimeCachePersist = \"$persist_dir\"",
+      "Remove-Item $runtimeCache -Force -Recurse -ErrorAction SilentlyContinue",
+      "Remove-Item $runtimeCachePersist -Force -Recurse -ErrorAction SilentlyContinue"
+    ]
+  },
   "shortcuts": [
     [
       "electerm.exe",
