@@ -1,19 +1,19 @@
 {
-  "version": "137.0.7151.41",
+  "version": "137.0.7151.56",
   "description": "Fast, secure, and free web browser, built for the modern web.",
   "homepage": "https://www.google.com/chrome/",
   "license": {
     "identifier": "Freeware",
-    "url": "https://www.google.com/chrome/terms/"
+    "url": "https://www.google.com/chrome/privacy/eula_text.html"
   },
   "architecture": {
     "64bit": {
-      "url": "https://dl.google.com/release2/chrome/acgi4n4wsk3izihdahbpceoalmqa_137.0.7151.41/137.0.7151.41_chrome_installer.exe#/dl.7z",
-      "hash": "138e4c25e907a40bc149b5984c61f4240ea35ef1ba7f4c234ce77c9417e10cfe"
+      "url": "https://dl.google.com/release2/chrome/adlrlnvy7s5suwrh4x5fzaye66qq_137.0.7151.56/137.0.7151.56_chrome_installer.exe#/dl.7z",
+      "hash": "55fe06256bbdf652f3398431a0b6261ca19af1b78d674ce9df9c0ed5464c3427"
     },
     "32bit": {
-      "url": "https://dl.google.com/release2/chrome/prv7q2nezpr7h6t7wbd7uyxtfi_137.0.7151.41/137.0.7151.41_chrome_installer.exe#/dl.7z",
-      "hash": "9d29119d546a6216fbd30c58acdf2631be6faa14eec35a15f2275974b402ef3b"
+      "url": "https://dl.google.com/release2/chrome/admhvoiy4yjlr2bjs4mrfdgomt2a_137.0.7151.56/137.0.7151.56_chrome_installer.exe#/dl.7z",
+      "hash": "ed2273d2b3293900d5fd5fddb05c607f484aab08852be65ceb65d81cfab360fe"
     }
   },
   "installer": {
@@ -22,18 +22,27 @@
   "bin": [
     [
       "chrome.exe",
-      "chrome"
+      "chrome",
+      "--user-data-dir=\"$dir\\User Data\""
     ]
   ],
   "shortcuts": [
     [
       "chrome.exe",
-      "Google Chrome"
+      "Google Chrome",
+      "--user-data-dir=\"$dir\\User Data\""
     ]
+  ],
+  "post_install": [
+    "if (!(Test-Path \"$dir\\User Data\\*\") -and (Test-Path \"$env:LocalAppData\\Google\\Chrome\\User Data\")) {",
+    "    info '[Portable Mode]: Copying user data...'",
+    "    Copy-Item \"$env:LocalAppData\\Google\\Chrome\\User Data\\*\" \"$dir\\User Data\" -Recurse",
+    "}"
   ],
   "env_set": {
     "CHROME_EXECUTABLE": "$dir\\chrome.exe"
   },
+  "persist": "User Data",
   "checkver": {
     "url": "https://scoopinstaller.github.io/UpdateTracker/googlechrome/chrome.min.xml",
     "regex": "(?sm)<stable32><version>(?<version>[\\d.]+)</version>.+release2/chrome/(?<32>[\\w-]+)_.+<stable64>.+release2/chrome/(?<64>[\\w-]+)_.+</stable64>"
