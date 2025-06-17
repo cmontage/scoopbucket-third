@@ -1,5 +1,5 @@
 {
-  "version": "4.5.1-r88315",
+  "version": "4.5.1",
   "description": "A free software environment for statistical computing and graphics.",
   "homepage": "https://www.r-project.org",
   "license": "GPL-2.0-or-later",
@@ -21,37 +21,15 @@
   "innosetup": true,
   "architecture": {
     "64bit": {
-      "url": "https://cloud.r-project.org/bin/windows/base/R-4.5.1patched-win.exe",
-      "hash": "md5:984aa114c47e00f9e0b111b4b3b771df",
-      "bin": [
-        "bin\\x64\\R.exe",
-        "bin\\x64\\Rcmd.exe",
-        "bin\\x64\\Rgui.exe",
-        "bin\\x64\\Rscript.exe",
-        "bin\\x64\\Rterm.exe"
-      ],
+      "url": "https://mirrors.tuna.tsinghua.edu.cn/CRAN/bin/windows/base/old/4.5.1/R-4.5.1-win.exe",
+      "hash": "md5:ee82b26e6fae986fda2a9a73b2501f9f",
       "shortcuts": [
         [
           "bin\\x64\\Rgui.exe",
-          "R Patched"
+          "R 4.5.1"
         ]
       ]
     }
   },
-  "persist": "site-library",
-  "checkver": {
-    "url": "https://cloud.r-project.org/bin/windows/base/rpatched.html",
-    "regex": "(?s)R-([\\d.]+)(?<stage>[^-]+)-win.*\\((?<rev>r\\d+)\\)",
-    "replace": "${1}-${rev}"
-  },
-  "autoupdate": {
-    "architecture": {
-      "64bit": {
-        "url": "https://cloud.r-project.org/bin/windows/base/R-$matchHead$matchStage-win.exe",
-        "hash": {
-          "url": "$baseurl/md5sum.R-$matchHead$matchStage.txt"
-        }
-      }
-    }
-  }
+  "persist": "site-library"
 }
