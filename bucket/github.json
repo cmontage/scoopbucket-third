@@ -1,15 +1,20 @@
 {
-  "version": "3.4.21",
+  "version": "3.5.0",
   "description": "Extend your GitHub workflow beyond your browser.",
   "homepage": "https://desktop.github.com/",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/desktop/desktop/releases/download/release-3.4.21/GitHubDesktop-3.4.21-x64-full.nupkg",
-      "hash": "cb911521bfa00692d4e82e13570376e4a2a19d71e97d074d3dce4f21b24c8691"
+      "url": "https://central.github.com/deployments/desktop/desktop/latest/win32#/dl.7z_",
+      "hash": "219fe37c1ba1d8c37e9fb4dddb8a32180f9754b1e3e21aff8b69bbe010ea784d"
     }
   },
-  "extract_dir": "lib\\net45",
+  "pre_install": [
+    "Expand-7zipArchive \"$dir\\$fname\" \"$dir\\extract\"",
+    "Get-Item \"$dir\\extract\\GitHubDesktop*.nupkg\" | Rename-Item -NewName 'github.nupkg'",
+    "Expand-7zipArchive \"$dir\\extract\\github.nupkg\" \"$dir\" -ExtractDir 'lib\\net45'",
+    "Remove-Item \"$dir\\extract\", \"$dir\\$fname\" -Force -Recurse"
+  ],
   "bin": "GitHubDesktop.exe",
   "shortcuts": [
     [
@@ -24,11 +29,8 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/desktop/desktop/releases/download/release-$version/GitHubDesktop-$version-x64-full.nupkg"
+        "url": "https://central.github.com/deployments/desktop/desktop/latest/win32#/dl.7z_"
       }
-    },
-    "hash": {
-      "url": "$baseurl/GitHub.Desktop-$version-checksums.txt"
     }
   }
 }
