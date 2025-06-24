@@ -507,7 +507,7 @@ bucket/D2Coding-NF.json, kkzzhizhou/scoop-apps, 0
 bucket/DBeaver-Portable.json, kkzzhizhou/scoop-apps, 0
 bucket/DDMonitor.json, kkzzhizhou/scoop-apps, 0
 bucket/DHCPServer-Portable.json, kkzzhizhou/scoop-apps, 0
-bucket/DLSS-Swapper_Darkatse.json, kkzzhizhou/scoop-apps, 0
+bucket/DLSS-Swapper.json, kkzzhizhou/scoop-apps, 0
 bucket/DLSSSwapper-Portable.json, kkzzhizhou/scoop-apps, 0
 bucket/DM2.json, kkzzhizhou/scoop-apps, 0
 bucket/DNSAngel.json, kkzzhizhou/scoop-apps, 0
@@ -3549,7 +3549,7 @@ bucket/bugn.json, kkzzhizhou/scoop-apps, 0
 bucket/buildcache.json, kkzzhizhou/scoop-apps, 0
 bucket/buildcache_MCOfficer.json, kkzzhizhou/scoop-apps, 0
 bucket/buildkit.json, kkzzhizhou/scoop-apps, 0
-bucket/buildkit_iquiw.json, kkzzhizhou/scoop-apps, 0
+bucket/buildkit_batkiz.json, kkzzhizhou/scoop-apps, 0
 bucket/bulk-crap-uninstaller.json, kkzzhizhou/scoop-apps, 0
 bucket/bulk-crap-uninstaller_DoveBoy.json, kkzzhizhou/scoop-apps, 0
 bucket/bulk-extractor.json, kkzzhizhou/scoop-apps, 0
@@ -4656,8 +4656,8 @@ bucket/djgpp@3.2-gcc-10.3.0.json, kkzzhizhou/scoop-apps, 0
 bucket/dllexp.json, kkzzhizhou/scoop-apps, 0
 bucket/dllexportviewer.json, kkzzhizhou/scoop-apps, 0
 bucket/dlsite-doujin-renamer.json, kkzzhizhou/scoop-apps, 0
-bucket/dlss-swapper.json, kkzzhizhou/scoop-apps, 0
 bucket/dlss-swapper_Deide.json, kkzzhizhou/scoop-apps, 0
+bucket/dlss-swapper_hu3rror.json, kkzzhizhou/scoop-apps, 0
 bucket/dm2_naderi.json, kkzzhizhou/scoop-apps, 0
 bucket/dmd@2.100.0.json, kkzzhizhou/scoop-apps, 0
 bucket/dmd@2.104.0.json, kkzzhizhou/scoop-apps, 0
@@ -6298,7 +6298,7 @@ bucket/gtk-runtime_Deide.json, kkzzhizhou/scoop-apps, 0
 bucket/gtk-sharp.json, kkzzhizhou/scoop-apps, 0
 bucket/gtools.json, kkzzhizhou/scoop-apps, 0
 bucket/gui-for-clash.json, kkzzhizhou/scoop-apps, 0
-bucket/gui-for-clash_WinApps-share.json, kkzzhizhou/scoop-apps, 0
+bucket/gui-for-clash_ScoopInstaller.json, kkzzhizhou/scoop-apps, 0
 bucket/gui-for-singbox.json, kkzzhizhou/scoop-apps, 0
 bucket/guipropview.json, kkzzhizhou/scoop-apps, 0
 bucket/guipropview_kodybrown.json, kkzzhizhou/scoop-apps, 0
@@ -6768,6 +6768,7 @@ bucket/intelonemono.json, kkzzhizhou/scoop-apps, 0
 bucket/interactsh.json, kkzzhizhou/scoop-apps, 0
 bucket/interactsh_ViCrack.json, kkzzhizhou/scoop-apps, 0
 bucket/interlink.json, kkzzhizhou/scoop-apps, 0
+bucket/intiface-central.json, kkzzhizhou/scoop-apps, 0
 bucket/iobit-advanced-system-care-free.json, kkzzhizhou/scoop-apps, 0
 bucket/iobit-software-updater.json, kkzzhizhou/scoop-apps, 0
 bucket/iobit-system-information.json, kkzzhizhou/scoop-apps, 0
@@ -9116,6 +9117,7 @@ bucket/origin_chawyehsu.json, kkzzhizhou/scoop-apps, 0
 bucket/oripa.json, kkzzhizhou/scoop-apps, 0
 bucket/orwell-dev-cpp-no-compiler.json, kkzzhizhou/scoop-apps, 0
 bucket/orwell-dev-cpp.json, kkzzhizhou/scoop-apps, 0
+bucket/oscgoesbrrr.json, kkzzhizhou/scoop-apps, 0
 bucket/oss-browser.json, kkzzhizhou/scoop-apps, 0
 bucket/oss-browser_HCLonely.json, kkzzhizhou/scoop-apps, 0
 bucket/oss-browser_akirco.json, kkzzhizhou/scoop-apps, 0
@@ -10383,7 +10385,7 @@ bucket/quakevr.json, kkzzhizhou/scoop-apps, 0
 bucket/qualitymuncher.json, kkzzhizhou/scoop-apps, 0
 bucket/quardcrt.json, kkzzhizhou/scoop-apps, 0
 bucket/quark-cloud-drive.json, kkzzhizhou/scoop-apps, 0
-bucket/quarkpan.json, kkzzhizhou/scoop-apps, 0
+bucket/quarkpan.json, akirco/aki-apps, 0
 bucket/quarkpantool.json, kkzzhizhou/scoop-apps, 0
 bucket/quarto-prerelease.json, kkzzhizhou/scoop-apps, 0
 bucket/quarto.json, kkzzhizhou/scoop-apps, 0
@@ -12593,7 +12595,7 @@ bucket/userprofilesview.json, kkzzhizhou/scoop-apps, 0
 bucket/userprofilesview_ScoopInstaller.json, kkzzhizhou/scoop-apps, 0
 bucket/ussf.json, kkzzhizhou/scoop-apps, 0
 bucket/util-linux-ng.json, kkzzhizhou/scoop-apps, 0
-bucket/utools-persist.json, kkzzhizhou/scoop-apps, 0
+bucket/utools-install.json, kkzzhizhou/scoop-apps, 0
 bucket/utools.json, ivaquero/scoopet, 0
 bucket/utools_ChinLong.json, kkzzhizhou/scoop-apps, 0
 bucket/utools_Scoopforge.json, kkzzhizhou/scoop-apps, 0
