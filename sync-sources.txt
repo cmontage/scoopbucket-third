@@ -1476,7 +1476,7 @@ bucket/NotCPUCores-Portable.json, kkzzhizhou/scoop-apps, 0
 bucket/Notable_dodorz.json, kkzzhizhou/scoop-apps, 0
 bucket/Notation.json, kkzzhizhou/scoop-apps, 0
 bucket/NoteExpress.json, kkzzhizhou/scoop-apps, 0
-bucket/Notepad--.json, kkzzhizhou/scoop-apps, 0
+bucket/Notepad--_dodorz.json, kkzzhizhou/scoop-apps, 0
 bucket/Notepad3-mod.json, kkzzhizhou/scoop-apps, 0
 bucket/Notepad3_dodorz.json, kkzzhizhou/scoop-apps, 0
 bucket/Notepad4_dodorz.json, kkzzhizhou/scoop-apps, 0
@@ -3552,7 +3552,7 @@ bucket/bugn.json, kkzzhizhou/scoop-apps, 0
 bucket/buildcache.json, kkzzhizhou/scoop-apps, 0
 bucket/buildcache_MCOfficer.json, kkzzhizhou/scoop-apps, 0
 bucket/buildkit.json, kkzzhizhou/scoop-apps, 0
-bucket/buildkit_iquiw.json, kkzzhizhou/scoop-apps, 0
+bucket/buildkit_batkiz.json, kkzzhizhou/scoop-apps, 0
 bucket/bulk-crap-uninstaller.json, kkzzhizhou/scoop-apps, 0
 bucket/bulk-crap-uninstaller_DoveBoy.json, kkzzhizhou/scoop-apps, 0
 bucket/bulk-extractor.json, kkzzhizhou/scoop-apps, 0
@@ -5184,7 +5184,7 @@ bucket/everything-np_ScoopInstaller.json, kkzzhizhou/scoop-apps, 0
 bucket/everything-powertoys.json, kkzzhizhou/scoop-apps, 0
 bucket/everything-toolbar.json, kkzzhizhou/scoop-apps, 0
 bucket/everything-toolbar_WinApps-share.json, kkzzhizhou/scoop-apps, 0
-bucket/everything.json, akirco/aki-apps, 0
+bucket/everything.json, kkzzhizhou/scoop-apps, 1
 bucket/everything_DoveBoy.json, kkzzhizhou/scoop-apps, 1
 bucket/everything_WinApps-share.json, kkzzhizhou/scoop-apps, 1
 bucket/everything_akirco.json, kkzzhizhou/scoop-apps, 0
@@ -5467,7 +5467,7 @@ bucket/firefox-portable-fa.json, kkzzhizhou/scoop-apps, 0
 bucket/firefox-portable-it.json, kkzzhizhou/scoop-apps, 0
 bucket/firefox-portable_naderi.json, kkzzhizhou/scoop-apps, 0
 bucket/firefox-zh-CN_cc713.json, kkzzhizhou/scoop-apps, 0
-bucket/firefox-zh-cn.json, akirco/aki-apps, 0
+bucket/firefox-zh-cn.json, kkzzhizhou/scoop-apps, 0
 bucket/firefox-zh-cn_akirco.json, kkzzhizhou/scoop-apps, 0
 bucket/firefox-zh-cn_amorphobia.json, kkzzhizhou/scoop-apps, 0
 bucket/firefox.ja.json, kkzzhizhou/scoop-apps, 0
@@ -5679,7 +5679,6 @@ bucket/freeorion-test.json, kkzzhizhou/scoop-apps, 0
 bucket/freeorion.json, kkzzhizhou/scoop-apps, 0
 bucket/freepascal_Deide.json, kkzzhizhou/scoop-apps, 0
 bucket/freeplane.json, kkzzhizhou/scoop-apps, 0
-bucket/freeplane_cc713.json, kkzzhizhou/scoop-apps, 0
 bucket/freerapid.json, kkzzhizhou/scoop-apps, 0
 bucket/freerenamer.json, kkzzhizhou/scoop-apps, 0
 bucket/freespacelogview.json, kkzzhizhou/scoop-apps, 0
@@ -8605,8 +8604,8 @@ bucket/nordpass.json, kkzzhizhou/scoop-apps, 0
 bucket/nosleep.json, kkzzhizhou/scoop-apps, 0
 bucket/notable.json, kkzzhizhou/scoop-apps, 0
 bucket/notejoy.json, kkzzhizhou/scoop-apps, 0
+bucket/notepad--.json, kkzzhizhou/scoop-apps, 0
 bucket/notepad--_ViCrack.json, kkzzhizhou/scoop-apps, 0
-bucket/notepad--_WinApps-share.json, kkzzhizhou/scoop-apps, 0
 bucket/notepad--_zhoujin7.json, kkzzhizhou/scoop-apps, 0
 bucket/notepad2-mod.json, kkzzhizhou/scoop-apps, 0
 bucket/notepad2-mod_echoiron.json, kkzzhizhou/scoop-apps, 0
@@ -8775,7 +8774,8 @@ bucket/ocauxiliarytools_WinApps-share.json, kkzzhizhou/scoop-apps, 0
 bucket/occt.json, kkzzhizhou/scoop-apps, 0
 bucket/ocenaudio.json, kkzzhizhou/scoop-apps, 0
 bucket/octant.json, kkzzhizhou/scoop-apps, 0
-bucket/octave-cn.json, ivaquero/scoopet, 0
+bucket/octave-cn.json, kkzzhizhou/scoop-apps, 0
+bucket/octave-cn_Scoopforge.json, kkzzhizhou/scoop-apps, 0
 bucket/octosql_aliesbelik.json, kkzzhizhou/scoop-apps, 0
 bucket/oculante.json, kkzzhizhou/scoop-apps, 0
 bucket/oculante_dodorz.json, kkzzhizhou/scoop-apps, 0
@@ -9940,7 +9940,7 @@ bucket/postgresql15.json, kkzzhizhou/scoop-apps, 0
 bucket/postgresql16.json, kkzzhizhou/scoop-apps, 0
 bucket/postman-canary.json, kkzzhizhou/scoop-apps, 0
 bucket/postman-cn.json, kkzzhizhou/scoop-apps, 0
-bucket/postman.json, akirco/aki-apps, 0
+bucket/postman.json, kkzzhizhou/scoop-apps, 0
 bucket/postman9.json, kkzzhizhou/scoop-apps, 0
 bucket/postman_akirco.json, kkzzhizhou/scoop-apps, 0
 bucket/pot-desktop.json, ivaquero/scoopet, 0
@@ -11642,7 +11642,7 @@ bucket/start.json, kkzzhizhou/scoop-apps, 0
 bucket/startuprun.json, kkzzhizhou/scoop-apps, 0
 bucket/starward_Small-Ku.json, kkzzhizhou/scoop-apps, 0
 bucket/stash-dev.json, kkzzhizhou/scoop-apps, 0
-bucket/stash-dev_ScoopInstaller.json, kkzzhizhou/scoop-apps, 0
+bucket/stash-dev_beer-psi.json, kkzzhizhou/scoop-apps, 0
 bucket/stash.json, kkzzhizhou/scoop-apps, 0
 bucket/stash_beer-psi.json, kkzzhizhou/scoop-apps, 0
 bucket/station.json, kkzzhizhou/scoop-apps, 0
