@@ -1,16 +1,20 @@
 {
   "version": "2.0.5",
-  "description": "A cross-platform ebook reader",
-  "homepage": "https://github.com/troyeguo/koodo-reader",
-  "license": "AGPL-3.0-only",
+  "homepage": "https://www.koodoreader.com",
+  "description": "All-in-one ebook reader.",
+  "license": "AGPL-3.0",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/troyeguo/koodo-reader/releases/download/v2.0.5/Koodo-Reader-2.0.5-x64-Win.zip",
+      "url": "https://github.com/koodo-reader/koodo-reader/releases/download/v2.0.5/Koodo-Reader-2.0.5-x64-Win.zip",
       "hash": "8bfb37d74beebcf773b49b286d8a906743d714c13272a3c015604ad808b99490"
     },
     "32bit": {
-      "url": "https://github.com/troyeguo/koodo-reader/releases/download/v2.0.5/Koodo-Reader-2.0.5-ia32-Win.zip",
+      "url": "https://github.com/koodo-reader/koodo-reader/releases/download/v2.0.5/Koodo-Reader-2.0.5-ia32-Win.zip",
       "hash": "d04427ac3ba5486bcf0d51c82520d00c6f853226abbe986ff919aa47aaa6326c"
+    },
+    "arm64": {
+      "url": "https://github.com/koodo-reader/koodo-reader/releases/download/v2.0.5/Koodo-Reader-2.0.5-arm64-Win.zip",
+      "hash": "cb502a379b122b76c85cdf42554f1dda2e253532ae78db5740f1a8d895eeeec2"
     }
   },
   "shortcuts": [
@@ -19,14 +23,19 @@
       "Koodo Reader"
     ]
   ],
-  "checkver": "github",
+  "checkver": {
+    "github": "https://github.com/koodo-reader/koodo-reader"
+  },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/troyeguo/koodo-reader/releases/download/v$version/Koodo-Reader-$version-x64-Win.zip"
+        "url": "https://github.com/koodo-reader/koodo-reader/releases/download/v$version/Koodo-Reader-$version-x64-Win.zip"
       },
       "32bit": {
-        "url": "https://github.com/troyeguo/koodo-reader/releases/download/v$version/Koodo-Reader-$version-ia32-Win.zip"
+        "url": "https://github.com/koodo-reader/koodo-reader/releases/download/v$version/Koodo-Reader-$version-ia32-Win.zip"
+      },
+      "arm64": {
+        "url": "https://github.com/koodo-reader/koodo-reader/releases/download/v$version/Koodo-Reader-$version-arm64-Win.zip"
       }
     }
   }
