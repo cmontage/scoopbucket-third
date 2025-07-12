@@ -1,5 +1,5 @@
 {
-  "version": "1.102.0",
+  "version": "1.103.0",
   "description": "Lightweight but powerful source code editor",
   "homepage": "https://code.visualstudio.com/",
   "license": {
@@ -14,12 +14,12 @@
   ],
   "architecture": {
     "64bit": {
-      "url": "https://update.code.visualstudio.com/1.102.0/win32-x64-archive/stable#/dl.7z",
-      "hash": "e9e8a51f83173fe864056470306d12e697e3f8ba28479aacbbb5a121e31f1a15"
+      "url": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/141aa8582abb96f671badbb100bbd6dab3f85a7c/VSCode-win32-x64-1.103.0.zip",
+      "hash": "e66de6f92b7ee0d3be85a753d6a8c1162c0fa3cc1b15ea6480d05cb01f43a41e"
     },
     "arm64": {
-      "url": "https://update.code.visualstudio.com/1.102.0/win32-arm64-archive/stable#/dl.7z",
-      "hash": "3636362d16a9fde0f73c8c5b46a9b4f2612773feeeb729222db7bc914ff0feb6"
+      "url": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/141aa8582abb96f671badbb100bbd6dab3f85a7c/VSCode-win32-arm64-1.103.0.zip",
+      "hash": "96665cd4f82a91b541c8af8d5d7c5446f6aaccfa96facd78ed4b51e4bf1951b7"
     }
   },
   "env_add_path": "bin",
@@ -63,19 +63,20 @@
   "persist": "data",
   "checkver": {
     "url": "https://code.visualstudio.com/sha?build=stable",
-    "jsonpath": "$.products[?(@.platform.os == 'win32-x64-archive')].name"
+    "regex": "version\":\"(?<Code>[\\d\\w]+)\",\"productVersion\":\"(?<version>[\\d.]+)",
+    "replace": "${version}"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://update.code.visualstudio.com/$version/win32-x64-archive/stable#/dl.7z",
+        "url": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/$matchCode/VSCode-win32-x64-$version.zip",
         "hash": {
           "url": "https://code.visualstudio.com/sha?build=stable",
           "jsonpath": "$.products[?(@.platform.os == 'win32-x64-archive')].sha256hash"
         }
       },
       "arm64": {
-        "url": "https://update.code.visualstudio.com/$version/win32-arm64-archive/stable#/dl.7z",
+        "url": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/$matchCode/VSCode-win32-arm64-$version.zip",
         "hash": {
           "url": "https://code.visualstudio.com/sha?build=stable",
           "jsonpath": "$.products[?(@.platform.os == 'win32-arm64-archive')].sha256hash"
