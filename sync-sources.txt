@@ -673,8 +673,8 @@ bucket/EnvyCodeR-NF.json, kkzzhizhou/scoop-apps, 0
 bucket/EnvyUpdate-Portable.json, kkzzhizhou/scoop-apps, 0
 bucket/EpicGamesLauncher-Install.json, kkzzhizhou/scoop-apps, 0
 bucket/EpicGamesLauncher-Portable.json, kkzzhizhou/scoop-apps, 0
-bucket/EquationToolsGUI.json, kkzzhizhou/scoop-apps, 0
 bucket/EquationToolsGUI_Toddli468.json, kkzzhizhou/scoop-apps, 0
+bucket/EquationToolsGUI_kengwang.json, kkzzhizhou/scoop-apps, 0
 bucket/Eraser5-Portable.json, kkzzhizhou/scoop-apps, 0
 bucket/Eros-FE.json, kkzzhizhou/scoop-apps, 0
 bucket/Escrcpy_abgox.json, kkzzhizhou/scoop-apps, 0
@@ -4043,7 +4043,7 @@ bucket/cloudTools.json, kkzzhizhou/scoop-apps, 0
 bucket/cloudcompare-alpha.json, kkzzhizhou/scoop-apps, 0
 bucket/cloudcompare_ScoopInstaller.json, kkzzhizhou/scoop-apps, 0
 bucket/cloudflare-speedtest.json, kkzzhizhou/scoop-apps, 0
-bucket/cloudflare-speedtest_seumsc.json, kkzzhizhou/scoop-apps, 0
+bucket/cloudflare-speedtest_chawyehsu.json, kkzzhizhou/scoop-apps, 0
 bucket/cloudflared_DoveBoy.json, kkzzhizhou/scoop-apps, 0
 bucket/cloudflarespeedtest.json, kkzzhizhou/scoop-apps, 0
 bucket/cloudfoundry-cli.json, kkzzhizhou/scoop-apps, 0
@@ -4499,6 +4499,7 @@ bucket/deew.json, kkzzhizhou/scoop-apps, 0
 bucket/default-programs-editor.json, kkzzhizhou/scoop-apps, 0
 bucket/defender-control.json, kkzzhizhou/scoop-apps, 0
 bucket/defender-control_hu3rror.json, kkzzhizhou/scoop-apps, 0
+bucket/defendnot.json, kkzzhizhou/scoop-apps, 0
 bucket/defineEditor.json, kkzzhizhou/scoop-apps, 0
 bucket/defraggler.json, kkzzhizhou/scoop-apps, 0
 bucket/dehelper.json, ivaquero/scoopet, 0
@@ -5148,6 +5149,7 @@ bucket/epub-metadata-editor.json, kkzzhizhou/scoop-apps, 0
 bucket/eql-cli.json, kkzzhizhou/scoop-apps, 0
 bucket/equalizer-apo-np.json, kkzzhizhou/scoop-apps, 0
 bucket/equalizer-apo-np_ScoopInstaller.json, kkzzhizhou/scoop-apps, 0
+bucket/equationtoolsgui.json, kkzzhizhou/scoop-apps, 0
 bucket/eraser.json, kkzzhizhou/scoop-apps, 0
 bucket/ericw-tools.json, kkzzhizhou/scoop-apps, 0
 bucket/erlang@24.3.4.4.json, kkzzhizhou/scoop-apps, 0
@@ -6533,6 +6535,7 @@ bucket/hourglass-godot.json, kkzzhizhou/scoop-apps, 0
 bucket/hourglass.json, kkzzhizhou/scoop-apps, 0
 bucket/hoxs64.json, kkzzhizhou/scoop-apps, 0
 bucket/hoyo-gacha.json, kkzzhizhou/scoop-apps, 0
+bucket/hoyo.gacha.json, kkzzhizhou/scoop-apps, 0
 bucket/hp-support-assistant-np.json, kkzzhizhou/scoop-apps, 0
 bucket/hq.json, kkzzhizhou/scoop-apps, 0
 bucket/hqfpga.json, kkzzhizhou/scoop-apps, 0
@@ -7700,7 +7703,6 @@ bucket/ludo_Deide.json, kkzzhizhou/scoop-apps, 0
 bucket/ludusavi.json, kkzzhizhou/scoop-apps, 0
 bucket/ludwig.json, kkzzhizhou/scoop-apps, 0
 bucket/luminous-ttv.json, kkzzhizhou/scoop-apps, 0
-bucket/luna-translator.json, kkzzhizhou/scoop-apps, 0
 bucket/lunacy.json, kkzzhizhou/scoop-apps, 0
 bucket/lunar.json, kkzzhizhou/scoop-apps, 0
 bucket/lunarips.json, kkzzhizhou/scoop-apps, 0
@@ -12977,13 +12979,13 @@ bucket/vscode-portable-association.json, kkzzhizhou/scoop-apps, 0
 bucket/vscode-portable.json, kkzzhizhou/scoop-apps, 0
 bucket/vscode-portable32.json, kkzzhizhou/scoop-apps, 0
 bucket/vscode-win7.json, ivaquero/scoopet, 1
-bucket/vscode.json, kkzzhizhou/scoop-apps, 1
+bucket/vscode.json, kkzzhizhou/scoop-apps, 0
 bucket/vscode@1.59.1.json, kkzzhizhou/scoop-apps, 0
 bucket/vscode@1.64.0.json, kkzzhizhou/scoop-apps, 0
 bucket/vscode@1.68.1.json, kkzzhizhou/scoop-apps, 0
 bucket/vscode@1.76.2.json, kkzzhizhou/scoop-apps, 0
 bucket/vscode_ScoopInstaller.json, kkzzhizhou/scoop-apps, 1
-bucket/vscode_Weidows-projects.json, kkzzhizhou/scoop-apps, 0
+bucket/vscode_WinApps-share.json, kkzzhizhou/scoop-apps, 1
 bucket/vscode_akirco.json, kkzzhizhou/scoop-apps, 1
 bucket/vscode_rivy.json, kkzzhizhou/scoop-apps, 0
 bucket/vscodium-cn.json, ivaquero/scoopet, 1
