@@ -1,12 +1,12 @@
 {
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "🚧 ASIMOV module for Mbox email import.",
   "homepage": "https://github.com/asimov-modules/asimov-mbox-module",
   "license": "Unlicense",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/asimov-modules/asimov-mbox-module/releases/download/0.0.1/asimov-mbox-module-windows-x64.zip",
-      "hash": "sha256:0d3c169b8b579cc9e19cb41344c3576ba599851a24c1656072e49cac6f06c07d"
+      "url": "https://github.com/asimov-modules/asimov-mbox-module/releases/download/0.1.0/asimov-mbox-module-windows-x64.zip",
+      "hash": "21c3b87b0d71e3eee638d5f20270c4b8d4ae1bca2f27f00db6ad853cc65fd55a"
     }
   },
   "bin": [
