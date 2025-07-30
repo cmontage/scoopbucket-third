@@ -123,8 +123,8 @@ bucket/ActiveGo.json, kkzzhizhou/scoop-apps, 0
 bucket/ActiveMQ-Artemis_zhoujin7.json, kkzzhizhou/scoop-apps, 0
 bucket/ActiveMQ-Classic.json, kkzzhizhou/scoop-apps, 0
 bucket/AdGuardHome-Portable.json, kkzzhizhou/scoop-apps, 0
-bucket/AdGuardHome_ViCrack.json, kkzzhizhou/scoop-apps, 0
-bucket/AdguardHome.json, kkzzhizhou/scoop-apps, 0
+bucket/AdGuardHome.json, kkzzhizhou/scoop-apps, 0
+bucket/AdguardHome_dodorz.json, kkzzhizhou/scoop-apps, 0
 bucket/AdiIRC_zhoujin7.json, kkzzhizhou/scoop-apps, 0
 bucket/AdobeAcrobatReader-Install.json, kkzzhizhou/scoop-apps, 0
 bucket/AdobeCreativeCloud-ManualInstall.json, kkzzhizhou/scoop-apps, 0
@@ -2311,7 +2311,7 @@ bucket/UltimateWindowsTweakerWin10-Portable.json, kkzzhizhou/scoop-apps, 0
 bucket/UltraCodingSwitch.json, kkzzhizhou/scoop-apps, 0
 bucket/UltraCopier.json, kkzzhizhou/scoop-apps, 0
 bucket/UltraISO.json, kkzzhizhou/scoop-apps, 0
-bucket/UltraSearch.json, kkzzhizhou/scoop-apps, 0
+bucket/UltraSearch_dodorz.json, kkzzhizhou/scoop-apps, 0
 bucket/UltraUXThemePatcher.json, kkzzhizhou/scoop-apps, 0
 bucket/UmaAi.json, kkzzhizhou/scoop-apps, 0
 bucket/UmamusumeResponseAnalyzer.json, kkzzhizhou/scoop-apps, 0
@@ -3380,7 +3380,7 @@ bucket/biliTickerBuy.json, kkzzhizhou/scoop-apps, 0
 bucket/bilibili-backup.json, kkzzhizhou/scoop-apps, 0
 bucket/bilibili-backup_DoveBoy.json, kkzzhizhou/scoop-apps, 0
 bucket/bilibili-desktop.json, kkzzhizhou/scoop-apps, 0
-bucket/bilibili-livehime.json, kkzzhizhou/scoop-apps, 0
+bucket/bilibili-livehime.json, akirco/aki-apps, 0
 bucket/bilibili-manga-downloader.json, kkzzhizhou/scoop-apps, 0
 bucket/bilibili-manga-downloader_hu3rror.json, kkzzhizhou/scoop-apps, 0
 bucket/bilibili-toolkit.json, kkzzhizhou/scoop-apps, 0
@@ -6789,7 +6789,7 @@ bucket/innounp.json, akirco/aki-apps, 0
 bucket/innounp_DoveBoy.json, kkzzhizhou/scoop-apps, 0
 bucket/innounp_akirco.json, kkzzhizhou/scoop-apps, 0
 bucket/innounp_rivy.json, kkzzhizhou/scoop-apps, 0
-bucket/innounpacker.json, kkzzhizhou/scoop-apps, 0
+bucket/innounpacker.json, akirco/aki-apps, 0
 bucket/innounpacker_akirco.json, kkzzhizhou/scoop-apps, 0
 bucket/innounpacker_naderi.json, kkzzhizhou/scoop-apps, 0
 bucket/inputshare.json, kkzzhizhou/scoop-apps, 0
@@ -7151,7 +7151,7 @@ bucket/kawanime.json, kkzzhizhou/scoop-apps, 0
 bucket/kaxaml.json, kkzzhizhou/scoop-apps, 0
 bucket/kaxaml_Deide.json, kkzzhizhou/scoop-apps, 0
 bucket/kazumi.json, kkzzhizhou/scoop-apps, 0
-bucket/kazumi_DoveBoy.json, kkzzhizhou/scoop-apps, 0
+bucket/kazumi_wzv5.json, kkzzhizhou/scoop-apps, 0
 bucket/kbootopt.json, kkzzhizhou/scoop-apps, 0
 bucket/kcc.json, kkzzhizhou/scoop-apps, 0
 bucket/kcleaner.json, kkzzhizhou/scoop-apps, 0
@@ -7730,10 +7730,10 @@ bucket/lwc_akirco.json, kkzzhizhou/scoop-apps, 0
 bucket/lwp.json, kkzzhizhou/scoop-apps, 0
 bucket/lx-music-desktop-win7.json, kkzzhizhou/scoop-apps, 0
 bucket/lx-music-desktop.json, kkzzhizhou/scoop-apps, 0
-bucket/lx-music-desktop_DoveBoy.json, kkzzhizhou/scoop-apps, 0
 bucket/lx-music-desktop_hu3rror.json, kkzzhizhou/scoop-apps, 0
 bucket/lx-music-desktop_kkzzhizhou.json, kkzzhizhou/scoop-apps, 0
 bucket/lx-music-desktop_scoopcn.json, kkzzhizhou/scoop-apps, 0
+bucket/lx-music-desktop_wzv5.json, kkzzhizhou/scoop-apps, 0
 bucket/lx-music-desktop_ygguorun.json, kkzzhizhou/scoop-apps, 0
 bucket/lx-music-np.json, kkzzhizhou/scoop-apps, 0
 bucket/lx-music.json, ivaquero/scoopet, 0
@@ -8004,7 +8004,7 @@ bucket/microchip-mplabmindi.json, kkzzhizhou/scoop-apps, 0
 bucket/microdicom-dicom-viewer.json, kkzzhizhou/scoop-apps, 0
 bucket/micromamba-cn.json, kkzzhizhou/scoop-apps, 0
 bucket/micromamba.json, kkzzhizhou/scoop-apps, 0
-bucket/micromamba_chawyehsu.json, kkzzhizhou/scoop-apps, 0
+bucket/micromamba_ShuguangSun.json, kkzzhizhou/scoop-apps, 0
 bucket/microsip.json, kkzzhizhou/scoop-apps, 0
 bucket/microsoft-activation-scripts.json, kkzzhizhou/scoop-apps, 0
 bucket/microsoft-edge-beta-np.json, kkzzhizhou/scoop-apps, 0
@@ -9953,6 +9953,7 @@ bucket/pngquant.json, akirco/aki-apps, 0
 bucket/pngquant_akirco.json, kkzzhizhou/scoop-apps, 0
 bucket/pngyu.json, kkzzhizhou/scoop-apps, 0
 bucket/pnpm-tab-completion.json, kkzzhizhou/scoop-apps, 0
+bucket/pnpm.json, akirco/aki-apps, 0
 bucket/pnpm@8.15.4.json, kkzzhizhou/scoop-apps, 0
 bucket/pnpm_DoveBoy.json, kkzzhizhou/scoop-apps, 0
 bucket/pnpm_Weidows-projects.json, kkzzhizhou/scoop-apps, 0
@@ -10413,8 +10414,8 @@ bucket/qqlite-patch.json, kkzzhizhou/scoop-apps, 0
 bucket/qqlite.json, kkzzhizhou/scoop-apps, 0
 bucket/qqlive-cvp.json, kkzzhizhou/scoop-apps, 0
 bucket/qqlive.json, kkzzhizhou/scoop-apps, 0
-bucket/qqlive_DoveBoy.json, kkzzhizhou/scoop-apps, 0
 bucket/qqlive_echoiron.json, kkzzhizhou/scoop-apps, 0
+bucket/qqlive_wzv5.json, kkzzhizhou/scoop-apps, 0
 bucket/qqmusic-cvp.json, kkzzhizhou/scoop-apps, 0
 bucket/qqmusic.json, kkzzhizhou/scoop-apps, 0
 bucket/qqmusic_DoveBoy.json, kkzzhizhou/scoop-apps, 0
@@ -10465,7 +10466,7 @@ bucket/quakevr.json, kkzzhizhou/scoop-apps, 0
 bucket/qualitymuncher.json, kkzzhizhou/scoop-apps, 0
 bucket/quardcrt.json, kkzzhizhou/scoop-apps, 0
 bucket/quark-cloud-drive.json, kkzzhizhou/scoop-apps, 0
-bucket/quarkpan.json, kkzzhizhou/scoop-apps, 0
+bucket/quarkpan.json, akirco/aki-apps, 0
 bucket/quarkpantool.json, kkzzhizhou/scoop-apps, 0
 bucket/quarto-prerelease.json, kkzzhizhou/scoop-apps, 0
 bucket/quarto.json, kkzzhizhou/scoop-apps, 0
@@ -12388,7 +12389,7 @@ bucket/trackselect.json, kkzzhizhou/scoop-apps, 0
 bucket/tracy.json, kkzzhizhou/scoop-apps, 0
 bucket/tracy_naderi.json, kkzzhizhou/scoop-apps, 0
 bucket/tradingview.json, kkzzhizhou/scoop-apps, 0
-bucket/trae-cn.json, akirco/aki-apps, 0
+bucket/trae-cn.json, kkzzhizhou/scoop-apps, 0
 bucket/trae-cn_akirco.json, kkzzhizhou/scoop-apps, 0
 bucket/trae.json, kkzzhizhou/scoop-apps, 0
 bucket/traefik1.json, kkzzhizhou/scoop-apps, 0
@@ -12555,7 +12556,7 @@ bucket/ultraiso_SayCV.json, kkzzhizhou/scoop-apps, 0
 bucket/ultraiso_ScoopInstaller.json, kkzzhizhou/scoop-apps, 0
 bucket/ultraiso_echoiron.json, kkzzhizhou/scoop-apps, 0
 bucket/ultramarinviewer.json, kkzzhizhou/scoop-apps, 0
-bucket/ultrasearch_starise.json, kkzzhizhou/scoop-apps, 0
+bucket/ultrasearch.json, kkzzhizhou/scoop-apps, 0
 bucket/ultravnc.json, kkzzhizhou/scoop-apps, 0
 bucket/umaviewer.json, kkzzhizhou/scoop-apps, 0
 bucket/umbrello.json, kkzzhizhou/scoop-apps, 0
@@ -12992,7 +12993,7 @@ bucket/vscode-portable-association.json, kkzzhizhou/scoop-apps, 0
 bucket/vscode-portable.json, kkzzhizhou/scoop-apps, 0
 bucket/vscode-portable32.json, kkzzhizhou/scoop-apps, 0
 bucket/vscode-win7.json, ivaquero/scoopet, 1
-bucket/vscode.json, kkzzhizhou/scoop-apps, 0
+bucket/vscode.json, akirco/aki-apps, 1
 bucket/vscode@1.59.1.json, kkzzhizhou/scoop-apps, 0
 bucket/vscode@1.64.0.json, kkzzhizhou/scoop-apps, 0
 bucket/vscode@1.68.1.json, kkzzhizhou/scoop-apps, 0

@@ -1,0 +1,22 @@
+{
+  "homepage": "https://github.com/mamba-org/mamba",
+  "version": "2.3.1-0",
+  "license": "BSD-3-Clause",
+  "description": "The Fast Cross-Platform Package Manager",
+  "url": "https://micro.mamba.pm/api/micromamba/win-64/latest#/dl.tar.bz2",
+  "hash": "dacc5c8b505d73afbff788fd4677789a6c920b578398c9ae6ef31db721581943",
+  "bin": "Library\\bin\\micromamba.exe",
+  "persist": [
+    "envs",
+    "condabin",
+    "pkgs",
+    "Scripts"
+  ],
+  "checkver": {
+    "url": "https://anaconda.org/conda-forge/micromamba/files",
+    "regex": "win-64/micromamba-([\\d.-]+)\\.tar"
+  },
+  "autoupdate": {
+    "url": "https://micro.mamba.pm/api/micromamba/win-64/latest#/dl.tar.bz2"
+  }
+}
