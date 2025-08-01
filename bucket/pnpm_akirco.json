@@ -35,10 +35,7 @@
     ".pnpm-global\\.bin"
   ],
   "persist": [
-    ".pnpm-cache",
-    ".pnpm-store",
-    ".pnpm-global",
-    ".pnpm-state"
+    ".pnpm-global"
   ],
   "bin": [
     "pnpm.exe",
