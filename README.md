@@ -1,6 +1,6 @@
-<p align="center"><img src="https://gcore.jsdelivr.net/gh/cmontage/scoopbucket@main/bin/scoop.png" alt="Scoop Logo" ></p>
-
 <h1 align="center">Third Bucket All In One</h1>
+
+<p align="center"><img src="https://gcore.jsdelivr.net/gh/cmontage/scoopbucket@main/bin/scoop.png" width="100" alt="Scoop Logo"></p>
 
 将 Scoop 第三方库整合成一个 Bucket，每日同步，作为我的 [Scoop 官方整合库](https://github.com/cmontage/scoopbucket) 的拓展，安装应用时便于分辨官方源与第三方源，方便我自己自用。
 
