@@ -4879,6 +4879,7 @@ bucket/doublecmd.json, kkzzhizhou/scoop-apps, 0
 bucket/doublecmd_wangzq.json, kkzzhizhou/scoop-apps, 0
 bucket/doukutsu-rs.json, kkzzhizhou/scoop-apps, 0
 bucket/douyin-ide.json, kkzzhizhou/scoop-apps, 0
+bucket/douyin-streamingtool-10.3.2.json, ivaquero/scoopet, 0
 bucket/douyin-streamingtool.json, ivaquero/scoopet, 0
 bucket/douyin-streamingtool_Scoopforge.json, kkzzhizhou/scoop-apps, 0
 bucket/douyin.json, ivaquero/scoopet, 0
@@ -5098,7 +5099,7 @@ bucket/elasticsearch.json, kkzzhizhou/scoop-apps, 0
 bucket/elasticsearch1.json, kkzzhizhou/scoop-apps, 0
 bucket/elasticsearch2.json, kkzzhizhou/scoop-apps, 0
 bucket/elasticsearch5.json, kkzzhizhou/scoop-apps, 0
-bucket/electerm.json, kkzzhizhou/scoop-apps, 0
+bucket/electerm.json, akirco/aki-apps, 0
 bucket/electerm_SayCV.json, kkzzhizhou/scoop-apps, 0
 bucket/electerm_ScoopInstaller.json, kkzzhizhou/scoop-apps, 0
 bucket/electerm_akirco.json, kkzzhizhou/scoop-apps, 0
@@ -7063,7 +7064,6 @@ bucket/jexiftoolgui.json, kkzzhizhou/scoop-apps, 0
 bucket/jf-open-huninn.json, kkzzhizhou/scoop-apps, 0
 bucket/jianqiezhushou.json, kkzzhizhou/scoop-apps, 0
 bucket/jianying-pro.json, ivaquero/scoopet, 0
-bucket/jianying-pro5.json, kkzzhizhou/scoop-apps, 0
 bucket/jianying.json, kkzzhizhou/scoop-apps, 0
 bucket/jianyingpro-with-ffmpeg.json, kkzzhizhou/scoop-apps, 0
 bucket/jianyingpro.json, kkzzhizhou/scoop-apps, 0
@@ -7168,7 +7168,7 @@ bucket/jwt-hack.json, kkzzhizhou/scoop-apps, 0
 bucket/jwt_tool.json, kkzzhizhou/scoop-apps, 0
 bucket/jwt_tool_Toddli468.json, kkzzhizhou/scoop-apps, 0
 bucket/jxl-winthumb.json, kkzzhizhou/scoop-apps, 0
-bucket/jxl-winthumb_Small-Ku.json, kkzzhizhou/scoop-apps, 0
+bucket/jxl-winthumb_seumsc.json, kkzzhizhou/scoop-apps, 0
 bucket/jy-srt-tools.json, kkzzhizhou/scoop-apps, 0
 bucket/jyso.json, kkzzhizhou/scoop-apps, 0
 bucket/jyso_ViCrack.json, kkzzhizhou/scoop-apps, 0
@@ -8074,6 +8074,7 @@ bucket/micro_batkiz.json, kkzzhizhou/scoop-apps, 0
 bucket/microchip-filterlab.json, kkzzhizhou/scoop-apps, 0
 bucket/microchip-mplabmindi.json, kkzzhizhou/scoop-apps, 0
 bucket/microdicom-dicom-viewer.json, kkzzhizhou/scoop-apps, 0
+bucket/micromamba-cn-2.2.0.json, kkzzhizhou/scoop-apps, 0
 bucket/micromamba-cn.json, kkzzhizhou/scoop-apps, 0
 bucket/micromamba.json, kkzzhizhou/scoop-apps, 0
 bucket/micromamba_ShuguangSun.json, kkzzhizhou/scoop-apps, 0
@@ -10414,7 +10415,9 @@ bucket/python27.json, kkzzhizhou/scoop-apps, 0
 bucket/python310.json, kkzzhizhou/scoop-apps, 0
 bucket/python311.json, kkzzhizhou/scoop-apps, 1
 bucket/python312.json, kkzzhizhou/scoop-apps, 1
+bucket/python312_ShuguangSun.json, kkzzhizhou/scoop-apps, 1
 bucket/python313.json, kkzzhizhou/scoop-apps, 1
+bucket/python313_ShuguangSun.json, kkzzhizhou/scoop-apps, 1
 bucket/python35.json, kkzzhizhou/scoop-apps, 0
 bucket/python36.json, kkzzhizhou/scoop-apps, 0
 bucket/python37.json, kkzzhizhou/scoop-apps, 0
@@ -11841,7 +11844,6 @@ bucket/stash-dev_beer-psi.json, kkzzhizhou/scoop-apps, 0
 bucket/stash.json, kkzzhizhou/scoop-apps, 0
 bucket/stash_beer-psi.json, kkzzhizhou/scoop-apps, 0
 bucket/station.json, kkzzhizhou/scoop-apps, 0
-bucket/station_ScoopInstaller.json, kkzzhizhou/scoop-apps, 0
 bucket/status.json, kkzzhizhou/scoop-apps, 0
 bucket/statuspilatus.json, kkzzhizhou/scoop-apps, 0
 bucket/staxrip.json, kkzzhizhou/scoop-apps, 0
@@ -13100,13 +13102,13 @@ bucket/vscode-portable-association.json, kkzzhizhou/scoop-apps, 0
 bucket/vscode-portable.json, kkzzhizhou/scoop-apps, 0
 bucket/vscode-portable32.json, kkzzhizhou/scoop-apps, 0
 bucket/vscode-win7.json, ivaquero/scoopet, 1
-bucket/vscode.json, kkzzhizhou/scoop-apps, 1
+bucket/vscode.json, kkzzhizhou/scoop-apps, 0
 bucket/vscode@1.59.1.json, kkzzhizhou/scoop-apps, 0
 bucket/vscode@1.64.0.json, kkzzhizhou/scoop-apps, 0
 bucket/vscode@1.68.1.json, kkzzhizhou/scoop-apps, 0
 bucket/vscode@1.76.2.json, kkzzhizhou/scoop-apps, 0
 bucket/vscode_ScoopInstaller.json, kkzzhizhou/scoop-apps, 1
-bucket/vscode_Weidows-projects.json, kkzzhizhou/scoop-apps, 0
+bucket/vscode_WinApps-share.json, kkzzhizhou/scoop-apps, 1
 bucket/vscode_akirco.json, kkzzhizhou/scoop-apps, 1
 bucket/vscode_rivy.json, kkzzhizhou/scoop-apps, 0
 bucket/vscodium-it.json, kkzzhizhou/scoop-apps, 1
