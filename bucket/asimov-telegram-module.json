@@ -1,12 +1,12 @@
 {
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "🚧 ASIMOV module for integration with the Telegram messaging service.",
   "homepage": "https://github.com/asimov-modules/asimov-telegram-module",
   "license": "Unlicense",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/asimov-modules/asimov-telegram-module/releases/download/0.0.1/asimov-telegram-module-windows-x64.zip",
-      "hash": "sha256:6caca9a50835c732a5b13732dc08d017ab56b1726d4a7fa19e1f1b540dd90478"
+      "url": "https://github.com/asimov-modules/asimov-telegram-module/releases/download/0.0.2/asimov-telegram-module-windows-x64.zip",
+      "hash": "e7d188d1baafceba2a63643435d42757752dc4cde810a08904159d7c7fa4932d"
     }
   },
   "bin": [
