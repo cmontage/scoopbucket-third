@@ -498,6 +498,7 @@ bucket/CrystalDiskInfo-Shizuku_AkariiinMKII.json, kkzzhizhou/scoop-apps, 0
 bucket/CrystalDiskMark-Aoi_AkariiinMKII.json, kkzzhizhou/scoop-apps, 0
 bucket/CrystalDiskMark-Shizuku_AkariiinMKII.json, kkzzhizhou/scoop-apps, 0
 bucket/CrystalMark-Retro-Aoi.json, kkzzhizhou/scoop-apps, 0
+bucket/CrystalMark-Retro-Shizuku.json, kkzzhizhou/scoop-apps, 0
 bucket/Cursor_Weidows-projects.json, kkzzhizhou/scoop-apps, 0
 bucket/Cursor_abgox.json, kkzzhizhou/scoop-apps, 0
 bucket/CuteHttpFileServer-Portable.json, kkzzhizhou/scoop-apps, 0
@@ -836,7 +837,6 @@ bucket/GSpot.json, kkzzhizhou/scoop-apps, 0
 bucket/GTFOBLookup.json, kkzzhizhou/scoop-apps, 0
 bucket/GUI.for.SingBox.json, kkzzhizhou/scoop-apps, 0
 bucket/GaaihoReader.json, kkzzhizhou/scoop-apps, 0
-bucket/GaiaSky.json, kkzzhizhou/scoop-apps, 0
 bucket/Game-Cheats-Manager.json, kkzzhizhou/scoop-apps, 0
 bucket/GameMakerStudio2-ManualInstall.json, kkzzhizhou/scoop-apps, 0
 bucket/Gammadyne-CLI.json, kkzzhizhou/scoop-apps, 0
@@ -1746,6 +1746,7 @@ bucket/QQ_kkzzhizhou.json, kkzzhizhou/scoop-apps, 0
 bucket/QR-Desktop.json, kkzzhizhou/scoop-apps, 0
 bucket/QTranslate.json, kkzzhizhou/scoop-apps, 0
 bucket/QiDian.json, kkzzhizhou/scoop-apps, 0
+bucket/Qoder.json, kkzzhizhou/scoop-apps, 0
 bucket/QtDesigner.json, kkzzhizhou/scoop-apps, 0
 bucket/QtPass_dodorz.json, kkzzhizhou/scoop-apps, 0
 bucket/QtScrcpy_abgox.json, kkzzhizhou/scoop-apps, 0
@@ -2629,6 +2630,7 @@ bucket/Zoom-Portable.json, kkzzhizhou/scoop-apps, 0
 bucket/Zoom-Portable_ACooper81.json, kkzzhizhou/scoop-apps, 0
 bucket/Zotero-Install.json, kkzzhizhou/scoop-apps, 0
 bucket/Zotero_abgox.json, kkzzhizhou/scoop-apps, 0
+bucket/a-slower-speed-of-light.json, kkzzhizhou/scoop-apps, 0
 bucket/a7800.json, kkzzhizhou/scoop-apps, 0
 bucket/aDrive_ygguorun.json, kkzzhizhou/scoop-apps, 0
 bucket/aTunes.json, kkzzhizhou/scoop-apps, 0
@@ -4839,7 +4841,6 @@ bucket/dooble.json, kkzzhizhou/scoop-apps, 0
 bucket/doom-remake4.json, kkzzhizhou/scoop-apps, 0
 bucket/doom-retro.json, kkzzhizhou/scoop-apps, 0
 bucket/doomlauncher.json, kkzzhizhou/scoop-apps, 0
-bucket/doomrl.json, kkzzhizhou/scoop-apps, 0
 bucket/doomrunner.json, kkzzhizhou/scoop-apps, 0
 bucket/doomsday.json, kkzzhizhou/scoop-apps, 0
 bucket/dopamine-legacy.json, kkzzhizhou/scoop-apps, 0
@@ -4946,6 +4947,7 @@ bucket/drivers-backup.json, kkzzhizhou/scoop-apps, 0
 bucket/driverstoreexplorer.json, kkzzhizhou/scoop-apps, 0
 bucket/driverview.json, kkzzhizhou/scoop-apps, 0
 bucket/driverview_kodybrown.json, kkzzhizhou/scoop-apps, 0
+bucket/drl.json, kkzzhizhou/scoop-apps, 0
 bucket/drmemory@2.6.20103.json, kkzzhizhou/scoop-apps, 0
 bucket/drmemory_rivy.json, kkzzhizhou/scoop-apps, 0
 bucket/droidcam.json, kkzzhizhou/scoop-apps, 0
@@ -7181,7 +7183,7 @@ bucket/jwt-hack.json, kkzzhizhou/scoop-apps, 0
 bucket/jwt_tool.json, kkzzhizhou/scoop-apps, 0
 bucket/jwt_tool_Toddli468.json, kkzzhizhou/scoop-apps, 0
 bucket/jxl-winthumb.json, kkzzhizhou/scoop-apps, 0
-bucket/jxl-winthumb_seumsc.json, kkzzhizhou/scoop-apps, 0
+bucket/jxl-winthumb_Small-Ku.json, kkzzhizhou/scoop-apps, 0
 bucket/jy-srt-tools.json, kkzzhizhou/scoop-apps, 0
 bucket/jyso.json, kkzzhizhou/scoop-apps, 0
 bucket/jyso_ViCrack.json, kkzzhizhou/scoop-apps, 0
@@ -11302,6 +11304,7 @@ bucket/scoop-tab-completion.json, kkzzhizhou/scoop-apps, 0
 bucket/scoop-validator_DoveBoy.json, kkzzhizhou/scoop-apps, 0
 bucket/scooper.json, kkzzhizhou/scoop-apps, 0
 bucket/scopy.json, kkzzhizhou/scoop-apps, 0
+bucket/scp-containment-breach.json, kkzzhizhou/scoop-apps, 0
 bucket/scratch.json, kkzzhizhou/scoop-apps, 0
 bucket/scrawler.json, kkzzhizhou/scoop-apps, 0
 bucket/scrcpy-gui.json, kkzzhizhou/scoop-apps, 0
@@ -13137,7 +13140,7 @@ bucket/vscode-portable-association.json, kkzzhizhou/scoop-apps, 0
 bucket/vscode-portable.json, kkzzhizhou/scoop-apps, 0
 bucket/vscode-portable32.json, kkzzhizhou/scoop-apps, 0
 bucket/vscode-win7.json, ivaquero/scoopet, 1
-bucket/vscode.json, akirco/aki-apps, 1
+bucket/vscode.json, kkzzhizhou/scoop-apps, 0
 bucket/vscode@1.59.1.json, kkzzhizhou/scoop-apps, 0
 bucket/vscode@1.64.0.json, kkzzhizhou/scoop-apps, 0
 bucket/vscode@1.68.1.json, kkzzhizhou/scoop-apps, 0
