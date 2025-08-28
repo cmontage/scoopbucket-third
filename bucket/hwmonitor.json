@@ -5,7 +5,7 @@
   "license": "Unknown",
   "architecture": {
     "64bit": {
-      "url": "http://download.cpuid.com/hwmonitor/hwmonitor_1.59.zip",
+      "url": "https://download.cpuid.com/hwmonitor/hwmonitor_1.59.zip",
       "hash": "fb842546561f86e6137a1c879327a0b1863a6a4f7766462fef20211dcc48861e",
       "bin": [
         [
@@ -21,7 +21,7 @@
       ]
     },
     "32bit": {
-      "url": "http://download.cpuid.com/hwmonitor/hwmonitor_1.59.zip",
+      "url": "https://download.cpuid.com/hwmonitor/hwmonitor_1.59.zip",
       "hash": "fb842546561f86e6137a1c879327a0b1863a6a4f7766462fef20211dcc48861e",
       "bin": [
         [
@@ -41,10 +41,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "http://download.cpuid.com/hwmonitor/hwmonitor_$version.zip"
+        "url": "https://download.cpuid.com/hwmonitor/hwmonitor_$version.zip"
       },
       "32bit": {
-        "url": "http://download.cpuid.com/hwmonitor/hwmonitor_$version.zip"
+        "url": "https://download.cpuid.com/hwmonitor/hwmonitor_$version.zip"
       }
     }
   }
