@@ -3,19 +3,13 @@
   "description": "A lightweight free Spotify client, which handles playback manually, streams music using Youtube & no Spotify premium account is needed.",
   "homepage": "https://spotube.krtirtho.dev/",
   "license": "BSD-4-Clause",
-  "depends": "aki/innounpacker",
   "architecture": {
     "64bit": {
       "url": "https://github.com/KRTirtho/spotube/releases/download/v5.0.0/Spotube-windows-x86_64-setup.exe",
       "hash": "70df975e4c92975f07c724666a5c11c98d6ae1b471e1665b611b46079ef6cbba"
     }
   },
-  "pre_install": [
-    "innounpack.exe -x -d\"$dir\" \"$dir\\Spotube-windows-x86_64-setup.exe\" | Out-Null",
-    "Move-Item -Force -Path \"$dir\\{app}\\*\" -Destination \"$dir\"",
-    "Remove-Item -Force -Path \"$dir\\{app}\" -Recurse",
-    "Remove-Item -Force -Path \"$dir\\{tmp}\" -Recurse"
-  ],
+  "innosetup": true,
   "shortcuts": [
     [
       "spotube.exe",
