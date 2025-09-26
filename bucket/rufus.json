@@ -3,8 +3,20 @@
   "description": "A utility that helps format and create bootable USB flash drives.",
   "homepage": "https://rufus.ie/",
   "license": "GPL-3.0-only",
-  "url": "https://github.com/pbatard/rufus/releases/download/v4.10/rufus-4.10p.exe#/rufus.exe",
-  "hash": "286912931e906857911ea7efff981bf804a42e569b49f94b9d52ad354e577775",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/pbatard/rufus/releases/download/v4.10/rufus-4.10.exe#/rufus.exe",
+      "hash": "286912931e906857911ea7efff981bf804a42e569b49f94b9d52ad354e577775"
+    },
+    "32bit": {
+      "url": "https://github.com/pbatard/rufus/releases/download/v4.10/rufus-4.10_x86.exe#/rufus.exe",
+      "hash": "e35d98ff73fbf7d09ab6cac73f65c7ef959c2b5810a53cc803acca4a7f8a7023"
+    },
+    "arm64": {
+      "url": "https://github.com/pbatard/rufus/releases/download/v4.10/rufus-4.10_arm64.exe#/rufus.exe",
+      "hash": "92b2f9d1ad82e6d48c8c74f118c0a13afdc1080bb0f9326f5c3f38214f2da384"
+    }
+  },
   "pre_install": "if (!(Test-Path \"$persist_dir\\rufus.ini\")) { New-Item \"$dir\\rufus.ini\" | Out-Null }",
   "bin": "rufus.exe",
   "shortcuts": [
@@ -21,6 +33,16 @@
     "github": "https://github.com/pbatard/rufus"
   },
   "autoupdate": {
-    "url": "https://github.com/pbatard/rufus/releases/download/v$version/rufus-$versionp.exe#/rufus.exe"
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/pbatard/rufus/releases/download/v$version/rufus-$version.exe#/rufus.exe"
+      },
+      "32bit": {
+        "url": "https://github.com/pbatard/rufus/releases/download/v$version/rufus-$version_x86.exe#/rufus.exe"
+      },
+      "arm64": {
+        "url": "https://github.com/pbatard/rufus/releases/download/v$version/rufus-$version_arm64.exe#/rufus.exe"
+      }
+    }
   }
 }
