@@ -3448,7 +3448,7 @@ bucket/applicationinspector.json, kkzzhizhou/scoop-apps, 0
 bucket/appnetworkcounter.json, kkzzhizhou/scoop-apps, 0
 bucket/appnetworkcounter_ScoopInstaller.json, kkzzhizhou/scoop-apps, 0
 bucket/appreadwritecounter.json, kkzzhizhou/scoop-apps, 0
-bucket/appreadwritecounter_ScoopInstaller.json, kkzzhizhou/scoop-apps, 0
+bucket/appreadwritecounter_kodybrown.json, kkzzhizhou/scoop-apps, 0
 bucket/appresourcesusageview.json, kkzzhizhou/scoop-apps, 0
 bucket/appresourcesusageview_kodybrown.json, kkzzhizhou/scoop-apps, 0
 bucket/apprhyme.json, kkzzhizhou/scoop-apps, 0
@@ -6722,9 +6722,11 @@ bucket/godap.json, kkzzhizhou/scoop-apps, 0
 bucket/godmode.json, kkzzhizhou/scoop-apps, 0
 bucket/godot-alpha.json, kkzzhizhou/scoop-apps, 0
 bucket/godot-beta.json, kkzzhizhou/scoop-apps, 0
+bucket/godot-dev.json, kkzzhizhou/scoop-apps, 0
 bucket/godot-lts.json, kkzzhizhou/scoop-apps, 0
 bucket/godot-manager.json, kkzzhizhou/scoop-apps, 0
 bucket/godot-mono-beta.json, kkzzhizhou/scoop-apps, 0
+bucket/godot-mono-dev.json, kkzzhizhou/scoop-apps, 0
 bucket/godot-mono-lts.json, kkzzhizhou/scoop-apps, 0
 bucket/godot-mono-rc.json, kkzzhizhou/scoop-apps, 0
 bucket/godot-mono.json, kkzzhizhou/scoop-apps, 0
@@ -9124,7 +9126,7 @@ bucket/nasm_rivy.json, kkzzhizhou/scoop-apps, 0
 bucket/natron.json, kkzzhizhou/scoop-apps, 0
 bucket/natscli.json, kkzzhizhou/scoop-apps, 0
 bucket/nattypetester.json, kkzzhizhou/scoop-apps, 0
-bucket/nattypetester_DoveBoy.json, kkzzhizhou/scoop-apps, 0
+bucket/nattypetester_chawyehsu.json, kkzzhizhou/scoop-apps, 0
 bucket/nattypetester_wzv5.json, kkzzhizhou/scoop-apps, 0
 bucket/natural-docs.json, kkzzhizhou/scoop-apps, 0
 bucket/natural-voice-sapi-adapter.json, kkzzhizhou/scoop-apps, 0
@@ -11699,7 +11701,7 @@ bucket/runelite.json, kkzzhizhou/scoop-apps, 0
 bucket/runelite_Deide.json, kkzzhizhou/scoop-apps, 0
 bucket/runfromprocess.json, kkzzhizhou/scoop-apps, 0
 bucket/runfromprocess_ScoopInstaller.json, kkzzhizhou/scoop-apps, 0
-bucket/runjs.json, kkzzhizhou/scoop-apps, 0
+bucket/runjs.json, akirco/aki-apps, 0
 bucket/runtimeclassesview.json, kkzzhizhou/scoop-apps, 0
 bucket/runtimeclassesview_ScoopInstaller.json, kkzzhizhou/scoop-apps, 0
 bucket/rust-msvc-nightly.json, kkzzhizhou/scoop-apps, 0
@@ -14078,6 +14080,7 @@ bucket/winauth-portable.json, kkzzhizhou/scoop-apps, 0
 bucket/winauth.json, kkzzhizhou/scoop-apps, 0
 bucket/winbox-beta.json, kkzzhizhou/scoop-apps, 0
 bucket/winbox.json, kkzzhizhou/scoop-apps, 0
+bucket/winbox4.json, kkzzhizhou/scoop-apps, 0
 bucket/winbtrfs-np.json, kkzzhizhou/scoop-apps, 0
 bucket/winbtrfs-np_ScoopInstaller.json, kkzzhizhou/scoop-apps, 0
 bucket/winbtrfs.json, kkzzhizhou/scoop-apps, 0
@@ -14710,7 +14713,6 @@ bucket/youtube-downloader-hd.json, kkzzhizhou/scoop-apps, 0
 bucket/youtube-local.json, kkzzhizhou/scoop-apps, 0
 bucket/youtube-music.json, kkzzhizhou/scoop-apps, 0
 bucket/youtubedownloader.json, kkzzhizhou/scoop-apps, 0
-bucket/youtubedownloader_akirco.json, kkzzhizhou/scoop-apps, 0
 bucket/yq.json, akirco/aki-apps, 0
 bucket/yq_akirco.json, kkzzhizhou/scoop-apps, 0
 bucket/yquake2-ref-vk.json, kkzzhizhou/scoop-apps, 0
