@@ -10,7 +10,7 @@ bucket/10x-np.json, kkzzhizhou/scoop-apps, 0
 bucket/115.json, kkzzhizhou/scoop-apps, 0
 bucket/115chrome.json, kkzzhizhou/scoop-apps, 0
 bucket/11game-platform.json, kkzzhizhou/scoop-apps, 0
-bucket/123pan.json, akirco/aki-apps, 0
+bucket/123pan.json, kkzzhizhou/scoop-apps, 0
 bucket/123pan_DoveBoy.json, kkzzhizhou/scoop-apps, 0
 bucket/123pan_abgox.json, kkzzhizhou/scoop-apps, 0
 bucket/163MusicLyrics-lite.json, kkzzhizhou/scoop-apps, 0
@@ -1593,6 +1593,7 @@ bucket/Mitr.json, kkzzhizhou/scoop-apps, 0
 bucket/Mixxx-Portable.json, kkzzhizhou/scoop-apps, 0
 bucket/MixxxPortable.json, kkzzhizhou/scoop-apps, 0
 bucket/MnemosynePortable.json, kkzzhizhou/scoop-apps, 0
+bucket/Mobaxterm-Chinese.json, kkzzhizhou/scoop-apps, 0
 bucket/ModOrganizer.json, kkzzhizhou/scoop-apps, 0
 bucket/ModernFlyouts-Portable.json, kkzzhizhou/scoop-apps, 0
 bucket/ModernFlyouts-UserInstall.json, kkzzhizhou/scoop-apps, 0
@@ -3695,6 +3696,7 @@ bucket/axmlprinter.json, kkzzhizhou/scoop-apps, 0
 bucket/axure.json, kkzzhizhou/scoop-apps, 0
 bucket/aya.json, kkzzhizhou/scoop-apps, 0
 bucket/ayugram.json, kkzzhizhou/scoop-apps, 0
+bucket/az-tui.json, kkzzhizhou/scoop-apps, 0
 bucket/azahar.json, kkzzhizhou/scoop-apps, 0
 bucket/azahar_Deide.json, kkzzhizhou/scoop-apps, 0
 bucket/azahar_babo4d.json, kkzzhizhou/scoop-apps, 0
@@ -5392,7 +5394,7 @@ bucket/dotnetversions.json, kkzzhizhou/scoop-apps, 0
 bucket/dotter_batkiz.json, kkzzhizhou/scoop-apps, 0
 bucket/dottorrent-gui.json, kkzzhizhou/scoop-apps, 0
 bucket/dottrace.json, kkzzhizhou/scoop-apps, 0
-bucket/doubao.json, akirco/aki-apps, 0
+bucket/doubao.json, kkzzhizhou/scoop-apps, 0
 bucket/double-finder.json, kkzzhizhou/scoop-apps, 0
 bucket/doublecmd-beta.json, kkzzhizhou/scoop-apps, 0
 bucket/doublecmd.json, kkzzhizhou/scoop-apps, 0
@@ -9362,6 +9364,7 @@ bucket/nodejs16.json, kkzzhizhou/scoop-apps, 1
 bucket/nodejs18.json, kkzzhizhou/scoop-apps, 1
 bucket/nodejs20.json, kkzzhizhou/scoop-apps, 1
 bucket/nodejs22.json, kkzzhizhou/scoop-apps, 1
+bucket/nodejs24.json, kkzzhizhou/scoop-apps, 1
 bucket/nodejs4.json, kkzzhizhou/scoop-apps, 1
 bucket/nodejs5.json, kkzzhizhou/scoop-apps, 1
 bucket/nodejs6.json, kkzzhizhou/scoop-apps, 1
@@ -10765,7 +10768,7 @@ bucket/postgresql16.json, kkzzhizhou/scoop-apps, 0
 bucket/postgresql17.json, kkzzhizhou/scoop-apps, 0
 bucket/postman-canary.json, kkzzhizhou/scoop-apps, 0
 bucket/postman-cn.json, kkzzhizhou/scoop-apps, 0
-bucket/postman.json, akirco/aki-apps, 0
+bucket/postman.json, kkzzhizhou/scoop-apps, 0
 bucket/postman9.json, kkzzhizhou/scoop-apps, 0
 bucket/postman_akirco.json, kkzzhizhou/scoop-apps, 0
 bucket/pot-desktop.json, ivaquero/scoopet, 0
@@ -11755,7 +11758,7 @@ bucket/rustcat.json, kkzzhizhou/scoop-apps, 0
 bucket/rustclock.json, kkzzhizhou/scoop-apps, 0
 bucket/rustdesk-nightly.json, kkzzhizhou/scoop-apps, 0
 bucket/rustdesk.json, kkzzhizhou/scoop-apps, 0
-bucket/rustdesk_DoveBoy.json, kkzzhizhou/scoop-apps, 0
+bucket/rustdesk_ScoopInstaller.json, kkzzhizhou/scoop-apps, 0
 bucket/rustdesk_akirco.json, kkzzhizhou/scoop-apps, 0
 bucket/rustdesk_kkzzhizhou.json, kkzzhizhou/scoop-apps, 0
 bucket/rustrover.json, kkzzhizhou/scoop-apps, 1
@@ -12688,6 +12691,7 @@ bucket/suo5_ViCrack.json, kkzzhizhou/scoop-apps, 0
 bucket/suo5_kengwang.json, kkzzhizhou/scoop-apps, 0
 bucket/super-msconfig.json, kkzzhizhou/scoop-apps, 0
 bucket/super-productivity.json, kkzzhizhou/scoop-apps, 0
+bucket/super-productivity_ShuguangSun.json, kkzzhizhou/scoop-apps, 0
 bucket/super-xray.json, kkzzhizhou/scoop-apps, 0
 bucket/superProductivity.json, kkzzhizhou/scoop-apps, 0
 bucket/superSearchPlus.json, kkzzhizhou/scoop-apps, 0
@@ -12758,6 +12762,7 @@ bucket/syncthingctl.json, kkzzhizhou/scoop-apps, 0
 bucket/syncthingtray.json, kkzzhizhou/scoop-apps, 0
 bucket/synctoy.json, kkzzhizhou/scoop-apps, 0
 bucket/synctrayzor.json, kkzzhizhou/scoop-apps, 0
+bucket/synctrayzor1.json, kkzzhizhou/scoop-apps, 0
 bucket/synfig-studio.json, kkzzhizhou/scoop-apps, 0
 bucket/synology-surveillance-station.json, kkzzhizhou/scoop-apps, 0
 bucket/synopsys-installer35-wsl.json, kkzzhizhou/scoop-apps, 0
@@ -13204,8 +13209,8 @@ bucket/trackselect.json, kkzzhizhou/scoop-apps, 0
 bucket/tracy.json, kkzzhizhou/scoop-apps, 0
 bucket/tracy_naderi.json, kkzzhizhou/scoop-apps, 0
 bucket/tradingview.json, kkzzhizhou/scoop-apps, 0
-bucket/trae-cn.json, akirco/aki-apps, 0
-bucket/trae-cn_akirco.json, kkzzhizhou/scoop-apps, 0
+bucket/trae-cn.json, kkzzhizhou/scoop-apps, 0
+bucket/trae-cn_chawyehsu.json, kkzzhizhou/scoop-apps, 0
 bucket/trae.json, kkzzhizhou/scoop-apps, 0
 bucket/traefik1.json, kkzzhizhou/scoop-apps, 0
 bucket/trafficmonitor-lite.json, kkzzhizhou/scoop-apps, 0
