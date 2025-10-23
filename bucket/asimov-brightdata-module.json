@@ -1,12 +1,12 @@
 {
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "🚧 ASIMOV module for data import powered by the Bright Data web data platform.",
   "homepage": "https://github.com/asimov-modules/asimov-brightdata-module",
   "license": "Unlicense",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/asimov-modules/asimov-brightdata-module/releases/download/0.0.5/asimov-brightdata-module-windows-x64.zip",
-      "hash": "sha256:112e2b99bc294ae6cd206c9b74377010e7d6ceb5b772c2eecf3bc7d158211dde"
+      "url": "https://github.com/asimov-modules/asimov-brightdata-module/releases/download/0.0.6/asimov-brightdata-module-windows-x64.zip",
+      "hash": "82ee0e9944b9ee13a62fdebfaac6887c06e33af8593c396c5d9e420f14054ca9"
     }
   },
   "bin": [
