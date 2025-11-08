@@ -1,12 +1,12 @@
 {
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "homepage": "https://github.com/asimov-modules/asimov-mlx-module",
   "license": "Unlicense",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/asimov-modules/asimov-mlx-module/releases/download/0.0.1/asimov-mlx-module-windows-x64.zip",
-      "hash": "sha256:876e0802df4570af5bf8d33994f637b554620fea223b115882424e77fdaeb767"
+      "url": "https://github.com/asimov-modules/asimov-mlx-module/releases/download/0.0.2/asimov-mlx-module-windows-x64.zip",
+      "hash": "41e7fa17e032087506f294b49794ea79244825f4350da5db37dc9002ffb29b89"
     }
   },
   "bin": "asimov-mlx-prompter.exe",

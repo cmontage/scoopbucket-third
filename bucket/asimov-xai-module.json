@@ -1,12 +1,12 @@
 {
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "homepage": "https://github.com/asimov-modules/asimov-xai-module",
   "license": "Unlicense",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/asimov-modules/asimov-xai-module/releases/download/0.0.1/asimov-xai-module-windows-x64.zip",
-      "hash": "sha256:1326a454377256bdf1eb68d21ce91a807df95de979e497d4545708fff8589e8e"
+      "url": "https://github.com/asimov-modules/asimov-xai-module/releases/download/0.0.2/asimov-xai-module-windows-x64.zip",
+      "hash": "d0f3ec1b05f71bce1576e94211abb19f386a9fe879014b17b30644d612f71211"
     }
   },
   "bin": "asimov-xai-prompter.exe",
