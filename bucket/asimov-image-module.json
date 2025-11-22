@@ -1,12 +1,12 @@
 {
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ASIMOV Module for Image I/O",
   "homepage": "https://github.com/asimov-modules/asimov-image-module",
   "license": "Unlicense",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/asimov-modules/asimov-image-module/releases/download/0.0.1/asimov-image-module-windows-x64.zip",
-      "hash": "sha256:09b4c06201be87a9d134883104ec57d7fec0ef0c573f1b2ab644a29d4d919718"
+      "url": "https://github.com/asimov-modules/asimov-image-module/releases/download/0.0.2/asimov-image-module-windows-x64.zip",
+      "hash": "980f11357161f991baeddc014930e466e569d92f4c86fbe1b422b809fb31fe30"
     }
   },
   "bin": "asimov-image-reader.exe",
