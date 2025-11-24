@@ -28,7 +28,8 @@
   ],
   "checkver": {
     "github": "https://github.com/Rosalie241/RMG",
-    "regex": "v([\\d\\.]+)"
+    "regex": "v(?<version>[0-9]+\\.[0-9]+(?:\\.[0-9]+)?)",
+    "replace": "${version}"
   },
   "autoupdate": {
     "architecture": {
