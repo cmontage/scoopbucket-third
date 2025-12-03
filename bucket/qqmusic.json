@@ -1,25 +1,29 @@
 {
-  "version": "2192",
+  "version": "21.96",
+  "description": "The official QQ Music client.",
   "homepage": "https://y.qq.com/",
   "license": "Freeware",
-  "url": "https://sw.pcmgr.qq.com/d21b4f185f0f07ef2f7408364f7913d0/68d9f12e/spcmgr/download/QQMusic_Setup_2192.exe#/dl.7z",
-  "hash": "f6c6d0d41b886590d8a840033b249a1d86d63bf01173a5dc8071790cac092f07",
-  "post_install": "Copy-Item \"$dir\\QQMusic.tpc\" \"$dir\\instok\"",
+  "notes": "We don't persist your QQMusic data, they are still storaged in '%LOCALAPPDATA%\\Tencent\\QQMusic'.",
+  "url": "https://c.y.qq.com/cgi-bin/file_redirect.fcg?bid=dldir&file=ecosfile%2Fmusic_clntupate%2Fpc%2Fother%2FQQMusic_Setup_2196.exe&sign=1-3a8c352f31e08d7e71ad9ac307d21395c02b8789c622e129a8edbc31934507ad-692d7f5f#/dl.7z",
+  "hash": "b1a63efb25b44d88383574a3c623a8447358ba1aa38b404541201820c06cca34",
   "shortcuts": [
     [
       "QQMusic.exe",
-      "QQMusic"
+      "QQ Music"
     ]
   ],
   "checkver": {
     "script": [
-      "$res = Invoke-WebRequest -UseBasicParsing -Uri 'https://luban.m.qq.com/api/public/software-manager/softwareProxy' -Body 'cmdid=3318&jprxReq%5Breq%5D%5Bsoft_id_list%5D%5B%5D=10' -Method 'POST'",
-      "Write-Output $res.Content"
+      ". \"$pwd\\bin\\utils.ps1\"",
+      "$dl_info = get_installer_info 'Tencent/QQMusic'",
+      "\"ver:$($dl_info.PackageVersion);\"",
+      "\"x64:$($dl_info.x64.InstallerUrl);\"",
+      "\"hash:$($dl_info.x64_exe.InstallerSha256);\""
     ],
-    "jsonpath": "$.resp.soft_list[0].download_https_url",
-    "regex": "//(?<url>.+)/QQMusic_Setup_(\\d+)\\.exe"
+    "regex": "ver:(?<version>[^;]+)(?:; x64:(?<x64>[^;]*))?(?:; x86:(?<x86>[^;]*))?(?:; arm64:(?<arm64>[^;]*))?"
   },
   "autoupdate": {
-    "url": "https://$matchUrl/QQMusic_Setup_$version.exe#/dl.7z"
+    "url": "$matchX64#/dl.7z",
+    "hash": "$matchHash"
   }
 }

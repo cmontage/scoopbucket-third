@@ -1,45 +1,43 @@
 {
-  "version": "2.10.8",
-  "description": "A snipping tool, which allows you to pin the screenshot back onto the screen.",
   "homepage": "https://www.snipaste.com/",
-  "license": "Unknown",
-  "suggest": {
-    "vcredist": "extras/vcredist2022"
-  },
+  "description": "A snipping tool, which allows you to pin the screenshot back onto the screen.",
+  "version": "2.9.2-Beta",
+  "license": "Proprietary",
   "architecture": {
     "64bit": {
-      "url": "https://download.snipaste.com/archives/Snipaste-2.10.8-x64.zip",
-      "hash": "sha1:92c0de0761e62aeba465dd4bf5c33f7f014e7611"
+      "url": "https://bitbucket.org/liule/snipaste/downloads/Snipaste-2.9.2-Beta-x64.zip",
+      "hash": "sha1:eb39192ff6534e9a56b06b3a4fd211bcfc54a1c6"
     },
     "32bit": {
-      "url": "https://download.snipaste.com/archives/Snipaste-2.10.8-x86.zip",
-      "hash": "sha1:b6bcd6deb78fe3aa12103739610111e63541a4fb"
+      "url": "https://bitbucket.org/liule/snipaste/downloads/Snipaste-2.9.2-Beta-x86.zip",
+      "hash": "sha1:ca22bde7ce765e60499f216d9cb8bd7108bc2566"
     }
   },
-  "pre_install": [
-    "ensure \"$persist_dir\"",
-    "if (!(Test-Path \"$persist_dir\\config.ini\")) { Set-Content \"$persist_dir\\config.ini\" '' -Encoding ASCII }",
-    "Set-Content \"$dir\\config.ini\" \"[General]`nconfig=$($persist_dir.Replace('\\','/'))/config.ini\" -Encoding ASCII"
+  "pre_install": "if (!(Test-Path \"$persist_dir\\config.ini\")) { Set-Content \"$dir\\config.ini\" '' -Encoding ASCII }",
+  "persist": [
+    "history",
+    "config.ini"
   ],
-  "bin": "Snipaste.exe",
   "shortcuts": [
     [
       "Snipaste.exe",
       "Snipaste"
     ]
   ],
-  "persist": "history",
+  "suggest": {
+    "vcredist": "extras/vcredist2015"
+  },
   "checkver": {
-    "url": "https://www.snipaste.com/versions",
-    "jsonpath": "$.win_desktop_version"
+    "url": "https://bitbucket.org/liule/snipaste/downloads/",
+    "regex": "Snipaste-(([\\d.]+)-Beta[\\d]*?)-x64.zip"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://download.snipaste.com/archives/Snipaste-$version-x64.zip"
+        "url": "https://bitbucket.org/liule/snipaste/downloads/Snipaste-$version-x64.zip"
       },
       "32bit": {
-        "url": "https://download.snipaste.com/archives/Snipaste-$version-x86.zip"
+        "url": "https://bitbucket.org/liule/snipaste/downloads/Snipaste-$version-x86.zip"
       }
     },
     "hash": {
