@@ -16,6 +16,11 @@
       "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.7.6/audacity-win-3.7.6-32bit.zip",
       "hash": "6416c3e9fa370e4beef3314f674e128b2f826bdfffe4233370cb8764249d5608",
       "extract_dir": "audacity-win-3.7.6-32bit"
+    },
+    "arm64": {
+      "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.7.6/audacity-win-3.7.6-arm64.zip",
+      "hash": "b4f8b736d386c1055efac368e7ec8dc289ff901ddfbc0c889d6488234b3ca04b",
+      "extract_dir": "audacity-win-3.7.6-arm64"
     }
   },
   "pre_install": [
@@ -45,6 +50,10 @@
       "32bit": {
         "url": "https://github.com/audacity/audacity/releases/download/Audacity-$version/audacity-win-$version-32bit.zip",
         "extract_dir": "audacity-win-$version-32bit"
+      },
+      "arm64": {
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-$version/audacity-win-$version-arm64.zip",
+        "extract_dir": "audacity-win-$version-arm64"
       }
     },
     "hash": {
