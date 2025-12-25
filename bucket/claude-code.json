@@ -18,7 +18,7 @@
     "git"
   ],
   "env_set": {
-    "CLAUDE_CODE_GIT_BASH_PATH": "$scoopdir\\shims\\git-bash.exe"
+    "CLAUDE_CODE_GIT_BASH_PATH": "$scoopdir\\apps\\git\\current\\bin\\bash.exe"
   },
   "checkver": {
     "url": "https://github.com/anthropics/claude-code/tags",
