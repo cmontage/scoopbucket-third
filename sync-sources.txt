@@ -1842,6 +1842,7 @@ bucket/OneScan.json, kkzzhizhou/scoop-apps, 0
 bucket/Open-Sans.json, kkzzhizhou/scoop-apps, 0
 bucket/OpenBoard-Portable.json, kkzzhizhou/scoop-apps, 0
 bucket/OpenCC_dodorz.json, kkzzhizhou/scoop-apps, 0
+bucket/OpenCode-Desktop.json, kkzzhizhou/scoop-apps, 0
 bucket/OpenDyslexic-NF-Mono.json, kkzzhizhou/scoop-apps, 0
 bucket/OpenDyslexic-NF-Propo.json, kkzzhizhou/scoop-apps, 0
 bucket/OpenDyslexic-NF.json, kkzzhizhou/scoop-apps, 0
@@ -3133,6 +3134,7 @@ bucket/Yudit.json, kkzzhizhou/scoop-apps, 0
 bucket/Yumi-Portable.json, kkzzhizhou/scoop-apps, 0
 bucket/YumiExFAT-Portable.json, kkzzhizhou/scoop-apps, 0
 bucket/YumiUefi-Portable.json, kkzzhizhou/scoop-apps, 0
+bucket/Z-Code.json, kkzzhizhou/scoop-apps, 0
 bucket/Z-Library.json, kkzzhizhou/scoop-apps, 0
 bucket/ZGrapher.json, kkzzhizhou/scoop-apps, 0
 bucket/ZMeter-Portable.json, kkzzhizhou/scoop-apps, 0
@@ -3860,7 +3862,7 @@ bucket/backup-start-menu-layout.json, kkzzhizhou/scoop-apps, 0
 bucket/backup-start-menu-layout_DoveBoy.json, kkzzhizhou/scoop-apps, 0
 bucket/backupmaker-aoks.json, kkzzhizhou/scoop-apps, 0
 bucket/baidu-net-disk.json, kkzzhizhou/scoop-apps, 0
-bucket/baidudisk.json, akirco/aki-apps, 0
+bucket/baidudisk.json, kkzzhizhou/scoop-apps, 0
 bucket/baidudisk_scoopcn.json, kkzzhizhou/scoop-apps, 0
 bucket/baidunetdisk-cvp.json, kkzzhizhou/scoop-apps, 0
 bucket/baidunetdisk.json, ivaquero/scoopet, 0
@@ -4021,7 +4023,7 @@ bucket/biliTickerBuy.json, kkzzhizhou/scoop-apps, 0
 bucket/bilibili-backup.json, kkzzhizhou/scoop-apps, 0
 bucket/bilibili-backup_DoveBoy.json, kkzzhizhou/scoop-apps, 0
 bucket/bilibili-desktop.json, kkzzhizhou/scoop-apps, 0
-bucket/bilibili-livehime.json, kkzzhizhou/scoop-apps, 0
+bucket/bilibili-livehime.json, akirco/aki-apps, 0
 bucket/bilibili-manga-downloader.json, kkzzhizhou/scoop-apps, 0
 bucket/bilibili-manga-downloader_hu3rror.json, kkzzhizhou/scoop-apps, 0
 bucket/bilibili-toolkit.json, kkzzhizhou/scoop-apps, 0
@@ -7711,8 +7713,8 @@ bucket/ilspy_SayCV.json, kkzzhizhou/scoop-apps, 0
 bucket/ilspycmd.json, kkzzhizhou/scoop-apps, 0
 bucket/ilyrics.json, kkzzhizhou/scoop-apps, 0
 bucket/im-select.json, kkzzhizhou/scoop-apps, 0
-bucket/ima-copilot.json, akirco/aki-apps, 0
-bucket/ima-copilot_akirco.json, kkzzhizhou/scoop-apps, 0
+bucket/ima-copilot.json, kkzzhizhou/scoop-apps, 0
+bucket/ima-copilot_maboloshi.json, kkzzhizhou/scoop-apps, 0
 bucket/ima.copilot.json, kkzzhizhou/scoop-apps, 0
 bucket/image2text.json, kkzzhizhou/scoop-apps, 0
 bucket/imagecacheviewer.json, kkzzhizhou/scoop-apps, 0
@@ -14264,8 +14266,8 @@ bucket/util-linux-ng.json, kkzzhizhou/scoop-apps, 0
 bucket/utools-install.json, kkzzhizhou/scoop-apps, 0
 bucket/utools.json, ivaquero/scoopet, 0
 bucket/utools_ChinLong.json, kkzzhizhou/scoop-apps, 0
-bucket/utools_Scoopforge.json, kkzzhizhou/scoop-apps, 0
 bucket/utools_WinApps-share.json, kkzzhizhou/scoop-apps, 0
+bucket/utools_chawyehsu.json, kkzzhizhou/scoop-apps, 0
 bucket/utools_wzv5.json, kkzzhizhou/scoop-apps, 0
 bucket/utorrent-portable.json, kkzzhizhou/scoop-apps, 0
 bucket/utorrent.json, kkzzhizhou/scoop-apps, 0
@@ -15697,7 +15699,7 @@ bucket/zokumbsp.json, kkzzhizhou/scoop-apps, 0
 bucket/zola.json, akirco/aki-apps, 0
 bucket/zola_akirco.json, kkzzhizhou/scoop-apps, 0
 bucket/zombie.json, kkzzhizhou/scoop-apps, 0
-bucket/zoom.json, kkzzhizhou/scoop-apps, 0
+bucket/zoom.json, akirco/aki-apps, 0
 bucket/zoom_ScoopInstaller.json, kkzzhizhou/scoop-apps, 0
 bucket/zoomit.json, kkzzhizhou/scoop-apps, 0
 bucket/zoomit_DoveBoy.json, kkzzhizhou/scoop-apps, 0
