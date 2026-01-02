@@ -6,10 +6,11 @@
     "identifier": "Freeware",
     "url": "https://github.com/Wagnard/display-drivers-uninstaller/blob/WPF/LICENSE.md"
   },
-  "url": "https://www.wagnardsoft.com/DDU/download/DDU%20v18.1.4.0.exe#/dl.zip",
-  "hash": "e03d19810750e5d6c07f3534ee06bec6ce7ef9b45be752b2803c6a20768a7917",
-  "extract_dir": "DDU v18.1.4.0",
+  "url": "https://ftp.nluug.nl/pub/games/PC/guru3d/ddu/%5BGuru3D%5D-DDU.zip",
+  "hash": "0aa05e8097e068a78f4db15e0b7d914dca0b78d98aa07d0e11119da9dc597886",
   "pre_install": [
+    "Expand-7zipArchive \"$dir\\*DDU*.exe\" -DestinationPath \"$dir\" -ExtractDir \"DDU v$version\" -Removal",
+    "Remove-Item \"$dir\\*Guru3D*\" -Recurse",
     "Copy-Item \"$persist_dir\\settings\\Settings.xml\" \"$dir\\settings\" -ErrorAction SilentlyContinue"
   ],
   "shortcuts": [
@@ -24,11 +25,10 @@
     "Copy-Item \"$dir\\settings\\Settings.xml\" \"$persist_dir\\settings\" -ErrorAction SilentlyContinue"
   ],
   "checkver": {
-    "url": "https://www.wagnardsoft.com/forums/viewtopic.php?t=5471",
-    "regex": ">Display Driver Uninstaller \\(DDU\\) V([\\d.]+) Released.<"
+    "url": "https://www.wagnardsoft.com/display-driver-uninstaller-ddu",
+    "regex": "Display Driver Uninstaller \\(DDU\\) (\\d+(?:\\.\\d+){3})"
   },
   "autoupdate": {
-    "url": "https://www.wagnardsoft.com/DDU/download/DDU%20v$version.exe#/dl.zip",
-    "extract_dir": "DDU v$version"
+    "url": "https://ftp.nluug.nl/pub/games/PC/guru3d/ddu/%5BGuru3D%5D-DDU.zip"
   }
 }
