@@ -11,8 +11,12 @@
       "claude"
     ]
   ],
-  "pre_install": "pushd $dir; bun add --bun @anthropic-ai/claude-code; popd;",
-  "pre_uninstall": "pushd $dir; bun rm @anthropic-ai/claude-code; popd;",
+  "installer": {
+    "script": "pushd $dir; bun add --bun @anthropic-ai/claude-code@2.0.74; popd;"
+  },
+  "uninstaller": {
+    "script": "pushd $dir; bun rm @anthropic-ai/claude-code; popd;"
+  },
   "depends": [
     "bun",
     "git"
@@ -25,6 +29,8 @@
     "regex": "/v([\\d.]+)\"(?!-)"
   },
   "autoupdate": {
-    "url": "http://www.gstatic.com/generate_204#/dummy"
+    "installer": {
+      "script": "pushd $dir; bun add --bun @anthropic-ai/claude-code@$version; popd;"
+    }
   }
 }
