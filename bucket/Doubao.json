@@ -1,14 +1,30 @@
 {
-  "version": "1.84.8",
+  "version": "1.85.7",
   "description": "LLM client by douyin",
   "homepage": "https://doubao.com",
-  "license": "Proprietary",
-  "url": "https://lf-flow-web-cdn.doubao.com/obj/flow-doubao/doubao_pc/1.84.8/1006/Doubao_installer.exe#dl.7z",
-  "hash": "c16b5479b1a36679bbe0fd30baefe0afeb4924509bd0a97e0af0a1a05d67ec61",
+  "license": "freeware",
+  "url": "https://lf-flow-web-cdn.doubao.com/obj/flow-doubao/doubao_pc/1.85.7/Doubao_installer_1.85.7.exe#/dl.7z",
+  "hash": "a3563265faa6df32603c3e42c5ac1af3f7c20607c432d8314a25202ff1fdcc9a",
   "shortcuts": [
     [
       "Doubao.exe",
       "Doubao"
     ]
-  ]
+  ],
+  "checkver": {
+    "script": [
+      ". \"$pwd\\bin\\utils.ps1\"",
+      "$dl_info = get_installer_info 'ByteDance/Doubao'",
+      "\"ver:$($dl_info.PackageVersion);\"",
+      "\"x64:$($dl_info.x64_exe.InstallerUrl);\""
+    ],
+    "regex": "ver:(?<version>.+?); x64:(?<x64>.+?);"
+  },
+  "autoupdate": {
+    "url": "$matchX64#/dl.7z",
+    "hash": {
+      "url": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/b/ByteDance/Doubao/$version/ByteDance.Doubao.installer.yaml",
+      "regex": "Architecture: x64[\\s\\S]+?InstallerSha256:\\s?(.+)"
+    }
+  }
 }
