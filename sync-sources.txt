@@ -1665,7 +1665,7 @@ bucket/ModOrganizer.json, kkzzhizhou/scoop-apps, 0
 bucket/ModernFlyouts-Portable.json, kkzzhizhou/scoop-apps, 0
 bucket/ModernFlyouts-UserInstall.json, kkzzhizhou/scoop-apps, 0
 bucket/ModifyProfile.json, kkzzhizhou/scoop-apps, 0
-bucket/Mogan.json, kkzzhizhou/scoop-apps, 0
+bucket/Mogan_dodorz.json, kkzzhizhou/scoop-apps, 0
 bucket/Monaspace-NF-Mono.json, kkzzhizhou/scoop-apps, 0
 bucket/Monaspace-NF-Propo.json, kkzzhizhou/scoop-apps, 0
 bucket/Monaspace-NF.json, kkzzhizhou/scoop-apps, 0
@@ -1753,7 +1753,6 @@ bucket/NetAlias.json, kkzzhizhou/scoop-apps, 0
 bucket/NetComment.json, kkzzhizhou/scoop-apps, 0
 bucket/NetHackPortable.json, kkzzhizhou/scoop-apps, 0
 bucket/NetPWAge.json, kkzzhizhou/scoop-apps, 0
-bucket/NetPWAge_dodorz.json, kkzzhizhou/scoop-apps, 0
 bucket/NetSetMan-Portable.json, kkzzhizhou/scoop-apps, 0
 bucket/NetSpeed.json, kkzzhizhou/scoop-apps, 0
 bucket/NetUsers.json, kkzzhizhou/scoop-apps, 0
@@ -5056,7 +5055,7 @@ bucket/cru.json, kkzzhizhou/scoop-apps, 0
 bucket/cruft.json, kkzzhizhou/scoop-apps, 0
 bucket/cruiser.json, kkzzhizhou/scoop-apps, 0
 bucket/crunchy-cli.json, kkzzhizhou/scoop-apps, 0
-bucket/crush.json, kkzzhizhou/scoop-apps, 0
+bucket/crush.json, akirco/aki-apps, 0
 bucket/crush_charmbracelet.json, kkzzhizhou/scoop-apps, 0
 bucket/cryfs.json, kkzzhizhou/scoop-apps, 0
 bucket/cryptomator-portapps.json, kkzzhizhou/scoop-apps, 0
@@ -5589,8 +5588,8 @@ bucket/dokany-np.json, kkzzhizhou/scoop-apps, 0
 bucket/dokany-np_ScoopInstaller.json, kkzzhizhou/scoop-apps, 0
 bucket/dolphin-beta.json, kkzzhizhou/scoop-apps, 0
 bucket/dolphin-dev.json, kkzzhizhou/scoop-apps, 0
+bucket/dolphin-dev_Calinou.json, kkzzhizhou/scoop-apps, 0
 bucket/dolphin-dev_borger.json, kkzzhizhou/scoop-apps, 0
-bucket/dolphin-dev_hermanjustnu.json, kkzzhizhou/scoop-apps, 0
 bucket/dolphin-nightly.json, kkzzhizhou/scoop-apps, 0
 bucket/dolphin.json, kkzzhizhou/scoop-apps, 0
 bucket/dolphin_Deide.json, kkzzhizhou/scoop-apps, 0
@@ -6664,6 +6663,7 @@ bucket/friction.json, kkzzhizhou/scoop-apps, 0
 bucket/fritzing.json, kkzzhizhou/scoop-apps, 0
 bucket/froststrap.json, kkzzhizhou/scoop-apps, 0
 bucket/frostwire.json, kkzzhizhou/scoop-apps, 0
+bucket/frp_Locietta.json, kkzzhizhou/scoop-apps, 0
 bucket/frpc-desktop.json, kkzzhizhou/scoop-apps, 0
 bucket/frpc-desktop_ViCrack.json, kkzzhizhou/scoop-apps, 0
 bucket/frpmgr.json, kkzzhizhou/scoop-apps, 0
@@ -9367,7 +9367,7 @@ bucket/modmii.json, kkzzhizhou/scoop-apps, 0
 bucket/mods_charmbracelet.json, kkzzhizhou/scoop-apps, 0
 bucket/moekoemusic.json, kkzzhizhou/scoop-apps, 0
 bucket/mogan-cn.json, ivaquero/scoopet, 0
-bucket/mogan_Scoopforge.json, kkzzhizhou/scoop-apps, 0
+bucket/mogan.json, kkzzhizhou/scoop-apps, 0
 bucket/molotov-portapps.json, kkzzhizhou/scoop-apps, 0
 bucket/monasans.json, kkzzhizhou/scoop-apps, 0
 bucket/monaspaceargon.json, kkzzhizhou/scoop-apps, 0
@@ -9412,7 +9412,7 @@ bucket/mort.json, kkzzhizhou/scoop-apps, 0
 bucket/mosdns-cn.json, kkzzhizhou/scoop-apps, 0
 bucket/mosdns-cn_hu3rror.json, kkzzhizhou/scoop-apps, 0
 bucket/mosdns.json, kkzzhizhou/scoop-apps, 0
-bucket/mosdns_hu3rror.json, kkzzhizhou/scoop-apps, 0
+bucket/mosdns_chawyehsu.json, kkzzhizhou/scoop-apps, 0
 bucket/motrix-np.json, kkzzhizhou/scoop-apps, 0
 bucket/motrix.json, kkzzhizhou/scoop-apps, 0
 bucket/motrix_DoveBoy.json, kkzzhizhou/scoop-apps, 0
@@ -9740,6 +9740,7 @@ bucket/nekoray2.json, kkzzhizhou/scoop-apps, 0
 bucket/nekoray_DoveBoy.json, kkzzhizhou/scoop-apps, 0
 bucket/nekoray_ScoopInstaller.json, kkzzhizhou/scoop-apps, 0
 bucket/nekoray_noql-net.json, kkzzhizhou/scoop-apps, 0
+bucket/nelson-np.json, kkzzhizhou/scoop-apps, 0
 bucket/neo4j-community.json, kkzzhizhou/scoop-apps, 0
 bucket/neo4jbrowser.json, scoopcn/scoopcn, 0
 bucket/neoaxis-engine.json, kkzzhizhou/scoop-apps, 0
@@ -14470,6 +14471,7 @@ bucket/veracrypt-legacy-np.json, kkzzhizhou/scoop-apps, 0
 bucket/veracrypt-np.json, kkzzhizhou/scoop-apps, 0
 bucket/veracrypt-portable.json, kkzzhizhou/scoop-apps, 0
 bucket/veracrypt.json, kkzzhizhou/scoop-apps, 0
+bucket/verethragna.json, kkzzhizhou/scoop-apps, 0
 bucket/verilator.json, kkzzhizhou/scoop-apps, 0
 bucket/verilog-format.json, kkzzhizhou/scoop-apps, 0
 bucket/version-manager.json, kkzzhizhou/scoop-apps, 0
