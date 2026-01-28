@@ -1,23 +1,23 @@
 {
-  "version": "1.13.12",
-  "description": "The new purpose-built IDE to harness magic",
-  "homepage": "https://windsurf.com/",
+  "version": "1.13.13",
+  "description": "The first agentic IDE, and then some. The Windsurf Editor is where the work of developers and AI truly flow together, allowing for a coding experience that feels like literal magic.",
+  "homepage": "https://codeium.com/windsurf",
   "license": {
     "identifier": "Proprietary",
-    "url": "https://windsurf.com/terms-of-service-individual"
+    "url": "https://codeium.com/privacy-policy"
   },
-  "innosetup": true,
   "architecture": {
     "64bit": {
-      "url": "https://windsurf-stable.codeiumdata.com/win32-x64-user/stable/aa644d109002a89ca18e1ba5fe9355859b4f0565/WindsurfUserSetup-x64-1.13.12.exe",
-      "hash": "7032fc1304467cdb1233dd7072e8f0ee8730ef70b22ebed0a7a0890597e79bb5"
-    },
-    "arm64": {
-      "url": "https://windsurf-stable.codeiumdata.com/win32-arm64-user/stable/aa644d109002a89ca18e1ba5fe9355859b4f0565/WindsurfUserSetup-arm64-1.13.12.exe",
-      "hash": "1e21a21c60e152a657ccf1be92a1efcc485921f39a07e3cf7a1f196d916d783d"
+      "url": "https://windsurf-stable.codeiumdata.com/win32-x64/stable/ca71c32d680a52e5f4726f9fcfa5a38efb09ff4c/WindsurfSetup-x64-1.13.13.exe",
+      "hash": "c4241db959435e3d0f416e4598feed538cde47640eb26dcc1c775568f256de7a"
     }
   },
-  "extract_dir": "{code_GetDestDir}",
+  "pre_install": [
+    "$setupfile = (Get-ChildItem \"$dir\" 'WindsurfSetup-*.exe' | Select-Object -First 1).FullName",
+    "Expand-InnoArchive \"$setupfile\" \"$dir\" -ExtractDir \"{app}\"",
+    "Expand-InnoArchive \"$setupfile\" \"$dir\" -ExtractDir \"{code_GetDestDir}\"",
+    "Remove-Item \"$dir\\WindsurfSetup-*.exe\" -Force"
+  ],
   "post_install": [
     "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Recurse",
     "if (!(Test-Path \"$dir\\data\\extensions\") -and (Test-Path \"$env:USERPROFILE\\.windsurf\\extensions\")) {",
@@ -31,29 +31,27 @@
     "$extensions_file = \"$dir\\data\\extensions\\extensions.json\"",
     "if ((Test-Path \"$extensions_file\")) {",
     "    info 'Adjusting path in extensions file...'",
-    "    (Get-Content \"$extensions_file\") -replace '(?<=windsurf(/|\\\\\\\\)).*?(?=(/|\\\\\\\\)data(/|\\\\\\\\)extensions)', $version | Set-Content \"$extensions_file\"",
+    "    (Get-Content \"$extensions_file\") -replace '(?<=windsurf-code(/|\\\\\\\\)).*?(?=(/|\\\\\\\\)data(/|\\\\\\\\)extensions)', $version | Set-Content \"$extensions_file\"",
     "}"
   ],
-  "bin": "bin\\windsurf.cmd",
+  "bin": "bin/windsurf.cmd",
   "shortcuts": [
     [
       "Windsurf.exe",
-      "Windsurf",
+      "Windsurf AI Editor",
       "--user-data-dir=\"$dir\\data\\user-data\" --extensions-dir=\"$dir\\data\\extensions\""
     ]
   ],
   "persist": "data",
   "checkver": {
-    "url": "https://windsurf.com/editor/releases",
-    "regex": "win32-x64-user/stable/(?<Code>[\\w]+)/WindsurfUserSetup-x64-([\\d.]+).exe"
+    "url": "https://formulae.brew.sh/api/cask/windsurf.json",
+    "jsonpath": "$..version",
+    "regex": "([\\d.]+),(?<id>[\\w]+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://windsurf-stable.codeiumdata.com/win32-x64-user/stable/$matchCode/WindsurfUserSetup-x64-$version.exe"
-      },
-      "arm64": {
-        "url": "https://windsurf-stable.codeiumdata.com/win32-arm64-user/stable/$matchCode/WindsurfUserSetup-arm64-$version.exe"
+        "url": "https://windsurf-stable.codeiumdata.com/win32-x64/stable/$matchId/WindsurfSetup-x64-$version.exe"
       }
     }
   }
