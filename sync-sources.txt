@@ -1061,7 +1061,7 @@ bucket/Jamjams.json, kkzzhizhou/scoop-apps, 0
 bucket/Jan.json, kkzzhizhou/scoop-apps, 0
 bucket/JaneReader.json, kkzzhizhou/scoop-apps, 0
 bucket/Jarte.json, kkzzhizhou/scoop-apps, 0
-bucket/Java-Editor.json, kkzzhizhou/scoop-apps, 0
+bucket/Java-Editor_dodorz.json, kkzzhizhou/scoop-apps, 0
 bucket/Java-RPG-Maker-MV-Decrypter.json, kkzzhizhou/scoop-apps, 0
 bucket/JavaGadgetGenerator.json, kkzzhizhou/scoop-apps, 0
 bucket/JavaGeometryExpert.json, kkzzhizhou/scoop-apps, 0
@@ -3296,6 +3296,7 @@ bucket/bcuninstaller.json, kkzzhizhou/scoop-apps, 0
 bucket/bcut.json, kkzzhizhou/scoop-apps, 0
 bucket/bdinfo.json, kkzzhizhou/scoop-apps, 0
 bucket/beads-rust.json, kkzzhizhou/scoop-apps, 0
+bucket/beads-task-issue-tracker.json, kkzzhizhou/scoop-apps, 0
 bucket/beads.json, kkzzhizhou/scoop-apps, 0
 bucket/beaker-portapps.json, kkzzhizhou/scoop-apps, 0
 bucket/beaker.json, kkzzhizhou/scoop-apps, 0
@@ -3644,11 +3645,9 @@ bucket/calibre-normal-cjk-patch.json, kkzzhizhou/scoop-apps, 0
 bucket/calibre-normal-cjk.json, kkzzhizhou/scoop-apps, 0
 bucket/calibre-normal.json, kkzzhizhou/scoop-apps, 0
 bucket/calibre-normal5.json, kkzzhizhou/scoop-apps, 0
-bucket/calibre-normal_DoveBoy.json, kkzzhizhou/scoop-apps, 0
 bucket/calibre-np.json, kkzzhizhou/scoop-apps, 0
 bucket/calibre-np_TheRandomLabs.json, kkzzhizhou/scoop-apps, 0
 bucket/calibre.json, kkzzhizhou/scoop-apps, 0
-bucket/calibre_DoveBoy.json, kkzzhizhou/scoop-apps, 0
 bucket/calibre_ShuguangSun.json, kkzzhizhou/scoop-apps, 0
 bucket/cam350-122.json, kkzzhizhou/scoop-apps, 0
 bucket/cambridge.json, kkzzhizhou/scoop-apps, 0
@@ -3717,6 +3716,7 @@ bucket/cataclysm-dda.json, kkzzhizhou/scoop-apps, 0
 bucket/catalyst.json, kkzzhizhou/scoop-apps, 0
 bucket/catbox.json, kkzzhizhou/scoop-apps, 0
 bucket/catsxp.json, kkzzhizhou/scoop-apps, 0
+bucket/cava.json, kkzzhizhou/scoop-apps, 0
 bucket/cbmc.json, kkzzhizhou/scoop-apps, 0
 bucket/cbox-cvp.json, kkzzhizhou/scoop-apps, 0
 bucket/cbxconverter.json, kkzzhizhou/scoop-apps, 0
@@ -3921,7 +3921,7 @@ bucket/citra-canary.json, kkzzhizhou/scoop-apps, 0
 bucket/citra-nightly.json, kkzzhizhou/scoop-apps, 0
 bucket/citra.json, kkzzhizhou/scoop-apps, 0
 bucket/citron.json, kkzzhizhou/scoop-apps, 0
-bucket/citron_babo4d.json, kkzzhizhou/scoop-apps, 0
+bucket/citron_borger.json, kkzzhizhou/scoop-apps, 0
 bucket/civo.json, kkzzhizhou/scoop-apps, 0
 bucket/ciyue.json, kkzzhizhou/scoop-apps, 0
 bucket/cjoe-static.json, kkzzhizhou/scoop-apps, 0
@@ -4935,7 +4935,7 @@ bucket/dotter_batkiz.json, kkzzhizhou/scoop-apps, 0
 bucket/dotter_younger-1.json, kkzzhizhou/scoop-apps, 0
 bucket/dottorrent-gui.json, kkzzhizhou/scoop-apps, 0
 bucket/dottrace.json, kkzzhizhou/scoop-apps, 0
-bucket/doubao.json, akirco/aki-apps, 0
+bucket/doubao.json, kkzzhizhou/scoop-apps, 0
 bucket/double-finder.json, kkzzhizhou/scoop-apps, 0
 bucket/doublecmd-beta.json, kkzzhizhou/scoop-apps, 0
 bucket/doublecmd.json, kkzzhizhou/scoop-apps, 0
@@ -5142,7 +5142,7 @@ bucket/edge-portable-canary.json, kkzzhizhou/scoop-apps, 0
 bucket/edge-portable-dev.json, kkzzhizhou/scoop-apps, 0
 bucket/edge-portable.json, kkzzhizhou/scoop-apps, 0
 bucket/edge.json, kkzzhizhou/scoop-apps, 0
-bucket/edge_WinApps-share.json, kkzzhizhou/scoop-apps, 0
+bucket/edge_echoiron.json, kkzzhizhou/scoop-apps, 0
 bucket/edgecookiesview.json, kkzzhizhou/scoop-apps, 0
 bucket/edgecookiesview_kodybrown.json, kkzzhizhou/scoop-apps, 0
 bucket/edgedriver-canary.json, kkzzhizhou/scoop-apps, 0
@@ -5175,7 +5175,7 @@ bucket/elasticsearch.json, kkzzhizhou/scoop-apps, 0
 bucket/elasticsearch1.json, kkzzhizhou/scoop-apps, 0
 bucket/elasticsearch2.json, kkzzhizhou/scoop-apps, 0
 bucket/elasticsearch5.json, kkzzhizhou/scoop-apps, 0
-bucket/electerm.json, akirco/aki-apps, 0
+bucket/electerm.json, kkzzhizhou/scoop-apps, 0
 bucket/electerm_SayCV.json, kkzzhizhou/scoop-apps, 0
 bucket/electerm_ScoopInstaller.json, kkzzhizhou/scoop-apps, 0
 bucket/electerm_akirco.json, kkzzhizhou/scoop-apps, 0
@@ -5860,8 +5860,8 @@ bucket/foxe.json, kkzzhizhou/scoop-apps, 0
 bucket/foxit-reader.json, kkzzhizhou/scoop-apps, 0
 bucket/foxitphantompdflite.json, kkzzhizhou/scoop-apps, 0
 bucket/foxmail.json, kkzzhizhou/scoop-apps, 0
+bucket/foxmail_Locietta.json, kkzzhizhou/scoop-apps, 0
 bucket/foxmail_SayCV.json, kkzzhizhou/scoop-apps, 0
-bucket/foxmail_ScoopInstaller.json, kkzzhizhou/scoop-apps, 0
 bucket/foxmail_naderi.json, kkzzhizhou/scoop-apps, 0
 bucket/fpm.json, kkzzhizhou/scoop-apps, 0
 bucket/fq_HUMORCE.json, kkzzhizhou/scoop-apps, 0
@@ -6815,7 +6815,7 @@ bucket/hourglass-godot.json, kkzzhizhou/scoop-apps, 0
 bucket/hourglass.json, kkzzhizhou/scoop-apps, 0
 bucket/hoxs64.json, kkzzhizhou/scoop-apps, 0
 bucket/hoyo-gacha.json, kkzzhizhou/scoop-apps, 0
-bucket/hoyo.gacha_batkiz.json, kkzzhizhou/scoop-apps, 0
+bucket/hoyo.gacha.json, kkzzhizhou/scoop-apps, 0
 bucket/hp-support-assistant-np.json, kkzzhizhou/scoop-apps, 0
 bucket/hq.json, kkzzhizhou/scoop-apps, 0
 bucket/hqfpga.json, kkzzhizhou/scoop-apps, 0
@@ -7256,7 +7256,7 @@ bucket/java-chains.json, kkzzhizhou/scoop-apps, 0
 bucket/java-chains_kengwang.json, kkzzhizhou/scoop-apps, 0
 bucket/java-echo-generator-release.json, kkzzhizhou/scoop-apps, 0
 bucket/java-echo-generator.json, kkzzhizhou/scoop-apps, 0
-bucket/java-editor_naderi.json, kkzzhizhou/scoop-apps, 0
+bucket/java-editor.json, kkzzhizhou/scoop-apps, 0
 bucket/java-memshell-generator.json, kkzzhizhou/scoop-apps, 0
 bucket/java-memshell-generator_kengwang.json, kkzzhizhou/scoop-apps, 0
 bucket/javafx.json, kkzzhizhou/scoop-apps, 0
@@ -8345,7 +8345,6 @@ bucket/memreduct_DoveBoy.json, kkzzhizhou/scoop-apps, 0
 bucket/memshellparty.json, kkzzhizhou/scoop-apps, 0
 bucket/memtest-vulkan.json, kkzzhizhou/scoop-apps, 0
 bucket/memtest.json, kkzzhizhou/scoop-apps, 0
-bucket/mendeley-desktop.json, kkzzhizhou/scoop-apps, 0
 bucket/mendeley.json, kkzzhizhou/scoop-apps, 0
 bucket/meow.json, kkzzhizhou/scoop-apps, 0
 bucket/mercury.json, kkzzhizhou/scoop-apps, 0
@@ -11995,7 +11994,8 @@ bucket/signal_EFLKumo.json, kkzzhizhou/scoop-apps, 0
 bucket/sikulix.json, kkzzhizhou/scoop-apps, 0
 bucket/sil.json, kkzzhizhou/scoop-apps, 0
 bucket/silentcmd.json, kkzzhizhou/scoop-apps, 0
-bucket/silentcmd_ScoopInstaller.json, kkzzhizhou/scoop-apps, 0
+bucket/silentcmd_SayCV.json, kkzzhizhou/scoop-apps, 0
+bucket/silentcmd_akirco.json, kkzzhizhou/scoop-apps, 0
 bucket/silex-desktop.json, kkzzhizhou/scoop-apps, 0
 bucket/silk2mp3.json, kkzzhizhou/scoop-apps, 0
 bucket/silver.todo.json, kkzzhizhou/scoop-apps, 0
