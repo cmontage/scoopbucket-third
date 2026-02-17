@@ -3924,7 +3924,7 @@ bucket/citra-canary.json, kkzzhizhou/scoop-apps, 0
 bucket/citra-nightly.json, kkzzhizhou/scoop-apps, 0
 bucket/citra.json, kkzzhizhou/scoop-apps, 0
 bucket/citron.json, kkzzhizhou/scoop-apps, 0
-bucket/citron_babo4d.json, kkzzhizhou/scoop-apps, 0
+bucket/citron_borger.json, kkzzhizhou/scoop-apps, 0
 bucket/civo.json, kkzzhizhou/scoop-apps, 0
 bucket/ciyue.json, kkzzhizhou/scoop-apps, 0
 bucket/cjoe-static.json, kkzzhizhou/scoop-apps, 0
@@ -5148,7 +5148,7 @@ bucket/edge-portable-canary.json, kkzzhizhou/scoop-apps, 0
 bucket/edge-portable-dev.json, kkzzhizhou/scoop-apps, 0
 bucket/edge-portable.json, kkzzhizhou/scoop-apps, 0
 bucket/edge.json, kkzzhizhou/scoop-apps, 0
-bucket/edge_WinApps-share.json, kkzzhizhou/scoop-apps, 0
+bucket/edge_echoiron.json, kkzzhizhou/scoop-apps, 0
 bucket/edgecookiesview.json, kkzzhizhou/scoop-apps, 0
 bucket/edgecookiesview_kodybrown.json, kkzzhizhou/scoop-apps, 0
 bucket/edgedriver-canary.json, kkzzhizhou/scoop-apps, 0
@@ -5680,7 +5680,7 @@ bucket/firefox-portable_naderi.json, kkzzhizhou/scoop-apps, 0
 bucket/firefox-tete009-portable.json, kkzzhizhou/scoop-apps, 0
 bucket/firefox-tete009.json, kkzzhizhou/scoop-apps, 0
 bucket/firefox-zh-CN_cc713.json, kkzzhizhou/scoop-apps, 0
-bucket/firefox-zh-cn.json, kkzzhizhou/scoop-apps, 0
+bucket/firefox-zh-cn.json, akirco/aki-apps, 0
 bucket/firefox-zh-cn_akirco.json, kkzzhizhou/scoop-apps, 0
 bucket/firefox-zh-cn_amorphobia.json, kkzzhizhou/scoop-apps, 0
 bucket/firefox.ja.json, kkzzhizhou/scoop-apps, 0
@@ -6105,7 +6105,7 @@ bucket/gdidrop.json, kkzzhizhou/scoop-apps, 0
 bucket/gdiview.json, kkzzhizhou/scoop-apps, 0
 bucket/gdiview_kodybrown.json, kkzzhizhou/scoop-apps, 0
 bucket/gdlauncher.json, kkzzhizhou/scoop-apps, 0
-bucket/gdlauncher_The-Simples.json, kkzzhizhou/scoop-apps, 0
+bucket/gdlauncher_jcwillox.json, kkzzhizhou/scoop-apps, 0
 bucket/gdrive.json, akirco/aki-apps, 0
 bucket/gdrive_akirco.json, kkzzhizhou/scoop-apps, 0
 bucket/gdscript-formatter.json, kkzzhizhou/scoop-apps, 0
@@ -6703,6 +6703,7 @@ bucket/hdcleaner_naderi.json, kkzzhizhou/scoop-apps, 0
 bucket/hdd-raw-copy.json, kkzzhizhou/scoop-apps, 0
 bucket/hddog.json, kkzzhizhou/scoop-apps, 0
 bucket/hdr10plus_tool.json, kkzzhizhou/scoop-apps, 0
+bucket/hdrtray.json, kkzzhizhou/scoop-apps, 0
 bucket/headlamp.json, kkzzhizhou/scoop-apps, 0
 bucket/heapdump.json, kkzzhizhou/scoop-apps, 0
 bucket/heapmemview.json, kkzzhizhou/scoop-apps, 0
@@ -7365,7 +7366,6 @@ bucket/joplin-pre.json, kkzzhizhou/scoop-apps, 0
 bucket/joplin-pre_DoveBoy.json, kkzzhizhou/scoop-apps, 0
 bucket/joplin.json, kkzzhizhou/scoop-apps, 0
 bucket/joplin_DoveBoy.json, kkzzhizhou/scoop-apps, 0
-bucket/josm-generic.json, kkzzhizhou/scoop-apps, 0
 bucket/josm.json, kkzzhizhou/scoop-apps, 0
 bucket/jot.json, kkzzhizhou/scoop-apps, 0
 bucket/journey.json, kkzzhizhou/scoop-apps, 0
@@ -13751,7 +13751,7 @@ bucket/vscode-portable32.json, kkzzhizhou/scoop-apps, 0
 bucket/vscode-portapps.json, kkzzhizhou/scoop-apps, 0
 bucket/vscode-win7.json, ivaquero/scoopet, 1
 bucket/vscode-x.json, kkzzhizhou/scoop-apps, 0
-bucket/vscode.json, kkzzhizhou/scoop-apps, 0
+bucket/vscode.json, akirco/aki-apps, 1
 bucket/vscode@1.59.1.json, kkzzhizhou/scoop-apps, 0
 bucket/vscode@1.64.0.json, kkzzhizhou/scoop-apps, 0
 bucket/vscode@1.68.1.json, kkzzhizhou/scoop-apps, 0
@@ -13896,6 +13896,7 @@ bucket/webtorrent.json, kkzzhizhou/scoop-apps, 0
 bucket/webvideocap.json, kkzzhizhou/scoop-apps, 0
 bucket/webvideocap_kodybrown.json, kkzzhizhou/scoop-apps, 0
 bucket/webview2.json, kkzzhizhou/scoop-apps, 0
+bucket/webview2_SayCV.json, kkzzhizhou/scoop-apps, 0
 bucket/wechat-backup.json, kkzzhizhou/scoop-apps, 0
 bucket/wechat-beta.json, scoopcn/scoopcn, 0
 bucket/wechat-cvp.json, kkzzhizhou/scoop-apps, 0
