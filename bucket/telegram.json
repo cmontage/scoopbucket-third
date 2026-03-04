@@ -5,12 +5,16 @@
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://updates.tdesktop.com/tx64/tportable-x64.6.6.1.zip",
+      "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v6.6.1/tportable-x64.6.6.1.zip",
       "hash": "1db81215efba669016552d9f381b13374e4132e6e1278fc3f7ce66209092aba2"
     },
     "32bit": {
-      "url": "https://updates.tdesktop.com/tsetup/tportable.6.6.1.zip",
+      "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v6.6.1/tportable.6.6.1.zip",
       "hash": "8311dcf80aad43ad2947a65188710422e1dbefe9061161733ce6e8d2847ede73"
+    },
+    "arm64": {
+      "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v6.6.1/tportable-arm64.6.6.1.zip",
+      "hash": "46d441be3a4a1bc2163ebdfdb8fa591b4de70719017585850915e53f4cf82301"
     }
   },
   "extract_dir": "Telegram",
@@ -24,17 +28,18 @@
   ],
   "persist": "tdata",
   "checkver": {
-    "url": "https://api.github.com/repos/telegramdesktop/tdesktop/releases",
-    "jsonpath": "$..name",
-    "re": "tportable-x64.([\\d.]+).zip"
+    "github": "https://github.com/telegramdesktop/tdesktop"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://updates.tdesktop.com/tx64/tportable-x64.$version.zip"
+        "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v$version/tportable-x64.$version.zip"
       },
       "32bit": {
-        "url": "https://updates.tdesktop.com/tsetup/tportable.$version.zip"
+        "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v$version/tportable.$version.zip"
+      },
+      "arm64": {
+        "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v$version/tportable-arm64.$version.zip"
       }
     }
   }
