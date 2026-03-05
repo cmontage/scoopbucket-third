@@ -4,7 +4,7 @@
   "url": [
     "https://raw.githubusercontent.com/BenjaminMichaelis/ScoopBucket/master/bucket/Utils.ps1",
     "https://raw.githubusercontent.com/BenjaminMichaelis/ScoopBucket/master/bucket/McAfeeUninstall.ps1",
-    "http://us.mcafee.com/apps/supporttools/mcpr/mcpr.asp#/MCPR.exe"
+    "https://TODO-replace-with-trellix-mcpr-download-url"
   ],
   "pre_install": "& \"$dir\\McAfeeUninstall.ps1\"",
   "installer": {
