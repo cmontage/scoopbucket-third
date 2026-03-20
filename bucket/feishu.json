@@ -1,16 +1,11 @@
 {
   "version": "7.64.6",
-  "description": "飞书",
-  "homepage": "https://www.feishu.cn/",
+  "homepage": "https://feishu.cn/",
+  "description": "AI 时代先进生产力平台",
   "license": {
-    "identifier": "Freeware"
+    "identifier": "EULA",
+    "url": "https://feishu.cn/en/terms"
   },
-  "shortcuts": [
-    [
-      "Feishu.exe",
-      "飞书"
-    ]
-  ],
   "architecture": {
     "64bit": {
       "url": "https://sf3-cn.feishucdn.com/obj/ee-appcenter/2dde711a/Feishu-win32_x64-7.64.6-signed.exe#/dl.7z",
@@ -21,32 +16,42 @@
       "hash": "md5:e7d7b11fe9dc4ca88aa203ceca4416fa"
     }
   },
+  "extract_to": "app",
+  "shortcuts": [
+    [
+      "app/Feishu.exe",
+      "飞书"
+    ]
+  ],
   "checkver": {
+    "url": "https://feishu.cn/api/downloads",
     "script": [
-      "$url = 'https://www.feishu.cn/api/downloads'",
-      "$dl = cache_path 'feishu' 'unknown' $url",
-      "Invoke-WebRequest $url -OutFile $dl",
-      "$it = (parse_json $dl).versions[0]",
-      "$it.Windows_x64.download_link + '|' + $it.Windows.download_link"
+      "$release = $page | ConvertFrom-Json",
+      "$version = $release.versions.Windows.version_number -replace 'Windows@', ''",
+      "$id_list = @($release.versions.Windows.download_link, $release.versions.Windows_x64.download_link) | ForEach-Object {",
+      "    if ($_ -match '(?<=/)\\w+(?=/Feishu-win32)') { $Matches[0] } ",
+      "}",
+      "Write-Output \"$version, $($id_list -join ', ')\""
     ],
-    "regex": "/(?<xid>[\\d\\w]+)/Feishu-win32_x64.+\\|.+/(?<id>[\\d\\w]+)/Feishu-win32_ia32-([\\d\\.]+)\\-signed\\.exe"
+    "regex": "V([\\d.]+), (?<id32>\\w+), (?<id64>\\w+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://sf3-cn.feishucdn.com/obj/ee-appcenter/$matchXid/Feishu-win32_x64-$version-signed.exe#/dl.7z",
+        "url": "https://sf3-cn.feishucdn.com/obj/ee-appcenter/$matchId64/Feishu-win32_x64-$version-signed.exe#/dl.7z",
         "hash": {
-          "url": "https://www.feishu.cn/api/downloads",
-          "jp": "$.versions.Windows_x64.hash"
+          "url": "https://feishu.cn/api/downloads",
+          "jsonpath": "$.versions.Windows_x64.hash"
         }
       },
       "32bit": {
-        "url": "https://sf3-cn.feishucdn.com/obj/ee-appcenter/$matchId/Feishu-win32_ia32-$version-signed.exe#/dl.7z",
+        "url": "https://sf3-cn.feishucdn.com/obj/ee-appcenter/$matchId32/Feishu-win32_ia32-$version-signed.exe#/dl.7z",
         "hash": {
-          "url": "https://www.feishu.cn/api/downloads",
-          "jp": "$.versions.Windows.hash"
+          "url": "https://feishu.cn/api/downloads",
+          "jsonpath": "$.versions.Windows.hash"
         }
       }
     }
-  }
+  },
+  "notes": "Runtime data are stored in '%APPDATA%\\LarkShell', and are not persisted by Scoop."
 }
