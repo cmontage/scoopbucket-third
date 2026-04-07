@@ -1355,7 +1355,7 @@ bucket/ModOrganizer.json, kkzzhizhou/scoop-apps, 0
 bucket/ModernFlyouts-Portable.json, kkzzhizhou/scoop-apps, 0
 bucket/ModernFlyouts-UserInstall.json, kkzzhizhou/scoop-apps, 0
 bucket/ModifyProfile.json, kkzzhizhou/scoop-apps, 0
-bucket/Mogan_dodorz.json, kkzzhizhou/scoop-apps, 0
+bucket/Mogan.json, kkzzhizhou/scoop-apps, 0
 bucket/Monaspace-NF-Mono.json, kkzzhizhou/scoop-apps, 0
 bucket/Monaspace-NF-Propo.json, kkzzhizhou/scoop-apps, 0
 bucket/Monaspace-NF.json, kkzzhizhou/scoop-apps, 0
@@ -1529,7 +1529,6 @@ bucket/OneScan.json, kkzzhizhou/scoop-apps, 0
 bucket/Open-Sans.json, kkzzhizhou/scoop-apps, 0
 bucket/OpenBoard-Portable.json, kkzzhizhou/scoop-apps, 0
 bucket/OpenCC_dodorz.json, kkzzhizhou/scoop-apps, 0
-bucket/OpenCode-Desktop_dodorz.json, kkzzhizhou/scoop-apps, 0
 bucket/OpenDyslexic-NF-Mono.json, kkzzhizhou/scoop-apps, 0
 bucket/OpenDyslexic-NF-Propo.json, kkzzhizhou/scoop-apps, 0
 bucket/OpenDyslexic-NF.json, kkzzhizhou/scoop-apps, 0
@@ -4196,6 +4195,7 @@ bucket/cntv_TianXiaTech.json, kkzzhizhou/scoop-apps, 0
 bucket/cobaltstrike.json, kkzzhizhou/scoop-apps, 0
 bucket/cobianbackup-aoks.json, kkzzhizhou/scoop-apps, 0
 bucket/coca.json, kkzzhizhou/scoop-apps, 0
+bucket/cockpit-tools.json, ivaquero/scoopet, 0
 bucket/coco.json, kkzzhizhou/scoop-apps, 0
 bucket/code-minimap.json, kkzzhizhou/scoop-apps, 0
 bucket/codeblocks-mingw.json, kkzzhizhou/scoop-apps, 0
@@ -5248,12 +5248,11 @@ bucket/elasticsearch.json, kkzzhizhou/scoop-apps, 0
 bucket/elasticsearch1.json, kkzzhizhou/scoop-apps, 0
 bucket/elasticsearch2.json, kkzzhizhou/scoop-apps, 0
 bucket/elasticsearch5.json, kkzzhizhou/scoop-apps, 0
-bucket/electerm.json, kkzzhizhou/scoop-apps, 0
-bucket/electerm_DoveBoy.json, kkzzhizhou/scoop-apps, 0
+bucket/electerm.json, akirco/aki-apps, 0
 bucket/electerm_SayCV.json, kkzzhizhou/scoop-apps, 0
+bucket/electerm_ScoopInstaller.json, kkzzhizhou/scoop-apps, 0
 bucket/electerm_akirco.json, kkzzhizhou/scoop-apps, 0
 bucket/electerm_chawyehsu.json, kkzzhizhou/scoop-apps, 0
-bucket/electerm_kkzzhizhou.json, kkzzhizhou/scoop-apps, 0
 bucket/electrem.json, kkzzhizhou/scoop-apps, 0
 bucket/electron-cash.json, kkzzhizhou/scoop-apps, 0
 bucket/electron-cash_chawyehsu.json, kkzzhizhou/scoop-apps, 0
@@ -5823,6 +5822,7 @@ bucket/flowus_chawyehsu.json, kkzzhizhou/scoop-apps, 0
 bucket/fluent-m3u8.json, kkzzhizhou/scoop-apps, 0
 bucket/fluent-reader.json, kkzzhizhou/scoop-apps, 0
 bucket/fluent-reader_ACooper81.json, kkzzhizhou/scoop-apps, 0
+bucket/fluent-reader_akirco.json, kkzzhizhou/scoop-apps, 0
 bucket/fluent-reader_batkiz.json, kkzzhizhou/scoop-apps, 0
 bucket/fluent-search.json, kkzzhizhou/scoop-apps, 0
 bucket/fluent-terminal-np.json, kkzzhizhou/scoop-apps, 0
@@ -8718,7 +8718,7 @@ bucket/modernflyouts.json, kkzzhizhou/scoop-apps, 0
 bucket/mods_charmbracelet.json, kkzzhizhou/scoop-apps, 0
 bucket/moekoemusic.json, kkzzhizhou/scoop-apps, 0
 bucket/mogan-cn.json, ivaquero/scoopet, 0
-bucket/mogan.json, kkzzhizhou/scoop-apps, 0
+bucket/mogan_Scoopforge.json, kkzzhizhou/scoop-apps, 0
 bucket/moldau.json, kkzzhizhou/scoop-apps, 0
 bucket/molotov-portapps.json, kkzzhizhou/scoop-apps, 0
 bucket/monasans.json, kkzzhizhou/scoop-apps, 0
@@ -13687,7 +13687,7 @@ bucket/utools_wzv5.json, kkzzhizhou/scoop-apps, 0
 bucket/utorrent-portable.json, kkzzhizhou/scoop-apps, 0
 bucket/utorrent.json, kkzzhizhou/scoop-apps, 0
 bucket/utpm.json, kkzzhizhou/scoop-apps, 0
-bucket/utpm_typst-community.json, kkzzhizhou/scoop-apps, 0
+bucket/utpm_ScoopInstaller.json, kkzzhizhou/scoop-apps, 0
 bucket/utvideo.json, kkzzhizhou/scoop-apps, 0
 bucket/uuidgen.json, kkzzhizhou/scoop-apps, 0
 bucket/uup-download-wizard-converter.json, kkzzhizhou/scoop-apps, 0
@@ -14783,6 +14783,7 @@ bucket/xdoc2txt.json, kkzzhizhou/scoop-apps, 0
 bucket/xdt.json, kkzzhizhou/scoop-apps, 0
 bucket/xdtgen.json, kkzzhizhou/scoop-apps, 0
 bucket/xebra.json, kkzzhizhou/scoop-apps, 0
+bucket/xel-launcher.json, kkzzhizhou/scoop-apps, 0
 bucket/xemu.json, kkzzhizhou/scoop-apps, 0
 bucket/xemu_borger.json, kkzzhizhou/scoop-apps, 0
 bucket/xemu_hermanjustnu.json, kkzzhizhou/scoop-apps, 0
@@ -15384,6 +15385,8 @@ scripts/ldplayer9/install.bat, kkzzhizhou/scoop-apps, 0
 scripts/ldplayer9/uninstall.bat, kkzzhizhou/scoop-apps, 0
 scripts/libation/Settings.json, kkzzhizhou/scoop-apps, 0
 scripts/libation/appsettings.json, kkzzhizhou/scoop-apps, 0
+scripts/librecad/install-associations.reg, kkzzhizhou/scoop-apps, 0
+scripts/librecad/uninstall-associations.reg, kkzzhizhou/scoop-apps, 0
 scripts/lockhunter/install-context.reg, kkzzhizhou/scoop-apps, 0
 scripts/lockhunter/uninstall-context.reg, kkzzhizhou/scoop-apps, 0
 scripts/logitech-options-install.ahk, kkzzhizhou/scoop-apps, 0
