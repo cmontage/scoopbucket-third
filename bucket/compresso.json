@@ -9,6 +9,7 @@
       "hash": "d27e63d2a8eec364aae364e6b7ec34089d3fb6382ad5f28a4760b948fbf13cba"
     }
   },
+  "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
   "shortcuts": [
     [
       "compressO.exe",
