@@ -173,6 +173,7 @@ bucket/AltAppInstaller-Portable.json, kkzzhizhou/scoop-apps, 0
 bucket/AmazonGames-UserInstall.json, kkzzhizhou/scoop-apps, 0
 bucket/AmazonMusic-UserInstall.json, kkzzhizhou/scoop-apps, 0
 bucket/AngryIPScanner-Portable.json, kkzzhizhou/scoop-apps, 0
+bucket/Anki-Install.json, kkzzhizhou/scoop-apps, 0
 bucket/Anki-Portable.json, kkzzhizhou/scoop-apps, 0
 bucket/AnonymousPro-NF-Mono.json, kkzzhizhou/scoop-apps, 0
 bucket/AnonymousPro-NF-Propo.json, kkzzhizhou/scoop-apps, 0
@@ -2111,7 +2112,7 @@ bucket/TeXnicCenter.json, kkzzhizhou/scoop-apps, 0
 bucket/TeaNote.json, kkzzhizhou/scoop-apps, 0
 bucket/TeamViewer-Install.json, kkzzhizhou/scoop-apps, 0
 bucket/TeambitionProjectWeb.json, kkzzhizhou/scoop-apps, 0
-bucket/Teamviewer-Portable_ACooper81.json, kkzzhizhou/scoop-apps, 0
+bucket/Teamviewer-Portable.json, kkzzhizhou/scoop-apps, 0
 bucket/Telegram-Portable.json, kkzzhizhou/scoop-apps, 0
 bucket/TencentMeeting_dodorz.json, kkzzhizhou/scoop-apps, 0
 bucket/TencentQQNT.json, kkzzhizhou/scoop-apps, 0
@@ -4555,8 +4556,8 @@ bucket/dadroitjsonviewer.json, kkzzhizhou/scoop-apps, 0
 bucket/daggerfallunity.json, kkzzhizhou/scoop-apps, 0
 bucket/daisy.json, kkzzhizhou/scoop-apps, 0
 bucket/dandanplay.json, kkzzhizhou/scoop-apps, 0
-bucket/dandanplay_DoveBoy.json, kkzzhizhou/scoop-apps, 0
 bucket/dandanplay_aoisummer.json, kkzzhizhou/scoop-apps, 0
+bucket/dandanplay_chawyehsu.json, kkzzhizhou/scoop-apps, 0
 bucket/dandere2x.json, kkzzhizhou/scoop-apps, 0
 bucket/dangerzone.json, kkzzhizhou/scoop-apps, 0
 bucket/dankerino-portable-qt5.json, kkzzhizhou/scoop-apps, 0
@@ -6325,7 +6326,7 @@ bucket/git-town.json, akirco/aki-apps, 0
 bucket/git-town_akirco.json, kkzzhizhou/scoop-apps, 0
 bucket/git-who.json, kkzzhizhou/scoop-apps, 0
 bucket/git-with-openssh_ShuguangSun.json, kkzzhizhou/scoop-apps, 0
-bucket/git-without-openssh.json, kkzzhizhou/scoop-apps, 0
+bucket/git-without-openssh.json, kkzzhizhou/scoop-apps, 1
 bucket/git.json, akirco/aki-apps, 1
 bucket/git19.json, kkzzhizhou/scoop-apps, 0
 bucket/git@2.10.0.json, kkzzhizhou/scoop-apps, 0
@@ -8115,7 +8116,9 @@ bucket/llama-cpp-ipex-llm.json, kkzzhizhou/scoop-apps, 0
 bucket/llama-cpp-rocm-gfx110x.json, kkzzhizhou/scoop-apps, 0
 bucket/llama.cpp-cpu.json, kkzzhizhou/scoop-apps, 0
 bucket/llama.cpp-cu117.json, kkzzhizhou/scoop-apps, 0
+bucket/llama.cpp-cu124-dll.json, kkzzhizhou/scoop-apps, 0
 bucket/llama.cpp-cu124.json, kkzzhizhou/scoop-apps, 0
+bucket/llama.cpp-cu131-dll.json, kkzzhizhou/scoop-apps, 0
 bucket/llama.cpp-cu131.json, kkzzhizhou/scoop-apps, 0
 bucket/llama.cpp-hip-gfx1030.json, kkzzhizhou/scoop-apps, 0
 bucket/llama.cpp-hip-gfx1100.json, kkzzhizhou/scoop-apps, 0
@@ -8990,7 +8993,7 @@ bucket/musicbee.json, kkzzhizhou/scoop-apps, 0
 bucket/musicbee_DoveBoy.json, kkzzhizhou/scoop-apps, 0
 bucket/musicbrainz-picard.json, kkzzhizhou/scoop-apps, 0
 bucket/musicdecrypto.json, kkzzhizhou/scoop-apps, 0
-bucket/musicfox.json, kkzzhizhou/scoop-apps, 0
+bucket/musicfox.json, akirco/aki-apps, 0
 bucket/musicfox_ygguorun.json, kkzzhizhou/scoop-apps, 0
 bucket/musicfree-np.json, kkzzhizhou/scoop-apps, 0
 bucket/musicfree.json, kkzzhizhou/scoop-apps, 0
@@ -13049,7 +13052,7 @@ bucket/teamspeak-portapps.json, kkzzhizhou/scoop-apps, 0
 bucket/teamspeak3.json, kkzzhizhou/scoop-apps, 0
 bucket/teamviewer-np.json, kkzzhizhou/scoop-apps, 0
 bucket/teamviewer-np_TheRandomLabs.json, kkzzhizhou/scoop-apps, 0
-bucket/teamviewer-portable.json, kkzzhizhou/scoop-apps, 0
+bucket/teamviewer-portable_naderi.json, kkzzhizhou/scoop-apps, 0
 bucket/teamviewer-qs.json, kkzzhizhou/scoop-apps, 0
 bucket/teamviewer.json, kkzzhizhou/scoop-apps, 0
 bucket/technorino-portable-qt5.json, kkzzhizhou/scoop-apps, 0
@@ -13490,7 +13493,6 @@ bucket/ttime-portable.json, kkzzhizhou/scoop-apps, 0
 bucket/ttime.json, kkzzhizhou/scoop-apps, 0
 bucket/ttplayer.json, kkzzhizhou/scoop-apps, 0
 bucket/tts-voice-wizard.json, kkzzhizhou/scoop-apps, 0
-bucket/tts-voice-wizard_babo4d.json, kkzzhizhou/scoop-apps, 0
 bucket/ttyd_DoveBoy.json, kkzzhizhou/scoop-apps, 0
 bucket/tuba-tool.json, kkzzhizhou/scoop-apps, 0
 bucket/tuifeed.json, kkzzhizhou/scoop-apps, 0
