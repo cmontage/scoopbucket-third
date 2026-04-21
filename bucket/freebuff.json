@@ -1,5 +1,5 @@
 {
-  "version": "0.0.34",
+  "version": "0.0.39",
   "description": "The world's strongest free coding agent",
   "homepage": "https://freebuff.com/",
   "license": "Apache-2.0",
@@ -12,7 +12,7 @@
     ]
   ],
   "installer": {
-    "script": "pushd $original_dir; pnpm add freebuff@0.0.34; popd;"
+    "script": "pushd $original_dir; pnpm add freebuff@0.0.39; popd;"
   },
   "post_uninstall": "pnpm store prune",
   "depends": [

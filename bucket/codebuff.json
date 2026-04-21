@@ -1,5 +1,5 @@
 {
-  "version": "1.0.642",
+  "version": "1.0.643",
   "description": "The world's strongest free coding agent",
   "homepage": "https://codebuff.com/",
   "license": "Apache-2.0",
@@ -12,7 +12,7 @@
     ]
   ],
   "installer": {
-    "script": "pushd $original_dir; pnpm add codebuff@1.0.642; popd;"
+    "script": "pushd $original_dir; pnpm add codebuff@1.0.643; popd;"
   },
   "post_uninstall": "pnpm store prune",
   "depends": [
