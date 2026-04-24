@@ -1,5 +1,5 @@
 {
-  "version": "7.2.14",
+  "version": "7.2.20",
   "description": "The most complete CLI for agentic engineering",
   "homepage": "https://kilo.ai/cli",
   "license": "MIT",
@@ -12,7 +12,7 @@
     ]
   ],
   "installer": {
-    "script": "pushd $original_dir; pnpm add @kilocode/cli@7.2.14; popd;"
+    "script": "pushd $original_dir; pnpm add @kilocode/cli@7.2.20; popd;"
   },
   "post_uninstall": "pnpm store prune",
   "depends": [
