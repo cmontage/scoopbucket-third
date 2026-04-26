@@ -19,21 +19,21 @@
   "shortcuts": [
     [
       "ruffle.exe",
-      "Ruffle"
+      "ruffle"
     ]
   ],
   "checkver": {
     "url": "https://api.github.com/repos/ruffle-rs/ruffle/releases",
-    "jsonpath": "$[0].tag_name",
-    "regex": "nightly-([\\d-]+)"
+    "jsonpath": "$[0].assets[*].browser_download_url",
+    "regex": "/releases/download/nightly-([\\d-]+)/(?<x86>ruffle-nightly-([\\d_]+)-windows-x86_32\\.zip).*?(?<x64>ruffle-nightly-([\\d_]+)-windows-x86_64\\.zip)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/ruffle-rs/ruffle/releases/download/nightly-$version/ruffle-nightly-$underscoreVersion-windows-x86_64.zip"
+        "url": "https://github.com/ruffle-rs/ruffle/releases/download/nightly-$version/$matchX64"
       },
       "32bit": {
-        "url": "https://github.com/ruffle-rs/ruffle/releases/download/nightly-$version/ruffle-nightly-$underscoreVersion-windows-x86_32.zip"
+        "url": "https://github.com/ruffle-rs/ruffle/releases/download/nightly-$version/$matchX86"
       }
     }
   }
