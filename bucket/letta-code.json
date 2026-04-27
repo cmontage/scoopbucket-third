@@ -1,5 +1,5 @@
 {
-  "version": "0.24.3",
+  "version": "0.24.6",
   "description": "Letta Code, a memory-first, model-agnostic agent harness",
   "homepage": "https://docs.letta.com/letta-code",
   "license": "Apache-2.0",
@@ -12,7 +12,7 @@
     ]
   ],
   "installer": {
-    "script": "pushd $original_dir; pnpm add @letta-ai/letta-code@0.24.3; popd;"
+    "script": "pushd $original_dir; pnpm add @letta-ai/letta-code@0.24.6; popd;"
   },
   "post_uninstall": "pnpm store prune",
   "depends": [
