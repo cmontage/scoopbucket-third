@@ -5,12 +5,12 @@
   "license": "GPL-3.0-or-later",
   "architecture": {
     "64bit": {
-      "url": "https://downloads.sourceforge.net/project/anytxt/Anytxt_1.3.2477_Windows_X86_64_OCR.exe",
-      "hash": "sha1:1053ae90e7a053e95c01d44d7dac3ec017bb76e2"
+      "url": "https://sourceforge.net/projects/anytxt/files/Anytxt_1.3.2477_Windows_X86_64.exe",
+      "hash": "sha1:a156dbe6b77ebbbfe5dbc30441b7b8ecae05b1fd"
     },
     "32bit": {
-      "url": "https://sourceforge.net/projects/anytxt/files/Anytxt_1.3.2477_Windows_X86_32_OCR.exe",
-      "hash": "sha1:87249ffd563a15f37836b3bf85659a367f24b27f"
+      "url": "https://sourceforge.net/projects/anytxt/files/Anytxt_1.3.2477_Windows_X86_32.exe",
+      "hash": "sha1:b2f7bfc0a3306dfcc96f0693f49dc21712c1a773"
     }
   },
   "installer": {
@@ -27,20 +27,20 @@
   "shortcuts": [
     [
       "ATGUI.exe",
-      "AnyTXT Searcher OCR"
+      "AnyTXT Searcher"
     ]
   ],
   "checkver": {
     "url": "https://anytxt.net/download/",
-    "regex": "AnyTXT_Searcher\\.([\\d.]+)_Windows_X86_64\\.exe"
+    "regex": "Anytxt_\\.([\\d.]+)_Windows_X86_64\\.exe"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://sourceforge.net/projects/anytxt/files/AnyTXT_Searcher.$version_Windows_X86_64_OCR.exe"
+        "url": "https://sourceforge.net/projects/anytxt/files/AnyTXT_Searcher.$version_Windows_X86_64.exe"
       },
       "32bit": {
-        "url": "https://sourceforge.net/projects/anytxt/files/AnyTXT_Searcher.$version_Windows_X86_32_OCR.exe"
+        "url": "https://sourceforge.net/projects/anytxt/files/AnyTXT_Searcher.$version_Windows_X86_32.exe"
       }
     },
     "hash": {
