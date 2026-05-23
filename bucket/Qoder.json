@@ -1,12 +1,12 @@
 {
-  "version": "0.18.0",
+  "version": "6",
   "description": "Agentic Coding Platform",
   "homepage": "https://qoder.com/",
   "license": "Proprietary",
   "architecture": {
     "64bit": {
       "url": "https://download.qoder.com/release/latest/QoderUserSetup-x64.exe",
-      "hash": "9247661cf312f345876a4a4840518d26ffc3c546478efba834ac80cf50cb9234",
+      "hash": "2a11f7221e7163cd8ebb03f84978861528c13ed52cfa2096b521c4242918fea0",
       "extract_dir": "{code_GetDestDir}"
     }
   },
@@ -41,6 +41,9 @@
     ]
   ],
   "persist": "data",
+  "checkver": {
+    "url": "https://qoder.com/changelog"
+  },
   "autoupdate": {
     "architecture": {
       "64bit": {
