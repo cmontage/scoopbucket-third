@@ -3,6 +3,10 @@
   "description": "System information software",
   "homepage": "https://www.cpuid.com/softwares/cpu-z.html",
   "license": "Freeware",
+  "notes": [
+    "The CPU-Z ARM64 version is in a separate manifest: `cpu-z-arm64`. To install it, run:",
+    "scoop install cpu-z-arm64"
+  ],
   "url": "https://download.cpuid.com/cpu-z/cpu-z_2.20.1-en.zip",
   "hash": "8a277400c04cef3950c77f1c944e31e2d0caa3e6b7b957ad7dd25ecbf43e169e",
   "architecture": {
