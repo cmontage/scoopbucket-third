@@ -1,5 +1,5 @@
 {
-  "version": "0.30.0",
+  "version": "0.30.3",
   "description": "Get up and running with large language models locally.",
   "homepage": "https://ollama.com/",
   "license": "MIT",
@@ -9,12 +9,12 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://github.com/ollama/ollama/releases/download/v0.30.0/ollama-windows-amd64.zip",
-      "hash": "c869517b0852372d694c2978564a73b5aa70eaafe96d73aab1783971f7c2f9d2"
+      "url": "https://github.com/ollama/ollama/releases/download/v0.30.3/ollama-windows-amd64.zip",
+      "hash": "6e4484b31608889d3a02f849ee37cc7135fc4ca37e4c119a55c01b92c4aea0b2"
     },
     "arm64": {
-      "url": "https://github.com/ollama/ollama/releases/download/v0.30.0/ollama-windows-arm64.zip",
-      "hash": "81385e9bf4eb644e6640fb1eaf3d9340770f8bf71c936ec5b7352405373282a9"
+      "url": "https://github.com/ollama/ollama/releases/download/v0.30.3/ollama-windows-arm64.zip",
+      "hash": "c4bc9ca730d3414aa910d6cf782fbf1fe2aab8717e690acfc1ad93023f16d97c"
     }
   },
   "env_set": {
