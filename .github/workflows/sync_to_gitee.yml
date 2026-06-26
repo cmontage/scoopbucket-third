@@ -13,9 +13,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Mirror repo to Gitee.
-        uses: abersheeran/sync-gitee-mirror@v1-beta
-        with:
-          repository: cmontage/${{ env.REPO_NAME }}
-          username: cmontage
-          password: ${{ secrets.GITEE_PASSWORD }}
+      - name: Mirror repo to Gitee
+        run: |
+          git clone --mirror https://github.com/${{ github.repository }}.git repo.git
+          cd repo.git
+          git config --local credential.helper '!f() { echo "username=cmontage"; echo "password=${GITEE_PASSWORD}"; }; f'
+          git remote add gitee https://gitee.com/cmontage/${{ env.REPO_NAME }}.git
+          git push gitee --mirror
+        env:
+          GITEE_PASSWORD: ${{ secrets.GITEE_PASSWORD }}
