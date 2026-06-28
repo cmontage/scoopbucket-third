@@ -1,25 +1,21 @@
 {
-  "version": "5.2",
+  "version": "6.0.22",
   "description": "FFmpegFreeUI",
   "homepage": "https://github.com/Lake1059/FFmpegFreeUI/blob/main/README.md",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/Lake1059/FFmpegFreeUI/releases/download/5.2/FFmpegFreeUI.ReadyToRun.x64.7z",
-      "hash": "5680f04f00a60a2b2894f072038f37f0ad05a90d227654f927a72dd98862a7cf"
+      "url": "https://github.com/Lake1059/FFmpegFreeUI/releases/download/6.0.22/FFmpegFreeUI.x64.exe",
+      "hash": "95154e277899f628955bcbcef95b1b834472451c99535ed3d031dddb57bba7bc"
     }
   },
-  "extract_dir": "FFmpegFreeUI ReadyToRun x64",
   "shortcuts": [
     [
       "FFmpegFreeUI.exe",
       "FFmpegFreeUI"
     ]
   ],
-  "pre_install": [
-    "$settingsFile = Join-Path $persist_dir 'Settings.json'",
-    "if (!(Test-Path $settingsFile)) { New-Item -ItemType File -Path $settingsFile | Out-Null }"
-  ],
+  "pre_install": "Rename-Item \"$dir\\FFmpegFreeUI.x64.exe\" \"$dir\\FFmpegFreeUI.exe\"",
   "bin": "FFmpegFreeUI.exe",
   "persist": "Settings.json",
   "checkver": {
@@ -29,7 +25,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/Lake1059/FFmpegFreeUI/releases/download/$version/FFmpegFreeUI.ReadyToRun.x64.7z"
+        "url": "https://github.com/Lake1059/FFmpegFreeUI/releases/download/$version/FFmpegFreeUI.x64.exe"
       }
     }
   }
