@@ -1,23 +1,23 @@
 {
-  "version": "2603-379",
-  "description": "A Nintendo GameCube and Wii emulator",
+  "version": "2603a",
+  "description": "Nintendo GameCube and Wii emulator, with enhancements and Netplay",
   "homepage": "https://dolphin-emu.org/",
   "license": {
     "identifier": "GPL-2.0-or-later",
     "url": "https://github.com/dolphin-emu/dolphin/blob/master/COPYING"
   },
   "suggest": {
-    "Microsoft Visual C++ Runtime 2022": "extras/vcredist2022"
+    "vcredist": "extras/vcredist2022"
   },
   "architecture": {
     "64bit": {
-      "url": "https://dl.dolphin-emu.org/builds/46/7d/dolphin-master-2603-379-x64.7z",
-      "hash": "7bef59e6e023932c7122c51f421f470dee41f1a35021d2498339894234c63164",
+      "url": "https://dl.dolphin-emu.org/releases/2603a/dolphin-2603a-x64.7z",
+      "hash": "4cc6d975fe9646ed7326271ec9a2d84b93301de7cdb525c6b20ed97c0a715bf1",
       "extract_dir": "Dolphin-x64"
     },
     "arm64": {
-      "url": "https://dl.dolphin-emu.org/builds/30/b1/dolphin-master-2603-379-ARM64.7z",
-      "hash": "59a0433e43623c80decff020f68fb14cd9eb82489516071ff4e7f301ad00d4aa",
+      "url": "https://dl.dolphin-emu.org/releases/2603a/dolphin-2603a-ARM64.7z",
+      "hash": "d004c00fae9067183d91e2eb3ad2a789a6389f2cc02e21fc35358ae924fbde5a",
       "extract_dir": "Dolphin-ARM64"
     }
   },
@@ -31,33 +31,27 @@
   ],
   "post_install": "Set-Content -Value $null -Path \"$dir\\portable.txt\"",
   "bin": [
-    [
-      "Dolphin.exe",
-      "dolphin-dev"
-    ],
-    [
-      "DolphinTool.exe",
-      "dolphintool-dev"
-    ]
+    "Dolphin.exe",
+    "DolphinTool.exe"
   ],
   "shortcuts": [
     [
       "Dolphin.exe",
-      "Nintendo GameCube & Wii [ngc][dolphin] (dev)"
+      "Dolphin"
     ]
   ],
   "persist": "User",
   "checkver": {
     "url": "https://dolphin-emu.org/download/",
-    "regex": "(?<prefix1>.{5})/dolphin-master-(?<version>[\\w-]+)-x64[\\s\\S]+?(?<prefix2>.{5})/dolphin-master-\\k<version>-ARM64"
+    "regex": "https://dl.dolphin-emu.org/releases/(?<version>\\d+[\\w-]*)/"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://dl.dolphin-emu.org/builds/$matchPrefix1/dolphin-master-$version-x64.7z"
+        "url": "https://dl.dolphin-emu.org/releases/$version/dolphin-$version-x64.7z"
       },
       "arm64": {
-        "url": "https://dl.dolphin-emu.org/builds/$matchPrefix2/dolphin-master-$version-ARM64.7z"
+        "url": "https://dl.dolphin-emu.org/releases/$version/dolphin-$version-ARM64.7z"
       }
     }
   }
