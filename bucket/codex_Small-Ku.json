@@ -1,5 +1,5 @@
 {
-  "version": "0.142.4",
+  "version": "0.142.5",
   "description": "OpenAI's Codex AI coding assistant",
   "homepage": "https://github.com/openai/codex",
   "license": "Apache-2.0",
@@ -12,7 +12,7 @@
     ]
   ],
   "installer": {
-    "script": "pushd $original_dir; pnpm add @openai/codex@0.142.4; popd;"
+    "script": "pushd $original_dir; pnpm add @openai/codex@0.142.5; popd;"
   },
   "post_uninstall": "pnpm store prune",
   "depends": [
