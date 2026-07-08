@@ -1,5 +1,5 @@
 {
-  "version": "4.9.5.25622162",
+  "version": "4.9.15.31887257",
   "description": "腾讯云代码助手 CodeBuddy - AI 时代的智能编程伙伴，集成设计到开发的全栈 IDE",
   "homepage": "https://www.codebuddy.ai/",
   "license": {
@@ -20,8 +20,8 @@
   ],
   "architecture": {
     "64bit": {
-      "url": "https://codebuddy-1328495429.cos.accelerate.myqcloud.com/aiide/win32-x64-user/CodeBuddy-win32-x64-user-4.9.5.25622162-bae7923c.exe",
-      "hash": "d4eef9625f914a928ec069cb5ec20fd992abe32b422f144aec8de92dc3b6266d"
+      "url": "https://codebuddy-1328495429.cos.accelerate.myqcloud.com/aiide/win32-x64-user/CodeBuddy-win32-x64-user-4.9.15.31887257-cbd94294.exe",
+      "hash": "8731919cfc4e84e5fb47aa5118658cf78bb0890d70bbd160c6950cd32a3f3e14"
     }
   },
   "innosetup": true,
