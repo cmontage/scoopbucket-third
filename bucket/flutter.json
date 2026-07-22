@@ -3,7 +3,11 @@
   "description": "Google's SDK for crafting beautiful, fast user experiences for mobile, web, and desktop",
   "homepage": "https://flutter.dev",
   "license": "BSD-3-Clause",
-  "notes": " - Run 'flutter doctor' to see if there are any platform dependencies you need to complete the setup.",
+  "notes": [
+    " - Run 'flutter doctor' to see if there are any platform dependencies you need to complete the setup.",
+    "Though only x64 sdk are officially distributed, we can repurpose it to get arm64 sdk, see:",
+    "https://github.com/flutter/flutter/issues/186730#issuecomment-4573214964"
+  ],
   "suggest": {
     "Android SDK Tools": "android-clt",
     "Android Studio": "extras/android-studio",
@@ -15,12 +19,19 @@
   },
   "url": "https://storage.googleapis.com/flutter_infra_release/releases/stable/windows/flutter_windows_3.44.7-stable.zip",
   "hash": "327b89c2ff612418c1d756efc9636d7811c50e4b50a916d07bc3bdc317ba25e5",
+  "architecture": {
+    "arm64": {
+      "post_install": [
+        "Remove-Item -path \"$dir\\bin\\cache\\engine-dart-sdk.stamp\" -Force -ErrorAction Ignore",
+        "Write-Host \"Repurposing the sdk for arm64, please wait in patience!\" -ForegroundColor Green",
+        "cmd /c \"$dir\\bin\\flutter.bat\" doctor -v"
+      ]
+    }
+  },
   "extract_dir": "flutter",
   "env_add_path": "bin",
   "env_set": {
-    "FLUTTER_ROOT": "$dir",
-    "FLUTTER_STORAGE_BASE_URL": "https://storage.flutter-io.cn",
-    "PUB_HOSTED_URL": "https://pub.flutter-io.cn"
+    "FLUTTER_ROOT": "$dir"
   },
   "checkver": {
     "url": "https://storage.googleapis.com/flutter_infra_release/releases/releases_windows.json",
