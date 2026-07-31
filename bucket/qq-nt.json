@@ -1,55 +1,54 @@
 {
-  "version": "9.9.32.260716",
-  "description": "An instant messaging software service developed by Tencent",
-  "homepage": "https://im.qq.com/pcqq/index.shtml",
+  "version": "9.9.33.51802",
+  "description": "An instant messaging tool that gives you the best way to keep in touch with your friends and family, Build with Electron",
+  "homepage": "https://im.qq.com",
   "license": {
     "identifier": "Proprietary",
     "url": "https://ti.qq.com/agreement/index.html"
   },
+  "suggest": {
+    "LiteLoaderQQNT": "LiteLoaderQQNT"
+  },
   "architecture": {
     "64bit": {
-      "url": "https://qqdl.gtimg.cn/qqfile/QQNT/9.9.32/release/9d4083e2/QQ_9.9.32_260716_x64_01.exe#/dl.7z",
-      "hash": "685c989145381d9bc849948b836270111a8b6b8cebf2068ff158ac9d2324bc44"
-    },
-    "32bit": {
-      "url": "https://qqdl.gtimg.cn/qqfile/QQNT/9.9.32/release/9d4083e2/QQ_9.9.32_260716_x86_01.exe#/dl.7z",
-      "hash": "a27039b9c9fe9f59998b98a784bb743618990bbabde1582c776a174b94ef279f"
-    },
-    "arm64": {
-      "url": "https://qqdl.gtimg.cn/qqfile/QQNT/9.9.32/release/9d4083e2/QQ_9.9.32_260716_arm64_01.exe#/dl.7z",
-      "hash": "76f9324dfa89bb6f21a46f826c50e472db3fda48d27f889964e6d21ad1c751dc"
+      "url": "https://qqdl.gtimg.cn/qqfile/QQNT/9.9.33/release/a0ce07ad/QQ_9.9.33_260730_x64_01.exe#/dl.7z",
+      "hash": "7bcc1ad50c19d14c9aad17778a0359aacd84b4d6c54ef1c71d938e0a6e2f2f5d"
     }
   },
-  "extract_dir": "Files",
+  "installer": {
+    "script": [
+      "$configpath = \"$env:PUBLIC\\Documents\\Tencent\\QQ\"",
+      "if (!(Test-Path \"$configpath\")) {",
+      "    New-Item -Path \"$configpath\" -Type Directory -Force | Out-Null",
+      "}",
+      "Set-Content -NoNewline -Path \"$configpath\\UserDataInfo.ini\" -Value \"[UserDataSet]`nUserDataSavePathType=2`nUserDataSavePath=$persist_dir\\QQ Files\""
+    ]
+  },
   "shortcuts": [
     [
-      "QQ.exe",
-      "QQ"
+      "Files\\QQ.exe",
+      "QQ-NT"
     ]
   ],
+  "persist": "QQ Files",
+  "uninstaller": {
+    "script": "Remove-Item -Path \"$env:PUBLIC\\Documents\\Tencent\" -Recurse -Force | Out-Null"
+  },
   "checkver": {
     "script": [
-      "# Please keep this script. Using 'cdn-go.cn' may result in receiving expired cache responses.",
-      "$url = 'https://cdn-go.cn/qq-web/im.qq.com_new/latest/rainbow/windowsConfig.js'",
-      "$hostname = ([Uri]$url).Host",
-      "$records = Resolve-DnsName 'cdn-go.cn.cloud.tc.qq.com' -Type A -DnsOnly -ErrorAction Ignore",
-      "$ip = $records | Where-Object { $_.QueryType -eq 'A' -and $_.IPAddress } | Select-Object -ExpandProperty IP4Address -First 1",
-      "$url = $url -Replace [regex]::Escape($hostname), $ip",
-      "Invoke-WebRequest -Uri $url -UseBasicParsing -Headers @{'Host' = $hostname} | Select-Object -ExpandProperty Content"
+      ". \"$pwd\\bin\\utils.ps1\"",
+      "$dl_info = get_installer_info 'Tencent/QQ/NT'",
+      "\"ver:$($dl_info.PackageVersion);\"",
+      "\"x64:$($dl_info.x64_exe.InstallerUrl);\"",
+      "\"hash:$($dl_info.x64_exe.InstallerSha256);\""
     ],
-    "regex": "QQNT/(.*?)/QQ_([\\d.]+)_([\\d]+)_x86_01.exe",
-    "replace": "${2}.${3}"
+    "regex": "ver:(?<version>[^;]+)(?:; x64:(?<x64>[^;]*))?(?:; x86:(?<x86>[^;]*))?(?:; arm64:(?<arm64>[^;]*))?"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://qqdl.gtimg.cn/qqfile/QQNT/$match1/QQ_$match2_$match3_x64_01.exe#/dl.7z"
-      },
-      "32bit": {
-        "url": "https://qqdl.gtimg.cn/qqfile/QQNT/$match1/QQ_$match2_$match3_x86_01.exe#/dl.7z"
-      },
-      "arm64": {
-        "url": "https://qqdl.gtimg.cn/qqfile/QQNT/$match1/QQ_$match2_$match3_arm64_01.exe#/dl.7z"
+        "url": "$matchX64#/dl.7z",
+        "hash": "$matchHash"
       }
     }
   }
