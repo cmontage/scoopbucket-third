@@ -4,12 +4,16 @@
   "homepage": "https://doc.qt.io/qtcreator/index.html",
   "license": "GPL-3.0-only",
   "suggest": {
-    "vcredist": "vcredist2019"
+    "vcredist": "extras/vcredist2022"
   },
   "architecture": {
     "64bit": {
       "url": "https://download.qt.io/official_releases/qtcreator/20.0/20.0.1/installer_source/windows_x64/qtcreator.7z",
       "hash": "md5:63d41799b48e1d3fd83dbe28eba7356d"
+    },
+    "arm64": {
+      "url": "https://download.qt.io/official_releases/qtcreator/20.0/20.0.1/installer_source/windows_arm64/qtcreator.7z",
+      "hash": "md5:d9082b89cda1924607317b7e60326e45"
     }
   },
   "bin": "bin\\qtcreator.exe",
@@ -27,6 +31,9 @@
     "architecture": {
       "64bit": {
         "url": "https://download.qt.io/official_releases/qtcreator/$majorVersion.$minorVersion/$version/installer_source/windows_x64/qtcreator.7z"
+      },
+      "arm64": {
+        "url": "https://download.qt.io/official_releases/qtcreator/$majorVersion.$minorVersion/$version/installer_source/windows_arm64/qtcreator.7z"
       }
     },
     "hash": {
