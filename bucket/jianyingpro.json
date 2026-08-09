@@ -3,28 +3,27 @@
   "description": "Video editing application produced by ByteDance",
   "license": "Proprietary",
   "version": "11.2.0.14339",
-  "url": "https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_11_2_0_14339_jianyingpro_0_creatortool.exe#/dl.7z",
-  "hash": "378499182dd3c52f097f3385334a5ef7569f4f55b8674c354bd0a2f9b3d271ef",
+  "url": "https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_11_2_0_14339_jianyingpro_0_creatortool.exe#/jianyingpro.7z",
+  "hash": "md5:be2d1073ff192db787e3b8654b708fdc",
   "extract_dir": "JYPacket/11.2.0.14339",
   "shortcuts": [
     [
       "JianyingPro.exe",
-      "Jianying Pro"
+      "剪映专业版"
     ]
   ],
   "checkver": {
-    "script": [
-      ". \"$pwd\\bin\\utils.ps1\"",
-      "$dl_info = get_installer_info 'ByteDance/JianyingPro'",
-      "\"ver:$($dl_info.PackageVersion);\"",
-      "\"x64:$($dl_info.x64_exe.InstallerUrl);\"",
-      "\"hash:$($dl_info.x64_exe.InstallerSha256);\""
-    ],
-    "regex": "ver:(?<version>.+?); x64:(?<x64>.+?); hash:(?<hash>.+?)$"
+    "url": "https://is.snssdk.com/service/settings/v3/?device_platform=windows&os_version=10&aid=3704&iid=0&version_code=197888",
+    "jsonpath": "$.data.settings.update_reminder.lastest_stable_url",
+    "regex": "https://(?<path>.*?)/Jianying_(?<major>[\\d]+)_(?<minor>[\\d]+)_(?<patch>[\\d]+)_(?<build>[\\d]+)_jianyingpro_0_creatortool.exe",
+    "replace": "${major}.${minor}.${patch}.${build}"
   },
   "autoupdate": {
-    "url": "$matchX64#/dl.7z",
-    "hash": "$matchHash",
+    "url": "https://$matchPath/Jianying_$underscoreVersion_jianyingpro_0_creatortool.exe#/jianyingpro.7z",
+    "hash": {
+      "url": "https://is.snssdk.com/service/settings/v3/?device_platform=windows&os_version=10&aid=3704&iid=0&version_code=197888",
+      "jsonpath": "$.data.settings.update_reminder.lastest_stable_url_md5"
+    },
     "extract_dir": "JYPacket/$version"
   }
 }
