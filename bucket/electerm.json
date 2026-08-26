@@ -1,23 +1,57 @@
 {
-  "homepage": "https://electerm.html5beta.com/",
-  "description": "electerm is a terminal/ssh/sftp client(linux, mac, win) based on electron/ssh2/node-pty/xterm/antd and many other libs.",
-  "version": "5.3.0",
+  "version": "5.3.5",
+  "description": "Terminal/ssh/serial port/sftp client",
+  "homepage": "https://electerm.github.io/electerm/",
   "license": "MIT",
-  "url": "https://github.com/electerm/electerm/releases/download/v5.3.0/electerm-5.3.0-win-x64.tar.gz",
-  "hash": "0df6c8c5d62d7ab00e522f0621e48c1b1c2512755d8f6d01f26b69aece1cda53",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/electerm/electerm/releases/download/v5.3.5/electerm-5.3.5-win-x64.tar.gz",
+      "hash": "c71d5111a2a956171c0b0aa472989f9caadf86a260aeee44c8603a08af451baf",
+      "extract_dir": "electerm-5.3.5-win-x64"
+    }
+  },
   "bin": "electerm.exe",
+  "installer": {
+    "script": [
+      "if (!(Test-Path \"$persist_dir\\Cache\")) {",
+      "    New-Item \"$persist_dir\\Cache\" -Type Directory -Force | Out-Null",
+      "}",
+      "$runtimeCache = \"$env:APPDATA\\electerm\"",
+      "$runtimeCachePersist = \"$persist_dir\\Cache\"",
+      "if (Test-Path $runtimeCachePersist) {",
+      "    Remove-Item $runtimeCache -Force -Recurse -ErrorAction SilentlyContinue",
+      "    New-Item -Type Junction -Path $runtimeCache -Target $runtimeCachePersist | Out-Null",
+      "} else {",
+      "    if (Test-Path $runtimeCache) {",
+      "        Move-Item $runtimeCache $runtimeCachePersist -Force",
+      "        New-Item -Type Junction -Path $runtimeCache -Target $runtimeCachePersist | Out-Null",
+      "    }",
+      "}"
+    ]
+  },
+  "uninstaller": {
+    "script": [
+      "$runtimeCache = \"$env:APPDATA\\electerm\"",
+      "$runtimeCachePersist = \"$persist_dir\"",
+      "Remove-Item $runtimeCache -Force -Recurse -ErrorAction SilentlyContinue",
+      "Remove-Item $runtimeCachePersist -Force -Recurse -ErrorAction SilentlyContinue"
+    ]
+  },
   "shortcuts": [
     [
       "electerm.exe",
-      "Electerm"
+      "electerm"
     ]
   ],
-  "extract_dir": "electerm-5.3.0-win-x64",
   "checkver": {
-    "github": "https://github.com/electerm/electerm/"
+    "github": "https://github.com/electerm/electerm"
   },
   "autoupdate": {
-    "url": "https://github.com/electerm/electerm/releases/download/v$version/electerm-$version-win-x64.tar.gz",
-    "extract_dir": "electerm-$version-win-x64"
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/electerm/electerm/releases/download/v$version/electerm-$version-win-x64.tar.gz",
+        "extract_dir": "electerm-$version-win-x64"
+      }
+    }
   }
 }
