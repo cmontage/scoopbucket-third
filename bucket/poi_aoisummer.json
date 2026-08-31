@@ -1,8 +1,8 @@
 {
-  "version": "12.0.0",
   "homepage": "https://poi.moe/",
-  "description": "Scalable KanColle browser and tool.",
-  "license": "MIT License",
+  "description": "A scalable browser and tool set for Kantai Collection.",
+  "version": "12.0.0",
+  "license": "MIT",
   "architecture": {
     "64bit": {
       "url": "https://github.com/poooi/poi/releases/download/v12.0.0/poi-12.0.0-win.7z",
@@ -13,15 +13,15 @@
       "hash": "8e49ade5c01b856cc9eb65f8ab5cb1472e04218a6a0950e8a3256c02b7244e8f"
     }
   },
-  "bin": "poi.exe",
   "shortcuts": [
     [
       "poi.exe",
-      "poi"
+      "Poi"
     ]
   ],
   "checkver": {
-    "github": "https://github.com/poooi/poi"
+    "url": "https://github.com/poooi/poi/releases",
+    "regex": "/releases/tag/v([\\d.]+)\""
   },
   "autoupdate": {
     "architecture": {
