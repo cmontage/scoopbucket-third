@@ -5,23 +5,36 @@
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/TranslucentTB/TranslucentTB/releases/download/2026.2/TranslucentTB.appinstaller",
-      "hash": "daa91439ea64a7611bd81322cee4d8d9b2067176a5286398822dcd6fbbcdfb8e"
+      "url": "https://github.com/TranslucentTB/TranslucentTB/releases/download/2026.2/TranslucentTB-portable-x64.zip",
+      "hash": "0dbe8e0255c20e131cde536dcd0ae490d45989a7d360e26d0150dff1922ac420"
+    },
+    "arm64": {
+      "url": "https://github.com/TranslucentTB/TranslucentTB/releases/download/2026.2/TranslucentTB-portable-arm64.zip",
+      "hash": "81b2f386bd4776a2d9f5c44d8a9b5b3aebccd2eeffaa53435eac24aa38797c82"
     }
   },
   "pre_install": [
-    "if($PSVersionTable.PSVersion.Major -ge 6) {Import-Module Appx -UseWindowsPowershell 3>$null | Out-Null}",
-    "Add-AppxPackage \"$dir\\TranslucentTB.appinstaller\" -AppInstaller"
+    "# Create settings.json if it does not exist",
+    "if (!(Test-Path \"$persist_dir\\settings.json\")) {",
+    "    Set-Content -Path \"$dir\\settings.json\" -Value \"{}\"",
+    "}"
   ],
-  "uninstaller": {
-    "script": [
-      "taskkill /F /IM TranslucentTB.exe /FI \"status eq running\" | Out-Null",
-      "if($PSVersionTable.PSVersion.Major -ge 6) {Import-Module Appx -UseWindowsPowershell 3>$null | Out-Null}",
-      "Get-AppxPackage '28017CharlesMilette.TranslucentTB' | Remove-AppxPackage"
+  "shortcuts": [
+    [
+      "TranslucentTB.exe",
+      "TranslucentTB"
     ]
-  },
+  ],
+  "persist": "settings.json",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://github.com/TranslucentTB/TranslucentTB/releases/download/$version/TranslucentTB.appinstaller"
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/TranslucentTB/TranslucentTB/releases/download/$version/TranslucentTB-portable-x64.zip"
+      },
+      "arm64": {
+        "url": "https://github.com/TranslucentTB/TranslucentTB/releases/download/$version/TranslucentTB-portable-arm64.zip"
+      }
+    }
   }
 }
