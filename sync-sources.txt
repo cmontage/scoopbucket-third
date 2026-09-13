@@ -205,7 +205,7 @@ bucket/AlliN_bright-angel.json, kkzzhizhou/scoop-apps, 0
 bucket/AllwaySync-Install.json, kkzzhizhou/scoop-apps, 0
 bucket/AllwaySyncnGo-Portable.json, kkzzhizhou/scoop-apps, 0
 bucket/AllyAgent.json, kkzzhizhou/scoop-apps, 0
-bucket/Alma.json, kkzzhizhou/scoop-apps, 0
+bucket/Alma_dodorz.json, kkzzhizhou/scoop-apps, 0
 bucket/AlomWareToolbox.json, kkzzhizhou/scoop-apps, 0
 bucket/AlpineWSL_dodorz.json, kkzzhizhou/scoop-apps, 0
 bucket/Alt-C.json, kkzzhizhou/scoop-apps, 0
@@ -310,11 +310,11 @@ bucket/AutoDrumPortable.json, kkzzhizhou/scoop-apps, 0
 bucket/AutoGUI.json, kkzzhizhou/scoop-apps, 0
 bucket/AutoHotkey-Install.json, kkzzhizhou/scoop-apps, 0
 bucket/AutoHotkey-Portable_ACooper81.json, kkzzhizhou/scoop-apps, 0
-bucket/AutoHotkey.json, kkzzhizhou/scoop-apps, 0
 bucket/AutoHotkey2-Install.json, kkzzhizhou/scoop-apps, 0
 bucket/AutoHotkey2-Portable.json, kkzzhizhou/scoop-apps, 0
 bucket/AutoHotkey2-UserInstall.json, kkzzhizhou/scoop-apps, 0
 bucket/AutoHotkey_dodorz.json, kkzzhizhou/scoop-apps, 0
+bucket/AutoHotkey_kkzzhizhou.json, kkzzhizhou/scoop-apps, 0
 bucket/AutoIt-Install.json, kkzzhizhou/scoop-apps, 0
 bucket/AutoIt-Portable.json, kkzzhizhou/scoop-apps, 0
 bucket/AutoRuns_Toddli468.json, kkzzhizhou/scoop-apps, 0
@@ -3760,7 +3760,7 @@ bucket/adventuregamestudio.json, kkzzhizhou/scoop-apps, 0
 bucket/adwcleaner.json, kkzzhizhou/scoop-apps, 0
 bucket/aegisub-arch.json, kkzzhizhou/scoop-apps, 0
 bucket/aegisub-arch1t3cht.json, kkzzhizhou/scoop-apps, 0
-bucket/aegisub-arch_404NetworkError.json, kkzzhizhou/scoop-apps, 0
+bucket/aegisub-arch_cc713.json, kkzzhizhou/scoop-apps, 0
 bucket/aegisub-beta.json, kkzzhizhou/scoop-apps, 0
 bucket/aegisub-nightly.json, kkzzhizhou/scoop-apps, 0
 bucket/aegisub.json, kkzzhizhou/scoop-apps, 0
@@ -3856,7 +3856,7 @@ bucket/alldup-aoks.json, kkzzhizhou/scoop-apps, 0
 bucket/alldup.json, kkzzhizhou/scoop-apps, 0
 bucket/allthreadsview.json, kkzzhizhou/scoop-apps, 0
 bucket/allthreadsview_kodybrown.json, kkzzhizhou/scoop-apps, 0
-bucket/alma_chawyehsu.json, kkzzhizhou/scoop-apps, 0
+bucket/alma.json, kkzzhizhou/scoop-apps, 0
 bucket/alpinewsl.json, kkzzhizhou/scoop-apps, 0
 bucket/alt-app-switcher.json, kkzzhizhou/scoop-apps, 0
 bucket/alt-ime-ahk.json, kkzzhizhou/scoop-apps, 0
@@ -4267,10 +4267,11 @@ bucket/autogpuaffinity-spddl.json, kkzzhizhou/scoop-apps, 0
 bucket/autogpuaffinity.json, kkzzhizhou/scoop-apps, 0
 bucket/autohotkey-np.json, kkzzhizhou/scoop-apps, 0
 bucket/autohotkey-portable.json, kkzzhizhou/scoop-apps, 0
+bucket/autohotkey.json, kkzzhizhou/scoop-apps, 0
 bucket/autohotkey1.1.json, kkzzhizhou/scoop-apps, 0
 bucket/autohotkey2.1.json, kkzzhizhou/scoop-apps, 0
 bucket/autohotkey_HUMORCE.json, kkzzhizhou/scoop-apps, 0
-bucket/autohotkey_ScoopInstaller.json, kkzzhizhou/scoop-apps, 0
+bucket/autohotkey_Locietta.json, kkzzhizhou/scoop-apps, 0
 bucket/autohotkey_WinApps-share.json, kkzzhizhou/scoop-apps, 0
 bucket/autohotkeyv1.json, kkzzhizhou/scoop-apps, 0
 bucket/autoit-script-editor.json, kkzzhizhou/scoop-apps, 0
@@ -5129,7 +5130,7 @@ bucket/change-key.json, kkzzhizhou/scoop-apps, 0
 bucket/changie.json, kkzzhizhou/scoop-apps, 0
 bucket/chansort-aoks.json, kkzzhizhou/scoop-apps, 0
 bucket/chaptereditor.json, kkzzhizhou/scoop-apps, 0
-bucket/chaptereditor_404NetworkError.json, kkzzhizhou/scoop-apps, 0
+bucket/chaptereditor_natecohen.json, kkzzhizhou/scoop-apps, 0
 bucket/chaptermaker.json, kkzzhizhou/scoop-apps, 0
 bucket/chapters-for-mpv.json, kkzzhizhou/scoop-apps, 0
 bucket/charles.json, kkzzhizhou/scoop-apps, 0
@@ -5263,7 +5264,7 @@ bucket/chromium-dev.json, kkzzhizhou/scoop-apps, 0
 bucket/chromium-nosync.json, kkzzhizhou/scoop-apps, 0
 bucket/chromium-np.json, kkzzhizhou/scoop-apps, 0
 bucket/chromium-xp.json, kkzzhizhou/scoop-apps, 0
-bucket/chromium.json, kkzzhizhou/scoop-apps, 0
+bucket/chromium.json, akirco/aki-apps, 0
 bucket/chromium_akirco.json, kkzzhizhou/scoop-apps, 0
 bucket/chromium_hu3rror.json, kkzzhizhou/scoop-apps, 0
 bucket/chrono.json, kkzzhizhou/scoop-apps, 0
@@ -6733,9 +6734,8 @@ bucket/elasticsearch2.json, kkzzhizhou/scoop-apps, 0
 bucket/elasticsearch5.json, kkzzhizhou/scoop-apps, 0
 bucket/electerm.json, kkzzhizhou/scoop-apps, 0
 bucket/electerm_SayCV.json, kkzzhizhou/scoop-apps, 0
+bucket/electerm_ScoopInstaller.json, kkzzhizhou/scoop-apps, 0
 bucket/electerm_akirco.json, kkzzhizhou/scoop-apps, 0
-bucket/electerm_chawyehsu.json, kkzzhizhou/scoop-apps, 0
-bucket/electerm_kkzzhizhou.json, kkzzhizhou/scoop-apps, 0
 bucket/electrem.json, kkzzhizhou/scoop-apps, 0
 bucket/electron-cash.json, kkzzhizhou/scoop-apps, 0
 bucket/electron-cash_chawyehsu.json, kkzzhizhou/scoop-apps, 0
@@ -7669,12 +7669,12 @@ bucket/gameboosthd_brian6932.json, kkzzhizhou/scoop-apps, 0
 bucket/gamebuff.json, kkzzhizhou/scoop-apps, 0
 bucket/gamebuff_SayCV.json, kkzzhizhou/scoop-apps, 0
 bucket/gamesave-manager.json, kkzzhizhou/scoop-apps, 0
-bucket/gamesave-manager_starise.json, kkzzhizhou/scoop-apps, 0
+bucket/gamesave-manager_babo4d.json, kkzzhizhou/scoop-apps, 0
 bucket/gammy.json, kkzzhizhou/scoop-apps, 0
 bucket/gamutvision.json, kkzzhizhou/scoop-apps, 0
 bucket/ganjoor.json, kkzzhizhou/scoop-apps, 0
 bucket/ganttproject.json, kkzzhizhou/scoop-apps, 0
-bucket/ganttproject_ShuguangSun.json, kkzzhizhou/scoop-apps, 0
+bucket/ganttproject_windedge.json, kkzzhizhou/scoop-apps, 0
 bucket/gaojitools.json, kkzzhizhou/scoop-apps, 0
 bucket/garbro.json, kkzzhizhou/scoop-apps, 0
 bucket/gat.json, kkzzhizhou/scoop-apps, 0
@@ -8426,6 +8426,7 @@ bucket/heimer.json, kkzzhizhou/scoop-apps, 0
 bucket/hekasoft-backup-restore.json, kkzzhizhou/scoop-apps, 0
 bucket/helium-pre.json, kkzzhizhou/scoop-apps, 0
 bucket/helium.json, kkzzhizhou/scoop-apps, 0
+bucket/helium_DoveBoy.json, kkzzhizhou/scoop-apps, 0
 bucket/helix-aoks.json, kkzzhizhou/scoop-apps, 0
 bucket/helix.json, akirco/aki-apps, 0
 bucket/helix_DoveBoy.json, kkzzhizhou/scoop-apps, 0
@@ -10037,10 +10038,10 @@ bucket/lwc_akirco.json, kkzzhizhou/scoop-apps, 0
 bucket/lwp.json, kkzzhizhou/scoop-apps, 0
 bucket/lx-music-desktop-win7.json, kkzzhizhou/scoop-apps, 0
 bucket/lx-music-desktop.json, kkzzhizhou/scoop-apps, 0
+bucket/lx-music-desktop_DoveBoy.json, kkzzhizhou/scoop-apps, 0
 bucket/lx-music-desktop_hu3rror.json, kkzzhizhou/scoop-apps, 0
 bucket/lx-music-desktop_kkzzhizhou.json, kkzzhizhou/scoop-apps, 0
 bucket/lx-music-desktop_scoopcn.json, kkzzhizhou/scoop-apps, 0
-bucket/lx-music-desktop_wzv5.json, kkzzhizhou/scoop-apps, 0
 bucket/lx-music-desktop_ygguorun.json, kkzzhizhou/scoop-apps, 0
 bucket/lx-music-np.json, kkzzhizhou/scoop-apps, 0
 bucket/lx-music.json, ivaquero/scoopet, 0
@@ -12651,7 +12652,7 @@ bucket/piliplus-portable.json, kkzzhizhou/scoop-apps, 0
 bucket/piliplus.json, kkzzhizhou/scoop-apps, 0
 bucket/pin.json, kkzzhizhou/scoop-apps, 0
 bucket/pinact.json, kkzzhizhou/scoop-apps, 0
-bucket/pinact_aliesbelik.json, kkzzhizhou/scoop-apps, 0
+bucket/pinact_chawyehsu.json, kkzzhizhou/scoop-apps, 0
 bucket/pinata.json, kkzzhizhou/scoop-apps, 0
 bucket/pine64-updater.json, kkzzhizhou/scoop-apps, 0
 bucket/pineflash.json, kkzzhizhou/scoop-apps, 0
@@ -14372,7 +14373,7 @@ bucket/shadowsocksr-hmbsbige.json, kkzzhizhou/scoop-apps, 0
 bucket/shadowsocksr-hmbsbige_DoveBoy.json, kkzzhizhou/scoop-apps, 0
 bucket/shadowsocksrr.json, kkzzhizhou/scoop-apps, 0
 bucket/shadps4-dev.json, kkzzhizhou/scoop-apps, 0
-bucket/shadps4-dev_borger.json, kkzzhizhou/scoop-apps, 0
+bucket/shadps4-dev_Calinou.json, kkzzhizhou/scoop-apps, 0
 bucket/shadps4.json, kkzzhizhou/scoop-apps, 0
 bucket/shadps4_Calinou.json, kkzzhizhou/scoop-apps, 0
 bucket/shadps4_babo4d.json, kkzzhizhou/scoop-apps, 0
@@ -14604,7 +14605,7 @@ bucket/smuxi.json, kkzzhizhou/scoop-apps, 0
 bucket/snaketail.json, kkzzhizhou/scoop-apps, 0
 bucket/snapmaker-orcaslicer.json, kkzzhizhou/scoop-apps, 0
 bucket/snappy-driver-installer-origin.json, kkzzhizhou/scoop-apps, 0
-bucket/snappy-driver-installer-origin_DoveBoy.json, kkzzhizhou/scoop-apps, 0
+bucket/snappy-driver-installer-origin_ScoopInstaller.json, kkzzhizhou/scoop-apps, 0
 bucket/snapraid_aoisummer.json, kkzzhizhou/scoop-apps, 0
 bucket/snaptimer.json, kkzzhizhou/scoop-apps, 0
 bucket/snaz.json, kkzzhizhou/scoop-apps, 0
@@ -15811,7 +15812,7 @@ bucket/typora-plugin.json, kkzzhizhou/scoop-apps, 0
 bucket/typora.json, kkzzhizhou/scoop-apps, 0
 bucket/typora0.11.18.json, kkzzhizhou/scoop-apps, 0
 bucket/typora1.2.5.json, kkzzhizhou/scoop-apps, 0
-bucket/typora_DoveBoy.json, kkzzhizhou/scoop-apps, 0
+bucket/typora_ScoopInstaller.json, kkzzhizhou/scoop-apps, 0
 bucket/typora_akirco.json, kkzzhizhou/scoop-apps, 0
 bucket/typora_echoiron.json, kkzzhizhou/scoop-apps, 0
 bucket/typoracracker-code.json, kkzzhizhou/scoop-apps, 0
@@ -17234,7 +17235,7 @@ bucket/xemu.json, kkzzhizhou/scoop-apps, 0
 bucket/xemu_borger.json, kkzzhizhou/scoop-apps, 0
 bucket/xemu_hermanjustnu.json, kkzzhizhou/scoop-apps, 0
 bucket/xenia-canary.json, kkzzhizhou/scoop-apps, 0
-bucket/xenia-canary_borger.json, kkzzhizhou/scoop-apps, 0
+bucket/xenia-canary_Calinou.json, kkzzhizhou/scoop-apps, 0
 bucket/xenia-canary_hermanjustnu.json, kkzzhizhou/scoop-apps, 0
 bucket/xenia-edge.json, kkzzhizhou/scoop-apps, 0
 bucket/xenia.json, kkzzhizhou/scoop-apps, 0
@@ -17500,7 +17501,7 @@ bucket/youtube-dlc.json, kkzzhizhou/scoop-apps, 0
 bucket/youtube-downloader-hd.json, kkzzhizhou/scoop-apps, 0
 bucket/youtube-local.json, kkzzhizhou/scoop-apps, 0
 bucket/youtube-music.json, kkzzhizhou/scoop-apps, 0
-bucket/youtubedownloader.json, akirco/aki-apps, 0
+bucket/youtubedownloader.json, kkzzhizhou/scoop-apps, 0
 bucket/youwee.json, kkzzhizhou/scoop-apps, 0
 bucket/yq.json, akirco/aki-apps, 0
 bucket/yq_akirco.json, kkzzhizhou/scoop-apps, 0
