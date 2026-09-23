@@ -1,27 +1,19 @@
 {
-  "version": "7.34.0",
-  "description": "Collaborative note taking",
-  "homepage": "https://www.notion.so/",
-  "license": {
-    "identifier": "Proprietary",
-    "url": "https://www.notion.so/Terms-and-Privacy-28ffdd083dc3473e9c2da6ec011b58ac"
+  "version": "7.35.1",
+  "description": "The all-in-one workspace for your notes, tasks, wikis, and databases.",
+  "homepage": "https://www.notion.so",
+  "license": "Proprietary",
+  "notes": "Your Notion data are storaged in '%LOCALAPPDATA%\\Notion'.",
+  "url": "https://desktop-release.notion-static.com/Notion%20Setup%207.35.1.exe#/dl.7z",
+  "hash": "sha512:1c5e2f8588af01bf61a977189024a82bbd093cf3b5656b1af7bded687f8261b852926b87945e350dba21bce42d906250a6819b9a84c569d3366d2deed1b33226",
+  "extract_dir": "$PLUGINSDIR",
+  "installer": {
+    "script": [
+      "Remove-Item \"$dir\\*\" -Exclude \"app-64.7z\"",
+      "Expand-7zipArchive \"$dir\\app-64.7z\" \"$dir\"",
+      "Remove-Item \"$dir\\app-64.7z\""
+    ]
   },
-  "architecture": {
-    "64bit": {
-      "url": "https://desktop-release.notion-static.com/Notion%20Setup%207.34.0.exe#/dl.7z",
-      "hash": "sha512:752c769d821df09ea1039fe5f6b27b0f660848432c9a925a9b2981ba6184ba9ab1a39f11981c1612e1b2cab5ab32908c0d3e9fa06f7bbbb92b5f2826ec48f8f7"
-    }
-  },
-  "pre_install": [
-    "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-    "Remove-Item \"$dir\\`$*\" -Recurse",
-    "# Disable auto-updates:",
-    "$yaml = \"$dir\\resources\\app-update.yml\"",
-    "$content = Get-Content $yaml | Foreach-Object {",
-    "  if ($_.StartsWith('url')) { \"$($_.Replace('url', '# url')) # Disabled by Scoop\" } else { $_ }",
-    "}",
-    "Set-Content $yaml -Value $content -Encoding ascii"
-  ],
   "shortcuts": [
     [
       "Notion.exe",
@@ -33,11 +25,7 @@
     "regex": "version:\\s+([\\d.]+)"
   },
   "autoupdate": {
-    "architecture": {
-      "64bit": {
-        "url": "https://desktop-release.notion-static.com/Notion%20Setup%20$version.exe#/dl.7z"
-      }
-    },
+    "url": "https://desktop-release.notion-static.com/Notion%20Setup%20$version.exe#/dl.7z",
     "hash": {
       "url": "$baseurl/latest.yml",
       "regex": "sha512:\\s+$base64"
