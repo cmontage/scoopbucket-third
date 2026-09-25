@@ -1,14 +1,11 @@
 {
   "version": "3.5.5.1",
-  "description": "Screenshots, screen recording, OCR tool.",
   "homepage": "https://pixpin.cn/",
-  "license": {
-    "identifier": "Proprietary",
-    "url": "https://pixpin.cn/docs/policy/tos_zh_CN"
-  },
+  "description": "截图、录屏、OCR - 一款快速灵活的工具",
+  "license": "Freeware",
   "architecture": {
     "64bit": {
-      "url": "https://down.pixpin.cn/PixPin_win_3.5.5.1.zip#/dl.zip",
+      "url": "https://download.pixpin.cn/PixPin_win_3.5.5.1.zip",
       "hash": "1c6d81e7cc9791862553cceab5123e84d700b59efa2943aa17503fc81088106a"
     }
   },
@@ -25,23 +22,14 @@
     "History",
     "OcrModel"
   ],
-  "post_install": [
-    "$configPath = \"$persist_dir\\Config\\PixPinConfig.json\"",
-    "if (Test-Path $configPath) {",
-    "    return",
-    "}",
-    "$timestamp = [DateTimeOffset]::Now.ToUnixTimeSeconds()",
-    "$content = '{\"System.Update.UpgradeMode#s.win\":{\"t\":' + $timestamp + ',\"v\":0}}'",
-    "$content | Set-Content -Path $configPath -Encoding UTF8"
-  ],
   "checkver": {
-    "url": "https://pixpin.cn/download/",
-    "regex": "PixPin_win_(\\d+(?:\\.\\d+)*)"
+    "url": "https://pixpin.cn/download",
+    "regex": "PixPin_win_([\\d\\.]+)\\.zip"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://down.pixpin.cn/PixPin_win_$version.zip#/dl.zip"
+        "url": "https://download.pixpin.cn/PixPin_win_$version.zip"
       }
     }
   }
