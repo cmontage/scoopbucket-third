@@ -1,14 +1,10 @@
 {
-  "version": "1.16.0",
-  "description": "A local, open-source AI app builder for power users.",
-  "homepage": "https://dyad.sh",
-  "license": "Apache-2.0,FSL-1.1-ALv2",
-  "architecture": {
-    "64bit": {
-      "url": "https://github.com/dyad-sh/dyad/releases/download/v1.16.0/dyad-1.16.0-full.nupkg",
-      "hash": "sha1:f974b394a23fcecf65c6e515d0a90b0b6a36f1f9"
-    }
-  },
+  "version": "1.17.0",
+  "description": "Free, local, open-source AI app builder | v0 / lovable / Bolt alternative",
+  "homepage": "https://github.com/dyad-sh/dyad",
+  "license": "Apache-2.0",
+  "url": "https://github.com/dyad-sh/dyad/releases/download/v1.17.0/dyad-1.17.0-full.nupkg",
+  "hash": "fcf776f7f3cd2ae280c55710a3fc726d62cd40e2cf8d5733a14afc50cb4ed369",
   "extract_dir": "lib\\net45",
   "shortcuts": [
     [
@@ -16,17 +12,8 @@
       "Dyad"
     ]
   ],
-  "checkver": {
-    "github": "https://github.com/dyad-sh/dyad"
-  },
+  "checkver": "github",
   "autoupdate": {
-    "architecture": {
-      "64bit": {
-        "url": "https://github.com/dyad-sh/dyad/releases/download/v$version/dyad-$version-full.nupkg"
-      }
-    },
-    "hash": {
-      "url": "$baseurl/RELEASES"
-    }
+    "url": "https://github.com/dyad-sh/dyad/releases/download/v$version/dyad-$version-full.nupkg"
   }
 }
