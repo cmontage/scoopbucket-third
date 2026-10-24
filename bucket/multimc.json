@@ -2,7 +2,7 @@
   "homepage": "https://multimc.org/",
   "description": "A custom launcher for Minecraft that allows you to easily manage multiple installations of Minecraft at once",
   "license": "Apache-2.0",
-  "version": "develop",
+  "version": "nightly",
   "url": "https://files.multimc.org/downloads/mmc-develop-win32.zip",
   "extract_dir": "MultiMC",
   "installer": {
