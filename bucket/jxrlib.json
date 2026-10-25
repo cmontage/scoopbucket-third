@@ -14,7 +14,10 @@
     "Misc\\hdr2hdr.exe",
     "Misc\\imagecomp.exe"
   ],
-  "checkver": "github",
+  "checkver": {
+    "github": "https://github.com/Knewest/precompiled-jxrlib-binaries",
+    "regex": "Release-v(?<version>[\\d.]+)"
+  },
   "autoupdate": {
     "url": "https://github.com/Knewest/precompiled-jxrlib-binaries/releases/download/Release-v$version/LibJXRv$version_Release_x64.zip",
     "extract_dir": "LibJXRv$version_Release_x64"
