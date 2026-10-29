@@ -1,5 +1,5 @@
 {
-  "version": "1.143.1",
+  "version": "1.144.0",
   "description": "Lightweight but powerful source code editor",
   "homepage": "https://code.visualstudio.com/",
   "license": {
@@ -14,24 +14,12 @@
   ],
   "architecture": {
     "64bit": {
-      "url": [
-        "https://update.code.visualstudio.com/1.143.1/win32-x64-archive/stable#/dl.7z",
-        "https://raw.githubusercontent.com/Weidows-projects/scoop-3rd/main/scripts/register.zip"
-      ],
-      "hash": [
-        "b4f9643b8a549ca2c85a1bbc9063fc76f1e08fc0036a7f6a1a181cdc05235eca",
-        "A6B668AD01150935B9B4FC44F03AE540CC0750551B809D83B9E6535AF237E844"
-      ]
+      "url": "https://update.code.visualstudio.com/1.144.0/win32-x64-archive/stable#/dl.7z",
+      "hash": "055722269e3c9531af0c50a8b757c14e8062a0d02fc973b038863d9732c567ea"
     },
     "arm64": {
-      "url": [
-        "https://update.code.visualstudio.com/1.143.1/win32-arm64-archive/stable#/dl.7z",
-        "https://raw.githubusercontent.com/Weidows-projects/scoop-3rd/main/scripts/register.zip"
-      ],
-      "hash": [
-        "7fb088c5274f9dd1fb9e15ae49694c7ca3bfe0f7b506137a3b85655a7be7e50e",
-        "A6B668AD01150935B9B4FC44F03AE540CC0750551B809D83B9E6535AF237E844"
-      ]
+      "url": "https://update.code.visualstudio.com/1.144.0/win32-arm64-archive/stable#/dl.7z",
+      "hash": "ec858e98192efd763a5f620180b511202540a0b491f8c629af5233d2d2bb71f5"
     }
   },
   "env_add_path": "bin",
@@ -45,8 +33,8 @@
     "$dirpath = \"$dir\".Replace('\\', '\\\\')",
     "$exepath = \"$dir\\Code.exe\".Replace('\\', '\\\\')",
     "'install-associations', 'uninstall-associations', 'install-context', 'uninstall-context' | ForEach-Object {",
-    "  if (Test-Path \"$dir\\$_.reg\") {",
-    "    $content = Get-Content \"$dir\\$_.reg\"",
+    "  if (Test-Path \"$bucketsdir\\$bucket\\scripts\\vscode\\$_.reg\") {",
+    "    $content = Get-Content \"$bucketsdir\\$bucket\\scripts\\vscode\\$_.reg\"",
     "    $content = $content.Replace('$codedir', $dirpath)",
     "    $content = $content.Replace('$code', $exepath)",
     "    if ($global) {",
