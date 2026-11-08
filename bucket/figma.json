@@ -1,12 +1,17 @@
 {
   "version": "126.11.8",
-  "description": "Design, prototype, and gather feedback all in one place with Figma.",
+  "description": "A vector graphics editor and prototyping tool focusing on use in user interface and user experience design, with an emphasis on real-time collaboration",
   "homepage": "https://www.figma.com/",
-  "license": "Proprietary",
-  "url": "https://desktop.figma.com/win/FigmaSetup.exe#/dl.7z",
-  "hash": "90b646ef23d0c965a61b5418655587d0cdf015be6c59ce88d2242f186b2f84a3",
-  "installer": {
-    "script": "Expand-7zipArchive -Path \"$dir\\Figma-*-full.nupkg\" -ExtractDir 'lib\\net45' -Removal"
+  "license": {
+    "identifier": "Shareware",
+    "url": "https://www.figma.com/summary-of-policy/"
+  },
+  "architecture": {
+    "64bit": {
+      "url": "https://desktop.figma.com/win/Figma-126.11.8-full.nupkg",
+      "hash": "sha1:96fa25908d73dc6581518a1303ad8bb08cf8b91e",
+      "extract_dir": "lib\\net45"
+    }
   },
   "shortcuts": [
     [
@@ -15,10 +20,17 @@
     ]
   ],
   "checkver": {
-    "url": "https://desktop.figma.com/win/RELEASE.json",
-    "jsonpath": "$.version"
+    "url": "https://desktop.figma.com/win/RELEASES",
+    "regex": "Figma-([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://desktop.figma.com/win/FigmaSetup.exe#/dl.7z"
+    "architecture": {
+      "64bit": {
+        "url": "https://desktop.figma.com/win/Figma-$version-full.nupkg",
+        "hash": {
+          "url": "$baseurl/RELEASES"
+        }
+      }
+    }
   }
 }
