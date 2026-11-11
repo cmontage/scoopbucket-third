@@ -16,7 +16,8 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/BeyondDimension/SteamTools"
+    "github": "https://github.com/BeyondDimension/SteamTools",
+    "regex": "tag/([\\d.\\-\\w]+)"
   },
   "autoupdate": {
     "architecture": {
