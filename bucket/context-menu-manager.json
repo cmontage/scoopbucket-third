@@ -1,19 +1,19 @@
 {
-  "version": "3.3.3.1",
-  "description": "🖱️ 纯粹的Windows右键菜单管理程序",
-  "homepage": "https://github.com/BluePointLilac/ContextMenuManager",
-  "license": "GPL-3.0",
-  "url": "https://github.com/BluePointLilac/ContextMenuManager/releases/download/3.3.3.1/ContextMenuManager.NET.4.0.exe",
+  "version": "4.0.0.9",
+  "description": "Active ContextMenuManager fork, manage the Windows right-click context menu with support of Windows 7-11",
+  "homepage": "https://github.com/Jack251970/ContextMenuManager",
+  "license": "MIT",
+  "url": "https://github.com/Jack251970/ContextMenuManager/releases/download/4.0.0.9/ContextMenuManager.exe",
+  "hash": "78516ece00be50d1f90427df7748d674a87ab9b1c92bf4e96adb3c0d3b2f8b52",
   "shortcuts": [
     [
-      "ContextMenuManager.NET.4.0.exe",
-      "Context Menu Manager"
+      "ContextMenuManager.exe",
+      "ContextMenuManager"
     ]
   ],
-  "checkver": {
-    "github": "https://github.com/BluePointLilac/ContextMenuManager"
-  },
+  "persist": "Config",
+  "checkver": "github",
   "autoupdate": {
-    "url": "https://github.com/BluePointLilac/ContextMenuManager/releases/download/$version/ContextMenuManager.NET.4.0.exe"
+    "url": "https://github.com/Jack251970/ContextMenuManager/releases/download/$version/ContextMenuManager.exe"
   }
 }
