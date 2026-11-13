@@ -1,5 +1,5 @@
 {
-  "version": "9.9.36.260924",
+  "version": "9.9.37.261103",
   "description": "An instant messaging software service developed by Tencent",
   "homepage": "https://im.qq.com/pcqq/index.shtml",
   "license": {
@@ -8,8 +8,8 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://github.com/LaelLuo/scoop/releases/download/qqnt-9.9.36.260924/qqnt-9.9.36.260924-x64.exe#/dl.7z",
-      "hash": "63255c70c7ff523e7eed7d52d9708ed7a77ea346ece6474c65dded406edb3155"
+      "url": "https://github.com/LaelLuo/scoop/releases/download/qqnt-9.9.37.261103/qqnt-9.9.37.261103-x64.exe#/dl.7z",
+      "hash": "5cd7c13e36b391f88b2ad272fa870d74f476135b64244844ec0ad7ac7b411b48"
     }
   },
   "extract_dir": "Files",
@@ -67,10 +67,14 @@
     "script": [
       "# Please keep this script. An empty Accept-Encoding header can cause the CDN to deliver expired cache.",
       "# See : https://github.com/ScoopInstaller/Extras/issues/15916",
+      "# Prefer the origin host: cdn-go.cn itself serves stale cache to overseas runners (same origin as Scoop Extras qq-nt).",
+      "# The origin presents a weixin.qq.com certificate, so curl -k skips verification for this single request only; falls back to cdn-go.cn.",
       "$headers = @{ 'Accept-Encoding' = 'gzip' }",
-      "$url = 'https://cdn-go.cn/qq-web/im.qq.com_new/latest/rainbow/windowsConfig.js'",
-      "$response = Invoke-WebRequest -Uri $url -UseBasicParsing -Headers $headers",
-      "Write-Output $response.Content"
+      "$content = $null",
+      "$curl = Get-Command curl -CommandType Application -ErrorAction SilentlyContinue | Select-Object -First 1",
+      "if ($curl) { $content = (& $curl.Source -sSk --max-time 30 -H 'Host: cdn-go.cn' -H 'Accept-Encoding: gzip' --compressed 'https://cdn-go.cn.cloud.tc.qq.com/qq-web/im.qq.com_new/latest/rainbow/windowsConfig.js' 2>$null) -join \"`n\" }",
+      "if ($content -notmatch 'QQNT(?:V2)?/[\\d\\.]+/release/') { $content = (Invoke-WebRequest -Uri 'https://cdn-go.cn/qq-web/im.qq.com_new/latest/rainbow/windowsConfig.js' -UseBasicParsing -Headers $headers).Content }",
+      "Write-Output $content"
     ],
     "regex": "QQNT(?:V2)?/([\\d\\.]+)/release/[0-9a-f]+/QQ_([\\d\\.]+)_([\\d]+)_x86_01\\.exe",
     "replace": "${2}.${3}"

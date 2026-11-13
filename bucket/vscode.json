@@ -14,12 +14,24 @@
   ],
   "architecture": {
     "64bit": {
-      "url": "https://update.code.visualstudio.com/1.146.0/win32-x64-archive/stable#/dl.7z",
-      "hash": "0d47f5bbff72499c6a4a92f6d72dd8cc5ba4606185f624465032626614119d61"
+      "url": [
+        "https://update.code.visualstudio.com/1.146.0/win32-x64-archive/stable#/dl.7z",
+        "https://raw.githubusercontent.com/Weidows-projects/scoop-3rd/main/scripts/register.zip"
+      ],
+      "hash": [
+        "0d47f5bbff72499c6a4a92f6d72dd8cc5ba4606185f624465032626614119d61",
+        "A6B668AD01150935B9B4FC44F03AE540CC0750551B809D83B9E6535AF237E844"
+      ]
     },
     "arm64": {
-      "url": "https://update.code.visualstudio.com/1.146.0/win32-arm64-archive/stable#/dl.7z",
-      "hash": "3598a90cefbf8e79268f5b2838e3a78a37b489ae51532f60f90ef428d8ec121d"
+      "url": [
+        "https://update.code.visualstudio.com/1.146.0/win32-arm64-archive/stable#/dl.7z",
+        "https://raw.githubusercontent.com/Weidows-projects/scoop-3rd/main/scripts/register.zip"
+      ],
+      "hash": [
+        "3598a90cefbf8e79268f5b2838e3a78a37b489ae51532f60f90ef428d8ec121d",
+        "A6B668AD01150935B9B4FC44F03AE540CC0750551B809D83B9E6535AF237E844"
+      ]
     }
   },
   "env_add_path": "bin",
@@ -33,8 +45,8 @@
     "$dirpath = \"$dir\".Replace('\\', '\\\\')",
     "$exepath = \"$dir\\Code.exe\".Replace('\\', '\\\\')",
     "'install-associations', 'uninstall-associations', 'install-context', 'uninstall-context' | ForEach-Object {",
-    "  if (Test-Path \"$bucketsdir\\$bucket\\scripts\\vscode\\$_.reg\") {",
-    "    $content = Get-Content \"$bucketsdir\\$bucket\\scripts\\vscode\\$_.reg\"",
+    "  if (Test-Path \"$dir\\$_.reg\") {",
+    "    $content = Get-Content \"$dir\\$_.reg\"",
     "    $content = $content.Replace('$codedir', $dirpath)",
     "    $content = $content.Replace('$code', $exepath)",
     "    if ($global) {",
