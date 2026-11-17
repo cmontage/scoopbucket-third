@@ -1,16 +1,16 @@
 {
-  "version": "0.24.0",
+  "version": "0.25.0",
   "description": "Archive email and chat for offline search, analytics, and AI queries.",
   "homepage": "https://msgvault.io/",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/kenn-io/msgvault/releases/download/v0.24.0/msgvault_0.24.0_windows_amd64.zip",
-      "hash": "a14b33ced9f75f8384a27062c4188d812383a2711d7279b9fb62b96ab1822456"
+      "url": "https://github.com/kenn-io/msgvault/releases/download/v0.25.0/msgvault_0.25.0_windows_amd64.zip",
+      "hash": "d98e8acc45da9f947d4e5721f6c9c6314aed9aa2b6185f9902470675bf313400"
     },
     "arm64": {
-      "url": "https://github.com/kenn-io/msgvault/releases/download/v0.24.0/msgvault_0.24.0_windows_arm64.zip",
-      "hash": "ae44eaca439a36d8bcf32f325723939e5c32d9c67cd83f76a5d911749bc41bce"
+      "url": "https://github.com/kenn-io/msgvault/releases/download/v0.25.0/msgvault_0.25.0_windows_arm64.zip",
+      "hash": "565bb417e45247d5545d2c5aaa435a03409de553fcdf88e2cf3a33a2d5132894"
     }
   },
   "bin": "msgvault.exe",

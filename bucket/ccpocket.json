@@ -1,12 +1,12 @@
 {
-  "version": "1.163.2+308",
+  "version": "1.164.0+312",
   "description": "Mobile client for Codex and Claude, controlling coding agents from your phone through a WebSocket bridge.",
   "homepage": "https://github.com/K9i-0/ccpocket",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/K9i-0/ccpocket/releases/download/windows%2Fv1.163.2%2B308/CC-Pocket-windows-x64-v1.163.2.zip",
-      "hash": "2ddb1ae50a9bba91e4cbca3b68fb2d1594a18e98435bb868a88bdbe0882696b6"
+      "url": "https://github.com/K9i-0/ccpocket/releases/download/windows%2Fv1.164.0%2B312/CC-Pocket-windows-x64-v1.164.0.zip",
+      "hash": "3eaef8f7cbc46d1129305325da5cc808aad3e3329b62b714dd1e72b9e19e7265"
     }
   },
   "extract_dir": "CC-Pocket-windows-x64",

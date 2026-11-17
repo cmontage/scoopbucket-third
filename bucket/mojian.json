@@ -1,16 +1,16 @@
 {
-  "version": "0.4.1",
+  "version": "0.4.4",
   "description": "Native plain-text editor for ordinary folders",
   "homepage": "https://github.com/ox0pine/mojian",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/ox0pine/mojian/releases/download/v0.4.1/mojian-setup-0.4.1-amd64.exe#/dl.7z",
-      "hash": "e8c2d9748a496da79008ba4faeb33d1ae74870a41c021831ff54b475680af4bf"
+      "url": "https://github.com/ox0pine/mojian/releases/download/v0.4.4/mojian-setup-0.4.4-amd64.exe#/dl.7z",
+      "hash": "3bc8eafdc9b0f7a7d5f9b672ab6e3e355584f46f047be7041a14c16ce8204964"
     },
     "arm64": {
-      "url": "https://github.com/ox0pine/mojian/releases/download/v0.4.1/mojian-setup-0.4.1-arm64.exe#/dl.7z",
-      "hash": "d22b2640df2b2d45a6ab5f48f64479b4473a06357076f0a19b68dddd96761936"
+      "url": "https://github.com/ox0pine/mojian/releases/download/v0.4.4/mojian-setup-0.4.4-arm64.exe#/dl.7z",
+      "hash": "f8d79bcfc1cef7d22b01b7946d7d360b55a6229e25faf3dd28a7f2d5276b90cf"
     }
   },
   "bin": "Mojian.exe",

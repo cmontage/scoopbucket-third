@@ -1,10 +1,10 @@
 {
-  "version": "0.24.0",
+  "version": "0.25.0",
   "description": "Archive email and chat with offline search, analytics, and AI query. Powered by DuckDB.",
   "homepage": "https://www.msgvault.io/",
   "license": "MIT",
-  "url": "https://github.com/kenn-io/msgvault/releases/download/v0.24.0/msgvault_0.24.0_windows_amd64.zip",
-  "hash": "a14b33ced9f75f8384a27062c4188d812383a2711d7279b9fb62b96ab1822456",
+  "url": "https://github.com/kenn-io/msgvault/releases/download/v0.25.0/msgvault_0.25.0_windows_amd64.zip",
+  "hash": "d98e8acc45da9f947d4e5721f6c9c6314aed9aa2b6185f9902470675bf313400",
   "bin": "msgvault.exe",
   "checkver": {
     "github": "https://github.com/kenn-io/msgvault"

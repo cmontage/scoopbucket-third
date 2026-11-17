@@ -1,5 +1,5 @@
 {
-  "version": "2.8.0-20261103-2c3bb43",
+  "version": "2.8.1-20261115-5901aad",
   "description": "Fast, compact image and animation viewer. Can be used as a standalone application or integrated as a Total Commander Lister plugin.",
   "homepage": "https://www.nyam.pe.kr/dev/imagine/",
   "license": {
@@ -11,8 +11,8 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://raw.githubusercontent.com/nyam1003/imagine/2c3bb435aba6e61c57c3a6b4c92f548c66db776a/x64/Imagine_2.8.0_x64_Unicode_Full.zip",
-      "hash": "0ad05a7bbfe65675e332b6f22cb693e8e4537d62e8a211c713f0ac1f9aa39738",
+      "url": "https://raw.githubusercontent.com/nyam1003/imagine/5901aad3b7d2aca0f42a40cb40d48ccbc88c299a/x64/Imagine_2.8.1_x64_Unicode_Full.zip",
+      "hash": "2efcd37c48dc5d247015d031370492fabb62795c185ef7c60ec687002b83fa29",
       "bin": [
         "Imagine64.exe",
         [
@@ -28,8 +28,8 @@
       ]
     },
     "32bit": {
-      "url": "https://raw.githubusercontent.com/nyam1003/imagine/2c3bb435aba6e61c57c3a6b4c92f548c66db776a/Imagine_2.8.0_Unicode_Full.zip",
-      "hash": "a60f890154ca2536ffa099e0ae868022a614552cfd385b16c76576076605238b",
+      "url": "https://raw.githubusercontent.com/nyam1003/imagine/5901aad3b7d2aca0f42a40cb40d48ccbc88c299a/Imagine_2.8.1_Unicode_Full.zip",
+      "hash": "1affffaa6c4b1bd2b99b13b0931983a387ae3bb50e652046978d2c7e7cd31dd7",
       "bin": "Imagine.exe",
       "shortcuts": [
         [
@@ -39,8 +39,8 @@
       ]
     },
     "arm64": {
-      "url": "https://raw.githubusercontent.com/nyam1003/imagine/2c3bb435aba6e61c57c3a6b4c92f548c66db776a/arm64/Imagine_2.8.0_arm64_Unicode_Full.zip",
-      "hash": "5f406748389698dc4b0fcbc0e42ff8d4dd59274868eac153933ae0af7d6238d2",
+      "url": "https://raw.githubusercontent.com/nyam1003/imagine/5901aad3b7d2aca0f42a40cb40d48ccbc88c299a/arm64/Imagine_2.8.1_arm64_Unicode_Full.zip",
+      "hash": "cce34f63be87f402595887cdee77c1c6b3c512e53f1dfbccd6d1d1f61981ca22",
       "bin": [
         "ImagineA64.exe",
         [

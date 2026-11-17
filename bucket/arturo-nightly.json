@@ -1,12 +1,12 @@
 {
-  "version": "2026-11-13",
+  "version": "2026-11-16",
   "description": "Simple, expressive & portable programming language for efficient scripting",
   "homepage": "https://arturo-lang.io/",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/arturo-lang/nightly/releases/download/2026-11-13/arturo-nightly.20261113-windows-amd64.zip",
-      "hash": "09d70e19d006e7aacff19cdc92f4c155588a810683b8ac144d8d19a1b1197cc7"
+      "url": "https://github.com/arturo-lang/nightly/releases/download/2026-11-16/arturo-nightly.20261116-windows-amd64.zip",
+      "hash": "a8e6f70958edfaa1318a5bdf5ef4604fa91cddf1ae8990ffea7167ea5d8da117"
     }
   },
   "bin": "arturo.exe",

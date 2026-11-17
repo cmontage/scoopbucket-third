@@ -1,5 +1,5 @@
 {
-  "version": "20261114",
+  "version": "20261116",
   "description": "Canary build of the native SillyTavern client for desktop and mobile, built with Tauri and Rust.",
   "homepage": "https://github.com/Darkatse/TauriTavern",
   "license": "AGPL-3.0-only",
@@ -8,8 +8,8 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://github.com/Darkatse/TauriTavern/releases/download/Canary/TauriTavern-20261114-canary-windows-x64-portable.exe#/TauriTavern.exe",
-      "hash": "0b5258462c8e58dd7388c3f8e1d9557dcc4744ca997a3a466623e3e443f062b4"
+      "url": "https://github.com/Darkatse/TauriTavern/releases/download/Canary/TauriTavern-20261116-canary-windows-x64-portable.exe#/TauriTavern.exe",
+      "hash": "5e19dc471888433379db1410e71aa232d0c82ef8c51aba6f4e5e958440467911"
     }
   },
   "pre_install": [
