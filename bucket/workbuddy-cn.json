@@ -1,10 +1,10 @@
 {
   "version": "5.11.3.43806934",
-  "description": "A full-scenario AI workbench from Tencent.",
-  "homepage": "https://www.workbuddy.cn",
+  "description": "腾讯云代码助手推出的 AI Agent 办公工具",
+  "homepage": "https://www.codebuddy.cn",
   "license": {
     "identifier": "Proprietary",
-    "url": "https://rule.tencent.com/rule/202603180001"
+    "url": "https://www.codebuddy.cn/document/term"
   },
   "architecture": {
     "64bit": {
@@ -25,7 +25,7 @@
     ]
   ],
   "checkver": {
-    "url": "https://www.workbuddy.cn/v2/update?platform=workbuddy-win32-x64-user",
+    "url": "https://www.codebuddy.cn/v2/update?platform=workbuddy-win32-x64-user",
     "regex": "WorkBuddy-win32-x64-user-(?<version>\\d+(?:\\.\\d+)+)-(?<sha>[0-9a-f]+).exe"
   },
   "autoupdate": {
