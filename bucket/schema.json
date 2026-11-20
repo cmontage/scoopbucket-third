@@ -50,6 +50,7 @@
         },
         "mode": {
           "enum": [
+            "github",
             "download",
             "extract",
             "json",
@@ -90,6 +91,9 @@
     },
     "hashExtractionOrArrayOfHashExtractions": {
       "anyOf": [
+        {
+          "type": "string"
+        },
         {
           "$ref": "#/definitions/hashExtraction"
         },
@@ -199,6 +203,12 @@
           "properties": {
             "file": {
               "type": "string"
+            },
+            "script": {
+              "$ref": "#/definitions/stringOrArrayOfStrings"
+            },
+            "args": {
+              "$ref": "#/definitions/stringOrArrayOfStrings"
             }
           }
         },
@@ -250,6 +260,12 @@
           "properties": {
             "file": {
               "type": "string"
+            },
+            "script": {
+              "$ref": "#/definitions/stringOrArrayOfStrings"
+            },
+            "args": {
+              "$ref": "#/definitions/stringOrArrayOfStrings"
             }
           }
         },
@@ -433,7 +449,6 @@
     "uriOrArrayOfUris": {
       "anyOf": [
         {
-          "format": "uri",
           "not": {
             "pattern": "(\\$)"
           },
@@ -441,7 +456,6 @@
         },
         {
           "items": {
-            "format": "uri",
             "not": {
               "pattern": "(\\$)"
             },
@@ -456,12 +470,10 @@
     "autoupdateUriOrArrayOfAutoupdateUris": {
       "anyOf": [
         {
-          "format": "uri",
           "type": "string"
         },
         {
           "items": {
-            "format": "uri",
             "type": "string"
           },
           "minItems": 1,
